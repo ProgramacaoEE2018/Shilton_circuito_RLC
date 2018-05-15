@@ -1,6 +1,6 @@
 # Shilton_circuito_RLC
 
-bjetivo:
+Objetivo:
 	plotar a resposta de um circuito RLC série 
 
 Objetivo secundário:
