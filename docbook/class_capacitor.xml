@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="class_capacitor">
+<title>Capacitor class Reference</title>
+<para>
+    <programlisting>#include <link linkend="_classes__cirkt_8h">&lt;Classes_cirkt.h&gt;</link></programlisting>
+</para>
+        <section>
+            <title>Private Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>float capacit</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>complex&lt; double &gt; imp</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="class_capacitor_1aedcd2e6ce4a36341c227730c49e6bd9a">Capacitor</link> (
+float valor)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_capacitor_1a8a7b6a7f3735d80592111a96e590a771">set_imp</link> (
+float w)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title>Member Data Documentation</title>
+        </section>
+            <section xml:id="class_capacitor_1aedcd2e6ce4a36341c227730c49e6bd9a">
+                <title>Capacitor::Capacitor (float valor)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_capacitor_1a8a7b6a7f3735d80592111a96e590a771">
+                <title>void Capacitor::set_imp (float w)</title> <emphasis></emphasis>
+                
+            </section>
+</section>

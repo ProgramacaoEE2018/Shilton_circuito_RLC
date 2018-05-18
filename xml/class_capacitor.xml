@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_capacitor" kind="class" language="C++" prot="public">
+    <compoundname>Capacitor</compoundname>
+    <includes refid="_classes__cirkt_8h" local="no">Classes_cirkt.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_capacitor_1ab4c6f35704ba29865763ab1e1ffeb6e9" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Capacitor::capacit</definition>
+        <argsstring></argsstring>
+        <name>capacit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project5/Classes_cirkt.h" line="21" column="1" bodyfile="Project5/Classes_cirkt.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_capacitor_1aac41240418a1fe6964db642b0806d352" prot="private" static="no" mutable="no">
+        <type>complex&lt; double &gt;</type>
+        <definition>complex&lt;double&gt; Capacitor::imp</definition>
+        <argsstring></argsstring>
+        <name>imp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project5/Classes_cirkt.h" line="22" column="1" bodyfile="Project5/Classes_cirkt.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_capacitor_1aedcd2e6ce4a36341c227730c49e6bd9a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Capacitor::Capacitor</definition>
+        <argsstring>(float valor)</argsstring>
+        <name>Capacitor</name>
+        <param>
+          <type>float</type>
+          <declname>valor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project5/Classes_cirkt.h" line="25" column="1" bodyfile="Project5/Classes_cirkt.h" bodystart="28" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_capacitor_1a8a7b6a7f3735d80592111a96e590a771" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Capacitor::set_imp</definition>
+        <argsstring>(float w)</argsstring>
+        <name>set_imp</name>
+        <param>
+          <type>float</type>
+          <declname>w</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project5/Classes_cirkt.h" line="26" column="1" bodyfile="Project5/Classes_cirkt.h" bodystart="31" bodyend="33"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Project5/Classes_cirkt.h" line="19" column="1" bodyfile="Project5/Classes_cirkt.h" bodystart="19" bodyend="27"/>
+    <listofallmembers>
+      <member refid="class_capacitor_1ab4c6f35704ba29865763ab1e1ffeb6e9" prot="private" virt="non-virtual"><scope>Capacitor</scope><name>capacit</name></member>
+      <member refid="class_capacitor_1aedcd2e6ce4a36341c227730c49e6bd9a" prot="public" virt="non-virtual"><scope>Capacitor</scope><name>Capacitor</name></member>
+      <member refid="class_capacitor_1aac41240418a1fe6964db642b0806d352" prot="private" virt="non-virtual"><scope>Capacitor</scope><name>imp</name></member>
+      <member refid="class_capacitor_1a8a7b6a7f3735d80592111a96e590a771" prot="public" virt="non-virtual"><scope>Capacitor</scope><name>set_imp</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

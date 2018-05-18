@@ -1,0 +1,6 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Project5.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Origem.cpp
+c:\users\ollaf\source\repos\project5\project5\origem.cpp(11): warning C4101: 'real': variável local não referenciada
+c:\users\ollaf\source\repos\project5\project5\origem.cpp(8): warning C4101: 'i': variável local não referenciada
+c:\users\ollaf\source\repos\project5\project5\origem.cpp(11): warning C4101: 'img': variável local não referenciada
+  Project5.vcxproj -> C:\Users\ollaf\Source\Repos\Project5\Debug\Circuito_RLC.exe

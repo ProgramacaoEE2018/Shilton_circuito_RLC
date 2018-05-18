@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.14">
+  <compound refid="class_capacitor" kind="class"><name>Capacitor</name>
+    <member refid="class_capacitor_1ab4c6f35704ba29865763ab1e1ffeb6e9" kind="variable"><name>capacit</name></member>
+    <member refid="class_capacitor_1aac41240418a1fe6964db642b0806d352" kind="variable"><name>imp</name></member>
+    <member refid="class_capacitor_1aedcd2e6ce4a36341c227730c49e6bd9a" kind="function"><name>Capacitor</name></member>
+    <member refid="class_capacitor_1a8a7b6a7f3735d80592111a96e590a771" kind="function"><name>set_imp</name></member>
+  </compound>
+  <compound refid="class_indutor" kind="class"><name>Indutor</name>
+    <member refid="class_indutor_1a620b195abb6e83ca2d22a2c2c8808124" kind="variable"><name>indut</name></member>
+    <member refid="class_indutor_1a5048d5f080a3660cfdf7645f7c21aebb" kind="variable"><name>imp</name></member>
+    <member refid="class_indutor_1a0413c638b46aec5ef715866c3a1d48e2" kind="function"><name>Indutor</name></member>
+    <member refid="class_indutor_1a1ccb92d4515ed65b9a8b44942b9c71a3" kind="function"><name>set_imp</name></member>
+  </compound>
+  <compound refid="class_resistor" kind="class"><name>Resistor</name>
+    <member refid="class_resistor_1a9f33f46bb17359ef994dcf0a29c1101d" kind="variable"><name>resist</name></member>
+    <member refid="class_resistor_1afa255717a142654d89ae45322d0b07c8" kind="variable"><name>imp</name></member>
+    <member refid="class_resistor_1af51e11292a6823f790faf0e9a54261a8" kind="function"><name>Resistor</name></member>
+    <member refid="class_resistor_1a987c8105d01bbf5e8183c8a7be42c0b1" kind="function"><name>set_imp</name></member>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="_classes__cirkt_8h" kind="file"><name>Classes_cirkt.h</name>
+  </compound>
+  <compound refid="_origem_8cpp" kind="file"><name>Origem.cpp</name>
+    <member refid="_origem_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="dir_d33cc2158c4482c0cbd60f71273e7d23" kind="dir"><name>Project5</name>
+  </compound>
+</doxygenindex>
