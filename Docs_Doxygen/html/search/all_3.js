@@ -1,0 +1,18 @@
+var searchData=
+[
+  ['darkgray',['DARKGRAY',['../graphics_8h.html#aedd64c3f92da850b93776c65fd1cced3a52a9af0edd45f66d37996edcb1ca69f0',1,'graphics.h']]],
+  ['dashed_5fline',['DASHED_LINE',['../graphics_8h.html#a5fbba0de172618d5434dbe8be53b25a0ae6560d9a7befef651165597a24779857',1,'graphics.h']]],
+  ['debug_5fmessages',['debug_messages',['../classgnuplotio_1_1_gnuplot.html#a63e08bfd0cd02937d895ecfb6180107c',1,'gnuplotio::Gnuplot']]],
+  ['default_5ffont',['DEFAULT_FONT',['../graphics_8h.html#a5822271fd8ed5c81902d9c7921339a27a98aba34deb7beae3fc7bf19183a8a93c',1,'graphics.h']]],
+  ['delay',['delay',['../graphics_8h.html#af9d503d4277d389d8b64f15d3901b94d',1,'graphics.h']]],
+  ['depth',['depth',['../classgnuplotio_1_1_array_traits.html#a6fbd8c815e595f4efbcafd9b0eeb06f2',1,'gnuplotio::ArrayTraits::depth()'],['../classgnuplotio_1_1_array_traits_defaults.html#ac51367f5da9096249b162af1496e36ab',1,'gnuplotio::ArrayTraitsDefaults::depth()'],['../classgnuplotio_1_1_array_traits_3_01std_1_1pair_3_01_t_00_01_u_01_4_01_4.html#a11b3be89ac9506fcfcceb318acc7e2bf',1,'gnuplotio::ArrayTraits&lt; std::pair&lt; T, U &gt; &gt;::depth()']]],
+  ['deref',['deref',['../classgnuplotio_1_1_iterator_range.html#a516ffb8c3716ef5e30f067b595f7dbfb',1,'gnuplotio::IteratorRange::deref()'],['../classgnuplotio_1_1_pair_of_range.html#af4ed81400c73c45c9aa1e6d0ad14579f',1,'gnuplotio::PairOfRange::deref()'],['../classgnuplotio_1_1_vec_of_range.html#ab0a35bc07a4f12b18bd1541bc4b771fc',1,'gnuplotio::VecOfRange::deref()']]],
+  ['deref_5fand_5fprint',['deref_and_print',['../classgnuplotio_1_1_pair_of_range.html#aada62f803432f04aff66f3c609329520',1,'gnuplotio::PairOfRange::deref_and_print()'],['../classgnuplotio_1_1_vec_of_range.html#adafbfb0122b8e499d1af9c246f4ac288',1,'gnuplotio::VecOfRange::deref_and_print()'],['../namespacegnuplotio.html#a66d64f716e539dc233f8183b4ce71c09',1,'gnuplotio::deref_and_print(std::ostream &amp;stream, const T &amp;arg, PrintMode)'],['../namespacegnuplotio.html#a8c6b699dd18c419d597a008b74eda41a',1,'gnuplotio::deref_and_print(std::ostream &amp;stream, const T &amp;arg, PrintMode)'],['../namespacegnuplotio.html#acd0cb4bd9679f0b75bac15c8afcc10e6',1,'gnuplotio::deref_and_print(std::ostream &amp;stream, const PairOfRange&lt; T, U &gt; &amp;arg, PrintMode)'],['../namespacegnuplotio.html#ae768911c8adb77bfc080d5e4561573e6',1,'gnuplotio::deref_and_print(std::ostream &amp;stream, const VecOfRange&lt; T &gt; &amp;arg, PrintMode)']]],
+  ['deref_5fsubiter',['deref_subiter',['../classgnuplotio_1_1_iterator_range.html#a34ef78d431ad8a643d412851016b2122',1,'gnuplotio::IteratorRange::deref_subiter()'],['../classgnuplotio_1_1_pair_of_range.html#aaab5fb2c7de99651a2c7eef7685545fd',1,'gnuplotio::PairOfRange::deref_subiter()'],['../classgnuplotio_1_1_vec_of_range.html#a9b02d8bd8ec62ba77de16ad8ea8a87b2',1,'gnuplotio::VecOfRange::deref_subiter()']]],
+  ['detect',['DETECT',['../graphics_8h.html#a7a6cc9f3cbe0d0df1d1e9bc4fa61f292a07a7470aeca813eaac1d18460e7c7df8',1,'graphics.h']]],
+  ['detectgraph',['detectgraph',['../graphics_8h.html#a7409f617da8921669a88023a442f9cc7',1,'graphics.h']]],
+  ['direction',['direction',['../structtextsettingstype.html#a1b2cf1064de1a25f4c6503ec62d3c427',1,'textsettingstype']]],
+  ['dont_5ftreat_5fas_5fstl_5fcontainer',['dont_treat_as_stl_container',['../structgnuplotio_1_1dont__treat__as__stl__container.html',1,'gnuplotio']]],
+  ['dotted_5fline',['DOTTED_LINE',['../graphics_8h.html#a5fbba0de172618d5434dbe8be53b25a0a6f0bcfa7a60895325f0522357956a9b6',1,'graphics.h']]],
+  ['drawpoly',['drawpoly',['../graphics_8h.html#a13650d16b6f3dd4698641b1c06c1efc4',1,'graphics.h']]]
+];

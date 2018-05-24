@@ -1,0 +1,1056 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="class_q_c_p_legend">
+<title>QCPLegend class Reference</title>
+<para>
+    <programlisting>#include <link linkend="qcustomplot_8h">&lt;qcustomplot.h&gt;</link></programlisting>
+</para>
+<para>Inheritance diagram for QCPLegend</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_q_c_p_legend__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for QCPLegend</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_q_c_p_legend__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                            <para><literallayout>enum <link linkend="class_q_c_p_legend_1a5404de8bc1e4a994ca4ae69e2c7072f1">SelectablePart</link> {
+<link linkend="class_q_c_p_legend_1a5404de8bc1e4a994ca4ae69e2c7072f1a378201c07d500af7126e3ec91652eed7">spNone</link>= 0x000,
+<link linkend="class_q_c_p_legend_1a5404de8bc1e4a994ca4ae69e2c7072f1a0fa4758962a46fa1dc9da818abae23c4">spLegendBox</link>= 0x001,
+<link linkend="class_q_c_p_legend_1a5404de8bc1e4a994ca4ae69e2c7072f1a768bfb95f323db4c66473375032c0af7">spItems</link>= 0x002
+}</literallayout>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title>Protected Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPen mBorderPen</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPen mIconBorderPen</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QBrush mBrush</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QFont mFont</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QColor mTextColor</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QSize mIconSize</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>int mIconTextPadding</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>SelectableParts mSelectedParts</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>SelectableParts mSelectableParts</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPen mSelectedBorderPen</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPen mSelectedIconBorderPen</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QBrush mSelectedBrush</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QFont mSelectedFont</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QColor mSelectedTextColor</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="class_q_c_p_legend_1a0001a456989bd07ea378883651fabd72">QCPLegend</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual <link linkend="class_q_c_p_legend_1a52b305572e20f4e7cb37e945e2b9bec0">~QCPLegend</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPen <link linkend="class_q_c_p_legend_1a844b709a5632313416655f931c8e5631">borderPen</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QBrush <link linkend="class_q_c_p_legend_1aaddafd5cbe9175512311350bb3b563e6">brush</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QFont <link linkend="class_q_c_p_legend_1ae240104de3c3a4cfc0834dbaffa07ac9">font</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QColor <link linkend="class_q_c_p_legend_1aa96d8f1a183ec2be8c0461c0abebd6db">textColor</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QSize <link linkend="class_q_c_p_legend_1ae4f17a186558c82d2ba269f6e7164dda">iconSize</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>int <link linkend="class_q_c_p_legend_1a19668bb7f8fafe20d367cebf96269eaf">iconTextPadding</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPen <link linkend="class_q_c_p_legend_1a5b91d2ea68a4dd20238f660b80cd9945">iconBorderPen</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>SelectableParts <link linkend="class_q_c_p_legend_1ad091ff5e11edbe0adecba81c35522ac7">selectableParts</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>SelectableParts <link linkend="class_q_c_p_legend_1a3efbf879f6936ec337690985e567dc6f">selectedParts</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPen <link linkend="class_q_c_p_legend_1add8204bf083c82cc5def29093501a017">selectedBorderPen</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPen <link linkend="class_q_c_p_legend_1ad8eb320ca3a25928982a65163e8f883b">selectedIconBorderPen</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QBrush <link linkend="class_q_c_p_legend_1a77dfa9340f68ca195f1817a93db09757">selectedBrush</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QFont <link linkend="class_q_c_p_legend_1a483ffd35d64710a165da87b9d9f11110">selectedFont</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QColor <link linkend="class_q_c_p_legend_1ab9b469b27787bfb2ce6c8978a31821af">selectedTextColor</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_legend_1a866a9e3f5267de7430a6c7f26a61db9f">setBorderPen</link> (
+const QPen &amp; pen)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_legend_1a497bbcd38baa3598c08e2b3f48103f23">setBrush</link> (
+const QBrush &amp; brush)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_legend_1aa4cda8499e3cb0f3be415edc02984c73">setFont</link> (
+const QFont &amp; font)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_legend_1ae1eb239ff4a4632fe1b6c3e668d845c6">setTextColor</link> (
+const QColor &amp; color)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_legend_1a8b0740cce488bf7010da6beda6898984">setIconSize</link> (
+const QSize &amp; size)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_legend_1a96b1a37fd4ee6a9778e6e54fe56ab6c2">setIconSize</link> (
+int width, int height)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_legend_1a62973bd69d5155e8ea3141366e8968f6">setIconTextPadding</link> (
+int padding)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_legend_1a2f2c93d18a651f4ff294bb3f026f49b8">setIconBorderPen</link> (
+const QPen &amp; pen)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>Q_SLOT void <link linkend="class_q_c_p_legend_1a9ce60aa8bbd89f62ae4fa83ac6c60110">setSelectableParts</link> (
+const SelectableParts &amp; selectableParts)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>Q_SLOT void <link linkend="class_q_c_p_legend_1a2aee309bb5c2a794b1987f3fc97f8ad8">setSelectedParts</link> (
+const SelectableParts &amp; selectedParts)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_legend_1a2c35d262953a25d96b6112653fbefc88">setSelectedBorderPen</link> (
+const QPen &amp; pen)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_legend_1ade93aabe9bcccaf9cf46cec22c658027">setSelectedIconBorderPen</link> (
+const QPen &amp; pen)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_legend_1a875227f3219c9799464631dec5e8f1bd">setSelectedBrush</link> (
+const QBrush &amp; brush)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_legend_1ab580a01c3c0a239374ed66c29edf5ad2">setSelectedFont</link> (
+const QFont &amp; font)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_legend_1a7674dfc7a1f30e1abd1018c0ed45e0bc">setSelectedTextColor</link> (
+const QColor &amp; color)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual double <link linkend="class_q_c_p_legend_1aa53507624491908fb3d1a514b1fc674e">selectTest</link> (
+const QPointF &amp; pos, bool onlySelectable, QVariant * details)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="class_q_c_p_abstract_legend_item">QCPAbstractLegendItem</link> * <link linkend="class_q_c_p_legend_1acfe9694c45104a3359d3806ed366fcf7">item</link> (
+int index)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="class_q_c_p_plottable_legend_item">QCPPlottableLegendItem</link> * <link linkend="class_q_c_p_legend_1a91e790002d8bf15a20628a8e8841e397">itemWithPlottable</link> (
+const <link linkend="class_q_c_p_abstract_plottable">QCPAbstractPlottable</link> * plottable)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>int <link linkend="class_q_c_p_legend_1a57ab86ab8b2a3762d4c1455eb5452c88">itemCount</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="class_q_c_p_legend_1ad0f698e33db454a6c103b5206740e599">hasItem</link> (
+<link linkend="class_q_c_p_abstract_legend_item">QCPAbstractLegendItem</link> * item)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="class_q_c_p_legend_1a4b90a442af871582df85c2bc13f91e88">hasItemWithPlottable</link> (
+const <link linkend="class_q_c_p_abstract_plottable">QCPAbstractPlottable</link> * plottable)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="class_q_c_p_legend_1a3ab274de52d2951faea45a6d975e6b3f">addItem</link> (
+<link linkend="class_q_c_p_abstract_legend_item">QCPAbstractLegendItem</link> * item)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="class_q_c_p_legend_1ac91595c3eaa746fe6321d2eb952c63bb">removeItem</link> (
+int index)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="class_q_c_p_legend_1a2aea4ec6da2d454dd0b241a254d65082">removeItem</link> (
+<link linkend="class_q_c_p_abstract_legend_item">QCPAbstractLegendItem</link> * item)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_legend_1a24795c7250eb5214fcea16b7217b4dfb">clearItems</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QList&lt; <link linkend="class_q_c_p_abstract_legend_item">QCPAbstractLegendItem</link> * &gt; <link linkend="class_q_c_p_legend_1ac7d9e567d5c551e09cd9bcc4306c5532">selectedItems</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="class_q_c_p_legend_1a2b225cefb5eb267771e2c7c44fd2b408">parentPlotInitialized</link> (
+<link linkend="class_q_custom_plot">QCustomPlot</link> * parentPlot)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual <link linkend="namespace_q_c_p_1a2ad6bb6281c7c2d593d4277b44c2b037">QCP::Interaction</link> <link linkend="class_q_c_p_legend_1a1a2075e462984f9ff51d9c75bda3581b">selectionCategory</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="class_q_c_p_legend_1a817f75c234f82a2e26643dc0de742095">applyDefaultAntialiasingHint</link> (
+<link linkend="class_q_c_p_painter">QCPPainter</link> * painter)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="class_q_c_p_legend_1a74f93358d2b4a76ec95c3a5d825582a3">draw</link> (
+<link linkend="class_q_c_p_painter">QCPPainter</link> * painter)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="class_q_c_p_legend_1a71f54a05c3e5b1a1ade1864422cd642e">selectEvent</link> (
+QMouseEvent * event, bool additive, const QVariant &amp; details, bool * selectionStateChanged)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="class_q_c_p_legend_1ac2066837f7ebc32a5b15434cdca5b176">deselectEvent</link> (
+bool * selectionStateChanged)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPen <link linkend="class_q_c_p_legend_1a1cf9df6f2130c5ad842dc92188ab6bd7">getBorderPen</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QBrush <link linkend="class_q_c_p_legend_1ab1438d5d67304cdda3b9339da580d6bc">getBrush</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+    <simplesect>
+
+<para>Manages a legend inside a <link linkend="class_q_custom_plot">QCustomPlot</link>. </para>
+    </simplesect>
+        <simplesect>
+            <title>Detailed Description</title>
+
+<para>A legend is a small box somewhere in the plot which lists plottables with their name and icon.</para>
+
+<para>A legend is populated with legend items by calling <link linkend="class_q_c_p_abstract_plottable_1aa64e93cb5b606d8110d2cc0a349bb30f">QCPAbstractPlottable::addToLegend</link> on the plottable, for which a legend item shall be created. In the case of the main legend (<link linkend="class_q_custom_plot_1a4eadcd237dc6a09938b68b16877fa6af">QCustomPlot::legend</link>), simply adding plottables to the plot while <link linkend="class_q_custom_plot_1ad8858410c2db47b7104040a3aa61c3fc">QCustomPlot::setAutoAddPlottableToLegend</link> is set to true (the default) creates corresponding legend items. The legend item associated with a certain plottable can be removed with <link linkend="class_q_c_p_abstract_plottable_1a3cc235007e2343a65ad4f463767e0e20">QCPAbstractPlottable::removeFromLegend</link>. However, <link linkend="class_q_c_p_legend">QCPLegend</link> also offers an interface to add and manipulate legend items directly: <link linkend="class_q_c_p_legend_1acfe9694c45104a3359d3806ed366fcf7">item</link>, <link linkend="class_q_c_p_legend_1a91e790002d8bf15a20628a8e8841e397">itemWithPlottable</link>, <link linkend="class_q_c_p_legend_1a57ab86ab8b2a3762d4c1455eb5452c88">itemCount</link>, <link linkend="class_q_c_p_legend_1a3ab274de52d2951faea45a6d975e6b3f">addItem</link>, <link linkend="class_q_c_p_legend_1ac91595c3eaa746fe6321d2eb952c63bb">removeItem</link>, etc.</para>
+
+<para>Since <link linkend="class_q_c_p_legend">QCPLegend</link> derives from <link linkend="class_q_c_p_layout_grid">QCPLayoutGrid</link>, it can be placed in any position a <link linkend="class_q_c_p_layout_element">QCPLayoutElement</link> may be positioned. The legend items are themselves <link linkend="class_q_c_p_layout_element">QCPLayoutElements</link> which are placed in the grid layout of the legend. <link linkend="class_q_c_p_legend">QCPLegend</link> only adds an interface specialized for handling child elements of type <link linkend="class_q_c_p_abstract_legend_item">QCPAbstractLegendItem</link>, as mentioned above. In principle, any other layout elements may also be added to a legend via the normal <link linkend="class_q_c_p_layout_grid">QCPLayoutGrid</link> interface. See the special page about <link linkend="">The Layout System</link> for examples on how to add other elements to the legend and move it outside the axis rect.</para>
+
+<para>Use the methods <link linkend="class_q_c_p_layout_grid_1affc2f3cfd22f28698c5b29b960d2a391">setFillOrder</link> and <link linkend="class_q_c_p_layout_grid_1ab36af18d77e4428386d02970382ee598">setWrap</link> inherited from <link linkend="class_q_c_p_layout_grid">QCPLayoutGrid</link> to control in which order (column first or row first) the legend is filled up when calling <link linkend="class_q_c_p_legend_1a3ab274de52d2951faea45a6d975e6b3f">addItem</link>, and at which column or row wrapping occurs.</para>
+
+<para>By default, every <link linkend="class_q_custom_plot">QCustomPlot</link> has one legend (<link linkend="class_q_custom_plot_1a4eadcd237dc6a09938b68b16877fa6af">QCustomPlot::legend</link>) which is placed in the inset layout of the main axis rect (<link linkend="class_q_c_p_axis_rect_1a949f803466619924c7018df4b511ae10">QCPAxisRect::insetLayout</link>). To move the legend to another position inside the axis rect, use the methods of the <link linkend="class_q_c_p_layout_inset">QCPLayoutInset</link>. To move the legend outside of the axis rect, place it anywhere else with the <link linkend="class_q_c_p_layout">QCPLayout</link>/<link linkend="class_q_c_p_layout_element">QCPLayoutElement</link> interface. </para>
+                <para>Definition at line 4797 of file qcustomplot.h</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>qcustomplot.h</para></listitem></itemizedlist></para>
+        </simplesect>
+            <section xml:id="class_q_c_p_legend_1a5404de8bc1e4a994ca4ae69e2c7072f1">
+               <title>enum SelectablePart </title>
+               
+<para>Defines the selectable parts of a legend</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_legend_1a2aee309bb5c2a794b1987f3fc97f8ad8">setSelectedParts</link>, <link linkend="class_q_c_p_legend_1a9ce60aa8bbd89f62ae4fa83ac6c60110">setSelectableParts</link> </para>
+</formalpara>
+</para>
+
+               <formalpara>
+                    <title>Enumerator:</title>
+                    <variablelist>
+                        <varlistentry xml:id="class_q_c_p_legend_1a5404de8bc1e4a994ca4ae69e2c7072f1a378201c07d500af7126e3ec91652eed7">
+                            <term>spNone</term>
+                            <listitem>
+                                <para>&lt;tt&gt;0x000&lt;/tt&gt; None</para>
+                            </listitem>
+                        </varlistentry>
+                        <varlistentry xml:id="class_q_c_p_legend_1a5404de8bc1e4a994ca4ae69e2c7072f1a0fa4758962a46fa1dc9da818abae23c4">
+                            <term>spLegendBox</term>
+                            <listitem>
+                                <para>&lt;tt&gt;0x001&lt;/tt&gt; The legend box (frame)</para>
+                            </listitem>
+                        </varlistentry>
+                        <varlistentry xml:id="class_q_c_p_legend_1a5404de8bc1e4a994ca4ae69e2c7072f1a768bfb95f323db4c66473375032c0af7">
+                            <term>spItems</term>
+                            <listitem>
+                                <para>&lt;tt&gt;0x002&lt;/tt&gt; Legend items individually (see \ref selectedItems)</para>
+                            </listitem>
+                        </varlistentry>
+                     </variablelist>
+                </formalpara>
+                <para>Definition at line 4821 of file qcustomplot.h
+                    <computeroutput><literallayout>
+{
+spNone= 0x000, 
+spLegendBox= 0x001, 
+spItems= 0x002, 
+}SelectablePart;
+                    </literallayout></computeroutput>
+                </para>
+            </section>
+        <section>
+            <title>Member Data Documentation</title>
+        </section>
+            <section xml:id="class_q_c_p_legend_1a0001a456989bd07ea378883651fabd72">
+                <title>QCPLegend::QCPLegend ()</title> <emphasis></emphasis>
+                
+<para>Constructs a new <link linkend="class_q_c_p_legend">QCPLegend</link> instance with default values.</para>
+
+<para>Note that by default, <link linkend="class_q_custom_plot">QCustomPlot</link> already contains a legend ready to be used as <link linkend="class_q_custom_plot_1a4eadcd237dc6a09938b68b16877fa6af">QCustomPlot::legend</link> </para>
+
+            </section>
+            <section xml:id="class_q_c_p_legend_1a52b305572e20f4e7cb37e945e2b9bec0">
+                <title>QCPLegend::~QCPLegend ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_legend_1a844b709a5632313416655f931c8e5631">
+                <title>QPen QCPLegend::borderPen () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_legend_1aaddafd5cbe9175512311350bb3b563e6">
+                <title>QBrush QCPLegend::brush () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_legend_1ae240104de3c3a4cfc0834dbaffa07ac9">
+                <title>QFont QCPLegend::font () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_legend_1aa96d8f1a183ec2be8c0461c0abebd6db">
+                <title>QColor QCPLegend::textColor () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_legend_1ae4f17a186558c82d2ba269f6e7164dda">
+                <title>QSize QCPLegend::iconSize () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_legend_1a19668bb7f8fafe20d367cebf96269eaf">
+                <title>int QCPLegend::iconTextPadding () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_legend_1a5b91d2ea68a4dd20238f660b80cd9945">
+                <title>QPen QCPLegend::iconBorderPen () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_legend_1ad091ff5e11edbe0adecba81c35522ac7">
+                <title>SelectableParts QCPLegend::selectableParts () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_legend_1a3efbf879f6936ec337690985e567dc6f">
+                <title>QCPLegend::SelectableParts QCPLegend::selectedParts () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_legend_1add8204bf083c82cc5def29093501a017">
+                <title>QPen QCPLegend::selectedBorderPen () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_legend_1ad8eb320ca3a25928982a65163e8f883b">
+                <title>QPen QCPLegend::selectedIconBorderPen () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_legend_1a77dfa9340f68ca195f1817a93db09757">
+                <title>QBrush QCPLegend::selectedBrush () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_legend_1a483ffd35d64710a165da87b9d9f11110">
+                <title>QFont QCPLegend::selectedFont () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_legend_1ab9b469b27787bfb2ce6c8978a31821af">
+                <title>QColor QCPLegend::selectedTextColor () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_legend_1a866a9e3f5267de7430a6c7f26a61db9f">
+                <title>void QCPLegend::setBorderPen (const QPen &amp;pen)</title> <emphasis></emphasis>
+                
+<para>Sets the pen, the border of the entire legend is drawn with. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_legend_1a497bbcd38baa3598c08e2b3f48103f23">
+                <title>void QCPLegend::setBrush (const QBrush &amp;brush)</title> <emphasis></emphasis>
+                
+<para>Sets the brush of the legend background. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_legend_1aa4cda8499e3cb0f3be415edc02984c73">
+                <title>void QCPLegend::setFont (const QFont &amp;font)</title> <emphasis></emphasis>
+                
+<para>Sets the default font of legend text. Legend items that draw text (e.g. the name of a graph) will use this font by default. However, a different font can be specified on a per-item-basis by accessing the specific legend item.</para>
+
+<para>This function will also set <emphasis>font</emphasis> on all already existing legend items.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_abstract_legend_item_1a409c53455d8112f71d70c0c43eb10265">QCPAbstractLegendItem::setFont</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_legend_1ae1eb239ff4a4632fe1b6c3e668d845c6">
+                <title>void QCPLegend::setTextColor (const QColor &amp;color)</title> <emphasis></emphasis>
+                
+<para>Sets the default color of legend text. Legend items that draw text (e.g. the name of a graph) will use this color by default. However, a different colors can be specified on a per-item-basis by accessing the specific legend item.</para>
+
+<para>This function will also set <emphasis>color</emphasis> on all already existing legend items.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_abstract_legend_item_1a6ebace6aaffaedcdab2d74e88acc2d1e">QCPAbstractLegendItem::setTextColor</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_legend_1a8b0740cce488bf7010da6beda6898984">
+                <title>void QCPLegend::setIconSize (const QSize &amp;size)</title> <emphasis></emphasis>
+                
+<para>Sets the size of legend icons. Legend items that draw an icon (e.g. a visual representation of the graph) will use this size by default. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_legend_1a96b1a37fd4ee6a9778e6e54fe56ab6c2">
+                <title>void QCPLegend::setIconSize (int width, int height)</title> <emphasis></emphasis>
+                
+<para>This is an overloaded member function, provided for convenience. It differs from the above function only in what argument(s) it accepts. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_legend_1a62973bd69d5155e8ea3141366e8968f6">
+                <title>void QCPLegend::setIconTextPadding (int padding)</title> <emphasis></emphasis>
+                
+<para>Sets the horizontal space in pixels between the legend icon and the text next to it. Legend items that draw an icon (e.g. a visual representation of the graph) and text (e.g. the name of the graph) will use this space by default. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_legend_1a2f2c93d18a651f4ff294bb3f026f49b8">
+                <title>void QCPLegend::setIconBorderPen (const QPen &amp;pen)</title> <emphasis></emphasis>
+                
+<para>Sets the pen used to draw a border around each legend icon. Legend items that draw an icon (e.g. a visual representation of the graph) will use this pen by default.</para>
+
+<para>If no border is wanted, set this to <emphasis>Qt::NoPen</emphasis>. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_legend_1a9ce60aa8bbd89f62ae4fa83ac6c60110">
+                <title>void QCPLegend::setSelectableParts (const SelectableParts &amp;selectableParts)</title> <emphasis></emphasis>
+                
+<para>Sets whether the user can (de-)select the parts in <emphasis>selectable</emphasis> by clicking on the <link linkend="class_q_custom_plot">QCustomPlot</link> surface. (When <link linkend="class_q_custom_plot_1a5ee1e2f6ae27419deca53e75907c27e5">QCustomPlot::setInteractions</link> contains <link linkend="namespace_q_c_p_1a2ad6bb6281c7c2d593d4277b44c2b037a269c9af298e257d1108edec0432b5513">QCP::iSelectLegend</link>.)</para>
+
+<para>However, even when <emphasis>selectable</emphasis> is set to a value not allowing the selection of a specific part, it is still possible to set the selection of this part manually, by calling <link linkend="class_q_c_p_legend_1a2aee309bb5c2a794b1987f3fc97f8ad8">setSelectedParts</link> directly.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_legend_1a5404de8bc1e4a994ca4ae69e2c7072f1">SelectablePart</link>, <link linkend="class_q_c_p_legend_1a2aee309bb5c2a794b1987f3fc97f8ad8">setSelectedParts</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_legend_1a2aee309bb5c2a794b1987f3fc97f8ad8">
+                <title>void QCPLegend::setSelectedParts (const SelectableParts &amp;selectedParts)</title> <emphasis></emphasis>
+                
+<para>Sets the selected state of the respective legend parts described by <link linkend="class_q_c_p_legend_1a5404de8bc1e4a994ca4ae69e2c7072f1">SelectablePart</link>. When a part is selected, it uses a different pen/font and brush. If some legend items are selected and <emphasis>selected</emphasis> doesn&apos;t contain <link linkend="class_q_c_p_legend_1a5404de8bc1e4a994ca4ae69e2c7072f1a768bfb95f323db4c66473375032c0af7">spItems</link>, those items become deselected.</para>
+
+<para>The entire selection mechanism is handled automatically when <link linkend="class_q_custom_plot_1a5ee1e2f6ae27419deca53e75907c27e5">QCustomPlot::setInteractions</link> contains iSelectLegend. You only need to call this function when you wish to change the selection state manually.</para>
+
+<para>This function can change the selection state of a part even when <link linkend="class_q_c_p_legend_1a9ce60aa8bbd89f62ae4fa83ac6c60110">setSelectableParts</link> was set to a value that actually excludes the part.</para>
+
+<para>emits the <link linkend="class_q_c_p_legend_1a82c88464edac07a9eefaf3906268df3b">selectionChanged</link> signal when <emphasis>selected</emphasis> is different from the previous selection state.</para>
+
+<para>Note that it doesn&apos;t make sense to set the selected state <link linkend="class_q_c_p_legend_1a5404de8bc1e4a994ca4ae69e2c7072f1a768bfb95f323db4c66473375032c0af7">spItems</link> here when it wasn&apos;t set before, because there&apos;s no way to specify which exact items to newly select. Do this by calling <link linkend="class_q_c_p_abstract_legend_item_1a6eed93b0ab99cb3eabb043fb08179c2b">QCPAbstractLegendItem::setSelected</link> directly on the legend item you wish to select.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_legend_1a5404de8bc1e4a994ca4ae69e2c7072f1">SelectablePart</link>, <link linkend="class_q_c_p_legend_1a9ce60aa8bbd89f62ae4fa83ac6c60110">setSelectableParts</link>, <link linkend="class_q_c_p_legend_1aa53507624491908fb3d1a514b1fc674e">selectTest</link>, <link linkend="class_q_c_p_legend_1a2c35d262953a25d96b6112653fbefc88">setSelectedBorderPen</link>, <link linkend="class_q_c_p_legend_1ade93aabe9bcccaf9cf46cec22c658027">setSelectedIconBorderPen</link>, <link linkend="class_q_c_p_legend_1a875227f3219c9799464631dec5e8f1bd">setSelectedBrush</link>, <link linkend="class_q_c_p_legend_1ab580a01c3c0a239374ed66c29edf5ad2">setSelectedFont</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_legend_1a2c35d262953a25d96b6112653fbefc88">
+                <title>void QCPLegend::setSelectedBorderPen (const QPen &amp;pen)</title> <emphasis></emphasis>
+                
+<para>When the legend box is selected, this pen is used to draw the border instead of the normal pen set via <link linkend="class_q_c_p_legend_1a866a9e3f5267de7430a6c7f26a61db9f">setBorderPen</link>.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_legend_1a2aee309bb5c2a794b1987f3fc97f8ad8">setSelectedParts</link>, <link linkend="class_q_c_p_legend_1a9ce60aa8bbd89f62ae4fa83ac6c60110">setSelectableParts</link>, <link linkend="class_q_c_p_legend_1a875227f3219c9799464631dec5e8f1bd">setSelectedBrush</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_legend_1ade93aabe9bcccaf9cf46cec22c658027">
+                <title>void QCPLegend::setSelectedIconBorderPen (const QPen &amp;pen)</title> <emphasis></emphasis>
+                
+<para>Sets the pen legend items will use to draw their icon borders, when they are selected.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_legend_1a2aee309bb5c2a794b1987f3fc97f8ad8">setSelectedParts</link>, <link linkend="class_q_c_p_legend_1a9ce60aa8bbd89f62ae4fa83ac6c60110">setSelectableParts</link>, <link linkend="class_q_c_p_legend_1ab580a01c3c0a239374ed66c29edf5ad2">setSelectedFont</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_legend_1a875227f3219c9799464631dec5e8f1bd">
+                <title>void QCPLegend::setSelectedBrush (const QBrush &amp;brush)</title> <emphasis></emphasis>
+                
+<para>When the legend box is selected, this brush is used to draw the legend background instead of the normal brush set via <link linkend="class_q_c_p_legend_1a497bbcd38baa3598c08e2b3f48103f23">setBrush</link>.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_legend_1a2aee309bb5c2a794b1987f3fc97f8ad8">setSelectedParts</link>, <link linkend="class_q_c_p_legend_1a9ce60aa8bbd89f62ae4fa83ac6c60110">setSelectableParts</link>, <link linkend="class_q_c_p_legend_1a2c35d262953a25d96b6112653fbefc88">setSelectedBorderPen</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_legend_1ab580a01c3c0a239374ed66c29edf5ad2">
+                <title>void QCPLegend::setSelectedFont (const QFont &amp;font)</title> <emphasis></emphasis>
+                
+<para>Sets the default font that is used by legend items when they are selected.</para>
+
+<para>This function will also set <emphasis>font</emphasis> on all already existing legend items.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_legend_1aa4cda8499e3cb0f3be415edc02984c73">setFont</link>, <link linkend="class_q_c_p_abstract_legend_item_1a91db5aee48617a9d3206e61376807365">QCPAbstractLegendItem::setSelectedFont</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_legend_1a7674dfc7a1f30e1abd1018c0ed45e0bc">
+                <title>void QCPLegend::setSelectedTextColor (const QColor &amp;color)</title> <emphasis></emphasis>
+                
+<para>Sets the default text color that is used by legend items when they are selected.</para>
+
+<para>This function will also set <emphasis>color</emphasis> on all already existing legend items.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_legend_1ae1eb239ff4a4632fe1b6c3e668d845c6">setTextColor</link>, <link linkend="class_q_c_p_abstract_legend_item_1a4d01d008ee1a5bfe9905b0397a421936">QCPAbstractLegendItem::setSelectedTextColor</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_legend_1aa53507624491908fb3d1a514b1fc674e">
+                <title>double QCPLegend::selectTest (const QPointF &amp;pos, bool onlySelectable, QVariant *details=0) const Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+<para>Layout elements are sensitive to events inside their outer rect. If <emphasis>pos</emphasis> is within the outer rect, this method returns a value corresponding to 0.99 times the parent plot&apos;s selection tolerance. However, layout elements are not selectable by default. So if <emphasis>onlySelectable</emphasis> is true, -1.0 is returned.</para>
+
+<para>See <link linkend="class_q_c_p_layerable_1a04db8351fefd44cfdb77958e75c6288e">QCPLayerable::selectTest</link> for a general explanation of this virtual method.</para>
+
+<para><link linkend="class_q_c_p_layout_element">QCPLayoutElement</link> subclasses may reimplement this method to provide more specific selection test behaviour. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_legend_1acfe9694c45104a3359d3806ed366fcf7">
+                <title>QCPAbstractLegendItem * QCPLegend::item (int index) const</title> <emphasis></emphasis>
+                
+<para>Returns the item with index <emphasis>i</emphasis>.</para>
+
+<para>Note that the linear index depends on the current fill order (<link linkend="class_q_c_p_layout_grid_1affc2f3cfd22f28698c5b29b960d2a391">setFillOrder</link>).</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_legend_1a57ab86ab8b2a3762d4c1455eb5452c88">itemCount</link>, <link linkend="class_q_c_p_legend_1a3ab274de52d2951faea45a6d975e6b3f">addItem</link>, <link linkend="class_q_c_p_legend_1a91e790002d8bf15a20628a8e8841e397">itemWithPlottable</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_legend_1a91e790002d8bf15a20628a8e8841e397">
+                <title>QCPPlottableLegendItem * QCPLegend::itemWithPlottable (const QCPAbstractPlottable *plottable) const</title> <emphasis></emphasis>
+                
+<para>Returns the <link linkend="class_q_c_p_plottable_legend_item">QCPPlottableLegendItem</link> which is associated with <emphasis>plottable</emphasis> (e.g. a <link linkend="class_q_c_p_graph">QCPGraph</link>*). If such an item isn&apos;t in the legend, returns 0.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_legend_1a4b90a442af871582df85c2bc13f91e88">hasItemWithPlottable</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_legend_1a57ab86ab8b2a3762d4c1455eb5452c88">
+                <title>int QCPLegend::itemCount () const</title> <emphasis></emphasis>
+                
+<para>Returns the number of items currently in the legend.</para>
+
+<para>Note that if empty cells are in the legend (e.g. by calling methods of the <link linkend="class_q_c_p_layout_grid">QCPLayoutGrid</link> base class which allows creating empty cells), they are included in the returned count.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_legend_1acfe9694c45104a3359d3806ed366fcf7">item</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_legend_1ad0f698e33db454a6c103b5206740e599">
+                <title>bool QCPLegend::hasItem (QCPAbstractLegendItem *item) const</title> <emphasis></emphasis>
+                
+<para>Returns whether the legend contains <emphasis>item</emphasis>.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_legend_1a4b90a442af871582df85c2bc13f91e88">hasItemWithPlottable</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_legend_1a4b90a442af871582df85c2bc13f91e88">
+                <title>bool QCPLegend::hasItemWithPlottable (const QCPAbstractPlottable *plottable) const</title> <emphasis></emphasis>
+                
+<para>Returns whether the legend contains a <link linkend="class_q_c_p_plottable_legend_item">QCPPlottableLegendItem</link> which is associated with <emphasis>plottable</emphasis> (e.g. a <link linkend="class_q_c_p_graph">QCPGraph</link>*). If such an item isn&apos;t in the legend, returns false.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_legend_1a91e790002d8bf15a20628a8e8841e397">itemWithPlottable</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_legend_1a3ab274de52d2951faea45a6d975e6b3f">
+                <title>bool QCPLegend::addItem (QCPAbstractLegendItem *item)</title> <emphasis></emphasis>
+                
+<para>Adds <emphasis>item</emphasis> to the legend, if it&apos;s not present already. The element is arranged according to the current fill order (<link linkend="class_q_c_p_layout_grid_1affc2f3cfd22f28698c5b29b960d2a391">setFillOrder</link>) and wrapping (<link linkend="class_q_c_p_layout_grid_1ab36af18d77e4428386d02970382ee598">setWrap</link>).</para>
+
+<para>Returns true on sucess, i.e. if the item wasn&apos;t in the list already and has been successfuly added.</para>
+
+<para>The legend takes ownership of the item.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_legend_1ac91595c3eaa746fe6321d2eb952c63bb">removeItem</link>, <link linkend="class_q_c_p_legend_1acfe9694c45104a3359d3806ed366fcf7">item</link>, <link linkend="class_q_c_p_legend_1ad0f698e33db454a6c103b5206740e599">hasItem</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_legend_1ac91595c3eaa746fe6321d2eb952c63bb">
+                <title>bool QCPLegend::removeItem (int index)</title> <emphasis></emphasis>
+                
+<para>This is an overloaded member function, provided for convenience. It differs from the above function only in what argument(s) it accepts.</para>
+
+<para>Removes the item with the specified <emphasis>index</emphasis> from the legend and deletes it.</para>
+
+<para>After successful removal, the legend is reordered according to the current fill order (<link linkend="class_q_c_p_layout_grid_1affc2f3cfd22f28698c5b29b960d2a391">setFillOrder</link>) and wrapping (<link linkend="class_q_c_p_layout_grid_1ab36af18d77e4428386d02970382ee598">setWrap</link>), so no empty cell remains where the removed <emphasis>item</emphasis> was. If you don&apos;t want this, rather use the raw element interface of <link linkend="class_q_c_p_layout_grid">QCPLayoutGrid</link>.</para>
+
+<para>Returns true, if successful. Unlike <link linkend="class_q_c_p_layout_1a2403f684fee3ce47132faaeed00bb066">QCPLayoutGrid::removeAt</link>, this method only removes elements derived from <link linkend="class_q_c_p_abstract_legend_item">QCPAbstractLegendItem</link>.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_legend_1a57ab86ab8b2a3762d4c1455eb5452c88">itemCount</link>, <link linkend="class_q_c_p_legend_1a24795c7250eb5214fcea16b7217b4dfb">clearItems</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_legend_1a2aea4ec6da2d454dd0b241a254d65082">
+                <title>bool QCPLegend::removeItem (QCPAbstractLegendItem *item)</title> <emphasis></emphasis>
+                
+<para>This is an overloaded member function, provided for convenience. It differs from the above function only in what argument(s) it accepts.</para>
+
+<para>Removes <emphasis>item</emphasis> from the legend and deletes it.</para>
+
+<para>After successful removal, the legend is reordered according to the current fill order (<link linkend="class_q_c_p_layout_grid_1affc2f3cfd22f28698c5b29b960d2a391">setFillOrder</link>) and wrapping (<link linkend="class_q_c_p_layout_grid_1ab36af18d77e4428386d02970382ee598">setWrap</link>), so no empty cell remains where the removed <emphasis>item</emphasis> was. If you don&apos;t want this, rather use the raw element interface of <link linkend="class_q_c_p_layout_grid">QCPLayoutGrid</link>.</para>
+
+<para>Returns true, if successful.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_legend_1a24795c7250eb5214fcea16b7217b4dfb">clearItems</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_legend_1a24795c7250eb5214fcea16b7217b4dfb">
+                <title>void QCPLegend::clearItems ()</title> <emphasis></emphasis>
+                
+<para>Removes all items from the legend. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_legend_1ac7d9e567d5c551e09cd9bcc4306c5532">
+                <title>QList&lt; QCPAbstractLegendItem * &gt; QCPLegend::selectedItems () const</title> <emphasis></emphasis>
+                
+<para>Returns the legend items that are currently selected. If no items are selected, the list is empty.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_abstract_legend_item_1a6eed93b0ab99cb3eabb043fb08179c2b">QCPAbstractLegendItem::setSelected</link>, setSelectable </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_legend_1a2b225cefb5eb267771e2c7c44fd2b408">
+                <title>void QCPLegend::parentPlotInitialized (QCustomPlot *parentPlot) Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_legend_1a1a2075e462984f9ff51d9c75bda3581b">
+                <title>QCP::Interaction QCPLegend::selectionCategory () const Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_legend_1a817f75c234f82a2e26643dc0de742095">
+                <title>void QCPLegend::applyDefaultAntialiasingHint (QCPPainter *painter) const Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_legend_1a74f93358d2b4a76ec95c3a5d825582a3">
+                <title>void QCPLegend::draw (QCPPainter *painter) Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_legend_1a71f54a05c3e5b1a1ade1864422cd642e">
+                <title>void QCPLegend::selectEvent (QMouseEvent *event, bool additive, const QVariant &amp;details, bool *selectionStateChanged) Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_legend_1ac2066837f7ebc32a5b15434cdca5b176">
+                <title>void QCPLegend::deselectEvent (bool *selectionStateChanged) Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_legend_1a1cf9df6f2130c5ad842dc92188ab6bd7">
+                <title>QPen QCPLegend::getBorderPen () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_legend_1ab1438d5d67304cdda3b9339da580d6bc">
+                <title>QBrush QCPLegend::getBrush () const</title> <emphasis></emphasis>
+                
+            </section>
+</section>

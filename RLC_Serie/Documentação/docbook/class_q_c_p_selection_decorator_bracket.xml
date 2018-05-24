@@ -1,0 +1,453 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="class_q_c_p_selection_decorator_bracket">
+<title>QCPSelectionDecoratorBracket class Reference</title>
+<para>
+    <programlisting>#include <link linkend="qcustomplot_8h">&lt;qcustomplot.h&gt;</link></programlisting>
+</para>
+<para>Inheritance diagram for QCPSelectionDecoratorBracket</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_q_c_p_selection_decorator_bracket__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for QCPSelectionDecoratorBracket</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_q_c_p_selection_decorator_bracket__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                            <para><literallayout>enum <link linkend="class_q_c_p_selection_decorator_bracket_1aa6d18517ec0553575bbef0de4252336e">BracketStyle</link> {
+<link linkend="class_q_c_p_selection_decorator_bracket_1aa6d18517ec0553575bbef0de4252336eaa10a8d25d409b09256a13220a4d74f81">bsSquareBracket</link>,
+<link linkend="class_q_c_p_selection_decorator_bracket_1aa6d18517ec0553575bbef0de4252336eafa8ad19b1822c9c03fbe5e9ff8eeeea2">bsHalfEllipse</link>,
+<link linkend="class_q_c_p_selection_decorator_bracket_1aa6d18517ec0553575bbef0de4252336ea7cab0f2f406e293094a7a1e4903f6e8c">bsEllipse</link>,
+<link linkend="class_q_c_p_selection_decorator_bracket_1aa6d18517ec0553575bbef0de4252336ea86eb6ae27e6296576fdc46d13c840530">bsPlus</link>,
+<link linkend="class_q_c_p_selection_decorator_bracket_1aa6d18517ec0553575bbef0de4252336ea5a627cacdaa30ce434371d6a034b991d">bsUserStyle</link>
+}</literallayout>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title>Protected Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPen mBracketPen</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QBrush mBracketBrush</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>int mBracketWidth</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>int mBracketHeight</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>BracketStyle mBracketStyle</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool mTangentToData</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>int mTangentAverage</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="class_q_c_p_selection_decorator_bracket_1ad2cfbff98cc055311810ba357f6eef1b">QCPSelectionDecoratorBracket</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual <link linkend="class_q_c_p_selection_decorator_bracket_1add2764b01a029c64f08f34f08ea6d41b">~QCPSelectionDecoratorBracket</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPen <link linkend="class_q_c_p_selection_decorator_bracket_1a841c56a37380f2e8af6126881b5f0fb9">bracketPen</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QBrush <link linkend="class_q_c_p_selection_decorator_bracket_1ac5e409d6b62f0b71143fb8a526fe59a9">bracketBrush</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>int <link linkend="class_q_c_p_selection_decorator_bracket_1ae268c621b808d8660d38fc6c69fc40ae">bracketWidth</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>int <link linkend="class_q_c_p_selection_decorator_bracket_1a531d9c953a7279db93611248e115edab">bracketHeight</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="class_q_c_p_selection_decorator_bracket_1aa6d18517ec0553575bbef0de4252336e">BracketStyle</link> <link linkend="class_q_c_p_selection_decorator_bracket_1a1c3d65e560555caf9b31123008491ac6">bracketStyle</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="class_q_c_p_selection_decorator_bracket_1a257cb5f8b822edc839c1510ed0f23f13">tangentToData</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>int <link linkend="class_q_c_p_selection_decorator_bracket_1a4e21ee2db0f43c1208d2e30879ec6a3c">tangentAverage</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_selection_decorator_bracket_1ac0e392a6097990f8aa978932a8fa05d6">setBracketPen</link> (
+const QPen &amp; pen)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_selection_decorator_bracket_1a2f4ea0bfb0ea980252b76dd349dd53aa">setBracketBrush</link> (
+const QBrush &amp; brush)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_selection_decorator_bracket_1a291b59cab98ce93a0a3c85963fe10f5e">setBracketWidth</link> (
+int width)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_selection_decorator_bracket_1aed773ad737201cca40efc6fe451acad8">setBracketHeight</link> (
+int height)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_selection_decorator_bracket_1a04507697438f6ad8cc2aeea5422dcbe5">setBracketStyle</link> (
+<link linkend="class_q_c_p_selection_decorator_bracket_1aa6d18517ec0553575bbef0de4252336e">BracketStyle</link> style)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_selection_decorator_bracket_1a93bc6086e53a5e40a08641a7b2e2cdd5">setTangentToData</link> (
+bool enabled)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_selection_decorator_bracket_1adb2d0876f25a77c88042b70818f1d6e4">setTangentAverage</link> (
+int pointCount)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="class_q_c_p_selection_decorator_bracket_1a57b65b5508d5bd0f27c9318f3d4646be">drawBracket</link> (
+<link linkend="class_q_c_p_painter">QCPPainter</link> * painter, int direction)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="class_q_c_p_selection_decorator_bracket_1a9ebe2e729b5012c0a995d788f87fac22">drawDecoration</link> (
+<link linkend="class_q_c_p_painter">QCPPainter</link> * painter, <link linkend="class_q_c_p_data_selection">QCPDataSelection</link> selection)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double <link linkend="class_q_c_p_selection_decorator_bracket_1ac002e20586950bf5c91a399863769c61">getTangentAngle</link> (
+const <link linkend="class_q_c_p_plottable_interface1_d">QCPPlottableInterface1D</link> * interface1d, int dataIndex, int direction)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPointF <link linkend="class_q_c_p_selection_decorator_bracket_1a9925ed667e8a645fcb9949bd02ee4a19">getPixelCoordinates</link> (
+const <link linkend="class_q_c_p_plottable_interface1_d">QCPPlottableInterface1D</link> * interface1d, int dataIndex)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+    <simplesect>
+
+<para>A selection decorator which draws brackets around each selected data segment. </para>
+    </simplesect>
+        <simplesect>
+            <title>Detailed Description</title>
+
+<para>Additionally to the regular highlighting of selected segments via color, fill and scatter style, this <link linkend="class_q_c_p_selection_decorator">QCPSelectionDecorator</link> subclass draws markers at the begin and end of each selected data segment of the plottable.</para>
+
+<para>The shape of the markers can be controlled with <link linkend="class_q_c_p_selection_decorator_bracket_1a04507697438f6ad8cc2aeea5422dcbe5">setBracketStyle</link>, <link linkend="class_q_c_p_selection_decorator_bracket_1a291b59cab98ce93a0a3c85963fe10f5e">setBracketWidth</link> and <link linkend="class_q_c_p_selection_decorator_bracket_1aed773ad737201cca40efc6fe451acad8">setBracketHeight</link>. The color/fill can be controlled with <link linkend="class_q_c_p_selection_decorator_bracket_1ac0e392a6097990f8aa978932a8fa05d6">setBracketPen</link> and <link linkend="class_q_c_p_selection_decorator_bracket_1a2f4ea0bfb0ea980252b76dd349dd53aa">setBracketBrush</link>.</para>
+
+<para>To introduce custom bracket styles, it is only necessary to sublcass <link linkend="class_q_c_p_selection_decorator_bracket">QCPSelectionDecoratorBracket</link> and reimplement <link linkend="class_q_c_p_selection_decorator_bracket_1a57b65b5508d5bd0f27c9318f3d4646be">drawBracket</link>. The rest will be managed by the base class. </para>
+                <para>Definition at line 4514 of file qcustomplot.h</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>qcustomplot.h</para></listitem></itemizedlist></para>
+        </simplesect>
+            <section xml:id="class_q_c_p_selection_decorator_bracket_1aa6d18517ec0553575bbef0de4252336e">
+               <title>enum BracketStyle </title>
+               
+<para>Defines which shape is drawn at the boundaries of selected data ranges.</para>
+
+<para>Some of the bracket styles further allow specifying a height and/or width, see <link linkend="class_q_c_p_selection_decorator_bracket_1aed773ad737201cca40efc6fe451acad8">setBracketHeight</link> and <link linkend="class_q_c_p_selection_decorator_bracket_1a291b59cab98ce93a0a3c85963fe10f5e">setBracketWidth</link>. </para>
+
+               <formalpara>
+                    <title>Enumerator:</title>
+                    <variablelist>
+                        <varlistentry xml:id="class_q_c_p_selection_decorator_bracket_1aa6d18517ec0553575bbef0de4252336eaa10a8d25d409b09256a13220a4d74f81">
+                            <term>bsSquareBracket</term>
+                            <listitem>
+                                <para>A square bracket is drawn.</para>
+                            </listitem>
+                        </varlistentry>
+                        <varlistentry xml:id="class_q_c_p_selection_decorator_bracket_1aa6d18517ec0553575bbef0de4252336eafa8ad19b1822c9c03fbe5e9ff8eeeea2">
+                            <term>bsHalfEllipse</term>
+                            <listitem>
+                                <para>A half ellipse is drawn. The size of the ellipse is given by the bracket width/height properties.</para>
+                            </listitem>
+                        </varlistentry>
+                        <varlistentry xml:id="class_q_c_p_selection_decorator_bracket_1aa6d18517ec0553575bbef0de4252336ea7cab0f2f406e293094a7a1e4903f6e8c">
+                            <term>bsEllipse</term>
+                            <listitem>
+                                <para>An ellipse is drawn. The size of the ellipse is given by the bracket width/height properties.</para>
+                            </listitem>
+                        </varlistentry>
+                        <varlistentry xml:id="class_q_c_p_selection_decorator_bracket_1aa6d18517ec0553575bbef0de4252336ea86eb6ae27e6296576fdc46d13c840530">
+                            <term>bsPlus</term>
+                            <listitem>
+                                <para>A plus is drawn.</para>
+                            </listitem>
+                        </varlistentry>
+                        <varlistentry xml:id="class_q_c_p_selection_decorator_bracket_1aa6d18517ec0553575bbef0de4252336ea5a627cacdaa30ce434371d6a034b991d">
+                            <term>bsUserStyle</term>
+                            <listitem>
+                                <para>Start custom bracket styles at this index when subclassing and reimplementing \ref drawBracket.</para>
+                            </listitem>
+                        </varlistentry>
+                     </variablelist>
+                </formalpara>
+                <para>Definition at line 4524 of file qcustomplot.h
+                    <computeroutput><literallayout>
+{
+bsSquareBracket, 
+bsHalfEllipse, 
+bsEllipse, 
+bsPlus, 
+bsUserStyle, 
+}BracketStyle;
+                    </literallayout></computeroutput>
+                </para>
+            </section>
+        <section>
+            <title>Member Data Documentation</title>
+        </section>
+            <section xml:id="class_q_c_p_selection_decorator_bracket_1ad2cfbff98cc055311810ba357f6eef1b">
+                <title>QCPSelectionDecoratorBracket::QCPSelectionDecoratorBracket ()</title> <emphasis></emphasis>
+                
+<para>Creates a new <link linkend="class_q_c_p_selection_decorator_bracket">QCPSelectionDecoratorBracket</link> instance with default values. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_selection_decorator_bracket_1add2764b01a029c64f08f34f08ea6d41b">
+                <title>QCPSelectionDecoratorBracket::~QCPSelectionDecoratorBracket ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_selection_decorator_bracket_1a841c56a37380f2e8af6126881b5f0fb9">
+                <title>QPen QCPSelectionDecoratorBracket::bracketPen () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_selection_decorator_bracket_1ac5e409d6b62f0b71143fb8a526fe59a9">
+                <title>QBrush QCPSelectionDecoratorBracket::bracketBrush () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_selection_decorator_bracket_1ae268c621b808d8660d38fc6c69fc40ae">
+                <title>int QCPSelectionDecoratorBracket::bracketWidth () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_selection_decorator_bracket_1a531d9c953a7279db93611248e115edab">
+                <title>int QCPSelectionDecoratorBracket::bracketHeight () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_selection_decorator_bracket_1a1c3d65e560555caf9b31123008491ac6">
+                <title>BracketStyle QCPSelectionDecoratorBracket::bracketStyle () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_selection_decorator_bracket_1a257cb5f8b822edc839c1510ed0f23f13">
+                <title>bool QCPSelectionDecoratorBracket::tangentToData () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_selection_decorator_bracket_1a4e21ee2db0f43c1208d2e30879ec6a3c">
+                <title>int QCPSelectionDecoratorBracket::tangentAverage () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_selection_decorator_bracket_1ac0e392a6097990f8aa978932a8fa05d6">
+                <title>void QCPSelectionDecoratorBracket::setBracketPen (const QPen &amp;pen)</title> <emphasis></emphasis>
+                
+<para>Sets the pen that will be used to draw the brackets at the beginning and end of each selected data segment. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_selection_decorator_bracket_1a2f4ea0bfb0ea980252b76dd349dd53aa">
+                <title>void QCPSelectionDecoratorBracket::setBracketBrush (const QBrush &amp;brush)</title> <emphasis></emphasis>
+                
+<para>Sets the brush that will be used to draw the brackets at the beginning and end of each selected data segment. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_selection_decorator_bracket_1a291b59cab98ce93a0a3c85963fe10f5e">
+                <title>void QCPSelectionDecoratorBracket::setBracketWidth (int width)</title> <emphasis></emphasis>
+                
+<para>Sets the width of the drawn bracket. The width dimension is always parallel to the key axis of the data, or the tangent direction of the current data slope, if <link linkend="class_q_c_p_selection_decorator_bracket_1a93bc6086e53a5e40a08641a7b2e2cdd5">setTangentToData</link> is enabled. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_selection_decorator_bracket_1aed773ad737201cca40efc6fe451acad8">
+                <title>void QCPSelectionDecoratorBracket::setBracketHeight (int height)</title> <emphasis></emphasis>
+                
+<para>Sets the height of the drawn bracket. The height dimension is always perpendicular to the key axis of the data, or the tangent direction of the current data slope, if <link linkend="class_q_c_p_selection_decorator_bracket_1a93bc6086e53a5e40a08641a7b2e2cdd5">setTangentToData</link> is enabled. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_selection_decorator_bracket_1a04507697438f6ad8cc2aeea5422dcbe5">
+                <title>void QCPSelectionDecoratorBracket::setBracketStyle (BracketStyle style)</title> <emphasis></emphasis>
+                
+<para>Sets the shape that the bracket/marker will have.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_selection_decorator_bracket_1a291b59cab98ce93a0a3c85963fe10f5e">setBracketWidth</link>, <link linkend="class_q_c_p_selection_decorator_bracket_1aed773ad737201cca40efc6fe451acad8">setBracketHeight</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_selection_decorator_bracket_1a93bc6086e53a5e40a08641a7b2e2cdd5">
+                <title>void QCPSelectionDecoratorBracket::setTangentToData (bool enabled)</title> <emphasis></emphasis>
+                
+<para>Sets whether the brackets will be rotated such that they align with the slope of the data at the position that they appear in.</para>
+
+<para>For noisy data, it might be more visually appealing to average the slope over multiple data points. This can be configured via <link linkend="class_q_c_p_selection_decorator_bracket_1adb2d0876f25a77c88042b70818f1d6e4">setTangentAverage</link>. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_selection_decorator_bracket_1adb2d0876f25a77c88042b70818f1d6e4">
+                <title>void QCPSelectionDecoratorBracket::setTangentAverage (int pointCount)</title> <emphasis></emphasis>
+                
+<para>Controls over how many data points the slope shall be averaged, when brackets shall be aligned with the data (if <link linkend="class_q_c_p_selection_decorator_bracket_1a93bc6086e53a5e40a08641a7b2e2cdd5">setTangentToData</link> is true).</para>
+
+<para>From the position of the bracket, <emphasis>pointCount</emphasis> points towards the selected data range will be taken into account. The smallest value of <emphasis>pointCount</emphasis> is 1, which is effectively equivalent to disabling <link linkend="class_q_c_p_selection_decorator_bracket_1a93bc6086e53a5e40a08641a7b2e2cdd5">setTangentToData</link>. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_selection_decorator_bracket_1a57b65b5508d5bd0f27c9318f3d4646be">
+                <title>void QCPSelectionDecoratorBracket::drawBracket (QCPPainter *painter, int direction) const</title> <emphasis></emphasis>
+                
+<para>Draws the bracket shape with <emphasis>painter</emphasis>. The parameter <emphasis>direction</emphasis> is either -1 or 1 and indicates whether the bracket shall point to the left or the right (i.e. is a closing or opening bracket, respectively).</para>
+
+<para>The passed <emphasis>painter</emphasis> already contains all transformations that are necessary to position and rotate the bracket appropriately. Painting operations can be performed as if drawing upright brackets on flat data with horizontal key axis, with (0, 0) being the center of the bracket.</para>
+
+<para>If you wish to sublcass <link linkend="class_q_c_p_selection_decorator_bracket">QCPSelectionDecoratorBracket</link> in order to provide custom bracket shapes (see <link linkend="class_q_c_p_selection_decorator_bracket_1aa6d18517ec0553575bbef0de4252336ea5a627cacdaa30ce434371d6a034b991d">QCPSelectionDecoratorBracket::bsUserStyle</link>), this is the method you should reimplement. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_selection_decorator_bracket_1a9ebe2e729b5012c0a995d788f87fac22">
+                <title>void QCPSelectionDecoratorBracket::drawDecoration (QCPPainter *painter, QCPDataSelection selection) Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+<para>Draws the bracket decoration on the data points at the begin and end of each selected data segment given in <emphasis>seletion</emphasis>.</para>
+
+<para>It uses the method <link linkend="class_q_c_p_selection_decorator_bracket_1a57b65b5508d5bd0f27c9318f3d4646be">drawBracket</link> to actually draw the shapes.</para>
+
+            </section>
+            <section xml:id="class_q_c_p_selection_decorator_bracket_1ac002e20586950bf5c91a399863769c61">
+                <title>double QCPSelectionDecoratorBracket::getTangentAngle (const QCPPlottableInterface1D *interface1d, int dataIndex, int direction) const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_selection_decorator_bracket_1a9925ed667e8a645fcb9949bd02ee4a19">
+                <title>QPointF QCPSelectionDecoratorBracket::getPixelCoordinates (const QCPPlottableInterface1D *interface1d, int dataIndex) const</title> <emphasis></emphasis>
+                
+            </section>
+</section>

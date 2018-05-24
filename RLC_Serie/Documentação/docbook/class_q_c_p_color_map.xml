@@ -1,0 +1,617 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="class_q_c_p_color_map">
+<title>QCPColorMap class Reference</title>
+<para>
+    <programlisting>#include <link linkend="qcustomplot_8h">&lt;qcustomplot.h&gt;</link></programlisting>
+</para>
+<para>Inheritance diagram for QCPColorMap</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_q_c_p_color_map__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for QCPColorMap</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_q_c_p_color_map__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title>Protected Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QCPRange mDataRange</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QCPAxis::ScaleType mDataScaleType</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QCPColorMapData * mMapData</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QCPColorGradient mGradient</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool mInterpolate</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool mTightBoundary</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPointer&lt; QCPColorScale &gt; mColorScale</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QImage mMapImage</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QImage mUndersampledMapImage</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPixmap mLegendIcon</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool mMapImageInvalidated</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="class_q_c_p_color_map_1aa37e976d2ee1e2be6c4cd88a64b36215">QCPColorMap</link> (
+<link linkend="class_q_c_p_axis">QCPAxis</link> * keyAxis, <link linkend="class_q_c_p_axis">QCPAxis</link> * valueAxis)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual <link linkend="class_q_c_p_color_map_1ac8a952a40fed62dcee33405b0f4d47ad">~QCPColorMap</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="class_q_c_p_color_map_data">QCPColorMapData</link> * <link linkend="class_q_c_p_color_map_1a047d7eb3ae657f93f2f39b5e68b79451">data</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="class_q_c_p_range">QCPRange</link> <link linkend="class_q_c_p_color_map_1ae478f0a5a016420d66c70cc33d6cda1d">dataRange</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="class_q_c_p_axis_1a36d8e8658dbaa179bf2aeb973db2d6f0">QCPAxis::ScaleType</link> <link linkend="class_q_c_p_color_map_1ab796f2dccc90fb7a354b6732c33ec9be">dataScaleType</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="class_q_c_p_color_map_1a15d1877883fa463d44bfcbfd6840d4ca">interpolate</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="class_q_c_p_color_map_1a53b5d26b28d6027af0fc863f057965db">tightBoundary</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="class_q_c_p_color_gradient">QCPColorGradient</link> <link linkend="class_q_c_p_color_map_1acc4bb87c903607b96c08d2bc34bc24cd">gradient</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="class_q_c_p_color_scale">QCPColorScale</link> * <link linkend="class_q_c_p_color_map_1a9d37d08c467ac645b86fc71a3b151208">colorScale</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_color_map_1a5a23e133a20c4ccad35fd32e6c0f9809">setData</link> (
+<link linkend="class_q_c_p_color_map_data">QCPColorMapData</link> * data, bool copy)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>Q_SLOT void <link linkend="class_q_c_p_color_map_1a980b42837821159786a85b4b7dcb8774">setDataRange</link> (
+const <link linkend="class_q_c_p_range">QCPRange</link> &amp; dataRange)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>Q_SLOT void <link linkend="class_q_c_p_color_map_1a9d20aa08e3c1f20f22908c45b9c06511">setDataScaleType</link> (
+<link linkend="class_q_c_p_axis_1a36d8e8658dbaa179bf2aeb973db2d6f0">QCPAxis::ScaleType</link> scaleType)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>Q_SLOT void <link linkend="class_q_c_p_color_map_1a7313c78360471cead3576341a2c50377">setGradient</link> (
+const <link linkend="class_q_c_p_color_gradient">QCPColorGradient</link> &amp; gradient)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_color_map_1a484eaa8a5065cfc386b15375bf98b964">setInterpolate</link> (
+bool enabled)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_color_map_1ad03221cc285e5f562a0b13d684b5576d">setTightBoundary</link> (
+bool enabled)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_color_map_1aa828921db364fe3c6af4619580ab85fd">setColorScale</link> (
+<link linkend="class_q_c_p_color_scale">QCPColorScale</link> * colorScale)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_color_map_1a856608fa3dd1cc290bcd5f29a5575774">rescaleDataRange</link> (
+bool recalculateDataBounds)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>Q_SLOT void <link linkend="class_q_c_p_color_map_1a5d8158b62d55fcfeaabcb68ce0083e87">updateLegendIcon</link> (
+Qt::TransformationMode transformMode, const QSize &amp; thumbSize)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual double <link linkend="class_q_c_p_color_map_1afb4b843596addf58096082827a9e3450">selectTest</link> (
+const QPointF &amp; pos, bool onlySelectable, QVariant * details)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual <link linkend="class_q_c_p_range">QCPRange</link> <link linkend="class_q_c_p_color_map_1a985861974560f950af6cb7fae8c46267">getKeyRange</link> (
+bool &amp; foundRange, <link linkend="namespace_q_c_p_1afd50e7cf431af385614987d8553ff8a9">QCP::SignDomain</link> inSignDomain)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual <link linkend="class_q_c_p_range">QCPRange</link> <link linkend="class_q_c_p_color_map_1a88134493aaf6b297af34eaab65264fff">getValueRange</link> (
+bool &amp; foundRange, <link linkend="namespace_q_c_p_1afd50e7cf431af385614987d8553ff8a9">QCP::SignDomain</link> inSignDomain, const <link linkend="class_q_c_p_range">QCPRange</link> &amp; inKeyRange)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="class_q_c_p_color_map_1a5efcea591bb5486d968af520a4d43c3a">updateMapImage</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="class_q_c_p_color_map_1a6b628014d2939368935efd0a788648c8">draw</link> (
+<link linkend="class_q_c_p_painter">QCPPainter</link> * painter)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="class_q_c_p_color_map_1adeaa5e262a03b7f021bd1aa6f1e60ce9">drawLegendIcon</link> (
+<link linkend="class_q_c_p_painter">QCPPainter</link> * painter, const QRectF &amp; rect)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+    <simplesect>
+
+<para>A plottable representing a two-dimensional color map in a plot. </para>
+    </simplesect>
+        <simplesect>
+            <title>Detailed Description</title>
+
+<para></para>
+
+<para>The data is stored in the class <link linkend="class_q_c_p_color_map_data">QCPColorMapData</link>, which can be accessed via the <link linkend="class_q_c_p_color_map_1a047d7eb3ae657f93f2f39b5e68b79451">data()</link> method.</para>
+
+<para>A color map has three dimensions to represent a data point: The <emphasis>key</emphasis> dimension, the <emphasis>value</emphasis> dimension and the <emphasis>data</emphasis> dimension. As with other plottables such as graphs, <emphasis>key</emphasis> and <emphasis>value</emphasis> correspond to two orthogonal axes on the <link linkend="class_q_custom_plot">QCustomPlot</link> surface that you specify in the <link linkend="class_q_c_p_color_map">QCPColorMap</link> constructor. The <emphasis>data</emphasis> dimension however is encoded as the color of the point at (<emphasis>key</emphasis>, <emphasis>value</emphasis>).</para>
+
+<para>Set the number of points (or <emphasis>cells</emphasis>) in the key/value dimension via <link linkend="class_q_c_p_color_map_data_1a0d9ff35c299d0478b682bfbcdd9c097e">QCPColorMapData::setSize</link>. The plot coordinate range over which these points will be displayed is specified via <link linkend="class_q_c_p_color_map_data_1aad9c1c7c703c1339489fc730517c83d4">QCPColorMapData::setRange</link>. The first cell will be centered on the lower range boundary and the last cell will be centered on the upper range boundary. The data can be set by either accessing the cells directly with <link linkend="class_q_c_p_color_map_data_1a8e75eaf8746596319032a93f3d2d0683">QCPColorMapData::setCell</link> or by addressing the cells via their plot coordinates with <link linkend="class_q_c_p_color_map_data_1afd2083ccfd6987ec94aa7ef8e91ca39a">QCPColorMapData::setData</link>. If possible, you should prefer setCell, since it doesn&apos;t need to do any coordinate transformation and thus performs a bit better.</para>
+
+<para>The cell with index (0, 0) is at the bottom left, if the color map uses normal (i.e. not reversed) key and value axes.</para>
+
+<para>To show the user which colors correspond to which <emphasis>data</emphasis> values, a <link linkend="class_q_c_p_color_scale">QCPColorScale</link> is typically placed to the right of the axis rect. See the documentation there for details on how to add and use a color scale.</para>
+<section xml:id="class_q_c_p_color_map_1qcpcolormap-appearance">
+<title>Changing the appearance</title>
+
+<para>The central part of the appearance is the color gradient, which can be specified via <link linkend="class_q_c_p_color_map_1a7313c78360471cead3576341a2c50377">setGradient</link>. See the documentation of <link linkend="class_q_c_p_color_gradient">QCPColorGradient</link> for details on configuring a color gradient.</para>
+
+<para>The <emphasis>data</emphasis> range that is mapped to the colors of the gradient can be specified with <link linkend="class_q_c_p_color_map_1a980b42837821159786a85b4b7dcb8774">setDataRange</link>. To make the data range encompass the whole data set minimum to maximum, call <link linkend="class_q_c_p_color_map_1a856608fa3dd1cc290bcd5f29a5575774">rescaleDataRange</link>.</para>
+</section>
+<section xml:id="class_q_c_p_color_map_1qcpcolormap-transparency">
+<title>Transparency</title>
+
+<para>Transparency in color maps can be achieved by two mechanisms. On one hand, you can specify alpha values for color stops of the <link linkend="class_q_c_p_color_gradient">QCPColorGradient</link>, via the regular QColor interface. This will cause the color map data which gets mapped to colors around those color stops to appear with the accordingly interpolated transparency.</para>
+
+<para>On the other hand you can also directly apply an alpha value to each cell independent of its data, by using the alpha map feature of <link linkend="class_q_c_p_color_map_data">QCPColorMapData</link>. The relevant methods are <link linkend="class_q_c_p_color_map_data_1aaf7de5b34c58f38d8f4c1ceb064a876c">QCPColorMapData::setAlpha</link>, <link linkend="class_q_c_p_color_map_data_1a93e2a549d7702bc849cd48a585294657">QCPColorMapData::fillAlpha</link> and <link linkend="class_q_c_p_color_map_data_1a14d08b9c3720cd719400079b86d3906b">QCPColorMapData::clearAlpha()</link>.</para>
+
+<para>The two transparencies will be joined together in the plot and otherwise not interfere with each other. They are mixed in a multiplicative matter, so an alpha of e.g. 50% (128/255) in both modes simultaneously, will result in a total transparency of 25% (64/255).</para>
+</section>
+<section xml:id="class_q_c_p_color_map_1qcpcolormap-usage">
+<title>Usage</title>
+
+<para>Like all data representing objects in <link linkend="class_q_custom_plot">QCustomPlot</link>, the <link linkend="class_q_c_p_color_map">QCPColorMap</link> is a plottable (<link linkend="class_q_c_p_abstract_plottable">QCPAbstractPlottable</link>). So the plottable-interface of <link linkend="class_q_custom_plot">QCustomPlot</link> applies (<link linkend="class_q_custom_plot_1a32de81ff53e263e785b83b52ecd99d6f">QCustomPlot::plottable</link>, <link linkend="class_q_custom_plot_1af3dafd56884208474f311d6226513ab2">QCustomPlot::removePlottable</link>, etc.)</para>
+
+<para>Usually, you first create an instance: <literallayout><computeroutput></computeroutput></literallayout>which registers it with the <link linkend="class_q_custom_plot">QCustomPlot</link> instance of the passed axes. Note that this <link linkend="class_q_custom_plot">QCustomPlot</link> instance takes ownership of the plottable, so do not delete it manually but use <link linkend="class_q_custom_plot_1af3dafd56884208474f311d6226513ab2">QCustomPlot::removePlottable()</link> instead. The newly created plottable can be modified, e.g.: <literallayout><computeroutput></computeroutput></literallayout> <formalpara><title>Note: </title>
+
+<para>The <link linkend="class_q_c_p_color_map">QCPColorMap</link> always displays the data at equal key/value intervals, even if the key or value axis is set to a logarithmic scaling. If you want to use <link linkend="class_q_c_p_color_map">QCPColorMap</link> with logarithmic axes, you shouldn&apos;t use the <link linkend="class_q_c_p_color_map_data_1afd2083ccfd6987ec94aa7ef8e91ca39a">QCPColorMapData::setData</link> method as it uses a linear transformation to determine the cell index. Rather directly access the cell index with <link linkend="class_q_c_p_color_map_data_1a8e75eaf8746596319032a93f3d2d0683">QCPColorMapData::setCell</link>. </para>
+</formalpara>
+</para>
+</section>
+                <para>Definition at line 5738 of file qcustomplot.h</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>qcustomplot.h</para></listitem></itemizedlist></para>
+        </simplesect>
+        <section>
+            <title>Member Data Documentation</title>
+        </section>
+            <section xml:id="class_q_c_p_color_map_1aa37e976d2ee1e2be6c4cd88a64b36215">
+                <title>QCPColorMap::QCPColorMap (QCPAxis *keyAxis, QCPAxis *valueAxis)</title> <emphasis></emphasis>
+                
+<para>Constructs a color map with the specified <emphasis>keyAxis</emphasis> and <emphasis>valueAxis</emphasis>.</para>
+
+<para>The created <link linkend="class_q_c_p_color_map">QCPColorMap</link> is automatically registered with the <link linkend="class_q_custom_plot">QCustomPlot</link> instance inferred from <emphasis>keyAxis</emphasis>. This <link linkend="class_q_custom_plot">QCustomPlot</link> instance takes ownership of the <link linkend="class_q_c_p_color_map">QCPColorMap</link>, so do not delete it manually but use <link linkend="class_q_custom_plot_1af3dafd56884208474f311d6226513ab2">QCustomPlot::removePlottable()</link> instead. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_color_map_1ac8a952a40fed62dcee33405b0f4d47ad">
+                <title>QCPColorMap::~QCPColorMap ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_color_map_1a047d7eb3ae657f93f2f39b5e68b79451">
+                <title>QCPColorMapData * QCPColorMap::data () const</title> <emphasis></emphasis>
+                
+<para>Returns a pointer to the internal data storage of type <link linkend="class_q_c_p_color_map_data">QCPColorMapData</link>. Access this to modify data points (cells) and the color map key/value range.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_color_map_1a5a23e133a20c4ccad35fd32e6c0f9809">setData</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_color_map_1ae478f0a5a016420d66c70cc33d6cda1d">
+                <title>QCPRange QCPColorMap::dataRange () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_color_map_1ab796f2dccc90fb7a354b6732c33ec9be">
+                <title>QCPAxis::ScaleType QCPColorMap::dataScaleType () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_color_map_1a15d1877883fa463d44bfcbfd6840d4ca">
+                <title>bool QCPColorMap::interpolate () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_color_map_1a53b5d26b28d6027af0fc863f057965db">
+                <title>bool QCPColorMap::tightBoundary () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_color_map_1acc4bb87c903607b96c08d2bc34bc24cd">
+                <title>QCPColorGradient QCPColorMap::gradient () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_color_map_1a9d37d08c467ac645b86fc71a3b151208">
+                <title>QCPColorScale* QCPColorMap::colorScale () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_color_map_1a5a23e133a20c4ccad35fd32e6c0f9809">
+                <title>void QCPColorMap::setData (QCPColorMapData *data, bool copy=false)</title> <emphasis></emphasis>
+                
+<para>Replaces the current <link linkend="class_q_c_p_color_map_1a047d7eb3ae657f93f2f39b5e68b79451">data</link> with the provided <emphasis>data</emphasis>.</para>
+
+<para>If <emphasis>copy</emphasis> is set to true, the <emphasis>data</emphasis> object will only be copied. if false, the color map takes ownership of the passed data and replaces the internal data pointer with it. This is significantly faster than copying for large datasets. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_color_map_1a980b42837821159786a85b4b7dcb8774">
+                <title>void QCPColorMap::setDataRange (const QCPRange &amp;dataRange)</title> <emphasis></emphasis>
+                
+<para>Sets the data range of this color map to <emphasis>dataRange</emphasis>. The data range defines which data values are mapped to the color gradient.</para>
+
+<para>To make the data range span the full range of the data set, use <link linkend="class_q_c_p_color_map_1a856608fa3dd1cc290bcd5f29a5575774">rescaleDataRange</link>.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_color_scale_1abe88633003a26d1e756aa74984587fef">QCPColorScale::setDataRange</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_color_map_1a9d20aa08e3c1f20f22908c45b9c06511">
+                <title>void QCPColorMap::setDataScaleType (QCPAxis::ScaleType scaleType)</title> <emphasis></emphasis>
+                
+<para>Sets whether the data is correlated with the color gradient linearly or logarithmically.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_color_scale_1aeb6107d67dd7325145b2498abae67fc3">QCPColorScale::setDataScaleType</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_color_map_1a7313c78360471cead3576341a2c50377">
+                <title>void QCPColorMap::setGradient (const QCPColorGradient &amp;gradient)</title> <emphasis></emphasis>
+                
+<para>Sets the color gradient that is used to represent the data. For more details on how to create an own gradient or use one of the preset gradients, see <link linkend="class_q_c_p_color_gradient">QCPColorGradient</link>.</para>
+
+<para>The colors defined by the gradient will be used to represent data values in the currently set data range, see <link linkend="class_q_c_p_color_map_1a980b42837821159786a85b4b7dcb8774">setDataRange</link>. Data points that are outside this data range will either be colored uniformly with the respective gradient boundary color, or the gradient will repeat, depending on <link linkend="class_q_c_p_color_gradient_1a39d6448155fc00a219f239220d14bb39">QCPColorGradient::setPeriodic</link>.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_color_scale_1a1f29583bb6f1e7f473b62fb712be3940">QCPColorScale::setGradient</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_color_map_1a484eaa8a5065cfc386b15375bf98b964">
+                <title>void QCPColorMap::setInterpolate (bool enabled)</title> <emphasis></emphasis>
+                
+<para>Sets whether the color map image shall use bicubic interpolation when displaying the color map shrinked or expanded, and not at a 1:1 pixel-to-data scale.</para>
+
+<para></para>
+
+            </section>
+            <section xml:id="class_q_c_p_color_map_1ad03221cc285e5f562a0b13d684b5576d">
+                <title>void QCPColorMap::setTightBoundary (bool enabled)</title> <emphasis></emphasis>
+                
+<para>Sets whether the outer most data rows and columns are clipped to the specified key and value range (see <link linkend="class_q_c_p_color_map_data_1a0738c485f3c9df9ea1241b7a8bb6a86e">QCPColorMapData::setKeyRange</link>, <link linkend="class_q_c_p_color_map_data_1ada1b2680ba96a5f4175b6d341cf75d23">QCPColorMapData::setValueRange</link>).</para>
+
+<para>if <emphasis>enabled</emphasis> is set to false, the data points at the border of the color map are drawn with the same width and height as all other data points. Since the data points are represented by rectangles of one color centered on the data coordinate, this means that the shown color map extends by half a data point over the specified key/value range in each direction.</para>
+
+<para></para>
+
+            </section>
+            <section xml:id="class_q_c_p_color_map_1aa828921db364fe3c6af4619580ab85fd">
+                <title>void QCPColorMap::setColorScale (QCPColorScale *colorScale)</title> <emphasis></emphasis>
+                
+<para>Associates the color scale <emphasis>colorScale</emphasis> with this color map.</para>
+
+<para>This means that both the color scale and the color map synchronize their gradient, data range and data scale type (<link linkend="class_q_c_p_color_map_1a7313c78360471cead3576341a2c50377">setGradient</link>, <link linkend="class_q_c_p_color_map_1a980b42837821159786a85b4b7dcb8774">setDataRange</link>, <link linkend="class_q_c_p_color_map_1a9d20aa08e3c1f20f22908c45b9c06511">setDataScaleType</link>). Multiple color maps can be associated with one single color scale. This causes the color maps to also synchronize those properties, via the mutual color scale.</para>
+
+<para>This function causes the color map to adopt the current color gradient, data range and data scale type of <emphasis>colorScale</emphasis>. After this call, you may change these properties at either the color map or the color scale, and the setting will be applied to both.</para>
+
+<para>Pass 0 as <emphasis>colorScale</emphasis> to disconnect the color scale from this color map again. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_color_map_1a856608fa3dd1cc290bcd5f29a5575774">
+                <title>void QCPColorMap::rescaleDataRange (bool recalculateDataBounds=false)</title> <emphasis></emphasis>
+                
+<para>Sets the data range (<link linkend="class_q_c_p_color_map_1a980b42837821159786a85b4b7dcb8774">setDataRange</link>) to span the minimum and maximum values that occur in the current data set. This corresponds to the <link linkend="class_q_c_p_abstract_plottable_1ae96b83c961e257da116c6acf9c7da308">rescaleKeyAxis</link> or <link linkend="class_q_c_p_abstract_plottable_1a714eaf36b12434cd71846215504db82e">rescaleValueAxis</link> methods, only for the third data dimension of the color map.</para>
+
+<para>The minimum and maximum values of the data set are buffered in the internal <link linkend="class_q_c_p_color_map_data">QCPColorMapData</link> instance (<link linkend="class_q_c_p_color_map_1a047d7eb3ae657f93f2f39b5e68b79451">data</link>). As data is updated via its <link linkend="class_q_c_p_color_map_data_1a8e75eaf8746596319032a93f3d2d0683">QCPColorMapData::setCell</link> or <link linkend="class_q_c_p_color_map_data_1afd2083ccfd6987ec94aa7ef8e91ca39a">QCPColorMapData::setData</link>, the buffered minimum and maximum values are updated, too. For performance reasons, however, they are only updated in an expanding fashion. So the buffered maximum can only increase and the buffered minimum can only decrease. In consequence, changes to the data that actually lower the maximum of the data set (by overwriting the cell holding the current maximum with a smaller value), aren&apos;t recognized and the buffered maximum overestimates the true maximum of the data set. The same happens for the buffered minimum. To recalculate the true minimum and maximum by explicitly looking at each cell, the method <link linkend="class_q_c_p_color_map_data_1ab235ade8a4d64bd3adb26a99b3dd57ee">QCPColorMapData::recalculateDataBounds</link> can be used. For convenience, setting the parameter <emphasis>recalculateDataBounds</emphasis> calls this method before setting the data range to the buffered minimum and maximum.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_color_map_1a980b42837821159786a85b4b7dcb8774">setDataRange</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_color_map_1a5d8158b62d55fcfeaabcb68ce0083e87">
+                <title>void QCPColorMap::updateLegendIcon (Qt::TransformationMode transformMode=Qt::SmoothTransformation, const QSize &amp;thumbSize=QSize(32, 18))</title> <emphasis></emphasis>
+                
+<para>Takes the current appearance of the color map and updates the legend icon, which is used to represent this color map in the legend (see <link linkend="class_q_c_p_legend">QCPLegend</link>).</para>
+
+<para>The <emphasis>transformMode</emphasis> specifies whether the rescaling is done by a faster, low quality image scaling algorithm (Qt::FastTransformation) or by a slower, higher quality algorithm (Qt::SmoothTransformation).</para>
+
+<para>The current color map appearance is scaled down to <emphasis>thumbSize</emphasis>. Ideally, this should be equal to the size of the legend icon (see <link linkend="class_q_c_p_legend_1a8b0740cce488bf7010da6beda6898984">QCPLegend::setIconSize</link>). If it isn&apos;t exactly the configured legend icon size, the thumb will be rescaled during drawing of the legend item.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_color_map_1a980b42837821159786a85b4b7dcb8774">setDataRange</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_color_map_1afb4b843596addf58096082827a9e3450">
+                <title>double QCPColorMap::selectTest (const QPointF &amp;pos, bool onlySelectable, QVariant *details=0) const Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+<para>This function is used to decide whether a click hits a layerable object or not.</para>
+
+<para><emphasis>pos</emphasis> is a point in pixel coordinates on the <link linkend="class_q_custom_plot">QCustomPlot</link> surface. This function returns the shortest pixel distance of this point to the object. If the object is either invisible or the distance couldn&apos;t be determined, -1.0 is returned. Further, if <emphasis>onlySelectable</emphasis> is true and the object is not selectable, -1.0 is returned, too.</para>
+
+<para>If the object is represented not by single lines but by an area like a <link linkend="class_q_c_p_item_text">QCPItemText</link> or the bars of a <link linkend="class_q_c_p_bars">QCPBars</link> plottable, a click inside the area should also be considered a hit. In these cases this function thus returns a constant value greater zero but still below the parent plot&apos;s selection tolerance. (typically the selectionTolerance multiplied by 0.99).</para>
+
+<para>Providing a constant value for area objects allows selecting line objects even when they are obscured by such area objects, by clicking close to the lines (i.e. closer than 0.99*selectionTolerance).</para>
+
+<para>The actual setting of the selection state is not done by this function. This is handled by the parent <link linkend="class_q_custom_plot">QCustomPlot</link> when the mouseReleaseEvent occurs, and the finally selected object is notified via the <link linkend="class_q_c_p_abstract_plottable_1a2d488568cf16600dd81fa23d7d439829">selectEvent</link>/<link linkend="class_q_c_p_abstract_plottable_1a9b104d9da4f38f934363945c313bf82e">deselectEvent</link> methods.</para>
+
+<para><emphasis>details</emphasis> is an optional output parameter. Every layerable subclass may place any information in <emphasis>details</emphasis>. This information will be passed to <link linkend="class_q_c_p_abstract_plottable_1a2d488568cf16600dd81fa23d7d439829">selectEvent</link> when the parent <link linkend="class_q_custom_plot">QCustomPlot</link> decides on the basis of this selectTest call, that the object was successfully selected. The subsequent call to <link linkend="class_q_c_p_abstract_plottable_1a2d488568cf16600dd81fa23d7d439829">selectEvent</link> will carry the <emphasis>details</emphasis>. This is useful for multi-part objects (like <link linkend="class_q_c_p_axis">QCPAxis</link>). This way, a possibly complex calculation to decide which part was clicked is only done once in <link linkend="class_q_c_p_color_map_1afb4b843596addf58096082827a9e3450">selectTest</link>. The result (i.e. the actually clicked part) can then be placed in <emphasis>details</emphasis>. So in the subsequent <link linkend="class_q_c_p_abstract_plottable_1a2d488568cf16600dd81fa23d7d439829">selectEvent</link>, the decision which part was selected doesn&apos;t have to be done a second time for a single selection operation.</para>
+
+<para>You may pass 0 as <emphasis>details</emphasis> to indicate that you are not interested in those selection details.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_abstract_plottable_1a2d488568cf16600dd81fa23d7d439829">selectEvent</link>, <link linkend="class_q_c_p_abstract_plottable_1a9b104d9da4f38f934363945c313bf82e">deselectEvent</link>, <link linkend="class_q_c_p_layerable_1af6567604818db90f4fd52822f8bc8376">mousePressEvent</link>, <link linkend="class_q_c_p_layerable_1a47dfd7b8fd99c08ca54e09c362b6f022">wheelEvent</link>, <link linkend="class_q_custom_plot_1a5ee1e2f6ae27419deca53e75907c27e5">QCustomPlot::setInteractions</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_color_map_1a985861974560f950af6cb7fae8c46267">
+                <title>QCPRange QCPColorMap::getKeyRange (bool &amp;foundRange, QCP::SignDomain inSignDomain=QCP::sdBoth) const Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+<para>Returns the coordinate range that all data in this plottable span in the key axis dimension. For logarithmic plots, one can set <emphasis>inSignDomain</emphasis> to either <link linkend="namespace_q_c_p_1afd50e7cf431af385614987d8553ff8a9a2d18af0bc58f6528d1e82ce699fe4829">QCP::sdNegative</link> or <link linkend="namespace_q_c_p_1afd50e7cf431af385614987d8553ff8a9a584784b75fb816abcc627cf743bb699f">QCP::sdPositive</link> in order to restrict the returned range to that sign domain. E.g. when only negative range is wanted, set <emphasis>inSignDomain</emphasis> to <link linkend="namespace_q_c_p_1afd50e7cf431af385614987d8553ff8a9a2d18af0bc58f6528d1e82ce699fe4829">QCP::sdNegative</link> and all positive points will be ignored for range calculation. For no restriction, just set <emphasis>inSignDomain</emphasis> to <link linkend="namespace_q_c_p_1afd50e7cf431af385614987d8553ff8a9aa38352ef02d51ddfa4399d9551566e24">QCP::sdBoth</link> (default). <emphasis>foundRange</emphasis> is an output parameter that indicates whether a range could be found or not. If this is false, you shouldn&apos;t use the returned range (e.g. no points in data).</para>
+
+<para>Note that <emphasis>foundRange</emphasis> is not the same as <link linkend="class_q_c_p_range_1ab38bd4841c77c7bb86c9eea0f142dcc0">QCPRange::validRange</link>, since the range returned by this function may have size zero (e.g. when there is only one data point). In this case <emphasis>foundRange</emphasis> would return true, but the returned range is not a valid range in terms of <link linkend="class_q_c_p_range_1ab38bd4841c77c7bb86c9eea0f142dcc0">QCPRange::validRange</link>.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_abstract_plottable_1a1491c4a606bccd2d09e65e11b79eb882">rescaleAxes</link>, <link linkend="class_q_c_p_color_map_1a88134493aaf6b297af34eaab65264fff">getValueRange</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_color_map_1a88134493aaf6b297af34eaab65264fff">
+                <title>QCPRange QCPColorMap::getValueRange (bool &amp;foundRange, QCP::SignDomain inSignDomain=QCP::sdBoth, const QCPRange &amp;inKeyRange=QCPRange()) const Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+<para>Returns the coordinate range that the data points in the specified key range (<emphasis>inKeyRange</emphasis>) span in the value axis dimension. For logarithmic plots, one can set <emphasis>inSignDomain</emphasis> to either <link linkend="namespace_q_c_p_1afd50e7cf431af385614987d8553ff8a9a2d18af0bc58f6528d1e82ce699fe4829">QCP::sdNegative</link> or <link linkend="namespace_q_c_p_1afd50e7cf431af385614987d8553ff8a9a584784b75fb816abcc627cf743bb699f">QCP::sdPositive</link> in order to restrict the returned range to that sign domain. E.g. when only negative range is wanted, set <emphasis>inSignDomain</emphasis> to <link linkend="namespace_q_c_p_1afd50e7cf431af385614987d8553ff8a9a2d18af0bc58f6528d1e82ce699fe4829">QCP::sdNegative</link> and all positive points will be ignored for range calculation. For no restriction, just set <emphasis>inSignDomain</emphasis> to <link linkend="namespace_q_c_p_1afd50e7cf431af385614987d8553ff8a9aa38352ef02d51ddfa4399d9551566e24">QCP::sdBoth</link> (default). <emphasis>foundRange</emphasis> is an output parameter that indicates whether a range could be found or not. If this is false, you shouldn&apos;t use the returned range (e.g. no points in data).</para>
+
+<para>If <emphasis>inKeyRange</emphasis> has both lower and upper bound set to zero (is equal to <computeroutput><link linkend="class_q_c_p_range">QCPRange()</link></computeroutput>), all data points are considered, without any restriction on the keys.</para>
+
+<para>Note that <emphasis>foundRange</emphasis> is not the same as <link linkend="class_q_c_p_range_1ab38bd4841c77c7bb86c9eea0f142dcc0">QCPRange::validRange</link>, since the range returned by this function may have size zero (e.g. when there is only one data point). In this case <emphasis>foundRange</emphasis> would return true, but the returned range is not a valid range in terms of <link linkend="class_q_c_p_range_1ab38bd4841c77c7bb86c9eea0f142dcc0">QCPRange::validRange</link>.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_abstract_plottable_1a1491c4a606bccd2d09e65e11b79eb882">rescaleAxes</link>, <link linkend="class_q_c_p_color_map_1a985861974560f950af6cb7fae8c46267">getKeyRange</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_color_map_1a5efcea591bb5486d968af520a4d43c3a">
+                <title>void QCPColorMap::updateMapImage ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_color_map_1a6b628014d2939368935efd0a788648c8">
+                <title>void QCPColorMap::draw (QCPPainter *painter) Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_color_map_1adeaa5e262a03b7f021bd1aa6f1e60ce9">
+                <title>void QCPColorMap::drawLegendIcon (QCPPainter *painter, const QRectF &amp;rect) const Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+            </section>
+</section>

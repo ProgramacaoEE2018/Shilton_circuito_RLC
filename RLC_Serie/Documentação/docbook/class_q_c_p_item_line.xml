@@ -1,0 +1,333 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="class_q_c_p_item_line">
+<title>QCPItemLine class Reference</title>
+<para>
+    <programlisting>#include <link linkend="qcustomplot_8h">&lt;qcustomplot.h&gt;</link></programlisting>
+</para>
+<para>Inheritance diagram for QCPItemLine</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_q_c_p_item_line__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for QCPItemLine</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_q_c_p_item_line__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title>Public Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QCPItemPosition *const start</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QCPItemPosition *const end</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title>Protected Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPen mPen</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPen mSelectedPen</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QCPLineEnding mHead</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QCPLineEnding mTail</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="class_q_c_p_item_line_1a17804b7f64961c6accf25b61e85142e3">QCPItemLine</link> (
+<link linkend="class_q_custom_plot">QCustomPlot</link> * parentPlot)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual <link linkend="class_q_c_p_item_line_1a94b5aaae048171e5306dc4695b991283">~QCPItemLine</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPen <link linkend="class_q_c_p_item_line_1a712e5a7f59db3f4c588dfc370a63e225">pen</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPen <link linkend="class_q_c_p_item_line_1ae1782c4fbecd38054ec3d49d8572a5e5">selectedPen</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="class_q_c_p_line_ending">QCPLineEnding</link> <link linkend="class_q_c_p_item_line_1a6cdc9e87e17418d4b0e66eaa0f041407">head</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="class_q_c_p_line_ending">QCPLineEnding</link> <link linkend="class_q_c_p_item_line_1ac085d3939ec11d7a4d592dc2ed578360">tail</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_item_line_1a572528dab61c1abe205822fbd5db4b27">setPen</link> (
+const QPen &amp; pen)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_item_line_1a3e2fec44503277e77717e9c24f87f1ea">setSelectedPen</link> (
+const QPen &amp; pen)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_item_line_1aebf3d687114d584e0459db6759e2c3c3">setHead</link> (
+const <link linkend="class_q_c_p_line_ending">QCPLineEnding</link> &amp; head)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_item_line_1ac264222c3297a7efe33df9345c811a5f">setTail</link> (
+const <link linkend="class_q_c_p_line_ending">QCPLineEnding</link> &amp; tail)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual double <link linkend="class_q_c_p_item_line_1a8e02bfbca04fbcf3dbc375a2bf693229">selectTest</link> (
+const QPointF &amp; pos, bool onlySelectable, QVariant * details)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="class_q_c_p_item_line_1ae184140b61b2ef5b8edde76304447200">draw</link> (
+<link linkend="class_q_c_p_painter">QCPPainter</link> * painter)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QLineF <link linkend="class_q_c_p_item_line_1a7b00a1d82be8b961461cc4039acd12a3">getRectClippedLine</link> (
+const <link linkend="class_q_c_p_vector2_d">QCPVector2D</link> &amp; start, const <link linkend="class_q_c_p_vector2_d">QCPVector2D</link> &amp; end, const QRect &amp; rect)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPen <link linkend="class_q_c_p_item_line_1af8b5370462515b279578d8b4a57bd3b4">mainPen</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+    <simplesect>
+
+<para>A line from one point to another. </para>
+    </simplesect>
+        <simplesect>
+            <title>Detailed Description</title>
+
+<para> It has two positions, <emphasis>start</emphasis> and <emphasis>end</emphasis>, which define the end points of the line.</para>
+
+<para>With <link linkend="class_q_c_p_item_line_1aebf3d687114d584e0459db6759e2c3c3">setHead</link> and <link linkend="class_q_c_p_item_line_1ac264222c3297a7efe33df9345c811a5f">setTail</link> you may set different line ending styles, e.g. to create an arrow. </para>
+                <para>Definition at line 6124 of file qcustomplot.h</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>qcustomplot.h</para></listitem></itemizedlist></para>
+        </simplesect>
+        <section>
+            <title>Member Data Documentation</title>
+        </section>
+        <section>
+            <title>Member Data Documentation</title>
+        </section>
+            <section xml:id="class_q_c_p_item_line_1a17804b7f64961c6accf25b61e85142e3">
+                <title>QCPItemLine::QCPItemLine (QCustomPlot *parentPlot)</title> <emphasis></emphasis>
+                
+<para>Creates a line item and sets default values.</para>
+
+<para>The created item is automatically registered with <emphasis>parentPlot</emphasis>. This <link linkend="class_q_custom_plot">QCustomPlot</link> instance takes ownership of the item, so do not delete it manually but use <link linkend="class_q_custom_plot_1ae04446557292551e8fb6e2c106e1848d">QCustomPlot::removeItem()</link> instead. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_item_line_1a94b5aaae048171e5306dc4695b991283">
+                <title>QCPItemLine::~QCPItemLine ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_item_line_1a712e5a7f59db3f4c588dfc370a63e225">
+                <title>QPen QCPItemLine::pen () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_item_line_1ae1782c4fbecd38054ec3d49d8572a5e5">
+                <title>QPen QCPItemLine::selectedPen () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_item_line_1a6cdc9e87e17418d4b0e66eaa0f041407">
+                <title>QCPLineEnding QCPItemLine::head () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_item_line_1ac085d3939ec11d7a4d592dc2ed578360">
+                <title>QCPLineEnding QCPItemLine::tail () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_item_line_1a572528dab61c1abe205822fbd5db4b27">
+                <title>void QCPItemLine::setPen (const QPen &amp;pen)</title> <emphasis></emphasis>
+                
+<para>Sets the pen that will be used to draw the line</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_item_line_1a3e2fec44503277e77717e9c24f87f1ea">setSelectedPen</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_item_line_1a3e2fec44503277e77717e9c24f87f1ea">
+                <title>void QCPItemLine::setSelectedPen (const QPen &amp;pen)</title> <emphasis></emphasis>
+                
+<para>Sets the pen that will be used to draw the line when selected</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_item_line_1a572528dab61c1abe205822fbd5db4b27">setPen</link>, <link linkend="class_q_c_p_abstract_item_1a203de94ad586cc44d16c9565f49d3378">setSelected</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_item_line_1aebf3d687114d584e0459db6759e2c3c3">
+                <title>void QCPItemLine::setHead (const QCPLineEnding &amp;head)</title> <emphasis></emphasis>
+                
+<para>Sets the line ending style of the head. The head corresponds to the <emphasis>end</emphasis> position.</para>
+
+<para>Note that due to the overloaded <link linkend="class_q_c_p_line_ending">QCPLineEnding</link> constructor, you may directly specify a <link linkend="class_q_c_p_line_ending_1a5ef16e6876b4b74959c7261d8d4c2cd5">QCPLineEnding::EndingStyle</link> here, e.g.<literallayout><computeroutput>setHead(QCPLineEnding::esSpikeArrow)&#32;
+</computeroutput></literallayout></para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_item_line_1ac264222c3297a7efe33df9345c811a5f">setTail</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_item_line_1ac264222c3297a7efe33df9345c811a5f">
+                <title>void QCPItemLine::setTail (const QCPLineEnding &amp;tail)</title> <emphasis></emphasis>
+                
+<para>Sets the line ending style of the tail. The tail corresponds to the <emphasis>start</emphasis> position.</para>
+
+<para>Note that due to the overloaded <link linkend="class_q_c_p_line_ending">QCPLineEnding</link> constructor, you may directly specify a <link linkend="class_q_c_p_line_ending_1a5ef16e6876b4b74959c7261d8d4c2cd5">QCPLineEnding::EndingStyle</link> here, e.g.<literallayout><computeroutput>setTail(QCPLineEnding::esSpikeArrow)&#32;
+</computeroutput></literallayout></para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_item_line_1aebf3d687114d584e0459db6759e2c3c3">setHead</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_item_line_1a8e02bfbca04fbcf3dbc375a2bf693229">
+                <title>double QCPItemLine::selectTest (const QPointF &amp;pos, bool onlySelectable, QVariant *details=0) const Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+<para>This function is used to decide whether a click hits a layerable object or not.</para>
+
+<para><emphasis>pos</emphasis> is a point in pixel coordinates on the <link linkend="class_q_custom_plot">QCustomPlot</link> surface. This function returns the shortest pixel distance of this point to the object. If the object is either invisible or the distance couldn&apos;t be determined, -1.0 is returned. Further, if <emphasis>onlySelectable</emphasis> is true and the object is not selectable, -1.0 is returned, too.</para>
+
+<para>If the object is represented not by single lines but by an area like a <link linkend="class_q_c_p_item_text">QCPItemText</link> or the bars of a <link linkend="class_q_c_p_bars">QCPBars</link> plottable, a click inside the area should also be considered a hit. In these cases this function thus returns a constant value greater zero but still below the parent plot&apos;s selection tolerance. (typically the selectionTolerance multiplied by 0.99).</para>
+
+<para>Providing a constant value for area objects allows selecting line objects even when they are obscured by such area objects, by clicking close to the lines (i.e. closer than 0.99*selectionTolerance).</para>
+
+<para>The actual setting of the selection state is not done by this function. This is handled by the parent <link linkend="class_q_custom_plot">QCustomPlot</link> when the mouseReleaseEvent occurs, and the finally selected object is notified via the <link linkend="class_q_c_p_abstract_item_1aa4b969c58797f39c9c0b6c07c7869d17">selectEvent</link>/<link linkend="class_q_c_p_abstract_item_1af9093798cb07a861dcc73f93ca16c0c1">deselectEvent</link> methods.</para>
+
+<para><emphasis>details</emphasis> is an optional output parameter. Every layerable subclass may place any information in <emphasis>details</emphasis>. This information will be passed to <link linkend="class_q_c_p_abstract_item_1aa4b969c58797f39c9c0b6c07c7869d17">selectEvent</link> when the parent <link linkend="class_q_custom_plot">QCustomPlot</link> decides on the basis of this selectTest call, that the object was successfully selected. The subsequent call to <link linkend="class_q_c_p_abstract_item_1aa4b969c58797f39c9c0b6c07c7869d17">selectEvent</link> will carry the <emphasis>details</emphasis>. This is useful for multi-part objects (like <link linkend="class_q_c_p_axis">QCPAxis</link>). This way, a possibly complex calculation to decide which part was clicked is only done once in <link linkend="class_q_c_p_item_line_1a8e02bfbca04fbcf3dbc375a2bf693229">selectTest</link>. The result (i.e. the actually clicked part) can then be placed in <emphasis>details</emphasis>. So in the subsequent <link linkend="class_q_c_p_abstract_item_1aa4b969c58797f39c9c0b6c07c7869d17">selectEvent</link>, the decision which part was selected doesn&apos;t have to be done a second time for a single selection operation.</para>
+
+<para>You may pass 0 as <emphasis>details</emphasis> to indicate that you are not interested in those selection details.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_abstract_item_1aa4b969c58797f39c9c0b6c07c7869d17">selectEvent</link>, <link linkend="class_q_c_p_abstract_item_1af9093798cb07a861dcc73f93ca16c0c1">deselectEvent</link>, <link linkend="class_q_c_p_layerable_1af6567604818db90f4fd52822f8bc8376">mousePressEvent</link>, <link linkend="class_q_c_p_layerable_1a47dfd7b8fd99c08ca54e09c362b6f022">wheelEvent</link>, <link linkend="class_q_custom_plot_1a5ee1e2f6ae27419deca53e75907c27e5">QCustomPlot::setInteractions</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_item_line_1ae184140b61b2ef5b8edde76304447200">
+                <title>void QCPItemLine::draw (QCPPainter *painter) Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_item_line_1a7b00a1d82be8b961461cc4039acd12a3">
+                <title>QLineF QCPItemLine::getRectClippedLine (const QCPVector2D &amp;start, const QCPVector2D &amp;end, const QRect &amp;rect) const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_item_line_1af8b5370462515b279578d8b4a57bd3b4">
+                <title>QPen QCPItemLine::mainPen () const</title> <emphasis></emphasis>
+                
+            </section>
+</section>

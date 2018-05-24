@@ -1,0 +1,375 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="class_q_c_p_axis_ticker_pi">
+<title>QCPAxisTickerPi class Reference</title>
+<para>
+    <programlisting>#include <link linkend="qcustomplot_8h">&lt;qcustomplot.h&gt;</link></programlisting>
+</para>
+<para>Inheritance diagram for QCPAxisTickerPi</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_q_c_p_axis_ticker_pi__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for QCPAxisTickerPi</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_q_c_p_axis_ticker_pi__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                            <para><literallayout>enum <link linkend="class_q_c_p_axis_ticker_pi_1a262f1534c7f0c79a7d5237f5d1e2c54c">FractionStyle</link> {
+<link linkend="class_q_c_p_axis_ticker_pi_1a262f1534c7f0c79a7d5237f5d1e2c54ca00f097b669b2a0e22f508f1ae97877d8">fsFloatingPoint</link>,
+<link linkend="class_q_c_p_axis_ticker_pi_1a262f1534c7f0c79a7d5237f5d1e2c54ca05a5457e0e14cb726f623e25282066b3">fsAsciiFractions</link>,
+<link linkend="class_q_c_p_axis_ticker_pi_1a262f1534c7f0c79a7d5237f5d1e2c54ca92f38a938c8b179b23363d9993681c55">fsUnicodeFractions</link>
+}</literallayout>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title>Protected Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QString mPiSymbol</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double mPiValue</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>int mPeriodicity</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>FractionStyle mFractionStyle</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double mPiTickStep</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="class_q_c_p_axis_ticker_pi_1aa0d7b7034055927c0f0077a2d713d7d0">QCPAxisTickerPi</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QString <link linkend="class_q_c_p_axis_ticker_pi_1a2fd785cd66a6f4f969ac2eca1b08e0f2">piSymbol</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double <link linkend="class_q_c_p_axis_ticker_pi_1abddc18799caa4ae6c721e1e5e229b3a4">piValue</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="class_q_c_p_axis_ticker_pi_1aa320edf0a30386ce6a63c18050fbdfd8">periodicity</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="class_q_c_p_axis_ticker_pi_1a262f1534c7f0c79a7d5237f5d1e2c54c">FractionStyle</link> <link linkend="class_q_c_p_axis_ticker_pi_1ab532d5e838168a8a5bbafea4eafc94be">fractionStyle</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_axis_ticker_pi_1acfdcd4758a393bde4be12a50fb2017b5">setPiSymbol</link> (
+QString symbol)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_axis_ticker_pi_1a36ce0651d2ec92edd36feac1619c2468">setPiValue</link> (
+double pi)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_axis_ticker_pi_1a58f538dc01860fb56e46970e28a87f03">setPeriodicity</link> (
+int multiplesOfPi)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_axis_ticker_pi_1a760c8af6ca68178e607556c4e5049d71">setFractionStyle</link> (
+<link linkend="class_q_c_p_axis_ticker_pi_1a262f1534c7f0c79a7d5237f5d1e2c54c">FractionStyle</link> style)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual double <link linkend="class_q_c_p_axis_ticker_pi_1a55301f0072983bd2d7c131a24e1779e7">getTickStep</link> (
+const <link linkend="class_q_c_p_range">QCPRange</link> &amp; range)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual int <link linkend="class_q_c_p_axis_ticker_pi_1a56c90f870da97c8670cfae4d04ff3ac7">getSubTickCount</link> (
+double tickStep)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual QString <link linkend="class_q_c_p_axis_ticker_pi_1a9a087d931d4344b8a91d5cecceff7109">getTickLabel</link> (
+double tick, const QLocale &amp; locale, QChar formatChar, int precision)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_axis_ticker_pi_1a0e30609aed5025d331cb61671f0115d0">simplifyFraction</link> (
+int &amp; numerator, int &amp; denominator)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QString <link linkend="class_q_c_p_axis_ticker_pi_1afb59d434358173eb5b58e41255bea904">fractionToString</link> (
+int numerator, int denominator)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QString <link linkend="class_q_c_p_axis_ticker_pi_1ade6f7e49238e986e9aed74178a78d8d3">unicodeFraction</link> (
+int numerator, int denominator)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QString <link linkend="class_q_c_p_axis_ticker_pi_1a34798972670b3760d649ccfe0d0ee9a5">unicodeSuperscript</link> (
+int number)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QString <link linkend="class_q_c_p_axis_ticker_pi_1a5b3bb340adb888a30a96225e1ca23c7a">unicodeSubscript</link> (
+int number)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+    <simplesect>
+
+<para>Specialized axis ticker to display ticks in units of an arbitrary constant, for example pi. </para>
+    </simplesect>
+        <simplesect>
+            <title>Detailed Description</title>
+
+<para></para>
+
+<para>This <link linkend="class_q_c_p_axis_ticker">QCPAxisTicker</link> subclass generates ticks that are expressed with respect to a given symbolic constant with a numerical value specified with <link linkend="class_q_c_p_axis_ticker_pi_1a36ce0651d2ec92edd36feac1619c2468">setPiValue</link> and an appearance in the tick labels specified with <link linkend="class_q_c_p_axis_ticker_pi_1acfdcd4758a393bde4be12a50fb2017b5">setPiSymbol</link>.</para>
+
+<para>Ticks may be generated at fractions of the symbolic constant. How these fractions appear in the tick label can be configured with <link linkend="class_q_c_p_axis_ticker_pi_1a760c8af6ca68178e607556c4e5049d71">setFractionStyle</link>.</para>
+
+<para>The ticker can be created and assigned to an axis like this: <literallayout><computeroutput></computeroutput></literallayout></para>
+                <para>Definition at line 1769 of file qcustomplot.h</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>qcustomplot.h</para></listitem></itemizedlist></para>
+        </simplesect>
+            <section xml:id="class_q_c_p_axis_ticker_pi_1a262f1534c7f0c79a7d5237f5d1e2c54c">
+               <title>enum FractionStyle </title>
+               
+<para>Defines how fractions should be displayed in tick labels.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_axis_ticker_pi_1a760c8af6ca68178e607556c4e5049d71">setFractionStyle</link> </para>
+</formalpara>
+</para>
+
+               <formalpara>
+                    <title>Enumerator:</title>
+                    <variablelist>
+                        <varlistentry xml:id="class_q_c_p_axis_ticker_pi_1a262f1534c7f0c79a7d5237f5d1e2c54ca00f097b669b2a0e22f508f1ae97877d8">
+                            <term>fsFloatingPoint</term>
+                            <listitem>
+                                <para>Fractions are displayed as regular decimal floating point numbers, e.g. &quot;0.25&quot; or &quot;0.125&quot;.</para>
+                            </listitem>
+                        </varlistentry>
+                        <varlistentry xml:id="class_q_c_p_axis_ticker_pi_1a262f1534c7f0c79a7d5237f5d1e2c54ca05a5457e0e14cb726f623e25282066b3">
+                            <term>fsAsciiFractions</term>
+                            <listitem>
+                                <para>Fractions are written as rationals using ASCII characters only, e.g. &quot;1/4&quot; or &quot;1/8&quot;.</para>
+                            </listitem>
+                        </varlistentry>
+                        <varlistentry xml:id="class_q_c_p_axis_ticker_pi_1a262f1534c7f0c79a7d5237f5d1e2c54ca92f38a938c8b179b23363d9993681c55">
+                            <term>fsUnicodeFractions</term>
+                            <listitem>
+                                <para>Fractions are written using sub- and superscript UTF-8 digits and the fraction symbol.</para>
+                            </listitem>
+                        </varlistentry>
+                     </variablelist>
+                </formalpara>
+                <para>Definition at line 1777 of file qcustomplot.h
+                    <computeroutput><literallayout>
+{
+fsFloatingPoint, 
+fsAsciiFractions, 
+fsUnicodeFractions, 
+}FractionStyle;
+                    </literallayout></computeroutput>
+                </para>
+            </section>
+        <section>
+            <title>Member Data Documentation</title>
+        </section>
+            <section xml:id="class_q_c_p_axis_ticker_pi_1aa0d7b7034055927c0f0077a2d713d7d0">
+                <title>QCPAxisTickerPi::QCPAxisTickerPi ()</title> <emphasis></emphasis>
+                
+<para>Constructs the ticker and sets reasonable default values. Axis tickers are commonly created managed by a QSharedPointer, which then can be passed to <link linkend="class_q_c_p_axis_1a4ee03fcd2c74d05cd1a419b9af5cfbdc">QCPAxis::setTicker</link>. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_axis_ticker_pi_1a2fd785cd66a6f4f969ac2eca1b08e0f2">
+                <title>QString QCPAxisTickerPi::piSymbol () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_axis_ticker_pi_1abddc18799caa4ae6c721e1e5e229b3a4">
+                <title>double QCPAxisTickerPi::piValue () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_axis_ticker_pi_1aa320edf0a30386ce6a63c18050fbdfd8">
+                <title>bool QCPAxisTickerPi::periodicity () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_axis_ticker_pi_1ab532d5e838168a8a5bbafea4eafc94be">
+                <title>FractionStyle QCPAxisTickerPi::fractionStyle () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_axis_ticker_pi_1acfdcd4758a393bde4be12a50fb2017b5">
+                <title>void QCPAxisTickerPi::setPiSymbol (QString symbol)</title> <emphasis></emphasis>
+                
+<para>Sets how the symbol part (which is always a suffix to the number) shall appear in the axis tick label.</para>
+
+<para>If a space shall appear between the number and the symbol, make sure the space is contained in <emphasis>symbol</emphasis>. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_axis_ticker_pi_1a36ce0651d2ec92edd36feac1619c2468">
+                <title>void QCPAxisTickerPi::setPiValue (double pi)</title> <emphasis></emphasis>
+                
+<para>Sets the numerical value that the symbolic constant has.</para>
+
+<para>This will be used to place the appropriate fractions of the symbol at the respective axis coordinates. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_axis_ticker_pi_1a58f538dc01860fb56e46970e28a87f03">
+                <title>void QCPAxisTickerPi::setPeriodicity (int multiplesOfPi)</title> <emphasis></emphasis>
+                
+<para>Sets whether the axis labels shall appear periodicly and if so, at which multiplicity of the symbolic constant.</para>
+
+<para>To disable periodicity, set <emphasis>multiplesOfPi</emphasis> to zero.</para>
+
+<para>For example, an axis that identifies 0 with 2pi would set <emphasis>multiplesOfPi</emphasis> to two. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_axis_ticker_pi_1a760c8af6ca68178e607556c4e5049d71">
+                <title>void QCPAxisTickerPi::setFractionStyle (FractionStyle style)</title> <emphasis></emphasis>
+                
+<para>Sets how the numerical/fractional part preceding the symbolic constant is displayed in tick labels. See <link linkend="class_q_c_p_axis_ticker_pi_1a262f1534c7f0c79a7d5237f5d1e2c54c">FractionStyle</link> for the various options. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_axis_ticker_pi_1a55301f0072983bd2d7c131a24e1779e7">
+                <title>double QCPAxisTickerPi::getTickStep (const QCPRange &amp;range) Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_axis_ticker_pi_1a56c90f870da97c8670cfae4d04ff3ac7">
+                <title>int QCPAxisTickerPi::getSubTickCount (double tickStep) Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_axis_ticker_pi_1a9a087d931d4344b8a91d5cecceff7109">
+                <title>QString QCPAxisTickerPi::getTickLabel (double tick, const QLocale &amp;locale, QChar formatChar, int precision) Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_axis_ticker_pi_1a0e30609aed5025d331cb61671f0115d0">
+                <title>void QCPAxisTickerPi::simplifyFraction (int &amp;numerator, int &amp;denominator) const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_axis_ticker_pi_1afb59d434358173eb5b58e41255bea904">
+                <title>QString QCPAxisTickerPi::fractionToString (int numerator, int denominator) const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_axis_ticker_pi_1ade6f7e49238e986e9aed74178a78d8d3">
+                <title>QString QCPAxisTickerPi::unicodeFraction (int numerator, int denominator) const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_axis_ticker_pi_1a34798972670b3760d649ccfe0d0ee9a5">
+                <title>QString QCPAxisTickerPi::unicodeSuperscript (int number) const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_axis_ticker_pi_1a5b3bb340adb888a30a96225e1ca23c7a">
+                <title>QString QCPAxisTickerPi::unicodeSubscript (int number) const</title> <emphasis></emphasis>
+                
+            </section>
+</section>

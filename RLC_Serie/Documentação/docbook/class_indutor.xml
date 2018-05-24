@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="class_indutor">
+<title>Indutor class Reference</title>
+<para>
+    <programlisting>#include <link linkend="_classes__cirkt_8h">&lt;Classes_cirkt.h&gt;</link></programlisting>
+</para>
+<para>Inheritance diagram for Indutor</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_indutor__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for Indutor</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_indutor__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title>Private Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>float indutancia</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>complex&lt; double &gt; imp</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="class_indutor_1a0413c638b46aec5ef715866c3a1d48e2">Indutor</link> (
+float valor)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_indutor_1a79fb9e12d1f2d5242d0914c1569bde3f">set_imp</link> (
+complex&lt; double &gt; s)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>float <link linkend="class_indutor_1a1b29e4155658356cd48992dcf98488a3">get_indutor</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>complex&lt; double &gt; <link linkend="class_indutor_1a699b71c3ce697c2b15e5fee01c974cd9">get_imp</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title>Member Data Documentation</title>
+        </section>
+            <section xml:id="class_indutor_1a0413c638b46aec5ef715866c3a1d48e2">
+                <title>Indutor::Indutor (float valor)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_indutor_1a79fb9e12d1f2d5242d0914c1569bde3f">
+                <title>void Indutor::set_imp (complex&lt; double &gt; s)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_indutor_1a1b29e4155658356cd48992dcf98488a3">
+                <title>float Indutor::get_indutor ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_indutor_1a699b71c3ce697c2b15e5fee01c974cd9">
+                <title>complex&lt; double &gt; Indutor::get_imp ()</title> <emphasis></emphasis>
+                
+            </section>
+</section>

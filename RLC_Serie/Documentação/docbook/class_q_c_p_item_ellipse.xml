@@ -1,0 +1,499 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="class_q_c_p_item_ellipse">
+<title>QCPItemEllipse class Reference</title>
+<para>
+    <programlisting>#include <link linkend="qcustomplot_8h">&lt;qcustomplot.h&gt;</link></programlisting>
+</para>
+<para>Inheritance diagram for QCPItemEllipse</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_q_c_p_item_ellipse__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for QCPItemEllipse</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_q_c_p_item_ellipse__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                            <para><literallayout>enum <link linkend="class_q_c_p_item_ellipse_1a415009889543169f35b70795f415e45e">AnchorIndex</link> {
+<link linkend="class_q_c_p_item_ellipse_1a415009889543169f35b70795f415e45eab2538849b88921e7fc1dcc15b2a6109d">aiTopLeftRim</link>,
+<link linkend="class_q_c_p_item_ellipse_1a415009889543169f35b70795f415e45ea83e55b0c1799baac1eecab52bcbe096d">aiTop</link>,
+<link linkend="class_q_c_p_item_ellipse_1a415009889543169f35b70795f415e45ea415d82233c14f0c70c245d50e706e75b">aiTopRightRim</link>,
+<link linkend="class_q_c_p_item_ellipse_1a415009889543169f35b70795f415e45ea0f0dcfdf87d9405b53b2129740fb6ba6">aiRight</link>,
+<link linkend="class_q_c_p_item_ellipse_1a415009889543169f35b70795f415e45eab62732e96d67801d50c6a9bdebc374d0">aiBottomRightRim</link>,
+<link linkend="class_q_c_p_item_ellipse_1a415009889543169f35b70795f415e45ea5894287dedaeec1f48394fd950ccff5b">aiBottom</link>,
+<link linkend="class_q_c_p_item_ellipse_1a415009889543169f35b70795f415e45ea7b8101bfc590af8ce32961f6545c4f90">aiBottomLeftRim</link>,
+<link linkend="class_q_c_p_item_ellipse_1a415009889543169f35b70795f415e45eae74dad00419a0e1f42877510158fb922">aiLeft</link>,
+<link linkend="class_q_c_p_item_ellipse_1a415009889543169f35b70795f415e45ea580ec0e9b9fd1488fccf5783e52c0c02">aiCenter</link>
+}</literallayout>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title>Public Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QCPItemPosition *const topLeft</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QCPItemPosition *const bottomRight</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QCPItemAnchor *const topLeftRim</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QCPItemAnchor *const top</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QCPItemAnchor *const topRightRim</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QCPItemAnchor *const right</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QCPItemAnchor *const bottomRightRim</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QCPItemAnchor *const bottom</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QCPItemAnchor *const bottomLeftRim</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QCPItemAnchor *const left</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QCPItemAnchor *const center</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title>Protected Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPen mPen</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPen mSelectedPen</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QBrush mBrush</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QBrush mSelectedBrush</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="class_q_c_p_item_ellipse_1a759b77ef002515eba0263b5447ecb3fb">QCPItemEllipse</link> (
+<link linkend="class_q_custom_plot">QCustomPlot</link> * parentPlot)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual <link linkend="class_q_c_p_item_ellipse_1a3c17073a1805d32b4e09b6ccde0bef76">~QCPItemEllipse</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPen <link linkend="class_q_c_p_item_ellipse_1a8288f7ce760fc795f5ce4e61136bda19">pen</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPen <link linkend="class_q_c_p_item_ellipse_1a9a200af2797356b45479b601d75437ee">selectedPen</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QBrush <link linkend="class_q_c_p_item_ellipse_1aacf45d032f204d0df3dd0bfdf1172cd3">brush</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QBrush <link linkend="class_q_c_p_item_ellipse_1afeda9d8e2e6da216a3c3366d87e80feb">selectedBrush</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_item_ellipse_1adb81a663ed2420fcfa011e49f678d1a6">setPen</link> (
+const QPen &amp; pen)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_item_ellipse_1a6c542fba1dc918041c583f58a50dde99">setSelectedPen</link> (
+const QPen &amp; pen)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_item_ellipse_1a49fc74e6965834e873d027d026def798">setBrush</link> (
+const QBrush &amp; brush)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_item_ellipse_1a9693501cfaa43a099655c75bed0dab3f">setSelectedBrush</link> (
+const QBrush &amp; brush)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual double <link linkend="class_q_c_p_item_ellipse_1ab6e2b8a29695c606c7731e498297ca29">selectTest</link> (
+const QPointF &amp; pos, bool onlySelectable, QVariant * details)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="class_q_c_p_item_ellipse_1a77eebd67a402fc496082a2e51356928c">draw</link> (
+<link linkend="class_q_c_p_painter">QCPPainter</link> * painter)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual QPointF <link linkend="class_q_c_p_item_ellipse_1a35cd6983c61a16ac33c23f08dd2817cc">anchorPixelPosition</link> (
+int anchorId)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPen <link linkend="class_q_c_p_item_ellipse_1a9c11717026dfd685c83a9650666b7181">mainPen</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QBrush <link linkend="class_q_c_p_item_ellipse_1a6218bdf5e703f609b934b0bf9c8d0971">mainBrush</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+    <simplesect>
+
+<para>An ellipse. </para>
+    </simplesect>
+        <simplesect>
+            <title>Detailed Description</title>
+
+<para> It has two positions, <emphasis>topLeft</emphasis> and <emphasis>bottomRight</emphasis>, which define the rect the ellipse will be drawn in. </para>
+                <para>Definition at line 6381 of file qcustomplot.h</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>qcustomplot.h</para></listitem></itemizedlist></para>
+        </simplesect>
+            <section xml:id="class_q_c_p_item_ellipse_1a415009889543169f35b70795f415e45e">
+               <title>enum AnchorIndex </title>
+               
+               <formalpara>
+                    <title>Enumerator:</title>
+                    <variablelist>
+                        <varlistentry xml:id="class_q_c_p_item_ellipse_1a415009889543169f35b70795f415e45eab2538849b88921e7fc1dcc15b2a6109d">
+                            <term>aiTopLeftRim</term>
+                            <listitem>
+                                <para></para>
+                            </listitem>
+                        </varlistentry>
+                        <varlistentry xml:id="class_q_c_p_item_ellipse_1a415009889543169f35b70795f415e45ea83e55b0c1799baac1eecab52bcbe096d">
+                            <term>aiTop</term>
+                            <listitem>
+                                <para></para>
+                            </listitem>
+                        </varlistentry>
+                        <varlistentry xml:id="class_q_c_p_item_ellipse_1a415009889543169f35b70795f415e45ea415d82233c14f0c70c245d50e706e75b">
+                            <term>aiTopRightRim</term>
+                            <listitem>
+                                <para></para>
+                            </listitem>
+                        </varlistentry>
+                        <varlistentry xml:id="class_q_c_p_item_ellipse_1a415009889543169f35b70795f415e45ea0f0dcfdf87d9405b53b2129740fb6ba6">
+                            <term>aiRight</term>
+                            <listitem>
+                                <para></para>
+                            </listitem>
+                        </varlistentry>
+                        <varlistentry xml:id="class_q_c_p_item_ellipse_1a415009889543169f35b70795f415e45eab62732e96d67801d50c6a9bdebc374d0">
+                            <term>aiBottomRightRim</term>
+                            <listitem>
+                                <para></para>
+                            </listitem>
+                        </varlistentry>
+                        <varlistentry xml:id="class_q_c_p_item_ellipse_1a415009889543169f35b70795f415e45ea5894287dedaeec1f48394fd950ccff5b">
+                            <term>aiBottom</term>
+                            <listitem>
+                                <para></para>
+                            </listitem>
+                        </varlistentry>
+                        <varlistentry xml:id="class_q_c_p_item_ellipse_1a415009889543169f35b70795f415e45ea7b8101bfc590af8ce32961f6545c4f90">
+                            <term>aiBottomLeftRim</term>
+                            <listitem>
+                                <para></para>
+                            </listitem>
+                        </varlistentry>
+                        <varlistentry xml:id="class_q_c_p_item_ellipse_1a415009889543169f35b70795f415e45eae74dad00419a0e1f42877510158fb922">
+                            <term>aiLeft</term>
+                            <listitem>
+                                <para></para>
+                            </listitem>
+                        </varlistentry>
+                        <varlistentry xml:id="class_q_c_p_item_ellipse_1a415009889543169f35b70795f415e45ea580ec0e9b9fd1488fccf5783e52c0c02">
+                            <term>aiCenter</term>
+                            <listitem>
+                                <para></para>
+                            </listitem>
+                        </varlistentry>
+                     </variablelist>
+                </formalpara>
+                <para>Definition at line 6421 of file qcustomplot.h
+                    <computeroutput><literallayout>
+{
+aiTopLeftRim, 
+aiTop, 
+aiTopRightRim, 
+aiRight, 
+aiBottomRightRim, 
+aiBottom, 
+aiBottomLeftRim, 
+aiLeft, 
+aiCenter, 
+}AnchorIndex;
+                    </literallayout></computeroutput>
+                </para>
+            </section>
+        <section>
+            <title>Member Data Documentation</title>
+        </section>
+        <section>
+            <title>Member Data Documentation</title>
+        </section>
+            <section xml:id="class_q_c_p_item_ellipse_1a759b77ef002515eba0263b5447ecb3fb">
+                <title>QCPItemEllipse::QCPItemEllipse (QCustomPlot *parentPlot)</title> <emphasis></emphasis>
+                
+<para>Creates an ellipse item and sets default values.</para>
+
+<para>The created item is automatically registered with <emphasis>parentPlot</emphasis>. This <link linkend="class_q_custom_plot">QCustomPlot</link> instance takes ownership of the item, so do not delete it manually but use <link linkend="class_q_custom_plot_1ae04446557292551e8fb6e2c106e1848d">QCustomPlot::removeItem()</link> instead. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_item_ellipse_1a3c17073a1805d32b4e09b6ccde0bef76">
+                <title>QCPItemEllipse::~QCPItemEllipse ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_item_ellipse_1a8288f7ce760fc795f5ce4e61136bda19">
+                <title>QPen QCPItemEllipse::pen () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_item_ellipse_1a9a200af2797356b45479b601d75437ee">
+                <title>QPen QCPItemEllipse::selectedPen () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_item_ellipse_1aacf45d032f204d0df3dd0bfdf1172cd3">
+                <title>QBrush QCPItemEllipse::brush () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_item_ellipse_1afeda9d8e2e6da216a3c3366d87e80feb">
+                <title>QBrush QCPItemEllipse::selectedBrush () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_item_ellipse_1adb81a663ed2420fcfa011e49f678d1a6">
+                <title>void QCPItemEllipse::setPen (const QPen &amp;pen)</title> <emphasis></emphasis>
+                
+<para>Sets the pen that will be used to draw the line of the ellipse</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_item_ellipse_1a6c542fba1dc918041c583f58a50dde99">setSelectedPen</link>, <link linkend="class_q_c_p_item_ellipse_1a49fc74e6965834e873d027d026def798">setBrush</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_item_ellipse_1a6c542fba1dc918041c583f58a50dde99">
+                <title>void QCPItemEllipse::setSelectedPen (const QPen &amp;pen)</title> <emphasis></emphasis>
+                
+<para>Sets the pen that will be used to draw the line of the ellipse when selected</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_item_ellipse_1adb81a663ed2420fcfa011e49f678d1a6">setPen</link>, <link linkend="class_q_c_p_abstract_item_1a203de94ad586cc44d16c9565f49d3378">setSelected</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_item_ellipse_1a49fc74e6965834e873d027d026def798">
+                <title>void QCPItemEllipse::setBrush (const QBrush &amp;brush)</title> <emphasis></emphasis>
+                
+<para>Sets the brush that will be used to fill the ellipse. To disable filling, set <emphasis>brush</emphasis> to Qt::NoBrush.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_item_ellipse_1a9693501cfaa43a099655c75bed0dab3f">setSelectedBrush</link>, <link linkend="class_q_c_p_item_ellipse_1adb81a663ed2420fcfa011e49f678d1a6">setPen</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_item_ellipse_1a9693501cfaa43a099655c75bed0dab3f">
+                <title>void QCPItemEllipse::setSelectedBrush (const QBrush &amp;brush)</title> <emphasis></emphasis>
+                
+<para>Sets the brush that will be used to fill the ellipse when selected. To disable filling, set <emphasis>brush</emphasis> to Qt::NoBrush.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_item_ellipse_1a49fc74e6965834e873d027d026def798">setBrush</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_item_ellipse_1ab6e2b8a29695c606c7731e498297ca29">
+                <title>double QCPItemEllipse::selectTest (const QPointF &amp;pos, bool onlySelectable, QVariant *details=0) const Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+<para>This function is used to decide whether a click hits a layerable object or not.</para>
+
+<para><emphasis>pos</emphasis> is a point in pixel coordinates on the <link linkend="class_q_custom_plot">QCustomPlot</link> surface. This function returns the shortest pixel distance of this point to the object. If the object is either invisible or the distance couldn&apos;t be determined, -1.0 is returned. Further, if <emphasis>onlySelectable</emphasis> is true and the object is not selectable, -1.0 is returned, too.</para>
+
+<para>If the object is represented not by single lines but by an area like a <link linkend="class_q_c_p_item_text">QCPItemText</link> or the bars of a <link linkend="class_q_c_p_bars">QCPBars</link> plottable, a click inside the area should also be considered a hit. In these cases this function thus returns a constant value greater zero but still below the parent plot&apos;s selection tolerance. (typically the selectionTolerance multiplied by 0.99).</para>
+
+<para>Providing a constant value for area objects allows selecting line objects even when they are obscured by such area objects, by clicking close to the lines (i.e. closer than 0.99*selectionTolerance).</para>
+
+<para>The actual setting of the selection state is not done by this function. This is handled by the parent <link linkend="class_q_custom_plot">QCustomPlot</link> when the mouseReleaseEvent occurs, and the finally selected object is notified via the <link linkend="class_q_c_p_abstract_item_1aa4b969c58797f39c9c0b6c07c7869d17">selectEvent</link>/<link linkend="class_q_c_p_abstract_item_1af9093798cb07a861dcc73f93ca16c0c1">deselectEvent</link> methods.</para>
+
+<para><emphasis>details</emphasis> is an optional output parameter. Every layerable subclass may place any information in <emphasis>details</emphasis>. This information will be passed to <link linkend="class_q_c_p_abstract_item_1aa4b969c58797f39c9c0b6c07c7869d17">selectEvent</link> when the parent <link linkend="class_q_custom_plot">QCustomPlot</link> decides on the basis of this selectTest call, that the object was successfully selected. The subsequent call to <link linkend="class_q_c_p_abstract_item_1aa4b969c58797f39c9c0b6c07c7869d17">selectEvent</link> will carry the <emphasis>details</emphasis>. This is useful for multi-part objects (like <link linkend="class_q_c_p_axis">QCPAxis</link>). This way, a possibly complex calculation to decide which part was clicked is only done once in <link linkend="class_q_c_p_item_ellipse_1ab6e2b8a29695c606c7731e498297ca29">selectTest</link>. The result (i.e. the actually clicked part) can then be placed in <emphasis>details</emphasis>. So in the subsequent <link linkend="class_q_c_p_abstract_item_1aa4b969c58797f39c9c0b6c07c7869d17">selectEvent</link>, the decision which part was selected doesn&apos;t have to be done a second time for a single selection operation.</para>
+
+<para>You may pass 0 as <emphasis>details</emphasis> to indicate that you are not interested in those selection details.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_abstract_item_1aa4b969c58797f39c9c0b6c07c7869d17">selectEvent</link>, <link linkend="class_q_c_p_abstract_item_1af9093798cb07a861dcc73f93ca16c0c1">deselectEvent</link>, <link linkend="class_q_c_p_layerable_1af6567604818db90f4fd52822f8bc8376">mousePressEvent</link>, <link linkend="class_q_c_p_layerable_1a47dfd7b8fd99c08ca54e09c362b6f022">wheelEvent</link>, <link linkend="class_q_custom_plot_1a5ee1e2f6ae27419deca53e75907c27e5">QCustomPlot::setInteractions</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_item_ellipse_1a77eebd67a402fc496082a2e51356928c">
+                <title>void QCPItemEllipse::draw (QCPPainter *painter) Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_item_ellipse_1a35cd6983c61a16ac33c23f08dd2817cc">
+                <title>QPointF QCPItemEllipse::anchorPixelPosition (int anchorId) const Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_item_ellipse_1a9c11717026dfd685c83a9650666b7181">
+                <title>QPen QCPItemEllipse::mainPen () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_item_ellipse_1a6218bdf5e703f609b934b0bf9c8d0971">
+                <title>QBrush QCPItemEllipse::mainBrush () const</title> <emphasis></emphasis>
+                
+            </section>
+</section>

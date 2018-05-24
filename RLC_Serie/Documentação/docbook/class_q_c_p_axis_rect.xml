@@ -1,0 +1,1422 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="class_q_c_p_axis_rect">
+<title>QCPAxisRect class Reference</title>
+<para>
+    <programlisting>#include <link linkend="qcustomplot_8h">&lt;qcustomplot.h&gt;</link></programlisting>
+</para>
+<para>Inheritance diagram for QCPAxisRect</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_q_c_p_axis_rect__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for QCPAxisRect</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_q_c_p_axis_rect__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title>Protected Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QBrush mBackgroundBrush</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPixmap mBackgroundPixmap</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPixmap mScaledBackgroundPixmap</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool mBackgroundScaled</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>Qt::AspectRatioMode mBackgroundScaledMode</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QCPLayoutInset * mInsetLayout</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>Qt::Orientations mRangeDrag</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>Qt::Orientations mRangeZoom</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QList&lt; QPointer&lt; QCPAxis &gt; &gt; mRangeDragHorzAxis</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QList&lt; QPointer&lt; QCPAxis &gt; &gt; mRangeDragVertAxis</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QList&lt; QPointer&lt; QCPAxis &gt; &gt; mRangeZoomHorzAxis</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QList&lt; QPointer&lt; QCPAxis &gt; &gt; mRangeZoomVertAxis</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double mRangeZoomFactorHorz</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double mRangeZoomFactorVert</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QList&lt; QCPRange &gt; mDragStartHorzRange</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QList&lt; QCPRange &gt; mDragStartVertRange</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QCP::AntialiasedElements mAADragBackup</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QCP::AntialiasedElements mNotAADragBackup</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool mDragging</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QHash&lt; QCPAxis::AxisType, QList&lt; QCPAxis * &gt; &gt; mAxes</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="class_q_c_p_axis_rect_1a60b31dece805462c1b82eea2e69ba042">QCPAxisRect</link> (
+<link linkend="class_q_custom_plot">QCustomPlot</link> * parentPlot, bool setupDefaultAxes)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual <link linkend="class_q_c_p_axis_rect_1a463c44b1856ddbf82eb3f7b582839cd0">~QCPAxisRect</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPixmap <link linkend="class_q_c_p_axis_rect_1a572deec9c9a4d5987d5c5f78521991e6">background</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QBrush <link linkend="class_q_c_p_axis_rect_1a7d09540e3fef12362d00e6bac92b6453">backgroundBrush</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="class_q_c_p_axis_rect_1a059ede9a5fdcafb5cef280cd65fe4f3a">backgroundScaled</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>Qt::AspectRatioMode <link linkend="class_q_c_p_axis_rect_1a06b98faf54b5491bff780294e423d3ff">backgroundScaledMode</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>Qt::Orientations <link linkend="class_q_c_p_axis_rect_1aa3a84c768ad6edd08fd4c5dec176828f">rangeDrag</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>Qt::Orientations <link linkend="class_q_c_p_axis_rect_1aa0d8414ef040523f8b2d55f0c0bddbee">rangeZoom</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="class_q_c_p_axis">QCPAxis</link> * <link linkend="class_q_c_p_axis_rect_1a6d7c22cfc54fac7a3d6ef80b133a8574">rangeDragAxis</link> (
+Qt::Orientation orientation)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="class_q_c_p_axis">QCPAxis</link> * <link linkend="class_q_c_p_axis_rect_1a679c63f2b8daccfe6ec5110dce3dd3b6">rangeZoomAxis</link> (
+Qt::Orientation orientation)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QList&lt; <link linkend="class_q_c_p_axis">QCPAxis</link> * &gt; <link linkend="class_q_c_p_axis_rect_1aae5f99a044ca911685a306f01b7ff941">rangeDragAxes</link> (
+Qt::Orientation orientation)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QList&lt; <link linkend="class_q_c_p_axis">QCPAxis</link> * &gt; <link linkend="class_q_c_p_axis_rect_1a86aac0f435f209d60dacd22cda10c104">rangeZoomAxes</link> (
+Qt::Orientation orientation)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double <link linkend="class_q_c_p_axis_rect_1ae4e6c4d143aacc88d2d3c56f117c2fe1">rangeZoomFactor</link> (
+Qt::Orientation orientation)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_axis_rect_1af615ab5e52b8e0a9a0eff415b6559db5">setBackground</link> (
+const QPixmap &amp; pm)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_axis_rect_1ac48a2d5d9b7732e73b86605c69c5e4c1">setBackground</link> (
+const QPixmap &amp; pm, bool scaled, Qt::AspectRatioMode mode)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_axis_rect_1a22a22b8668735438dc06f9a55fe46b33">setBackground</link> (
+const QBrush &amp; brush)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_axis_rect_1ae6d36c3e0e968ffb991170a018e7b503">setBackgroundScaled</link> (
+bool scaled)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_axis_rect_1a5ef77ea829c9de7ba248e473f48f7305">setBackgroundScaledMode</link> (
+Qt::AspectRatioMode mode)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_axis_rect_1ae6aef2f7211ba6097c925dcd26008418">setRangeDrag</link> (
+Qt::Orientations orientations)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_axis_rect_1a7960a9d222f1c31d558b064b60f86a31">setRangeZoom</link> (
+Qt::Orientations orientations)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_axis_rect_1a648cce336bd99daac4a5ca3e5743775d">setRangeDragAxes</link> (
+<link linkend="class_q_c_p_axis">QCPAxis</link> * horizontal, <link linkend="class_q_c_p_axis">QCPAxis</link> * vertical)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_axis_rect_1ab756bc5f129115fa3e8783617292fc1a">setRangeDragAxes</link> (
+QList&lt; <link linkend="class_q_c_p_axis">QCPAxis</link> *&gt; axes)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_axis_rect_1ab767e659f952fd7cbf61faaf33feefc5">setRangeDragAxes</link> (
+QList&lt; <link linkend="class_q_c_p_axis">QCPAxis</link> *&gt; horizontal, QList&lt; <link linkend="class_q_c_p_axis">QCPAxis</link> *&gt; vertical)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_axis_rect_1a9442cca2aa358405f39a64d51eca13d2">setRangeZoomAxes</link> (
+<link linkend="class_q_c_p_axis">QCPAxis</link> * horizontal, <link linkend="class_q_c_p_axis">QCPAxis</link> * vertical)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_axis_rect_1a07a41be4eda0d42abe49475e9fa38b92">setRangeZoomAxes</link> (
+QList&lt; <link linkend="class_q_c_p_axis">QCPAxis</link> *&gt; axes)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_axis_rect_1ae85a63a856e111def77437812c3acc99">setRangeZoomAxes</link> (
+QList&lt; <link linkend="class_q_c_p_axis">QCPAxis</link> *&gt; horizontal, QList&lt; <link linkend="class_q_c_p_axis">QCPAxis</link> *&gt; vertical)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_axis_rect_1a895d7ac745ea614e04056244b3c138ac">setRangeZoomFactor</link> (
+double horizontalFactor, double verticalFactor)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_axis_rect_1ae83d187b03fc6fa4f00765ad50cd3fc3">setRangeZoomFactor</link> (
+double factor)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>int <link linkend="class_q_c_p_axis_rect_1a85b321acec0f694d8b5fdeafdbff3133">axisCount</link> (
+<link linkend="class_q_c_p_axis_1ae2bcc1728b382f10f064612b368bc18a">QCPAxis::AxisType</link> type)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="class_q_c_p_axis">QCPAxis</link> * <link linkend="class_q_c_p_axis_rect_1a583ae4f6d78b601b732183f6cabecbe1">axis</link> (
+<link linkend="class_q_c_p_axis_1ae2bcc1728b382f10f064612b368bc18a">QCPAxis::AxisType</link> type, int index)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QList&lt; <link linkend="class_q_c_p_axis">QCPAxis</link> * &gt; <link linkend="class_q_c_p_axis_rect_1a8db4722cb93e9c4a6f0d91150c200867">axes</link> (
+QCPAxis::AxisTypes types)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QList&lt; <link linkend="class_q_c_p_axis">QCPAxis</link> * &gt; <link linkend="class_q_c_p_axis_rect_1a11657b8faebe9677180860e8057ede26">axes</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="class_q_c_p_axis">QCPAxis</link> * <link linkend="class_q_c_p_axis_rect_1a2dc336092ccc57d44a46194c8a23e4f4">addAxis</link> (
+<link linkend="class_q_c_p_axis_1ae2bcc1728b382f10f064612b368bc18a">QCPAxis::AxisType</link> type, <link linkend="class_q_c_p_axis">QCPAxis</link> * axis)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QList&lt; <link linkend="class_q_c_p_axis">QCPAxis</link> * &gt; <link linkend="class_q_c_p_axis_rect_1a792e1f3d9cb1591fca135bb0de9b81fc">addAxes</link> (
+QCPAxis::AxisTypes types)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="class_q_c_p_axis_rect_1a03c39cd9704f0d36fb6cf980cdddcbaa">removeAxis</link> (
+<link linkend="class_q_c_p_axis">QCPAxis</link> * axis)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="class_q_c_p_layout_inset">QCPLayoutInset</link> * <link linkend="class_q_c_p_axis_rect_1a949f803466619924c7018df4b511ae10">insetLayout</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_axis_rect_1a5fc8460564e81dcc2a9343dc8bc1fe67">zoom</link> (
+const QRectF &amp; pixelRect)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_axis_rect_1a6a39fb3aea60a8c503bdcb3f0477d2f6">zoom</link> (
+const QRectF &amp; pixelRect, const QList&lt; <link linkend="class_q_c_p_axis">QCPAxis</link> *&gt; &amp; affectedAxes)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_axis_rect_1a5fa906175447b14206954f77fc7f1ef4">setupFullAxesBox</link> (
+bool connectRanges)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QList&lt; <link linkend="class_q_c_p_abstract_plottable">QCPAbstractPlottable</link> * &gt; <link linkend="class_q_c_p_axis_rect_1a587d073a97b27bc7293fab4b2774ad59">plottables</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QList&lt; <link linkend="class_q_c_p_graph">QCPGraph</link> * &gt; <link linkend="class_q_c_p_axis_rect_1a2d9ded3eca97be1fcb5867949391bb88">graphs</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QList&lt; <link linkend="class_q_c_p_abstract_item">QCPAbstractItem</link> * &gt; <link linkend="class_q_c_p_axis_rect_1a03c113a2175448300ee8f944e24776ba">items</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>int <link linkend="class_q_c_p_axis_rect_1afb4a3de02046b20b9310bdb8fca781c3">left</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>int <link linkend="class_q_c_p_axis_rect_1a3f819d4a1b2193723d1fdafc573eea10">right</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>int <link linkend="class_q_c_p_axis_rect_1a45dbad181cbb9f09d068dbb76c817c95">top</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>int <link linkend="class_q_c_p_axis_rect_1acefdf1abaa8a8ab681e906cc2be9581e">bottom</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>int <link linkend="class_q_c_p_axis_rect_1a204645398a4f9d0b0189385c7c2cfb91">width</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>int <link linkend="class_q_c_p_axis_rect_1acc4377809e79d9a089ab790f39429b0d">height</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QSize <link linkend="class_q_c_p_axis_rect_1a7a8289346eb612f422c704f8b75cf479">size</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPoint <link linkend="class_q_c_p_axis_rect_1a5a847b3ddeca3abec38d3838fefb0dbd">topLeft</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPoint <link linkend="class_q_c_p_axis_rect_1a7aa221967549ba71b98c465bf8234758">topRight</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPoint <link linkend="class_q_c_p_axis_rect_1ab15d4311d6535ccd7af504dc0e2b98c6">bottomLeft</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPoint <link linkend="class_q_c_p_axis_rect_1a36dac884ec8fa3a3a2f3842ca7b7d32d">bottomRight</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPoint <link linkend="class_q_c_p_axis_rect_1ade3aef874bafcec6dd16174fba44c0b1">center</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="class_q_c_p_axis_rect_1add049d464b9ef2ccdc638adc4ccb4aca">update</link> (
+<link linkend="class_q_c_p_layout_element_1a0d83360e05735735aaf6d7983c56374d">UpdatePhase</link> phase)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual QList&lt; <link linkend="class_q_c_p_layout_element">QCPLayoutElement</link> * &gt; <link linkend="class_q_c_p_axis_rect_1a3aee067fd105f2fa8de9eb8024435ac5">elements</link> (
+bool recursive)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="class_q_c_p_axis_rect_1a4a318008e2b7f881a14c3d97186b31f9">applyDefaultAntialiasingHint</link> (
+<link linkend="class_q_c_p_painter">QCPPainter</link> * painter)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="class_q_c_p_axis_rect_1af710c50530e370539a4439d6c4db9090">draw</link> (
+<link linkend="class_q_c_p_painter">QCPPainter</link> * painter)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual int <link linkend="class_q_c_p_axis_rect_1ac51055d83f5f414b6d013d3a24b0a941">calculateAutoMargin</link> (
+<link linkend="namespace_q_c_p_1a7e487e3e2ccb62ab7771065bab7cae54">QCP::MarginSide</link> side)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="class_q_c_p_axis_rect_1a575e38ac71a21906dc2d7b3364db2d62">layoutChanged</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="class_q_c_p_axis_rect_1aa9a7c807eaa4666870ac94aa6abc4dde">mousePressEvent</link> (
+QMouseEvent * event, const QVariant &amp; details)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="class_q_c_p_axis_rect_1a9cd27ad8c5cfb49aefd9dbb30def4beb">mouseMoveEvent</link> (
+QMouseEvent * event, const QPointF &amp; startPos)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="class_q_c_p_axis_rect_1a6c89b988d3a0b93c0878f0ebdb5037f4">mouseReleaseEvent</link> (
+QMouseEvent * event, const QPointF &amp; startPos)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="class_q_c_p_axis_rect_1a93eeaa0c127d6d6fe8171b2455080262">wheelEvent</link> (
+QWheelEvent * event)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_axis_rect_1ab49d338d1ce74b476fcead5b32cf06dc">drawBackground</link> (
+<link linkend="class_q_c_p_painter">QCPPainter</link> * painter)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_axis_rect_1a6024ccdc74f5dc0e8a0fe482e5b28a20">updateAxesOffset</link> (
+<link linkend="class_q_c_p_axis_1ae2bcc1728b382f10f064612b368bc18a">QCPAxis::AxisType</link> type)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+    <simplesect>
+
+<para>Holds multiple axes and arranges them in a rectangular shape. </para>
+    </simplesect>
+        <simplesect>
+            <title>Detailed Description</title>
+
+<para>This class represents an axis rect, a rectangular area that is bounded on all sides with an arbitrary number of axes.</para>
+
+<para>Initially <link linkend="class_q_custom_plot">QCustomPlot</link> has one axis rect, accessible via <link linkend="class_q_custom_plot_1ae5eefcb5f6ca26689b1fd4f6e25b42f9">QCustomPlot::axisRect()</link>. However, the layout system allows to have multiple axis rects, e.g. arranged in a grid layout (<link linkend="class_q_custom_plot_1af1a1f1f571237deb7c2bd34a5e9f018f">QCustomPlot::plotLayout</link>).</para>
+
+<para>By default, <link linkend="class_q_c_p_axis_rect">QCPAxisRect</link> comes with four axes, at bottom, top, left and right. They can be accessed via <link linkend="class_q_c_p_axis_rect_1a583ae4f6d78b601b732183f6cabecbe1">axis</link> by providing the respective axis type (<link linkend="class_q_c_p_axis_1ae2bcc1728b382f10f064612b368bc18a">QCPAxis::AxisType</link>) and index. If you need all axes in the axis rect, use <link linkend="class_q_c_p_axis_rect_1a8db4722cb93e9c4a6f0d91150c200867">axes</link>. The top and right axes are set to be invisible initially (<link linkend="class_q_c_p_layerable_1a3bed99ddc396b48ce3ebfdc0418744f8">QCPAxis::setVisible</link>). To add more axes to a side, use <link linkend="class_q_c_p_axis_rect_1a2dc336092ccc57d44a46194c8a23e4f4">addAxis</link> or <link linkend="class_q_c_p_axis_rect_1a792e1f3d9cb1591fca135bb0de9b81fc">addAxes</link>. To remove an axis, use <link linkend="class_q_c_p_axis_rect_1a03c39cd9704f0d36fb6cf980cdddcbaa">removeAxis</link>.</para>
+
+<para>The axis rect layerable itself only draws a background pixmap or color, if specified (<link linkend="class_q_c_p_axis_rect_1af615ab5e52b8e0a9a0eff415b6559db5">setBackground</link>). It is placed on the &quot;background&quot; layer initially (see <link linkend="class_q_c_p_layer">QCPLayer</link> for an explanation of the <link linkend="class_q_custom_plot">QCustomPlot</link> layer system). The axes that are held by the axis rect can be placed on other layers, independently of the axis rect.</para>
+
+<para>Every axis rect has a child layout of type <link linkend="class_q_c_p_layout_inset">QCPLayoutInset</link>. It is accessible via <link linkend="class_q_c_p_axis_rect_1a949f803466619924c7018df4b511ae10">insetLayout</link> and can be used to have other layout elements (or even other layouts with multiple elements) hovering inside the axis rect.</para>
+
+<para>If an axis rect is clicked and dragged, it processes this by moving certain axis ranges. The behaviour can be controlled with <link linkend="class_q_c_p_axis_rect_1ae6aef2f7211ba6097c925dcd26008418">setRangeDrag</link> and <link linkend="class_q_c_p_axis_rect_1a648cce336bd99daac4a5ca3e5743775d">setRangeDragAxes</link>. If the mouse wheel is scrolled while the cursor is on the axis rect, certain axes are scaled. This is controllable via <link linkend="class_q_c_p_axis_rect_1a7960a9d222f1c31d558b064b60f86a31">setRangeZoom</link>, <link linkend="class_q_c_p_axis_rect_1a9442cca2aa358405f39a64d51eca13d2">setRangeZoomAxes</link> and <link linkend="class_q_c_p_axis_rect_1a895d7ac745ea614e04056244b3c138ac">setRangeZoomFactor</link>. These interactions are only enabled if <link linkend="class_q_custom_plot_1a5ee1e2f6ae27419deca53e75907c27e5">QCustomPlot::setInteractions</link> contains <link linkend="namespace_q_c_p_1a2ad6bb6281c7c2d593d4277b44c2b037a2c4432b9aceafb94000be8d1b589ef18">QCP::iRangeDrag</link> and <link linkend="namespace_q_c_p_1a2ad6bb6281c7c2d593d4277b44c2b037abee1e94353525a636aeaf0ba32b72e14">QCP::iRangeZoom</link>.</para>
+
+<para> <informaltable frame='none'><tgroup cols='1'><colspec align='center'/><tbody><row><entry align='center'>Overview of the spacings and paddings that define the geometry of an axis. The dashed line on the far left indicates the viewport/widget border.</entry></row></tbody></tgroup></informaltable> </para>
+                <para>Definition at line 4583 of file qcustomplot.h</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>qcustomplot.h</para></listitem></itemizedlist></para>
+        </simplesect>
+        <section>
+            <title>Member Data Documentation</title>
+        </section>
+            <section xml:id="class_q_c_p_axis_rect_1a60b31dece805462c1b82eea2e69ba042">
+                <title>QCPAxisRect::QCPAxisRect (QCustomPlot *parentPlot, bool setupDefaultAxes=true)</title> <emphasis></emphasis>
+                
+<para>Creates a <link linkend="class_q_c_p_axis_rect">QCPAxisRect</link> instance and sets default values. An axis is added for each of the four sides, the top and right axes are set invisible initially. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_axis_rect_1a463c44b1856ddbf82eb3f7b582839cd0">
+                <title>QCPAxisRect::~QCPAxisRect ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_axis_rect_1a572deec9c9a4d5987d5c5f78521991e6">
+                <title>QPixmap QCPAxisRect::background () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_axis_rect_1a7d09540e3fef12362d00e6bac92b6453">
+                <title>QBrush QCPAxisRect::backgroundBrush () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_axis_rect_1a059ede9a5fdcafb5cef280cd65fe4f3a">
+                <title>bool QCPAxisRect::backgroundScaled () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_axis_rect_1a06b98faf54b5491bff780294e423d3ff">
+                <title>Qt::AspectRatioMode QCPAxisRect::backgroundScaledMode () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_axis_rect_1aa3a84c768ad6edd08fd4c5dec176828f">
+                <title>Qt::Orientations QCPAxisRect::rangeDrag () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_axis_rect_1aa0d8414ef040523f8b2d55f0c0bddbee">
+                <title>Qt::Orientations QCPAxisRect::rangeZoom () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_axis_rect_1a6d7c22cfc54fac7a3d6ef80b133a8574">
+                <title>QCPAxis * QCPAxisRect::rangeDragAxis (Qt::Orientation orientation)</title> <emphasis></emphasis>
+                
+<para>Returns the range drag axis of the <emphasis>orientation</emphasis> provided. If multiple axes were set, returns the first one (use <link linkend="class_q_c_p_axis_rect_1aae5f99a044ca911685a306f01b7ff941">rangeDragAxes</link> to retrieve a list with all set axes).</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_axis_rect_1a648cce336bd99daac4a5ca3e5743775d">setRangeDragAxes</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_axis_rect_1a679c63f2b8daccfe6ec5110dce3dd3b6">
+                <title>QCPAxis * QCPAxisRect::rangeZoomAxis (Qt::Orientation orientation)</title> <emphasis></emphasis>
+                
+<para>Returns the range zoom axis of the <emphasis>orientation</emphasis> provided. If multiple axes were set, returns the first one (use <link linkend="class_q_c_p_axis_rect_1a86aac0f435f209d60dacd22cda10c104">rangeZoomAxes</link> to retrieve a list with all set axes).</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_axis_rect_1a9442cca2aa358405f39a64d51eca13d2">setRangeZoomAxes</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_axis_rect_1aae5f99a044ca911685a306f01b7ff941">
+                <title>QList&lt; QCPAxis * &gt; QCPAxisRect::rangeDragAxes (Qt::Orientation orientation)</title> <emphasis></emphasis>
+                
+<para>Returns all range drag axes of the <emphasis>orientation</emphasis> provided.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_axis_rect_1a679c63f2b8daccfe6ec5110dce3dd3b6">rangeZoomAxis</link>, <link linkend="class_q_c_p_axis_rect_1a9442cca2aa358405f39a64d51eca13d2">setRangeZoomAxes</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_axis_rect_1a86aac0f435f209d60dacd22cda10c104">
+                <title>QList&lt; QCPAxis * &gt; QCPAxisRect::rangeZoomAxes (Qt::Orientation orientation)</title> <emphasis></emphasis>
+                
+<para>Returns all range zoom axes of the <emphasis>orientation</emphasis> provided.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_axis_rect_1a6d7c22cfc54fac7a3d6ef80b133a8574">rangeDragAxis</link>, <link linkend="class_q_c_p_axis_rect_1a648cce336bd99daac4a5ca3e5743775d">setRangeDragAxes</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_axis_rect_1ae4e6c4d143aacc88d2d3c56f117c2fe1">
+                <title>double QCPAxisRect::rangeZoomFactor (Qt::Orientation orientation)</title> <emphasis></emphasis>
+                
+<para>Returns the range zoom factor of the <emphasis>orientation</emphasis> provided.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_axis_rect_1a895d7ac745ea614e04056244b3c138ac">setRangeZoomFactor</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_axis_rect_1af615ab5e52b8e0a9a0eff415b6559db5">
+                <title>void QCPAxisRect::setBackground (const QPixmap &amp;pm)</title> <emphasis></emphasis>
+                
+<para>Sets <emphasis>pm</emphasis> as the axis background pixmap. The axis background pixmap will be drawn inside the axis rect. Since axis rects place themselves on the &quot;background&quot; layer by default, the axis rect backgrounds are usually drawn below everything else.</para>
+
+<para>For cases where the provided pixmap doesn&apos;t have the same size as the axis rect, scaling can be enabled with <link linkend="class_q_c_p_axis_rect_1ae6d36c3e0e968ffb991170a018e7b503">setBackgroundScaled</link> and the scaling mode (i.e. whether and how the aspect ratio is preserved) can be set with <link linkend="class_q_c_p_axis_rect_1a5ef77ea829c9de7ba248e473f48f7305">setBackgroundScaledMode</link>. To set all these options in one call, consider using the overloaded version of this function.</para>
+
+<para>Below the pixmap, the axis rect may be optionally filled with a brush, if specified with <link linkend="class_q_c_p_axis_rect_1a22a22b8668735438dc06f9a55fe46b33">setBackground(const QBrush &amp;brush)</link>.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_axis_rect_1ae6d36c3e0e968ffb991170a018e7b503">setBackgroundScaled</link>, <link linkend="class_q_c_p_axis_rect_1a5ef77ea829c9de7ba248e473f48f7305">setBackgroundScaledMode</link>, <link linkend="class_q_c_p_axis_rect_1a22a22b8668735438dc06f9a55fe46b33">setBackground(const QBrush &amp;brush)</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_axis_rect_1ac48a2d5d9b7732e73b86605c69c5e4c1">
+                <title>void QCPAxisRect::setBackground (const QPixmap &amp;pm, bool scaled, Qt::AspectRatioMode mode=Qt::KeepAspectRatioByExpanding)</title> <emphasis></emphasis>
+                
+<para>This is an overloaded member function, provided for convenience. It differs from the above function only in what argument(s) it accepts.</para>
+
+<para>Allows setting the background pixmap of the axis rect, whether it shall be scaled and how it shall be scaled in one call.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_axis_rect_1af615ab5e52b8e0a9a0eff415b6559db5">setBackground(const QPixmap &amp;pm)</link>, <link linkend="class_q_c_p_axis_rect_1ae6d36c3e0e968ffb991170a018e7b503">setBackgroundScaled</link>, <link linkend="class_q_c_p_axis_rect_1a5ef77ea829c9de7ba248e473f48f7305">setBackgroundScaledMode</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_axis_rect_1a22a22b8668735438dc06f9a55fe46b33">
+                <title>void QCPAxisRect::setBackground (const QBrush &amp;brush)</title> <emphasis></emphasis>
+                
+<para>This is an overloaded member function, provided for convenience. It differs from the above function only in what argument(s) it accepts.</para>
+
+<para>Sets <emphasis>brush</emphasis> as the background brush. The axis rect background will be filled with this brush. Since axis rects place themselves on the &quot;background&quot; layer by default, the axis rect backgrounds are usually drawn below everything else.</para>
+
+<para>The brush will be drawn before (under) any background pixmap, which may be specified with <link linkend="class_q_c_p_axis_rect_1af615ab5e52b8e0a9a0eff415b6559db5">setBackground(const QPixmap &amp;pm)</link>.</para>
+
+<para>To disable drawing of a background brush, set <emphasis>brush</emphasis> to Qt::NoBrush.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_axis_rect_1af615ab5e52b8e0a9a0eff415b6559db5">setBackground(const QPixmap &amp;pm)</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_axis_rect_1ae6d36c3e0e968ffb991170a018e7b503">
+                <title>void QCPAxisRect::setBackgroundScaled (bool scaled)</title> <emphasis></emphasis>
+                
+<para>Sets whether the axis background pixmap shall be scaled to fit the axis rect or not. If <emphasis>scaled</emphasis> is set to true, you may control whether and how the aspect ratio of the original pixmap is preserved with <link linkend="class_q_c_p_axis_rect_1a5ef77ea829c9de7ba248e473f48f7305">setBackgroundScaledMode</link>.</para>
+
+<para>Note that the scaled version of the original pixmap is buffered, so there is no performance penalty on replots. (Except when the axis rect dimensions are changed continuously.)</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_axis_rect_1af615ab5e52b8e0a9a0eff415b6559db5">setBackground</link>, <link linkend="class_q_c_p_axis_rect_1a5ef77ea829c9de7ba248e473f48f7305">setBackgroundScaledMode</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_axis_rect_1a5ef77ea829c9de7ba248e473f48f7305">
+                <title>void QCPAxisRect::setBackgroundScaledMode (Qt::AspectRatioMode mode)</title> <emphasis></emphasis>
+                
+<para>If scaling of the axis background pixmap is enabled (<link linkend="class_q_c_p_axis_rect_1ae6d36c3e0e968ffb991170a018e7b503">setBackgroundScaled</link>), use this function to define whether and how the aspect ratio of the original pixmap passed to <link linkend="class_q_c_p_axis_rect_1af615ab5e52b8e0a9a0eff415b6559db5">setBackground</link> is preserved. <formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_axis_rect_1af615ab5e52b8e0a9a0eff415b6559db5">setBackground</link>, <link linkend="class_q_c_p_axis_rect_1ae6d36c3e0e968ffb991170a018e7b503">setBackgroundScaled</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_axis_rect_1ae6aef2f7211ba6097c925dcd26008418">
+                <title>void QCPAxisRect::setRangeDrag (Qt::Orientations orientations)</title> <emphasis></emphasis>
+                
+<para>Sets which axis orientation may be range dragged by the user with mouse interaction. What orientation corresponds to which specific axis can be set with <link linkend="class_q_c_p_axis_rect_1a648cce336bd99daac4a5ca3e5743775d">setRangeDragAxes(QCPAxis *horizontal, QCPAxis *vertical)</link>. By default, the horizontal axis is the bottom axis (xAxis) and the vertical axis is the left axis (yAxis).</para>
+
+<para>To disable range dragging entirely, pass 0 as <emphasis>orientations</emphasis> or remove <link linkend="namespace_q_c_p_1a2ad6bb6281c7c2d593d4277b44c2b037a2c4432b9aceafb94000be8d1b589ef18">QCP::iRangeDrag</link> from <link linkend="class_q_custom_plot_1a5ee1e2f6ae27419deca53e75907c27e5">QCustomPlot::setInteractions</link>. To enable range dragging for both directions, pass <computeroutput>Qt::Horizontal | Qt::Vertical</computeroutput> as <emphasis>orientations</emphasis>.</para>
+
+<para>In addition to setting <emphasis>orientations</emphasis> to a non-zero value, make sure <link linkend="class_q_custom_plot_1a5ee1e2f6ae27419deca53e75907c27e5">QCustomPlot::setInteractions</link> contains <link linkend="namespace_q_c_p_1a2ad6bb6281c7c2d593d4277b44c2b037a2c4432b9aceafb94000be8d1b589ef18">QCP::iRangeDrag</link> to enable the range dragging interaction.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_axis_rect_1a7960a9d222f1c31d558b064b60f86a31">setRangeZoom</link>, <link linkend="class_q_c_p_axis_rect_1a648cce336bd99daac4a5ca3e5743775d">setRangeDragAxes</link>, <link linkend="class_q_custom_plot_1a775bdcb6329d44701aeaa6135b0e5265">QCustomPlot::setNoAntialiasingOnDrag</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_axis_rect_1a7960a9d222f1c31d558b064b60f86a31">
+                <title>void QCPAxisRect::setRangeZoom (Qt::Orientations orientations)</title> <emphasis></emphasis>
+                
+<para>Sets which axis orientation may be zoomed by the user with the mouse wheel. What orientation corresponds to which specific axis can be set with <link linkend="class_q_c_p_axis_rect_1a9442cca2aa358405f39a64d51eca13d2">setRangeZoomAxes</link>(<link linkend="class_q_c_p_axis">QCPAxis</link> *horizontal, <link linkend="class_q_c_p_axis">QCPAxis</link> *vertical). By default, the horizontal axis is the bottom axis (xAxis) and the vertical axis is the left axis (yAxis).</para>
+
+<para>To disable range zooming entirely, pass 0 as <emphasis>orientations</emphasis> or remove <link linkend="namespace_q_c_p_1a2ad6bb6281c7c2d593d4277b44c2b037abee1e94353525a636aeaf0ba32b72e14">QCP::iRangeZoom</link> from <link linkend="class_q_custom_plot_1a5ee1e2f6ae27419deca53e75907c27e5">QCustomPlot::setInteractions</link>. To enable range zooming for both directions, pass <computeroutput>Qt::Horizontal | Qt::Vertical</computeroutput> as <emphasis>orientations</emphasis>.</para>
+
+<para>In addition to setting <emphasis>orientations</emphasis> to a non-zero value, make sure <link linkend="class_q_custom_plot_1a5ee1e2f6ae27419deca53e75907c27e5">QCustomPlot::setInteractions</link> contains <link linkend="namespace_q_c_p_1a2ad6bb6281c7c2d593d4277b44c2b037abee1e94353525a636aeaf0ba32b72e14">QCP::iRangeZoom</link> to enable the range zooming interaction.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_axis_rect_1a895d7ac745ea614e04056244b3c138ac">setRangeZoomFactor</link>, <link linkend="class_q_c_p_axis_rect_1a9442cca2aa358405f39a64d51eca13d2">setRangeZoomAxes</link>, <link linkend="class_q_c_p_axis_rect_1ae6aef2f7211ba6097c925dcd26008418">setRangeDrag</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_axis_rect_1a648cce336bd99daac4a5ca3e5743775d">
+                <title>void QCPAxisRect::setRangeDragAxes (QCPAxis *horizontal, QCPAxis *vertical)</title> <emphasis></emphasis>
+                
+<para>This is an overloaded member function, provided for convenience. It differs from the above function only in what argument(s) it accepts.</para>
+
+<para>Sets the axes whose range will be dragged when <link linkend="class_q_c_p_axis_rect_1ae6aef2f7211ba6097c925dcd26008418">setRangeDrag</link> enables mouse range dragging on the <link linkend="class_q_custom_plot">QCustomPlot</link> widget. Pass 0 if no axis shall be dragged in the respective orientation.</para>
+
+<para>Use the overload taking a list of axes, if multiple axes (more than one per orientation) shall react to dragging interactions.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_axis_rect_1a9442cca2aa358405f39a64d51eca13d2">setRangeZoomAxes</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_axis_rect_1ab756bc5f129115fa3e8783617292fc1a">
+                <title>void QCPAxisRect::setRangeDragAxes (QList&lt; QCPAxis *&gt; axes)</title> <emphasis></emphasis>
+                
+<para>This is an overloaded member function, provided for convenience. It differs from the above function only in what argument(s) it accepts.</para>
+
+<para>This method allows to set up multiple axes to react to horizontal and vertical dragging. The drag orientation that the respective axis will react to is deduced from its orientation (<link linkend="class_q_c_p_axis_1ab988ef4538e2655bb77bd138189cd42e">QCPAxis::orientation</link>).</para>
+
+<para>In the unusual case that you wish to e.g. drag a vertically oriented axis with a horizontal drag motion, use the overload taking two separate lists for horizontal and vertical dragging. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_axis_rect_1ab767e659f952fd7cbf61faaf33feefc5">
+                <title>void QCPAxisRect::setRangeDragAxes (QList&lt; QCPAxis *&gt; horizontal, QList&lt; QCPAxis *&gt; vertical)</title> <emphasis></emphasis>
+                
+<para>This is an overloaded member function, provided for convenience. It differs from the above function only in what argument(s) it accepts.</para>
+
+<para>This method allows to set multiple axes up to react to horizontal and vertical dragging, and define specifically which axis reacts to which drag orientation (irrespective of the axis orientation). </para>
+
+            </section>
+            <section xml:id="class_q_c_p_axis_rect_1a9442cca2aa358405f39a64d51eca13d2">
+                <title>void QCPAxisRect::setRangeZoomAxes (QCPAxis *horizontal, QCPAxis *vertical)</title> <emphasis></emphasis>
+                
+<para>Sets the axes whose range will be zoomed when <link linkend="class_q_c_p_axis_rect_1a7960a9d222f1c31d558b064b60f86a31">setRangeZoom</link> enables mouse wheel zooming on the <link linkend="class_q_custom_plot">QCustomPlot</link> widget. Pass 0 if no axis shall be zoomed in the respective orientation.</para>
+
+<para>The two axes can be zoomed with different strengths, when different factors are passed to <link linkend="class_q_c_p_axis_rect_1a895d7ac745ea614e04056244b3c138ac">setRangeZoomFactor(double horizontalFactor, double verticalFactor)</link>.</para>
+
+<para>Use the overload taking a list of axes, if multiple axes (more than one per orientation) shall react to zooming interactions.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_axis_rect_1a648cce336bd99daac4a5ca3e5743775d">setRangeDragAxes</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_axis_rect_1a07a41be4eda0d42abe49475e9fa38b92">
+                <title>void QCPAxisRect::setRangeZoomAxes (QList&lt; QCPAxis *&gt; axes)</title> <emphasis></emphasis>
+                
+<para>This is an overloaded member function, provided for convenience. It differs from the above function only in what argument(s) it accepts.</para>
+
+<para>This method allows to set up multiple axes to react to horizontal and vertical range zooming. The zoom orientation that the respective axis will react to is deduced from its orientation (<link linkend="class_q_c_p_axis_1ab988ef4538e2655bb77bd138189cd42e">QCPAxis::orientation</link>).</para>
+
+<para>In the unusual case that you wish to e.g. zoom a vertically oriented axis with a horizontal zoom interaction, use the overload taking two separate lists for horizontal and vertical zooming. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_axis_rect_1ae85a63a856e111def77437812c3acc99">
+                <title>void QCPAxisRect::setRangeZoomAxes (QList&lt; QCPAxis *&gt; horizontal, QList&lt; QCPAxis *&gt; vertical)</title> <emphasis></emphasis>
+                
+<para>This is an overloaded member function, provided for convenience. It differs from the above function only in what argument(s) it accepts.</para>
+
+<para>This method allows to set multiple axes up to react to horizontal and vertical zooming, and define specifically which axis reacts to which zoom orientation (irrespective of the axis orientation). </para>
+
+            </section>
+            <section xml:id="class_q_c_p_axis_rect_1a895d7ac745ea614e04056244b3c138ac">
+                <title>void QCPAxisRect::setRangeZoomFactor (double horizontalFactor, double verticalFactor)</title> <emphasis></emphasis>
+                
+<para>Sets how strong one rotation step of the mouse wheel zooms, when range zoom was activated with <link linkend="class_q_c_p_axis_rect_1a7960a9d222f1c31d558b064b60f86a31">setRangeZoom</link>. The two parameters <emphasis>horizontalFactor</emphasis> and <emphasis>verticalFactor</emphasis> provide a way to let the horizontal axis zoom at different rates than the vertical axis. Which axis is horizontal and which is vertical, can be set with <link linkend="class_q_c_p_axis_rect_1a9442cca2aa358405f39a64d51eca13d2">setRangeZoomAxes</link>.</para>
+
+<para>When the zoom factor is greater than one, scrolling the mouse wheel backwards (towards the user) will zoom in (make the currently visible range smaller). For zoom factors smaller than one, the same scrolling direction will zoom out. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_axis_rect_1ae83d187b03fc6fa4f00765ad50cd3fc3">
+                <title>void QCPAxisRect::setRangeZoomFactor (double factor)</title> <emphasis></emphasis>
+                
+<para>This is an overloaded member function, provided for convenience. It differs from the above function only in what argument(s) it accepts.</para>
+
+<para>Sets both the horizontal and vertical zoom <emphasis>factor</emphasis>. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_axis_rect_1a85b321acec0f694d8b5fdeafdbff3133">
+                <title>int QCPAxisRect::axisCount (QCPAxis::AxisType type) const</title> <emphasis></emphasis>
+                
+<para>Returns the number of axes on the axis rect side specified with <emphasis>type</emphasis>.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_axis_rect_1a583ae4f6d78b601b732183f6cabecbe1">axis</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_axis_rect_1a583ae4f6d78b601b732183f6cabecbe1">
+                <title>QCPAxis * QCPAxisRect::axis (QCPAxis::AxisType type, int index=0) const</title> <emphasis></emphasis>
+                
+<para>Returns the axis with the given <emphasis>index</emphasis> on the axis rect side specified with <emphasis>type</emphasis>.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_axis_rect_1a85b321acec0f694d8b5fdeafdbff3133">axisCount</link>, <link linkend="class_q_c_p_axis_rect_1a8db4722cb93e9c4a6f0d91150c200867">axes</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_axis_rect_1a8db4722cb93e9c4a6f0d91150c200867">
+                <title>QList&lt; QCPAxis * &gt; QCPAxisRect::axes (QCPAxis::AxisTypes types) const</title> <emphasis></emphasis>
+                
+<para>Returns all axes on the axis rect sides specified with <emphasis>types</emphasis>.</para>
+
+<para><emphasis>types</emphasis> may be a single <link linkend="class_q_c_p_axis_1ae2bcc1728b382f10f064612b368bc18a">QCPAxis::AxisType</link> or an <computeroutput>or</computeroutput>-combination, to get the axes of multiple sides.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_axis_rect_1a583ae4f6d78b601b732183f6cabecbe1">axis</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_axis_rect_1a11657b8faebe9677180860e8057ede26">
+                <title>QList&lt; QCPAxis * &gt; QCPAxisRect::axes () const</title> <emphasis></emphasis>
+                
+<para>This is an overloaded member function, provided for convenience. It differs from the above function only in what argument(s) it accepts.</para>
+
+<para>Returns all axes of this axis rect. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_axis_rect_1a2dc336092ccc57d44a46194c8a23e4f4">
+                <title>QCPAxis * QCPAxisRect::addAxis (QCPAxis::AxisType type, QCPAxis *axis=0)</title> <emphasis></emphasis>
+                
+<para>Adds a new axis to the axis rect side specified with <emphasis>type</emphasis>, and returns it. If <emphasis>axis</emphasis> is 0, a new <link linkend="class_q_c_p_axis">QCPAxis</link> instance is created internally. <link linkend="class_q_custom_plot">QCustomPlot</link> owns the returned axis, so if you want to remove an axis, use <link linkend="class_q_c_p_axis_rect_1a03c39cd9704f0d36fb6cf980cdddcbaa">removeAxis</link> instead of deleting it manually.</para>
+
+<para>You may inject <link linkend="class_q_c_p_axis">QCPAxis</link> instances (or subclasses of <link linkend="class_q_c_p_axis">QCPAxis</link>) by setting <emphasis>axis</emphasis> to an axis that was previously created outside <link linkend="class_q_custom_plot">QCustomPlot</link>. It is important to note that <link linkend="class_q_custom_plot">QCustomPlot</link> takes ownership of the axis, so you may not delete it afterwards. Further, the <emphasis>axis</emphasis> must have been created with this axis rect as parent and with the same axis type as specified in <emphasis>type</emphasis>. If this is not the case, a debug output is generated, the axis is not added, and the method returns 0.</para>
+
+<para>This method can not be used to move <emphasis>axis</emphasis> between axis rects. The same <emphasis>axis</emphasis> instance must not be added multiple times to the same or different axis rects.</para>
+
+<para>If an axis rect side already contains one or more axes, the lower and upper endings of the new axis (<link linkend="class_q_c_p_axis_1a08af1c72db9ae4dc8cb8a973d44405ab">QCPAxis::setLowerEnding</link>, <link linkend="class_q_c_p_axis_1a69119b892fc306f651763596685aa377">QCPAxis::setUpperEnding</link>) are set to <link linkend="class_q_c_p_line_ending_1a5ef16e6876b4b74959c7261d8d4c2cd5a126c390f0c359fcd8df1fc5e38d26d5b">QCPLineEnding::esHalfBar</link>.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_axis_rect_1a792e1f3d9cb1591fca135bb0de9b81fc">addAxes</link>, <link linkend="class_q_c_p_axis_rect_1a5fa906175447b14206954f77fc7f1ef4">setupFullAxesBox</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_axis_rect_1a792e1f3d9cb1591fca135bb0de9b81fc">
+                <title>QList&lt; QCPAxis * &gt; QCPAxisRect::addAxes (QCPAxis::AxisTypes types)</title> <emphasis></emphasis>
+                
+<para>Adds a new axis with <link linkend="class_q_c_p_axis_rect_1a2dc336092ccc57d44a46194c8a23e4f4">addAxis</link> to each axis rect side specified in <emphasis>types</emphasis>. This may be an <computeroutput>or</computeroutput>-combination of <link linkend="class_q_c_p_axis_1ae2bcc1728b382f10f064612b368bc18a">QCPAxis::AxisType</link>, so axes can be added to multiple sides at once.</para>
+
+<para>Returns a list of the added axes.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_axis_rect_1a2dc336092ccc57d44a46194c8a23e4f4">addAxis</link>, <link linkend="class_q_c_p_axis_rect_1a5fa906175447b14206954f77fc7f1ef4">setupFullAxesBox</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_axis_rect_1a03c39cd9704f0d36fb6cf980cdddcbaa">
+                <title>bool QCPAxisRect::removeAxis (QCPAxis *axis)</title> <emphasis></emphasis>
+                
+<para>Removes the specified <emphasis>axis</emphasis> from the axis rect and deletes it.</para>
+
+<para>Returns true on success, i.e. if <emphasis>axis</emphasis> was a valid axis in this axis rect.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_axis_rect_1a2dc336092ccc57d44a46194c8a23e4f4">addAxis</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_axis_rect_1a949f803466619924c7018df4b511ae10">
+                <title>QCPLayoutInset * QCPAxisRect::insetLayout () const</title> <emphasis></emphasis>
+                
+<para>Returns the inset layout of this axis rect. It can be used to place other layout elements (or even layouts with multiple other elements) inside/on top of an axis rect.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_layout_inset">QCPLayoutInset</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_axis_rect_1a5fc8460564e81dcc2a9343dc8bc1fe67">
+                <title>void QCPAxisRect::zoom (const QRectF &amp;pixelRect)</title> <emphasis></emphasis>
+                
+<para>Zooms in (or out) to the passed rectangular region <emphasis>pixelRect</emphasis>, given in pixel coordinates.</para>
+
+<para>All axes of this axis rect will have their range zoomed accordingly. If you only wish to zoom specific axes, use the overloaded version of this method.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_custom_plot_1a810ef958ebe84db661c7288b526c0deb">QCustomPlot::setSelectionRectMode</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_axis_rect_1a6a39fb3aea60a8c503bdcb3f0477d2f6">
+                <title>void QCPAxisRect::zoom (const QRectF &amp;pixelRect, const QList&lt; QCPAxis *&gt; &amp;affectedAxes)</title> <emphasis></emphasis>
+                
+<para>This is an overloaded member function, provided for convenience. It differs from the above function only in what argument(s) it accepts.</para>
+
+<para>Zooms in (or out) to the passed rectangular region <emphasis>pixelRect</emphasis>, given in pixel coordinates.</para>
+
+<para>Only the axes passed in <emphasis>affectedAxes</emphasis> will have their ranges zoomed accordingly.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_custom_plot_1a810ef958ebe84db661c7288b526c0deb">QCustomPlot::setSelectionRectMode</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_axis_rect_1a5fa906175447b14206954f77fc7f1ef4">
+                <title>void QCPAxisRect::setupFullAxesBox (bool connectRanges=false)</title> <emphasis></emphasis>
+                
+<para>Convenience function to create an axis on each side that doesn&apos;t have any axes yet and set their visibility to true. Further, the top/right axes are assigned the following properties of the bottom/left axes:</para>
+
+<para><itemizedlist>
+<listitem>
+<para>range (<link linkend="class_q_c_p_axis_1aebdfea5d44c3a0ad2b4700cd4d25b641">QCPAxis::setRange</link>) </para>
+</listitem>
+<listitem>
+<para>range reversed (<link linkend="class_q_c_p_axis_1a2172fdb196b1a0dc3f40992fcad8e9e1">QCPAxis::setRangeReversed</link>) </para>
+</listitem>
+<listitem>
+<para>scale type (<link linkend="class_q_c_p_axis_1adef29cae617af4f519f6c40d1a866ca6">QCPAxis::setScaleType</link>) </para>
+</listitem>
+<listitem>
+<para>tick visibility (<link linkend="class_q_c_p_axis_1ac891409315bc379e3b1abdb162c1a011">QCPAxis::setTicks</link>) </para>
+</listitem>
+<listitem>
+<para>number format (<link linkend="class_q_c_p_axis_1ae585a54dc2aac662e90a2ca82f002590">QCPAxis::setNumberFormat</link>) </para>
+</listitem>
+<listitem>
+<para>number precision (<link linkend="class_q_c_p_axis_1a21dc8023ad7500382ad9574b48137e63">QCPAxis::setNumberPrecision</link>) </para>
+</listitem>
+<listitem>
+<para>tick count of ticker (<link linkend="class_q_c_p_axis_ticker_1a47752abba8293e6dc18491501ae34008">QCPAxisTicker::setTickCount</link>) </para>
+</listitem>
+<listitem>
+<para>tick origin of ticker (<link linkend="class_q_c_p_axis_ticker_1ab509c7e500293bf66a8409f0d7c23943">QCPAxisTicker::setTickOrigin</link>)</para>
+</listitem>
+</itemizedlist>
+Tick label visibility (<link linkend="class_q_c_p_axis_1a04ba16e1f6f78d70f938519576ed32c8">QCPAxis::setTickLabels</link>) of the right and top axes are set to false.</para>
+
+<para>If <emphasis>connectRanges</emphasis> is true, the <link linkend="class_q_c_p_axis_1a0894084e4c16a1736534c4095746f910">rangeChanged</link> signals of the bottom and left axes are connected to the <link linkend="class_q_c_p_axis_1aebdfea5d44c3a0ad2b4700cd4d25b641">QCPAxis::setRange</link> slots of the top and right axes. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_axis_rect_1a587d073a97b27bc7293fab4b2774ad59">
+                <title>QList&lt; QCPAbstractPlottable * &gt; QCPAxisRect::plottables () const</title> <emphasis></emphasis>
+                
+<para>Returns a list of all the plottables that are associated with this axis rect.</para>
+
+<para>A plottable is considered associated with an axis rect if its key or value axis (or both) is in this axis rect.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_axis_rect_1a2d9ded3eca97be1fcb5867949391bb88">graphs</link>, <link linkend="class_q_c_p_axis_rect_1a03c113a2175448300ee8f944e24776ba">items</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_axis_rect_1a2d9ded3eca97be1fcb5867949391bb88">
+                <title>QList&lt; QCPGraph * &gt; QCPAxisRect::graphs () const</title> <emphasis></emphasis>
+                
+<para>Returns a list of all the graphs that are associated with this axis rect.</para>
+
+<para>A graph is considered associated with an axis rect if its key or value axis (or both) is in this axis rect.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_axis_rect_1a587d073a97b27bc7293fab4b2774ad59">plottables</link>, <link linkend="class_q_c_p_axis_rect_1a03c113a2175448300ee8f944e24776ba">items</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_axis_rect_1a03c113a2175448300ee8f944e24776ba">
+                <title>QList&lt; QCPAbstractItem * &gt; QCPAxisRect::items () const</title> <emphasis></emphasis>
+                
+<para>Returns a list of all the items that are associated with this axis rect.</para>
+
+<para>An item is considered associated with an axis rect if any of its positions has key or value axis set to an axis that is in this axis rect, or if any of its positions has <link linkend="class_q_c_p_item_position_1a0cd9b326fb324710169e92e8ca0041c2">QCPItemPosition::setAxisRect</link> set to the axis rect, or if the clip axis rect (<link linkend="class_q_c_p_abstract_item_1a7dc75fcbcd10206fe0b75d757ea7a347">QCPAbstractItem::setClipAxisRect</link>) is set to this axis rect.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_axis_rect_1a587d073a97b27bc7293fab4b2774ad59">plottables</link>, <link linkend="class_q_c_p_axis_rect_1a2d9ded3eca97be1fcb5867949391bb88">graphs</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_axis_rect_1afb4a3de02046b20b9310bdb8fca781c3">
+                <title>int QCPAxisRect::left () const</title> <emphasis></emphasis>
+                
+<para>Returns the pixel position of the left border of this axis rect. Margins are not taken into account here, so the returned value is with respect to the inner <link linkend="class_q_c_p_layout_element_1a208effccfe2cca4a0eaf9393e60f2dd4">rect</link>. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_axis_rect_1a3f819d4a1b2193723d1fdafc573eea10">
+                <title>int QCPAxisRect::right () const</title> <emphasis></emphasis>
+                
+<para>Returns the pixel position of the right border of this axis rect. Margins are not taken into account here, so the returned value is with respect to the inner <link linkend="class_q_c_p_layout_element_1a208effccfe2cca4a0eaf9393e60f2dd4">rect</link>. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_axis_rect_1a45dbad181cbb9f09d068dbb76c817c95">
+                <title>int QCPAxisRect::top () const</title> <emphasis></emphasis>
+                
+<para>Returns the pixel position of the top border of this axis rect. Margins are not taken into account here, so the returned value is with respect to the inner <link linkend="class_q_c_p_layout_element_1a208effccfe2cca4a0eaf9393e60f2dd4">rect</link>. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_axis_rect_1acefdf1abaa8a8ab681e906cc2be9581e">
+                <title>int QCPAxisRect::bottom () const</title> <emphasis></emphasis>
+                
+<para>Returns the pixel position of the bottom border of this axis rect. Margins are not taken into account here, so the returned value is with respect to the inner <link linkend="class_q_c_p_layout_element_1a208effccfe2cca4a0eaf9393e60f2dd4">rect</link>. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_axis_rect_1a204645398a4f9d0b0189385c7c2cfb91">
+                <title>int QCPAxisRect::width () const</title> <emphasis></emphasis>
+                
+<para>Returns the pixel width of this axis rect. Margins are not taken into account here, so the returned value is with respect to the inner <link linkend="class_q_c_p_layout_element_1a208effccfe2cca4a0eaf9393e60f2dd4">rect</link>. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_axis_rect_1acc4377809e79d9a089ab790f39429b0d">
+                <title>int QCPAxisRect::height () const</title> <emphasis></emphasis>
+                
+<para>Returns the pixel height of this axis rect. Margins are not taken into account here, so the returned value is with respect to the inner <link linkend="class_q_c_p_layout_element_1a208effccfe2cca4a0eaf9393e60f2dd4">rect</link>. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_axis_rect_1a7a8289346eb612f422c704f8b75cf479">
+                <title>QSize QCPAxisRect::size () const</title> <emphasis></emphasis>
+                
+<para>Returns the pixel size of this axis rect. Margins are not taken into account here, so the returned value is with respect to the inner <link linkend="class_q_c_p_layout_element_1a208effccfe2cca4a0eaf9393e60f2dd4">rect</link>. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_axis_rect_1a5a847b3ddeca3abec38d3838fefb0dbd">
+                <title>QPoint QCPAxisRect::topLeft () const</title> <emphasis></emphasis>
+                
+<para>Returns the top left corner of this axis rect in pixels. Margins are not taken into account here, so the returned value is with respect to the inner <link linkend="class_q_c_p_layout_element_1a208effccfe2cca4a0eaf9393e60f2dd4">rect</link>. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_axis_rect_1a7aa221967549ba71b98c465bf8234758">
+                <title>QPoint QCPAxisRect::topRight () const</title> <emphasis></emphasis>
+                
+<para>Returns the top right corner of this axis rect in pixels. Margins are not taken into account here, so the returned value is with respect to the inner <link linkend="class_q_c_p_layout_element_1a208effccfe2cca4a0eaf9393e60f2dd4">rect</link>. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_axis_rect_1ab15d4311d6535ccd7af504dc0e2b98c6">
+                <title>QPoint QCPAxisRect::bottomLeft () const</title> <emphasis></emphasis>
+                
+<para>Returns the bottom left corner of this axis rect in pixels. Margins are not taken into account here, so the returned value is with respect to the inner <link linkend="class_q_c_p_layout_element_1a208effccfe2cca4a0eaf9393e60f2dd4">rect</link>. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_axis_rect_1a36dac884ec8fa3a3a2f3842ca7b7d32d">
+                <title>QPoint QCPAxisRect::bottomRight () const</title> <emphasis></emphasis>
+                
+<para>Returns the bottom right corner of this axis rect in pixels. Margins are not taken into account here, so the returned value is with respect to the inner <link linkend="class_q_c_p_layout_element_1a208effccfe2cca4a0eaf9393e60f2dd4">rect</link>. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_axis_rect_1ade3aef874bafcec6dd16174fba44c0b1">
+                <title>QPoint QCPAxisRect::center () const</title> <emphasis></emphasis>
+                
+<para>Returns the center of this axis rect in pixels. Margins are not taken into account here, so the returned value is with respect to the inner <link linkend="class_q_c_p_layout_element_1a208effccfe2cca4a0eaf9393e60f2dd4">rect</link>. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_axis_rect_1add049d464b9ef2ccdc638adc4ccb4aca">
+                <title>void QCPAxisRect::update (UpdatePhase phase) Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+<para>This method is called automatically upon replot and doesn&apos;t need to be called by users of <link linkend="class_q_c_p_axis_rect">QCPAxisRect</link>.</para>
+
+<para>Calls the base class implementation to update the margins (see <link linkend="class_q_c_p_layout_element_1a929c2ec62e0e0e1d8418eaa802e2af9b">QCPLayoutElement::update</link>), and finally passes the <link linkend="class_q_c_p_layout_element_1a208effccfe2cca4a0eaf9393e60f2dd4">rect</link> to the inset layout (<link linkend="class_q_c_p_axis_rect_1a949f803466619924c7018df4b511ae10">insetLayout</link>) and calls its QCPInsetLayout::update function.</para>
+
+            </section>
+            <section xml:id="class_q_c_p_axis_rect_1a3aee067fd105f2fa8de9eb8024435ac5">
+                <title>QList&lt; QCPLayoutElement * &gt; QCPAxisRect::elements (bool recursive) const Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+<para>Returns a list of all child elements in this layout element. If <emphasis>recursive</emphasis> is true, all sub-child elements are included in the list, too.</para>
+
+<para><formalpara><title>Warning: </title>
+
+<para>There may be entries with value 0 in the returned list. (For example, <link linkend="class_q_c_p_layout_grid">QCPLayoutGrid</link> may have empty cells which yield 0 at the respective index.) </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_axis_rect_1a4a318008e2b7f881a14c3d97186b31f9">
+                <title>void QCPAxisRect::applyDefaultAntialiasingHint (QCPPainter *painter) const Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_axis_rect_1af710c50530e370539a4439d6c4db9090">
+                <title>void QCPAxisRect::draw (QCPPainter *painter) Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_axis_rect_1ac51055d83f5f414b6d013d3a24b0a941">
+                <title>int QCPAxisRect::calculateAutoMargin (QCP::MarginSide side) Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_axis_rect_1a575e38ac71a21906dc2d7b3364db2d62">
+                <title>void QCPAxisRect::layoutChanged () Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_axis_rect_1aa9a7c807eaa4666870ac94aa6abc4dde">
+                <title>void QCPAxisRect::mousePressEvent (QMouseEvent *event, const QVariant &amp;details) Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+<para>This event gets called when the user presses a mouse button while the cursor is over the layerable. Whether a cursor is over the layerable is decided by a preceding call to <link linkend="class_q_c_p_layout_element_1ae97f483cccedadbf18ea4525ef240ee4">selectTest</link>.</para>
+
+<para>The current pixel position of the cursor on the <link linkend="class_q_custom_plot">QCustomPlot</link> widget is accessible via <computeroutput>event-&gt;pos()</computeroutput>. The parameter <emphasis>details</emphasis> contains layerable-specific details about the hit, which were generated in the previous call to <link linkend="class_q_c_p_layout_element_1ae97f483cccedadbf18ea4525ef240ee4">selectTest</link>. For example, One-dimensional plottables like <link linkend="class_q_c_p_graph">QCPGraph</link> or <link linkend="class_q_c_p_bars">QCPBars</link> convey the clicked data point in the <emphasis>details</emphasis> parameter, as <link linkend="class_q_c_p_data_selection">QCPDataSelection</link> packed as QVariant. Multi-part objects convey the specific <computeroutput>SelectablePart</computeroutput> that was hit (e.g. <link linkend="class_q_c_p_axis_1abee4c7a54c468b1385dfce2c898b115f">QCPAxis::SelectablePart</link> in the case of axes).</para>
+
+<para><link linkend="class_q_custom_plot">QCustomPlot</link> uses an event propagation system that works the same as Qt&apos;s system. If your layerable doesn&apos;t reimplement the <link linkend="class_q_c_p_axis_rect_1aa9a7c807eaa4666870ac94aa6abc4dde">mousePressEvent</link> or explicitly calls <computeroutput>event-&gt;ignore()</computeroutput> in its reimplementation, the event will be propagated to the next layerable in the stacking order.</para>
+
+<para>Once a layerable has accepted the <link linkend="class_q_c_p_axis_rect_1aa9a7c807eaa4666870ac94aa6abc4dde">mousePressEvent</link>, it is considered the mouse grabber and will receive all following calls to <link linkend="class_q_c_p_axis_rect_1a9cd27ad8c5cfb49aefd9dbb30def4beb">mouseMoveEvent</link> or <link linkend="class_q_c_p_axis_rect_1a6c89b988d3a0b93c0878f0ebdb5037f4">mouseReleaseEvent</link> for this mouse interaction (a &quot;mouse interaction&quot; in this context ends with the release).</para>
+
+<para>The default implementation does nothing except explicitly ignoring the event with <computeroutput>event-&gt;ignore()</computeroutput>.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_axis_rect_1a9cd27ad8c5cfb49aefd9dbb30def4beb">mouseMoveEvent</link>, <link linkend="class_q_c_p_axis_rect_1a6c89b988d3a0b93c0878f0ebdb5037f4">mouseReleaseEvent</link>, <link linkend="class_q_c_p_layerable_1a4171e2e823aca242dd0279f00ed2de81">mouseDoubleClickEvent</link>, <link linkend="class_q_c_p_axis_rect_1a93eeaa0c127d6d6fe8171b2455080262">wheelEvent</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_axis_rect_1a9cd27ad8c5cfb49aefd9dbb30def4beb">
+                <title>void QCPAxisRect::mouseMoveEvent (QMouseEvent *event, const QPointF &amp;startPos) Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+<para>This event gets called when the user moves the mouse while holding a mouse button, after this layerable has become the mouse grabber by accepting the preceding <link linkend="class_q_c_p_axis_rect_1aa9a7c807eaa4666870ac94aa6abc4dde">mousePressEvent</link>.</para>
+
+<para>The current pixel position of the cursor on the <link linkend="class_q_custom_plot">QCustomPlot</link> widget is accessible via <computeroutput>event-&gt;pos()</computeroutput>. The parameter <emphasis>startPos</emphasis> indicates the position where the initial <link linkend="class_q_c_p_axis_rect_1aa9a7c807eaa4666870ac94aa6abc4dde">mousePressEvent</link> occured, that started the mouse interaction.</para>
+
+<para>The default implementation does nothing.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_axis_rect_1aa9a7c807eaa4666870ac94aa6abc4dde">mousePressEvent</link>, <link linkend="class_q_c_p_axis_rect_1a6c89b988d3a0b93c0878f0ebdb5037f4">mouseReleaseEvent</link>, <link linkend="class_q_c_p_layerable_1a4171e2e823aca242dd0279f00ed2de81">mouseDoubleClickEvent</link>, <link linkend="class_q_c_p_axis_rect_1a93eeaa0c127d6d6fe8171b2455080262">wheelEvent</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_axis_rect_1a6c89b988d3a0b93c0878f0ebdb5037f4">
+                <title>void QCPAxisRect::mouseReleaseEvent (QMouseEvent *event, const QPointF &amp;startPos) Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+<para>This event gets called when the user releases the mouse button, after this layerable has become the mouse grabber by accepting the preceding <link linkend="class_q_c_p_axis_rect_1aa9a7c807eaa4666870ac94aa6abc4dde">mousePressEvent</link>.</para>
+
+<para>The current pixel position of the cursor on the <link linkend="class_q_custom_plot">QCustomPlot</link> widget is accessible via <computeroutput>event-&gt;pos()</computeroutput>. The parameter <emphasis>startPos</emphasis> indicates the position where the initial <link linkend="class_q_c_p_axis_rect_1aa9a7c807eaa4666870ac94aa6abc4dde">mousePressEvent</link> occured, that started the mouse interaction.</para>
+
+<para>The default implementation does nothing.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_axis_rect_1aa9a7c807eaa4666870ac94aa6abc4dde">mousePressEvent</link>, <link linkend="class_q_c_p_axis_rect_1a9cd27ad8c5cfb49aefd9dbb30def4beb">mouseMoveEvent</link>, <link linkend="class_q_c_p_layerable_1a4171e2e823aca242dd0279f00ed2de81">mouseDoubleClickEvent</link>, <link linkend="class_q_c_p_axis_rect_1a93eeaa0c127d6d6fe8171b2455080262">wheelEvent</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_axis_rect_1a93eeaa0c127d6d6fe8171b2455080262">
+                <title>void QCPAxisRect::wheelEvent (QWheelEvent *event) Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+<para>This event gets called when the user turns the mouse scroll wheel while the cursor is over the layerable. Whether a cursor is over the layerable is decided by a preceding call to <link linkend="class_q_c_p_layout_element_1ae97f483cccedadbf18ea4525ef240ee4">selectTest</link>.</para>
+
+<para>The current pixel position of the cursor on the <link linkend="class_q_custom_plot">QCustomPlot</link> widget is accessible via <computeroutput>event-&gt;pos()</computeroutput>.</para>
+
+<para>The <computeroutput>event-&gt;delta()</computeroutput> indicates how far the mouse wheel was turned, which is usually +/- 120 for single rotation steps. However, if the mouse wheel is turned rapidly, multiple steps may accumulate to one event, making <computeroutput>event-&gt;delta()</computeroutput> larger. On the other hand, if the wheel has very smooth steps or none at all, the delta may be smaller.</para>
+
+<para>The default implementation does nothing.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_axis_rect_1aa9a7c807eaa4666870ac94aa6abc4dde">mousePressEvent</link>, <link linkend="class_q_c_p_axis_rect_1a9cd27ad8c5cfb49aefd9dbb30def4beb">mouseMoveEvent</link>, <link linkend="class_q_c_p_axis_rect_1a6c89b988d3a0b93c0878f0ebdb5037f4">mouseReleaseEvent</link>, <link linkend="class_q_c_p_layerable_1a4171e2e823aca242dd0279f00ed2de81">mouseDoubleClickEvent</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_axis_rect_1ab49d338d1ce74b476fcead5b32cf06dc">
+                <title>void QCPAxisRect::drawBackground (QCPPainter *painter)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_axis_rect_1a6024ccdc74f5dc0e8a0fe482e5b28a20">
+                <title>void QCPAxisRect::updateAxesOffset (QCPAxis::AxisType type)</title> <emphasis></emphasis>
+                
+            </section>
+</section>

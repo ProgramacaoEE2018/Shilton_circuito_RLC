@@ -1,0 +1,156 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="class_q_c_p_paint_buffer_pixmap">
+<title>QCPPaintBufferPixmap class Reference</title>
+<para>
+    <programlisting>#include <link linkend="qcustomplot_8h">&lt;qcustomplot.h&gt;</link></programlisting>
+</para>
+<para>Inheritance diagram for QCPPaintBufferPixmap</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_q_c_p_paint_buffer_pixmap__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for QCPPaintBufferPixmap</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_q_c_p_paint_buffer_pixmap__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title>Protected Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPixmap mBuffer</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="class_q_c_p_paint_buffer_pixmap_1aef0224e03b9285509391fcd61a8e6844">QCPPaintBufferPixmap</link> (
+const QSize &amp; size, double devicePixelRatio)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual <link linkend="class_q_c_p_paint_buffer_pixmap_1a52b00bff4a36085b197bd374d5d24450">~QCPPaintBufferPixmap</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual <link linkend="class_q_c_p_painter">QCPPainter</link> * <link linkend="class_q_c_p_paint_buffer_pixmap_1a357964ef7d28cfa530338be4e5c93234">startPainting</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="class_q_c_p_paint_buffer_pixmap_1af7bfc685e56a0a9329e57cd9a265eb74">draw</link> (
+<link linkend="class_q_c_p_painter">QCPPainter</link> * painter)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_paint_buffer_pixmap_1a14badbd010a3cde6b55817ccb7b65217">clear</link> (
+const QColor &amp; color)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="class_q_c_p_paint_buffer_pixmap_1ad49f3205ba3463b1c44f8db3cfcc90f0">reallocateBuffer</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+    <simplesect>
+
+<para>A paint buffer based on QPixmap, using software raster rendering. </para>
+    </simplesect>
+        <simplesect>
+            <title>Detailed Description</title>
+
+<para>This paint buffer is the default and fall-back paint buffer which uses software rendering and QPixmap as internal buffer. It is used if <link linkend="class_q_custom_plot_1a7db1adc09016329f3aef7c60da935789">QCustomPlot::setOpenGl</link> is false. </para>
+                <para>Definition at line 551 of file qcustomplot.h</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>qcustomplot.h</para></listitem></itemizedlist></para>
+        </simplesect>
+        <section>
+            <title>Member Data Documentation</title>
+        </section>
+            <section xml:id="class_q_c_p_paint_buffer_pixmap_1aef0224e03b9285509391fcd61a8e6844">
+                <title>QCPPaintBufferPixmap::QCPPaintBufferPixmap (const QSize &amp;size, double devicePixelRatio)</title> <emphasis></emphasis>
+                
+<para>Creates a pixmap paint buffer instancen with the specified <emphasis>size</emphasis> and <emphasis>devicePixelRatio</emphasis>, if applicable. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_paint_buffer_pixmap_1a52b00bff4a36085b197bd374d5d24450">
+                <title>QCPPaintBufferPixmap::~QCPPaintBufferPixmap ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_paint_buffer_pixmap_1a357964ef7d28cfa530338be4e5c93234">
+                <title>QCPPainter * QCPPaintBufferPixmap::startPainting () Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+<para>Returns a <link linkend="class_q_c_p_painter">QCPPainter</link> which is ready to draw to this buffer. The ownership and thus the responsibility to delete the painter after the painting operations are complete is given to the caller of this method.</para>
+
+<para>Once you are done using the painter, delete the painter and call <link linkend="class_q_c_p_abstract_paint_buffer_1a41b0dc6e7744f19fae09f8532c207dc1">donePainting</link>.</para>
+
+<para>While a painter generated with this method is active, you must not call <link linkend="class_q_c_p_abstract_paint_buffer_1a8b68c3cd36533f1a4a23b5ce8cd66f01">setSize</link>, <link linkend="class_q_c_p_abstract_paint_buffer_1a555eaad5d5c806420ff35602a1bb68fa">setDevicePixelRatio</link> or <link linkend="class_q_c_p_paint_buffer_pixmap_1a14badbd010a3cde6b55817ccb7b65217">clear</link>.</para>
+
+<para>This method may return 0, if a painter couldn&apos;t be activated on the buffer. This usually indicates a problem with the respective painting backend. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_paint_buffer_pixmap_1af7bfc685e56a0a9329e57cd9a265eb74">
+                <title>void QCPPaintBufferPixmap::draw (QCPPainter *painter) const Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+<para>Draws the contents of this buffer with the provided <emphasis>painter</emphasis>. This is the method that is used to finally join all paint buffers and draw them onto the screen. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_paint_buffer_pixmap_1a14badbd010a3cde6b55817ccb7b65217">
+                <title>void QCPPaintBufferPixmap::clear (const QColor &amp;color) Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+<para>Fills the entire buffer with the provided <emphasis>color</emphasis>. To have an empty transparent buffer, use the named color <computeroutput>Qt::transparent</computeroutput>.</para>
+
+<para>This method must not be called if there is currently a painter (acquired with <link linkend="class_q_c_p_paint_buffer_pixmap_1a357964ef7d28cfa530338be4e5c93234">startPainting</link>) active. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_paint_buffer_pixmap_1ad49f3205ba3463b1c44f8db3cfcc90f0">
+                <title>void QCPPaintBufferPixmap::reallocateBuffer () Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+<para>Reallocates the internal buffer with the currently configured size (<link linkend="class_q_c_p_abstract_paint_buffer_1a8b68c3cd36533f1a4a23b5ce8cd66f01">setSize</link>) and device pixel ratio, if applicable (<link linkend="class_q_c_p_abstract_paint_buffer_1a555eaad5d5c806420ff35602a1bb68fa">setDevicePixelRatio</link>). It is called as soon as any of those properties are changed on this paint buffer.</para>
+
+<para><formalpara><title>Note: </title>
+
+<para>Subclasses of <link linkend="class_q_c_p_abstract_paint_buffer">QCPAbstractPaintBuffer</link> must call their reimplementation of this method in their constructor, to perform the first allocation (this can not be done by the base class because calling pure virtual methods in base class constructors is not possible). </para>
+</formalpara>
+</para>
+
+            </section>
+</section>

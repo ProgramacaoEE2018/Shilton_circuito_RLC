@@ -1,0 +1,671 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="class_q_c_p_color_map_data">
+<title>QCPColorMapData class Reference</title>
+<para>
+    <programlisting>#include <link linkend="qcustomplot_8h">&lt;qcustomplot.h&gt;</link></programlisting>
+</para>
+<para>Inheritance diagram for QCPColorMapData</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_q_c_p_color_map_data__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for QCPColorMapData</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_q_c_p_color_map_data__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title>Protected Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>int mKeySize</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>int mValueSize</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QCPRange mKeyRange</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QCPRange mValueRange</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool mIsEmpty</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double * mData</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>unsigned char * mAlpha</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QCPRange mDataBounds</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool mDataModified</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="class_q_c_p_color_map_data_1aac9d8eb81e18e240d89d56c01933fd23">QCPColorMapData</link> (
+int keySize, int valueSize, const <link linkend="class_q_c_p_range">QCPRange</link> &amp; keyRange, const <link linkend="class_q_c_p_range">QCPRange</link> &amp; valueRange)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="class_q_c_p_color_map_data_1a7ac252031d0921520d5bccb6bfa23a8b">~QCPColorMapData</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="class_q_c_p_color_map_data_1a7f2145d86473263494abb9bf1de20436">QCPColorMapData</link> (
+const <link linkend="class_q_c_p_color_map_data">QCPColorMapData</link> &amp; other)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="class_q_c_p_color_map_data">QCPColorMapData</link> &amp; <link linkend="class_q_c_p_color_map_data_1afdf4dd1b2f5714234fe84709b85c2a8d">operator=</link> (
+const <link linkend="class_q_c_p_color_map_data">QCPColorMapData</link> &amp; other)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>int <link linkend="class_q_c_p_color_map_data_1abbda4d28de97aedce1e6e6f008a0a1f7">keySize</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>int <link linkend="class_q_c_p_color_map_data_1a8510cafea24645bbb62b5e0bfc43209f">valueSize</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="class_q_c_p_range">QCPRange</link> <link linkend="class_q_c_p_color_map_data_1a1e43abd20a77b922b7cecfc69bf4dad7">keyRange</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="class_q_c_p_range">QCPRange</link> <link linkend="class_q_c_p_color_map_data_1a818e4e384aa4e5fad69ac603924394d3">valueRange</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="class_q_c_p_range">QCPRange</link> <link linkend="class_q_c_p_color_map_data_1ab7620248272c5ddd9a3f877f07179f6d">dataBounds</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double <link linkend="class_q_c_p_color_map_data_1a2c33807b008cdb9e1394245c294c0eaf">data</link> (
+double key, double value)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double <link linkend="class_q_c_p_color_map_data_1af51ecd21f347adbf87b4cce4e1f5cbd6">cell</link> (
+int keyIndex, int valueIndex)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>unsigned char <link linkend="class_q_c_p_color_map_data_1a4f7e6b7a97017400cbbd46f0660e68ea">alpha</link> (
+int keyIndex, int valueIndex)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_color_map_data_1a0d9ff35c299d0478b682bfbcdd9c097e">setSize</link> (
+int keySize, int valueSize)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_color_map_data_1ac7ef70e383aface34b44dbde49234b6b">setKeySize</link> (
+int keySize)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_color_map_data_1a0893c9e3914513048b45e3429ffd16f2">setValueSize</link> (
+int valueSize)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_color_map_data_1aad9c1c7c703c1339489fc730517c83d4">setRange</link> (
+const <link linkend="class_q_c_p_range">QCPRange</link> &amp; keyRange, const <link linkend="class_q_c_p_range">QCPRange</link> &amp; valueRange)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_color_map_data_1a0738c485f3c9df9ea1241b7a8bb6a86e">setKeyRange</link> (
+const <link linkend="class_q_c_p_range">QCPRange</link> &amp; keyRange)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_color_map_data_1ada1b2680ba96a5f4175b6d341cf75d23">setValueRange</link> (
+const <link linkend="class_q_c_p_range">QCPRange</link> &amp; valueRange)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_color_map_data_1afd2083ccfd6987ec94aa7ef8e91ca39a">setData</link> (
+double key, double value, double z)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_color_map_data_1a8e75eaf8746596319032a93f3d2d0683">setCell</link> (
+int keyIndex, int valueIndex, double z)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_color_map_data_1aaf7de5b34c58f38d8f4c1ceb064a876c">setAlpha</link> (
+int keyIndex, int valueIndex, unsigned char alpha)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_color_map_data_1ab235ade8a4d64bd3adb26a99b3dd57ee">recalculateDataBounds</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_color_map_data_1a9910ba830e96955bd5c8e5bef1e77ef3">clear</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_color_map_data_1a14d08b9c3720cd719400079b86d3906b">clearAlpha</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_color_map_data_1a350f783260eb9b5de5c7b5e0d5d3e3c2">fill</link> (
+double z)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_color_map_data_1a93e2a549d7702bc849cd48a585294657">fillAlpha</link> (
+unsigned char alpha)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="class_q_c_p_color_map_data_1aea88cc75a76ca571acf29b2ba8ac970d">isEmpty</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_color_map_data_1aca5b29e0ca2f299c9060fc6e1f74d0c8">coordToCell</link> (
+double key, double value, int * keyIndex, int * valueIndex)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_color_map_data_1af1a36385c78ab624cd617065602408b6">cellToCoord</link> (
+int keyIndex, int valueIndex, double * key, double * value)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="class_q_c_p_color_map_data_1a42c2b1c303683515fa4de4c551f54441">createAlpha</link> (
+bool initializeOpaque)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+    <simplesect>
+
+<para>Holds the two-dimensional data of a <link linkend="class_q_c_p_color_map">QCPColorMap</link> plottable. </para>
+    </simplesect>
+        <simplesect>
+            <title>Detailed Description</title>
+
+<para>This class is a data storage for <link linkend="class_q_c_p_color_map">QCPColorMap</link>. It holds a two-dimensional array, which <link linkend="class_q_c_p_color_map">QCPColorMap</link> then displays as a 2D image in the plot, where the array values are represented by a color, depending on the value.</para>
+
+<para>The size of the array can be controlled via <link linkend="class_q_c_p_color_map_data_1a0d9ff35c299d0478b682bfbcdd9c097e">setSize</link> (or <link linkend="class_q_c_p_color_map_data_1ac7ef70e383aface34b44dbde49234b6b">setKeySize</link>, <link linkend="class_q_c_p_color_map_data_1a0893c9e3914513048b45e3429ffd16f2">setValueSize</link>). Which plot coordinates these cells correspond to can be configured with <link linkend="class_q_c_p_color_map_data_1aad9c1c7c703c1339489fc730517c83d4">setRange</link> (or <link linkend="class_q_c_p_color_map_data_1a0738c485f3c9df9ea1241b7a8bb6a86e">setKeyRange</link>, <link linkend="class_q_c_p_color_map_data_1ada1b2680ba96a5f4175b6d341cf75d23">setValueRange</link>).</para>
+
+<para>The data cells can be accessed in two ways: They can be directly addressed by an integer index with <link linkend="class_q_c_p_color_map_data_1a8e75eaf8746596319032a93f3d2d0683">setCell</link>. This is the fastest method. Alternatively, they can be addressed by their plot coordinate with <link linkend="class_q_c_p_color_map_data_1afd2083ccfd6987ec94aa7ef8e91ca39a">setData</link>. plot coordinate to cell index transformations and vice versa are provided by the functions <link linkend="class_q_c_p_color_map_data_1aca5b29e0ca2f299c9060fc6e1f74d0c8">coordToCell</link> and <link linkend="class_q_c_p_color_map_data_1af1a36385c78ab624cd617065602408b6">cellToCoord</link>.</para>
+
+<para>A <link linkend="class_q_c_p_color_map_data">QCPColorMapData</link> also holds an on-demand two-dimensional array of alpha values which (if allocated) has the same size as the data map. It can be accessed via <link linkend="class_q_c_p_color_map_data_1aaf7de5b34c58f38d8f4c1ceb064a876c">setAlpha</link>, <link linkend="class_q_c_p_color_map_data_1a93e2a549d7702bc849cd48a585294657">fillAlpha</link> and <link linkend="class_q_c_p_color_map_data_1a14d08b9c3720cd719400079b86d3906b">clearAlpha</link>. The memory for the alpha map is only allocated if needed, i.e. on the first call of <link linkend="class_q_c_p_color_map_data_1aaf7de5b34c58f38d8f4c1ceb064a876c">setAlpha</link>. <link linkend="class_q_c_p_color_map_data_1a14d08b9c3720cd719400079b86d3906b">clearAlpha</link> restores full opacity and frees the alpha map.</para>
+
+<para>This class also buffers the minimum and maximum values that are in the data set, to provide <link linkend="class_q_c_p_color_map_1a856608fa3dd1cc290bcd5f29a5575774">QCPColorMap::rescaleDataRange</link> with the necessary information quickly. Setting a cell to a value that is greater than the current maximum increases this maximum to the new value. However, setting the cell that currently holds the maximum value to a smaller value doesn&apos;t decrease the maximum again, because finding the true new maximum would require going through the entire data array, which might be time consuming. The same holds for the data minimum. This functionality is given by <link linkend="class_q_c_p_color_map_data_1ab235ade8a4d64bd3adb26a99b3dd57ee">recalculateDataBounds</link>, such that you can decide when it is sensible to find the true current minimum and maximum. The method <link linkend="class_q_c_p_color_map_1a856608fa3dd1cc290bcd5f29a5575774">QCPColorMap::rescaleDataRange</link> offers a convenience parameter <emphasis>recalculateDataBounds</emphasis> which may be set to true to automatically call <link linkend="class_q_c_p_color_map_data_1ab235ade8a4d64bd3adb26a99b3dd57ee">recalculateDataBounds</link> internally. </para>
+                <para>Definition at line 5681 of file qcustomplot.h</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>qcustomplot.h</para></listitem></itemizedlist></para>
+        </simplesect>
+        <section>
+            <title>Member Data Documentation</title>
+        </section>
+            <section xml:id="class_q_c_p_color_map_data_1aac9d8eb81e18e240d89d56c01933fd23">
+                <title>QCPColorMapData::QCPColorMapData (int keySize, int valueSize, const QCPRange &amp;keyRange, const QCPRange &amp;valueRange)</title> <emphasis></emphasis>
+                
+<para>Constructs a new <link linkend="class_q_c_p_color_map_data">QCPColorMapData</link> instance. The instance has <emphasis>keySize</emphasis> cells in the key direction and <emphasis>valueSize</emphasis> cells in the value direction. These cells will be displayed by the <link linkend="class_q_c_p_color_map">QCPColorMap</link> at the coordinates <emphasis>keyRange</emphasis> and <emphasis>valueRange</emphasis>.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_color_map_data_1a0d9ff35c299d0478b682bfbcdd9c097e">setSize</link>, <link linkend="class_q_c_p_color_map_data_1ac7ef70e383aface34b44dbde49234b6b">setKeySize</link>, <link linkend="class_q_c_p_color_map_data_1a0893c9e3914513048b45e3429ffd16f2">setValueSize</link>, <link linkend="class_q_c_p_color_map_data_1aad9c1c7c703c1339489fc730517c83d4">setRange</link>, <link linkend="class_q_c_p_color_map_data_1a0738c485f3c9df9ea1241b7a8bb6a86e">setKeyRange</link>, <link linkend="class_q_c_p_color_map_data_1ada1b2680ba96a5f4175b6d341cf75d23">setValueRange</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_color_map_data_1a7ac252031d0921520d5bccb6bfa23a8b">
+                <title>QCPColorMapData::~QCPColorMapData ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_color_map_data_1a7f2145d86473263494abb9bf1de20436">
+                <title>QCPColorMapData::QCPColorMapData (const QCPColorMapData &amp;other)</title> <emphasis></emphasis>
+                
+<para>Constructs a new <link linkend="class_q_c_p_color_map_data">QCPColorMapData</link> instance copying the data and range of <emphasis>other</emphasis>. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_color_map_data_1afdf4dd1b2f5714234fe84709b85c2a8d">
+                <title>QCPColorMapData &amp; QCPColorMapData::operator= (const QCPColorMapData &amp;other)</title> <emphasis></emphasis>
+                
+<para>Overwrites this color map data instance with the data stored in <emphasis>other</emphasis>. The alpha map state is transferred, too. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_color_map_data_1abbda4d28de97aedce1e6e6f008a0a1f7">
+                <title>int QCPColorMapData::keySize () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_color_map_data_1a8510cafea24645bbb62b5e0bfc43209f">
+                <title>int QCPColorMapData::valueSize () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_color_map_data_1a1e43abd20a77b922b7cecfc69bf4dad7">
+                <title>QCPRange QCPColorMapData::keyRange () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_color_map_data_1a818e4e384aa4e5fad69ac603924394d3">
+                <title>QCPRange QCPColorMapData::valueRange () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_color_map_data_1ab7620248272c5ddd9a3f877f07179f6d">
+                <title>QCPRange QCPColorMapData::dataBounds () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_color_map_data_1a2c33807b008cdb9e1394245c294c0eaf">
+                <title>double QCPColorMapData::data (double key, double value)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_color_map_data_1af51ecd21f347adbf87b4cce4e1f5cbd6">
+                <title>double QCPColorMapData::cell (int keyIndex, int valueIndex)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_color_map_data_1a4f7e6b7a97017400cbbd46f0660e68ea">
+                <title>unsigned char QCPColorMapData::alpha (int keyIndex, int valueIndex)</title> <emphasis></emphasis>
+                
+<para>Returns the alpha map value of the cell with the indices <emphasis>keyIndex</emphasis> and <emphasis>valueIndex</emphasis>.</para>
+
+<para>If this color map data doesn&apos;t have an alpha map (because <link linkend="class_q_c_p_color_map_data_1aaf7de5b34c58f38d8f4c1ceb064a876c">setAlpha</link> was never called after creation or after a call to <link linkend="class_q_c_p_color_map_data_1a14d08b9c3720cd719400079b86d3906b">clearAlpha</link>), returns 255, which corresponds to full opacity.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_color_map_data_1aaf7de5b34c58f38d8f4c1ceb064a876c">setAlpha</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_color_map_data_1a0d9ff35c299d0478b682bfbcdd9c097e">
+                <title>void QCPColorMapData::setSize (int keySize, int valueSize)</title> <emphasis></emphasis>
+                
+<para>Resizes the data array to have <emphasis>keySize</emphasis> cells in the key dimension and <emphasis>valueSize</emphasis> cells in the value dimension.</para>
+
+<para>The current data is discarded and the map cells are set to 0, unless the map had already the requested size.</para>
+
+<para>Setting at least one of <emphasis>keySize</emphasis> or <emphasis>valueSize</emphasis> to zero frees the internal data array and <link linkend="class_q_c_p_color_map_data_1aea88cc75a76ca571acf29b2ba8ac970d">isEmpty</link> returns true.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_color_map_data_1aad9c1c7c703c1339489fc730517c83d4">setRange</link>, <link linkend="class_q_c_p_color_map_data_1ac7ef70e383aface34b44dbde49234b6b">setKeySize</link>, <link linkend="class_q_c_p_color_map_data_1a0893c9e3914513048b45e3429ffd16f2">setValueSize</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_color_map_data_1ac7ef70e383aface34b44dbde49234b6b">
+                <title>void QCPColorMapData::setKeySize (int keySize)</title> <emphasis></emphasis>
+                
+<para>Resizes the data array to have <emphasis>keySize</emphasis> cells in the key dimension.</para>
+
+<para>The current data is discarded and the map cells are set to 0, unless the map had already the requested size.</para>
+
+<para>Setting <emphasis>keySize</emphasis> to zero frees the internal data array and <link linkend="class_q_c_p_color_map_data_1aea88cc75a76ca571acf29b2ba8ac970d">isEmpty</link> returns true.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_color_map_data_1a0738c485f3c9df9ea1241b7a8bb6a86e">setKeyRange</link>, <link linkend="class_q_c_p_color_map_data_1a0d9ff35c299d0478b682bfbcdd9c097e">setSize</link>, <link linkend="class_q_c_p_color_map_data_1a0893c9e3914513048b45e3429ffd16f2">setValueSize</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_color_map_data_1a0893c9e3914513048b45e3429ffd16f2">
+                <title>void QCPColorMapData::setValueSize (int valueSize)</title> <emphasis></emphasis>
+                
+<para>Resizes the data array to have <emphasis>valueSize</emphasis> cells in the value dimension.</para>
+
+<para>The current data is discarded and the map cells are set to 0, unless the map had already the requested size.</para>
+
+<para>Setting <emphasis>valueSize</emphasis> to zero frees the internal data array and <link linkend="class_q_c_p_color_map_data_1aea88cc75a76ca571acf29b2ba8ac970d">isEmpty</link> returns true.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_color_map_data_1ada1b2680ba96a5f4175b6d341cf75d23">setValueRange</link>, <link linkend="class_q_c_p_color_map_data_1a0d9ff35c299d0478b682bfbcdd9c097e">setSize</link>, <link linkend="class_q_c_p_color_map_data_1ac7ef70e383aface34b44dbde49234b6b">setKeySize</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_color_map_data_1aad9c1c7c703c1339489fc730517c83d4">
+                <title>void QCPColorMapData::setRange (const QCPRange &amp;keyRange, const QCPRange &amp;valueRange)</title> <emphasis></emphasis>
+                
+<para>Sets the coordinate ranges the data shall be distributed over. This defines the rectangular area covered by the color map in plot coordinates.</para>
+
+<para>The outer cells will be centered on the range boundaries given to this function. For example, if the key size (<link linkend="class_q_c_p_color_map_data_1ac7ef70e383aface34b44dbde49234b6b">setKeySize</link>) is 3 and <emphasis>keyRange</emphasis> is set to <computeroutput><link linkend="class_q_c_p_range">QCPRange(2, 3)</link></computeroutput> there will be cells centered on the key coordinates 2, 2.5 and 3.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_color_map_data_1a0d9ff35c299d0478b682bfbcdd9c097e">setSize</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_color_map_data_1a0738c485f3c9df9ea1241b7a8bb6a86e">
+                <title>void QCPColorMapData::setKeyRange (const QCPRange &amp;keyRange)</title> <emphasis></emphasis>
+                
+<para>Sets the coordinate range the data shall be distributed over in the key dimension. Together with the value range, This defines the rectangular area covered by the color map in plot coordinates.</para>
+
+<para>The outer cells will be centered on the range boundaries given to this function. For example, if the key size (<link linkend="class_q_c_p_color_map_data_1ac7ef70e383aface34b44dbde49234b6b">setKeySize</link>) is 3 and <emphasis>keyRange</emphasis> is set to <computeroutput><link linkend="class_q_c_p_range">QCPRange(2, 3)</link></computeroutput> there will be cells centered on the key coordinates 2, 2.5 and 3.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_color_map_data_1aad9c1c7c703c1339489fc730517c83d4">setRange</link>, <link linkend="class_q_c_p_color_map_data_1ada1b2680ba96a5f4175b6d341cf75d23">setValueRange</link>, <link linkend="class_q_c_p_color_map_data_1a0d9ff35c299d0478b682bfbcdd9c097e">setSize</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_color_map_data_1ada1b2680ba96a5f4175b6d341cf75d23">
+                <title>void QCPColorMapData::setValueRange (const QCPRange &amp;valueRange)</title> <emphasis></emphasis>
+                
+<para>Sets the coordinate range the data shall be distributed over in the value dimension. Together with the key range, This defines the rectangular area covered by the color map in plot coordinates.</para>
+
+<para>The outer cells will be centered on the range boundaries given to this function. For example, if the value size (<link linkend="class_q_c_p_color_map_data_1a0893c9e3914513048b45e3429ffd16f2">setValueSize</link>) is 3 and <emphasis>valueRange</emphasis> is set to <computeroutput><link linkend="class_q_c_p_range">QCPRange(2, 3)</link></computeroutput> there will be cells centered on the value coordinates 2, 2.5 and 3.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_color_map_data_1aad9c1c7c703c1339489fc730517c83d4">setRange</link>, <link linkend="class_q_c_p_color_map_data_1a0738c485f3c9df9ea1241b7a8bb6a86e">setKeyRange</link>, <link linkend="class_q_c_p_color_map_data_1a0d9ff35c299d0478b682bfbcdd9c097e">setSize</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_color_map_data_1afd2083ccfd6987ec94aa7ef8e91ca39a">
+                <title>void QCPColorMapData::setData (double key, double value, double z)</title> <emphasis></emphasis>
+                
+<para>Sets the data of the cell, which lies at the plot coordinates given by <emphasis>key</emphasis> and <emphasis>value</emphasis>, to <emphasis>z</emphasis>.</para>
+
+<para><formalpara><title>Note: </title>
+
+<para>The <link linkend="class_q_c_p_color_map">QCPColorMap</link> always displays the data at equal key/value intervals, even if the key or value axis is set to a logarithmic scaling. If you want to use <link linkend="class_q_c_p_color_map">QCPColorMap</link> with logarithmic axes, you shouldn&apos;t use the <link linkend="class_q_c_p_color_map_data_1afd2083ccfd6987ec94aa7ef8e91ca39a">QCPColorMapData::setData</link> method as it uses a linear transformation to determine the cell index. Rather directly access the cell index with <link linkend="class_q_c_p_color_map_data_1a8e75eaf8746596319032a93f3d2d0683">QCPColorMapData::setCell</link>.</para>
+</formalpara>
+<formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_color_map_data_1a8e75eaf8746596319032a93f3d2d0683">setCell</link>, <link linkend="class_q_c_p_color_map_data_1aad9c1c7c703c1339489fc730517c83d4">setRange</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_color_map_data_1a8e75eaf8746596319032a93f3d2d0683">
+                <title>void QCPColorMapData::setCell (int keyIndex, int valueIndex, double z)</title> <emphasis></emphasis>
+                
+<para>Sets the data of the cell with indices <emphasis>keyIndex</emphasis> and <emphasis>valueIndex</emphasis> to <emphasis>z</emphasis>. The indices enumerate the cells starting from zero, up to the map&apos;s size-1 in the respective dimension (see <link linkend="class_q_c_p_color_map_data_1a0d9ff35c299d0478b682bfbcdd9c097e">setSize</link>).</para>
+
+<para>In the standard plot configuration (horizontal key axis and vertical value axis, both not range-reversed), the cell with indices (0, 0) is in the bottom left corner and the cell with indices (keySize-1, valueSize-1) is in the top right corner of the color map.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_color_map_data_1afd2083ccfd6987ec94aa7ef8e91ca39a">setData</link>, <link linkend="class_q_c_p_color_map_data_1a0d9ff35c299d0478b682bfbcdd9c097e">setSize</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_color_map_data_1aaf7de5b34c58f38d8f4c1ceb064a876c">
+                <title>void QCPColorMapData::setAlpha (int keyIndex, int valueIndex, unsigned char alpha)</title> <emphasis></emphasis>
+                
+<para>Sets the alpha of the color map cell given by <emphasis>keyIndex</emphasis> and <emphasis>valueIndex</emphasis> to <emphasis>alpha</emphasis>. A value of 0 for <emphasis>alpha</emphasis> results in a fully transparent cell, and a value of 255 results in a fully opaque cell.</para>
+
+<para>If an alpha map doesn&apos;t exist yet for this color map data, it will be created here. If you wish to restore full opacity and free any allocated memory of the alpha map, call <link linkend="class_q_c_p_color_map_data_1a14d08b9c3720cd719400079b86d3906b">clearAlpha</link>.</para>
+
+<para>Note that the cell-wise alpha which can be configured here is independent of any alpha configured in the color map&apos;s gradient (<link linkend="class_q_c_p_color_gradient">QCPColorGradient</link>). If a cell is affected both by the cell-wise and gradient alpha, the alpha values will be blended accordingly during rendering of the color map.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_color_map_data_1a93e2a549d7702bc849cd48a585294657">fillAlpha</link>, <link linkend="class_q_c_p_color_map_data_1a14d08b9c3720cd719400079b86d3906b">clearAlpha</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_color_map_data_1ab235ade8a4d64bd3adb26a99b3dd57ee">
+                <title>void QCPColorMapData::recalculateDataBounds ()</title> <emphasis></emphasis>
+                
+<para>Goes through the data and updates the buffered minimum and maximum data values.</para>
+
+<para>Calling this method is only advised if you are about to call <link linkend="class_q_c_p_color_map_1a856608fa3dd1cc290bcd5f29a5575774">QCPColorMap::rescaleDataRange</link> and can not guarantee that the cells holding the maximum or minimum data haven&apos;t been overwritten with a smaller or larger value respectively, since the buffered maximum/minimum values have been updated the last time. Why this is the case is explained in the class description (<link linkend="class_q_c_p_color_map_data">QCPColorMapData</link>).</para>
+
+<para>Note that the method <link linkend="class_q_c_p_color_map_1a856608fa3dd1cc290bcd5f29a5575774">QCPColorMap::rescaleDataRange</link> provides a parameter <emphasis>recalculateDataBounds</emphasis> for convenience. Setting this to true will call this method for you, before doing the rescale. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_color_map_data_1a9910ba830e96955bd5c8e5bef1e77ef3">
+                <title>void QCPColorMapData::clear ()</title> <emphasis></emphasis>
+                
+<para>Frees the internal data memory.</para>
+
+<para>This is equivalent to calling <link linkend="class_q_c_p_color_map_data_1a0d9ff35c299d0478b682bfbcdd9c097e">setSize(0, 0)</link>. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_color_map_data_1a14d08b9c3720cd719400079b86d3906b">
+                <title>void QCPColorMapData::clearAlpha ()</title> <emphasis></emphasis>
+                
+<para>Frees the internal alpha map. The color map will have full opacity again. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_color_map_data_1a350f783260eb9b5de5c7b5e0d5d3e3c2">
+                <title>void QCPColorMapData::fill (double z)</title> <emphasis></emphasis>
+                
+<para>Sets all cells to the value <emphasis>z</emphasis>. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_color_map_data_1a93e2a549d7702bc849cd48a585294657">
+                <title>void QCPColorMapData::fillAlpha (unsigned char alpha)</title> <emphasis></emphasis>
+                
+<para>Sets the opacity of all color map cells to <emphasis>alpha</emphasis>. A value of 0 for <emphasis>alpha</emphasis> results in a fully transparent color map, and a value of 255 results in a fully opaque color map.</para>
+
+<para>If you wish to restore opacity to 100% and free any used memory for the alpha map, rather use <link linkend="class_q_c_p_color_map_data_1a14d08b9c3720cd719400079b86d3906b">clearAlpha</link>.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_color_map_data_1aaf7de5b34c58f38d8f4c1ceb064a876c">setAlpha</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_color_map_data_1aea88cc75a76ca571acf29b2ba8ac970d">
+                <title>bool QCPColorMapData::isEmpty () const</title> <emphasis></emphasis>
+                
+<para>Returns whether this instance carries no data. This is equivalent to having a size where at least one of the dimensions is 0 (see <link linkend="class_q_c_p_color_map_data_1a0d9ff35c299d0478b682bfbcdd9c097e">setSize</link>). </para>
+
+            </section>
+            <section xml:id="class_q_c_p_color_map_data_1aca5b29e0ca2f299c9060fc6e1f74d0c8">
+                <title>void QCPColorMapData::coordToCell (double key, double value, int *keyIndex, int *valueIndex) const</title> <emphasis></emphasis>
+                
+<para>Transforms plot coordinates given by <emphasis>key</emphasis> and <emphasis>value</emphasis> to cell indices of this <link linkend="class_q_c_p_color_map_data">QCPColorMapData</link> instance. The resulting cell indices are returned via the output parameters <emphasis>keyIndex</emphasis> and <emphasis>valueIndex</emphasis>.</para>
+
+<para>The retrieved key/value cell indices can then be used for example with <link linkend="class_q_c_p_color_map_data_1a8e75eaf8746596319032a93f3d2d0683">setCell</link>.</para>
+
+<para>If you are only interested in a key or value index, you may pass 0 as <emphasis>valueIndex</emphasis> or <emphasis>keyIndex</emphasis>.</para>
+
+<para><formalpara><title>Note: </title>
+
+<para>The <link linkend="class_q_c_p_color_map">QCPColorMap</link> always displays the data at equal key/value intervals, even if the key or value axis is set to a logarithmic scaling. If you want to use <link linkend="class_q_c_p_color_map">QCPColorMap</link> with logarithmic axes, you shouldn&apos;t use the <link linkend="class_q_c_p_color_map_data_1aca5b29e0ca2f299c9060fc6e1f74d0c8">QCPColorMapData::coordToCell</link> method as it uses a linear transformation to determine the cell index.</para>
+</formalpara>
+<formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_color_map_data_1af1a36385c78ab624cd617065602408b6">cellToCoord</link>, <link linkend="class_q_c_p_axis_1af15d1b3a7f7e9b53d759d3ccff1fe4b4">QCPAxis::coordToPixel</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_color_map_data_1af1a36385c78ab624cd617065602408b6">
+                <title>void QCPColorMapData::cellToCoord (int keyIndex, int valueIndex, double *key, double *value) const</title> <emphasis></emphasis>
+                
+<para>Transforms cell indices given by <emphasis>keyIndex</emphasis> and <emphasis>valueIndex</emphasis> to cell indices of this <link linkend="class_q_c_p_color_map_data">QCPColorMapData</link> instance. The resulting coordinates are returned via the output parameters <emphasis>key</emphasis> and <emphasis>value</emphasis>.</para>
+
+<para>If you are only interested in a key or value coordinate, you may pass 0 as <emphasis>key</emphasis> or <emphasis>value</emphasis>.</para>
+
+<para><formalpara><title>Note: </title>
+
+<para>The <link linkend="class_q_c_p_color_map">QCPColorMap</link> always displays the data at equal key/value intervals, even if the key or value axis is set to a logarithmic scaling. If you want to use <link linkend="class_q_c_p_color_map">QCPColorMap</link> with logarithmic axes, you shouldn&apos;t use the <link linkend="class_q_c_p_color_map_data_1af1a36385c78ab624cd617065602408b6">QCPColorMapData::cellToCoord</link> method as it uses a linear transformation to determine the cell index.</para>
+</formalpara>
+<formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_color_map_data_1aca5b29e0ca2f299c9060fc6e1f74d0c8">coordToCell</link>, <link linkend="class_q_c_p_axis_1a536ef8f624cac59b6b6fdcb495723c57">QCPAxis::pixelToCoord</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_color_map_data_1a42c2b1c303683515fa4de4c551f54441">
+                <title>bool QCPColorMapData::createAlpha (bool initializeOpaque=true)</title> <emphasis></emphasis>
+                
+            </section>
+</section>

@@ -1,0 +1,793 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="class_q_c_p_layout_element">
+<title>QCPLayoutElement class Reference</title>
+<para>
+    <programlisting>#include <link linkend="qcustomplot_8h">&lt;qcustomplot.h&gt;</link></programlisting>
+</para>
+<para>Inheritance diagram for QCPLayoutElement</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_q_c_p_layout_element__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for QCPLayoutElement</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_q_c_p_layout_element__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                            <para><literallayout>enum <link linkend="class_q_c_p_layout_element_1a0d83360e05735735aaf6d7983c56374d">UpdatePhase</link> {
+<link linkend="class_q_c_p_layout_element_1a0d83360e05735735aaf6d7983c56374dad6119882eba136357c2f627992e527d3">upPreparation</link>,
+<link linkend="class_q_c_p_layout_element_1a0d83360e05735735aaf6d7983c56374da288cb59a92280e47261a341f2813e676">upMargins</link>,
+<link linkend="class_q_c_p_layout_element_1a0d83360e05735735aaf6d7983c56374da5d1ccf5d79967c232c3c511796860045">upLayout</link>
+}</literallayout>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                            <para><literallayout>enum <link linkend="class_q_c_p_layout_element_1a0afb3e5773529e4bd20e448f81be4d2a">SizeConstraintRect</link> {
+<link linkend="class_q_c_p_layout_element_1a0afb3e5773529e4bd20e448f81be4d2aa7fa7e25cd23758b9915c64ed9f1be26c">scrInnerRect</link>,
+<link linkend="class_q_c_p_layout_element_1a0afb3e5773529e4bd20e448f81be4d2aabe2745b41a6131ed194e13591b08e04d">scrOuterRect</link>
+}</literallayout>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title>Protected Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QCPLayout * mParentLayout</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QSize mMinimumSize</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QSize mMaximumSize</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>SizeConstraintRect mSizeConstraintRect</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QRect mRect</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QRect mOuterRect</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QMargins mMargins</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QMargins mMinimumMargins</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QCP::MarginSides mAutoMargins</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QHash&lt; QCP::MarginSide, QCPMarginGroup * &gt; mMarginGroups</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="class_q_c_p_layout_element_1a8947f0ada17e672aaba3d424cbbb67e3">QCPLayoutElement</link> (
+<link linkend="class_q_custom_plot">QCustomPlot</link> * parentPlot)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual <link linkend="class_q_c_p_layout_element_1a0dc52343920011b3e72d61fc94ed3400">~QCPLayoutElement</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="class_q_c_p_layout">QCPLayout</link> * <link linkend="class_q_c_p_layout_element_1a4efdcbde9d28f410e5ef166c9d691deb">layout</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QRect <link linkend="class_q_c_p_layout_element_1a208effccfe2cca4a0eaf9393e60f2dd4">rect</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QRect <link linkend="class_q_c_p_layout_element_1a2a32a12a6161c9dffbadeb9cc585510c">outerRect</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QMargins <link linkend="class_q_c_p_layout_element_1af4ac9450aa2d60863bf3a8ea0c940c9d">margins</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QMargins <link linkend="class_q_c_p_layout_element_1a5eae30e28f28d73fd1c56409c011393e">minimumMargins</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QCP::MarginSides <link linkend="class_q_c_p_layout_element_1a2585bc8c5cc70ee712909751a2fc8909">autoMargins</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QSize <link linkend="class_q_c_p_layout_element_1a60d4295468a2b57fe91f6f68e20c3993">minimumSize</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QSize <link linkend="class_q_c_p_layout_element_1afb9503858d4aa0f3b9f1794b084fb40a">maximumSize</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="class_q_c_p_layout_element_1a0afb3e5773529e4bd20e448f81be4d2a">SizeConstraintRect</link> <link linkend="class_q_c_p_layout_element_1a66136f121ee3e1c933b748761203cab4">sizeConstraintRect</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="class_q_c_p_margin_group">QCPMarginGroup</link> * <link linkend="class_q_c_p_layout_element_1a8af6bcf81e12fe1d6f44490f34522b90">marginGroup</link> (
+<link linkend="namespace_q_c_p_1a7e487e3e2ccb62ab7771065bab7cae54">QCP::MarginSide</link> side)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QHash&lt; <link linkend="namespace_q_c_p_1a7e487e3e2ccb62ab7771065bab7cae54">QCP::MarginSide</link>, <link linkend="class_q_c_p_margin_group">QCPMarginGroup</link> * &gt; <link linkend="class_q_c_p_layout_element_1ac8d1139a81a1625860647e307ae2b733">marginGroups</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_layout_element_1a38975ea13e36de8e53391ce41d94bc0f">setOuterRect</link> (
+const QRect &amp; rect)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_layout_element_1a8f450b1f3f992ad576fce2c63d8b79cf">setMargins</link> (
+const QMargins &amp; margins)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_layout_element_1a0a8a17abc16b7923159fcc7608f94673">setMinimumMargins</link> (
+const QMargins &amp; margins)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_layout_element_1accfda49994e3e6d51ed14504abf9d27d">setAutoMargins</link> (
+QCP::MarginSides sides)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_layout_element_1a5dd29a3c8bc88440c97c06b67be7886b">setMinimumSize</link> (
+const QSize &amp; size)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_layout_element_1a8e0447614a0bf92de9a7304588c6b96e">setMinimumSize</link> (
+int width, int height)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_layout_element_1a74eb5280a737ab44833d506db65efd95">setMaximumSize</link> (
+const QSize &amp; size)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_layout_element_1a03e0e9c48f230217c529b0819f832d84">setMaximumSize</link> (
+int width, int height)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_layout_element_1a361666cdcc6fbfd37344cc44be746b0f">setSizeConstraintRect</link> (
+<link linkend="class_q_c_p_layout_element_1a0afb3e5773529e4bd20e448f81be4d2a">SizeConstraintRect</link> constraintRect)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_layout_element_1a516e56f76b6bc100e8e71d329866847d">setMarginGroup</link> (
+QCP::MarginSides sides, <link linkend="class_q_c_p_margin_group">QCPMarginGroup</link> * group)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="class_q_c_p_layout_element_1a929c2ec62e0e0e1d8418eaa802e2af9b">update</link> (
+<link linkend="class_q_c_p_layout_element_1a0d83360e05735735aaf6d7983c56374d">UpdatePhase</link> phase)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual QSize <link linkend="class_q_c_p_layout_element_1a46789036c4fcb190fa374f91321d7c09">minimumOuterSizeHint</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual QSize <link linkend="class_q_c_p_layout_element_1ad96efb977a26e360e8a64a4c1e56456d">maximumOuterSizeHint</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual QList&lt; <link linkend="class_q_c_p_layout_element">QCPLayoutElement</link> * &gt; <link linkend="class_q_c_p_layout_element_1a76dec8cb31e498994a944d7647a43309">elements</link> (
+bool recursive)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual double <link linkend="class_q_c_p_layout_element_1ae97f483cccedadbf18ea4525ef240ee4">selectTest</link> (
+const QPointF &amp; pos, bool onlySelectable, QVariant * details)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual int <link linkend="class_q_c_p_layout_element_1a005c9f0fe84bc1591a2cf2c46fd477b4">calculateAutoMargin</link> (
+<link linkend="namespace_q_c_p_1a7e487e3e2ccb62ab7771065bab7cae54">QCP::MarginSide</link> side)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="class_q_c_p_layout_element_1a765f041a73af0c2de41b41a5a03e31a4">layoutChanged</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="class_q_c_p_layout_element_1a0a8f18141bcf46cf40ad4c13324ff346">applyDefaultAntialiasingHint</link> (
+<link linkend="class_q_c_p_painter">QCPPainter</link> * painter)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="class_q_c_p_layout_element_1ad1c597b1d608cfdd86e7b76819a94cfb">draw</link> (
+<link linkend="class_q_c_p_painter">QCPPainter</link> * painter)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="class_q_c_p_layout_element_1ab4bb5c5a958451f5f153fdce350f13cf">parentPlotInitialized</link> (
+<link linkend="class_q_custom_plot">QCustomPlot</link> * parentPlot)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+    <simplesect>
+
+<para>The abstract base class for all objects that form the layout system. </para>
+    </simplesect>
+        <simplesect>
+            <title>Detailed Description</title>
+
+<para>This is an abstract base class. As such, it can&apos;t be instantiated directly, rather use one of its subclasses.</para>
+
+<para>A Layout element is a rectangular object which can be placed in layouts. It has an outer rect (<link linkend="class_q_c_p_layout_element_1a2a32a12a6161c9dffbadeb9cc585510c">QCPLayoutElement::outerRect</link>) and an inner rect (<link linkend="class_q_c_p_layout_element_1a208effccfe2cca4a0eaf9393e60f2dd4">QCPLayoutElement::rect</link>). The difference between outer and inner rect is called its margin. The margin can either be set to automatic or manual (<link linkend="class_q_c_p_layout_element_1accfda49994e3e6d51ed14504abf9d27d">setAutoMargins</link>) on a per-side basis. If a side is set to manual, that margin can be set explicitly with <link linkend="class_q_c_p_layout_element_1a8f450b1f3f992ad576fce2c63d8b79cf">setMargins</link> and will stay fixed at that value. If it&apos;s set to automatic, the layout element subclass will control the value itself (via <link linkend="class_q_c_p_layout_element_1a005c9f0fe84bc1591a2cf2c46fd477b4">calculateAutoMargin</link>).</para>
+
+<para>Layout elements can be placed in layouts (base class <link linkend="class_q_c_p_layout">QCPLayout</link>) like <link linkend="class_q_c_p_layout_grid">QCPLayoutGrid</link>. The top level layout is reachable via <link linkend="class_q_custom_plot_1af1a1f1f571237deb7c2bd34a5e9f018f">QCustomPlot::plotLayout</link>, and is a <link linkend="class_q_c_p_layout_grid">QCPLayoutGrid</link>. Since <link linkend="class_q_c_p_layout">QCPLayout</link> itself derives from <link linkend="class_q_c_p_layout_element">QCPLayoutElement</link>, layouts can be nested.</para>
+
+<para>Thus in <link linkend="class_q_custom_plot">QCustomPlot</link> one can divide layout elements into two categories: The ones that are invisible by themselves, because they don&apos;t draw anything. Their only purpose is to manage the position and size of other layout elements. This category of layout elements usually use <link linkend="class_q_c_p_layout">QCPLayout</link> as base class. Then there is the category of layout elements which actually draw something. For example, <link linkend="class_q_c_p_axis_rect">QCPAxisRect</link>, <link linkend="class_q_c_p_legend">QCPLegend</link> and <link linkend="class_q_c_p_text_element">QCPTextElement</link> are of this category. This does not necessarily mean that the latter category can&apos;t have child layout elements. <link linkend="class_q_c_p_legend">QCPLegend</link> for instance, actually derives from <link linkend="class_q_c_p_layout_grid">QCPLayoutGrid</link> and the individual legend items are child layout elements in the grid layout. </para>
+                <para>Definition at line 1180 of file qcustomplot.h</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>qcustomplot.h</para></listitem></itemizedlist></para>
+        </simplesect>
+            <section xml:id="class_q_c_p_layout_element_1a0d83360e05735735aaf6d7983c56374d">
+               <title>enum UpdatePhase </title>
+               
+<para>Defines the phases of the update process, that happens just before a replot. At each phase, <link linkend="class_q_c_p_layout_element_1a929c2ec62e0e0e1d8418eaa802e2af9b">update</link> is called with the according UpdatePhase value. </para>
+
+               <formalpara>
+                    <title>Enumerator:</title>
+                    <variablelist>
+                        <varlistentry xml:id="class_q_c_p_layout_element_1a0d83360e05735735aaf6d7983c56374dad6119882eba136357c2f627992e527d3">
+                            <term>upPreparation</term>
+                            <listitem>
+                                <para>Phase used for any type of preparation that needs to be done before margin calculation and layout.</para>
+                            </listitem>
+                        </varlistentry>
+                        <varlistentry xml:id="class_q_c_p_layout_element_1a0d83360e05735735aaf6d7983c56374da288cb59a92280e47261a341f2813e676">
+                            <term>upMargins</term>
+                            <listitem>
+                                <para>Phase in which the margins are calculated and set.</para>
+                            </listitem>
+                        </varlistentry>
+                        <varlistentry xml:id="class_q_c_p_layout_element_1a0d83360e05735735aaf6d7983c56374da5d1ccf5d79967c232c3c511796860045">
+                            <term>upLayout</term>
+                            <listitem>
+                                <para>Final phase in which the layout system places the rects of the elements.</para>
+                            </listitem>
+                        </varlistentry>
+                     </variablelist>
+                </formalpara>
+                <para>Definition at line 1197 of file qcustomplot.h
+                    <computeroutput><literallayout>
+{
+upPreparation, 
+upMargins, 
+upLayout, 
+}UpdatePhase;
+                    </literallayout></computeroutput>
+                </para>
+            </section>
+            <section xml:id="class_q_c_p_layout_element_1a0afb3e5773529e4bd20e448f81be4d2a">
+               <title>enum SizeConstraintRect </title>
+               
+<para>Defines to which rect of a layout element the size constraints that can be set via <link linkend="class_q_c_p_layout_element_1a5dd29a3c8bc88440c97c06b67be7886b">setMinimumSize</link> and <link linkend="class_q_c_p_layout_element_1a74eb5280a737ab44833d506db65efd95">setMaximumSize</link> apply. The outer rect (<link linkend="class_q_c_p_layout_element_1a2a32a12a6161c9dffbadeb9cc585510c">outerRect</link>) includes the margins (e.g. in the case of a <link linkend="class_q_c_p_axis_rect">QCPAxisRect</link> the axis labels), whereas the inner rect (<link linkend="class_q_c_p_layout_element_1a208effccfe2cca4a0eaf9393e60f2dd4">rect</link>) does not.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_layout_element_1a361666cdcc6fbfd37344cc44be746b0f">setSizeConstraintRect</link> </para>
+</formalpara>
+</para>
+
+               <formalpara>
+                    <title>Enumerator:</title>
+                    <variablelist>
+                        <varlistentry xml:id="class_q_c_p_layout_element_1a0afb3e5773529e4bd20e448f81be4d2aa7fa7e25cd23758b9915c64ed9f1be26c">
+                            <term>scrInnerRect</term>
+                            <listitem>
+                                <para>Minimum/Maximum size constraints apply to inner rect.</para>
+                            </listitem>
+                        </varlistentry>
+                        <varlistentry xml:id="class_q_c_p_layout_element_1a0afb3e5773529e4bd20e448f81be4d2aabe2745b41a6131ed194e13591b08e04d">
+                            <term>scrOuterRect</term>
+                            <listitem>
+                                <para>Minimum/Maximum size constraints apply to outer rect, thus include layout element margins.</para>
+                            </listitem>
+                        </varlistentry>
+                     </variablelist>
+                </formalpara>
+                <para>Definition at line 1211 of file qcustomplot.h
+                    <computeroutput><literallayout>
+{
+scrInnerRect, 
+scrOuterRect, 
+}SizeConstraintRect;
+                    </literallayout></computeroutput>
+                </para>
+            </section>
+        <section>
+            <title>Member Data Documentation</title>
+        </section>
+            <section xml:id="class_q_c_p_layout_element_1a8947f0ada17e672aaba3d424cbbb67e3">
+                <title>QCPLayoutElement::QCPLayoutElement (QCustomPlot *parentPlot=0)</title> <emphasis></emphasis>
+                
+<para>Creates an instance of <link linkend="class_q_c_p_layout_element">QCPLayoutElement</link> and sets default values. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_layout_element_1a0dc52343920011b3e72d61fc94ed3400">
+                <title>QCPLayoutElement::~QCPLayoutElement ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_layout_element_1a4efdcbde9d28f410e5ef166c9d691deb">
+                <title>QCPLayout * QCPLayoutElement::layout () const</title> <emphasis></emphasis>
+                
+<para>Returns the parent layout of this layout element. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_layout_element_1a208effccfe2cca4a0eaf9393e60f2dd4">
+                <title>QRect QCPLayoutElement::rect () const</title> <emphasis></emphasis>
+                
+<para>Returns the inner rect of this layout element. The inner rect is the outer rect (<link linkend="class_q_c_p_layout_element_1a2a32a12a6161c9dffbadeb9cc585510c">outerRect</link>, <link linkend="class_q_c_p_layout_element_1a38975ea13e36de8e53391ce41d94bc0f">setOuterRect</link>) shrinked by the margins (<link linkend="class_q_c_p_layout_element_1a8f450b1f3f992ad576fce2c63d8b79cf">setMargins</link>, <link linkend="class_q_c_p_layout_element_1accfda49994e3e6d51ed14504abf9d27d">setAutoMargins</link>).</para>
+
+<para>In some cases, the area between outer and inner rect is left blank. In other cases the margin area is used to display peripheral graphics while the main content is in the inner rect. This is where automatic margin calculation becomes interesting because it allows the layout element to adapt the margins to the peripheral graphics it wants to draw. For example, <link linkend="class_q_c_p_axis_rect">QCPAxisRect</link> draws the axis labels and tick labels in the margin area, thus needs to adjust the margins (if <link linkend="class_q_c_p_layout_element_1accfda49994e3e6d51ed14504abf9d27d">setAutoMargins</link> is enabled) according to the space required by the labels of the axes.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_layout_element_1a2a32a12a6161c9dffbadeb9cc585510c">outerRect</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_layout_element_1a2a32a12a6161c9dffbadeb9cc585510c">
+                <title>QRect QCPLayoutElement::outerRect () const</title> <emphasis></emphasis>
+                
+<para>Returns the outer rect of this layout element. The outer rect is the inner rect expanded by the margins (<link linkend="class_q_c_p_layout_element_1a8f450b1f3f992ad576fce2c63d8b79cf">setMargins</link>, <link linkend="class_q_c_p_layout_element_1accfda49994e3e6d51ed14504abf9d27d">setAutoMargins</link>). The outer rect is used (and set via <link linkend="class_q_c_p_layout_element_1a38975ea13e36de8e53391ce41d94bc0f">setOuterRect</link>) by the parent <link linkend="class_q_c_p_layout">QCPLayout</link> to control the size of this layout element.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_layout_element_1a208effccfe2cca4a0eaf9393e60f2dd4">rect</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_layout_element_1af4ac9450aa2d60863bf3a8ea0c940c9d">
+                <title>QMargins QCPLayoutElement::margins () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_layout_element_1a5eae30e28f28d73fd1c56409c011393e">
+                <title>QMargins QCPLayoutElement::minimumMargins () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_layout_element_1a2585bc8c5cc70ee712909751a2fc8909">
+                <title>QCP::MarginSides QCPLayoutElement::autoMargins () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_layout_element_1a60d4295468a2b57fe91f6f68e20c3993">
+                <title>QSize QCPLayoutElement::minimumSize () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_layout_element_1afb9503858d4aa0f3b9f1794b084fb40a">
+                <title>QSize QCPLayoutElement::maximumSize () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_layout_element_1a66136f121ee3e1c933b748761203cab4">
+                <title>SizeConstraintRect QCPLayoutElement::sizeConstraintRect () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_layout_element_1a8af6bcf81e12fe1d6f44490f34522b90">
+                <title>QCPMarginGroup* QCPLayoutElement::marginGroup (QCP::MarginSide side) const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_layout_element_1ac8d1139a81a1625860647e307ae2b733">
+                <title>QHash&lt;QCP::MarginSide, QCPMarginGroup*&gt; QCPLayoutElement::marginGroups () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_layout_element_1a38975ea13e36de8e53391ce41d94bc0f">
+                <title>void QCPLayoutElement::setOuterRect (const QRect &amp;rect)</title> <emphasis></emphasis>
+                
+<para>Sets the outer rect of this layout element. If the layout element is inside a layout, the layout sets the position and size of this layout element using this function.</para>
+
+<para>Calling this function externally has no effect, since the layout will overwrite any changes to the outer rect upon the next replot.</para>
+
+<para>The layout element will adapt its inner <link linkend="class_q_c_p_layout_element_1a208effccfe2cca4a0eaf9393e60f2dd4">rect</link> by applying the margins inward to the outer rect.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_layout_element_1a208effccfe2cca4a0eaf9393e60f2dd4">rect</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_layout_element_1a8f450b1f3f992ad576fce2c63d8b79cf">
+                <title>void QCPLayoutElement::setMargins (const QMargins &amp;margins)</title> <emphasis></emphasis>
+                
+<para>Sets the margins of this layout element. If <link linkend="class_q_c_p_layout_element_1accfda49994e3e6d51ed14504abf9d27d">setAutoMargins</link> is disabled for some or all sides, this function is used to manually set the margin on those sides. Sides that are still set to be handled automatically are ignored and may have any value in <emphasis>margins</emphasis>.</para>
+
+<para>The margin is the distance between the outer rect (controlled by the parent layout via <link linkend="class_q_c_p_layout_element_1a38975ea13e36de8e53391ce41d94bc0f">setOuterRect</link>) and the inner <link linkend="class_q_c_p_layout_element_1a208effccfe2cca4a0eaf9393e60f2dd4">rect</link> (which usually contains the main content of this layout element).</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_layout_element_1accfda49994e3e6d51ed14504abf9d27d">setAutoMargins</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_layout_element_1a0a8a17abc16b7923159fcc7608f94673">
+                <title>void QCPLayoutElement::setMinimumMargins (const QMargins &amp;margins)</title> <emphasis></emphasis>
+                
+<para>If <link linkend="class_q_c_p_layout_element_1accfda49994e3e6d51ed14504abf9d27d">setAutoMargins</link> is enabled on some or all margins, this function is used to provide minimum values for those margins.</para>
+
+<para>The minimum values are not enforced on margin sides that were set to be under manual control via <link linkend="class_q_c_p_layout_element_1accfda49994e3e6d51ed14504abf9d27d">setAutoMargins</link>.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_layout_element_1accfda49994e3e6d51ed14504abf9d27d">setAutoMargins</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_layout_element_1accfda49994e3e6d51ed14504abf9d27d">
+                <title>void QCPLayoutElement::setAutoMargins (QCP::MarginSides sides)</title> <emphasis></emphasis>
+                
+<para>Sets on which sides the margin shall be calculated automatically. If a side is calculated automatically, a minimum margin value may be provided with <link linkend="class_q_c_p_layout_element_1a0a8a17abc16b7923159fcc7608f94673">setMinimumMargins</link>. If a side is set to be controlled manually, the value may be specified with <link linkend="class_q_c_p_layout_element_1a8f450b1f3f992ad576fce2c63d8b79cf">setMargins</link>.</para>
+
+<para>Margin sides that are under automatic control may participate in a <link linkend="class_q_c_p_margin_group">QCPMarginGroup</link> (see <link linkend="class_q_c_p_layout_element_1a516e56f76b6bc100e8e71d329866847d">setMarginGroup</link>), to synchronize (align) it with other layout elements in the plot.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_layout_element_1a0a8a17abc16b7923159fcc7608f94673">setMinimumMargins</link>, <link linkend="class_q_c_p_layout_element_1a8f450b1f3f992ad576fce2c63d8b79cf">setMargins</link>, <link linkend="namespace_q_c_p_1a7e487e3e2ccb62ab7771065bab7cae54">QCP::MarginSide</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_layout_element_1a5dd29a3c8bc88440c97c06b67be7886b">
+                <title>void QCPLayoutElement::setMinimumSize (const QSize &amp;size)</title> <emphasis></emphasis>
+                
+<para>Sets the minimum size of this layout element. A parent layout tries to respect the <emphasis>size</emphasis> here by changing row/column sizes in the layout accordingly.</para>
+
+<para>If the parent layout size is not sufficient to satisfy all minimum size constraints of its child layout elements, the layout may set a size that is actually smaller than <emphasis>size</emphasis>. <link linkend="class_q_custom_plot">QCustomPlot</link> propagates the layout&apos;s size constraints to the outside by setting its own minimum QWidget size accordingly, so violations of <emphasis>size</emphasis> should be exceptions.</para>
+
+<para>Whether this constraint applies to the inner or the outer rect can be specified with <link linkend="class_q_c_p_layout_element_1a361666cdcc6fbfd37344cc44be746b0f">setSizeConstraintRect</link> (see <link linkend="class_q_c_p_layout_element_1a208effccfe2cca4a0eaf9393e60f2dd4">rect</link> and <link linkend="class_q_c_p_layout_element_1a2a32a12a6161c9dffbadeb9cc585510c">outerRect</link>). </para>
+
+            </section>
+            <section xml:id="class_q_c_p_layout_element_1a8e0447614a0bf92de9a7304588c6b96e">
+                <title>void QCPLayoutElement::setMinimumSize (int width, int height)</title> <emphasis></emphasis>
+                
+<para>This is an overloaded member function, provided for convenience. It differs from the above function only in what argument(s) it accepts.</para>
+
+<para>Sets the minimum size of this layout element.</para>
+
+<para>Whether this constraint applies to the inner or the outer rect can be specified with <link linkend="class_q_c_p_layout_element_1a361666cdcc6fbfd37344cc44be746b0f">setSizeConstraintRect</link> (see <link linkend="class_q_c_p_layout_element_1a208effccfe2cca4a0eaf9393e60f2dd4">rect</link> and <link linkend="class_q_c_p_layout_element_1a2a32a12a6161c9dffbadeb9cc585510c">outerRect</link>). </para>
+
+            </section>
+            <section xml:id="class_q_c_p_layout_element_1a74eb5280a737ab44833d506db65efd95">
+                <title>void QCPLayoutElement::setMaximumSize (const QSize &amp;size)</title> <emphasis></emphasis>
+                
+<para>Sets the maximum size of this layout element. A parent layout tries to respect the <emphasis>size</emphasis> here by changing row/column sizes in the layout accordingly.</para>
+
+<para>Whether this constraint applies to the inner or the outer rect can be specified with <link linkend="class_q_c_p_layout_element_1a361666cdcc6fbfd37344cc44be746b0f">setSizeConstraintRect</link> (see <link linkend="class_q_c_p_layout_element_1a208effccfe2cca4a0eaf9393e60f2dd4">rect</link> and <link linkend="class_q_c_p_layout_element_1a2a32a12a6161c9dffbadeb9cc585510c">outerRect</link>). </para>
+
+            </section>
+            <section xml:id="class_q_c_p_layout_element_1a03e0e9c48f230217c529b0819f832d84">
+                <title>void QCPLayoutElement::setMaximumSize (int width, int height)</title> <emphasis></emphasis>
+                
+<para>This is an overloaded member function, provided for convenience. It differs from the above function only in what argument(s) it accepts.</para>
+
+<para>Sets the maximum size of this layout element.</para>
+
+<para>Whether this constraint applies to the inner or the outer rect can be specified with <link linkend="class_q_c_p_layout_element_1a361666cdcc6fbfd37344cc44be746b0f">setSizeConstraintRect</link> (see <link linkend="class_q_c_p_layout_element_1a208effccfe2cca4a0eaf9393e60f2dd4">rect</link> and <link linkend="class_q_c_p_layout_element_1a2a32a12a6161c9dffbadeb9cc585510c">outerRect</link>). </para>
+
+            </section>
+            <section xml:id="class_q_c_p_layout_element_1a361666cdcc6fbfd37344cc44be746b0f">
+                <title>void QCPLayoutElement::setSizeConstraintRect (SizeConstraintRect constraintRect)</title> <emphasis></emphasis>
+                
+<para>Sets to which rect of a layout element the size constraints apply. Size constraints can be set via <link linkend="class_q_c_p_layout_element_1a5dd29a3c8bc88440c97c06b67be7886b">setMinimumSize</link> and <link linkend="class_q_c_p_layout_element_1a74eb5280a737ab44833d506db65efd95">setMaximumSize</link>.</para>
+
+<para>The outer rect (<link linkend="class_q_c_p_layout_element_1a2a32a12a6161c9dffbadeb9cc585510c">outerRect</link>) includes the margins (e.g. in the case of a <link linkend="class_q_c_p_axis_rect">QCPAxisRect</link> the axis labels), whereas the inner rect (<link linkend="class_q_c_p_layout_element_1a208effccfe2cca4a0eaf9393e60f2dd4">rect</link>) does not.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_layout_element_1a5dd29a3c8bc88440c97c06b67be7886b">setMinimumSize</link>, <link linkend="class_q_c_p_layout_element_1a74eb5280a737ab44833d506db65efd95">setMaximumSize</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_layout_element_1a516e56f76b6bc100e8e71d329866847d">
+                <title>void QCPLayoutElement::setMarginGroup (QCP::MarginSides sides, QCPMarginGroup *group)</title> <emphasis></emphasis>
+                
+<para>Sets the margin <emphasis>group</emphasis> of the specified margin <emphasis>sides</emphasis>.</para>
+
+<para>Margin groups allow synchronizing specified margins across layout elements, see the documentation of <link linkend="class_q_c_p_margin_group">QCPMarginGroup</link>.</para>
+
+<para>To unset the margin group of <emphasis>sides</emphasis>, set <emphasis>group</emphasis> to 0.</para>
+
+<para>Note that margin groups only work for margin sides that are set to automatic (<link linkend="class_q_c_p_layout_element_1accfda49994e3e6d51ed14504abf9d27d">setAutoMargins</link>).</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="namespace_q_c_p_1a7e487e3e2ccb62ab7771065bab7cae54">QCP::MarginSide</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_layout_element_1a929c2ec62e0e0e1d8418eaa802e2af9b">
+                <title>void QCPLayoutElement::update (UpdatePhase phase)</title> <emphasis></emphasis>
+                
+<para>Updates the layout element and sub-elements. This function is automatically called before every replot by the parent layout element. It is called multiple times, once for every <link linkend="class_q_c_p_layout_element_1a0d83360e05735735aaf6d7983c56374d">UpdatePhase</link>. The phases are run through in the order of the enum values. For details about what happens at the different phases, see the documentation of <link linkend="class_q_c_p_layout_element_1a0d83360e05735735aaf6d7983c56374d">UpdatePhase</link>.</para>
+
+<para>Layout elements that have child elements should call the <link linkend="class_q_c_p_layout_element_1a929c2ec62e0e0e1d8418eaa802e2af9b">update</link> method of their child elements, and pass the current <emphasis>phase</emphasis> unchanged.</para>
+
+<para>The default implementation executes the automatic margin mechanism in the <link linkend="class_q_c_p_layout_element_1a0d83360e05735735aaf6d7983c56374da288cb59a92280e47261a341f2813e676">upMargins</link> phase. Subclasses should make sure to call the base class implementation. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_layout_element_1a46789036c4fcb190fa374f91321d7c09">
+                <title>QSize QCPLayoutElement::minimumOuterSizeHint () const</title> <emphasis></emphasis>
+                
+<para>Returns the suggested minimum size this layout element (the <link linkend="class_q_c_p_layout_element_1a2a32a12a6161c9dffbadeb9cc585510c">outerRect</link>) may be compressed to, if no manual minimum size is set.</para>
+
+<para>if a minimum size (<link linkend="class_q_c_p_layout_element_1a5dd29a3c8bc88440c97c06b67be7886b">setMinimumSize</link>) was not set manually, parent layouts use the returned size (usually indirectly through <link linkend="class_q_c_p_layout_1a864fddc84721f186663faf3683f1fa70">QCPLayout::getFinalMinimumOuterSize</link>) to determine the minimum allowed size of this layout element.</para>
+
+<para>A manual minimum size is considered set if it is non-zero.</para>
+
+<para>The default implementation simply returns the sum of the horizontal margins for the width and the sum of the vertical margins for the height. Reimplementations may use their detailed knowledge about the layout element&apos;s content to provide size hints. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_layout_element_1ad96efb977a26e360e8a64a4c1e56456d">
+                <title>QSize QCPLayoutElement::maximumOuterSizeHint () const</title> <emphasis></emphasis>
+                
+<para>Returns the suggested maximum size this layout element (the <link linkend="class_q_c_p_layout_element_1a2a32a12a6161c9dffbadeb9cc585510c">outerRect</link>) may be expanded to, if no manual maximum size is set.</para>
+
+<para>if a maximum size (<link linkend="class_q_c_p_layout_element_1a74eb5280a737ab44833d506db65efd95">setMaximumSize</link>) was not set manually, parent layouts use the returned size (usually indirectly through <link linkend="class_q_c_p_layout_1add49fd6843821a6126914b837ed52e22">QCPLayout::getFinalMaximumOuterSize</link>) to determine the maximum allowed size of this layout element.</para>
+
+<para>A manual maximum size is considered set if it is smaller than Qt&apos;s <computeroutput>QWIDGETSIZE_MAX</computeroutput>.</para>
+
+<para>The default implementation simply returns <computeroutput>QWIDGETSIZE_MAX</computeroutput> for both width and height, implying no suggested maximum size. Reimplementations may use their detailed knowledge about the layout element&apos;s content to provide size hints. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_layout_element_1a76dec8cb31e498994a944d7647a43309">
+                <title>QList&lt; QCPLayoutElement * &gt; QCPLayoutElement::elements (bool recursive) const</title> <emphasis></emphasis>
+                
+<para>Returns a list of all child elements in this layout element. If <emphasis>recursive</emphasis> is true, all sub-child elements are included in the list, too.</para>
+
+<para><formalpara><title>Warning: </title>
+
+<para>There may be entries with value 0 in the returned list. (For example, <link linkend="class_q_c_p_layout_grid">QCPLayoutGrid</link> may have empty cells which yield 0 at the respective index.) </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_layout_element_1ae97f483cccedadbf18ea4525ef240ee4">
+                <title>double QCPLayoutElement::selectTest (const QPointF &amp;pos, bool onlySelectable, QVariant *details=0) const Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+<para>Layout elements are sensitive to events inside their outer rect. If <emphasis>pos</emphasis> is within the outer rect, this method returns a value corresponding to 0.99 times the parent plot&apos;s selection tolerance. However, layout elements are not selectable by default. So if <emphasis>onlySelectable</emphasis> is true, -1.0 is returned.</para>
+
+<para>See <link linkend="class_q_c_p_layerable_1a04db8351fefd44cfdb77958e75c6288e">QCPLayerable::selectTest</link> for a general explanation of this virtual method.</para>
+
+<para><link linkend="class_q_c_p_layout_element">QCPLayoutElement</link> subclasses may reimplement this method to provide more specific selection test behaviour. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_layout_element_1a005c9f0fe84bc1591a2cf2c46fd477b4">
+                <title>int QCPLayoutElement::calculateAutoMargin (QCP::MarginSide side)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_layout_element_1a765f041a73af0c2de41b41a5a03e31a4">
+                <title>void QCPLayoutElement::layoutChanged ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_layout_element_1a0a8f18141bcf46cf40ad4c13324ff346">
+                <title>virtual void QCPLayoutElement::applyDefaultAntialiasingHint (QCPPainter *painter) const Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_layout_element_1ad1c597b1d608cfdd86e7b76819a94cfb">
+                <title>virtual void QCPLayoutElement::draw (QCPPainter *painter) Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_layout_element_1ab4bb5c5a958451f5f153fdce350f13cf">
+                <title>void QCPLayoutElement::parentPlotInitialized (QCustomPlot *parentPlot) Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+            </section>
+</section>

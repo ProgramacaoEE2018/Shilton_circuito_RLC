@@ -1,0 +1,377 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="class_q_c_p_layout">
+<title>QCPLayout class Reference</title>
+<para>
+    <programlisting>#include <link linkend="qcustomplot_8h">&lt;qcustomplot.h&gt;</link></programlisting>
+</para>
+<para>Inheritance diagram for QCPLayout</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_q_c_p_layout__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for QCPLayout</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_q_c_p_layout__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="class_q_c_p_layout_1a04222e6e1361fd802d48f1a25b7020d4">QCPLayout</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="class_q_c_p_layout_1a48ecc9c98ea90b547c3e27a931a8f7bd">update</link> (
+<link linkend="class_q_c_p_layout_element_1a0d83360e05735735aaf6d7983c56374d">UpdatePhase</link> phase)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual QList&lt; <link linkend="class_q_c_p_layout_element">QCPLayoutElement</link> * &gt; <link linkend="class_q_c_p_layout_1aca129722c019f91d3367046f80abfa77">elements</link> (
+bool recursive)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual int <link linkend="class_q_c_p_layout_1a39d3e9ef5d9b82ab1885ba1cb9597e56">elementCount</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual <link linkend="class_q_c_p_layout_element">QCPLayoutElement</link> * <link linkend="class_q_c_p_layout_1afa73ca7d859f8a3ee5c73c9b353d2a56">elementAt</link> (
+int index)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual <link linkend="class_q_c_p_layout_element">QCPLayoutElement</link> * <link linkend="class_q_c_p_layout_1a5a79621fa0a6eabb8b520cfc04fb601a">takeAt</link> (
+int index)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual bool <link linkend="class_q_c_p_layout_1ada26cd17e56472b0b4d7fbbc96873e4c">take</link> (
+<link linkend="class_q_c_p_layout_element">QCPLayoutElement</link> * element)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="class_q_c_p_layout_1a41e6ac049143866e8f8b4964efab01b2">simplify</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="class_q_c_p_layout_1a2403f684fee3ce47132faaeed00bb066">removeAt</link> (
+int index)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="class_q_c_p_layout_1a6c58f537d8086f352576ab7c5b15d0bc">remove</link> (
+<link linkend="class_q_c_p_layout_element">QCPLayoutElement</link> * element)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_layout_1a02883bdf2769b5b227f0232dba1ac4ee">clear</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="class_q_c_p_layout_1a165c77f6287ac92e8d03017ad913378b">updateLayout</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_layout_1aeac66a292f65cf7f8adf94eb92345b3e">sizeConstraintsChanged</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_layout_1af6dbbc24156a808da29cd1ec031729a3">adoptElement</link> (
+<link linkend="class_q_c_p_layout_element">QCPLayoutElement</link> * el)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_layout_1a4afbb4bef0071f72f91afdac4433a18e">releaseElement</link> (
+<link linkend="class_q_c_p_layout_element">QCPLayoutElement</link> * el)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QVector&lt; int &gt; <link linkend="class_q_c_p_layout_1a3e77be8006d39f2aafc1313d6e8fc3fd">getSectionSizes</link> (
+QVector&lt; int &gt; maxSizes, QVector&lt; int &gt; minSizes, QVector&lt; double &gt; stretchFactors, int totalSize)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static QSize <link linkend="class_q_c_p_layout_1a864fddc84721f186663faf3683f1fa70">getFinalMinimumOuterSize</link> (
+const <link linkend="class_q_c_p_layout_element">QCPLayoutElement</link> * el)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static QSize <link linkend="class_q_c_p_layout_1add49fd6843821a6126914b837ed52e22">getFinalMaximumOuterSize</link> (
+const <link linkend="class_q_c_p_layout_element">QCPLayoutElement</link> * el)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+    <simplesect>
+
+<para>The abstract base class for layouts. </para>
+    </simplesect>
+        <simplesect>
+            <title>Detailed Description</title>
+
+<para>This is an abstract base class for layout elements whose main purpose is to define the position and size of other child layout elements. In most cases, layouts don&apos;t draw anything themselves (but there are exceptions to this, e.g. <link linkend="class_q_c_p_legend">QCPLegend</link>).</para>
+
+<para><link linkend="class_q_c_p_layout">QCPLayout</link> derives from <link linkend="class_q_c_p_layout_element">QCPLayoutElement</link>, and thus can itself be nested in other layouts.</para>
+
+<para><link linkend="class_q_c_p_layout">QCPLayout</link> introduces a common interface for accessing and manipulating the child elements. Those functions are most notably <link linkend="class_q_c_p_layout_1a39d3e9ef5d9b82ab1885ba1cb9597e56">elementCount</link>, <link linkend="class_q_c_p_layout_1afa73ca7d859f8a3ee5c73c9b353d2a56">elementAt</link>, <link linkend="class_q_c_p_layout_1a5a79621fa0a6eabb8b520cfc04fb601a">takeAt</link>, <link linkend="class_q_c_p_layout_1ada26cd17e56472b0b4d7fbbc96873e4c">take</link>, <link linkend="class_q_c_p_layout_1a41e6ac049143866e8f8b4964efab01b2">simplify</link>, <link linkend="class_q_c_p_layout_1a2403f684fee3ce47132faaeed00bb066">removeAt</link>, <link linkend="class_q_c_p_layout_1a6c58f537d8086f352576ab7c5b15d0bc">remove</link> and <link linkend="class_q_c_p_layout_1a02883bdf2769b5b227f0232dba1ac4ee">clear</link>. Individual subclasses may add more functions to this interface which are more specialized to the form of the layout. For example, <link linkend="class_q_c_p_layout_grid">QCPLayoutGrid</link> adds functions that take row and column indices to access cells of the layout grid more conveniently.</para>
+
+<para>Since this is an abstract base class, you can&apos;t instantiate it directly. Rather use one of its subclasses like <link linkend="class_q_c_p_layout_grid">QCPLayoutGrid</link> or <link linkend="class_q_c_p_layout_inset">QCPLayoutInset</link>.</para>
+
+<para>For a general introduction to the layout system, see the dedicated documentation page The Layout System. </para>
+                <para>Definition at line 1283 of file qcustomplot.h</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>qcustomplot.h</para></listitem></itemizedlist></para>
+        </simplesect>
+            <section xml:id="class_q_c_p_layout_1a04222e6e1361fd802d48f1a25b7020d4">
+                <title>QCPLayout::QCPLayout ()</title> <emphasis></emphasis>
+                
+<para>Creates an instance of <link linkend="class_q_c_p_layout">QCPLayout</link> and sets default values. Note that since <link linkend="class_q_c_p_layout">QCPLayout</link> is an abstract base class, it can&apos;t be instantiated directly. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_layout_1a48ecc9c98ea90b547c3e27a931a8f7bd">
+                <title>void QCPLayout::update (UpdatePhase phase) Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+<para>If <emphasis>phase</emphasis> is <link linkend="class_q_c_p_layout_element_1a0d83360e05735735aaf6d7983c56374da5d1ccf5d79967c232c3c511796860045">upLayout</link>, calls <link linkend="class_q_c_p_layout_1a165c77f6287ac92e8d03017ad913378b">updateLayout</link>, which subclasses may reimplement to reposition and resize their cells.</para>
+
+<para>Finally, the call is propagated down to all child <link linkend="class_q_c_p_layout_element">QCPLayoutElements</link>.</para>
+
+<para>For details about this method and the update phases, see the documentation of <link linkend="class_q_c_p_layout_element_1a929c2ec62e0e0e1d8418eaa802e2af9b">QCPLayoutElement::update</link>. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_layout_1aca129722c019f91d3367046f80abfa77">
+                <title>QList&lt; QCPLayoutElement * &gt; QCPLayout::elements (bool recursive) const Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+<para>Returns a list of all child elements in this layout element. If <emphasis>recursive</emphasis> is true, all sub-child elements are included in the list, too.</para>
+
+<para><formalpara><title>Warning: </title>
+
+<para>There may be entries with value 0 in the returned list. (For example, <link linkend="class_q_c_p_layout_grid">QCPLayoutGrid</link> may have empty cells which yield 0 at the respective index.) </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_layout_1a39d3e9ef5d9b82ab1885ba1cb9597e56">
+                <title>int QCPLayout::elementCount () const =0</title> <emphasis></emphasis>
+                
+<para>Returns the number of elements/cells in the layout.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_layout_1aca129722c019f91d3367046f80abfa77">elements</link>, <link linkend="class_q_c_p_layout_1afa73ca7d859f8a3ee5c73c9b353d2a56">elementAt</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_layout_1afa73ca7d859f8a3ee5c73c9b353d2a56">
+                <title>QCPLayoutElement * QCPLayout::elementAt (int index) const =0</title> <emphasis></emphasis>
+                
+<para>Returns the element in the cell with the given <emphasis>index</emphasis>. If <emphasis>index</emphasis> is invalid, returns 0.</para>
+
+<para>Note that even if <emphasis>index</emphasis> is valid, the respective cell may be empty in some layouts (e.g. <link linkend="class_q_c_p_layout_grid">QCPLayoutGrid</link>), so this function may return 0 in those cases. You may use this function to check whether a cell is empty or not.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_layout_1aca129722c019f91d3367046f80abfa77">elements</link>, <link linkend="class_q_c_p_layout_1a39d3e9ef5d9b82ab1885ba1cb9597e56">elementCount</link>, <link linkend="class_q_c_p_layout_1a5a79621fa0a6eabb8b520cfc04fb601a">takeAt</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_layout_1a5a79621fa0a6eabb8b520cfc04fb601a">
+                <title>QCPLayoutElement * QCPLayout::takeAt (int index)=0</title> <emphasis></emphasis>
+                
+<para>Removes the element with the given <emphasis>index</emphasis> from the layout and returns it.</para>
+
+<para>If the <emphasis>index</emphasis> is invalid or the cell with that index is empty, returns 0.</para>
+
+<para>Note that some layouts don&apos;t remove the respective cell right away but leave an empty cell after successful removal of the layout element. To collapse empty cells, use <link linkend="class_q_c_p_layout_1a41e6ac049143866e8f8b4964efab01b2">simplify</link>.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_layout_1afa73ca7d859f8a3ee5c73c9b353d2a56">elementAt</link>, <link linkend="class_q_c_p_layout_1ada26cd17e56472b0b4d7fbbc96873e4c">take</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_layout_1ada26cd17e56472b0b4d7fbbc96873e4c">
+                <title>bool QCPLayout::take (QCPLayoutElement *element)=0</title> <emphasis></emphasis>
+                
+<para>Removes the specified <emphasis>element</emphasis> from the layout and returns true on success.</para>
+
+<para>If the <emphasis>element</emphasis> isn&apos;t in this layout, returns false.</para>
+
+<para>Note that some layouts don&apos;t remove the respective cell right away but leave an empty cell after successful removal of the layout element. To collapse empty cells, use <link linkend="class_q_c_p_layout_1a41e6ac049143866e8f8b4964efab01b2">simplify</link>.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_layout_1a5a79621fa0a6eabb8b520cfc04fb601a">takeAt</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_layout_1a41e6ac049143866e8f8b4964efab01b2">
+                <title>void QCPLayout::simplify ()</title> <emphasis></emphasis>
+                
+<para>Simplifies the layout by collapsing empty cells. The exact behavior depends on subclasses, the default implementation does nothing.</para>
+
+<para>Not all layouts need simplification. For example, <link linkend="class_q_c_p_layout_inset">QCPLayoutInset</link> doesn&apos;t use explicit simplification while <link linkend="class_q_c_p_layout_grid">QCPLayoutGrid</link> does. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_layout_1a2403f684fee3ce47132faaeed00bb066">
+                <title>bool QCPLayout::removeAt (int index)</title> <emphasis></emphasis>
+                
+<para>Removes and deletes the element at the provided <emphasis>index</emphasis>. Returns true on success. If <emphasis>index</emphasis> is invalid or points to an empty cell, returns false.</para>
+
+<para>This function internally uses <link linkend="class_q_c_p_layout_1a5a79621fa0a6eabb8b520cfc04fb601a">takeAt</link> to remove the element from the layout and then deletes the returned element. Note that some layouts don&apos;t remove the respective cell right away but leave an empty cell after successful removal of the layout element. To collapse empty cells, use <link linkend="class_q_c_p_layout_1a41e6ac049143866e8f8b4964efab01b2">simplify</link>.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_layout_1a6c58f537d8086f352576ab7c5b15d0bc">remove</link>, <link linkend="class_q_c_p_layout_1a5a79621fa0a6eabb8b520cfc04fb601a">takeAt</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_layout_1a6c58f537d8086f352576ab7c5b15d0bc">
+                <title>bool QCPLayout::remove (QCPLayoutElement *element)</title> <emphasis></emphasis>
+                
+<para>Removes and deletes the provided <emphasis>element</emphasis>. Returns true on success. If <emphasis>element</emphasis> is not in the layout, returns false.</para>
+
+<para>This function internally uses <link linkend="class_q_c_p_layout_1a5a79621fa0a6eabb8b520cfc04fb601a">takeAt</link> to remove the element from the layout and then deletes the element. Note that some layouts don&apos;t remove the respective cell right away but leave an empty cell after successful removal of the layout element. To collapse empty cells, use <link linkend="class_q_c_p_layout_1a41e6ac049143866e8f8b4964efab01b2">simplify</link>.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_layout_1a2403f684fee3ce47132faaeed00bb066">removeAt</link>, <link linkend="class_q_c_p_layout_1ada26cd17e56472b0b4d7fbbc96873e4c">take</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_layout_1a02883bdf2769b5b227f0232dba1ac4ee">
+                <title>void QCPLayout::clear ()</title> <emphasis></emphasis>
+                
+<para>Removes and deletes all layout elements in this layout. Finally calls <link linkend="class_q_c_p_layout_1a41e6ac049143866e8f8b4964efab01b2">simplify</link> to make sure all empty cells are collapsed.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_layout_1a6c58f537d8086f352576ab7c5b15d0bc">remove</link>, <link linkend="class_q_c_p_layout_1a2403f684fee3ce47132faaeed00bb066">removeAt</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_layout_1a165c77f6287ac92e8d03017ad913378b">
+                <title>void QCPLayout::updateLayout ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_layout_1aeac66a292f65cf7f8adf94eb92345b3e">
+                <title>void QCPLayout::sizeConstraintsChanged () const</title> <emphasis></emphasis>
+                
+<para>Subclasses call this method to report changed (minimum/maximum) size constraints.</para>
+
+<para>If the parent of this layout is again a <link linkend="class_q_c_p_layout">QCPLayout</link>, forwards the call to the parent&apos;s <link linkend="class_q_c_p_layout_1aeac66a292f65cf7f8adf94eb92345b3e">sizeConstraintsChanged</link>. If the parent is a QWidget (i.e. is the <link linkend="class_q_custom_plot_1af1a1f1f571237deb7c2bd34a5e9f018f">QCustomPlot::plotLayout</link> of <link linkend="class_q_custom_plot">QCustomPlot</link>), calls QWidget::updateGeometry, so if the <link linkend="class_q_custom_plot">QCustomPlot</link> widget is inside a Qt QLayout, it may update itself and resize cells accordingly. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_layout_1af6dbbc24156a808da29cd1ec031729a3">
+                <title>void QCPLayout::adoptElement (QCPLayoutElement *el)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_layout_1a4afbb4bef0071f72f91afdac4433a18e">
+                <title>void QCPLayout::releaseElement (QCPLayoutElement *el)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_layout_1a3e77be8006d39f2aafc1313d6e8fc3fd">
+                <title>QVector&lt; int &gt; QCPLayout::getSectionSizes (QVector&lt; int &gt; maxSizes, QVector&lt; int &gt; minSizes, QVector&lt; double &gt; stretchFactors, int totalSize) const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_layout_1a864fddc84721f186663faf3683f1fa70">
+                <title>QSize QCPLayout::getFinalMinimumOuterSize (const QCPLayoutElement *el)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_layout_1add49fd6843821a6126914b837ed52e22">
+                <title>QSize QCPLayout::getFinalMaximumOuterSize (const QCPLayoutElement *el)</title> <emphasis></emphasis>
+                
+            </section>
+</section>

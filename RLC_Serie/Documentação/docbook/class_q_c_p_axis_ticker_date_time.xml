@@ -1,0 +1,372 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="class_q_c_p_axis_ticker_date_time">
+<title>QCPAxisTickerDateTime class Reference</title>
+<para>
+    <programlisting>#include <link linkend="qcustomplot_8h">&lt;qcustomplot.h&gt;</link></programlisting>
+</para>
+<para>Inheritance diagram for QCPAxisTickerDateTime</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_q_c_p_axis_ticker_date_time__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for QCPAxisTickerDateTime</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_q_c_p_axis_ticker_date_time__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                            <para><literallayout>enum <link linkend="class_q_c_p_axis_ticker_date_time_1af2c7c60821a6234ca7a172f42ef7f1d8">DateStrategy</link> {
+<link linkend="class_q_c_p_axis_ticker_date_time_1af2c7c60821a6234ca7a172f42ef7f1d8a02076ab726129e1ab9e0f999d4314309">dsNone</link>,
+<link linkend="class_q_c_p_axis_ticker_date_time_1af2c7c60821a6234ca7a172f42ef7f1d8a39644957223102224f35662da3ab1a14">dsUniformTimeInDay</link>,
+<link linkend="class_q_c_p_axis_ticker_date_time_1af2c7c60821a6234ca7a172f42ef7f1d8a7889e1531db9ce1c5d8957b4f0de58ad">dsUniformDayInMonth</link>
+}</literallayout>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title>Protected Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QString mDateTimeFormat</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>Qt::TimeSpec mDateTimeSpec</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>enum QCPAxisTickerDateTime::DateStrategy mDateStrategy</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="class_q_c_p_axis_ticker_date_time_1a84cc5c6bbc7c99c1f9bd4b3a392e1b9d">QCPAxisTickerDateTime</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QString <link linkend="class_q_c_p_axis_ticker_date_time_1aac8e2bb32ca8ff1394c42d2d62390718">dateTimeFormat</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>Qt::TimeSpec <link linkend="class_q_c_p_axis_ticker_date_time_1ae688e69ba55c9247af26b6db85cf9573">dateTimeSpec</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_axis_ticker_date_time_1ad52660a82f688395468674d555f6a86b">setDateTimeFormat</link> (
+const QString &amp; format)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_axis_ticker_date_time_1afbd987c7197e42ab61e67fb1c38abebc">setDateTimeSpec</link> (
+Qt::TimeSpec spec)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_axis_ticker_date_time_1a5388e048cbd32cf1ba730b9f1859eb5c">setTickOrigin</link> (
+double origin)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_axis_ticker_date_time_1a2ea905872b8171847a49a5e093fb0c48">setTickOrigin</link> (
+const QDateTime &amp; origin)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static QDateTime <link linkend="class_q_c_p_axis_ticker_date_time_1a4c1761ad057f5564804a53f942629b53">keyToDateTime</link> (
+double key)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static double <link linkend="class_q_c_p_axis_ticker_date_time_1aa24f293f16fff0f937bf71f4140033f1">dateTimeToKey</link> (
+const QDateTime dateTime)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static double <link linkend="class_q_c_p_axis_ticker_date_time_1ad87afc7dba65843f68da5ca88bc004f4">dateTimeToKey</link> (
+const QDate date)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual double <link linkend="class_q_c_p_axis_ticker_date_time_1a0560c14a3f87bb99ab136aca8321b32a">getTickStep</link> (
+const <link linkend="class_q_c_p_range">QCPRange</link> &amp; range)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual int <link linkend="class_q_c_p_axis_ticker_date_time_1a78dece0d51426a3c310528d413e09193">getSubTickCount</link> (
+double tickStep)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual QString <link linkend="class_q_c_p_axis_ticker_date_time_1a4dc6a03f7ea5c619477528a683ed5c18">getTickLabel</link> (
+double tick, const QLocale &amp; locale, QChar formatChar, int precision)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual QVector&lt; double &gt; <link linkend="class_q_c_p_axis_ticker_date_time_1a44c2c09a303d281801b69226e243047d">createTickVector</link> (
+double tickStep, const <link linkend="class_q_c_p_range">QCPRange</link> &amp; range)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+    <simplesect>
+
+<para>Specialized axis ticker for calendar dates and times as axis ticks. </para>
+    </simplesect>
+        <simplesect>
+            <title>Detailed Description</title>
+
+<para></para>
+
+<para>This <link linkend="class_q_c_p_axis_ticker">QCPAxisTicker</link> subclass generates ticks that correspond to real calendar dates and times. The plot axis coordinate is interpreted as Unix Time, so seconds since Epoch (January 1, 1970, 00:00 UTC). This is also used for example by QDateTime in the <computeroutput>toTime_t()/setTime_t()</computeroutput> methods with a precision of one second. Since Qt 4.7, millisecond accuracy can be obtained from QDateTime by using <computeroutput>QDateTime::fromMSecsSinceEpoch()/1000.0</computeroutput>. The static methods <link linkend="class_q_c_p_axis_ticker_date_time_1aa24f293f16fff0f937bf71f4140033f1">dateTimeToKey</link> and <link linkend="class_q_c_p_axis_ticker_date_time_1a4c1761ad057f5564804a53f942629b53">keyToDateTime</link> conveniently perform this conversion achieving a precision of one millisecond on all Qt versions.</para>
+
+<para>The format of the date/time display in the tick labels is controlled with <link linkend="class_q_c_p_axis_ticker_date_time_1ad52660a82f688395468674d555f6a86b">setDateTimeFormat</link>. If a different time spec (time zone) shall be used, see <link linkend="class_q_c_p_axis_ticker_date_time_1afbd987c7197e42ab61e67fb1c38abebc">setDateTimeSpec</link>.</para>
+
+<para>This ticker produces unequal tick spacing in order to provide intuitive date and time-of-day ticks. For example, if the axis range spans a few years such that there is one tick per year, ticks will be positioned on 1. January of every year. This is intuitive but, due to leap years, will result in slightly unequal tick intervals (visually unnoticeable). The same can be seen in the image above: even though the number of days varies month by month, this ticker generates ticks on the same day of each month.</para>
+
+<para>If you would like to change the date/time that is used as a (mathematical) starting date for the ticks, use the <link linkend="class_q_c_p_axis_ticker_date_time_1a2ea905872b8171847a49a5e093fb0c48">setTickOrigin(const QDateTime &amp;origin)</link> method overload, which takes a QDateTime. If you pass 15. July, 9:45 to this method, the yearly ticks will end up on 15. July at 9:45 of every year.</para>
+
+<para>The ticker can be created and assigned to an axis like this: <literallayout><computeroutput></computeroutput></literallayout> <formalpara><title>Note: </title>
+
+<para>If you rather wish to display relative times in terms of days, hours, minutes, seconds and milliseconds, and are not interested in the intricacies of real calendar dates with months and (leap) years, have a look at <link linkend="class_q_c_p_axis_ticker_time">QCPAxisTickerTime</link> instead. </para>
+</formalpara>
+</para>
+                <para>Definition at line 1595 of file qcustomplot.h</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>qcustomplot.h</para></listitem></itemizedlist></para>
+        </simplesect>
+            <section xml:id="class_q_c_p_axis_ticker_date_time_1af2c7c60821a6234ca7a172f42ef7f1d8">
+               <title>enum DateStrategy </title>
+               
+               <formalpara>
+                    <title>Enumerator:</title>
+                    <variablelist>
+                        <varlistentry xml:id="class_q_c_p_axis_ticker_date_time_1af2c7c60821a6234ca7a172f42ef7f1d8a02076ab726129e1ab9e0f999d4314309">
+                            <term>dsNone</term>
+                            <listitem>
+                                <para></para>
+                            </listitem>
+                        </varlistentry>
+                        <varlistentry xml:id="class_q_c_p_axis_ticker_date_time_1af2c7c60821a6234ca7a172f42ef7f1d8a39644957223102224f35662da3ab1a14">
+                            <term>dsUniformTimeInDay</term>
+                            <listitem>
+                                <para></para>
+                            </listitem>
+                        </varlistentry>
+                        <varlistentry xml:id="class_q_c_p_axis_ticker_date_time_1af2c7c60821a6234ca7a172f42ef7f1d8a7889e1531db9ce1c5d8957b4f0de58ad">
+                            <term>dsUniformDayInMonth</term>
+                            <listitem>
+                                <para></para>
+                            </listitem>
+                        </varlistentry>
+                     </variablelist>
+                </formalpara>
+                <para>Definition at line 1620 of file qcustomplot.h
+                    <computeroutput><literallayout>
+{
+dsNone, 
+dsUniformTimeInDay, 
+dsUniformDayInMonth, 
+}DateStrategy;
+                    </literallayout></computeroutput>
+                </para>
+            </section>
+        <section>
+            <title>Member Data Documentation</title>
+        </section>
+            <section xml:id="class_q_c_p_axis_ticker_date_time_1a84cc5c6bbc7c99c1f9bd4b3a392e1b9d">
+                <title>QCPAxisTickerDateTime::QCPAxisTickerDateTime ()</title> <emphasis></emphasis>
+                
+<para>Constructs the ticker and sets reasonable default values. Axis tickers are commonly created managed by a QSharedPointer, which then can be passed to <link linkend="class_q_c_p_axis_1a4ee03fcd2c74d05cd1a419b9af5cfbdc">QCPAxis::setTicker</link>. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_axis_ticker_date_time_1aac8e2bb32ca8ff1394c42d2d62390718">
+                <title>QString QCPAxisTickerDateTime::dateTimeFormat () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_axis_ticker_date_time_1ae688e69ba55c9247af26b6db85cf9573">
+                <title>Qt::TimeSpec QCPAxisTickerDateTime::dateTimeSpec () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_axis_ticker_date_time_1ad52660a82f688395468674d555f6a86b">
+                <title>void QCPAxisTickerDateTime::setDateTimeFormat (const QString &amp;format)</title> <emphasis></emphasis>
+                
+<para>Sets the format in which dates and times are displayed as tick labels. For details about the <emphasis>format</emphasis> string, see the documentation of QDateTime::toString().</para>
+
+<para>Newlines can be inserted with &quot;\n&quot;.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_axis_ticker_date_time_1afbd987c7197e42ab61e67fb1c38abebc">setDateTimeSpec</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_axis_ticker_date_time_1afbd987c7197e42ab61e67fb1c38abebc">
+                <title>void QCPAxisTickerDateTime::setDateTimeSpec (Qt::TimeSpec spec)</title> <emphasis></emphasis>
+                
+<para>Sets the time spec that is used for creating the tick labels from corresponding dates/times.</para>
+
+<para>The default value of QDateTime objects (and also <link linkend="class_q_c_p_axis_ticker_date_time">QCPAxisTickerDateTime</link>) is <computeroutput>Qt::LocalTime</computeroutput>. However, if the date time values passed to <link linkend="class_q_custom_plot">QCustomPlot</link> (e.g. in the form of axis ranges or keys of a plottable) are given in the UTC spec, set <emphasis>spec</emphasis> to <computeroutput>Qt::UTC</computeroutput> to get the correct axis labels.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_axis_ticker_date_time_1ad52660a82f688395468674d555f6a86b">setDateTimeFormat</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_axis_ticker_date_time_1a5388e048cbd32cf1ba730b9f1859eb5c">
+                <title>void QCPAxisTickerDateTime::setTickOrigin (double origin)</title> <emphasis></emphasis>
+                
+<para>Sets the tick origin (see <link linkend="class_q_c_p_axis_ticker_1ab509c7e500293bf66a8409f0d7c23943">QCPAxisTicker::setTickOrigin</link>) in seconds since Epoch (1. Jan 1970, 00:00 UTC). For the date time ticker it might be more intuitive to use the overload which directly takes a QDateTime, see <link linkend="class_q_c_p_axis_ticker_date_time_1a2ea905872b8171847a49a5e093fb0c48">setTickOrigin(const QDateTime &amp;origin)</link>.</para>
+
+<para>This is useful to define the month/day/time recurring at greater tick interval steps. For example, If you pass 15. July, 9:45 to this method and the tick interval happens to be one tick per year, the ticks will end up on 15. July at 9:45 of every year. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_axis_ticker_date_time_1a2ea905872b8171847a49a5e093fb0c48">
+                <title>void QCPAxisTickerDateTime::setTickOrigin (const QDateTime &amp;origin)</title> <emphasis></emphasis>
+                
+<para>Sets the tick origin (see <link linkend="class_q_c_p_axis_ticker_1ab509c7e500293bf66a8409f0d7c23943">QCPAxisTicker::setTickOrigin</link>) as a QDateTime <emphasis>origin</emphasis>.</para>
+
+<para>This is useful to define the month/day/time recurring at greater tick interval steps. For example, If you pass 15. July, 9:45 to this method and the tick interval happens to be one tick per year, the ticks will end up on 15. July at 9:45 of every year. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_axis_ticker_date_time_1a4c1761ad057f5564804a53f942629b53">
+                <title>QDateTime QCPAxisTickerDateTime::keyToDateTime (double key)</title> <emphasis></emphasis>
+                
+<para>A convenience method which turns <emphasis>key</emphasis> (in seconds since Epoch 1. Jan 1970, 00:00 UTC) into a QDateTime object. This can be used to turn axis coordinates to actual QDateTimes.</para>
+
+<para>The accuracy achieved by this method is one millisecond, irrespective of the used Qt version (it works around the lack of a QDateTime::fromMSecsSinceEpoch in Qt 4.6)</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_axis_ticker_date_time_1aa24f293f16fff0f937bf71f4140033f1">dateTimeToKey</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_axis_ticker_date_time_1aa24f293f16fff0f937bf71f4140033f1">
+                <title>double QCPAxisTickerDateTime::dateTimeToKey (const QDateTime dateTime)</title> <emphasis></emphasis>
+                
+<para>This is an overloaded member function, provided for convenience. It differs from the above function only in what argument(s) it accepts.</para>
+
+<para>A convenience method which turns a QDateTime object into a double value that corresponds to seconds since Epoch (1. Jan 1970, 00:00 UTC). This is the format used as axis coordinates by <link linkend="class_q_c_p_axis_ticker_date_time">QCPAxisTickerDateTime</link>.</para>
+
+<para>The accuracy achieved by this method is one millisecond, irrespective of the used Qt version (it works around the lack of a QDateTime::toMSecsSinceEpoch in Qt 4.6)</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_axis_ticker_date_time_1a4c1761ad057f5564804a53f942629b53">keyToDateTime</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_axis_ticker_date_time_1ad87afc7dba65843f68da5ca88bc004f4">
+                <title>double QCPAxisTickerDateTime::dateTimeToKey (const QDate date)</title> <emphasis></emphasis>
+                
+<para>This is an overloaded member function, provided for convenience. It differs from the above function only in what argument(s) it accepts.</para>
+
+<para>A convenience method which turns a QDate object into a double value that corresponds to seconds since Epoch (1. Jan 1970, 00:00 UTC). This is the format used as axis coordinates by <link linkend="class_q_c_p_axis_ticker_date_time">QCPAxisTickerDateTime</link>.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_axis_ticker_date_time_1a4c1761ad057f5564804a53f942629b53">keyToDateTime</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_axis_ticker_date_time_1a0560c14a3f87bb99ab136aca8321b32a">
+                <title>double QCPAxisTickerDateTime::getTickStep (const QCPRange &amp;range) Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_axis_ticker_date_time_1a78dece0d51426a3c310528d413e09193">
+                <title>int QCPAxisTickerDateTime::getSubTickCount (double tickStep) Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_axis_ticker_date_time_1a4dc6a03f7ea5c619477528a683ed5c18">
+                <title>QString QCPAxisTickerDateTime::getTickLabel (double tick, const QLocale &amp;locale, QChar formatChar, int precision) Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_axis_ticker_date_time_1a44c2c09a303d281801b69226e243047d">
+                <title>QVector&lt; double &gt; QCPAxisTickerDateTime::createTickVector (double tickStep, const QCPRange &amp;range) Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+            </section>
+</section>

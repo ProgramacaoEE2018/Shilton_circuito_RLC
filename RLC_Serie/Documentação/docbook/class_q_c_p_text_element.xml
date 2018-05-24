@@ -1,0 +1,677 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="class_q_c_p_text_element">
+<title>QCPTextElement class Reference</title>
+<para>
+    <programlisting>#include <link linkend="qcustomplot_8h">&lt;qcustomplot.h&gt;</link></programlisting>
+</para>
+<para>Inheritance diagram for QCPTextElement</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_q_c_p_text_element__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for QCPTextElement</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_q_c_p_text_element__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title>Protected Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QString mText</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>int mTextFlags</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QFont mFont</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QColor mTextColor</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QFont mSelectedFont</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QColor mSelectedTextColor</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QRect mTextBoundingRect</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool mSelectable</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool mSelected</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="class_q_c_p_text_element_1ae1de18bdb1e7ba959f132018dd9a0258">QCPTextElement</link> (
+<link linkend="class_q_custom_plot">QCustomPlot</link> * parentPlot)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="class_q_c_p_text_element_1a00f08a8a3363ad8d7d12ca0db4922b6b">QCPTextElement</link> (
+<link linkend="class_q_custom_plot">QCustomPlot</link> * parentPlot, const QString &amp; text)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="class_q_c_p_text_element_1a2684e65def4a5daf80be9f5f149ca9b2">QCPTextElement</link> (
+<link linkend="class_q_custom_plot">QCustomPlot</link> * parentPlot, const QString &amp; text, double pointSize)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="class_q_c_p_text_element_1adb4bcd3743dbfabfedee4fe9c2ee93da">QCPTextElement</link> (
+<link linkend="class_q_custom_plot">QCustomPlot</link> * parentPlot, const QString &amp; text, const QString &amp; fontFamily, double pointSize)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="class_q_c_p_text_element_1a00b75787b77b39bbd083813c2a7b2520">QCPTextElement</link> (
+<link linkend="class_q_custom_plot">QCustomPlot</link> * parentPlot, const QString &amp; text, const QFont &amp; font)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QString <link linkend="class_q_c_p_text_element_1a453c24723b76fdcae405a8a7b0d02614">text</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>int <link linkend="class_q_c_p_text_element_1a1937ed3b7454d7e815f6027895a7d480">textFlags</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QFont <link linkend="class_q_c_p_text_element_1a9247189a1c2b2bf5604645a7396b2ddc">font</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QColor <link linkend="class_q_c_p_text_element_1a4b906c81abb94517500dbdb2fe9c22b9">textColor</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QFont <link linkend="class_q_c_p_text_element_1a7119d960bdf57df74f9bcc748d2a0b43">selectedFont</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QColor <link linkend="class_q_c_p_text_element_1a98616fa5c33f1eaee0428191ece39686">selectedTextColor</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="class_q_c_p_text_element_1a96e2a712fca40324a8489f75833b4096">selectable</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="class_q_c_p_text_element_1a135d1ad0aa97a245b4247c3292ff551c">selected</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_text_element_1ac44b81e69e719b879eb2feecb33557e2">setText</link> (
+const QString &amp; text)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_text_element_1ab908f437f552020888a3ad8cf8242605">setTextFlags</link> (
+int flags)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_text_element_1a09b3241769528fa87cb4bf35c97defad">setFont</link> (
+const QFont &amp; font)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_text_element_1a4f3b8361c3ffb3f84346954929ce93ba">setTextColor</link> (
+const QColor &amp; color)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_text_element_1a0a2397a3c4ede519e16ab3e991904065">setSelectedFont</link> (
+const QFont &amp; font)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_text_element_1abaec200cae70a0eade53583defc0476d">setSelectedTextColor</link> (
+const QColor &amp; color)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>Q_SLOT void <link linkend="class_q_c_p_text_element_1a3c5f9b1897a036b16495ed3fb8371c55">setSelectable</link> (
+bool selectable)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>Q_SLOT void <link linkend="class_q_c_p_text_element_1aba5521f9fb22a5f3d2f09ab37d4a1751">setSelected</link> (
+bool selected)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual double <link linkend="class_q_c_p_text_element_1a1e721bc2994a127ef5a8f0a514a5dbac">selectTest</link> (
+const QPointF &amp; pos, bool onlySelectable, QVariant * details)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="class_q_c_p_text_element_1ad7b2c98355e3d2f912574b74fcee0574">mousePressEvent</link> (
+QMouseEvent * event, const QVariant &amp; details)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="class_q_c_p_text_element_1acfcbaf9b1da18745e72726aafb39c855">mouseReleaseEvent</link> (
+QMouseEvent * event, const QPointF &amp; startPos)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="class_q_c_p_text_element_1a2272ff775ab385f612e9fd39773de7c0">mouseDoubleClickEvent</link> (
+QMouseEvent * event, const QVariant &amp; details)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="class_q_c_p_text_element_1a91f2e4b4a639d9079e89a0030c7ed352">applyDefaultAntialiasingHint</link> (
+<link linkend="class_q_c_p_painter">QCPPainter</link> * painter)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="class_q_c_p_text_element_1ad1dae61ea77ae74841f3c2fb765fc88e">draw</link> (
+<link linkend="class_q_c_p_painter">QCPPainter</link> * painter)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual QSize <link linkend="class_q_c_p_text_element_1a47b8541f55ff520c557e0f27461f109e">minimumOuterSizeHint</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual QSize <link linkend="class_q_c_p_text_element_1ae82475b50c10a5b3314d996d50ae536b">maximumOuterSizeHint</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="class_q_c_p_text_element_1a8d696ea82fa7bf743e01858039c03525">selectEvent</link> (
+QMouseEvent * event, bool additive, const QVariant &amp; details, bool * selectionStateChanged)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="class_q_c_p_text_element_1a9a631a9deb9d82089a9d52de1744accf">deselectEvent</link> (
+bool * selectionStateChanged)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QFont <link linkend="class_q_c_p_text_element_1ae236bd398e52939f2de2b70e5e2ba611">mainFont</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QColor <link linkend="class_q_c_p_text_element_1a63510789e31db34362de97d78e9e7866">mainTextColor</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+    <simplesect>
+
+<para>A layout element displaying a text. </para>
+    </simplesect>
+        <simplesect>
+            <title>Detailed Description</title>
+
+<para>The text may be specified with <link linkend="class_q_c_p_text_element_1ac44b81e69e719b879eb2feecb33557e2">setText</link>, the formatting can be controlled with <link linkend="class_q_c_p_text_element_1a09b3241769528fa87cb4bf35c97defad">setFont</link>, <link linkend="class_q_c_p_text_element_1a4f3b8361c3ffb3f84346954929ce93ba">setTextColor</link>, and <link linkend="class_q_c_p_text_element_1ab908f437f552020888a3ad8cf8242605">setTextFlags</link>.</para>
+
+<para>A text element can be added as follows: <literallayout><computeroutput></computeroutput></literallayout></para>
+                <para>Definition at line 4927 of file qcustomplot.h</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>qcustomplot.h</para></listitem></itemizedlist></para>
+        </simplesect>
+        <section>
+            <title>Member Data Documentation</title>
+        </section>
+            <section xml:id="class_q_c_p_text_element_1ae1de18bdb1e7ba959f132018dd9a0258">
+                <title>QCPTextElement::QCPTextElement (QCustomPlot *parentPlot)</title> <emphasis></emphasis>
+                
+<para>This is an overloaded member function, provided for convenience. It differs from the above function only in what argument(s) it accepts.</para>
+
+<para>Creates a new <link linkend="class_q_c_p_text_element">QCPTextElement</link> instance and sets default values. The initial text is empty (<link linkend="class_q_c_p_text_element_1ac44b81e69e719b879eb2feecb33557e2">setText</link>). </para>
+
+            </section>
+            <section xml:id="class_q_c_p_text_element_1a00f08a8a3363ad8d7d12ca0db4922b6b">
+                <title>QCPTextElement::QCPTextElement (QCustomPlot *parentPlot, const QString &amp;text)</title> <emphasis></emphasis>
+                
+<para>This is an overloaded member function, provided for convenience. It differs from the above function only in what argument(s) it accepts.</para>
+
+<para>Creates a new <link linkend="class_q_c_p_text_element">QCPTextElement</link> instance and sets default values.</para>
+
+<para>The initial text is set to <emphasis>text</emphasis>. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_text_element_1a2684e65def4a5daf80be9f5f149ca9b2">
+                <title>QCPTextElement::QCPTextElement (QCustomPlot *parentPlot, const QString &amp;text, double pointSize)</title> <emphasis></emphasis>
+                
+<para>This is an overloaded member function, provided for convenience. It differs from the above function only in what argument(s) it accepts.</para>
+
+<para>Creates a new <link linkend="class_q_c_p_text_element">QCPTextElement</link> instance and sets default values.</para>
+
+<para>The initial text is set to <emphasis>text</emphasis> with <emphasis>pointSize</emphasis>. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_text_element_1adb4bcd3743dbfabfedee4fe9c2ee93da">
+                <title>QCPTextElement::QCPTextElement (QCustomPlot *parentPlot, const QString &amp;text, const QString &amp;fontFamily, double pointSize)</title> <emphasis></emphasis>
+                
+<para>This is an overloaded member function, provided for convenience. It differs from the above function only in what argument(s) it accepts.</para>
+
+<para>Creates a new <link linkend="class_q_c_p_text_element">QCPTextElement</link> instance and sets default values.</para>
+
+<para>The initial text is set to <emphasis>text</emphasis> with <emphasis>pointSize</emphasis> and the specified <emphasis>fontFamily</emphasis>. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_text_element_1a00b75787b77b39bbd083813c2a7b2520">
+                <title>QCPTextElement::QCPTextElement (QCustomPlot *parentPlot, const QString &amp;text, const QFont &amp;font)</title> <emphasis></emphasis>
+                
+<para>This is an overloaded member function, provided for convenience. It differs from the above function only in what argument(s) it accepts.</para>
+
+<para>Creates a new <link linkend="class_q_c_p_text_element">QCPTextElement</link> instance and sets default values.</para>
+
+<para>The initial text is set to <emphasis>text</emphasis> with the specified <emphasis>font</emphasis>. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_text_element_1a453c24723b76fdcae405a8a7b0d02614">
+                <title>QString QCPTextElement::text () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_text_element_1a1937ed3b7454d7e815f6027895a7d480">
+                <title>int QCPTextElement::textFlags () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_text_element_1a9247189a1c2b2bf5604645a7396b2ddc">
+                <title>QFont QCPTextElement::font () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_text_element_1a4b906c81abb94517500dbdb2fe9c22b9">
+                <title>QColor QCPTextElement::textColor () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_text_element_1a7119d960bdf57df74f9bcc748d2a0b43">
+                <title>QFont QCPTextElement::selectedFont () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_text_element_1a98616fa5c33f1eaee0428191ece39686">
+                <title>QColor QCPTextElement::selectedTextColor () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_text_element_1a96e2a712fca40324a8489f75833b4096">
+                <title>bool QCPTextElement::selectable () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_text_element_1a135d1ad0aa97a245b4247c3292ff551c">
+                <title>bool QCPTextElement::selected () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_text_element_1ac44b81e69e719b879eb2feecb33557e2">
+                <title>void QCPTextElement::setText (const QString &amp;text)</title> <emphasis></emphasis>
+                
+<para>Sets the text that will be displayed to <emphasis>text</emphasis>. Multiple lines can be created by insertion of &quot;\n&quot;.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_text_element_1a09b3241769528fa87cb4bf35c97defad">setFont</link>, <link linkend="class_q_c_p_text_element_1a4f3b8361c3ffb3f84346954929ce93ba">setTextColor</link>, <link linkend="class_q_c_p_text_element_1ab908f437f552020888a3ad8cf8242605">setTextFlags</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_text_element_1ab908f437f552020888a3ad8cf8242605">
+                <title>void QCPTextElement::setTextFlags (int flags)</title> <emphasis></emphasis>
+                
+<para>Sets options for text alignment and wrapping behaviour. <emphasis>flags</emphasis> is a bitwise OR-combination of <computeroutput>Qt::AlignmentFlag</computeroutput> and <computeroutput>Qt::TextFlag</computeroutput> enums.</para>
+
+<para>Possible enums are:<itemizedlist>
+<listitem>
+<para>Qt::AlignLeft</para>
+</listitem><listitem>
+<para>Qt::AlignRight</para>
+</listitem><listitem>
+<para>Qt::AlignHCenter</para>
+</listitem><listitem>
+<para>Qt::AlignJustify</para>
+</listitem><listitem>
+<para>Qt::AlignTop</para>
+</listitem><listitem>
+<para>Qt::AlignBottom</para>
+</listitem><listitem>
+<para>Qt::AlignVCenter</para>
+</listitem><listitem>
+<para>Qt::AlignCenter</para>
+</listitem><listitem>
+<para>Qt::TextDontClip</para>
+</listitem><listitem>
+<para>Qt::TextSingleLine</para>
+</listitem><listitem>
+<para>Qt::TextExpandTabs</para>
+</listitem><listitem>
+<para>Qt::TextShowMnemonic</para>
+</listitem><listitem>
+<para>Qt::TextWordWrap</para>
+</listitem><listitem>
+<para>Qt::TextIncludeTrailingSpaces </para>
+</listitem></itemizedlist>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_text_element_1a09b3241769528fa87cb4bf35c97defad">
+                <title>void QCPTextElement::setFont (const QFont &amp;font)</title> <emphasis></emphasis>
+                
+<para>Sets the <emphasis>font</emphasis> of the text.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_text_element_1a4f3b8361c3ffb3f84346954929ce93ba">setTextColor</link>, <link linkend="class_q_c_p_text_element_1a0a2397a3c4ede519e16ab3e991904065">setSelectedFont</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_text_element_1a4f3b8361c3ffb3f84346954929ce93ba">
+                <title>void QCPTextElement::setTextColor (const QColor &amp;color)</title> <emphasis></emphasis>
+                
+<para>Sets the <emphasis>color</emphasis> of the text.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_text_element_1a09b3241769528fa87cb4bf35c97defad">setFont</link>, <link linkend="class_q_c_p_text_element_1abaec200cae70a0eade53583defc0476d">setSelectedTextColor</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_text_element_1a0a2397a3c4ede519e16ab3e991904065">
+                <title>void QCPTextElement::setSelectedFont (const QFont &amp;font)</title> <emphasis></emphasis>
+                
+<para>Sets the <emphasis>font</emphasis> of the text that will be used if the text element is selected (<link linkend="class_q_c_p_text_element_1aba5521f9fb22a5f3d2f09ab37d4a1751">setSelected</link>).</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_text_element_1a09b3241769528fa87cb4bf35c97defad">setFont</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_text_element_1abaec200cae70a0eade53583defc0476d">
+                <title>void QCPTextElement::setSelectedTextColor (const QColor &amp;color)</title> <emphasis></emphasis>
+                
+<para>Sets the <emphasis>color</emphasis> of the text that will be used if the text element is selected (<link linkend="class_q_c_p_text_element_1aba5521f9fb22a5f3d2f09ab37d4a1751">setSelected</link>).</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_text_element_1a4f3b8361c3ffb3f84346954929ce93ba">setTextColor</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_text_element_1a3c5f9b1897a036b16495ed3fb8371c55">
+                <title>void QCPTextElement::setSelectable (bool selectable)</title> <emphasis></emphasis>
+                
+<para>Sets whether the user may select this text element.</para>
+
+<para>Note that even when <emphasis>selectable</emphasis> is set to <computeroutput>false</computeroutput>, the selection state may be changed programmatically via <link linkend="class_q_c_p_text_element_1aba5521f9fb22a5f3d2f09ab37d4a1751">setSelected</link>. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_text_element_1aba5521f9fb22a5f3d2f09ab37d4a1751">
+                <title>void QCPTextElement::setSelected (bool selected)</title> <emphasis></emphasis>
+                
+<para>Sets the selection state of this text element to <emphasis>selected</emphasis>. If the selection has changed, <link linkend="class_q_c_p_text_element_1a49f45b87ee9c1fe866c2cdd12af17a9a">selectionChanged</link> is emitted.</para>
+
+<para>Note that this function can change the selection state independently of the current <link linkend="class_q_c_p_text_element_1a3c5f9b1897a036b16495ed3fb8371c55">setSelectable</link> state. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_text_element_1a1e721bc2994a127ef5a8f0a514a5dbac">
+                <title>double QCPTextElement::selectTest (const QPointF &amp;pos, bool onlySelectable, QVariant *details=0) const Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+<para>Returns 0.99*selectionTolerance (see <link linkend="class_q_custom_plot_1a4dc31241d7b09680950e19e5f971ed93">QCustomPlot::setSelectionTolerance</link>) when <emphasis>pos</emphasis> is within the bounding box of the text element&apos;s text. Note that this bounding box is updated in the draw call.</para>
+
+<para>If <emphasis>pos</emphasis> is outside the text&apos;s bounding box or if <emphasis>onlySelectable</emphasis> is true and this text element is not selectable (<link linkend="class_q_c_p_text_element_1a3c5f9b1897a036b16495ed3fb8371c55">setSelectable</link>), returns -1.</para>
+
+            </section>
+            <section xml:id="class_q_c_p_text_element_1ad7b2c98355e3d2f912574b74fcee0574">
+                <title>void QCPTextElement::mousePressEvent (QMouseEvent *event, const QVariant &amp;details) Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+<para>Accepts the mouse event in order to emit the according click signal in the <link linkend="class_q_c_p_text_element_1acfcbaf9b1da18745e72726aafb39c855">mouseReleaseEvent</link>.</para>
+
+            </section>
+            <section xml:id="class_q_c_p_text_element_1acfcbaf9b1da18745e72726aafb39c855">
+                <title>void QCPTextElement::mouseReleaseEvent (QMouseEvent *event, const QPointF &amp;startPos) Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+<para>Emits the <link linkend="class_q_c_p_text_element_1ad2246a0e701c0655623f048737298334">clicked</link> signal if the cursor hasn&apos;t moved by more than a few pixels since the <link linkend="class_q_c_p_text_element_1ad7b2c98355e3d2f912574b74fcee0574">mousePressEvent</link>.</para>
+
+            </section>
+            <section xml:id="class_q_c_p_text_element_1a2272ff775ab385f612e9fd39773de7c0">
+                <title>void QCPTextElement::mouseDoubleClickEvent (QMouseEvent *event, const QVariant &amp;details) Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+<para>Emits the <link linkend="class_q_c_p_text_element_1a9c6fd27ae8a7c3a02df7a6bbd3509e40">doubleClicked</link> signal.</para>
+
+            </section>
+            <section xml:id="class_q_c_p_text_element_1a91f2e4b4a639d9079e89a0030c7ed352">
+                <title>void QCPTextElement::applyDefaultAntialiasingHint (QCPPainter *painter) const Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_text_element_1ad1dae61ea77ae74841f3c2fb765fc88e">
+                <title>void QCPTextElement::draw (QCPPainter *painter) Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_text_element_1a47b8541f55ff520c557e0f27461f109e">
+                <title>QSize QCPTextElement::minimumOuterSizeHint () const Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+<para>Returns the suggested minimum size this layout element (the <link linkend="class_q_c_p_layout_element_1a2a32a12a6161c9dffbadeb9cc585510c">outerRect</link>) may be compressed to, if no manual minimum size is set.</para>
+
+<para>if a minimum size (<link linkend="class_q_c_p_layout_element_1a5dd29a3c8bc88440c97c06b67be7886b">setMinimumSize</link>) was not set manually, parent layouts use the returned size (usually indirectly through <link linkend="class_q_c_p_layout_1a864fddc84721f186663faf3683f1fa70">QCPLayout::getFinalMinimumOuterSize</link>) to determine the minimum allowed size of this layout element.</para>
+
+<para>A manual minimum size is considered set if it is non-zero.</para>
+
+<para>The default implementation simply returns the sum of the horizontal margins for the width and the sum of the vertical margins for the height. Reimplementations may use their detailed knowledge about the layout element&apos;s content to provide size hints. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_text_element_1ae82475b50c10a5b3314d996d50ae536b">
+                <title>QSize QCPTextElement::maximumOuterSizeHint () const Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+<para>Returns the suggested maximum size this layout element (the <link linkend="class_q_c_p_layout_element_1a2a32a12a6161c9dffbadeb9cc585510c">outerRect</link>) may be expanded to, if no manual maximum size is set.</para>
+
+<para>if a maximum size (<link linkend="class_q_c_p_layout_element_1a74eb5280a737ab44833d506db65efd95">setMaximumSize</link>) was not set manually, parent layouts use the returned size (usually indirectly through <link linkend="class_q_c_p_layout_1add49fd6843821a6126914b837ed52e22">QCPLayout::getFinalMaximumOuterSize</link>) to determine the maximum allowed size of this layout element.</para>
+
+<para>A manual maximum size is considered set if it is smaller than Qt&apos;s <computeroutput>QWIDGETSIZE_MAX</computeroutput>.</para>
+
+<para>The default implementation simply returns <computeroutput>QWIDGETSIZE_MAX</computeroutput> for both width and height, implying no suggested maximum size. Reimplementations may use their detailed knowledge about the layout element&apos;s content to provide size hints. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_text_element_1a8d696ea82fa7bf743e01858039c03525">
+                <title>void QCPTextElement::selectEvent (QMouseEvent *event, bool additive, const QVariant &amp;details, bool *selectionStateChanged) Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_text_element_1a9a631a9deb9d82089a9d52de1744accf">
+                <title>void QCPTextElement::deselectEvent (bool *selectionStateChanged) Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_text_element_1ae236bd398e52939f2de2b70e5e2ba611">
+                <title>QFont QCPTextElement::mainFont () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_text_element_1a63510789e31db34362de97d78e9e7866">
+                <title>QColor QCPTextElement::mainTextColor () const</title> <emphasis></emphasis>
+                
+            </section>
+</section>

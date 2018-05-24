@@ -1,0 +1,677 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="class_q_c_p_abstract_item">
+<title>QCPAbstractItem class Reference</title>
+<para>
+    <programlisting>#include <link linkend="qcustomplot_8h">&lt;qcustomplot.h&gt;</link></programlisting>
+</para>
+<para>Inheritance diagram for QCPAbstractItem</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_q_c_p_abstract_item__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for QCPAbstractItem</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_q_c_p_abstract_item__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title>Protected Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool mClipToAxisRect</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPointer&lt; QCPAxisRect &gt; mClipAxisRect</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QList&lt; QCPItemPosition * &gt; mPositions</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QList&lt; QCPItemAnchor * &gt; mAnchors</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool mSelectable</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool mSelected</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="class_q_c_p_abstract_item_1a9922507d8b4503a1fe1ed0b1030e23b6">QCPAbstractItem</link> (
+<link linkend="class_q_custom_plot">QCustomPlot</link> * parentPlot)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual <link linkend="class_q_c_p_abstract_item_1a375bd1b7d3218b04a6ff7ff06fff917c">~QCPAbstractItem</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="class_q_c_p_abstract_item_1a42715ad5f3d7fca6854025fa5636f436">clipToAxisRect</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="class_q_c_p_axis_rect">QCPAxisRect</link> * <link linkend="class_q_c_p_abstract_item_1ae162314efd3fe1a6d4df11da1d275d52">clipAxisRect</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="class_q_c_p_abstract_item_1ae29aa489767352b40c4aaa7ea50c5582">selectable</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="class_q_c_p_abstract_item_1aa069fba320a13639f119f82ad29ead96">selected</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_abstract_item_1a39e05b9d4176b9accafc746d16ca6a06">setClipToAxisRect</link> (
+bool clip)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_abstract_item_1a7dc75fcbcd10206fe0b75d757ea7a347">setClipAxisRect</link> (
+<link linkend="class_q_c_p_axis_rect">QCPAxisRect</link> * rect)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>Q_SLOT void <link linkend="class_q_c_p_abstract_item_1a8a8e32a55bc478b849756a78c2d87fd2">setSelectable</link> (
+bool selectable)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>Q_SLOT void <link linkend="class_q_c_p_abstract_item_1a203de94ad586cc44d16c9565f49d3378">setSelected</link> (
+bool selected)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual double <link linkend="class_q_c_p_abstract_item_1ae41d0349d68bb802c49104afd100ba2a">selectTest</link> (
+const QPointF &amp; pos, bool onlySelectable, QVariant * details)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QList&lt; <link linkend="class_q_c_p_item_position">QCPItemPosition</link> * &gt; <link linkend="class_q_c_p_abstract_item_1a709f655ac3f7f22d452714134662b454">positions</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QList&lt; <link linkend="class_q_c_p_item_anchor">QCPItemAnchor</link> * &gt; <link linkend="class_q_c_p_abstract_item_1a81d1ecfea3368b836cf9675a0045e659">anchors</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="class_q_c_p_item_position">QCPItemPosition</link> * <link linkend="class_q_c_p_abstract_item_1a2589c3d298f9a576d77d9addb440a18d">position</link> (
+const QString &amp; name)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="class_q_c_p_item_anchor">QCPItemAnchor</link> * <link linkend="class_q_c_p_abstract_item_1a139c255ea8831642fac91748e29a5adb">anchor</link> (
+const QString &amp; name)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="class_q_c_p_abstract_item_1a84914f4516f9b38ef0bd89eafe3dbda7">hasAnchor</link> (
+const QString &amp; name)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual <link linkend="namespace_q_c_p_1a2ad6bb6281c7c2d593d4277b44c2b037">QCP::Interaction</link> <link linkend="class_q_c_p_abstract_item_1aceb5f99c361cf023c7cbe7339ea29571">selectionCategory</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual QRect <link linkend="class_q_c_p_abstract_item_1a6ad60000f29afe11035e1f791dcbd45a">clipRect</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="class_q_c_p_abstract_item_1a5579ce9ec7cad202499886b042448b10">applyDefaultAntialiasingHint</link> (
+<link linkend="class_q_c_p_painter">QCPPainter</link> * painter)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="class_q_c_p_abstract_item_1a007fdab79c935a5da5aa04a21d268c18">draw</link> (
+<link linkend="class_q_c_p_painter">QCPPainter</link> * painter)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="class_q_c_p_abstract_item_1aa4b969c58797f39c9c0b6c07c7869d17">selectEvent</link> (
+QMouseEvent * event, bool additive, const QVariant &amp; details, bool * selectionStateChanged)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="class_q_c_p_abstract_item_1af9093798cb07a861dcc73f93ca16c0c1">deselectEvent</link> (
+bool * selectionStateChanged)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual QPointF <link linkend="class_q_c_p_abstract_item_1ada5bad4e1196c4fc0d0d12328e24b8f2">anchorPixelPosition</link> (
+int anchorId)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double <link linkend="class_q_c_p_abstract_item_1a7dfc2007e36d09b8b5c988a9f06d6a7e">rectDistance</link> (
+const QRectF &amp; rect, const QPointF &amp; pos, bool filledRect)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="class_q_c_p_item_position">QCPItemPosition</link> * <link linkend="class_q_c_p_abstract_item_1a75036d39c4d4e2e1a7dd145fff915d32">createPosition</link> (
+const QString &amp; name)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="class_q_c_p_item_anchor">QCPItemAnchor</link> * <link linkend="class_q_c_p_abstract_item_1af3fc92527802078ca395138748b629a7">createAnchor</link> (
+const QString &amp; name, int anchorId)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+    <simplesect>
+
+<para>The abstract base class for all items in a plot. </para>
+    </simplesect>
+        <simplesect>
+            <title>Detailed Description</title>
+
+<para>In <link linkend="class_q_custom_plot">QCustomPlot</link>, items are supplemental graphical elements that are neither plottables (<link linkend="class_q_c_p_abstract_plottable">QCPAbstractPlottable</link>) nor axes (<link linkend="class_q_c_p_axis">QCPAxis</link>). While plottables are always tied to two axes and thus plot coordinates, items can also be placed in absolute coordinates independent of any axes. Each specific item has at least one <link linkend="class_q_c_p_item_position">QCPItemPosition</link> member which controls the positioning. Some items are defined by more than one coordinate and thus have two or more <link linkend="class_q_c_p_item_position">QCPItemPosition</link> members (For example, <link linkend="class_q_c_p_item_rect">QCPItemRect</link> has <emphasis>topLeft</emphasis> and <emphasis>bottomRight</emphasis>).</para>
+
+<para>This abstract base class defines a very basic interface like visibility and clipping. Since this class is abstract, it can&apos;t be instantiated. Use one of the subclasses or create a subclass yourself to create new items.</para>
+
+<para>The built-in items are: <table frame="all">
+    <title></title>
+    <tgroup cols="2" align="left" colsep="1" rowsep="1">
+    <tbody>
+<row>
+<entry>
+<para><link linkend="class_q_c_p_item_line">QCPItemLine</link></para>
+</entry><entry>
+<para>A line defined by a start and an end point. May have different ending styles on each side (e.g. arrows). </para>
+</entry></row>
+<row>
+<entry>
+<para><link linkend="class_q_c_p_item_straight_line">QCPItemStraightLine</link></para>
+</entry><entry>
+<para>A straight line defined by a start and a direction point. Unlike <link linkend="class_q_c_p_item_line">QCPItemLine</link>, the straight line is infinitely long and has no endings. </para>
+</entry></row>
+<row>
+<entry>
+<para><link linkend="class_q_c_p_item_curve">QCPItemCurve</link></para>
+</entry><entry>
+<para>A curve defined by start, end and two intermediate control points. May have different ending styles on each side (e.g. arrows). </para>
+</entry></row>
+<row>
+<entry>
+<para><link linkend="class_q_c_p_item_rect">QCPItemRect</link></para>
+</entry><entry>
+<para>A rectangle </para>
+</entry></row>
+<row>
+<entry>
+<para><link linkend="class_q_c_p_item_ellipse">QCPItemEllipse</link></para>
+</entry><entry>
+<para>An ellipse </para>
+</entry></row>
+<row>
+<entry>
+<para><link linkend="class_q_c_p_item_pixmap">QCPItemPixmap</link></para>
+</entry><entry>
+<para>An arbitrary pixmap </para>
+</entry></row>
+<row>
+<entry>
+<para><link linkend="class_q_c_p_item_text">QCPItemText</link></para>
+</entry><entry>
+<para>A text label </para>
+</entry></row>
+<row>
+<entry>
+<para><link linkend="class_q_c_p_item_bracket">QCPItemBracket</link></para>
+</entry><entry>
+<para>A bracket which may be used to reference/highlight certain parts in the plot. </para>
+</entry></row>
+<row>
+<entry>
+<para><link linkend="class_q_c_p_item_tracer">QCPItemTracer</link></para>
+</entry><entry>
+<para>An item that can be attached to a <link linkend="class_q_c_p_graph">QCPGraph</link> and sticks to its data points, given a key coordinate. </para>
+</entry></row>
+    </tbody>
+    </tgroup>
+</table>
+</para>
+<section xml:id="class_q_c_p_abstract_item_1items-clipping">
+<title>Clipping</title>
+
+<para>Items are by default clipped to the main axis rect (they are only visible inside the axis rect). To make an item visible outside that axis rect, disable clipping via <link linkend="class_q_c_p_abstract_item_1a39e05b9d4176b9accafc746d16ca6a06">setClipToAxisRect(false)</link>.</para>
+
+<para>On the other hand if you want the item to be clipped to a different axis rect, specify it via <link linkend="class_q_c_p_abstract_item_1a7dc75fcbcd10206fe0b75d757ea7a347">setClipAxisRect</link>. This clipAxisRect property of an item is only used for clipping behaviour, and in principle is independent of the coordinate axes the item might be tied to via its position members (<link linkend="class_q_c_p_item_position_1a2185f45c75ac8cb9be89daeaaad50e37">QCPItemPosition::setAxes</link>). However, it is common that the axis rect for clipping also contains the axes used for the item positions.</para>
+</section>
+<section xml:id="class_q_c_p_abstract_item_1items-using">
+<title>Using items</title>
+
+<para>First you instantiate the item you want to use and add it to the plot: <literallayout><computeroutput></computeroutput></literallayout>by default, the positions of the item are bound to the x- and y-Axis of the plot. So we can just set the plot coordinates where the line should start/end: <literallayout><computeroutput></computeroutput></literallayout>If we don&apos;t want the line to be positioned in plot coordinates but a different coordinate system, e.g. absolute pixel positions on the <link linkend="class_q_custom_plot">QCustomPlot</link> surface, we need to change the position type like this: <literallayout><computeroutput></computeroutput></literallayout>Then we can set the coordinates, this time in pixels: <literallayout><computeroutput></computeroutput></literallayout>and make the line visible on the entire <link linkend="class_q_custom_plot">QCustomPlot</link>, by disabling clipping to the axis rect: <literallayout><computeroutput></computeroutput></literallayout> For more advanced plots, it is even possible to set different types and parent anchors per X/Y coordinate of an item position, using for example <link linkend="class_q_c_p_item_position_1a2113b2351d6d00457fb3559a4e20c3ea">QCPItemPosition::setTypeX</link> or <link linkend="class_q_c_p_item_position_1add71461a973927c74e42179480916d9c">QCPItemPosition::setParentAnchorX</link>. For details, see the documentation of <link linkend="class_q_c_p_item_position">QCPItemPosition</link>.</para>
+</section>
+<section xml:id="class_q_c_p_abstract_item_1items-subclassing">
+<title>Creating own items</title>
+
+<para>To create an own item, you implement a subclass of <link linkend="class_q_c_p_abstract_item">QCPAbstractItem</link>. These are the pure virtual functions, you must implement: <itemizedlist>
+<listitem>
+<para><link linkend="class_q_c_p_abstract_item_1ae41d0349d68bb802c49104afd100ba2a">selectTest</link> </para>
+</listitem>
+<listitem>
+<para><link linkend="class_q_c_p_abstract_item_1a007fdab79c935a5da5aa04a21d268c18">draw</link></para>
+</listitem>
+</itemizedlist>
+See the documentation of those functions for what they need to do.</para>
+<section xml:id="class_q_c_p_abstract_item_1items-positioning">
+<title>Allowing the item to be positioned</title>
+
+<para>As mentioned, item positions are represented by <link linkend="class_q_c_p_item_position">QCPItemPosition</link> members. Let&apos;s assume the new item shall have only one point as its position (as opposed to two like a rect or multiple like a polygon). You then add a public member of type <link linkend="class_q_c_p_item_position">QCPItemPosition</link> like so:</para>
+
+<para><literallayout><computeroutput>QCPItemPosition&#32;*&#32;const&#32;myPosition;
+</computeroutput></literallayout></para>
+
+<para>the const makes sure the pointer itself can&apos;t be modified from the user of your new item (the <link linkend="class_q_c_p_item_position">QCPItemPosition</link> instance it points to, can be modified, of course). The initialization of this pointer is made easy with the <link linkend="class_q_c_p_abstract_item_1a75036d39c4d4e2e1a7dd145fff915d32">createPosition</link> function. Just assign the return value of this function to each <link linkend="class_q_c_p_item_position">QCPItemPosition</link> in the constructor of your item. <link linkend="class_q_c_p_abstract_item_1a75036d39c4d4e2e1a7dd145fff915d32">createPosition</link> takes a string which is the name of the position, typically this is identical to the variable name. For example, the constructor of QCPItemExample could look like this:</para>
+
+<para><literallayout><computeroutput>QCPItemExample::QCPItemExample(QCustomPlot&#32;*parentPlot)&#32;:
+&#32;&#32;QCPAbstractItem(parentPlot),
+&#32;&#32;myPosition(createPosition(&quot;myPosition&quot;))
+{
+&#32;&#32;//&#32;other&#32;constructor&#32;code
+}
+</computeroutput></literallayout></para>
+</section>
+<section xml:id="class_q_c_p_abstract_item_1items-drawing">
+<title>The draw function</title>
+
+<para>To give your item a visual representation, reimplement the <link linkend="class_q_c_p_abstract_item_1a007fdab79c935a5da5aa04a21d268c18">draw</link> function and use the passed <link linkend="class_q_c_p_painter">QCPPainter</link> to draw the item. You can retrieve the item position in pixel coordinates from the position member(s) via <link linkend="class_q_c_p_item_position_1a8be9a4787635433edecc75164beb748d">QCPItemPosition::pixelPosition</link>.</para>
+
+<para>To optimize performance you should calculate a bounding rect first (don&apos;t forget to take the pen width into account), check whether it intersects the <link linkend="class_q_c_p_abstract_item_1a6ad60000f29afe11035e1f791dcbd45a">clipRect</link>, and only draw the item at all if this is the case.</para>
+</section>
+<section xml:id="class_q_c_p_abstract_item_1items-selection">
+<title>The selectTest function</title>
+
+<para>Your implementation of the <link linkend="class_q_c_p_abstract_item_1ae41d0349d68bb802c49104afd100ba2a">selectTest</link> function may use the helpers <link linkend="class_q_c_p_vector2_d_1a14840cd3da80cfee4eb3f8977cab89ab">QCPVector2D::distanceSquaredToLine</link> and <link linkend="class_q_c_p_abstract_item_1a7dfc2007e36d09b8b5c988a9f06d6a7e">rectDistance</link>. With these, the implementation of the selection test becomes significantly simpler for most items. See the documentation of <link linkend="class_q_c_p_abstract_item_1ae41d0349d68bb802c49104afd100ba2a">selectTest</link> for what the function parameters mean and what the function should return.</para>
+</section>
+<section xml:id="class_q_c_p_abstract_item_1anchors">
+<title>Providing anchors</title>
+
+<para>Providing anchors (<link linkend="class_q_c_p_item_anchor">QCPItemAnchor</link>) starts off like adding a position. First you create a public member, e.g.</para>
+
+<para><literallayout><computeroutput>QCPItemAnchor&#32;*&#32;const&#32;bottom;
+</computeroutput></literallayout></para>
+
+<para>and create it in the constructor with the <link linkend="class_q_c_p_abstract_item_1af3fc92527802078ca395138748b629a7">createAnchor</link> function, assigning it a name and an anchor id (an integer enumerating all anchors on the item, you may create an own enum for this). Since anchors can be placed anywhere, relative to the item&apos;s position(s), your item needs to provide the position of every anchor with the reimplementation of the <link linkend="class_q_c_p_abstract_item_1ada5bad4e1196c4fc0d0d12328e24b8f2">anchorPixelPosition</link>(int anchorId) function.</para>
+
+<para>In essence the <link linkend="class_q_c_p_item_anchor">QCPItemAnchor</link> is merely an intermediary that itself asks your item for the pixel position when anything attached to the anchor needs to know the coordinates. </para>
+</section>
+</section>
+                <para>Definition at line 3506 of file qcustomplot.h</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>qcustomplot.h</para></listitem></itemizedlist></para>
+        </simplesect>
+        <section>
+            <title>Member Data Documentation</title>
+        </section>
+            <section xml:id="class_q_c_p_abstract_item_1a9922507d8b4503a1fe1ed0b1030e23b6">
+                <title>QCPAbstractItem::QCPAbstractItem (QCustomPlot *parentPlot)</title> <emphasis></emphasis>
+                
+<para>Base class constructor which initializes base class members. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_abstract_item_1a375bd1b7d3218b04a6ff7ff06fff917c">
+                <title>QCPAbstractItem::~QCPAbstractItem ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_abstract_item_1a42715ad5f3d7fca6854025fa5636f436">
+                <title>bool QCPAbstractItem::clipToAxisRect () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_abstract_item_1ae162314efd3fe1a6d4df11da1d275d52">
+                <title>QCPAxisRect * QCPAbstractItem::clipAxisRect () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_abstract_item_1ae29aa489767352b40c4aaa7ea50c5582">
+                <title>bool QCPAbstractItem::selectable () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_abstract_item_1aa069fba320a13639f119f82ad29ead96">
+                <title>bool QCPAbstractItem::selected () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_abstract_item_1a39e05b9d4176b9accafc746d16ca6a06">
+                <title>void QCPAbstractItem::setClipToAxisRect (bool clip)</title> <emphasis></emphasis>
+                
+<para>Sets whether the item shall be clipped to an axis rect or whether it shall be visible on the entire <link linkend="class_q_custom_plot">QCustomPlot</link>. The axis rect can be set with <link linkend="class_q_c_p_abstract_item_1a7dc75fcbcd10206fe0b75d757ea7a347">setClipAxisRect</link>.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_abstract_item_1a7dc75fcbcd10206fe0b75d757ea7a347">setClipAxisRect</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_abstract_item_1a7dc75fcbcd10206fe0b75d757ea7a347">
+                <title>void QCPAbstractItem::setClipAxisRect (QCPAxisRect *rect)</title> <emphasis></emphasis>
+                
+<para>Sets the clip axis rect. It defines the rect that will be used to clip the item when <link linkend="class_q_c_p_abstract_item_1a39e05b9d4176b9accafc746d16ca6a06">setClipToAxisRect</link> is set to true.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_abstract_item_1a39e05b9d4176b9accafc746d16ca6a06">setClipToAxisRect</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_abstract_item_1a8a8e32a55bc478b849756a78c2d87fd2">
+                <title>void QCPAbstractItem::setSelectable (bool selectable)</title> <emphasis></emphasis>
+                
+<para>Sets whether the user can (de-)select this item by clicking on the <link linkend="class_q_custom_plot">QCustomPlot</link> surface. (When <link linkend="class_q_custom_plot_1a5ee1e2f6ae27419deca53e75907c27e5">QCustomPlot::setInteractions</link> contains QCustomPlot::iSelectItems.)</para>
+
+<para>However, even when <emphasis>selectable</emphasis> was set to false, it is possible to set the selection manually, by calling <link linkend="class_q_c_p_abstract_item_1a203de94ad586cc44d16c9565f49d3378">setSelected</link>.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_custom_plot_1a5ee1e2f6ae27419deca53e75907c27e5">QCustomPlot::setInteractions</link>, <link linkend="class_q_c_p_abstract_item_1a203de94ad586cc44d16c9565f49d3378">setSelected</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_abstract_item_1a203de94ad586cc44d16c9565f49d3378">
+                <title>void QCPAbstractItem::setSelected (bool selected)</title> <emphasis></emphasis>
+                
+<para>Sets whether this item is selected or not. When selected, it might use a different visual appearance (e.g. pen and brush), this depends on the specific item though.</para>
+
+<para>The entire selection mechanism for items is handled automatically when <link linkend="class_q_custom_plot_1a5ee1e2f6ae27419deca53e75907c27e5">QCustomPlot::setInteractions</link> contains QCustomPlot::iSelectItems. You only need to call this function when you wish to change the selection state manually.</para>
+
+<para>This function can change the selection state even when <link linkend="class_q_c_p_abstract_item_1a8a8e32a55bc478b849756a78c2d87fd2">setSelectable</link> was set to false.</para>
+
+<para>emits the <link linkend="class_q_c_p_abstract_item_1aa5cffb034fc65dbb91c77e02c1c14251">selectionChanged</link> signal when <emphasis>selected</emphasis> is different from the previous selection state.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_abstract_item_1a8a8e32a55bc478b849756a78c2d87fd2">setSelectable</link>, <link linkend="class_q_c_p_abstract_item_1ae41d0349d68bb802c49104afd100ba2a">selectTest</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_abstract_item_1ae41d0349d68bb802c49104afd100ba2a">
+                <title>virtual double QCPAbstractItem::selectTest (const QPointF &amp;pos, bool onlySelectable, QVariant *details=0) const Q_DECL_OVERRIDE=0</title> <emphasis></emphasis>
+                
+<para>This function is used to decide whether a click hits a layerable object or not.</para>
+
+<para><emphasis>pos</emphasis> is a point in pixel coordinates on the <link linkend="class_q_custom_plot">QCustomPlot</link> surface. This function returns the shortest pixel distance of this point to the object. If the object is either invisible or the distance couldn&apos;t be determined, -1.0 is returned. Further, if <emphasis>onlySelectable</emphasis> is true and the object is not selectable, -1.0 is returned, too.</para>
+
+<para>If the object is represented not by single lines but by an area like a <link linkend="class_q_c_p_item_text">QCPItemText</link> or the bars of a <link linkend="class_q_c_p_bars">QCPBars</link> plottable, a click inside the area should also be considered a hit. In these cases this function thus returns a constant value greater zero but still below the parent plot&apos;s selection tolerance. (typically the selectionTolerance multiplied by 0.99).</para>
+
+<para>Providing a constant value for area objects allows selecting line objects even when they are obscured by such area objects, by clicking close to the lines (i.e. closer than 0.99*selectionTolerance).</para>
+
+<para>The actual setting of the selection state is not done by this function. This is handled by the parent <link linkend="class_q_custom_plot">QCustomPlot</link> when the mouseReleaseEvent occurs, and the finally selected object is notified via the <link linkend="class_q_c_p_abstract_item_1aa4b969c58797f39c9c0b6c07c7869d17">selectEvent</link>/<link linkend="class_q_c_p_abstract_item_1af9093798cb07a861dcc73f93ca16c0c1">deselectEvent</link> methods.</para>
+
+<para><emphasis>details</emphasis> is an optional output parameter. Every layerable subclass may place any information in <emphasis>details</emphasis>. This information will be passed to <link linkend="class_q_c_p_abstract_item_1aa4b969c58797f39c9c0b6c07c7869d17">selectEvent</link> when the parent <link linkend="class_q_custom_plot">QCustomPlot</link> decides on the basis of this selectTest call, that the object was successfully selected. The subsequent call to <link linkend="class_q_c_p_abstract_item_1aa4b969c58797f39c9c0b6c07c7869d17">selectEvent</link> will carry the <emphasis>details</emphasis>. This is useful for multi-part objects (like <link linkend="class_q_c_p_axis">QCPAxis</link>). This way, a possibly complex calculation to decide which part was clicked is only done once in <link linkend="class_q_c_p_abstract_item_1ae41d0349d68bb802c49104afd100ba2a">selectTest</link>. The result (i.e. the actually clicked part) can then be placed in <emphasis>details</emphasis>. So in the subsequent <link linkend="class_q_c_p_abstract_item_1aa4b969c58797f39c9c0b6c07c7869d17">selectEvent</link>, the decision which part was selected doesn&apos;t have to be done a second time for a single selection operation.</para>
+
+<para>You may pass 0 as <emphasis>details</emphasis> to indicate that you are not interested in those selection details.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_abstract_item_1aa4b969c58797f39c9c0b6c07c7869d17">selectEvent</link>, <link linkend="class_q_c_p_abstract_item_1af9093798cb07a861dcc73f93ca16c0c1">deselectEvent</link>, <link linkend="class_q_c_p_layerable_1af6567604818db90f4fd52822f8bc8376">mousePressEvent</link>, <link linkend="class_q_c_p_layerable_1a47dfd7b8fd99c08ca54e09c362b6f022">wheelEvent</link>, <link linkend="class_q_custom_plot_1a5ee1e2f6ae27419deca53e75907c27e5">QCustomPlot::setInteractions</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_abstract_item_1a709f655ac3f7f22d452714134662b454">
+                <title>QList&lt; QCPItemPosition * &gt; QCPAbstractItem::positions () const</title> <emphasis></emphasis>
+                
+<para>Returns all positions of the item in a list.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_abstract_item_1a81d1ecfea3368b836cf9675a0045e659">anchors</link>, <link linkend="class_q_c_p_abstract_item_1a2589c3d298f9a576d77d9addb440a18d">position</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_abstract_item_1a81d1ecfea3368b836cf9675a0045e659">
+                <title>QList&lt; QCPItemAnchor * &gt; QCPAbstractItem::anchors () const</title> <emphasis></emphasis>
+                
+<para>Returns all anchors of the item in a list. Note that since a position (<link linkend="class_q_c_p_item_position">QCPItemPosition</link>) is always also an anchor, the list will also contain the positions of this item.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_abstract_item_1a709f655ac3f7f22d452714134662b454">positions</link>, <link linkend="class_q_c_p_abstract_item_1a139c255ea8831642fac91748e29a5adb">anchor</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_abstract_item_1a2589c3d298f9a576d77d9addb440a18d">
+                <title>QCPItemPosition * QCPAbstractItem::position (const QString &amp;name) const</title> <emphasis></emphasis>
+                
+<para>Returns the <link linkend="class_q_c_p_item_position">QCPItemPosition</link> with the specified <emphasis>name</emphasis>. If this item doesn&apos;t have a position by that name, returns 0.</para>
+
+<para>This function provides an alternative way to access item positions. Normally, you access positions direcly by their member pointers (which typically have the same variable name as <emphasis>name</emphasis>).</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_abstract_item_1a709f655ac3f7f22d452714134662b454">positions</link>, <link linkend="class_q_c_p_abstract_item_1a139c255ea8831642fac91748e29a5adb">anchor</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_abstract_item_1a139c255ea8831642fac91748e29a5adb">
+                <title>QCPItemAnchor * QCPAbstractItem::anchor (const QString &amp;name) const</title> <emphasis></emphasis>
+                
+<para>Returns the <link linkend="class_q_c_p_item_anchor">QCPItemAnchor</link> with the specified <emphasis>name</emphasis>. If this item doesn&apos;t have an anchor by that name, returns 0.</para>
+
+<para>This function provides an alternative way to access item anchors. Normally, you access anchors direcly by their member pointers (which typically have the same variable name as <emphasis>name</emphasis>).</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_abstract_item_1a81d1ecfea3368b836cf9675a0045e659">anchors</link>, <link linkend="class_q_c_p_abstract_item_1a2589c3d298f9a576d77d9addb440a18d">position</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_abstract_item_1a84914f4516f9b38ef0bd89eafe3dbda7">
+                <title>bool QCPAbstractItem::hasAnchor (const QString &amp;name) const</title> <emphasis></emphasis>
+                
+<para>Returns whether this item has an anchor with the specified <emphasis>name</emphasis>.</para>
+
+<para>Note that you can check for positions with this function, too. This is because every position is also an anchor (<link linkend="class_q_c_p_item_position">QCPItemPosition</link> inherits from <link linkend="class_q_c_p_item_anchor">QCPItemAnchor</link>).</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_abstract_item_1a139c255ea8831642fac91748e29a5adb">anchor</link>, <link linkend="class_q_c_p_abstract_item_1a2589c3d298f9a576d77d9addb440a18d">position</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_abstract_item_1aceb5f99c361cf023c7cbe7339ea29571">
+                <title>QCP::Interaction QCPAbstractItem::selectionCategory () const Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_abstract_item_1a6ad60000f29afe11035e1f791dcbd45a">
+                <title>QRect QCPAbstractItem::clipRect () const Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_abstract_item_1a5579ce9ec7cad202499886b042448b10">
+                <title>void QCPAbstractItem::applyDefaultAntialiasingHint (QCPPainter *painter) const Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_abstract_item_1a007fdab79c935a5da5aa04a21d268c18">
+                <title>void QCPAbstractItem::draw (QCPPainter *painter) Q_DECL_OVERRIDE=0</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_abstract_item_1aa4b969c58797f39c9c0b6c07c7869d17">
+                <title>void QCPAbstractItem::selectEvent (QMouseEvent *event, bool additive, const QVariant &amp;details, bool *selectionStateChanged) Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_abstract_item_1af9093798cb07a861dcc73f93ca16c0c1">
+                <title>void QCPAbstractItem::deselectEvent (bool *selectionStateChanged) Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_abstract_item_1ada5bad4e1196c4fc0d0d12328e24b8f2">
+                <title>QPointF QCPAbstractItem::anchorPixelPosition (int anchorId) const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_abstract_item_1a7dfc2007e36d09b8b5c988a9f06d6a7e">
+                <title>double QCPAbstractItem::rectDistance (const QRectF &amp;rect, const QPointF &amp;pos, bool filledRect) const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_abstract_item_1a75036d39c4d4e2e1a7dd145fff915d32">
+                <title>QCPItemPosition * QCPAbstractItem::createPosition (const QString &amp;name)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_abstract_item_1af3fc92527802078ca395138748b629a7">
+                <title>QCPItemAnchor * QCPAbstractItem::createAnchor (const QString &amp;name, int anchorId)</title> <emphasis></emphasis>
+                
+            </section>
+</section>

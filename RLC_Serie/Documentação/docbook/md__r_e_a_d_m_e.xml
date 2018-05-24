@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<chapter xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Shilton_circuito_RLC</title>
+
+<para>Objetivo: plotar a resposta de um circuito RLC série</para>
+
+<para>Objetivo secundário: analisar sua estabilidade do circuito,bem como subamortecimento e superamortecimento do sinal</para>
+
+<para>Entrada: os componentes com seus valores e a e o tipo de fonte com seus parametros</para>
+
+<para>Saída: grafico com sinal de tensões do circuito </para>
+
+</chapter>

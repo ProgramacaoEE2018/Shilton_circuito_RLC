@@ -1,0 +1,317 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="class_q_c_p_axis_ticker_time">
+<title>QCPAxisTickerTime class Reference</title>
+<para>
+    <programlisting>#include <link linkend="qcustomplot_8h">&lt;qcustomplot.h&gt;</link></programlisting>
+</para>
+<para>Inheritance diagram for QCPAxisTickerTime</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_q_c_p_axis_ticker_time__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for QCPAxisTickerTime</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_q_c_p_axis_ticker_time__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                            <para><literallayout>enum <link linkend="class_q_c_p_axis_ticker_time_1a5c48ded8c6d3a1aca9b68219469fea3e">TimeUnit</link> {
+<link linkend="class_q_c_p_axis_ticker_time_1a5c48ded8c6d3a1aca9b68219469fea3ea809db637d2a7f601287c8790facc25cf">tuMilliseconds</link>,
+<link linkend="class_q_c_p_axis_ticker_time_1a5c48ded8c6d3a1aca9b68219469fea3ea22b2c1842215272ae827eea2d1cc037d">tuSeconds</link>,
+<link linkend="class_q_c_p_axis_ticker_time_1a5c48ded8c6d3a1aca9b68219469fea3ea682de6640daef46cffd8a080348d7d00">tuMinutes</link>,
+<link linkend="class_q_c_p_axis_ticker_time_1a5c48ded8c6d3a1aca9b68219469fea3ea83a5713594424ba17f1f62f18f0e5935">tuHours</link>,
+<link linkend="class_q_c_p_axis_ticker_time_1a5c48ded8c6d3a1aca9b68219469fea3eaf9729e64545307a80a0e3527d6da6556">tuDays</link>
+}</literallayout>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title>Protected Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QString mTimeFormat</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QHash&lt; TimeUnit, int &gt; mFieldWidth</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>TimeUnit mSmallestUnit</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>TimeUnit mBiggestUnit</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QHash&lt; TimeUnit, QString &gt; mFormatPattern</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="class_q_c_p_axis_ticker_time_1a5145aac1d2117fdac411d9e8552cc41b">QCPAxisTickerTime</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QString <link linkend="class_q_c_p_axis_ticker_time_1a99ad61dc7434a7fed1850e96bf748834">timeFormat</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>int <link linkend="class_q_c_p_axis_ticker_time_1a6b58a98e4d64c6764aa61a707e4a344d">fieldWidth</link> (
+<link linkend="class_q_c_p_axis_ticker_time_1a5c48ded8c6d3a1aca9b68219469fea3e">TimeUnit</link> unit)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_axis_ticker_time_1a2f30b6e5125bce4256be9ce3177088ea">setTimeFormat</link> (
+const QString &amp; format)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_axis_ticker_time_1adc13e54fc969be98a5c0e3fa0dbaa293">setFieldWidth</link> (
+<link linkend="class_q_c_p_axis_ticker_time_1a5c48ded8c6d3a1aca9b68219469fea3e">TimeUnit</link> unit, int width)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual double <link linkend="class_q_c_p_axis_ticker_time_1a5615064642090fe193797caea8b98cb4">getTickStep</link> (
+const <link linkend="class_q_c_p_range">QCPRange</link> &amp; range)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual int <link linkend="class_q_c_p_axis_ticker_time_1acace84c46598176aa53837e147595471">getSubTickCount</link> (
+double tickStep)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual QString <link linkend="class_q_c_p_axis_ticker_time_1a046eb771bdf2a959f570db542b3a0be6">getTickLabel</link> (
+double tick, const QLocale &amp; locale, QChar formatChar, int precision)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_axis_ticker_time_1a03b6c980be36f2672e3fc31d109a28a0">replaceUnit</link> (
+QString &amp; text, <link linkend="class_q_c_p_axis_ticker_time_1a5c48ded8c6d3a1aca9b68219469fea3e">TimeUnit</link> unit, int value)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+    <simplesect>
+
+<para>Specialized axis ticker for time spans in units of milliseconds to days. </para>
+    </simplesect>
+        <simplesect>
+            <title>Detailed Description</title>
+
+<para></para>
+
+<para>This <link linkend="class_q_c_p_axis_ticker">QCPAxisTicker</link> subclass generates ticks that corresponds to time intervals.</para>
+
+<para>The format of the time display in the tick labels is controlled with <link linkend="class_q_c_p_axis_ticker_time_1a2f30b6e5125bce4256be9ce3177088ea">setTimeFormat</link> and <link linkend="class_q_c_p_axis_ticker_time_1adc13e54fc969be98a5c0e3fa0dbaa293">setFieldWidth</link>. The time coordinate is in the unit of seconds with respect to the time coordinate zero. Unlike with <link linkend="class_q_c_p_axis_ticker_date_time">QCPAxisTickerDateTime</link>, the ticks don&apos;t correspond to a specific calendar date and time.</para>
+
+<para>The time can be displayed in milliseconds, seconds, minutes, hours and days. Depending on the largest available unit in the format specified with <link linkend="class_q_c_p_axis_ticker_time_1a2f30b6e5125bce4256be9ce3177088ea">setTimeFormat</link>, any time spans above will be carried in that largest unit. So for example if the format string is &quot;%m:%s&quot; and a tick at coordinate value 7815 (being 2 hours, 10 minutes and 15 seconds) is created, the resulting tick label will show &quot;130:15&quot; (130 minutes, 15 seconds). If the format string is &quot;%h:%m:%s&quot;, the hour unit will be used and the label will thus be &quot;02:10:15&quot;. Negative times with respect to the axis zero will carry a leading minus sign.</para>
+
+<para>The ticker can be created and assigned to an axis like this: <literallayout><computeroutput></computeroutput></literallayout> Here is an example of a time axis providing time information in days, hours and minutes. Due to the axis range spanning a few days and the wanted tick count (<link linkend="class_q_c_p_axis_ticker_1a47752abba8293e6dc18491501ae34008">setTickCount</link>), the ticker decided to use tick steps of 12 hours:</para>
+
+<para></para>
+
+<para>The format string for this example is <literallayout><computeroutput></computeroutput></literallayout> <formalpara><title>Note: </title>
+
+<para>If you rather wish to display calendar dates and times, have a look at <link linkend="class_q_c_p_axis_ticker_date_time">QCPAxisTickerDateTime</link> instead. </para>
+</formalpara>
+</para>
+                <para>Definition at line 1636 of file qcustomplot.h</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>qcustomplot.h</para></listitem></itemizedlist></para>
+        </simplesect>
+            <section xml:id="class_q_c_p_axis_ticker_time_1a5c48ded8c6d3a1aca9b68219469fea3e">
+               <title>enum TimeUnit </title>
+               
+<para>Defines the logical units in which fractions of time spans can be expressed.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_axis_ticker_time_1adc13e54fc969be98a5c0e3fa0dbaa293">setFieldWidth</link>, <link linkend="class_q_c_p_axis_ticker_time_1a2f30b6e5125bce4256be9ce3177088ea">setTimeFormat</link> </para>
+</formalpara>
+</para>
+
+               <formalpara>
+                    <title>Enumerator:</title>
+                    <variablelist>
+                        <varlistentry xml:id="class_q_c_p_axis_ticker_time_1a5c48ded8c6d3a1aca9b68219469fea3ea809db637d2a7f601287c8790facc25cf">
+                            <term>tuMilliseconds</term>
+                            <listitem>
+                                <para>Milliseconds, one thousandth of a second (%%z in \ref setTimeFormat)</para>
+                            </listitem>
+                        </varlistentry>
+                        <varlistentry xml:id="class_q_c_p_axis_ticker_time_1a5c48ded8c6d3a1aca9b68219469fea3ea22b2c1842215272ae827eea2d1cc037d">
+                            <term>tuSeconds</term>
+                            <listitem>
+                                <para>Seconds (%%s in \ref setTimeFormat)</para>
+                            </listitem>
+                        </varlistentry>
+                        <varlistentry xml:id="class_q_c_p_axis_ticker_time_1a5c48ded8c6d3a1aca9b68219469fea3ea682de6640daef46cffd8a080348d7d00">
+                            <term>tuMinutes</term>
+                            <listitem>
+                                <para>Minutes (%%m in \ref setTimeFormat)</para>
+                            </listitem>
+                        </varlistentry>
+                        <varlistentry xml:id="class_q_c_p_axis_ticker_time_1a5c48ded8c6d3a1aca9b68219469fea3ea83a5713594424ba17f1f62f18f0e5935">
+                            <term>tuHours</term>
+                            <listitem>
+                                <para>Hours (%%h in \ref setTimeFormat)</para>
+                            </listitem>
+                        </varlistentry>
+                        <varlistentry xml:id="class_q_c_p_axis_ticker_time_1a5c48ded8c6d3a1aca9b68219469fea3eaf9729e64545307a80a0e3527d6da6556">
+                            <term>tuDays</term>
+                            <listitem>
+                                <para>Days (%%d in \ref setTimeFormat)</para>
+                            </listitem>
+                        </varlistentry>
+                     </variablelist>
+                </formalpara>
+                <para>Definition at line 1644 of file qcustomplot.h
+                    <computeroutput><literallayout>
+{
+tuMilliseconds, 
+tuSeconds, 
+tuMinutes, 
+tuHours, 
+tuDays, 
+}TimeUnit;
+                    </literallayout></computeroutput>
+                </para>
+            </section>
+        <section>
+            <title>Member Data Documentation</title>
+        </section>
+            <section xml:id="class_q_c_p_axis_ticker_time_1a5145aac1d2117fdac411d9e8552cc41b">
+                <title>QCPAxisTickerTime::QCPAxisTickerTime ()</title> <emphasis></emphasis>
+                
+<para>Constructs the ticker and sets reasonable default values. Axis tickers are commonly created managed by a QSharedPointer, which then can be passed to <link linkend="class_q_c_p_axis_1a4ee03fcd2c74d05cd1a419b9af5cfbdc">QCPAxis::setTicker</link>. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_axis_ticker_time_1a99ad61dc7434a7fed1850e96bf748834">
+                <title>QString QCPAxisTickerTime::timeFormat () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_axis_ticker_time_1a6b58a98e4d64c6764aa61a707e4a344d">
+                <title>int QCPAxisTickerTime::fieldWidth (TimeUnit unit) const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_axis_ticker_time_1a2f30b6e5125bce4256be9ce3177088ea">
+                <title>void QCPAxisTickerTime::setTimeFormat (const QString &amp;format)</title> <emphasis></emphasis>
+                
+<para>Sets the format that will be used to display time in the tick labels.</para>
+
+<para>The available patterns are:<itemizedlist>
+<listitem>
+<para>%z for milliseconds</para>
+</listitem><listitem>
+<para>%s for seconds</para>
+</listitem><listitem>
+<para>%m for minutes</para>
+</listitem><listitem>
+<para>%h for hours</para>
+</listitem><listitem>
+<para>%d for days</para>
+</listitem></itemizedlist>
+</para>
+
+<para>The field width (zero padding) can be controlled for each unit with <link linkend="class_q_c_p_axis_ticker_time_1adc13e54fc969be98a5c0e3fa0dbaa293">setFieldWidth</link>.</para>
+
+<para>The largest unit that appears in <emphasis>format</emphasis> will carry all the remaining time of a certain tick coordinate, even if it overflows the natural limit of the unit. For example, if %m is the largest unit it might become larger than 59 in order to consume larger time values. If on the other hand %h is available, the minutes will wrap around to zero after 59 and the time will carry to the hour digit. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_axis_ticker_time_1adc13e54fc969be98a5c0e3fa0dbaa293">
+                <title>void QCPAxisTickerTime::setFieldWidth (TimeUnit unit, int width)</title> <emphasis></emphasis>
+                
+<para>Sets the field widh of the specified <emphasis>unit</emphasis> to be <emphasis>width</emphasis> digits, when displayed in the tick label. If the number for the specific unit is shorter than <emphasis>width</emphasis>, it will be padded with an according number of zeros to the left in order to reach the field width.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_axis_ticker_time_1a2f30b6e5125bce4256be9ce3177088ea">setTimeFormat</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_axis_ticker_time_1a5615064642090fe193797caea8b98cb4">
+                <title>double QCPAxisTickerTime::getTickStep (const QCPRange &amp;range) Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_axis_ticker_time_1acace84c46598176aa53837e147595471">
+                <title>int QCPAxisTickerTime::getSubTickCount (double tickStep) Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_axis_ticker_time_1a046eb771bdf2a959f570db542b3a0be6">
+                <title>QString QCPAxisTickerTime::getTickLabel (double tick, const QLocale &amp;locale, QChar formatChar, int precision) Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_axis_ticker_time_1a03b6c980be36f2672e3fc31d109a28a0">
+                <title>void QCPAxisTickerTime::replaceUnit (QString &amp;text, TimeUnit unit, int value) const</title> <emphasis></emphasis>
+                
+            </section>
+</section>

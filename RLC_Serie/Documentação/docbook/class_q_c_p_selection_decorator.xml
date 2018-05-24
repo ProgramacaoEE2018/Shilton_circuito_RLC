@@ -1,0 +1,345 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="class_q_c_p_selection_decorator">
+<title>QCPSelectionDecorator class Reference</title>
+<para>
+    <programlisting>#include <link linkend="qcustomplot_8h">&lt;qcustomplot.h&gt;</link></programlisting>
+</para>
+<para>Inheritance diagram for QCPSelectionDecorator</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_q_c_p_selection_decorator__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for QCPSelectionDecorator</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_q_c_p_selection_decorator__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title>Protected Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPen mPen</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QBrush mBrush</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QCPScatterStyle mScatterStyle</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QCPScatterStyle::ScatterProperties mUsedScatterProperties</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QCPAbstractPlottable * mPlottable</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="class_q_c_p_selection_decorator_1aa145480d9a062cd176fe30900bb7bca8">QCPSelectionDecorator</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual <link linkend="class_q_c_p_selection_decorator_1ab211eb11379854dcbe23b1642be0d19e">~QCPSelectionDecorator</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPen <link linkend="class_q_c_p_selection_decorator_1a9307a60c9759223367909aed2d05ad91">pen</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QBrush <link linkend="class_q_c_p_selection_decorator_1a783b643aa52120a25308fc501b9998b1">brush</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="class_q_c_p_scatter_style">QCPScatterStyle</link> <link linkend="class_q_c_p_selection_decorator_1aa6558f6f270a188bb633386aba0d1ae4">scatterStyle</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QCPScatterStyle::ScatterProperties <link linkend="class_q_c_p_selection_decorator_1ab2019bf31dde39f1ec028e3810dfc08b">usedScatterProperties</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_selection_decorator_1ac2c8192e1e294aa3a4a7f32a859e3d76">setPen</link> (
+const QPen &amp; pen)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_selection_decorator_1aa74b626be518ea17055f918d423c8c2d">setBrush</link> (
+const QBrush &amp; brush)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_selection_decorator_1ab403a613289714ff4fd4a0c0371ab116">setScatterStyle</link> (
+const <link linkend="class_q_c_p_scatter_style">QCPScatterStyle</link> &amp; scatterStyle, QCPScatterStyle::ScatterProperties usedProperties)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_selection_decorator_1a808c1607cd4e83869c04986e332455c0">setUsedScatterProperties</link> (
+const QCPScatterStyle::ScatterProperties &amp; properties)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_selection_decorator_1a75098893f7d08660ea449206810679d7">applyPen</link> (
+<link linkend="class_q_c_p_painter">QCPPainter</link> * painter)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_selection_decorator_1a225544527d51b49546b70d0e6d655a34">applyBrush</link> (
+<link linkend="class_q_c_p_painter">QCPPainter</link> * painter)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="class_q_c_p_scatter_style">QCPScatterStyle</link> <link linkend="class_q_c_p_selection_decorator_1a1277b373248896bc70e8cc1de96da9fa">getFinalScatterStyle</link> (
+const <link linkend="class_q_c_p_scatter_style">QCPScatterStyle</link> &amp; unselectedStyle)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="class_q_c_p_selection_decorator_1a467a8d5cfcab27e862a17c797ac27b8a">copyFrom</link> (
+const <link linkend="class_q_c_p_selection_decorator">QCPSelectionDecorator</link> * other)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="class_q_c_p_selection_decorator_1a4f8eb49e277063845391e803ae23054a">drawDecoration</link> (
+<link linkend="class_q_c_p_painter">QCPPainter</link> * painter, <link linkend="class_q_c_p_data_selection">QCPDataSelection</link> selection)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual bool <link linkend="class_q_c_p_selection_decorator_1af66cb39e308da0285ae5d533e1e85027">registerWithPlottable</link> (
+<link linkend="class_q_c_p_abstract_plottable">QCPAbstractPlottable</link> * plottable)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+    <simplesect>
+
+<para>Controls how a plottable&apos;s data selection is drawn. </para>
+    </simplesect>
+        <simplesect>
+            <title>Detailed Description</title>
+
+<para>Each <link linkend="class_q_c_p_abstract_plottable">QCPAbstractPlottable</link> instance has one <link linkend="class_q_c_p_selection_decorator">QCPSelectionDecorator</link> (accessible via <link linkend="class_q_c_p_abstract_plottable_1a7861518e47ca0c6a0c386032c2db075e">QCPAbstractPlottable::selectionDecorator</link>) and uses it when drawing selected segments of its data.</para>
+
+<para>The selection decorator controls both pen (<link linkend="class_q_c_p_selection_decorator_1ac2c8192e1e294aa3a4a7f32a859e3d76">setPen</link>) and brush (<link linkend="class_q_c_p_selection_decorator_1aa74b626be518ea17055f918d423c8c2d">setBrush</link>), as well as the scatter style (<link linkend="class_q_c_p_selection_decorator_1ab403a613289714ff4fd4a0c0371ab116">setScatterStyle</link>) if the plottable draws scatters. Since a <link linkend="class_q_c_p_scatter_style">QCPScatterStyle</link> is itself composed of different properties such as color shape and size, the decorator allows specifying exactly which of those properties shall be used for the selected data point, via <link linkend="class_q_c_p_selection_decorator_1a808c1607cd4e83869c04986e332455c0">setUsedScatterProperties</link>.</para>
+
+<para>A <link linkend="class_q_c_p_selection_decorator">QCPSelectionDecorator</link> subclass instance can be passed to a plottable via <link linkend="class_q_c_p_abstract_plottable_1a20e266ad646f8c4a7e4631040510e5d9">QCPAbstractPlottable::setSelectionDecorator</link>, allowing greater customizability of the appearance of selected segments.</para>
+
+<para>Use <link linkend="class_q_c_p_selection_decorator_1a467a8d5cfcab27e862a17c797ac27b8a">copyFrom</link> to easily transfer the settings of one decorator to another one. This is especially useful since plottables take ownership of the passed selection decorator, and thus the same decorator instance can not be passed to multiple plottables.</para>
+
+<para>Selection decorators can also themselves perform drawing operations by reimplementing <link linkend="class_q_c_p_selection_decorator_1a4f8eb49e277063845391e803ae23054a">drawDecoration</link>, which is called by the plottable&apos;s draw method. The base class <link linkend="class_q_c_p_selection_decorator">QCPSelectionDecorator</link> does not make use of this however. For example, <link linkend="class_q_c_p_selection_decorator_bracket">QCPSelectionDecoratorBracket</link> draws brackets around selected data segments. </para>
+                <para>Definition at line 3241 of file qcustomplot.h</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>qcustomplot.h</para></listitem></itemizedlist></para>
+        </simplesect>
+        <section>
+            <title>Member Data Documentation</title>
+        </section>
+            <section xml:id="class_q_c_p_selection_decorator_1aa145480d9a062cd176fe30900bb7bca8">
+                <title>QCPSelectionDecorator::QCPSelectionDecorator ()</title> <emphasis></emphasis>
+                
+<para>Creates a new <link linkend="class_q_c_p_selection_decorator">QCPSelectionDecorator</link> instance with default values </para>
+
+            </section>
+            <section xml:id="class_q_c_p_selection_decorator_1ab211eb11379854dcbe23b1642be0d19e">
+                <title>QCPSelectionDecorator::~QCPSelectionDecorator ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_selection_decorator_1a9307a60c9759223367909aed2d05ad91">
+                <title>QPen QCPSelectionDecorator::pen () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_selection_decorator_1a783b643aa52120a25308fc501b9998b1">
+                <title>QBrush QCPSelectionDecorator::brush () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_selection_decorator_1aa6558f6f270a188bb633386aba0d1ae4">
+                <title>QCPScatterStyle QCPSelectionDecorator::scatterStyle () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_selection_decorator_1ab2019bf31dde39f1ec028e3810dfc08b">
+                <title>QCPScatterStyle::ScatterProperties QCPSelectionDecorator::usedScatterProperties () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_selection_decorator_1ac2c8192e1e294aa3a4a7f32a859e3d76">
+                <title>void QCPSelectionDecorator::setPen (const QPen &amp;pen)</title> <emphasis></emphasis>
+                
+<para>Sets the pen that will be used by the parent plottable to draw selected data segments. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_selection_decorator_1aa74b626be518ea17055f918d423c8c2d">
+                <title>void QCPSelectionDecorator::setBrush (const QBrush &amp;brush)</title> <emphasis></emphasis>
+                
+<para>Sets the brush that will be used by the parent plottable to draw selected data segments. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_selection_decorator_1ab403a613289714ff4fd4a0c0371ab116">
+                <title>void QCPSelectionDecorator::setScatterStyle (const QCPScatterStyle &amp;scatterStyle, QCPScatterStyle::ScatterProperties usedProperties=QCPScatterStyle::spPen)</title> <emphasis></emphasis>
+                
+<para>Sets the scatter style that will be used by the parent plottable to draw scatters in selected data segments.</para>
+
+<para><emphasis>usedProperties</emphasis> specifies which parts of the passed <emphasis>scatterStyle</emphasis> will be used by the plottable. The used properties can also be changed via <link linkend="class_q_c_p_selection_decorator_1a808c1607cd4e83869c04986e332455c0">setUsedScatterProperties</link>. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_selection_decorator_1a808c1607cd4e83869c04986e332455c0">
+                <title>void QCPSelectionDecorator::setUsedScatterProperties (const QCPScatterStyle::ScatterProperties &amp;properties)</title> <emphasis></emphasis>
+                
+<para>Use this method to define which properties of the scatter style (set via <link linkend="class_q_c_p_selection_decorator_1ab403a613289714ff4fd4a0c0371ab116">setScatterStyle</link>) will be used for selected data segments. All properties of the scatter style that are not specified in <emphasis>properties</emphasis> will remain as specified in the plottable&apos;s original scatter style.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_scatter_style_1a8974f6a20f8f6eea7781f0e6af9deb46">QCPScatterStyle::ScatterProperty</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_selection_decorator_1a75098893f7d08660ea449206810679d7">
+                <title>void QCPSelectionDecorator::applyPen (QCPPainter *painter) const</title> <emphasis></emphasis>
+                
+<para>Sets the pen of <emphasis>painter</emphasis> to the pen of this selection decorator.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_selection_decorator_1a225544527d51b49546b70d0e6d655a34">applyBrush</link>, <link linkend="class_q_c_p_selection_decorator_1a1277b373248896bc70e8cc1de96da9fa">getFinalScatterStyle</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_selection_decorator_1a225544527d51b49546b70d0e6d655a34">
+                <title>void QCPSelectionDecorator::applyBrush (QCPPainter *painter) const</title> <emphasis></emphasis>
+                
+<para>Sets the brush of <emphasis>painter</emphasis> to the brush of this selection decorator.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_selection_decorator_1a75098893f7d08660ea449206810679d7">applyPen</link>, <link linkend="class_q_c_p_selection_decorator_1a1277b373248896bc70e8cc1de96da9fa">getFinalScatterStyle</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_selection_decorator_1a1277b373248896bc70e8cc1de96da9fa">
+                <title>QCPScatterStyle QCPSelectionDecorator::getFinalScatterStyle (const QCPScatterStyle &amp;unselectedStyle) const</title> <emphasis></emphasis>
+                
+<para>Returns the scatter style that the parent plottable shall use for selected scatter points. The plottable&apos;s original (unselected) scatter style must be passed as <emphasis>unselectedStyle</emphasis>. Depending on the setting of <link linkend="class_q_c_p_selection_decorator_1a808c1607cd4e83869c04986e332455c0">setUsedScatterProperties</link>, the returned scatter style is a mixture of this selecion decorator&apos;s scatter style (<link linkend="class_q_c_p_selection_decorator_1ab403a613289714ff4fd4a0c0371ab116">setScatterStyle</link>), and <emphasis>unselectedStyle</emphasis>.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_selection_decorator_1a75098893f7d08660ea449206810679d7">applyPen</link>, <link linkend="class_q_c_p_selection_decorator_1a225544527d51b49546b70d0e6d655a34">applyBrush</link>, <link linkend="class_q_c_p_selection_decorator_1ab403a613289714ff4fd4a0c0371ab116">setScatterStyle</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_selection_decorator_1a467a8d5cfcab27e862a17c797ac27b8a">
+                <title>void QCPSelectionDecorator::copyFrom (const QCPSelectionDecorator *other)</title> <emphasis></emphasis>
+                
+<para>Copies all properties (e.g. color, fill, scatter style) of the <emphasis>other</emphasis> selection decorator to this selection decorator. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_selection_decorator_1a4f8eb49e277063845391e803ae23054a">
+                <title>void QCPSelectionDecorator::drawDecoration (QCPPainter *painter, QCPDataSelection selection)</title> <emphasis></emphasis>
+                
+<para>This method is called by all plottables&apos; draw methods to allow custom selection decorations to be drawn. Use the passed <emphasis>painter</emphasis> to perform the drawing operations. <emphasis>selection</emphasis> carries the data selection for which the decoration shall be drawn.</para>
+
+<para>The default base class implementation of <link linkend="class_q_c_p_selection_decorator">QCPSelectionDecorator</link> has no special decoration, so this method does nothing. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_selection_decorator_1af66cb39e308da0285ae5d533e1e85027">
+                <title>bool QCPSelectionDecorator::registerWithPlottable (QCPAbstractPlottable *plottable)</title> <emphasis></emphasis>
+                
+            </section>
+</section>

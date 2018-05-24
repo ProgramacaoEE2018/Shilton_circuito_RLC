@@ -1,0 +1,811 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="class_q_c_p_scatter_style">
+<title>QCPScatterStyle class Reference</title>
+<para>
+    <programlisting>#include <link linkend="qcustomplot_8h">&lt;qcustomplot.h&gt;</link></programlisting>
+</para>
+<para>Inheritance diagram for QCPScatterStyle</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_q_c_p_scatter_style__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for QCPScatterStyle</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_q_c_p_scatter_style__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                            <para><literallayout>enum <link linkend="class_q_c_p_scatter_style_1a8974f6a20f8f6eea7781f0e6af9deb46">ScatterProperty</link> {
+<link linkend="class_q_c_p_scatter_style_1a8974f6a20f8f6eea7781f0e6af9deb46a5891be10bea382fad6c20f7737a2dd90">spNone</link>= 0x00,
+<link linkend="class_q_c_p_scatter_style_1a8974f6a20f8f6eea7781f0e6af9deb46aa04d012e7c03e455db2b68fdd55c2a04">spPen</link>= 0x01,
+<link linkend="class_q_c_p_scatter_style_1a8974f6a20f8f6eea7781f0e6af9deb46af0499b1fc04de2dcc7e47ff0ef75c904">spBrush</link>= 0x02,
+<link linkend="class_q_c_p_scatter_style_1a8974f6a20f8f6eea7781f0e6af9deb46a553ae95798ace9a328c7cd62045260b0">spSize</link>= 0x04,
+<link linkend="class_q_c_p_scatter_style_1a8974f6a20f8f6eea7781f0e6af9deb46a19c224563adb42c55fb8b7ae6904411b">spShape</link>= 0x08,
+<link linkend="class_q_c_p_scatter_style_1a8974f6a20f8f6eea7781f0e6af9deb46af62509c0409467f387234274762e6f69">spAll</link>= 0xFF
+}</literallayout>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                            <para><literallayout>enum <link linkend="class_q_c_p_scatter_style_1adb31525af6b680e6f1b7472e43859349">ScatterShape</link> {
+<link linkend="class_q_c_p_scatter_style_1adb31525af6b680e6f1b7472e43859349abd144c291ca274f77053ec68cab6c022">ssNone</link>,
+<link linkend="class_q_c_p_scatter_style_1adb31525af6b680e6f1b7472e43859349a06e15a735b79093a1d999c0374fa3aa1">ssDot</link>,
+<link linkend="class_q_c_p_scatter_style_1adb31525af6b680e6f1b7472e43859349a9eacd60f059dc3ef71bf249f515a6fe4">ssCross</link>,
+<link linkend="class_q_c_p_scatter_style_1adb31525af6b680e6f1b7472e43859349a2d7f1d3c1a148b9d9d17f2fd9cae5eb7">ssPlus</link>,
+<link linkend="class_q_c_p_scatter_style_1adb31525af6b680e6f1b7472e43859349a7c92a110880d0ef2170dff3a5b4f7779">ssCircle</link>,
+<link linkend="class_q_c_p_scatter_style_1adb31525af6b680e6f1b7472e43859349a281fe1434696dcbab3aa6b9ccfbb09e9">ssDisc</link>,
+<link linkend="class_q_c_p_scatter_style_1adb31525af6b680e6f1b7472e43859349a279e48703ddc9f1cf4a61d3e2817ab3c">ssSquare</link>,
+<link linkend="class_q_c_p_scatter_style_1adb31525af6b680e6f1b7472e43859349a4fc5929df1b2dad0a3cb2ef2c8b6e633">ssDiamond</link>,
+<link linkend="class_q_c_p_scatter_style_1adb31525af6b680e6f1b7472e43859349a6047a2d64e41f1d6ce54445d595d442f">ssStar</link>,
+<link linkend="class_q_c_p_scatter_style_1adb31525af6b680e6f1b7472e43859349a74a8d4eff1d97b57c53a60d0003453c3">ssTriangle</link>,
+<link linkend="class_q_c_p_scatter_style_1adb31525af6b680e6f1b7472e43859349a6156274d21d8b4115197567d3ea2d9a8">ssTriangleInverted</link>,
+<link linkend="class_q_c_p_scatter_style_1adb31525af6b680e6f1b7472e43859349a7081310936c200c6c78e34c172f72d07">ssCrossSquare</link>,
+<link linkend="class_q_c_p_scatter_style_1adb31525af6b680e6f1b7472e43859349a5aa8e9db545e5404482fec774768ee25">ssPlusSquare</link>,
+<link linkend="class_q_c_p_scatter_style_1adb31525af6b680e6f1b7472e43859349a524613ba5d1c4eaa1541d74cf339d283">ssCrossCircle</link>,
+<link linkend="class_q_c_p_scatter_style_1adb31525af6b680e6f1b7472e43859349a6fa151d01f1694c9ff9922da686dc535">ssPlusCircle</link>,
+<link linkend="class_q_c_p_scatter_style_1adb31525af6b680e6f1b7472e43859349ada3b2988ece38c121922a4b5007eb08d">ssPeace</link>,
+<link linkend="class_q_c_p_scatter_style_1adb31525af6b680e6f1b7472e43859349a8718b849ca7c307b07b8e091efb0c31e">ssPixmap</link>,
+<link linkend="class_q_c_p_scatter_style_1adb31525af6b680e6f1b7472e43859349a15d9bcfd9de94edda949006529f9219d">ssCustom</link>
+}</literallayout>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title>Protected Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double mSize</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>ScatterShape mShape</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPen mPen</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QBrush mBrush</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPixmap mPixmap</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPainterPath mCustomPath</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool mPenDefined</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="class_q_c_p_scatter_style_1a8836018d9ad83ccd8870de8315c1be73">QCPScatterStyle</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="class_q_c_p_scatter_style_1a003d92f74f4561eda111862eadd62f28">QCPScatterStyle</link> (
+<link linkend="class_q_c_p_scatter_style_1adb31525af6b680e6f1b7472e43859349">ScatterShape</link> shape, double size)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="class_q_c_p_scatter_style_1afa059da858c864c7e05871dc602d7eab">QCPScatterStyle</link> (
+<link linkend="class_q_c_p_scatter_style_1adb31525af6b680e6f1b7472e43859349">ScatterShape</link> shape, const QColor &amp; color, double size)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="class_q_c_p_scatter_style_1a6e1b64f12cac7f07af180ae4316fd38d">QCPScatterStyle</link> (
+<link linkend="class_q_c_p_scatter_style_1adb31525af6b680e6f1b7472e43859349">ScatterShape</link> shape, const QColor &amp; color, const QColor &amp; fill, double size)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="class_q_c_p_scatter_style_1a85acc4941d7e5c9bca5fa51377a77f49">QCPScatterStyle</link> (
+<link linkend="class_q_c_p_scatter_style_1adb31525af6b680e6f1b7472e43859349">ScatterShape</link> shape, const QPen &amp; pen, const QBrush &amp; brush, double size)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="class_q_c_p_scatter_style_1a63962094587a4c2258435aa7933996cc">QCPScatterStyle</link> (
+const QPixmap &amp; pixmap)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="class_q_c_p_scatter_style_1a879c30647683b3cfbde2afecea815e6f">QCPScatterStyle</link> (
+const QPainterPath &amp; customPath, const QPen &amp; pen, const QBrush &amp; brush, double size)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double <link linkend="class_q_c_p_scatter_style_1a0e94526d9165d9f50e262102bdd71a47">size</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="class_q_c_p_scatter_style_1adb31525af6b680e6f1b7472e43859349">ScatterShape</link> <link linkend="class_q_c_p_scatter_style_1af04cad55bd7f58a96da4fc6bc46a0a1e">shape</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPen <link linkend="class_q_c_p_scatter_style_1acdd6313d16e69d3810e9d1f48dd9e4bb">pen</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QBrush <link linkend="class_q_c_p_scatter_style_1adc4f66aed84f1d7a3a5aabf4f48f31a6">brush</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPixmap <link linkend="class_q_c_p_scatter_style_1a9b2d1a2ec0aac0c74f7582d14050e93a">pixmap</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPainterPath <link linkend="class_q_c_p_scatter_style_1aef1fac84c9830fd97f2a8568e605e372">customPath</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_scatter_style_1a7d59ba8864914f765817841089e436f1">setFromOther</link> (
+const <link linkend="class_q_c_p_scatter_style">QCPScatterStyle</link> &amp; other, ScatterProperties properties)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_scatter_style_1aaefdd031052892c4136129db68596e0f">setSize</link> (
+double size)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_scatter_style_1a7c641c4d4c6d29cb705d3887cfce91c1">setShape</link> (
+<link linkend="class_q_c_p_scatter_style_1adb31525af6b680e6f1b7472e43859349">ScatterShape</link> shape)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_scatter_style_1a761f1f229cc0ca4703e1e2b89f6dd1ba">setPen</link> (
+const QPen &amp; pen)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_scatter_style_1a74d692aaeb8d4b36d6f7d510e44264b1">setBrush</link> (
+const QBrush &amp; brush)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_scatter_style_1a5fb611d46acfac520d7b89a1c71d9246">setPixmap</link> (
+const QPixmap &amp; pixmap)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_scatter_style_1a96a3e949f90b2afe5677ca9412a12a1e">setCustomPath</link> (
+const QPainterPath &amp; customPath)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="class_q_c_p_scatter_style_1a72db6bcb1e1abd6e53c1315dd3dea7e4">isNone</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="class_q_c_p_scatter_style_1a47077eb6450fe9a788f833e4ec1b1d5a">isPenDefined</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_scatter_style_1acabc2a8c83d650b946f50c3166b6c35e">undefinePen</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_scatter_style_1afd8044ece445300499ca0dc164821e0f">applyTo</link> (
+<link linkend="class_q_c_p_painter">QCPPainter</link> * painter, const QPen &amp; defaultPen)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_scatter_style_1a89b5105e6027bfcbfeefed9d201b607c">drawShape</link> (
+<link linkend="class_q_c_p_painter">QCPPainter</link> * painter, const QPointF &amp; pos)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_scatter_style_1a95c297b114c77c22428ef40f54620ddf">drawShape</link> (
+<link linkend="class_q_c_p_painter">QCPPainter</link> * painter, double x, double y)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+    <simplesect>
+
+<para>Represents the visual appearance of scatter points. </para>
+    </simplesect>
+        <simplesect>
+            <title>Detailed Description</title>
+
+<para>This class holds information about shape, color and size of scatter points. In plottables like <link linkend="class_q_c_p_graph">QCPGraph</link> it is used to store how scatter points shall be drawn. For example, <link linkend="class_q_c_p_graph_1a12bd17a8ba21983163ec5d8f42a9fea5">QCPGraph::setScatterStyle</link> takes a <link linkend="class_q_c_p_scatter_style">QCPScatterStyle</link> instance.</para>
+
+<para>A scatter style consists of a shape (<link linkend="class_q_c_p_scatter_style_1a7c641c4d4c6d29cb705d3887cfce91c1">setShape</link>), a line color (<link linkend="class_q_c_p_scatter_style_1a761f1f229cc0ca4703e1e2b89f6dd1ba">setPen</link>) and possibly a fill (<link linkend="class_q_c_p_scatter_style_1a74d692aaeb8d4b36d6f7d510e44264b1">setBrush</link>), if the shape provides a fillable area. Further, the size of the shape can be controlled with <link linkend="class_q_c_p_scatter_style_1aaefdd031052892c4136129db68596e0f">setSize</link>.</para>
+<section xml:id="class_q_c_p_scatter_style_1QCPScatterStyle-defining">
+<title>Specifying a scatter style</title>
+
+<para>You can set all these configurations either by calling the respective functions on an instance: <literallayout><computeroutput></computeroutput></literallayout> Or you can use one of the various constructors that take different parameter combinations, making it easy to specify a scatter style in a single call, like so: <literallayout><computeroutput></computeroutput></literallayout> </para>
+</section>
+<section xml:id="class_q_c_p_scatter_style_1QCPScatterStyle-undefinedpen">
+<title>Leaving the color/pen up to the plottable</title>
+
+<para>There are two constructors which leave the pen undefined: <link linkend="class_q_c_p_scatter_style_1a8836018d9ad83ccd8870de8315c1be73">QCPScatterStyle()</link> and <link linkend="class_q_c_p_scatter_style_1a003d92f74f4561eda111862eadd62f28">QCPScatterStyle(ScatterShape shape, double size)</link>. If those constructors are used, a call to <link linkend="class_q_c_p_scatter_style_1a47077eb6450fe9a788f833e4ec1b1d5a">isPenDefined</link> will return false. It leads to scatter points that inherit the pen from the plottable that uses the scatter style. Thus, if such a scatter style is passed to <link linkend="class_q_c_p_graph">QCPGraph</link>, the line color of the graph (<link linkend="class_q_c_p_abstract_plottable_1ab74b09ae4c0e7e13142fe4b5bf46cac7">QCPGraph::setPen</link>) will be used by the scatter points. This makes it very convenient to set up typical scatter settings:</para>
+
+<para><literallayout><computeroutput></computeroutput></literallayout> Notice that it wasn&apos;t even necessary to explicitly call a <link linkend="class_q_c_p_scatter_style">QCPScatterStyle</link> constructor. This works because <link linkend="class_q_c_p_scatter_style">QCPScatterStyle</link> provides a constructor that can transform a <link linkend="class_q_c_p_scatter_style_1adb31525af6b680e6f1b7472e43859349">ScatterShape</link> directly into a <link linkend="class_q_c_p_scatter_style">QCPScatterStyle</link> instance (that&apos;s the <link linkend="class_q_c_p_scatter_style_1a003d92f74f4561eda111862eadd62f28">QCPScatterStyle(ScatterShape shape, double size)</link> constructor with a default for <emphasis>size</emphasis>). In those cases, C++ allows directly supplying a <link linkend="class_q_c_p_scatter_style_1adb31525af6b680e6f1b7472e43859349">ScatterShape</link>, where actually a <link linkend="class_q_c_p_scatter_style">QCPScatterStyle</link> is expected.</para>
+</section>
+<section xml:id="class_q_c_p_scatter_style_1QCPScatterStyle-custompath-and-pixmap">
+<title>Custom shapes and pixmaps</title>
+
+<para><link linkend="class_q_c_p_scatter_style">QCPScatterStyle</link> supports drawing custom shapes and arbitrary pixmaps as scatter points.</para>
+
+<para>For custom shapes, you can provide a QPainterPath with the desired shape to the <link linkend="class_q_c_p_scatter_style_1a96a3e949f90b2afe5677ca9412a12a1e">setCustomPath</link> function or call the constructor that takes a painter path. The scatter shape will automatically be set to <link linkend="class_q_c_p_scatter_style_1adb31525af6b680e6f1b7472e43859349a15d9bcfd9de94edda949006529f9219d">ssCustom</link>.</para>
+
+<para>For pixmaps, you call <link linkend="class_q_c_p_scatter_style_1a5fb611d46acfac520d7b89a1c71d9246">setPixmap</link> with the desired QPixmap. Alternatively you can use the constructor that takes a QPixmap. The scatter shape will automatically be set to <link linkend="class_q_c_p_scatter_style_1adb31525af6b680e6f1b7472e43859349a8718b849ca7c307b07b8e091efb0c31e">ssPixmap</link>. Note that <link linkend="class_q_c_p_scatter_style_1aaefdd031052892c4136129db68596e0f">setSize</link> does not influence the appearance of the pixmap. </para>
+</section>
+                <para>Definition at line 2289 of file qcustomplot.h</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>qcustomplot.h</para></listitem></itemizedlist></para>
+        </simplesect>
+            <section xml:id="class_q_c_p_scatter_style_1a8974f6a20f8f6eea7781f0e6af9deb46">
+               <title>enum ScatterProperty </title>
+               
+<para>Represents the various properties of a scatter style instance. For example, this enum is used to specify which properties of <link linkend="class_q_c_p_selection_decorator_1ab403a613289714ff4fd4a0c0371ab116">QCPSelectionDecorator::setScatterStyle</link> will be used when highlighting selected data points.</para>
+
+<para>Specific scatter properties can be transferred between <link linkend="class_q_c_p_scatter_style">QCPScatterStyle</link> instances via <link linkend="class_q_c_p_scatter_style_1a7d59ba8864914f765817841089e436f1">setFromOther</link>. </para>
+
+               <formalpara>
+                    <title>Enumerator:</title>
+                    <variablelist>
+                        <varlistentry xml:id="class_q_c_p_scatter_style_1a8974f6a20f8f6eea7781f0e6af9deb46a5891be10bea382fad6c20f7737a2dd90">
+                            <term>spNone</term>
+                            <listitem>
+                                <para>&lt;tt&gt;0x00&lt;/tt&gt; None</para>
+                            </listitem>
+                        </varlistentry>
+                        <varlistentry xml:id="class_q_c_p_scatter_style_1a8974f6a20f8f6eea7781f0e6af9deb46aa04d012e7c03e455db2b68fdd55c2a04">
+                            <term>spPen</term>
+                            <listitem>
+                                <para>&lt;tt&gt;0x01&lt;/tt&gt; The pen property, see \ref setPen</para>
+                            </listitem>
+                        </varlistentry>
+                        <varlistentry xml:id="class_q_c_p_scatter_style_1a8974f6a20f8f6eea7781f0e6af9deb46af0499b1fc04de2dcc7e47ff0ef75c904">
+                            <term>spBrush</term>
+                            <listitem>
+                                <para>&lt;tt&gt;0x02&lt;/tt&gt; The brush property, see \ref setBrush</para>
+                            </listitem>
+                        </varlistentry>
+                        <varlistentry xml:id="class_q_c_p_scatter_style_1a8974f6a20f8f6eea7781f0e6af9deb46a553ae95798ace9a328c7cd62045260b0">
+                            <term>spSize</term>
+                            <listitem>
+                                <para>&lt;tt&gt;0x04&lt;/tt&gt; The size property, see \ref setSize</para>
+                            </listitem>
+                        </varlistentry>
+                        <varlistentry xml:id="class_q_c_p_scatter_style_1a8974f6a20f8f6eea7781f0e6af9deb46a19c224563adb42c55fb8b7ae6904411b">
+                            <term>spShape</term>
+                            <listitem>
+                                <para>&lt;tt&gt;0x08&lt;/tt&gt; The shape property, see \ref setShape</para>
+                            </listitem>
+                        </varlistentry>
+                        <varlistentry xml:id="class_q_c_p_scatter_style_1a8974f6a20f8f6eea7781f0e6af9deb46af62509c0409467f387234274762e6f69">
+                            <term>spAll</term>
+                            <listitem>
+                                <para>&lt;tt&gt;0xFF&lt;/tt&gt; All properties</para>
+                            </listitem>
+                        </varlistentry>
+                     </variablelist>
+                </formalpara>
+                <para>Definition at line 2300 of file qcustomplot.h
+                    <computeroutput><literallayout>
+{
+spNone= 0x00, 
+spPen= 0x01, 
+spBrush= 0x02, 
+spSize= 0x04, 
+spShape= 0x08, 
+spAll= 0xFF, 
+}ScatterProperty;
+                    </literallayout></computeroutput>
+                </para>
+            </section>
+            <section xml:id="class_q_c_p_scatter_style_1adb31525af6b680e6f1b7472e43859349">
+               <title>enum ScatterShape </title>
+               
+<para>Defines the shape used for scatter points.</para>
+
+<para>On plottables/items that draw scatters, the sizes of these visualizations (with exception of <link linkend="class_q_c_p_scatter_style_1adb31525af6b680e6f1b7472e43859349a06e15a735b79093a1d999c0374fa3aa1">ssDot</link> and <link linkend="class_q_c_p_scatter_style_1adb31525af6b680e6f1b7472e43859349a8718b849ca7c307b07b8e091efb0c31e">ssPixmap</link>) can be controlled with the <link linkend="class_q_c_p_scatter_style_1aaefdd031052892c4136129db68596e0f">setSize</link> function. Scatters are drawn with the pen and brush specified with <link linkend="class_q_c_p_scatter_style_1a761f1f229cc0ca4703e1e2b89f6dd1ba">setPen</link> and <link linkend="class_q_c_p_scatter_style_1a74d692aaeb8d4b36d6f7d510e44264b1">setBrush</link>. </para>
+
+               <formalpara>
+                    <title>Enumerator:</title>
+                    <variablelist>
+                        <varlistentry xml:id="class_q_c_p_scatter_style_1adb31525af6b680e6f1b7472e43859349abd144c291ca274f77053ec68cab6c022">
+                            <term>ssNone</term>
+                            <listitem>
+                                <para>no scatter symbols are drawn (e.g. in QCPGraph, data only represented with lines)</para>
+                            </listitem>
+                        </varlistentry>
+                        <varlistentry xml:id="class_q_c_p_scatter_style_1adb31525af6b680e6f1b7472e43859349a06e15a735b79093a1d999c0374fa3aa1">
+                            <term>ssDot</term>
+                            <listitem>
+                                <para>\enumimage{ssDot.png} a single pixel (use \ref ssDisc or \ref ssCircle if you want a round shape with a certain radius)</para>
+                            </listitem>
+                        </varlistentry>
+                        <varlistentry xml:id="class_q_c_p_scatter_style_1adb31525af6b680e6f1b7472e43859349a9eacd60f059dc3ef71bf249f515a6fe4">
+                            <term>ssCross</term>
+                            <listitem>
+                                <para>\enumimage{ssCross.png} a cross</para>
+                            </listitem>
+                        </varlistentry>
+                        <varlistentry xml:id="class_q_c_p_scatter_style_1adb31525af6b680e6f1b7472e43859349a2d7f1d3c1a148b9d9d17f2fd9cae5eb7">
+                            <term>ssPlus</term>
+                            <listitem>
+                                <para>\enumimage{ssPlus.png} a plus</para>
+                            </listitem>
+                        </varlistentry>
+                        <varlistentry xml:id="class_q_c_p_scatter_style_1adb31525af6b680e6f1b7472e43859349a7c92a110880d0ef2170dff3a5b4f7779">
+                            <term>ssCircle</term>
+                            <listitem>
+                                <para>\enumimage{ssCircle.png} a circle</para>
+                            </listitem>
+                        </varlistentry>
+                        <varlistentry xml:id="class_q_c_p_scatter_style_1adb31525af6b680e6f1b7472e43859349a281fe1434696dcbab3aa6b9ccfbb09e9">
+                            <term>ssDisc</term>
+                            <listitem>
+                                <para>\enumimage{ssDisc.png} a circle which is filled with the pen&apos;s color (not the brush as with ssCircle)</para>
+                            </listitem>
+                        </varlistentry>
+                        <varlistentry xml:id="class_q_c_p_scatter_style_1adb31525af6b680e6f1b7472e43859349a279e48703ddc9f1cf4a61d3e2817ab3c">
+                            <term>ssSquare</term>
+                            <listitem>
+                                <para>\enumimage{ssSquare.png} a square</para>
+                            </listitem>
+                        </varlistentry>
+                        <varlistentry xml:id="class_q_c_p_scatter_style_1adb31525af6b680e6f1b7472e43859349a4fc5929df1b2dad0a3cb2ef2c8b6e633">
+                            <term>ssDiamond</term>
+                            <listitem>
+                                <para>\enumimage{ssDiamond.png} a diamond</para>
+                            </listitem>
+                        </varlistentry>
+                        <varlistentry xml:id="class_q_c_p_scatter_style_1adb31525af6b680e6f1b7472e43859349a6047a2d64e41f1d6ce54445d595d442f">
+                            <term>ssStar</term>
+                            <listitem>
+                                <para>\enumimage{ssStar.png} a star with eight arms, i.e. a combination of cross and plus</para>
+                            </listitem>
+                        </varlistentry>
+                        <varlistentry xml:id="class_q_c_p_scatter_style_1adb31525af6b680e6f1b7472e43859349a74a8d4eff1d97b57c53a60d0003453c3">
+                            <term>ssTriangle</term>
+                            <listitem>
+                                <para>\enumimage{ssTriangle.png} an equilateral triangle, standing on baseline</para>
+                            </listitem>
+                        </varlistentry>
+                        <varlistentry xml:id="class_q_c_p_scatter_style_1adb31525af6b680e6f1b7472e43859349a6156274d21d8b4115197567d3ea2d9a8">
+                            <term>ssTriangleInverted</term>
+                            <listitem>
+                                <para>\enumimage{ssTriangleInverted.png} an equilateral triangle, standing on corner</para>
+                            </listitem>
+                        </varlistentry>
+                        <varlistentry xml:id="class_q_c_p_scatter_style_1adb31525af6b680e6f1b7472e43859349a7081310936c200c6c78e34c172f72d07">
+                            <term>ssCrossSquare</term>
+                            <listitem>
+                                <para>\enumimage{ssCrossSquare.png} a square with a cross inside</para>
+                            </listitem>
+                        </varlistentry>
+                        <varlistentry xml:id="class_q_c_p_scatter_style_1adb31525af6b680e6f1b7472e43859349a5aa8e9db545e5404482fec774768ee25">
+                            <term>ssPlusSquare</term>
+                            <listitem>
+                                <para>\enumimage{ssPlusSquare.png} a square with a plus inside</para>
+                            </listitem>
+                        </varlistentry>
+                        <varlistentry xml:id="class_q_c_p_scatter_style_1adb31525af6b680e6f1b7472e43859349a524613ba5d1c4eaa1541d74cf339d283">
+                            <term>ssCrossCircle</term>
+                            <listitem>
+                                <para>\enumimage{ssCrossCircle.png} a circle with a cross inside</para>
+                            </listitem>
+                        </varlistentry>
+                        <varlistentry xml:id="class_q_c_p_scatter_style_1adb31525af6b680e6f1b7472e43859349a6fa151d01f1694c9ff9922da686dc535">
+                            <term>ssPlusCircle</term>
+                            <listitem>
+                                <para>\enumimage{ssPlusCircle.png} a circle with a plus inside</para>
+                            </listitem>
+                        </varlistentry>
+                        <varlistentry xml:id="class_q_c_p_scatter_style_1adb31525af6b680e6f1b7472e43859349ada3b2988ece38c121922a4b5007eb08d">
+                            <term>ssPeace</term>
+                            <listitem>
+                                <para>\enumimage{ssPeace.png} a circle, with one vertical and two downward diagonal lines</para>
+                            </listitem>
+                        </varlistentry>
+                        <varlistentry xml:id="class_q_c_p_scatter_style_1adb31525af6b680e6f1b7472e43859349a8718b849ca7c307b07b8e091efb0c31e">
+                            <term>ssPixmap</term>
+                            <listitem>
+                                <para>a custom pixmap specified by \ref setPixmap, centered on the data point coordinates</para>
+                            </listitem>
+                        </varlistentry>
+                        <varlistentry xml:id="class_q_c_p_scatter_style_1adb31525af6b680e6f1b7472e43859349a15d9bcfd9de94edda949006529f9219d">
+                            <term>ssCustom</term>
+                            <listitem>
+                                <para>custom painter operations are performed per scatter (As QPainterPath, see \ref setCustomPath)</para>
+                            </listitem>
+                        </varlistentry>
+                     </variablelist>
+                </formalpara>
+                <para>Definition at line 2318 of file qcustomplot.h
+                    <computeroutput><literallayout>
+{
+ssNone, 
+ssDot, 
+ssCross, 
+ssPlus, 
+ssCircle, 
+ssDisc, 
+ssSquare, 
+ssDiamond, 
+ssStar, 
+ssTriangle, 
+ssTriangleInverted, 
+ssCrossSquare, 
+ssPlusSquare, 
+ssCrossCircle, 
+ssPlusCircle, 
+ssPeace, 
+ssPixmap, 
+ssCustom, 
+}ScatterShape;
+                    </literallayout></computeroutput>
+                </para>
+            </section>
+        <section>
+            <title>Member Data Documentation</title>
+        </section>
+            <section xml:id="class_q_c_p_scatter_style_1a8836018d9ad83ccd8870de8315c1be73">
+                <title>QCPScatterStyle::QCPScatterStyle ()</title> <emphasis></emphasis>
+                
+<para>Creates a new <link linkend="class_q_c_p_scatter_style">QCPScatterStyle</link> instance with size set to 6. No shape, pen or brush is defined.</para>
+
+<para>Since the pen is undefined (<link linkend="class_q_c_p_scatter_style_1a47077eb6450fe9a788f833e4ec1b1d5a">isPenDefined</link> returns false), the scatter color will be inherited from the plottable that uses this scatter style. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_scatter_style_1a003d92f74f4561eda111862eadd62f28">
+                <title>QCPScatterStyle::QCPScatterStyle (ScatterShape shape, double size=6)</title> <emphasis></emphasis>
+                
+<para>Creates a new <link linkend="class_q_c_p_scatter_style">QCPScatterStyle</link> instance with shape set to <emphasis>shape</emphasis> and size to <emphasis>size</emphasis>. No pen or brush is defined.</para>
+
+<para>Since the pen is undefined (<link linkend="class_q_c_p_scatter_style_1a47077eb6450fe9a788f833e4ec1b1d5a">isPenDefined</link> returns false), the scatter color will be inherited from the plottable that uses this scatter style. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_scatter_style_1afa059da858c864c7e05871dc602d7eab">
+                <title>QCPScatterStyle::QCPScatterStyle (ScatterShape shape, const QColor &amp;color, double size)</title> <emphasis></emphasis>
+                
+<para>Creates a new <link linkend="class_q_c_p_scatter_style">QCPScatterStyle</link> instance with shape set to <emphasis>shape</emphasis>, the pen color set to <emphasis>color</emphasis>, and size to <emphasis>size</emphasis>. No brush is defined, i.e. the scatter point will not be filled. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_scatter_style_1a6e1b64f12cac7f07af180ae4316fd38d">
+                <title>QCPScatterStyle::QCPScatterStyle (ScatterShape shape, const QColor &amp;color, const QColor &amp;fill, double size)</title> <emphasis></emphasis>
+                
+<para>Creates a new <link linkend="class_q_c_p_scatter_style">QCPScatterStyle</link> instance with shape set to <emphasis>shape</emphasis>, the pen color set to <emphasis>color</emphasis>, the brush color to <emphasis>fill</emphasis> (with a solid pattern), and size to <emphasis>size</emphasis>. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_scatter_style_1a85acc4941d7e5c9bca5fa51377a77f49">
+                <title>QCPScatterStyle::QCPScatterStyle (ScatterShape shape, const QPen &amp;pen, const QBrush &amp;brush, double size)</title> <emphasis></emphasis>
+                
+<para>Creates a new <link linkend="class_q_c_p_scatter_style">QCPScatterStyle</link> instance with shape set to <emphasis>shape</emphasis>, the pen set to <emphasis>pen</emphasis>, the brush to <emphasis>brush</emphasis>, and size to <emphasis>size</emphasis>.</para>
+
+<para><formalpara><title>Warning: </title>
+
+<para>In some cases it might be tempting to directly use a pen style like <computeroutput>Qt::NoPen</computeroutput> as <emphasis>pen</emphasis> and a color like <computeroutput>Qt::blue</computeroutput> as <emphasis>brush</emphasis>. Notice however, that the corresponding call
+<literallayout>
+</literallayout>
+<computeroutput><link linkend="class_q_c_p_scatter_style">QCPScatterStyle(QCPScatterShape::ssCircle, Qt::NoPen, Qt::blue, 5)</link></computeroutput>
+<literallayout>
+</literallayout>
+doesn&apos;t necessarily lead C++ to use this constructor in some cases, but might mistake <computeroutput>Qt::NoPen</computeroutput> for a QColor and use the <link linkend="class_q_c_p_scatter_style_1a6e1b64f12cac7f07af180ae4316fd38d">QCPScatterStyle(ScatterShape shape, const QColor &amp;color, const QColor &amp;fill, double size)</link> constructor instead (which will lead to an unexpected look of the scatter points). To prevent this, be more explicit with the parameter types. For example, use <computeroutput>QBrush(Qt::blue)</computeroutput> instead of just <computeroutput>Qt::blue</computeroutput>, to clearly point out to the compiler that this constructor is wanted. </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_scatter_style_1a63962094587a4c2258435aa7933996cc">
+                <title>QCPScatterStyle::QCPScatterStyle (const QPixmap &amp;pixmap)</title> <emphasis></emphasis>
+                
+<para>Creates a new <link linkend="class_q_c_p_scatter_style">QCPScatterStyle</link> instance which will show the specified <emphasis>pixmap</emphasis>. The scatter shape is set to <link linkend="class_q_c_p_scatter_style_1adb31525af6b680e6f1b7472e43859349a8718b849ca7c307b07b8e091efb0c31e">ssPixmap</link>. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_scatter_style_1a879c30647683b3cfbde2afecea815e6f">
+                <title>QCPScatterStyle::QCPScatterStyle (const QPainterPath &amp;customPath, const QPen &amp;pen, const QBrush &amp;brush=Qt::NoBrush, double size=6)</title> <emphasis></emphasis>
+                
+<para>Creates a new <link linkend="class_q_c_p_scatter_style">QCPScatterStyle</link> instance with a custom shape that is defined via <emphasis>customPath</emphasis>. The scatter shape is set to <link linkend="class_q_c_p_scatter_style_1adb31525af6b680e6f1b7472e43859349a15d9bcfd9de94edda949006529f9219d">ssCustom</link>.</para>
+
+<para>The custom shape line will be drawn with <emphasis>pen</emphasis> and filled with <emphasis>brush</emphasis>. The size has a slightly different meaning than for built-in scatter points: The custom path will be drawn scaled by a factor of <emphasis>size/6.0</emphasis>. Since the default <emphasis>size</emphasis> is 6, the custom path will appear in its original size by default. To for example double the size of the path, set <emphasis>size</emphasis> to 12. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_scatter_style_1a0e94526d9165d9f50e262102bdd71a47">
+                <title>double QCPScatterStyle::size () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_scatter_style_1af04cad55bd7f58a96da4fc6bc46a0a1e">
+                <title>ScatterShape QCPScatterStyle::shape () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_scatter_style_1acdd6313d16e69d3810e9d1f48dd9e4bb">
+                <title>QPen QCPScatterStyle::pen () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_scatter_style_1adc4f66aed84f1d7a3a5aabf4f48f31a6">
+                <title>QBrush QCPScatterStyle::brush () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_scatter_style_1a9b2d1a2ec0aac0c74f7582d14050e93a">
+                <title>QPixmap QCPScatterStyle::pixmap () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_scatter_style_1aef1fac84c9830fd97f2a8568e605e372">
+                <title>QPainterPath QCPScatterStyle::customPath () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_scatter_style_1a7d59ba8864914f765817841089e436f1">
+                <title>void QCPScatterStyle::setFromOther (const QCPScatterStyle &amp;other, ScatterProperties properties)</title> <emphasis></emphasis>
+                
+<para>Copies the specified <emphasis>properties</emphasis> from the <emphasis>other</emphasis> scatter style to this scatter style. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_scatter_style_1aaefdd031052892c4136129db68596e0f">
+                <title>void QCPScatterStyle::setSize (double size)</title> <emphasis></emphasis>
+                
+<para>Sets the size (pixel diameter) of the drawn scatter points to <emphasis>size</emphasis>.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_scatter_style_1a7c641c4d4c6d29cb705d3887cfce91c1">setShape</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_scatter_style_1a7c641c4d4c6d29cb705d3887cfce91c1">
+                <title>void QCPScatterStyle::setShape (ScatterShape shape)</title> <emphasis></emphasis>
+                
+<para>Sets the shape to <emphasis>shape</emphasis>.</para>
+
+<para>Note that the calls <link linkend="class_q_c_p_scatter_style_1a5fb611d46acfac520d7b89a1c71d9246">setPixmap</link> and <link linkend="class_q_c_p_scatter_style_1a96a3e949f90b2afe5677ca9412a12a1e">setCustomPath</link> automatically set the shape to <link linkend="class_q_c_p_scatter_style_1adb31525af6b680e6f1b7472e43859349a8718b849ca7c307b07b8e091efb0c31e">ssPixmap</link> and <link linkend="class_q_c_p_scatter_style_1adb31525af6b680e6f1b7472e43859349a15d9bcfd9de94edda949006529f9219d">ssCustom</link>, respectively.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_scatter_style_1aaefdd031052892c4136129db68596e0f">setSize</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_scatter_style_1a761f1f229cc0ca4703e1e2b89f6dd1ba">
+                <title>void QCPScatterStyle::setPen (const QPen &amp;pen)</title> <emphasis></emphasis>
+                
+<para>Sets the pen that will be used to draw scatter points to <emphasis>pen</emphasis>.</para>
+
+<para>If the pen was previously undefined (see <link linkend="class_q_c_p_scatter_style_1a47077eb6450fe9a788f833e4ec1b1d5a">isPenDefined</link>), the pen is considered defined after a call to this function, even if <emphasis>pen</emphasis> is <computeroutput>Qt::NoPen</computeroutput>. If you have defined a pen previously by calling this function and now wish to undefine the pen, call <link linkend="class_q_c_p_scatter_style_1acabc2a8c83d650b946f50c3166b6c35e">undefinePen</link>.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_scatter_style_1a74d692aaeb8d4b36d6f7d510e44264b1">setBrush</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_scatter_style_1a74d692aaeb8d4b36d6f7d510e44264b1">
+                <title>void QCPScatterStyle::setBrush (const QBrush &amp;brush)</title> <emphasis></emphasis>
+                
+<para>Sets the brush that will be used to fill scatter points to <emphasis>brush</emphasis>. Note that not all scatter shapes have fillable areas. For example, <link linkend="class_q_c_p_scatter_style_1adb31525af6b680e6f1b7472e43859349a2d7f1d3c1a148b9d9d17f2fd9cae5eb7">ssPlus</link> does not while <link linkend="class_q_c_p_scatter_style_1adb31525af6b680e6f1b7472e43859349a7c92a110880d0ef2170dff3a5b4f7779">ssCircle</link> does.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_scatter_style_1a761f1f229cc0ca4703e1e2b89f6dd1ba">setPen</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_scatter_style_1a5fb611d46acfac520d7b89a1c71d9246">
+                <title>void QCPScatterStyle::setPixmap (const QPixmap &amp;pixmap)</title> <emphasis></emphasis>
+                
+<para>Sets the pixmap that will be drawn as scatter point to <emphasis>pixmap</emphasis>.</para>
+
+<para>Note that <link linkend="class_q_c_p_scatter_style_1aaefdd031052892c4136129db68596e0f">setSize</link> does not influence the appearance of the pixmap.</para>
+
+<para>The scatter shape is automatically set to <link linkend="class_q_c_p_scatter_style_1adb31525af6b680e6f1b7472e43859349a8718b849ca7c307b07b8e091efb0c31e">ssPixmap</link>. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_scatter_style_1a96a3e949f90b2afe5677ca9412a12a1e">
+                <title>void QCPScatterStyle::setCustomPath (const QPainterPath &amp;customPath)</title> <emphasis></emphasis>
+                
+<para>Sets the custom shape that will be drawn as scatter point to <emphasis>customPath</emphasis>.</para>
+
+<para>The scatter shape is automatically set to <link linkend="class_q_c_p_scatter_style_1adb31525af6b680e6f1b7472e43859349a15d9bcfd9de94edda949006529f9219d">ssCustom</link>. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_scatter_style_1a72db6bcb1e1abd6e53c1315dd3dea7e4">
+                <title>bool QCPScatterStyle::isNone () const</title> <emphasis></emphasis>
+                
+<para>Returns whether the scatter shape is <link linkend="class_q_c_p_scatter_style_1adb31525af6b680e6f1b7472e43859349abd144c291ca274f77053ec68cab6c022">ssNone</link>.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_scatter_style_1a7c641c4d4c6d29cb705d3887cfce91c1">setShape</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_scatter_style_1a47077eb6450fe9a788f833e4ec1b1d5a">
+                <title>bool QCPScatterStyle::isPenDefined () const</title> <emphasis></emphasis>
+                
+<para>Returns whether a pen has been defined for this scatter style.</para>
+
+<para>The pen is undefined if a constructor is called that does not carry <emphasis>pen</emphasis> as parameter. Those are <link linkend="class_q_c_p_scatter_style_1a8836018d9ad83ccd8870de8315c1be73">QCPScatterStyle()</link> and <link linkend="class_q_c_p_scatter_style_1a003d92f74f4561eda111862eadd62f28">QCPScatterStyle(ScatterShape shape, double size)</link>. If the pen is undefined, the pen of the respective plottable will be used for drawing scatters.</para>
+
+<para>If a pen was defined for this scatter style instance, and you now wish to undefine the pen, call <link linkend="class_q_c_p_scatter_style_1acabc2a8c83d650b946f50c3166b6c35e">undefinePen</link>.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_scatter_style_1a761f1f229cc0ca4703e1e2b89f6dd1ba">setPen</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_scatter_style_1acabc2a8c83d650b946f50c3166b6c35e">
+                <title>void QCPScatterStyle::undefinePen ()</title> <emphasis></emphasis>
+                
+<para>Sets this scatter style to have an undefined pen (see <link linkend="class_q_c_p_scatter_style_1a47077eb6450fe9a788f833e4ec1b1d5a">isPenDefined</link> for what an undefined pen implies).</para>
+
+<para>A call to <link linkend="class_q_c_p_scatter_style_1a761f1f229cc0ca4703e1e2b89f6dd1ba">setPen</link> will define a pen. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_scatter_style_1afd8044ece445300499ca0dc164821e0f">
+                <title>void QCPScatterStyle::applyTo (QCPPainter *painter, const QPen &amp;defaultPen) const</title> <emphasis></emphasis>
+                
+<para>Applies the pen and the brush of this scatter style to <emphasis>painter</emphasis>. If this scatter style has an undefined pen (<link linkend="class_q_c_p_scatter_style_1a47077eb6450fe9a788f833e4ec1b1d5a">isPenDefined</link>), sets the pen of <emphasis>painter</emphasis> to <emphasis>defaultPen</emphasis> instead.</para>
+
+<para>This function is used by plottables (or any class that wants to draw scatters) just before a number of scatters with this style shall be drawn with the <emphasis>painter</emphasis>.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_scatter_style_1a89b5105e6027bfcbfeefed9d201b607c">drawShape</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_scatter_style_1a89b5105e6027bfcbfeefed9d201b607c">
+                <title>void QCPScatterStyle::drawShape (QCPPainter *painter, const QPointF &amp;pos) const</title> <emphasis></emphasis>
+                
+<para>Draws the scatter shape with <emphasis>painter</emphasis> at position <emphasis>pos</emphasis>.</para>
+
+<para>This function does not modify the pen or the brush on the painter, as <link linkend="class_q_c_p_scatter_style_1afd8044ece445300499ca0dc164821e0f">applyTo</link> is meant to be called before scatter points are drawn with <link linkend="class_q_c_p_scatter_style_1a89b5105e6027bfcbfeefed9d201b607c">drawShape</link>.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_scatter_style_1afd8044ece445300499ca0dc164821e0f">applyTo</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_scatter_style_1a95c297b114c77c22428ef40f54620ddf">
+                <title>void QCPScatterStyle::drawShape (QCPPainter *painter, double x, double y) const</title> <emphasis></emphasis>
+                
+<para>This is an overloaded member function, provided for convenience. It differs from the above function only in what argument(s) it accepts. Draws the scatter shape with <emphasis>painter</emphasis> at position <emphasis>x</emphasis> and <emphasis>y</emphasis>. </para>
+
+            </section>
+</section>

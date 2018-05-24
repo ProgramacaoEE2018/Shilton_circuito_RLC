@@ -1,0 +1,269 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="class_q_c_p_statistical_box_data">
+<title>QCPStatisticalBoxData class Reference</title>
+<para>
+    <programlisting>#include <link linkend="qcustomplot_8h">&lt;qcustomplot.h&gt;</link></programlisting>
+</para>
+<para>Inheritance diagram for QCPStatisticalBoxData</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_q_c_p_statistical_box_data__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for QCPStatisticalBoxData</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_q_c_p_statistical_box_data__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title>Public Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double key</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double minimum</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double lowerQuartile</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double median</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double upperQuartile</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double maximum</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QVector&lt; double &gt; outliers</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="class_q_c_p_statistical_box_data_1ab96c4b93670a8dcac8a3d4080fd722ee">QCPStatisticalBoxData</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="class_q_c_p_statistical_box_data_1a66b0c6d39765d0feb49c286fba4e4ef5">QCPStatisticalBoxData</link> (
+double key, double minimum, double lowerQuartile, double median, double upperQuartile, double maximum, const QVector&lt; double &gt; &amp; outliers)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double <link linkend="class_q_c_p_statistical_box_data_1a168100275e85935207deec86216abc88">sortKey</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double <link linkend="class_q_c_p_statistical_box_data_1a4bbbf44f60ac5eca73c5f4135741562e">mainKey</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double <link linkend="class_q_c_p_statistical_box_data_1a0df3cb31cfd6d48decf6173297b81746">mainValue</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="class_q_c_p_range">QCPRange</link> <link linkend="class_q_c_p_statistical_box_data_1a1a2410fcf3d45fa3a1ad09e265b9bcad">valueRange</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="class_q_c_p_statistical_box_data">QCPStatisticalBoxData</link> <link linkend="class_q_c_p_statistical_box_data_1a8c391d5a6c7cebc79b664aad9917b499">fromSortKey</link> (
+double sortKey)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static bool <link linkend="class_q_c_p_statistical_box_data_1a4710ae44b85d4b34b13c3f9301f28c01">sortKeyIsMainKey</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+    <simplesect>
+
+<para>Holds the data of one single data point for <link linkend="class_q_c_p_statistical_box">QCPStatisticalBox</link>. </para>
+    </simplesect>
+        <simplesect>
+            <title>Detailed Description</title>
+
+<para>The stored data is:</para>
+
+<para><itemizedlist>
+<listitem>
+<para><emphasis>key:</emphasis> coordinate on the key axis of this data point (this is the <emphasis>mainKey</emphasis> and the <emphasis>sortKey</emphasis>)</para>
+</listitem>
+</itemizedlist>
+<itemizedlist>
+<listitem>
+<para><emphasis>minimum:</emphasis> the position of the lower whisker, typically the minimum measurement of the sample that&apos;s not considered an outlier.</para>
+</listitem>
+</itemizedlist>
+<itemizedlist>
+<listitem>
+<para><emphasis>lowerQuartile:</emphasis> the lower end of the box. The lower and the upper quartiles are the two statistical quartiles around the median of the sample, they should contain 50% of the sample data.</para>
+</listitem>
+</itemizedlist>
+<itemizedlist>
+<listitem>
+<para><emphasis>median:</emphasis> the value of the median mark inside the quartile box. The median separates the sample data in half (50% of the sample data is below/above the median). (This is the <emphasis>mainValue</emphasis>)</para>
+</listitem>
+</itemizedlist>
+<itemizedlist>
+<listitem>
+<para><emphasis>upperQuartile:</emphasis> the upper end of the box. The lower and the upper quartiles are the two statistical quartiles around the median of the sample, they should contain 50% of the sample data.</para>
+</listitem>
+</itemizedlist>
+<itemizedlist>
+<listitem>
+<para><emphasis>maximum:</emphasis> the position of the upper whisker, typically the maximum measurement of the sample that&apos;s not considered an outlier.</para>
+</listitem>
+</itemizedlist>
+<itemizedlist>
+<listitem>
+<para><emphasis>outliers:</emphasis> a QVector of outlier values that will be drawn as scatter points at the <emphasis>key</emphasis> coordinate of this data point (see <link linkend="class_q_c_p_statistical_box_1ad5241943422eb8e58360a97e99ad6aa7">QCPStatisticalBox::setOutlierStyle</link>)</para>
+</listitem>
+</itemizedlist>
+The container for storing multiple data points is <link linkend="qcustomplot_8h_1a8b773c0c35f8f924701ced6e9915e4c7">QCPStatisticalBoxDataContainer</link>. It is a typedef for <link linkend="class_q_c_p_data_container">QCPDataContainer</link> with <link linkend="class_q_c_p_statistical_box_data">QCPStatisticalBoxData</link> as the DataType template parameter. See the documentation there for an explanation regarding the data type&apos;s generic methods.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="qcustomplot_8h_1a8b773c0c35f8f924701ced6e9915e4c7">QCPStatisticalBoxDataContainer</link> </para>
+</formalpara>
+</para>
+                <para>Definition at line 5564 of file qcustomplot.h</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>qcustomplot.h</para></listitem></itemizedlist></para>
+        </simplesect>
+        <section>
+            <title>Member Data Documentation</title>
+        </section>
+            <section xml:id="class_q_c_p_statistical_box_data_1ab96c4b93670a8dcac8a3d4080fd722ee">
+                <title>QCPStatisticalBoxData::QCPStatisticalBoxData ()</title> <emphasis></emphasis>
+                
+<para>Constructs a data point with key and all values set to zero. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_statistical_box_data_1a66b0c6d39765d0feb49c286fba4e4ef5">
+                <title>QCPStatisticalBoxData::QCPStatisticalBoxData (double key, double minimum, double lowerQuartile, double median, double upperQuartile, double maximum, const QVector&lt; double &gt; &amp;outliers=QVector&lt; double &gt;())</title> <emphasis></emphasis>
+                
+<para>Constructs a data point with the specified <emphasis>key</emphasis>, <emphasis>minimum</emphasis>, <emphasis>lowerQuartile</emphasis>, <emphasis>median</emphasis>, <emphasis>upperQuartile</emphasis>, <emphasis>maximum</emphasis> and optionally a number of <emphasis>outliers</emphasis>. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_statistical_box_data_1a168100275e85935207deec86216abc88">
+                <title>double QCPStatisticalBoxData::sortKey () const</title> <emphasis></emphasis>
+                
+<para>Returns the <emphasis>key</emphasis> member of this data point.</para>
+
+<para>For a general explanation of what this method is good for in the context of the data container, see the documentation of <link linkend="class_q_c_p_data_container">QCPDataContainer</link>. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_statistical_box_data_1a4bbbf44f60ac5eca73c5f4135741562e">
+                <title>double QCPStatisticalBoxData::mainKey () const</title> <emphasis></emphasis>
+                
+<para>Returns the <emphasis>key</emphasis> member of this data point.</para>
+
+<para>For a general explanation of what this method is good for in the context of the data container, see the documentation of <link linkend="class_q_c_p_data_container">QCPDataContainer</link>. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_statistical_box_data_1a0df3cb31cfd6d48decf6173297b81746">
+                <title>double QCPStatisticalBoxData::mainValue () const</title> <emphasis></emphasis>
+                
+<para>Returns the <emphasis>median</emphasis> member of this data point.</para>
+
+<para>For a general explanation of what this method is good for in the context of the data container, see the documentation of <link linkend="class_q_c_p_data_container">QCPDataContainer</link>. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_statistical_box_data_1a1a2410fcf3d45fa3a1ad09e265b9bcad">
+                <title>QCPRange QCPStatisticalBoxData::valueRange () const</title> <emphasis></emphasis>
+                
+<para>Returns a <link linkend="class_q_c_p_range">QCPRange</link> spanning from the <emphasis>minimum</emphasis> to the <emphasis>maximum</emphasis> member of this statistical box data point, possibly further expanded by outliers.</para>
+
+<para>For a general explanation of what this method is good for in the context of the data container, see the documentation of <link linkend="class_q_c_p_data_container">QCPDataContainer</link>. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_statistical_box_data_1a8c391d5a6c7cebc79b664aad9917b499">
+                <title>static QCPStatisticalBoxData QCPStatisticalBoxData::fromSortKey (double sortKey)</title> <emphasis></emphasis>
+                
+<para>Returns a data point with the specified <emphasis>sortKey</emphasis>. All other members are set to zero.</para>
+
+<para>For a general explanation of what this method is good for in the context of the data container, see the documentation of <link linkend="class_q_c_p_data_container">QCPDataContainer</link>. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_statistical_box_data_1a4710ae44b85d4b34b13c3f9301f28c01">
+                <title>static static bool QCPStatisticalBoxData::sortKeyIsMainKey ()</title> <emphasis></emphasis>
+                
+<para>Since the member <emphasis>key</emphasis> is both the data point key coordinate and the data ordering parameter, this method returns true.</para>
+
+<para>For a general explanation of what this method is good for in the context of the data container, see the documentation of <link linkend="class_q_c_p_data_container">QCPDataContainer</link>. </para>
+
+            </section>
+</section>

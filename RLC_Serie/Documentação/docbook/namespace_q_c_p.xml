@@ -1,0 +1,191 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="namespace_q_c_p">
+<title>QCP</title>
+        <section>
+            <title>Enumerations</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                            <para><literallayout>enum <link linkend="namespace_q_c_p_1a715d46153da230990aa887d0f0602452">ResolutionUnit</link> {
+<link linkend="namespace_q_c_p_1a715d46153da230990aa887d0f0602452a707d005dea5c4ab694e4270d9c6094e8">ruDotsPerMeter</link>,
+<link linkend="namespace_q_c_p_1a715d46153da230990aa887d0f0602452a4224e01f49b331489ad8cb12b619b229">ruDotsPerCentimeter</link>,
+<link linkend="namespace_q_c_p_1a715d46153da230990aa887d0f0602452affb887d8efe79c39a1aca2acd7002afc">ruDotsPerInch</link>
+}</literallayout>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                            <para><literallayout>enum <link linkend="namespace_q_c_p_1a17844f19e1019693a953e1eb93536d2f">ExportPen</link> {
+<link linkend="namespace_q_c_p_1a17844f19e1019693a953e1eb93536d2faae8fcfaafee234ce18558afef83f6a78">epNoCosmetic</link>,
+<link linkend="namespace_q_c_p_1a17844f19e1019693a953e1eb93536d2fa50d3657dba3fb90560b93a823cb0a6e8">epAllowCosmetic</link>
+}</literallayout>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                            <para><literallayout>enum <link linkend="namespace_q_c_p_1afd50e7cf431af385614987d8553ff8a9">SignDomain</link> {
+<link linkend="namespace_q_c_p_1afd50e7cf431af385614987d8553ff8a9a2d18af0bc58f6528d1e82ce699fe4829">sdNegative</link>,
+<link linkend="namespace_q_c_p_1afd50e7cf431af385614987d8553ff8a9aa38352ef02d51ddfa4399d9551566e24">sdBoth</link>,
+<link linkend="namespace_q_c_p_1afd50e7cf431af385614987d8553ff8a9a584784b75fb816abcc627cf743bb699f">sdPositive</link>
+}</literallayout>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                            <para><literallayout>enum <link linkend="namespace_q_c_p_1a7e487e3e2ccb62ab7771065bab7cae54">MarginSide</link> {
+<link linkend="namespace_q_c_p_1a7e487e3e2ccb62ab7771065bab7cae54a9500c8bfcc9e80b9dff0a8e00e867f07">msLeft</link>= 0x01,
+<link linkend="namespace_q_c_p_1a7e487e3e2ccb62ab7771065bab7cae54a93c719593bb2b94ed244d52c86d83b65">msRight</link>= 0x02,
+<link linkend="namespace_q_c_p_1a7e487e3e2ccb62ab7771065bab7cae54a5db8fb0d0b0ecf0d611c2602a348e8a0">msTop</link>= 0x04,
+<link linkend="namespace_q_c_p_1a7e487e3e2ccb62ab7771065bab7cae54a5241d8eac2bab9524a38889f576179cc">msBottom</link>= 0x08,
+<link linkend="namespace_q_c_p_1a7e487e3e2ccb62ab7771065bab7cae54a43d7361cb0c5244eabdc962021bffebc">msAll</link>= 0xFF,
+<link linkend="namespace_q_c_p_1a7e487e3e2ccb62ab7771065bab7cae54a80aa4149f16dabd538f8b2e3d42c42d5">msNone</link>= 0x00
+}</literallayout>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                            <para><literallayout>enum <link linkend="namespace_q_c_p_1ae55dbe315d41fe80f29ba88100843a0c">AntialiasedElement</link> {
+<link linkend="namespace_q_c_p_1ae55dbe315d41fe80f29ba88100843a0caefa92e89cd37f8a081fd2075aa1af73f">aeAxes</link>= 0x0001,
+<link linkend="namespace_q_c_p_1ae55dbe315d41fe80f29ba88100843a0ca4fbb37118d62288af0ca601ff2b07a2f">aeGrid</link>= 0x0002,
+<link linkend="namespace_q_c_p_1ae55dbe315d41fe80f29ba88100843a0caaedf83369188a15a69f92bb1d85ca97b">aeSubGrid</link>= 0x0004,
+<link linkend="namespace_q_c_p_1ae55dbe315d41fe80f29ba88100843a0ca9e0127a6361b5d0596b031a482c5cf97">aeLegend</link>= 0x0008,
+<link linkend="namespace_q_c_p_1ae55dbe315d41fe80f29ba88100843a0ca1aca7a50c1b95403958733a4acafe773">aeLegendItems</link>= 0x0010,
+<link linkend="namespace_q_c_p_1ae55dbe315d41fe80f29ba88100843a0ca4145e4251b0cf2dbedabeea0a38f84f6">aePlottables</link>= 0x0020,
+<link linkend="namespace_q_c_p_1ae55dbe315d41fe80f29ba88100843a0caf7712a85d6b0c75b24301d2fe9484db3">aeItems</link>= 0x0040,
+<link linkend="namespace_q_c_p_1ae55dbe315d41fe80f29ba88100843a0cae45ed8cd167bffe27d7f40da4bc17e9c">aeScatters</link>= 0x0080,
+<link linkend="namespace_q_c_p_1ae55dbe315d41fe80f29ba88100843a0ca788810f0aa930137de6ad6cc6d83d354">aeFills</link>= 0x0100,
+<link linkend="namespace_q_c_p_1ae55dbe315d41fe80f29ba88100843a0ca261f8ea78cf3c9561726223ffa33dc12">aeZeroLine</link>= 0x0200,
+<link linkend="namespace_q_c_p_1ae55dbe315d41fe80f29ba88100843a0ca51dfdad36b2907277ae1221b09936441">aeOther</link>= 0x8000,
+<link linkend="namespace_q_c_p_1ae55dbe315d41fe80f29ba88100843a0caa897c232a0ffc8368e7c100ffc59ef31">aeAll</link>= 0xFFFF,
+<link linkend="namespace_q_c_p_1ae55dbe315d41fe80f29ba88100843a0caa9e90d81896358757d94275aeaa58f6a">aeNone</link>= 0x0000
+}</literallayout>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                            <para><literallayout>enum <link linkend="namespace_q_c_p_1a5400e5fcb9528d92002ddb938c1f4ef4">PlottingHint</link> {
+<link linkend="namespace_q_c_p_1a5400e5fcb9528d92002ddb938c1f4ef4ab7283c5bfc1ba9e597015389880bda42">phNone</link>= 0x000,
+<link linkend="namespace_q_c_p_1a5400e5fcb9528d92002ddb938c1f4ef4aa5fd227bc878c56ad2a87ea32c74ee4d">phFastPolylines</link>= 0x001,
+<link linkend="namespace_q_c_p_1a5400e5fcb9528d92002ddb938c1f4ef4a30840fba10eebfa519a92cf5c3d32870">phImmediateRefresh</link>= 0x002,
+<link linkend="namespace_q_c_p_1a5400e5fcb9528d92002ddb938c1f4ef4a8e9cfe5ee0c5cd36dd7accf9739aff65">phCacheLabels</link>= 0x004
+}</literallayout>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                            <para><literallayout>enum <link linkend="namespace_q_c_p_1a2ad6bb6281c7c2d593d4277b44c2b037">Interaction</link> {
+<link linkend="namespace_q_c_p_1a2ad6bb6281c7c2d593d4277b44c2b037a2c4432b9aceafb94000be8d1b589ef18">iRangeDrag</link>= 0x001,
+<link linkend="namespace_q_c_p_1a2ad6bb6281c7c2d593d4277b44c2b037abee1e94353525a636aeaf0ba32b72e14">iRangeZoom</link>= 0x002,
+<link linkend="namespace_q_c_p_1a2ad6bb6281c7c2d593d4277b44c2b037aef673112c5067c3cf4cfddb62da7265d">iMultiSelect</link>= 0x004,
+<link linkend="namespace_q_c_p_1a2ad6bb6281c7c2d593d4277b44c2b037a67148c8227b4155eca49135fc274c7ec">iSelectPlottables</link>= 0x008,
+<link linkend="namespace_q_c_p_1a2ad6bb6281c7c2d593d4277b44c2b037ad6644ac55bef621645326e9dd7469caa">iSelectAxes</link>= 0x010,
+<link linkend="namespace_q_c_p_1a2ad6bb6281c7c2d593d4277b44c2b037a269c9af298e257d1108edec0432b5513">iSelectLegend</link>= 0x020,
+<link linkend="namespace_q_c_p_1a2ad6bb6281c7c2d593d4277b44c2b037aea2f7c105d674e76d9b187b02ef29260">iSelectItems</link>= 0x040,
+<link linkend="namespace_q_c_p_1a2ad6bb6281c7c2d593d4277b44c2b037af67a50bc26147a13b551b3a625374949">iSelectOther</link>= 0x080
+}</literallayout>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                            <para><literallayout>enum <link linkend="namespace_q_c_p_1ac9aa4d6d81ac76b094f9af9ad2d3aacf">SelectionRectMode</link> {
+<link linkend="namespace_q_c_p_1ac9aa4d6d81ac76b094f9af9ad2d3aacfa9032f170490d67240a6c68c2638ffab1">srmNone</link>,
+<link linkend="namespace_q_c_p_1ac9aa4d6d81ac76b094f9af9ad2d3aacfa739c260bf4d9a15f73423c91158b9428">srmZoom</link>,
+<link linkend="namespace_q_c_p_1ac9aa4d6d81ac76b094f9af9ad2d3aacfa62c286e8da283a0cbb88ecac2f3f7506">srmSelect</link>,
+<link linkend="namespace_q_c_p_1ac9aa4d6d81ac76b094f9af9ad2d3aacfa15e7a00c8e7e0673c7b31d75266888d4">srmCustom</link>
+}</literallayout>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                            <para><literallayout>enum <link linkend="namespace_q_c_p_1ac6cb9db26a564b27feda362a438db038">SelectionType</link> {
+<link linkend="namespace_q_c_p_1ac6cb9db26a564b27feda362a438db038aa64628e338a2dd1e6f0dc84dec0b63fe">stNone</link>,
+<link linkend="namespace_q_c_p_1ac6cb9db26a564b27feda362a438db038aff7a688d4d520e8e7f01be098a034a2d">stWhole</link>,
+<link linkend="namespace_q_c_p_1ac6cb9db26a564b27feda362a438db038ae5b11259c42962db355e7448f4a8633a">stSingleData</link>,
+<link linkend="namespace_q_c_p_1ac6cb9db26a564b27feda362a438db038aa05d2cba99c724df004d9c48971e4371">stDataRange</link>,
+<link linkend="namespace_q_c_p_1ac6cb9db26a564b27feda362a438db038a7cf82676966ebf79cc371f65278e0e16">stMultipleDataRanges</link>
+}</literallayout>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title>Variables</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const QMetaObject <link linkend="namespace_q_c_p_1a07ffa1eb1537a3b1f218ff2a442b2017">staticMetaObject</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title>Functions</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="namespace_q_c_p_1a07ab701c05329089f933b9cae2638a63">isInvalidData</link> (
+double value)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="namespace_q_c_p_1a728903e5c3dd17847bee280f4005496f">isInvalidData</link> (
+double value1, double value2)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="namespace_q_c_p_1afbf6e3084c108f2bb4372107945ee82f">setMarginValue</link> (
+QMargins &amp; margins, <link linkend="namespace_q_c_p_1a7e487e3e2ccb62ab7771065bab7cae54">QCP::MarginSide</link> side, int value)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>int <link linkend="namespace_q_c_p_1a23a2679d3495c444acc26acc61e35b5b">getMarginValue</link> (
+const QMargins &amp; margins, <link linkend="namespace_q_c_p_1a7e487e3e2ccb62ab7771065bab7cae54">QCP::MarginSide</link> side)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <simplesect>
+            <title>Detailed Description</title>
+
+<para>The <link linkend="namespace_q_c_p">QCP</link> Namespace contains general enums, QFlags and functions used throughout the <link linkend="class_q_custom_plot">QCustomPlot</link> library.</para>
+
+<para>It provides QMetaObject-based reflection of its enums and flags via <emphasis><link linkend="namespace_q_c_p_1a07ffa1eb1537a3b1f218ff2a442b2017">QCP::staticMetaObject</link></emphasis>. </para>
+                <para>Definition at line 139 of file qcustomplot.h</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>qcustomplot.h</para></listitem></itemizedlist></para>
+        </simplesect>
+</section>

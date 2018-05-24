@@ -1,0 +1,508 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="class_q_c_p_item_pixmap">
+<title>QCPItemPixmap class Reference</title>
+<para>
+    <programlisting>#include <link linkend="qcustomplot_8h">&lt;qcustomplot.h&gt;</link></programlisting>
+</para>
+<para>Inheritance diagram for QCPItemPixmap</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_q_c_p_item_pixmap__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for QCPItemPixmap</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_q_c_p_item_pixmap__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                            <para><literallayout>enum <link linkend="class_q_c_p_item_pixmap_1a0ea7f65edb7395e02de521915f221174">AnchorIndex</link> {
+<link linkend="class_q_c_p_item_pixmap_1a0ea7f65edb7395e02de521915f221174a90e523ebaed7921ca90cf1b08944ece5">aiTop</link>,
+<link linkend="class_q_c_p_item_pixmap_1a0ea7f65edb7395e02de521915f221174a33c256cdec46fa1587534fcd6e776799">aiTopRight</link>,
+<link linkend="class_q_c_p_item_pixmap_1a0ea7f65edb7395e02de521915f221174ab22d91dae59c0d4a65416a0d677b2d05">aiRight</link>,
+<link linkend="class_q_c_p_item_pixmap_1a0ea7f65edb7395e02de521915f221174a04b5e041b4dd0def2b60c5cfea2bc1a4">aiBottom</link>,
+<link linkend="class_q_c_p_item_pixmap_1a0ea7f65edb7395e02de521915f221174ae14886b381136898e37e89af5046a1cc">aiBottomLeft</link>,
+<link linkend="class_q_c_p_item_pixmap_1a0ea7f65edb7395e02de521915f221174a9efe71239b9409ebe1c2813a37807f2a">aiLeft</link>
+}</literallayout>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title>Public Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QCPItemPosition *const topLeft</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QCPItemPosition *const bottomRight</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QCPItemAnchor *const top</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QCPItemAnchor *const topRight</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QCPItemAnchor *const right</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QCPItemAnchor *const bottom</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QCPItemAnchor *const bottomLeft</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QCPItemAnchor *const left</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title>Protected Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPixmap mPixmap</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPixmap mScaledPixmap</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool mScaled</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool mScaledPixmapInvalidated</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>Qt::AspectRatioMode mAspectRatioMode</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>Qt::TransformationMode mTransformationMode</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPen mPen</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPen mSelectedPen</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="class_q_c_p_item_pixmap_1aa6de42a37261b21a5480e7da122345c3">QCPItemPixmap</link> (
+<link linkend="class_q_custom_plot">QCustomPlot</link> * parentPlot)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual <link linkend="class_q_c_p_item_pixmap_1a810cac6a409d963cda6ea2d3152f1fd0">~QCPItemPixmap</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPixmap <link linkend="class_q_c_p_item_pixmap_1a7daef7e0c432902d69e7db3e0e217a1f">pixmap</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="class_q_c_p_item_pixmap_1a8768534b5f3080abfc007db198373327">scaled</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>Qt::AspectRatioMode <link linkend="class_q_c_p_item_pixmap_1a662cbca12e6cdcd2a94b0b08879292fd">aspectRatioMode</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>Qt::TransformationMode <link linkend="class_q_c_p_item_pixmap_1ab963aa9693d49c323948f2820a5785b6">transformationMode</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPen <link linkend="class_q_c_p_item_pixmap_1a6ae9922eba6386a5ac4e2a569ec29e1f">pen</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPen <link linkend="class_q_c_p_item_pixmap_1a23806a20efcb172f0309e18809dc49d8">selectedPen</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_item_pixmap_1a726b69ea4025edf48f9b29b6450548a7">setPixmap</link> (
+const QPixmap &amp; pixmap)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_item_pixmap_1ab4d44529a1c6c8d37d0ea7560e042777">setScaled</link> (
+bool scaled, Qt::AspectRatioMode aspectRatioMode, Qt::TransformationMode transformationMode)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_item_pixmap_1acdade1305edb4b5cae14f97fd132065f">setPen</link> (
+const QPen &amp; pen)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_item_pixmap_1afc5e479e88e53740176ce77cb70dd67a">setSelectedPen</link> (
+const QPen &amp; pen)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual double <link linkend="class_q_c_p_item_pixmap_1a65d1ede7bb479b90d40186d083071947">selectTest</link> (
+const QPointF &amp; pos, bool onlySelectable, QVariant * details)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="class_q_c_p_item_pixmap_1a9538a7d37fe20a4ff4bb2cb5bbbf2b48">draw</link> (
+<link linkend="class_q_c_p_painter">QCPPainter</link> * painter)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual QPointF <link linkend="class_q_c_p_item_pixmap_1a5803d8e173bc4d48619fc43701db32e5">anchorPixelPosition</link> (
+int anchorId)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_item_pixmap_1a8bced3027b326b290726cd1979c7cfc6">updateScaledPixmap</link> (
+QRect finalRect, bool flipHorz, bool flipVert)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QRect <link linkend="class_q_c_p_item_pixmap_1a4e7d803e5093c457a109f8fae56677c2">getFinalRect</link> (
+bool * flippedHorz, bool * flippedVert)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPen <link linkend="class_q_c_p_item_pixmap_1aad6dddd67163831538d40023a98a9fe7">mainPen</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+    <simplesect>
+
+<para>An arbitrary pixmap. </para>
+    </simplesect>
+        <simplesect>
+            <title>Detailed Description</title>
+
+<para> It has two positions, <emphasis>topLeft</emphasis> and <emphasis>bottomRight</emphasis>, which define the rectangle the pixmap will be drawn in. Depending on the scale setting (<link linkend="class_q_c_p_item_pixmap_1ab4d44529a1c6c8d37d0ea7560e042777">setScaled</link>), the pixmap will be either scaled to fit the rectangle or be drawn aligned to the topLeft position.</para>
+
+<para>If scaling is enabled and <emphasis>topLeft</emphasis> is further to the bottom/right than <emphasis>bottomRight</emphasis> (as shown on the right side of the example image), the pixmap will be flipped in the respective orientations. </para>
+                <para>Definition at line 6443 of file qcustomplot.h</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>qcustomplot.h</para></listitem></itemizedlist></para>
+        </simplesect>
+            <section xml:id="class_q_c_p_item_pixmap_1a0ea7f65edb7395e02de521915f221174">
+               <title>enum AnchorIndex </title>
+               
+               <formalpara>
+                    <title>Enumerator:</title>
+                    <variablelist>
+                        <varlistentry xml:id="class_q_c_p_item_pixmap_1a0ea7f65edb7395e02de521915f221174a90e523ebaed7921ca90cf1b08944ece5">
+                            <term>aiTop</term>
+                            <listitem>
+                                <para></para>
+                            </listitem>
+                        </varlistentry>
+                        <varlistentry xml:id="class_q_c_p_item_pixmap_1a0ea7f65edb7395e02de521915f221174a33c256cdec46fa1587534fcd6e776799">
+                            <term>aiTopRight</term>
+                            <listitem>
+                                <para></para>
+                            </listitem>
+                        </varlistentry>
+                        <varlistentry xml:id="class_q_c_p_item_pixmap_1a0ea7f65edb7395e02de521915f221174ab22d91dae59c0d4a65416a0d677b2d05">
+                            <term>aiRight</term>
+                            <listitem>
+                                <para></para>
+                            </listitem>
+                        </varlistentry>
+                        <varlistentry xml:id="class_q_c_p_item_pixmap_1a0ea7f65edb7395e02de521915f221174a04b5e041b4dd0def2b60c5cfea2bc1a4">
+                            <term>aiBottom</term>
+                            <listitem>
+                                <para></para>
+                            </listitem>
+                        </varlistentry>
+                        <varlistentry xml:id="class_q_c_p_item_pixmap_1a0ea7f65edb7395e02de521915f221174ae14886b381136898e37e89af5046a1cc">
+                            <term>aiBottomLeft</term>
+                            <listitem>
+                                <para></para>
+                            </listitem>
+                        </varlistentry>
+                        <varlistentry xml:id="class_q_c_p_item_pixmap_1a0ea7f65edb7395e02de521915f221174a9efe71239b9409ebe1c2813a37807f2a">
+                            <term>aiLeft</term>
+                            <listitem>
+                                <para></para>
+                            </listitem>
+                        </varlistentry>
+                     </variablelist>
+                </formalpara>
+                <para>Definition at line 6484 of file qcustomplot.h
+                    <computeroutput><literallayout>
+{
+aiTop, 
+aiTopRight, 
+aiRight, 
+aiBottom, 
+aiBottomLeft, 
+aiLeft, 
+}AnchorIndex;
+                    </literallayout></computeroutput>
+                </para>
+            </section>
+        <section>
+            <title>Member Data Documentation</title>
+        </section>
+        <section>
+            <title>Member Data Documentation</title>
+        </section>
+            <section xml:id="class_q_c_p_item_pixmap_1aa6de42a37261b21a5480e7da122345c3">
+                <title>QCPItemPixmap::QCPItemPixmap (QCustomPlot *parentPlot)</title> <emphasis></emphasis>
+                
+<para>Creates a rectangle item and sets default values.</para>
+
+<para>The created item is automatically registered with <emphasis>parentPlot</emphasis>. This <link linkend="class_q_custom_plot">QCustomPlot</link> instance takes ownership of the item, so do not delete it manually but use <link linkend="class_q_custom_plot_1ae04446557292551e8fb6e2c106e1848d">QCustomPlot::removeItem()</link> instead. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_item_pixmap_1a810cac6a409d963cda6ea2d3152f1fd0">
+                <title>QCPItemPixmap::~QCPItemPixmap ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_item_pixmap_1a7daef7e0c432902d69e7db3e0e217a1f">
+                <title>QPixmap QCPItemPixmap::pixmap () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_item_pixmap_1a8768534b5f3080abfc007db198373327">
+                <title>bool QCPItemPixmap::scaled () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_item_pixmap_1a662cbca12e6cdcd2a94b0b08879292fd">
+                <title>Qt::AspectRatioMode QCPItemPixmap::aspectRatioMode () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_item_pixmap_1ab963aa9693d49c323948f2820a5785b6">
+                <title>Qt::TransformationMode QCPItemPixmap::transformationMode () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_item_pixmap_1a6ae9922eba6386a5ac4e2a569ec29e1f">
+                <title>QPen QCPItemPixmap::pen () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_item_pixmap_1a23806a20efcb172f0309e18809dc49d8">
+                <title>QPen QCPItemPixmap::selectedPen () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_item_pixmap_1a726b69ea4025edf48f9b29b6450548a7">
+                <title>void QCPItemPixmap::setPixmap (const QPixmap &amp;pixmap)</title> <emphasis></emphasis>
+                
+<para>Sets the pixmap that will be displayed. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_item_pixmap_1ab4d44529a1c6c8d37d0ea7560e042777">
+                <title>void QCPItemPixmap::setScaled (bool scaled, Qt::AspectRatioMode aspectRatioMode=Qt::KeepAspectRatio, Qt::TransformationMode transformationMode=Qt::SmoothTransformation)</title> <emphasis></emphasis>
+                
+<para>Sets whether the pixmap will be scaled to fit the rectangle defined by the <emphasis>topLeft</emphasis> and <emphasis>bottomRight</emphasis> positions. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_item_pixmap_1acdade1305edb4b5cae14f97fd132065f">
+                <title>void QCPItemPixmap::setPen (const QPen &amp;pen)</title> <emphasis></emphasis>
+                
+<para>Sets the pen that will be used to draw a border around the pixmap.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_item_pixmap_1afc5e479e88e53740176ce77cb70dd67a">setSelectedPen</link>, setBrush </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_item_pixmap_1afc5e479e88e53740176ce77cb70dd67a">
+                <title>void QCPItemPixmap::setSelectedPen (const QPen &amp;pen)</title> <emphasis></emphasis>
+                
+<para>Sets the pen that will be used to draw a border around the pixmap when selected</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_item_pixmap_1acdade1305edb4b5cae14f97fd132065f">setPen</link>, <link linkend="class_q_c_p_abstract_item_1a203de94ad586cc44d16c9565f49d3378">setSelected</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_item_pixmap_1a65d1ede7bb479b90d40186d083071947">
+                <title>double QCPItemPixmap::selectTest (const QPointF &amp;pos, bool onlySelectable, QVariant *details=0) const Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+<para>This function is used to decide whether a click hits a layerable object or not.</para>
+
+<para><emphasis>pos</emphasis> is a point in pixel coordinates on the <link linkend="class_q_custom_plot">QCustomPlot</link> surface. This function returns the shortest pixel distance of this point to the object. If the object is either invisible or the distance couldn&apos;t be determined, -1.0 is returned. Further, if <emphasis>onlySelectable</emphasis> is true and the object is not selectable, -1.0 is returned, too.</para>
+
+<para>If the object is represented not by single lines but by an area like a <link linkend="class_q_c_p_item_text">QCPItemText</link> or the bars of a <link linkend="class_q_c_p_bars">QCPBars</link> plottable, a click inside the area should also be considered a hit. In these cases this function thus returns a constant value greater zero but still below the parent plot&apos;s selection tolerance. (typically the selectionTolerance multiplied by 0.99).</para>
+
+<para>Providing a constant value for area objects allows selecting line objects even when they are obscured by such area objects, by clicking close to the lines (i.e. closer than 0.99*selectionTolerance).</para>
+
+<para>The actual setting of the selection state is not done by this function. This is handled by the parent <link linkend="class_q_custom_plot">QCustomPlot</link> when the mouseReleaseEvent occurs, and the finally selected object is notified via the <link linkend="class_q_c_p_abstract_item_1aa4b969c58797f39c9c0b6c07c7869d17">selectEvent</link>/<link linkend="class_q_c_p_abstract_item_1af9093798cb07a861dcc73f93ca16c0c1">deselectEvent</link> methods.</para>
+
+<para><emphasis>details</emphasis> is an optional output parameter. Every layerable subclass may place any information in <emphasis>details</emphasis>. This information will be passed to <link linkend="class_q_c_p_abstract_item_1aa4b969c58797f39c9c0b6c07c7869d17">selectEvent</link> when the parent <link linkend="class_q_custom_plot">QCustomPlot</link> decides on the basis of this selectTest call, that the object was successfully selected. The subsequent call to <link linkend="class_q_c_p_abstract_item_1aa4b969c58797f39c9c0b6c07c7869d17">selectEvent</link> will carry the <emphasis>details</emphasis>. This is useful for multi-part objects (like <link linkend="class_q_c_p_axis">QCPAxis</link>). This way, a possibly complex calculation to decide which part was clicked is only done once in <link linkend="class_q_c_p_item_pixmap_1a65d1ede7bb479b90d40186d083071947">selectTest</link>. The result (i.e. the actually clicked part) can then be placed in <emphasis>details</emphasis>. So in the subsequent <link linkend="class_q_c_p_abstract_item_1aa4b969c58797f39c9c0b6c07c7869d17">selectEvent</link>, the decision which part was selected doesn&apos;t have to be done a second time for a single selection operation.</para>
+
+<para>You may pass 0 as <emphasis>details</emphasis> to indicate that you are not interested in those selection details.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_abstract_item_1aa4b969c58797f39c9c0b6c07c7869d17">selectEvent</link>, <link linkend="class_q_c_p_abstract_item_1af9093798cb07a861dcc73f93ca16c0c1">deselectEvent</link>, <link linkend="class_q_c_p_layerable_1af6567604818db90f4fd52822f8bc8376">mousePressEvent</link>, <link linkend="class_q_c_p_layerable_1a47dfd7b8fd99c08ca54e09c362b6f022">wheelEvent</link>, <link linkend="class_q_custom_plot_1a5ee1e2f6ae27419deca53e75907c27e5">QCustomPlot::setInteractions</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_item_pixmap_1a9538a7d37fe20a4ff4bb2cb5bbbf2b48">
+                <title>void QCPItemPixmap::draw (QCPPainter *painter) Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_item_pixmap_1a5803d8e173bc4d48619fc43701db32e5">
+                <title>QPointF QCPItemPixmap::anchorPixelPosition (int anchorId) const Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_item_pixmap_1a8bced3027b326b290726cd1979c7cfc6">
+                <title>void QCPItemPixmap::updateScaledPixmap (QRect finalRect=QRect(), bool flipHorz=false, bool flipVert=false)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_item_pixmap_1a4e7d803e5093c457a109f8fae56677c2">
+                <title>QRect QCPItemPixmap::getFinalRect (bool *flippedHorz=0, bool *flippedVert=0) const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_item_pixmap_1aad6dddd67163831538d40023a98a9fe7">
+                <title>QPen QCPItemPixmap::mainPen () const</title> <emphasis></emphasis>
+                
+            </section>
+</section>

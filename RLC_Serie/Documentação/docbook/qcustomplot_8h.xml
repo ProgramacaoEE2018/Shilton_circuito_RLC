@@ -1,0 +1,960 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="qcustomplot_8h">
+    <title>qcustomplot.h File Reference</title>
+    <programlisting>#include &lt;QtCore/qglobal.h&gt;</programlisting>
+    <programlisting>#include &lt;QtCore/QObject&gt;</programlisting>
+    <programlisting>#include &lt;QtCore/QPointer&gt;</programlisting>
+    <programlisting>#include &lt;QtCore/QSharedPointer&gt;</programlisting>
+    <programlisting>#include &lt;QtCore/QTimer&gt;</programlisting>
+    <programlisting>#include &lt;QtGui/QPainter&gt;</programlisting>
+    <programlisting>#include &lt;QtGui/QPaintEvent&gt;</programlisting>
+    <programlisting>#include &lt;QtGui/QMouseEvent&gt;</programlisting>
+    <programlisting>#include &lt;QtGui/QWheelEvent&gt;</programlisting>
+    <programlisting>#include &lt;QtGui/QPixmap&gt;</programlisting>
+    <programlisting>#include &lt;QtCore/QVector&gt;</programlisting>
+    <programlisting>#include &lt;QtCore/QString&gt;</programlisting>
+    <programlisting>#include &lt;QtCore/QDateTime&gt;</programlisting>
+    <programlisting>#include &lt;QtCore/QMultiMap&gt;</programlisting>
+    <programlisting>#include &lt;QtCore/QFlags&gt;</programlisting>
+    <programlisting>#include &lt;QtCore/QDebug&gt;</programlisting>
+    <programlisting>#include &lt;QtCore/QStack&gt;</programlisting>
+    <programlisting>#include &lt;QtCore/QCache&gt;</programlisting>
+    <programlisting>#include &lt;QtCore/QMargins&gt;</programlisting>
+    <programlisting>#include &lt;qmath.h&gt;</programlisting>
+    <programlisting>#include &lt;limits&gt;</programlisting>
+    <programlisting>#include &lt;algorithm&gt;</programlisting>
+    <programlisting>#include &lt;QtNumeric&gt;</programlisting>
+    <programlisting>#include &lt;QtWidgets/QWidget&gt;</programlisting>
+    <programlisting>#include &lt;QtPrintSupport/QtPrintSupport&gt;</programlisting>
+<para>Include dependency diagram for qcustomplot.h</para>
+<para>
+    <figure>
+        <title>Dependency diagram</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="qcustomplot_8h__incl.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Included by dependency diagram for qcustomplot.h</para>
+<para>
+    <figure>
+        <title>Dependency diagram</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="qcustomplot_8h__dep__incl.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title> Classes </title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_q_c_p_vector2_d">QCPVector2D</link></para>
+<para><emphasis>Represents two doubles as a mathematical 2D vector.</emphasis></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_q_c_p_painter">QCPPainter</link></para>
+<para><emphasis>QPainter subclass used internally.</emphasis></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_q_c_p_abstract_paint_buffer">QCPAbstractPaintBuffer</link></para>
+<para><emphasis>The abstract base class for paint buffers, which define the rendering backend.</emphasis></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_q_c_p_paint_buffer_pixmap">QCPPaintBufferPixmap</link></para>
+<para><emphasis>A paint buffer based on QPixmap, using software raster rendering.</emphasis></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_q_c_p_layer">QCPLayer</link></para>
+<para><emphasis>A layer that may contain objects, to control the rendering order.</emphasis></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_q_c_p_layerable">QCPLayerable</link></para>
+<para><emphasis>Base class for all drawable objects.</emphasis></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_q_c_p_range">QCPRange</link></para>
+<para><emphasis>Represents the range an axis is encompassing.</emphasis></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_q_c_p_data_range">QCPDataRange</link></para>
+<para><emphasis>Describes a data range given by begin and end index.</emphasis></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_q_c_p_data_selection">QCPDataSelection</link></para>
+<para><emphasis>Describes a data set by holding multiple QCPDataRange instances.</emphasis></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_q_c_p_selection_rect">QCPSelectionRect</link></para>
+<para><emphasis>Provides rect/rubber-band data selection and range zoom interaction.</emphasis></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_q_c_p_margin_group">QCPMarginGroup</link></para>
+<para><emphasis>A margin group allows synchronization of margin sides if working with multiple layout elements.</emphasis></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_q_c_p_layout_element">QCPLayoutElement</link></para>
+<para><emphasis>The abstract base class for all objects that form \ref thelayoutsystem &quot;the layout system&quot;.</emphasis></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_q_c_p_layout">QCPLayout</link></para>
+<para><emphasis>The abstract base class for layouts.</emphasis></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_q_c_p_layout_grid">QCPLayoutGrid</link></para>
+<para><emphasis>A layout that arranges child elements in a grid.</emphasis></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_q_c_p_layout_inset">QCPLayoutInset</link></para>
+<para><emphasis>A layout that places child elements aligned to the border or arbitrarily positioned.</emphasis></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_q_c_p_line_ending">QCPLineEnding</link></para>
+<para><emphasis>Handles the different ending decorations for line-like items.</emphasis></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_q_c_p_axis_ticker">QCPAxisTicker</link></para>
+<para><emphasis>The base class tick generator used by QCPAxis to create tick positions and tick labels.</emphasis></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_q_c_p_axis_ticker_date_time">QCPAxisTickerDateTime</link></para>
+<para><emphasis>Specialized axis ticker for calendar dates and times as axis ticks.</emphasis></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_q_c_p_axis_ticker_time">QCPAxisTickerTime</link></para>
+<para><emphasis>Specialized axis ticker for time spans in units of milliseconds to days.</emphasis></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_q_c_p_axis_ticker_fixed">QCPAxisTickerFixed</link></para>
+<para><emphasis>Specialized axis ticker with a fixed tick step.</emphasis></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_q_c_p_axis_ticker_text">QCPAxisTickerText</link></para>
+<para><emphasis>Specialized axis ticker which allows arbitrary labels at specified coordinates.</emphasis></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_q_c_p_axis_ticker_pi">QCPAxisTickerPi</link></para>
+<para><emphasis>Specialized axis ticker to display ticks in units of an arbitrary constant, for example pi.</emphasis></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_q_c_p_axis_ticker_log">QCPAxisTickerLog</link></para>
+<para><emphasis>Specialized axis ticker suited for logarithmic axes.</emphasis></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_q_c_p_grid">QCPGrid</link></para>
+<para><emphasis>Responsible for drawing the grid of a QCPAxis.</emphasis></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_q_c_p_axis">QCPAxis</link></para>
+<para><emphasis>Manages a single axis inside a QCustomPlot.</emphasis></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_q_c_p_axis_painter_private">QCPAxisPainterPrivate</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="struct_q_c_p_axis_painter_private_1_1_cached_label">QCPAxisPainterPrivate::CachedLabel</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="struct_q_c_p_axis_painter_private_1_1_tick_label_data">QCPAxisPainterPrivate::TickLabelData</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_q_c_p_scatter_style">QCPScatterStyle</link></para>
+<para><emphasis>Represents the visual appearance of scatter points.</emphasis></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_q_c_p_data_container">QCPDataContainer</link></para>
+<para><emphasis>The generic data container for one-dimensional plottables.</emphasis></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_q_c_p_selection_decorator">QCPSelectionDecorator</link></para>
+<para><emphasis>Controls how a plottable&apos;s data selection is drawn.</emphasis></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_q_c_p_abstract_plottable">QCPAbstractPlottable</link></para>
+<para><emphasis>The abstract base class for all data representing objects in a plot.</emphasis></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_q_c_p_item_anchor">QCPItemAnchor</link></para>
+<para><emphasis>An anchor of an item to which positions can be attached to.</emphasis></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_q_c_p_item_position">QCPItemPosition</link></para>
+<para><emphasis>Manages the position of an item.</emphasis></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_q_c_p_abstract_item">QCPAbstractItem</link></para>
+<para><emphasis>The abstract base class for all items in a plot.</emphasis></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_q_custom_plot">QCustomPlot</link></para>
+<para><emphasis>The central class of the library. This is the QWidget which displays the plot and
+interacts with the user.</emphasis></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_q_c_p_plottable_interface1_d">QCPPlottableInterface1D</link></para>
+<para><emphasis>Defines an abstract interface for one-dimensional plottables.</emphasis></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_q_c_p_abstract_plottable1_d">QCPAbstractPlottable1D</link></para>
+<para><emphasis>A template base class for plottables with one-dimensional data.</emphasis></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_q_c_p_color_gradient">QCPColorGradient</link></para>
+<para><emphasis>Defines a color gradient for use with e.g. \ref QCPColorMap.</emphasis></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_q_c_p_selection_decorator_bracket">QCPSelectionDecoratorBracket</link></para>
+<para><emphasis>A selection decorator which draws brackets around each selected data segment.</emphasis></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_q_c_p_axis_rect">QCPAxisRect</link></para>
+<para><emphasis>Holds multiple axes and arranges them in a rectangular shape.</emphasis></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_q_c_p_abstract_legend_item">QCPAbstractLegendItem</link></para>
+<para><emphasis>The abstract base class for all entries in a QCPLegend.</emphasis></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_q_c_p_plottable_legend_item">QCPPlottableLegendItem</link></para>
+<para><emphasis>A legend item representing a plottable with an icon and the plottable name.</emphasis></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_q_c_p_legend">QCPLegend</link></para>
+<para><emphasis>Manages a legend inside a QCustomPlot.</emphasis></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_q_c_p_text_element">QCPTextElement</link></para>
+<para><emphasis>A layout element displaying a text.</emphasis></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_q_c_p_color_scale_axis_rect_private">QCPColorScaleAxisRectPrivate</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_q_c_p_color_scale">QCPColorScale</link></para>
+<para><emphasis>A color scale for use with color coding data such as QCPColorMap.</emphasis></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_q_c_p_graph_data">QCPGraphData</link></para>
+<para><emphasis>Holds the data of one single data point for QCPGraph.</emphasis></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_q_c_p_graph">QCPGraph</link></para>
+<para><emphasis>A plottable representing a graph in a plot.</emphasis></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_q_c_p_curve_data">QCPCurveData</link></para>
+<para><emphasis>Holds the data of one single data point for QCPCurve.</emphasis></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_q_c_p_curve">QCPCurve</link></para>
+<para><emphasis>A plottable representing a parametric curve in a plot.</emphasis></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_q_c_p_bars_group">QCPBarsGroup</link></para>
+<para><emphasis>Groups multiple QCPBars together so they appear side by side.</emphasis></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_q_c_p_bars_data">QCPBarsData</link></para>
+<para><emphasis>Holds the data of one single data point (one bar) for QCPBars.</emphasis></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_q_c_p_bars">QCPBars</link></para>
+<para><emphasis>A plottable representing a bar chart in a plot.</emphasis></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_q_c_p_statistical_box_data">QCPStatisticalBoxData</link></para>
+<para><emphasis>Holds the data of one single data point for QCPStatisticalBox.</emphasis></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_q_c_p_statistical_box">QCPStatisticalBox</link></para>
+<para><emphasis>A plottable representing a single statistical box in a plot.</emphasis></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_q_c_p_color_map_data">QCPColorMapData</link></para>
+<para><emphasis>Holds the two-dimensional data of a QCPColorMap plottable.</emphasis></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_q_c_p_color_map">QCPColorMap</link></para>
+<para><emphasis>A plottable representing a two-dimensional color map in a plot.</emphasis></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_q_c_p_financial_data">QCPFinancialData</link></para>
+<para><emphasis>Holds the data of one single data point for QCPFinancial.</emphasis></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_q_c_p_financial">QCPFinancial</link></para>
+<para><emphasis>A plottable representing a financial stock chart.</emphasis></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_q_c_p_error_bars_data">QCPErrorBarsData</link></para>
+<para><emphasis>Holds the data of one single error bar for QCPErrorBars.</emphasis></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_q_c_p_error_bars">QCPErrorBars</link></para>
+<para><emphasis>A plottable that adds a set of error bars to other plottables.</emphasis></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_q_c_p_item_straight_line">QCPItemStraightLine</link></para>
+<para><emphasis>A straight line that spans infinitely in both directions.</emphasis></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_q_c_p_item_line">QCPItemLine</link></para>
+<para><emphasis>A line from one point to another.</emphasis></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_q_c_p_item_curve">QCPItemCurve</link></para>
+<para><emphasis>A curved line from one point to another.</emphasis></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_q_c_p_item_rect">QCPItemRect</link></para>
+<para><emphasis>A rectangle.</emphasis></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_q_c_p_item_text">QCPItemText</link></para>
+<para><emphasis>A text label.</emphasis></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_q_c_p_item_ellipse">QCPItemEllipse</link></para>
+<para><emphasis>An ellipse.</emphasis></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_q_c_p_item_pixmap">QCPItemPixmap</link></para>
+<para><emphasis>An arbitrary pixmap.</emphasis></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_q_c_p_item_tracer">QCPItemTracer</link></para>
+<para><emphasis>Item that sticks to QCPGraph data points.</emphasis></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_q_c_p_item_bracket">QCPItemBracket</link></para>
+<para><emphasis>A bracket for referencing/highlighting certain parts in the plot.</emphasis></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <simplesect>
+            <title> Namespaces </title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="namespace_q_c_p">QCP</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+        <section>
+            <title>Macros</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                            <para>#define <link linkend="qcustomplot_8h_1aa441208467c396e9be040369952f0107">QCP_DEVICEPIXELRATIO_SUPPORTED</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                            <para>#define <link linkend="qcustomplot_8h_1a6ac48bd184a7a8b315c504bac7d7318c">QCP_DEVICEPIXELRATIO_FLOAT</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                            <para>#define <link linkend="qcustomplot_8h_1a5eaab02224a642ded7fb8951e973a02c">QCP_LIB_DECL</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                            <para>#define <link linkend="qcustomplot_8h_1a42cc5eaeb25b85f8b52d2a4b94c56f55">Q_DECL_OVERRIDE</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title>Typedefs</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                            <para>typedef <link linkend="class_q_c_p_data_container">QCPDataContainer</link>&lt; <link linkend="class_q_c_p_graph_data">QCPGraphData</link> &gt;  <link linkend="qcustomplot_8h_1a2e5583d1ae212f0deb10537cf975a15a">QCPGraphDataContainer</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                            <para>typedef <link linkend="class_q_c_p_data_container">QCPDataContainer</link>&lt; <link linkend="class_q_c_p_curve_data">QCPCurveData</link> &gt;  <link linkend="qcustomplot_8h_1aaeee80d5664ea91beb9d7968790d0e65">QCPCurveDataContainer</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                            <para>typedef <link linkend="class_q_c_p_data_container">QCPDataContainer</link>&lt; <link linkend="class_q_c_p_bars_data">QCPBarsData</link> &gt;  <link linkend="qcustomplot_8h_1a52bf589c9fce1baa36c1d40d69785d46">QCPBarsDataContainer</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                            <para>typedef <link linkend="class_q_c_p_data_container">QCPDataContainer</link>&lt; <link linkend="class_q_c_p_statistical_box_data">QCPStatisticalBoxData</link> &gt;  <link linkend="qcustomplot_8h_1a8b773c0c35f8f924701ced6e9915e4c7">QCPStatisticalBoxDataContainer</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                            <para>typedef <link linkend="class_q_c_p_data_container">QCPDataContainer</link>&lt; <link linkend="class_q_c_p_financial_data">QCPFinancialData</link> &gt;  <link linkend="qcustomplot_8h_1ae36e482e04f19a54782f01ab38c354a6">QCPFinancialDataContainer</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                            <para>typedef QVector&lt; <link linkend="class_q_c_p_error_bars_data">QCPErrorBarsData</link> &gt;  <link linkend="qcustomplot_8h_1a8c4472a4da738e0ddbf6b03222c39906">QCPErrorBarsDataContainer</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title>Functions</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="qcustomplot_8h_1accbe1a1a6b69d3db3f495f66375f7301">Q_DECLARE_TYPEINFO</link> (
+<link linkend="class_q_c_p_vector2_d">QCPVector2D</link> , Q_MOVABLE_TYPE )</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const <link linkend="class_q_c_p_vector2_d">QCPVector2D</link> <link linkend="qcustomplot_8h_1aa75268fb64b9eaee5448fb815007bee9">operator*</link> (
+double factor, const <link linkend="class_q_c_p_vector2_d">QCPVector2D</link> &amp; vec)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const <link linkend="class_q_c_p_vector2_d">QCPVector2D</link> <link linkend="qcustomplot_8h_1aace10d28a76e84e7380ede1a9cb58274">operator*</link> (
+const <link linkend="class_q_c_p_vector2_d">QCPVector2D</link> &amp; vec, double factor)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const <link linkend="class_q_c_p_vector2_d">QCPVector2D</link> <link linkend="qcustomplot_8h_1aa69909afc8c656999a2ea292ea01244b">operator/</link> (
+const <link linkend="class_q_c_p_vector2_d">QCPVector2D</link> &amp; vec, double divisor)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const <link linkend="class_q_c_p_vector2_d">QCPVector2D</link> <link linkend="qcustomplot_8h_1a24cc5985429b12dbed4d0d3c5a917d20">operator+</link> (
+const <link linkend="class_q_c_p_vector2_d">QCPVector2D</link> &amp; vec1, const <link linkend="class_q_c_p_vector2_d">QCPVector2D</link> &amp; vec2)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const <link linkend="class_q_c_p_vector2_d">QCPVector2D</link> <link linkend="qcustomplot_8h_1a9e01331d8debf0877ee4cba9abd83605">operator-</link> (
+const <link linkend="class_q_c_p_vector2_d">QCPVector2D</link> &amp; vec1, const <link linkend="class_q_c_p_vector2_d">QCPVector2D</link> &amp; vec2)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const <link linkend="class_q_c_p_vector2_d">QCPVector2D</link> <link linkend="qcustomplot_8h_1a14c807d345ee3f22d6809bb5a4137b52">operator-</link> (
+const <link linkend="class_q_c_p_vector2_d">QCPVector2D</link> &amp; vec)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="qcustomplot_8h_1aed23afce99cb2c82db7540026f3b7af3">Q_DECLARE_TYPEINFO</link> (
+<link linkend="class_q_c_p_range">QCPRange</link> , Q_MOVABLE_TYPE )</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const <link linkend="class_q_c_p_range">QCPRange</link> <link linkend="qcustomplot_8h_1aede14e69c31568a75bd3e9286603c9e0">operator+</link> (
+const <link linkend="class_q_c_p_range">QCPRange</link> &amp; range, double value)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const <link linkend="class_q_c_p_range">QCPRange</link> <link linkend="qcustomplot_8h_1aa7dd8efde53d115b7107826194879069">operator+</link> (
+double value, const <link linkend="class_q_c_p_range">QCPRange</link> &amp; range)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const <link linkend="class_q_c_p_range">QCPRange</link> <link linkend="qcustomplot_8h_1a797f82830b516646da8873f82e39e356">operator-</link> (
+const <link linkend="class_q_c_p_range">QCPRange</link> &amp; range, double value)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const <link linkend="class_q_c_p_range">QCPRange</link> <link linkend="qcustomplot_8h_1a558b1248ff6a9e41fd5b2630555a8acc">operator*</link> (
+const <link linkend="class_q_c_p_range">QCPRange</link> &amp; range, double value)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const <link linkend="class_q_c_p_range">QCPRange</link> <link linkend="qcustomplot_8h_1a5cb2332f6957021f47cc768089f4f090">operator*</link> (
+double value, const <link linkend="class_q_c_p_range">QCPRange</link> &amp; range)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const <link linkend="class_q_c_p_range">QCPRange</link> <link linkend="qcustomplot_8h_1a4b366a3a21974c88e09b0d39d4a24a4b">operator/</link> (
+const <link linkend="class_q_c_p_range">QCPRange</link> &amp; range, double value)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="qcustomplot_8h_1a9139711c554711cbce8d84f505061621">Q_DECLARE_TYPEINFO</link> (
+<link linkend="class_q_c_p_data_range">QCPDataRange</link> , Q_MOVABLE_TYPE )</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const <link linkend="class_q_c_p_data_selection">QCPDataSelection</link> <link linkend="qcustomplot_8h_1a49c0217af248959d59abfdd29401b678">operator+</link> (
+const <link linkend="class_q_c_p_data_selection">QCPDataSelection</link> &amp; a, const <link linkend="class_q_c_p_data_selection">QCPDataSelection</link> &amp; b)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const <link linkend="class_q_c_p_data_selection">QCPDataSelection</link> <link linkend="qcustomplot_8h_1a5feed9419bd3df5cb4d4a761580545cc">operator+</link> (
+const <link linkend="class_q_c_p_data_range">QCPDataRange</link> &amp; a, const <link linkend="class_q_c_p_data_selection">QCPDataSelection</link> &amp; b)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const <link linkend="class_q_c_p_data_selection">QCPDataSelection</link> <link linkend="qcustomplot_8h_1aa574f51a74d6998e9be95e252e6be287">operator+</link> (
+const <link linkend="class_q_c_p_data_selection">QCPDataSelection</link> &amp; a, const <link linkend="class_q_c_p_data_range">QCPDataRange</link> &amp; b)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const <link linkend="class_q_c_p_data_selection">QCPDataSelection</link> <link linkend="qcustomplot_8h_1a0822e3133b80b5dedfc8050a19c1e0c5">operator+</link> (
+const <link linkend="class_q_c_p_data_range">QCPDataRange</link> &amp; a, const <link linkend="class_q_c_p_data_range">QCPDataRange</link> &amp; b)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const <link linkend="class_q_c_p_data_selection">QCPDataSelection</link> <link linkend="qcustomplot_8h_1a41147ef7d6303c746e398278b7b624d1">operator-</link> (
+const <link linkend="class_q_c_p_data_selection">QCPDataSelection</link> &amp; a, const <link linkend="class_q_c_p_data_selection">QCPDataSelection</link> &amp; b)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const <link linkend="class_q_c_p_data_selection">QCPDataSelection</link> <link linkend="qcustomplot_8h_1a726652cb9ed840e3025435cc2c266468">operator-</link> (
+const <link linkend="class_q_c_p_data_range">QCPDataRange</link> &amp; a, const <link linkend="class_q_c_p_data_selection">QCPDataSelection</link> &amp; b)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const <link linkend="class_q_c_p_data_selection">QCPDataSelection</link> <link linkend="qcustomplot_8h_1a32c5784ac70946f09a09b2dd19816b78">operator-</link> (
+const <link linkend="class_q_c_p_data_selection">QCPDataSelection</link> &amp; a, const <link linkend="class_q_c_p_data_range">QCPDataRange</link> &amp; b)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const <link linkend="class_q_c_p_data_selection">QCPDataSelection</link> <link linkend="qcustomplot_8h_1ad62dd67b505c1fa9c02d1aafabcb9acf">operator-</link> (
+const <link linkend="class_q_c_p_data_range">QCPDataRange</link> &amp; a, const <link linkend="class_q_c_p_data_range">QCPDataRange</link> &amp; b)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="qcustomplot_8h_1a1376c7245cffa4c7a6b945a542473907">Q_DECLARE_TYPEINFO</link> (
+<link linkend="class_q_c_p_line_ending">QCPLineEnding</link> , Q_MOVABLE_TYPE )</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="qcustomplot_8h_1adb726938bdfce1d1136855b9b3613d2e">Q_DECLARE_TYPEINFO</link> (
+<link linkend="class_q_c_p_scatter_style">QCPScatterStyle</link> , Q_MOVABLE_TYPE )</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="qcustomplot_8h_1a422c3e935fcaf8b1e0cfd18e0672e54b">Q_DECLARE_TYPEINFO</link> (
+<link linkend="class_q_c_p_graph_data">QCPGraphData</link> , Q_PRIMITIVE_TYPE )</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="qcustomplot_8h_1aa7fac95baf023cd00e99dffdb545b1a3">Q_DECLARE_TYPEINFO</link> (
+<link linkend="class_q_c_p_curve_data">QCPCurveData</link> , Q_PRIMITIVE_TYPE )</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="qcustomplot_8h_1af5914e844cd48c5f0332a4acaafb4461">Q_DECLARE_TYPEINFO</link> (
+<link linkend="class_q_c_p_bars_data">QCPBarsData</link> , Q_PRIMITIVE_TYPE )</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="qcustomplot_8h_1adfb047f77f52e89d50655c95ea5469e2">Q_DECLARE_TYPEINFO</link> (
+<link linkend="class_q_c_p_statistical_box_data">QCPStatisticalBoxData</link> , Q_MOVABLE_TYPE )</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="qcustomplot_8h_1a1235fc5306324b607571019cbeeae197">Q_DECLARE_TYPEINFO</link> (
+<link linkend="class_q_c_p_financial_data">QCPFinancialData</link> , Q_PRIMITIVE_TYPE )</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="qcustomplot_8h_1ada5a683e023b10f971a90bffed67e408">Q_DECLARE_TYPEINFO</link> (
+<link linkend="class_q_c_p_error_bars_data">QCPErrorBarsData</link> , Q_PRIMITIVE_TYPE )</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+    <simplesect>
+        <title>Detailed Description</title>
+    <para>Definition in file E:/IME/3 ano/Programação/Projeto 2018/Shilton_circuito_RLC/RLC_Serie/qcustomplot.h</para>
+    </simplesect>
+</section>

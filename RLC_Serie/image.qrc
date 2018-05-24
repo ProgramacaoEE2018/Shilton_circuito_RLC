@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>img/400px-RLC_serie.PNG</file>
+    </qresource>
+</RCC>

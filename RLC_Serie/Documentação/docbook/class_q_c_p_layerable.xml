@@ -1,0 +1,596 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="class_q_c_p_layerable">
+<title>QCPLayerable class Reference</title>
+<para>
+    <programlisting>#include <link linkend="qcustomplot_8h">&lt;qcustomplot.h&gt;</link></programlisting>
+</para>
+<para>Inheritance diagram for QCPLayerable</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_q_c_p_layerable__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for QCPLayerable</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_q_c_p_layerable__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title>Protected Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool mVisible</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QCustomPlot * mParentPlot</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPointer&lt; QCPLayerable &gt; mParentLayerable</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QCPLayer * mLayer</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool mAntialiased</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="class_q_c_p_layerable_1a74c0fa237f29bf0e49565013fc5d1ec0">QCPLayerable</link> (
+<link linkend="class_q_custom_plot">QCustomPlot</link> * plot, QString targetLayer, <link linkend="class_q_c_p_layerable">QCPLayerable</link> * parentLayerable)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual <link linkend="class_q_c_p_layerable_1a4231cf5b3601d6d3a5781283e7a9735b">~QCPLayerable</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="class_q_c_p_layerable_1af0297b944b6192b6d67d00bff41b6b70">visible</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="class_q_custom_plot">QCustomPlot</link> * <link linkend="class_q_c_p_layerable_1a473edb813a4c1929d6b6a8fe3ff3faf7">parentPlot</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="class_q_c_p_layerable">QCPLayerable</link> * <link linkend="class_q_c_p_layerable_1aa78b7e644d2c519e1a9a6f2ac5fcd858">parentLayerable</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="class_q_c_p_layer">QCPLayer</link> * <link linkend="class_q_c_p_layerable_1a5ff4862e8c784c9f5986dbc1533ba2a4">layer</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="class_q_c_p_layerable_1a71cbd212fde2703cee076e204a475709">antialiased</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_layerable_1a3bed99ddc396b48ce3ebfdc0418744f8">setVisible</link> (
+bool on)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>Q_SLOT bool <link linkend="class_q_c_p_layerable_1ab0d0da6d2de45a118886d2c8e16d5a54">setLayer</link> (
+<link linkend="class_q_c_p_layer">QCPLayer</link> * layer)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="class_q_c_p_layerable_1ab25a0e7b897993b44447caee0f142083">setLayer</link> (
+const QString &amp; layerName)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_layerable_1a4fd43e89be4a553ead41652565ff0581">setAntialiased</link> (
+bool enabled)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual double <link linkend="class_q_c_p_layerable_1a04db8351fefd44cfdb77958e75c6288e">selectTest</link> (
+const QPointF &amp; pos, bool onlySelectable, QVariant * details)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="class_q_c_p_layerable_1ab054e88f15d485defcb95e7376f119e7">realVisibility</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="class_q_c_p_layerable_1ab20b7dbd8e0249ed61adb9622c427382">parentPlotInitialized</link> (
+<link linkend="class_q_custom_plot">QCustomPlot</link> * parentPlot)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual <link linkend="namespace_q_c_p_1a2ad6bb6281c7c2d593d4277b44c2b037">QCP::Interaction</link> <link linkend="class_q_c_p_layerable_1a908c9edda761886f33893be326dab77d">selectionCategory</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual QRect <link linkend="class_q_c_p_layerable_1acbcfc9ecc75433747b1978a77b1864b3">clipRect</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="class_q_c_p_layerable_1afdf83ddc6a265cbf4c89fe99d3d93473">applyDefaultAntialiasingHint</link> (
+<link linkend="class_q_c_p_painter">QCPPainter</link> * painter)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="class_q_c_p_layerable_1aecf2f7087482d4b6a78cb2770e5ed12d">draw</link> (
+<link linkend="class_q_c_p_painter">QCPPainter</link> * painter)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="class_q_c_p_layerable_1a7498c2d0d081cf7cad0fb3bb93aa0e91">selectEvent</link> (
+QMouseEvent * event, bool additive, const QVariant &amp; details, bool * selectionStateChanged)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="class_q_c_p_layerable_1ae546370644a5551c76af739afc008bee">deselectEvent</link> (
+bool * selectionStateChanged)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="class_q_c_p_layerable_1af6567604818db90f4fd52822f8bc8376">mousePressEvent</link> (
+QMouseEvent * event, const QVariant &amp; details)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="class_q_c_p_layerable_1a9eee1ba47fd69be111059ca3881933e4">mouseMoveEvent</link> (
+QMouseEvent * event, const QPointF &amp; startPos)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="class_q_c_p_layerable_1aa0d79b005686f668622bbe66ac03ba2c">mouseReleaseEvent</link> (
+QMouseEvent * event, const QPointF &amp; startPos)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="class_q_c_p_layerable_1a4171e2e823aca242dd0279f00ed2de81">mouseDoubleClickEvent</link> (
+QMouseEvent * event, const QVariant &amp; details)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="class_q_c_p_layerable_1a47dfd7b8fd99c08ca54e09c362b6f022">wheelEvent</link> (
+QWheelEvent * event)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_layerable_1a8cbe5a0c9a5674249982f5ca5f8e02bc">initializeParentPlot</link> (
+<link linkend="class_q_custom_plot">QCustomPlot</link> * parentPlot)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_layerable_1aa23c893671f1f6744ac235cf2204cf3a">setParentLayerable</link> (
+<link linkend="class_q_c_p_layerable">QCPLayerable</link> * parentLayerable)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="class_q_c_p_layerable_1af94484cfb7cbbddb7de522e9be71d9a4">moveToLayer</link> (
+<link linkend="class_q_c_p_layer">QCPLayer</link> * layer, bool prepend)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_layerable_1acb663e375d2d36dc5c55021ee5a2119b">applyAntialiasingHint</link> (
+<link linkend="class_q_c_p_painter">QCPPainter</link> * painter, bool localAntialiased, <link linkend="namespace_q_c_p_1ae55dbe315d41fe80f29ba88100843a0c">QCP::AntialiasedElement</link> overrideElement)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+    <simplesect>
+
+<para>Base class for all drawable objects. </para>
+    </simplesect>
+        <simplesect>
+            <title>Detailed Description</title>
+
+<para>This is the abstract base class most visible objects derive from, e.g. plottables, axes, grid etc.</para>
+
+<para>Every layerable is on a layer (<link linkend="class_q_c_p_layer">QCPLayer</link>) which allows controlling the rendering order by stacking the layers accordingly.</para>
+
+<para>For details about the layering mechanism, see the <link linkend="class_q_c_p_layer">QCPLayer</link> documentation. </para>
+                <para>Definition at line 693 of file qcustomplot.h</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>qcustomplot.h</para></listitem></itemizedlist></para>
+        </simplesect>
+        <section>
+            <title>Member Data Documentation</title>
+        </section>
+            <section xml:id="class_q_c_p_layerable_1a74c0fa237f29bf0e49565013fc5d1ec0">
+                <title>QCPLayerable::QCPLayerable (QCustomPlot *plot, QString targetLayer=QString(), QCPLayerable *parentLayerable=0)</title> <emphasis></emphasis>
+                
+<para>Creates a new <link linkend="class_q_c_p_layerable">QCPLayerable</link> instance.</para>
+
+<para>Since <link linkend="class_q_c_p_layerable">QCPLayerable</link> is an abstract base class, it can&apos;t be instantiated directly. Use one of the derived classes.</para>
+
+<para>If <emphasis>plot</emphasis> is provided, it automatically places itself on the layer named <emphasis>targetLayer</emphasis>. If <emphasis>targetLayer</emphasis> is an empty string, it places itself on the current layer of the plot (see <link linkend="class_q_custom_plot_1a73a6dc47c653bb6f8f030abca5a11852">QCustomPlot::setCurrentLayer</link>).</para>
+
+<para>It is possible to provide 0 as <emphasis>plot</emphasis>. In that case, you should assign a parent plot at a later time with <link linkend="class_q_c_p_layerable_1a8cbe5a0c9a5674249982f5ca5f8e02bc">initializeParentPlot</link>.</para>
+
+<para>The layerable&apos;s parent layerable is set to <emphasis>parentLayerable</emphasis>, if provided. Direct layerable parents are mainly used to control visibility in a hierarchy of layerables. This means a layerable is only drawn, if all its ancestor layerables are also visible. Note that <emphasis>parentLayerable</emphasis> does not become the QObject-parent (for memory management) of this layerable, <emphasis>plot</emphasis> does. It is not uncommon to set the QObject-parent to something else in the constructors of <link linkend="class_q_c_p_layerable">QCPLayerable</link> subclasses, to guarantee a working destruction hierarchy. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_layerable_1a4231cf5b3601d6d3a5781283e7a9735b">
+                <title>QCPLayerable::~QCPLayerable ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_layerable_1af0297b944b6192b6d67d00bff41b6b70">
+                <title>bool QCPLayerable::visible () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_layerable_1a473edb813a4c1929d6b6a8fe3ff3faf7">
+                <title>QCustomPlot* QCPLayerable::parentPlot () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_layerable_1aa78b7e644d2c519e1a9a6f2ac5fcd858">
+                <title>QCPLayerable * QCPLayerable::parentLayerable () const</title> <emphasis></emphasis>
+                
+<para>Returns the parent layerable of this layerable. The parent layerable is used to provide visibility hierarchies in conjunction with the method <link linkend="class_q_c_p_layerable_1ab054e88f15d485defcb95e7376f119e7">realVisibility</link>. This way, layerables only get drawn if their parent layerables are visible, too.</para>
+
+<para>Note that a parent layerable is not necessarily also the QObject parent for memory management. Further, a layerable doesn&apos;t always have a parent layerable, so this function may return 0.</para>
+
+<para>A parent layerable is set implicitly when placed inside layout elements and doesn&apos;t need to be set manually by the user. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_layerable_1a5ff4862e8c784c9f5986dbc1533ba2a4">
+                <title>QCPLayer* QCPLayerable::layer () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_layerable_1a71cbd212fde2703cee076e204a475709">
+                <title>bool QCPLayerable::antialiased () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_layerable_1a3bed99ddc396b48ce3ebfdc0418744f8">
+                <title>void QCPLayerable::setVisible (bool on)</title> <emphasis></emphasis>
+                
+<para>Sets the visibility of this layerable object. If an object is not visible, it will not be drawn on the <link linkend="class_q_custom_plot">QCustomPlot</link> surface, and user interaction with it (e.g. click and selection) is not possible. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_layerable_1ab0d0da6d2de45a118886d2c8e16d5a54">
+                <title>bool QCPLayerable::setLayer (QCPLayer *layer)</title> <emphasis></emphasis>
+                
+<para>Sets the <emphasis>layer</emphasis> of this layerable object. The object will be placed on top of the other objects already on <emphasis>layer</emphasis>.</para>
+
+<para>If <emphasis>layer</emphasis> is 0, this layerable will not be on any layer and thus not appear in the plot (or interact/receive events).</para>
+
+<para>Returns true if the layer of this layerable was successfully changed to <emphasis>layer</emphasis>. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_layerable_1ab25a0e7b897993b44447caee0f142083">
+                <title>bool QCPLayerable::setLayer (const QString &amp;layerName)</title> <emphasis></emphasis>
+                
+<para>This is an overloaded member function, provided for convenience. It differs from the above function only in what argument(s) it accepts. Sets the layer of this layerable object by name</para>
+
+<para>Returns true on success, i.e. if <emphasis>layerName</emphasis> is a valid layer name. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_layerable_1a4fd43e89be4a553ead41652565ff0581">
+                <title>void QCPLayerable::setAntialiased (bool enabled)</title> <emphasis></emphasis>
+                
+<para>Sets whether this object will be drawn antialiased or not.</para>
+
+<para>Note that antialiasing settings may be overridden by <link linkend="class_q_custom_plot_1af6f91e5eab1be85f67c556e98c3745e8">QCustomPlot::setAntialiasedElements</link> and <link linkend="class_q_custom_plot_1ae10d685b5eabea2999fb8775ca173c24">QCustomPlot::setNotAntialiasedElements</link>. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_layerable_1a04db8351fefd44cfdb77958e75c6288e">
+                <title>double QCPLayerable::selectTest (const QPointF &amp;pos, bool onlySelectable, QVariant *details=0) const</title> <emphasis></emphasis>
+                
+<para>This function is used to decide whether a click hits a layerable object or not.</para>
+
+<para><emphasis>pos</emphasis> is a point in pixel coordinates on the <link linkend="class_q_custom_plot">QCustomPlot</link> surface. This function returns the shortest pixel distance of this point to the object. If the object is either invisible or the distance couldn&apos;t be determined, -1.0 is returned. Further, if <emphasis>onlySelectable</emphasis> is true and the object is not selectable, -1.0 is returned, too.</para>
+
+<para>If the object is represented not by single lines but by an area like a <link linkend="class_q_c_p_item_text">QCPItemText</link> or the bars of a <link linkend="class_q_c_p_bars">QCPBars</link> plottable, a click inside the area should also be considered a hit. In these cases this function thus returns a constant value greater zero but still below the parent plot&apos;s selection tolerance. (typically the selectionTolerance multiplied by 0.99).</para>
+
+<para>Providing a constant value for area objects allows selecting line objects even when they are obscured by such area objects, by clicking close to the lines (i.e. closer than 0.99*selectionTolerance).</para>
+
+<para>The actual setting of the selection state is not done by this function. This is handled by the parent <link linkend="class_q_custom_plot">QCustomPlot</link> when the mouseReleaseEvent occurs, and the finally selected object is notified via the <link linkend="class_q_c_p_layerable_1a7498c2d0d081cf7cad0fb3bb93aa0e91">selectEvent</link>/<link linkend="class_q_c_p_layerable_1ae546370644a5551c76af739afc008bee">deselectEvent</link> methods.</para>
+
+<para><emphasis>details</emphasis> is an optional output parameter. Every layerable subclass may place any information in <emphasis>details</emphasis>. This information will be passed to <link linkend="class_q_c_p_layerable_1a7498c2d0d081cf7cad0fb3bb93aa0e91">selectEvent</link> when the parent <link linkend="class_q_custom_plot">QCustomPlot</link> decides on the basis of this selectTest call, that the object was successfully selected. The subsequent call to <link linkend="class_q_c_p_layerable_1a7498c2d0d081cf7cad0fb3bb93aa0e91">selectEvent</link> will carry the <emphasis>details</emphasis>. This is useful for multi-part objects (like <link linkend="class_q_c_p_axis">QCPAxis</link>). This way, a possibly complex calculation to decide which part was clicked is only done once in <link linkend="class_q_c_p_layerable_1a04db8351fefd44cfdb77958e75c6288e">selectTest</link>. The result (i.e. the actually clicked part) can then be placed in <emphasis>details</emphasis>. So in the subsequent <link linkend="class_q_c_p_layerable_1a7498c2d0d081cf7cad0fb3bb93aa0e91">selectEvent</link>, the decision which part was selected doesn&apos;t have to be done a second time for a single selection operation.</para>
+
+<para>You may pass 0 as <emphasis>details</emphasis> to indicate that you are not interested in those selection details.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_layerable_1a7498c2d0d081cf7cad0fb3bb93aa0e91">selectEvent</link>, <link linkend="class_q_c_p_layerable_1ae546370644a5551c76af739afc008bee">deselectEvent</link>, <link linkend="class_q_c_p_layerable_1af6567604818db90f4fd52822f8bc8376">mousePressEvent</link>, <link linkend="class_q_c_p_layerable_1a47dfd7b8fd99c08ca54e09c362b6f022">wheelEvent</link>, <link linkend="class_q_custom_plot_1a5ee1e2f6ae27419deca53e75907c27e5">QCustomPlot::setInteractions</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_layerable_1ab054e88f15d485defcb95e7376f119e7">
+                <title>bool QCPLayerable::realVisibility () const</title> <emphasis></emphasis>
+                
+<para>Returns whether this layerable is visible, taking the visibility of the layerable parent and the visibility of this layerable&apos;s layer into account. This is the method that is consulted to decide whether a layerable shall be drawn or not.</para>
+
+<para>If this layerable has a direct layerable parent (usually set via hierarchies implemented in subclasses, like in the case of <link linkend="class_q_c_p_layout_element">QCPLayoutElement</link>), this function returns true only if this layerable has its visibility set to true and the parent layerable&apos;s <link linkend="class_q_c_p_layerable_1ab054e88f15d485defcb95e7376f119e7">realVisibility</link> returns true. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_layerable_1ab20b7dbd8e0249ed61adb9622c427382">
+                <title>void QCPLayerable::parentPlotInitialized (QCustomPlot *parentPlot)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_layerable_1a908c9edda761886f33893be326dab77d">
+                <title>QCP::Interaction QCPLayerable::selectionCategory () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_layerable_1acbcfc9ecc75433747b1978a77b1864b3">
+                <title>QRect QCPLayerable::clipRect () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_layerable_1afdf83ddc6a265cbf4c89fe99d3d93473">
+                <title>void QCPLayerable::applyDefaultAntialiasingHint (QCPPainter *painter) const =0</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_layerable_1aecf2f7087482d4b6a78cb2770e5ed12d">
+                <title>void QCPLayerable::draw (QCPPainter *painter)=0</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_layerable_1a7498c2d0d081cf7cad0fb3bb93aa0e91">
+                <title>void QCPLayerable::selectEvent (QMouseEvent *event, bool additive, const QVariant &amp;details, bool *selectionStateChanged)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_layerable_1ae546370644a5551c76af739afc008bee">
+                <title>void QCPLayerable::deselectEvent (bool *selectionStateChanged)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_layerable_1af6567604818db90f4fd52822f8bc8376">
+                <title>void QCPLayerable::mousePressEvent (QMouseEvent *event, const QVariant &amp;details)</title> <emphasis></emphasis>
+                
+<para>This event gets called when the user presses a mouse button while the cursor is over the layerable. Whether a cursor is over the layerable is decided by a preceding call to <link linkend="class_q_c_p_layerable_1a04db8351fefd44cfdb77958e75c6288e">selectTest</link>.</para>
+
+<para>The current pixel position of the cursor on the <link linkend="class_q_custom_plot">QCustomPlot</link> widget is accessible via <computeroutput>event-&gt;pos()</computeroutput>. The parameter <emphasis>details</emphasis> contains layerable-specific details about the hit, which were generated in the previous call to <link linkend="class_q_c_p_layerable_1a04db8351fefd44cfdb77958e75c6288e">selectTest</link>. For example, One-dimensional plottables like <link linkend="class_q_c_p_graph">QCPGraph</link> or <link linkend="class_q_c_p_bars">QCPBars</link> convey the clicked data point in the <emphasis>details</emphasis> parameter, as <link linkend="class_q_c_p_data_selection">QCPDataSelection</link> packed as QVariant. Multi-part objects convey the specific <computeroutput>SelectablePart</computeroutput> that was hit (e.g. <link linkend="class_q_c_p_axis_1abee4c7a54c468b1385dfce2c898b115f">QCPAxis::SelectablePart</link> in the case of axes).</para>
+
+<para><link linkend="class_q_custom_plot">QCustomPlot</link> uses an event propagation system that works the same as Qt&apos;s system. If your layerable doesn&apos;t reimplement the <link linkend="class_q_c_p_layerable_1af6567604818db90f4fd52822f8bc8376">mousePressEvent</link> or explicitly calls <computeroutput>event-&gt;ignore()</computeroutput> in its reimplementation, the event will be propagated to the next layerable in the stacking order.</para>
+
+<para>Once a layerable has accepted the <link linkend="class_q_c_p_layerable_1af6567604818db90f4fd52822f8bc8376">mousePressEvent</link>, it is considered the mouse grabber and will receive all following calls to <link linkend="class_q_c_p_layerable_1a9eee1ba47fd69be111059ca3881933e4">mouseMoveEvent</link> or <link linkend="class_q_c_p_layerable_1aa0d79b005686f668622bbe66ac03ba2c">mouseReleaseEvent</link> for this mouse interaction (a &quot;mouse interaction&quot; in this context ends with the release).</para>
+
+<para>The default implementation does nothing except explicitly ignoring the event with <computeroutput>event-&gt;ignore()</computeroutput>.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_layerable_1a9eee1ba47fd69be111059ca3881933e4">mouseMoveEvent</link>, <link linkend="class_q_c_p_layerable_1aa0d79b005686f668622bbe66ac03ba2c">mouseReleaseEvent</link>, <link linkend="class_q_c_p_layerable_1a4171e2e823aca242dd0279f00ed2de81">mouseDoubleClickEvent</link>, <link linkend="class_q_c_p_layerable_1a47dfd7b8fd99c08ca54e09c362b6f022">wheelEvent</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_layerable_1a9eee1ba47fd69be111059ca3881933e4">
+                <title>void QCPLayerable::mouseMoveEvent (QMouseEvent *event, const QPointF &amp;startPos)</title> <emphasis></emphasis>
+                
+<para>This event gets called when the user moves the mouse while holding a mouse button, after this layerable has become the mouse grabber by accepting the preceding <link linkend="class_q_c_p_layerable_1af6567604818db90f4fd52822f8bc8376">mousePressEvent</link>.</para>
+
+<para>The current pixel position of the cursor on the <link linkend="class_q_custom_plot">QCustomPlot</link> widget is accessible via <computeroutput>event-&gt;pos()</computeroutput>. The parameter <emphasis>startPos</emphasis> indicates the position where the initial <link linkend="class_q_c_p_layerable_1af6567604818db90f4fd52822f8bc8376">mousePressEvent</link> occured, that started the mouse interaction.</para>
+
+<para>The default implementation does nothing.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_layerable_1af6567604818db90f4fd52822f8bc8376">mousePressEvent</link>, <link linkend="class_q_c_p_layerable_1aa0d79b005686f668622bbe66ac03ba2c">mouseReleaseEvent</link>, <link linkend="class_q_c_p_layerable_1a4171e2e823aca242dd0279f00ed2de81">mouseDoubleClickEvent</link>, <link linkend="class_q_c_p_layerable_1a47dfd7b8fd99c08ca54e09c362b6f022">wheelEvent</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_layerable_1aa0d79b005686f668622bbe66ac03ba2c">
+                <title>void QCPLayerable::mouseReleaseEvent (QMouseEvent *event, const QPointF &amp;startPos)</title> <emphasis></emphasis>
+                
+<para>This event gets called when the user releases the mouse button, after this layerable has become the mouse grabber by accepting the preceding <link linkend="class_q_c_p_layerable_1af6567604818db90f4fd52822f8bc8376">mousePressEvent</link>.</para>
+
+<para>The current pixel position of the cursor on the <link linkend="class_q_custom_plot">QCustomPlot</link> widget is accessible via <computeroutput>event-&gt;pos()</computeroutput>. The parameter <emphasis>startPos</emphasis> indicates the position where the initial <link linkend="class_q_c_p_layerable_1af6567604818db90f4fd52822f8bc8376">mousePressEvent</link> occured, that started the mouse interaction.</para>
+
+<para>The default implementation does nothing.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_layerable_1af6567604818db90f4fd52822f8bc8376">mousePressEvent</link>, <link linkend="class_q_c_p_layerable_1a9eee1ba47fd69be111059ca3881933e4">mouseMoveEvent</link>, <link linkend="class_q_c_p_layerable_1a4171e2e823aca242dd0279f00ed2de81">mouseDoubleClickEvent</link>, <link linkend="class_q_c_p_layerable_1a47dfd7b8fd99c08ca54e09c362b6f022">wheelEvent</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_layerable_1a4171e2e823aca242dd0279f00ed2de81">
+                <title>void QCPLayerable::mouseDoubleClickEvent (QMouseEvent *event, const QVariant &amp;details)</title> <emphasis></emphasis>
+                
+<para>This event gets called when the user presses the mouse button a second time in a double-click, while the cursor is over the layerable. Whether a cursor is over the layerable is decided by a preceding call to <link linkend="class_q_c_p_layerable_1a04db8351fefd44cfdb77958e75c6288e">selectTest</link>.</para>
+
+<para>The <link linkend="class_q_c_p_layerable_1a4171e2e823aca242dd0279f00ed2de81">mouseDoubleClickEvent</link> is called instead of the second <link linkend="class_q_c_p_layerable_1af6567604818db90f4fd52822f8bc8376">mousePressEvent</link>. So in the case of a double-click, the event succession is <emphasis>pressEvent &#8211; releaseEvent &#8211; doubleClickEvent &#8211; releaseEvent</emphasis>.</para>
+
+<para>The current pixel position of the cursor on the <link linkend="class_q_custom_plot">QCustomPlot</link> widget is accessible via <computeroutput>event-&gt;pos()</computeroutput>. The parameter <emphasis>details</emphasis> contains layerable-specific details about the hit, which were generated in the previous call to <link linkend="class_q_c_p_layerable_1a04db8351fefd44cfdb77958e75c6288e">selectTest</link>. For example, One-dimensional plottables like <link linkend="class_q_c_p_graph">QCPGraph</link> or <link linkend="class_q_c_p_bars">QCPBars</link> convey the clicked data point in the <emphasis>details</emphasis> parameter, as <link linkend="class_q_c_p_data_selection">QCPDataSelection</link> packed as QVariant. Multi-part objects convey the specific <computeroutput>SelectablePart</computeroutput> that was hit (e.g. <link linkend="class_q_c_p_axis_1abee4c7a54c468b1385dfce2c898b115f">QCPAxis::SelectablePart</link> in the case of axes).</para>
+
+<para>Similarly to <link linkend="class_q_c_p_layerable_1af6567604818db90f4fd52822f8bc8376">mousePressEvent</link>, once a layerable has accepted the <link linkend="class_q_c_p_layerable_1a4171e2e823aca242dd0279f00ed2de81">mouseDoubleClickEvent</link>, it is considered the mouse grabber and will receive all following calls to <link linkend="class_q_c_p_layerable_1a9eee1ba47fd69be111059ca3881933e4">mouseMoveEvent</link> and <link linkend="class_q_c_p_layerable_1aa0d79b005686f668622bbe66ac03ba2c">mouseReleaseEvent</link> for this mouse interaction (a &quot;mouse interaction&quot; in this context ends with the release).</para>
+
+<para>The default implementation does nothing except explicitly ignoring the event with <computeroutput>event-&gt;ignore()</computeroutput>.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_layerable_1af6567604818db90f4fd52822f8bc8376">mousePressEvent</link>, <link linkend="class_q_c_p_layerable_1a9eee1ba47fd69be111059ca3881933e4">mouseMoveEvent</link>, <link linkend="class_q_c_p_layerable_1aa0d79b005686f668622bbe66ac03ba2c">mouseReleaseEvent</link>, <link linkend="class_q_c_p_layerable_1a47dfd7b8fd99c08ca54e09c362b6f022">wheelEvent</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_layerable_1a47dfd7b8fd99c08ca54e09c362b6f022">
+                <title>void QCPLayerable::wheelEvent (QWheelEvent *event)</title> <emphasis></emphasis>
+                
+<para>This event gets called when the user turns the mouse scroll wheel while the cursor is over the layerable. Whether a cursor is over the layerable is decided by a preceding call to <link linkend="class_q_c_p_layerable_1a04db8351fefd44cfdb77958e75c6288e">selectTest</link>.</para>
+
+<para>The current pixel position of the cursor on the <link linkend="class_q_custom_plot">QCustomPlot</link> widget is accessible via <computeroutput>event-&gt;pos()</computeroutput>.</para>
+
+<para>The <computeroutput>event-&gt;delta()</computeroutput> indicates how far the mouse wheel was turned, which is usually +/- 120 for single rotation steps. However, if the mouse wheel is turned rapidly, multiple steps may accumulate to one event, making <computeroutput>event-&gt;delta()</computeroutput> larger. On the other hand, if the wheel has very smooth steps or none at all, the delta may be smaller.</para>
+
+<para>The default implementation does nothing.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_layerable_1af6567604818db90f4fd52822f8bc8376">mousePressEvent</link>, <link linkend="class_q_c_p_layerable_1a9eee1ba47fd69be111059ca3881933e4">mouseMoveEvent</link>, <link linkend="class_q_c_p_layerable_1aa0d79b005686f668622bbe66ac03ba2c">mouseReleaseEvent</link>, <link linkend="class_q_c_p_layerable_1a4171e2e823aca242dd0279f00ed2de81">mouseDoubleClickEvent</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_layerable_1a8cbe5a0c9a5674249982f5ca5f8e02bc">
+                <title>void QCPLayerable::initializeParentPlot (QCustomPlot *parentPlot)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_layerable_1aa23c893671f1f6744ac235cf2204cf3a">
+                <title>void QCPLayerable::setParentLayerable (QCPLayerable *parentLayerable)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_layerable_1af94484cfb7cbbddb7de522e9be71d9a4">
+                <title>bool QCPLayerable::moveToLayer (QCPLayer *layer, bool prepend)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_layerable_1acb663e375d2d36dc5c55021ee5a2119b">
+                <title>void QCPLayerable::applyAntialiasingHint (QCPPainter *painter, bool localAntialiased, QCP::AntialiasedElement overrideElement) const</title> <emphasis></emphasis>
+                
+            </section>
+</section>

@@ -1,0 +1,438 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="class_q_c_p_item_bracket">
+<title>QCPItemBracket class Reference</title>
+<para>
+    <programlisting>#include <link linkend="qcustomplot_8h">&lt;qcustomplot.h&gt;</link></programlisting>
+</para>
+<para>Inheritance diagram for QCPItemBracket</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_q_c_p_item_bracket__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for QCPItemBracket</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_q_c_p_item_bracket__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                            <para><literallayout>enum <link linkend="class_q_c_p_item_bracket_1a7ac3afd0b24a607054e7212047d59dbd">BracketStyle</link> {
+<link linkend="class_q_c_p_item_bracket_1a7ac3afd0b24a607054e7212047d59dbda7f9df4a7359bfe3dac1dbe4ccf5d220c">bsSquare</link>,
+<link linkend="class_q_c_p_item_bracket_1a7ac3afd0b24a607054e7212047d59dbda394627b0830a26ee3e0a02ca67a9f918">bsRound</link>,
+<link linkend="class_q_c_p_item_bracket_1a7ac3afd0b24a607054e7212047d59dbda5024ce4023c2d8de4221f1cd4816acd8">bsCurly</link>,
+<link linkend="class_q_c_p_item_bracket_1a7ac3afd0b24a607054e7212047d59dbda8f29f5ef754e2dc9a9efdedb2face0f3">bsCalligraphic</link>
+}</literallayout>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                            <para><literallayout>enum <link linkend="class_q_c_p_item_bracket_1a7f3a6a56d67f71219ed220553f3dd861">AnchorIndex</link> {
+<link linkend="class_q_c_p_item_bracket_1a7f3a6a56d67f71219ed220553f3dd861a17b57ef34cc05eadfe9becd1ad5b5242">aiCenter</link>
+}</literallayout>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title>Public Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QCPItemPosition *const left</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QCPItemPosition *const right</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QCPItemAnchor *const center</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title>Protected Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPen mPen</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPen mSelectedPen</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double mLength</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>BracketStyle mStyle</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="class_q_c_p_item_bracket_1a44ecfa37a76de5e3549e2d61f9d8ee56">QCPItemBracket</link> (
+<link linkend="class_q_custom_plot">QCustomPlot</link> * parentPlot)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual <link linkend="class_q_c_p_item_bracket_1ad773c3e8e09868d6f8caeb92c54919f4">~QCPItemBracket</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPen <link linkend="class_q_c_p_item_bracket_1a6013b3f83aab7bc82b485ee5447ecb1b">pen</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPen <link linkend="class_q_c_p_item_bracket_1aff5318a5415b87d9753c84752c65dd14">selectedPen</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double <link linkend="class_q_c_p_item_bracket_1af69dbe7ca5847f36403e1fb502e8e59d">length</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="class_q_c_p_item_bracket_1a7ac3afd0b24a607054e7212047d59dbd">BracketStyle</link> <link linkend="class_q_c_p_item_bracket_1a600ad8c0a3193cc2f335db6039f2932d">style</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_item_bracket_1ab13001d9cc5d8f9e56ea15bdda682acb">setPen</link> (
+const QPen &amp; pen)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_item_bracket_1a349785c31122778a520c64891fa204c5">setSelectedPen</link> (
+const QPen &amp; pen)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_item_bracket_1ac7cfc3da7da9b5c5ac5dfbe4f0351b2a">setLength</link> (
+double length)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_item_bracket_1a612dffa2373422eef8754d690add3703">setStyle</link> (
+<link linkend="class_q_c_p_item_bracket_1a7ac3afd0b24a607054e7212047d59dbd">BracketStyle</link> style)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual double <link linkend="class_q_c_p_item_bracket_1a49a6b2f41e0a8c2a2e3a2836027a8455">selectTest</link> (
+const QPointF &amp; pos, bool onlySelectable, QVariant * details)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="class_q_c_p_item_bracket_1a942a3978aea44a2fc7b4383f2bf6d417">draw</link> (
+<link linkend="class_q_c_p_painter">QCPPainter</link> * painter)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual QPointF <link linkend="class_q_c_p_item_bracket_1a008d87325d26b6616d368cec06027cce">anchorPixelPosition</link> (
+int anchorId)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPen <link linkend="class_q_c_p_item_bracket_1af1c445df1a574bddc8a40efcd76dd2e1">mainPen</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+    <simplesect>
+
+<para>A bracket for referencing/highlighting certain parts in the plot. </para>
+    </simplesect>
+        <simplesect>
+            <title>Detailed Description</title>
+
+<para> It has two positions, <emphasis>left</emphasis> and <emphasis>right</emphasis>, which define the span of the bracket. If <emphasis>left</emphasis> is actually farther to the left than <emphasis>right</emphasis>, the bracket is opened to the bottom, as shown in the example image.</para>
+
+<para>The bracket supports multiple styles via <link linkend="class_q_c_p_item_bracket_1a612dffa2373422eef8754d690add3703">setStyle</link>. The length, i.e. how far the bracket stretches away from the embraced span, can be controlled with <link linkend="class_q_c_p_item_bracket_1ac7cfc3da7da9b5c5ac5dfbe4f0351b2a">setLength</link>.</para>
+
+<para> <informaltable frame='none'><tgroup cols='1'><colspec align='center'/><tbody><row><entry align='center'>Demonstrating the effect of different values for <link linkend="class_q_c_p_item_bracket_1ac7cfc3da7da9b5c5ac5dfbe4f0351b2a">setLength</link>, for styles <link linkend="class_q_c_p_item_bracket_1a7ac3afd0b24a607054e7212047d59dbda8f29f5ef754e2dc9a9efdedb2face0f3">bsCalligraphic</link> and <link linkend="class_q_c_p_item_bracket_1a7ac3afd0b24a607054e7212047d59dbda7f9df4a7359bfe3dac1dbe4ccf5d220c">bsSquare</link>. Anchors and positions are displayed for reference.</entry></row></tbody></tgroup></informaltable></para>
+
+<para>It provides an anchor <emphasis>center</emphasis>, to allow connection of other items, e.g. an arrow (<link linkend="class_q_c_p_item_line">QCPItemLine</link> or <link linkend="class_q_c_p_item_curve">QCPItemCurve</link>) or a text label (<link linkend="class_q_c_p_item_text">QCPItemText</link>), to the bracket. </para>
+                <para>Definition at line 6598 of file qcustomplot.h</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>qcustomplot.h</para></listitem></itemizedlist></para>
+        </simplesect>
+            <section xml:id="class_q_c_p_item_bracket_1a7ac3afd0b24a607054e7212047d59dbd">
+               <title>enum BracketStyle </title>
+               
+<para>Defines the various visual shapes of the bracket item. The appearance can be further modified by <link linkend="class_q_c_p_item_bracket_1ac7cfc3da7da9b5c5ac5dfbe4f0351b2a">setLength</link> and <link linkend="class_q_c_p_item_bracket_1ab13001d9cc5d8f9e56ea15bdda682acb">setPen</link>.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_item_bracket_1a612dffa2373422eef8754d690add3703">setStyle</link> </para>
+</formalpara>
+</para>
+
+               <formalpara>
+                    <title>Enumerator:</title>
+                    <variablelist>
+                        <varlistentry xml:id="class_q_c_p_item_bracket_1a7ac3afd0b24a607054e7212047d59dbda7f9df4a7359bfe3dac1dbe4ccf5d220c">
+                            <term>bsSquare</term>
+                            <listitem>
+                                <para>A brace with angled edges.</para>
+                            </listitem>
+                        </varlistentry>
+                        <varlistentry xml:id="class_q_c_p_item_bracket_1a7ac3afd0b24a607054e7212047d59dbda394627b0830a26ee3e0a02ca67a9f918">
+                            <term>bsRound</term>
+                            <listitem>
+                                <para>A brace with round edges.</para>
+                            </listitem>
+                        </varlistentry>
+                        <varlistentry xml:id="class_q_c_p_item_bracket_1a7ac3afd0b24a607054e7212047d59dbda5024ce4023c2d8de4221f1cd4816acd8">
+                            <term>bsCurly</term>
+                            <listitem>
+                                <para>A curly brace.</para>
+                            </listitem>
+                        </varlistentry>
+                        <varlistentry xml:id="class_q_c_p_item_bracket_1a7ac3afd0b24a607054e7212047d59dbda8f29f5ef754e2dc9a9efdedb2face0f3">
+                            <term>bsCalligraphic</term>
+                            <listitem>
+                                <para>A curly brace with varying stroke width giving a calligraphic impression.</para>
+                            </listitem>
+                        </varlistentry>
+                     </variablelist>
+                </formalpara>
+                <para>Definition at line 6613 of file qcustomplot.h
+                    <computeroutput><literallayout>
+{
+bsSquare, 
+bsRound, 
+bsCurly, 
+bsCalligraphic, 
+}BracketStyle;
+                    </literallayout></computeroutput>
+                </para>
+            </section>
+            <section xml:id="class_q_c_p_item_bracket_1a7f3a6a56d67f71219ed220553f3dd861">
+               <title>enum AnchorIndex </title>
+               
+               <formalpara>
+                    <title>Enumerator:</title>
+                    <variablelist>
+                        <varlistentry xml:id="class_q_c_p_item_bracket_1a7f3a6a56d67f71219ed220553f3dd861a17b57ef34cc05eadfe9becd1ad5b5242">
+                            <term>aiCenter</term>
+                            <listitem>
+                                <para></para>
+                            </listitem>
+                        </varlistentry>
+                     </variablelist>
+                </formalpara>
+                <para>Definition at line 6644 of file qcustomplot.h
+                    <computeroutput><literallayout>
+{
+aiCenter, 
+}AnchorIndex;
+                    </literallayout></computeroutput>
+                </para>
+            </section>
+        <section>
+            <title>Member Data Documentation</title>
+        </section>
+        <section>
+            <title>Member Data Documentation</title>
+        </section>
+            <section xml:id="class_q_c_p_item_bracket_1a44ecfa37a76de5e3549e2d61f9d8ee56">
+                <title>QCPItemBracket::QCPItemBracket (QCustomPlot *parentPlot)</title> <emphasis></emphasis>
+                
+<para>Creates a bracket item and sets default values.</para>
+
+<para>The created item is automatically registered with <emphasis>parentPlot</emphasis>. This <link linkend="class_q_custom_plot">QCustomPlot</link> instance takes ownership of the item, so do not delete it manually but use <link linkend="class_q_custom_plot_1ae04446557292551e8fb6e2c106e1848d">QCustomPlot::removeItem()</link> instead. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_item_bracket_1ad773c3e8e09868d6f8caeb92c54919f4">
+                <title>QCPItemBracket::~QCPItemBracket ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_item_bracket_1a6013b3f83aab7bc82b485ee5447ecb1b">
+                <title>QPen QCPItemBracket::pen () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_item_bracket_1aff5318a5415b87d9753c84752c65dd14">
+                <title>QPen QCPItemBracket::selectedPen () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_item_bracket_1af69dbe7ca5847f36403e1fb502e8e59d">
+                <title>double QCPItemBracket::length () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_item_bracket_1a600ad8c0a3193cc2f335db6039f2932d">
+                <title>BracketStyle QCPItemBracket::style () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_item_bracket_1ab13001d9cc5d8f9e56ea15bdda682acb">
+                <title>void QCPItemBracket::setPen (const QPen &amp;pen)</title> <emphasis></emphasis>
+                
+<para>Sets the pen that will be used to draw the bracket.</para>
+
+<para>Note that when the style is <link linkend="class_q_c_p_item_bracket_1a7ac3afd0b24a607054e7212047d59dbda8f29f5ef754e2dc9a9efdedb2face0f3">bsCalligraphic</link>, only the color will be taken from the pen, the stroke and width are ignored. To change the apparent stroke width of a calligraphic bracket, use <link linkend="class_q_c_p_item_bracket_1ac7cfc3da7da9b5c5ac5dfbe4f0351b2a">setLength</link>, which has a similar effect.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_item_bracket_1a349785c31122778a520c64891fa204c5">setSelectedPen</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_item_bracket_1a349785c31122778a520c64891fa204c5">
+                <title>void QCPItemBracket::setSelectedPen (const QPen &amp;pen)</title> <emphasis></emphasis>
+                
+<para>Sets the pen that will be used to draw the bracket when selected</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_item_bracket_1ab13001d9cc5d8f9e56ea15bdda682acb">setPen</link>, <link linkend="class_q_c_p_abstract_item_1a203de94ad586cc44d16c9565f49d3378">setSelected</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_item_bracket_1ac7cfc3da7da9b5c5ac5dfbe4f0351b2a">
+                <title>void QCPItemBracket::setLength (double length)</title> <emphasis></emphasis>
+                
+<para>Sets the <emphasis>length</emphasis> in pixels how far the bracket extends in the direction towards the embraced span of the bracket (i.e. perpendicular to the <emphasis>left</emphasis>-<emphasis>right</emphasis>-direction)</para>
+
+<para> <informaltable frame='none'><tgroup cols='1'><colspec align='center'/><tbody><row><entry align='center'>Demonstrating the effect of different values for <link linkend="class_q_c_p_item_bracket_1ac7cfc3da7da9b5c5ac5dfbe4f0351b2a">setLength</link>, for styles <link linkend="class_q_c_p_item_bracket_1a7ac3afd0b24a607054e7212047d59dbda8f29f5ef754e2dc9a9efdedb2face0f3">bsCalligraphic</link> and <link linkend="class_q_c_p_item_bracket_1a7ac3afd0b24a607054e7212047d59dbda7f9df4a7359bfe3dac1dbe4ccf5d220c">bsSquare</link>. Anchors and positions are displayed for reference.</entry></row></tbody></tgroup></informaltable> </para>
+
+            </section>
+            <section xml:id="class_q_c_p_item_bracket_1a612dffa2373422eef8754d690add3703">
+                <title>void QCPItemBracket::setStyle (BracketStyle style)</title> <emphasis></emphasis>
+                
+<para>Sets the style of the bracket, i.e. the shape/visual appearance.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_item_bracket_1ab13001d9cc5d8f9e56ea15bdda682acb">setPen</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_item_bracket_1a49a6b2f41e0a8c2a2e3a2836027a8455">
+                <title>double QCPItemBracket::selectTest (const QPointF &amp;pos, bool onlySelectable, QVariant *details=0) const Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+<para>This function is used to decide whether a click hits a layerable object or not.</para>
+
+<para><emphasis>pos</emphasis> is a point in pixel coordinates on the <link linkend="class_q_custom_plot">QCustomPlot</link> surface. This function returns the shortest pixel distance of this point to the object. If the object is either invisible or the distance couldn&apos;t be determined, -1.0 is returned. Further, if <emphasis>onlySelectable</emphasis> is true and the object is not selectable, -1.0 is returned, too.</para>
+
+<para>If the object is represented not by single lines but by an area like a <link linkend="class_q_c_p_item_text">QCPItemText</link> or the bars of a <link linkend="class_q_c_p_bars">QCPBars</link> plottable, a click inside the area should also be considered a hit. In these cases this function thus returns a constant value greater zero but still below the parent plot&apos;s selection tolerance. (typically the selectionTolerance multiplied by 0.99).</para>
+
+<para>Providing a constant value for area objects allows selecting line objects even when they are obscured by such area objects, by clicking close to the lines (i.e. closer than 0.99*selectionTolerance).</para>
+
+<para>The actual setting of the selection state is not done by this function. This is handled by the parent <link linkend="class_q_custom_plot">QCustomPlot</link> when the mouseReleaseEvent occurs, and the finally selected object is notified via the <link linkend="class_q_c_p_abstract_item_1aa4b969c58797f39c9c0b6c07c7869d17">selectEvent</link>/<link linkend="class_q_c_p_abstract_item_1af9093798cb07a861dcc73f93ca16c0c1">deselectEvent</link> methods.</para>
+
+<para><emphasis>details</emphasis> is an optional output parameter. Every layerable subclass may place any information in <emphasis>details</emphasis>. This information will be passed to <link linkend="class_q_c_p_abstract_item_1aa4b969c58797f39c9c0b6c07c7869d17">selectEvent</link> when the parent <link linkend="class_q_custom_plot">QCustomPlot</link> decides on the basis of this selectTest call, that the object was successfully selected. The subsequent call to <link linkend="class_q_c_p_abstract_item_1aa4b969c58797f39c9c0b6c07c7869d17">selectEvent</link> will carry the <emphasis>details</emphasis>. This is useful for multi-part objects (like <link linkend="class_q_c_p_axis">QCPAxis</link>). This way, a possibly complex calculation to decide which part was clicked is only done once in <link linkend="class_q_c_p_item_bracket_1a49a6b2f41e0a8c2a2e3a2836027a8455">selectTest</link>. The result (i.e. the actually clicked part) can then be placed in <emphasis>details</emphasis>. So in the subsequent <link linkend="class_q_c_p_abstract_item_1aa4b969c58797f39c9c0b6c07c7869d17">selectEvent</link>, the decision which part was selected doesn&apos;t have to be done a second time for a single selection operation.</para>
+
+<para>You may pass 0 as <emphasis>details</emphasis> to indicate that you are not interested in those selection details.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_abstract_item_1aa4b969c58797f39c9c0b6c07c7869d17">selectEvent</link>, <link linkend="class_q_c_p_abstract_item_1af9093798cb07a861dcc73f93ca16c0c1">deselectEvent</link>, <link linkend="class_q_c_p_layerable_1af6567604818db90f4fd52822f8bc8376">mousePressEvent</link>, <link linkend="class_q_c_p_layerable_1a47dfd7b8fd99c08ca54e09c362b6f022">wheelEvent</link>, <link linkend="class_q_custom_plot_1a5ee1e2f6ae27419deca53e75907c27e5">QCustomPlot::setInteractions</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_item_bracket_1a942a3978aea44a2fc7b4383f2bf6d417">
+                <title>void QCPItemBracket::draw (QCPPainter *painter) Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_item_bracket_1a008d87325d26b6616d368cec06027cce">
+                <title>QPointF QCPItemBracket::anchorPixelPosition (int anchorId) const Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_item_bracket_1af1c445df1a574bddc8a40efcd76dd2e1">
+                <title>QPen QCPItemBracket::mainPen () const</title> <emphasis></emphasis>
+                
+            </section>
+</section>

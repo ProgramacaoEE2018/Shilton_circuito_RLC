@@ -1,0 +1,215 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="class_q_c_p_curve_data">
+<title>QCPCurveData class Reference</title>
+<para>
+    <programlisting>#include <link linkend="qcustomplot_8h">&lt;qcustomplot.h&gt;</link></programlisting>
+</para>
+<para>Inheritance diagram for QCPCurveData</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_q_c_p_curve_data__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for QCPCurveData</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_q_c_p_curve_data__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title>Public Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double t</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double key</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double value</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="class_q_c_p_curve_data_1a48252779b5198a509d99c69ae223fbf8">QCPCurveData</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="class_q_c_p_curve_data_1a3586be0cc6f8db15bcdd0c0d03b0c173">QCPCurveData</link> (
+double t, double key, double value)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double <link linkend="class_q_c_p_curve_data_1a583174f2b68e01b4d545f04571f58bd0">sortKey</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double <link linkend="class_q_c_p_curve_data_1ac805ffc8b4207652efb9fcc6a2cdd3e8">mainKey</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double <link linkend="class_q_c_p_curve_data_1a39a94131e5f62f16b256bcf8c47a3205">mainValue</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="class_q_c_p_range">QCPRange</link> <link linkend="class_q_c_p_curve_data_1acf15deffd18d400651f8384a95dad9f8">valueRange</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="class_q_c_p_curve_data">QCPCurveData</link> <link linkend="class_q_c_p_curve_data_1a40adf1a6ba93051c415a65298b49aa6e">fromSortKey</link> (
+double sortKey)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static bool <link linkend="class_q_c_p_curve_data_1a1b78f228e31ca40a1e69add44537918c">sortKeyIsMainKey</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+    <simplesect>
+
+<para>Holds the data of one single data point for <link linkend="class_q_c_p_curve">QCPCurve</link>. </para>
+    </simplesect>
+        <simplesect>
+            <title>Detailed Description</title>
+
+<para>The stored data is: <itemizedlist>
+<listitem>
+<para><emphasis>t:</emphasis> the free ordering parameter of this curve point, like in the mathematical vector <emphasis>(x(t), y(t))</emphasis>. (This is the <emphasis>sortKey</emphasis>) </para>
+</listitem>
+<listitem>
+<para><emphasis>key:</emphasis> coordinate on the key axis of this curve point (this is the <emphasis>mainKey</emphasis>) </para>
+</listitem>
+<listitem>
+<para><emphasis>value:</emphasis> coordinate on the value axis of this curve point (this is the <emphasis>mainValue</emphasis>)</para>
+</listitem>
+</itemizedlist>
+The container for storing multiple data points is <link linkend="qcustomplot_8h_1aaeee80d5664ea91beb9d7968790d0e65">QCPCurveDataContainer</link>. It is a typedef for <link linkend="class_q_c_p_data_container">QCPDataContainer</link> with <link linkend="class_q_c_p_curve_data">QCPCurveData</link> as the DataType template parameter. See the documentation there for an explanation regarding the data type&apos;s generic methods.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="qcustomplot_8h_1aaeee80d5664ea91beb9d7968790d0e65">QCPCurveDataContainer</link> </para>
+</formalpara>
+</para>
+                <para>Definition at line 5261 of file qcustomplot.h</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>qcustomplot.h</para></listitem></itemizedlist></para>
+        </simplesect>
+        <section>
+            <title>Member Data Documentation</title>
+        </section>
+            <section xml:id="class_q_c_p_curve_data_1a48252779b5198a509d99c69ae223fbf8">
+                <title>QCPCurveData::QCPCurveData ()</title> <emphasis></emphasis>
+                
+<para>Constructs a curve data point with t, key and value set to zero. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_curve_data_1a3586be0cc6f8db15bcdd0c0d03b0c173">
+                <title>QCPCurveData::QCPCurveData (double t, double key, double value)</title> <emphasis></emphasis>
+                
+<para>Constructs a curve data point with the specified <emphasis>t</emphasis>, <emphasis>key</emphasis> and <emphasis>value</emphasis>. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_curve_data_1a583174f2b68e01b4d545f04571f58bd0">
+                <title>double QCPCurveData::sortKey () const</title> <emphasis></emphasis>
+                
+<para>Returns the <emphasis>t</emphasis> member of this data point.</para>
+
+<para>For a general explanation of what this method is good for in the context of the data container, see the documentation of <link linkend="class_q_c_p_data_container">QCPDataContainer</link>. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_curve_data_1ac805ffc8b4207652efb9fcc6a2cdd3e8">
+                <title>double QCPCurveData::mainKey () const</title> <emphasis></emphasis>
+                
+<para>Returns the <emphasis>key</emphasis> member of this data point.</para>
+
+<para>For a general explanation of what this method is good for in the context of the data container, see the documentation of <link linkend="class_q_c_p_data_container">QCPDataContainer</link>. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_curve_data_1a39a94131e5f62f16b256bcf8c47a3205">
+                <title>double QCPCurveData::mainValue () const</title> <emphasis></emphasis>
+                
+<para>Returns the <emphasis>value</emphasis> member of this data point.</para>
+
+<para>For a general explanation of what this method is good for in the context of the data container, see the documentation of <link linkend="class_q_c_p_data_container">QCPDataContainer</link>. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_curve_data_1acf15deffd18d400651f8384a95dad9f8">
+                <title>QCPRange QCPCurveData::valueRange () const</title> <emphasis></emphasis>
+                
+<para>Returns a <link linkend="class_q_c_p_range">QCPRange</link> with both lower and upper boundary set to <emphasis>value</emphasis> of this data point.</para>
+
+<para>For a general explanation of what this method is good for in the context of the data container, see the documentation of <link linkend="class_q_c_p_data_container">QCPDataContainer</link>. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_curve_data_1a40adf1a6ba93051c415a65298b49aa6e">
+                <title>static QCPCurveData QCPCurveData::fromSortKey (double sortKey)</title> <emphasis></emphasis>
+                
+<para>Returns a data point with the specified <emphasis>sortKey</emphasis> (assigned to the data point&apos;s <emphasis>t</emphasis> member). All other members are set to zero.</para>
+
+<para>For a general explanation of what this method is good for in the context of the data container, see the documentation of <link linkend="class_q_c_p_data_container">QCPDataContainer</link>. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_curve_data_1a1b78f228e31ca40a1e69add44537918c">
+                <title>static static bool QCPCurveData::sortKeyIsMainKey ()</title> <emphasis></emphasis>
+                
+<para>Since the member <emphasis>key</emphasis> is the data point key coordinate and the member <emphasis>t</emphasis> is the data ordering parameter, this method returns false.</para>
+
+<para>For a general explanation of what this method is good for in the context of the data container, see the documentation of <link linkend="class_q_c_p_data_container">QCPDataContainer</link>. </para>
+
+            </section>
+</section>

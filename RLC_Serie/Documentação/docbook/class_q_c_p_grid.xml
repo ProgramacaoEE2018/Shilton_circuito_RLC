@@ -1,0 +1,341 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="class_q_c_p_grid">
+<title>QCPGrid class Reference</title>
+<para>
+    <programlisting>#include <link linkend="qcustomplot_8h">&lt;qcustomplot.h&gt;</link></programlisting>
+</para>
+<para>Inheritance diagram for QCPGrid</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_q_c_p_grid__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for QCPGrid</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_q_c_p_grid__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title>Protected Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool mSubGridVisible</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool mAntialiasedSubGrid</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool mAntialiasedZeroLine</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPen mPen</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPen mSubGridPen</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPen mZeroLinePen</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QCPAxis * mParentAxis</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="class_q_c_p_grid_1acd1cdd2909625388a13048b698494a17">QCPGrid</link> (
+<link linkend="class_q_c_p_axis">QCPAxis</link> * parentAxis)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="class_q_c_p_grid_1afface6d8cb6df3cbdc0b5c7c2658f96a">subGridVisible</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="class_q_c_p_grid_1af16a269b15b2a8d904be087d060536bc">antialiasedSubGrid</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="class_q_c_p_grid_1a578d0bd4d2e5000a2ca69b9a034d59aa">antialiasedZeroLine</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPen <link linkend="class_q_c_p_grid_1a1d68418766b3408c0b7b29ef40b04c2a">pen</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPen <link linkend="class_q_c_p_grid_1ae231e5b87e68689a666f90531a15552f">subGridPen</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPen <link linkend="class_q_c_p_grid_1a85f248487110c4043be696aef5f2f6e1">zeroLinePen</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_grid_1ad4ad6bf714ec45e08845456355a1b700">setSubGridVisible</link> (
+bool visible)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_grid_1a5692310ba183721a413d60951407d114">setAntialiasedSubGrid</link> (
+bool enabled)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_grid_1a3cc6d54647393ee71afb6da56af07aa4">setAntialiasedZeroLine</link> (
+bool enabled)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_grid_1aa05ab9816ffb440908171e45e833b593">setPen</link> (
+const QPen &amp; pen)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_grid_1a9edd3593f384d1f0b0202a39cef4453d">setSubGridPen</link> (
+const QPen &amp; pen)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_grid_1a209f40fdb252397b418b82d3494d8ea0">setZeroLinePen</link> (
+const QPen &amp; pen)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="class_q_c_p_grid_1a64fa48e16b4629f5df2a5029ab6e761c">applyDefaultAntialiasingHint</link> (
+<link linkend="class_q_c_p_painter">QCPPainter</link> * painter)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="class_q_c_p_grid_1aad9a312d998e2d170956334d4cb80be2">draw</link> (
+<link linkend="class_q_c_p_painter">QCPPainter</link> * painter)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_grid_1aee4e95d54acabbe298d6dda0dd86c0a4">drawGridLines</link> (
+<link linkend="class_q_c_p_painter">QCPPainter</link> * painter)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_grid_1a751ce8aef815bcc9193432a30c8b6b6e">drawSubGridLines</link> (
+<link linkend="class_q_c_p_painter">QCPPainter</link> * painter)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+    <simplesect>
+
+<para>Responsible for drawing the grid of a <link linkend="class_q_c_p_axis">QCPAxis</link>. </para>
+    </simplesect>
+        <simplesect>
+            <title>Detailed Description</title>
+
+<para>This class is tightly bound to <link linkend="class_q_c_p_axis">QCPAxis</link>. Every axis owns a grid instance and uses it to draw the grid lines, sub grid lines and zero-line. You can interact with the grid of an axis via <link linkend="class_q_c_p_axis_1a63f1dd2df663680d2a8d06c19592dd63">QCPAxis::grid</link>. Normally, you don&apos;t need to create an instance of <link linkend="class_q_c_p_grid">QCPGrid</link> yourself.</para>
+
+<para>The axis and grid drawing was split into two classes to allow them to be placed on different layers (both <link linkend="class_q_c_p_axis">QCPAxis</link> and <link linkend="class_q_c_p_grid">QCPGrid</link> inherit from <link linkend="class_q_c_p_layerable">QCPLayerable</link>). Thus it is possible to have the grid in the background and the axes in the foreground, and any plottables/items in between. This described situation is the default setup, see the <link linkend="class_q_c_p_layer">QCPLayer</link> documentation. </para>
+                <para>Definition at line 1861 of file qcustomplot.h</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>qcustomplot.h</para></listitem></itemizedlist></para>
+        </simplesect>
+        <section>
+            <title>Member Data Documentation</title>
+        </section>
+            <section xml:id="class_q_c_p_grid_1acd1cdd2909625388a13048b698494a17">
+                <title>QCPGrid::QCPGrid (QCPAxis *parentAxis)</title> <emphasis></emphasis>
+                
+<para>Creates a <link linkend="class_q_c_p_grid">QCPGrid</link> instance and sets default values.</para>
+
+<para>You shouldn&apos;t instantiate grids on their own, since every <link linkend="class_q_c_p_axis">QCPAxis</link> brings its own <link linkend="class_q_c_p_grid">QCPGrid</link>. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_grid_1afface6d8cb6df3cbdc0b5c7c2658f96a">
+                <title>bool QCPGrid::subGridVisible () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_grid_1af16a269b15b2a8d904be087d060536bc">
+                <title>bool QCPGrid::antialiasedSubGrid () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_grid_1a578d0bd4d2e5000a2ca69b9a034d59aa">
+                <title>bool QCPGrid::antialiasedZeroLine () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_grid_1a1d68418766b3408c0b7b29ef40b04c2a">
+                <title>QPen QCPGrid::pen () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_grid_1ae231e5b87e68689a666f90531a15552f">
+                <title>QPen QCPGrid::subGridPen () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_grid_1a85f248487110c4043be696aef5f2f6e1">
+                <title>QPen QCPGrid::zeroLinePen () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_grid_1ad4ad6bf714ec45e08845456355a1b700">
+                <title>void QCPGrid::setSubGridVisible (bool visible)</title> <emphasis></emphasis>
+                
+<para>Sets whether grid lines at sub tick marks are drawn.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_grid_1a9edd3593f384d1f0b0202a39cef4453d">setSubGridPen</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_grid_1a5692310ba183721a413d60951407d114">
+                <title>void QCPGrid::setAntialiasedSubGrid (bool enabled)</title> <emphasis></emphasis>
+                
+<para>Sets whether sub grid lines are drawn antialiased. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_grid_1a3cc6d54647393ee71afb6da56af07aa4">
+                <title>void QCPGrid::setAntialiasedZeroLine (bool enabled)</title> <emphasis></emphasis>
+                
+<para>Sets whether zero lines are drawn antialiased. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_grid_1aa05ab9816ffb440908171e45e833b593">
+                <title>void QCPGrid::setPen (const QPen &amp;pen)</title> <emphasis></emphasis>
+                
+<para>Sets the pen with which (major) grid lines are drawn. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_grid_1a9edd3593f384d1f0b0202a39cef4453d">
+                <title>void QCPGrid::setSubGridPen (const QPen &amp;pen)</title> <emphasis></emphasis>
+                
+<para>Sets the pen with which sub grid lines are drawn. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_grid_1a209f40fdb252397b418b82d3494d8ea0">
+                <title>void QCPGrid::setZeroLinePen (const QPen &amp;pen)</title> <emphasis></emphasis>
+                
+<para>Sets the pen with which zero lines are drawn.</para>
+
+<para>Zero lines are lines at value coordinate 0 which may be drawn with a different pen than other grid lines. To disable zero lines and just draw normal grid lines at zero, set <emphasis>pen</emphasis> to Qt::NoPen. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_grid_1a64fa48e16b4629f5df2a5029ab6e761c">
+                <title>void QCPGrid::applyDefaultAntialiasingHint (QCPPainter *painter) const Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_grid_1aad9a312d998e2d170956334d4cb80be2">
+                <title>void QCPGrid::draw (QCPPainter *painter) Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_grid_1aee4e95d54acabbe298d6dda0dd86c0a4">
+                <title>void QCPGrid::drawGridLines (QCPPainter *painter) const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_grid_1a751ce8aef815bcc9193432a30c8b6b6e">
+                <title>void QCPGrid::drawSubGridLines (QCPPainter *painter) const</title> <emphasis></emphasis>
+                
+            </section>
+</section>

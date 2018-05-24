@@ -1,0 +1,464 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="class_q_c_p_abstract_legend_item">
+<title>QCPAbstractLegendItem class Reference</title>
+<para>
+    <programlisting>#include <link linkend="qcustomplot_8h">&lt;qcustomplot.h&gt;</link></programlisting>
+</para>
+<para>Inheritance diagram for QCPAbstractLegendItem</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_q_c_p_abstract_legend_item__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for QCPAbstractLegendItem</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_q_c_p_abstract_legend_item__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title>Protected Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QCPLegend * mParentLegend</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QFont mFont</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QColor mTextColor</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QFont mSelectedFont</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QColor mSelectedTextColor</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool mSelectable</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool mSelected</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="class_q_c_p_abstract_legend_item_1afaff87610e8da0fa238ecf552872d774">QCPAbstractLegendItem</link> (
+<link linkend="class_q_c_p_legend">QCPLegend</link> * parent)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="class_q_c_p_legend">QCPLegend</link> * <link linkend="class_q_c_p_abstract_legend_item_1a15709a3f6b2ce3946261fe90422ae32e">parentLegend</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QFont <link linkend="class_q_c_p_abstract_legend_item_1a699b18e1d9e70372e51e75f462dbb643">font</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QColor <link linkend="class_q_c_p_abstract_legend_item_1a35b35fa697dcece86cf7e5818c0820b2">textColor</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QFont <link linkend="class_q_c_p_abstract_legend_item_1ace98814b31762578228f6b32111cd3c0">selectedFont</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QColor <link linkend="class_q_c_p_abstract_legend_item_1a09540594509fb0074f3a1b39548e3bdc">selectedTextColor</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="class_q_c_p_abstract_legend_item_1af054a668038bcd7e35a35a07d1e79a23">selectable</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="class_q_c_p_abstract_legend_item_1adf427dbb05d5f1a8e84c6abcb05becdf">selected</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_abstract_legend_item_1a409c53455d8112f71d70c0c43eb10265">setFont</link> (
+const QFont &amp; font)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_abstract_legend_item_1a6ebace6aaffaedcdab2d74e88acc2d1e">setTextColor</link> (
+const QColor &amp; color)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_abstract_legend_item_1a91db5aee48617a9d3206e61376807365">setSelectedFont</link> (
+const QFont &amp; font)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_abstract_legend_item_1a4d01d008ee1a5bfe9905b0397a421936">setSelectedTextColor</link> (
+const QColor &amp; color)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>Q_SLOT void <link linkend="class_q_c_p_abstract_legend_item_1a9913ef48730551b696e7f98a2391c599">setSelectable</link> (
+bool selectable)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>Q_SLOT void <link linkend="class_q_c_p_abstract_legend_item_1a6eed93b0ab99cb3eabb043fb08179c2b">setSelected</link> (
+bool selected)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual double <link linkend="class_q_c_p_abstract_legend_item_1a80ec112a6608fc39dbed56239849b187">selectTest</link> (
+const QPointF &amp; pos, bool onlySelectable, QVariant * details)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual <link linkend="namespace_q_c_p_1a2ad6bb6281c7c2d593d4277b44c2b037">QCP::Interaction</link> <link linkend="class_q_c_p_abstract_legend_item_1af8eb0fda0e11b0a23e1051b0102c8c6a">selectionCategory</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="class_q_c_p_abstract_legend_item_1a6bfbcb9ace779f4f6fe22241c32a67c9">applyDefaultAntialiasingHint</link> (
+<link linkend="class_q_c_p_painter">QCPPainter</link> * painter)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual QRect <link linkend="class_q_c_p_abstract_legend_item_1a806fa4d0104bdfc141aa8a36fcc9d51c">clipRect</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="class_q_c_p_abstract_legend_item_1a14ce0b09f5b814c765a0d790bd838909">draw</link> (
+<link linkend="class_q_c_p_painter">QCPPainter</link> * painter)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="class_q_c_p_abstract_legend_item_1a0081acfd8c4bb8ac4e9dcfe0f6c49b74">selectEvent</link> (
+QMouseEvent * event, bool additive, const QVariant &amp; details, bool * selectionStateChanged)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="class_q_c_p_abstract_legend_item_1aa1c0620558cc8e2a2e6fb7ab558f6097">deselectEvent</link> (
+bool * selectionStateChanged)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+    <simplesect>
+
+<para>The abstract base class for all entries in a <link linkend="class_q_c_p_legend">QCPLegend</link>. </para>
+    </simplesect>
+        <simplesect>
+            <title>Detailed Description</title>
+
+<para>It defines a very basic interface for entries in a <link linkend="class_q_c_p_legend">QCPLegend</link>. For representing plottables in the legend, the subclass <link linkend="class_q_c_p_plottable_legend_item">QCPPlottableLegendItem</link> is more suitable.</para>
+
+<para>Only derive directly from this class when you need absolute freedom (e.g. a custom legend entry that&apos;s not even associated with a plottable).</para>
+
+<para>You must implement the following pure virtual functions: <itemizedlist>
+<listitem>
+<para><link linkend="class_q_c_p_abstract_legend_item_1a14ce0b09f5b814c765a0d790bd838909">draw</link> (from <link linkend="class_q_c_p_layerable">QCPLayerable</link>)</para>
+</listitem>
+</itemizedlist>
+You inherit the following members you may use: <table frame="all">
+    <title></title>
+    <tgroup cols="2" align="left" colsep="1" rowsep="1">
+    <tbody>
+<row>
+<entry>
+<para><link linkend="class_q_c_p_legend">QCPLegend</link> *<emphasis role="bold">mParentLegend</emphasis>  </para>
+</entry><entry>
+<para>A pointer to the parent <link linkend="class_q_c_p_legend">QCPLegend</link>. </para>
+</entry></row>
+<row>
+<entry>
+<para>QFont <emphasis role="bold">mFont</emphasis>  </para>
+</entry><entry>
+<para>The generic font of the item. You should use this font for all or at least the most prominent text of the item.  </para>
+</entry></row>
+    </tbody>
+    </tgroup>
+</table>
+</para>
+                <para>Definition at line 4709 of file qcustomplot.h</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>qcustomplot.h</para></listitem></itemizedlist></para>
+        </simplesect>
+        <section>
+            <title>Member Data Documentation</title>
+        </section>
+            <section xml:id="class_q_c_p_abstract_legend_item_1afaff87610e8da0fa238ecf552872d774">
+                <title>QCPAbstractLegendItem::QCPAbstractLegendItem (QCPLegend *parent)</title> <emphasis></emphasis>
+                
+<para>Constructs a <link linkend="class_q_c_p_abstract_legend_item">QCPAbstractLegendItem</link> and associates it with the <link linkend="class_q_c_p_legend">QCPLegend</link> <emphasis>parent</emphasis>. This does not cause the item to be added to <emphasis>parent</emphasis>, so <link linkend="class_q_c_p_legend_1a3ab274de52d2951faea45a6d975e6b3f">QCPLegend::addItem</link> must be called separately. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_abstract_legend_item_1a15709a3f6b2ce3946261fe90422ae32e">
+                <title>QCPLegend* QCPAbstractLegendItem::parentLegend () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_abstract_legend_item_1a699b18e1d9e70372e51e75f462dbb643">
+                <title>QFont QCPAbstractLegendItem::font () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_abstract_legend_item_1a35b35fa697dcece86cf7e5818c0820b2">
+                <title>QColor QCPAbstractLegendItem::textColor () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_abstract_legend_item_1ace98814b31762578228f6b32111cd3c0">
+                <title>QFont QCPAbstractLegendItem::selectedFont () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_abstract_legend_item_1a09540594509fb0074f3a1b39548e3bdc">
+                <title>QColor QCPAbstractLegendItem::selectedTextColor () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_abstract_legend_item_1af054a668038bcd7e35a35a07d1e79a23">
+                <title>bool QCPAbstractLegendItem::selectable () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_abstract_legend_item_1adf427dbb05d5f1a8e84c6abcb05becdf">
+                <title>bool QCPAbstractLegendItem::selected () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_abstract_legend_item_1a409c53455d8112f71d70c0c43eb10265">
+                <title>void QCPAbstractLegendItem::setFont (const QFont &amp;font)</title> <emphasis></emphasis>
+                
+<para>Sets the default font of this specific legend item to <emphasis>font</emphasis>.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_abstract_legend_item_1a6ebace6aaffaedcdab2d74e88acc2d1e">setTextColor</link>, <link linkend="class_q_c_p_legend_1aa4cda8499e3cb0f3be415edc02984c73">QCPLegend::setFont</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_abstract_legend_item_1a6ebace6aaffaedcdab2d74e88acc2d1e">
+                <title>void QCPAbstractLegendItem::setTextColor (const QColor &amp;color)</title> <emphasis></emphasis>
+                
+<para>Sets the default text color of this specific legend item to <emphasis>color</emphasis>.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_abstract_legend_item_1a409c53455d8112f71d70c0c43eb10265">setFont</link>, <link linkend="class_q_c_p_legend_1ae1eb239ff4a4632fe1b6c3e668d845c6">QCPLegend::setTextColor</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_abstract_legend_item_1a91db5aee48617a9d3206e61376807365">
+                <title>void QCPAbstractLegendItem::setSelectedFont (const QFont &amp;font)</title> <emphasis></emphasis>
+                
+<para>When this legend item is selected, <emphasis>font</emphasis> is used to draw generic text, instead of the normal font set with <link linkend="class_q_c_p_abstract_legend_item_1a409c53455d8112f71d70c0c43eb10265">setFont</link>.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_abstract_legend_item_1a409c53455d8112f71d70c0c43eb10265">setFont</link>, <link linkend="class_q_c_p_legend_1ab580a01c3c0a239374ed66c29edf5ad2">QCPLegend::setSelectedFont</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_abstract_legend_item_1a4d01d008ee1a5bfe9905b0397a421936">
+                <title>void QCPAbstractLegendItem::setSelectedTextColor (const QColor &amp;color)</title> <emphasis></emphasis>
+                
+<para>When this legend item is selected, <emphasis>color</emphasis> is used to draw generic text, instead of the normal color set with <link linkend="class_q_c_p_abstract_legend_item_1a6ebace6aaffaedcdab2d74e88acc2d1e">setTextColor</link>.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_abstract_legend_item_1a6ebace6aaffaedcdab2d74e88acc2d1e">setTextColor</link>, <link linkend="class_q_c_p_legend_1a7674dfc7a1f30e1abd1018c0ed45e0bc">QCPLegend::setSelectedTextColor</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_abstract_legend_item_1a9913ef48730551b696e7f98a2391c599">
+                <title>void QCPAbstractLegendItem::setSelectable (bool selectable)</title> <emphasis></emphasis>
+                
+<para>Sets whether this specific legend item is selectable.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para>setSelectedParts, <link linkend="class_q_custom_plot_1a5ee1e2f6ae27419deca53e75907c27e5">QCustomPlot::setInteractions</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_abstract_legend_item_1a6eed93b0ab99cb3eabb043fb08179c2b">
+                <title>void QCPAbstractLegendItem::setSelected (bool selected)</title> <emphasis></emphasis>
+                
+<para>Sets whether this specific legend item is selected.</para>
+
+<para>It is possible to set the selection state of this item by calling this function directly, even if setSelectable is set to false.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para>setSelectableParts, <link linkend="class_q_custom_plot_1a5ee1e2f6ae27419deca53e75907c27e5">QCustomPlot::setInteractions</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_abstract_legend_item_1a80ec112a6608fc39dbed56239849b187">
+                <title>double QCPAbstractLegendItem::selectTest (const QPointF &amp;pos, bool onlySelectable, QVariant *details=0) const Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+<para>Layout elements are sensitive to events inside their outer rect. If <emphasis>pos</emphasis> is within the outer rect, this method returns a value corresponding to 0.99 times the parent plot&apos;s selection tolerance. However, layout elements are not selectable by default. So if <emphasis>onlySelectable</emphasis> is true, -1.0 is returned.</para>
+
+<para>See <link linkend="class_q_c_p_layerable_1a04db8351fefd44cfdb77958e75c6288e">QCPLayerable::selectTest</link> for a general explanation of this virtual method.</para>
+
+<para><link linkend="class_q_c_p_layout_element">QCPLayoutElement</link> subclasses may reimplement this method to provide more specific selection test behaviour. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_abstract_legend_item_1af8eb0fda0e11b0a23e1051b0102c8c6a">
+                <title>QCP::Interaction QCPAbstractLegendItem::selectionCategory () const Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_abstract_legend_item_1a6bfbcb9ace779f4f6fe22241c32a67c9">
+                <title>void QCPAbstractLegendItem::applyDefaultAntialiasingHint (QCPPainter *painter) const Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_abstract_legend_item_1a806fa4d0104bdfc141aa8a36fcc9d51c">
+                <title>QRect QCPAbstractLegendItem::clipRect () const Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_abstract_legend_item_1a14ce0b09f5b814c765a0d790bd838909">
+                <title>virtual void QCPAbstractLegendItem::draw (QCPPainter *painter) Q_DECL_OVERRIDE=0</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_abstract_legend_item_1a0081acfd8c4bb8ac4e9dcfe0f6c49b74">
+                <title>void QCPAbstractLegendItem::selectEvent (QMouseEvent *event, bool additive, const QVariant &amp;details, bool *selectionStateChanged) Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_abstract_legend_item_1aa1c0620558cc8e2a2e6fb7ab558f6097">
+                <title>void QCPAbstractLegendItem::deselectEvent (bool *selectionStateChanged) Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+            </section>
+</section>

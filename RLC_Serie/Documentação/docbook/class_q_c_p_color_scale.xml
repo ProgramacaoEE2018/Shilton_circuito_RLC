@@ -1,0 +1,588 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="class_q_c_p_color_scale">
+<title>QCPColorScale class Reference</title>
+<para>
+    <programlisting>#include <link linkend="qcustomplot_8h">&lt;qcustomplot.h&gt;</link></programlisting>
+</para>
+<para>Inheritance diagram for QCPColorScale</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_q_c_p_color_scale__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for QCPColorScale</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_q_c_p_color_scale__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title>Protected Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QCPAxis::AxisType mType</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QCPRange mDataRange</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QCPAxis::ScaleType mDataScaleType</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QCPColorGradient mGradient</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>int mBarWidth</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPointer&lt; QCPColorScaleAxisRectPrivate &gt; mAxisRect</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPointer&lt; QCPAxis &gt; mColorAxis</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="class_q_c_p_color_scale_1aa8debce1be38b54287c04d4f584394b4">QCPColorScale</link> (
+<link linkend="class_q_custom_plot">QCustomPlot</link> * parentPlot)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual <link linkend="class_q_c_p_color_scale_1a49d8d2d155c15fa315fdc0427194c9ea">~QCPColorScale</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="class_q_c_p_axis">QCPAxis</link> * <link linkend="class_q_c_p_color_scale_1a39bdbdb3b212602a5a57f9f3ea444190">axis</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="class_q_c_p_axis_1ae2bcc1728b382f10f064612b368bc18a">QCPAxis::AxisType</link> <link linkend="class_q_c_p_color_scale_1a85d7e286fbfc0c04c4b480aff3cb66fb">type</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="class_q_c_p_range">QCPRange</link> <link linkend="class_q_c_p_color_scale_1a51f5756f99867bd91e570eddefeb1ef4">dataRange</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="class_q_c_p_axis_1a36d8e8658dbaa179bf2aeb973db2d6f0">QCPAxis::ScaleType</link> <link linkend="class_q_c_p_color_scale_1ad864329d93cbd7396af1b2024db7fcfe">dataScaleType</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="class_q_c_p_color_gradient">QCPColorGradient</link> <link linkend="class_q_c_p_color_scale_1a31d4e3b49461bf6b265eabd028d0f7b2">gradient</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QString <link linkend="class_q_c_p_color_scale_1a3dbac1121a90172d62f01ab80b1ad641">label</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>int <link linkend="class_q_c_p_color_scale_1ae02ab8e4bfaa919577992e73242f491f">barWidth</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="class_q_c_p_color_scale_1a2a0670492f2a780596ea455ea8496a78">rangeDrag</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="class_q_c_p_color_scale_1adb4c3ada2b1e5ebbdead3b097064ff0b">rangeZoom</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_color_scale_1a1bf9bdb291927c422dd66b404b206f1f">setType</link> (
+<link linkend="class_q_c_p_axis_1ae2bcc1728b382f10f064612b368bc18a">QCPAxis::AxisType</link> type)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>Q_SLOT void <link linkend="class_q_c_p_color_scale_1abe88633003a26d1e756aa74984587fef">setDataRange</link> (
+const <link linkend="class_q_c_p_range">QCPRange</link> &amp; dataRange)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>Q_SLOT void <link linkend="class_q_c_p_color_scale_1aeb6107d67dd7325145b2498abae67fc3">setDataScaleType</link> (
+<link linkend="class_q_c_p_axis_1a36d8e8658dbaa179bf2aeb973db2d6f0">QCPAxis::ScaleType</link> scaleType)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>Q_SLOT void <link linkend="class_q_c_p_color_scale_1a1f29583bb6f1e7f473b62fb712be3940">setGradient</link> (
+const <link linkend="class_q_c_p_color_gradient">QCPColorGradient</link> &amp; gradient)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_color_scale_1aee124ae8396320cacf8276e9a0fbb8ce">setLabel</link> (
+const QString &amp; str)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_color_scale_1ab9dcc0c1cd583477496209b1413bcb99">setBarWidth</link> (
+int width)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_color_scale_1a21c51a55e4fd581b6feadca9ee5b38d5">setRangeDrag</link> (
+bool enabled)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_color_scale_1a96bd60fb6317ad6821841b539c93eeeb">setRangeZoom</link> (
+bool enabled)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QList&lt; <link linkend="class_q_c_p_color_map">QCPColorMap</link> * &gt; <link linkend="class_q_c_p_color_scale_1a556adc6b0216ebc1cc4317c541956d06">colorMaps</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_color_scale_1a425983db4478543924ddbd04ea20a356">rescaleDataRange</link> (
+bool onlyVisibleMaps)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="class_q_c_p_color_scale_1a259dcb6d3053a2cc3c197e9b1191ddbe">update</link> (
+<link linkend="class_q_c_p_layout_element_1a0d83360e05735735aaf6d7983c56374d">UpdatePhase</link> phase)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="class_q_c_p_color_scale_1af1b24d24a70f25b65d29f09e413390a8">applyDefaultAntialiasingHint</link> (
+<link linkend="class_q_c_p_painter">QCPPainter</link> * painter)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="class_q_c_p_color_scale_1a91f633b97ffcd57fdf8cd814974c20e6">mousePressEvent</link> (
+QMouseEvent * event, const QVariant &amp; details)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="class_q_c_p_color_scale_1a3b2bd79725aefaf2630fc76e90939442">mouseMoveEvent</link> (
+QMouseEvent * event, const QPointF &amp; startPos)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="class_q_c_p_color_scale_1a6a35dd39ab4e5cb2d7b29ebb4d5b61b0">mouseReleaseEvent</link> (
+QMouseEvent * event, const QPointF &amp; startPos)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="class_q_c_p_color_scale_1a63cf19be184f6670c9495ad3a9a1baeb">wheelEvent</link> (
+QWheelEvent * event)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+    <simplesect>
+
+<para>A color scale for use with color coding data such as <link linkend="class_q_c_p_color_map">QCPColorMap</link>. </para>
+    </simplesect>
+        <simplesect>
+            <title>Detailed Description</title>
+
+<para>This layout element can be placed on the plot to correlate a color gradient with data values. It is usually used in combination with one or multiple <link linkend="class_q_c_p_color_map">QCPColorMaps</link>.</para>
+
+<para></para>
+
+<para>The color scale can be either horizontal or vertical, as shown in the image above. The orientation and the side where the numbers appear is controlled with <link linkend="class_q_c_p_color_scale_1a1bf9bdb291927c422dd66b404b206f1f">setType</link>.</para>
+
+<para>Use <link linkend="class_q_c_p_color_map_1aa828921db364fe3c6af4619580ab85fd">QCPColorMap::setColorScale</link> to connect a color map with a color scale. Once they are connected, they share their gradient, data range and data scale type (<link linkend="class_q_c_p_color_scale_1a1f29583bb6f1e7f473b62fb712be3940">setGradient</link>, <link linkend="class_q_c_p_color_scale_1abe88633003a26d1e756aa74984587fef">setDataRange</link>, <link linkend="class_q_c_p_color_scale_1aeb6107d67dd7325145b2498abae67fc3">setDataScaleType</link>). Multiple color maps may be associated with a single color scale, to make them all synchronize these properties.</para>
+
+<para>To have finer control over the number display and axis behaviour, you can directly access the <link linkend="class_q_c_p_color_scale_1a39bdbdb3b212602a5a57f9f3ea444190">axis</link>. See the documentation of <link linkend="class_q_c_p_axis">QCPAxis</link> for details about configuring axes. For example, if you want to change the number of automatically generated ticks, call <literallayout><computeroutput></computeroutput></literallayout> Placing a color scale next to the main axis rect works like with any other layout element: <literallayout><computeroutput></computeroutput></literallayout>In this case we have placed it to the right of the default axis rect, so it wasn&apos;t necessary to call <link linkend="class_q_c_p_color_scale_1a1bf9bdb291927c422dd66b404b206f1f">setType</link>, since <link linkend="class_q_c_p_axis_1ae2bcc1728b382f10f064612b368bc18aadf5509f7d29199ef2f263b1dd224b345">QCPAxis::atRight</link> is already the default. The text next to the color scale can be set with <link linkend="class_q_c_p_color_scale_1aee124ae8396320cacf8276e9a0fbb8ce">setLabel</link>.</para>
+
+<para>For optimum appearance (like in the image above), it may be desirable to line up the axis rect and the borders of the color scale. Use a <link linkend="class_q_c_p_margin_group">QCPMarginGroup</link> to achieve this: <literallayout><computeroutput></computeroutput></literallayout> Color scales are initialized with a non-zero minimum top and bottom margin (<link linkend="class_q_c_p_layout_element_1a0a8a17abc16b7923159fcc7608f94673">setMinimumMargins</link>), because vertical color scales are most common and the minimum top/bottom margin makes sure it keeps some distance to the top/bottom widget border. So if you change to a horizontal color scale by setting <link linkend="class_q_c_p_color_scale_1a1bf9bdb291927c422dd66b404b206f1f">setType</link> to <link linkend="class_q_c_p_axis_1ae2bcc1728b382f10f064612b368bc18aa220d68888516b6c3b493d144f1ba438f">QCPAxis::atBottom</link> or <link linkend="class_q_c_p_axis_1ae2bcc1728b382f10f064612b368bc18aac0ece2b680d3f545e701f75af1655977">QCPAxis::atTop</link>, you might want to also change the minimum margins accordingly, e.g. <computeroutput>setMinimumMargins(QMargins(6, 0, 6, 0))</computeroutput>. </para>
+                <para>Definition at line 5039 of file qcustomplot.h</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>qcustomplot.h</para></listitem></itemizedlist></para>
+        </simplesect>
+        <section>
+            <title>Member Data Documentation</title>
+        </section>
+            <section xml:id="class_q_c_p_color_scale_1aa8debce1be38b54287c04d4f584394b4">
+                <title>QCPColorScale::QCPColorScale (QCustomPlot *parentPlot)</title> <emphasis></emphasis>
+                
+<para>Constructs a new <link linkend="class_q_c_p_color_scale">QCPColorScale</link>. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_color_scale_1a49d8d2d155c15fa315fdc0427194c9ea">
+                <title>QCPColorScale::~QCPColorScale ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_color_scale_1a39bdbdb3b212602a5a57f9f3ea444190">
+                <title>QCPAxis * QCPColorScale::axis () const</title> <emphasis></emphasis>
+                
+<para>Returns the internal <link linkend="class_q_c_p_axis">QCPAxis</link> instance of this color scale. You can access it to alter the appearance and behaviour of the axis. <link linkend="class_q_c_p_color_scale">QCPColorScale</link> duplicates some properties in its interface for convenience. Those are <link linkend="class_q_c_p_color_scale_1abe88633003a26d1e756aa74984587fef">setDataRange</link> (<link linkend="class_q_c_p_axis_1aebdfea5d44c3a0ad2b4700cd4d25b641">QCPAxis::setRange</link>), <link linkend="class_q_c_p_color_scale_1aeb6107d67dd7325145b2498abae67fc3">setDataScaleType</link> (<link linkend="class_q_c_p_axis_1adef29cae617af4f519f6c40d1a866ca6">QCPAxis::setScaleType</link>), and the method <link linkend="class_q_c_p_color_scale_1aee124ae8396320cacf8276e9a0fbb8ce">setLabel</link> (<link linkend="class_q_c_p_axis_1a33bcc382c111c9f31bb0687352a2dea4">QCPAxis::setLabel</link>). As they each are connected, it does not matter whether you use the method on the <link linkend="class_q_c_p_color_scale">QCPColorScale</link> or on its <link linkend="class_q_c_p_axis">QCPAxis</link>.</para>
+
+<para>If the type of the color scale is changed with <link linkend="class_q_c_p_color_scale_1a1bf9bdb291927c422dd66b404b206f1f">setType</link>, the axis returned by this method will change, too, to either the left, right, bottom or top axis, depending on which type was set. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_color_scale_1a85d7e286fbfc0c04c4b480aff3cb66fb">
+                <title>QCPAxis::AxisType QCPColorScale::type () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_color_scale_1a51f5756f99867bd91e570eddefeb1ef4">
+                <title>QCPRange QCPColorScale::dataRange () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_color_scale_1ad864329d93cbd7396af1b2024db7fcfe">
+                <title>QCPAxis::ScaleType QCPColorScale::dataScaleType () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_color_scale_1a31d4e3b49461bf6b265eabd028d0f7b2">
+                <title>QCPColorGradient QCPColorScale::gradient () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_color_scale_1a3dbac1121a90172d62f01ab80b1ad641">
+                <title>QString QCPColorScale::label () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_color_scale_1ae02ab8e4bfaa919577992e73242f491f">
+                <title>int QCPColorScale::barWidth () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_color_scale_1a2a0670492f2a780596ea455ea8496a78">
+                <title>bool QCPColorScale::rangeDrag () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_color_scale_1adb4c3ada2b1e5ebbdead3b097064ff0b">
+                <title>bool QCPColorScale::rangeZoom () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_color_scale_1a1bf9bdb291927c422dd66b404b206f1f">
+                <title>void QCPColorScale::setType (QCPAxis::AxisType type)</title> <emphasis></emphasis>
+                
+<para>Sets at which side of the color scale the axis is placed, and thus also its orientation.</para>
+
+<para>Note that after setting <emphasis>type</emphasis> to a different value, the axis returned by <link linkend="class_q_c_p_color_scale_1a39bdbdb3b212602a5a57f9f3ea444190">axis()</link> will be a different one. The new axis will adopt the following properties from the previous axis: The range, scale type, label and ticker (the latter will be shared and not copied). </para>
+
+            </section>
+            <section xml:id="class_q_c_p_color_scale_1abe88633003a26d1e756aa74984587fef">
+                <title>void QCPColorScale::setDataRange (const QCPRange &amp;dataRange)</title> <emphasis></emphasis>
+                
+<para>Sets the range spanned by the color gradient and that is shown by the axis in the color scale.</para>
+
+<para>It is equivalent to calling <link linkend="class_q_c_p_color_map_1a980b42837821159786a85b4b7dcb8774">QCPColorMap::setDataRange</link> on any of the connected color maps. It is also equivalent to directly accessing the <link linkend="class_q_c_p_color_scale_1a39bdbdb3b212602a5a57f9f3ea444190">axis</link> and setting its range with <link linkend="class_q_c_p_axis_1aebdfea5d44c3a0ad2b4700cd4d25b641">QCPAxis::setRange</link>.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_color_scale_1aeb6107d67dd7325145b2498abae67fc3">setDataScaleType</link>, <link linkend="class_q_c_p_color_scale_1a1f29583bb6f1e7f473b62fb712be3940">setGradient</link>, <link linkend="class_q_c_p_color_scale_1a425983db4478543924ddbd04ea20a356">rescaleDataRange</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_color_scale_1aeb6107d67dd7325145b2498abae67fc3">
+                <title>void QCPColorScale::setDataScaleType (QCPAxis::ScaleType scaleType)</title> <emphasis></emphasis>
+                
+<para>Sets the scale type of the color scale, i.e. whether values are linearly associated with colors or logarithmically.</para>
+
+<para>It is equivalent to calling <link linkend="class_q_c_p_color_map_1a9d20aa08e3c1f20f22908c45b9c06511">QCPColorMap::setDataScaleType</link> on any of the connected color maps. It is also equivalent to directly accessing the <link linkend="class_q_c_p_color_scale_1a39bdbdb3b212602a5a57f9f3ea444190">axis</link> and setting its scale type with <link linkend="class_q_c_p_axis_1adef29cae617af4f519f6c40d1a866ca6">QCPAxis::setScaleType</link>.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_color_scale_1abe88633003a26d1e756aa74984587fef">setDataRange</link>, <link linkend="class_q_c_p_color_scale_1a1f29583bb6f1e7f473b62fb712be3940">setGradient</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_color_scale_1a1f29583bb6f1e7f473b62fb712be3940">
+                <title>void QCPColorScale::setGradient (const QCPColorGradient &amp;gradient)</title> <emphasis></emphasis>
+                
+<para>Sets the color gradient that will be used to represent data values.</para>
+
+<para>It is equivalent to calling <link linkend="class_q_c_p_color_map_1a7313c78360471cead3576341a2c50377">QCPColorMap::setGradient</link> on any of the connected color maps.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_color_scale_1abe88633003a26d1e756aa74984587fef">setDataRange</link>, <link linkend="class_q_c_p_color_scale_1aeb6107d67dd7325145b2498abae67fc3">setDataScaleType</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_color_scale_1aee124ae8396320cacf8276e9a0fbb8ce">
+                <title>void QCPColorScale::setLabel (const QString &amp;str)</title> <emphasis></emphasis>
+                
+<para>Sets the axis label of the color scale. This is equivalent to calling <link linkend="class_q_c_p_axis_1a33bcc382c111c9f31bb0687352a2dea4">QCPAxis::setLabel</link> on the internal <link linkend="class_q_c_p_color_scale_1a39bdbdb3b212602a5a57f9f3ea444190">axis</link>. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_color_scale_1ab9dcc0c1cd583477496209b1413bcb99">
+                <title>void QCPColorScale::setBarWidth (int width)</title> <emphasis></emphasis>
+                
+<para>Sets the width (or height, for horizontal color scales) the bar where the gradient is displayed will have. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_color_scale_1a21c51a55e4fd581b6feadca9ee5b38d5">
+                <title>void QCPColorScale::setRangeDrag (bool enabled)</title> <emphasis></emphasis>
+                
+<para>Sets whether the user can drag the data range (<link linkend="class_q_c_p_color_scale_1abe88633003a26d1e756aa74984587fef">setDataRange</link>).</para>
+
+<para>Note that <link linkend="namespace_q_c_p_1a2ad6bb6281c7c2d593d4277b44c2b037a2c4432b9aceafb94000be8d1b589ef18">QCP::iRangeDrag</link> must be in the <link linkend="class_q_custom_plot">QCustomPlot</link>&apos;s interactions (<link linkend="class_q_custom_plot_1a5ee1e2f6ae27419deca53e75907c27e5">QCustomPlot::setInteractions</link>) to allow range dragging. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_color_scale_1a96bd60fb6317ad6821841b539c93eeeb">
+                <title>void QCPColorScale::setRangeZoom (bool enabled)</title> <emphasis></emphasis>
+                
+<para>Sets whether the user can zoom the data range (<link linkend="class_q_c_p_color_scale_1abe88633003a26d1e756aa74984587fef">setDataRange</link>) by scrolling the mouse wheel.</para>
+
+<para>Note that <link linkend="namespace_q_c_p_1a2ad6bb6281c7c2d593d4277b44c2b037abee1e94353525a636aeaf0ba32b72e14">QCP::iRangeZoom</link> must be in the <link linkend="class_q_custom_plot">QCustomPlot</link>&apos;s interactions (<link linkend="class_q_custom_plot_1a5ee1e2f6ae27419deca53e75907c27e5">QCustomPlot::setInteractions</link>) to allow range dragging. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_color_scale_1a556adc6b0216ebc1cc4317c541956d06">
+                <title>QList&lt; QCPColorMap * &gt; QCPColorScale::colorMaps () const</title> <emphasis></emphasis>
+                
+<para>Returns a list of all the color maps associated with this color scale. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_color_scale_1a425983db4478543924ddbd04ea20a356">
+                <title>void QCPColorScale::rescaleDataRange (bool onlyVisibleMaps)</title> <emphasis></emphasis>
+                
+<para>Changes the data range such that all color maps associated with this color scale are fully mapped to the gradient in the data dimension.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_color_scale_1abe88633003a26d1e756aa74984587fef">setDataRange</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_color_scale_1a259dcb6d3053a2cc3c197e9b1191ddbe">
+                <title>void QCPColorScale::update (UpdatePhase phase) Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+<para>Updates the layout element and sub-elements. This function is automatically called before every replot by the parent layout element. It is called multiple times, once for every <link linkend="class_q_c_p_layout_element_1a0d83360e05735735aaf6d7983c56374d">UpdatePhase</link>. The phases are run through in the order of the enum values. For details about what happens at the different phases, see the documentation of <link linkend="class_q_c_p_layout_element_1a0d83360e05735735aaf6d7983c56374d">UpdatePhase</link>.</para>
+
+<para>Layout elements that have child elements should call the <link linkend="class_q_c_p_color_scale_1a259dcb6d3053a2cc3c197e9b1191ddbe">update</link> method of their child elements, and pass the current <emphasis>phase</emphasis> unchanged.</para>
+
+<para>The default implementation executes the automatic margin mechanism in the <link linkend="class_q_c_p_layout_element_1a0d83360e05735735aaf6d7983c56374da288cb59a92280e47261a341f2813e676">upMargins</link> phase. Subclasses should make sure to call the base class implementation. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_color_scale_1af1b24d24a70f25b65d29f09e413390a8">
+                <title>void QCPColorScale::applyDefaultAntialiasingHint (QCPPainter *painter) const Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_color_scale_1a91f633b97ffcd57fdf8cd814974c20e6">
+                <title>void QCPColorScale::mousePressEvent (QMouseEvent *event, const QVariant &amp;details) Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+<para>This event gets called when the user presses a mouse button while the cursor is over the layerable. Whether a cursor is over the layerable is decided by a preceding call to <link linkend="class_q_c_p_layout_element_1ae97f483cccedadbf18ea4525ef240ee4">selectTest</link>.</para>
+
+<para>The current pixel position of the cursor on the <link linkend="class_q_custom_plot">QCustomPlot</link> widget is accessible via <computeroutput>event-&gt;pos()</computeroutput>. The parameter <emphasis>details</emphasis> contains layerable-specific details about the hit, which were generated in the previous call to <link linkend="class_q_c_p_layout_element_1ae97f483cccedadbf18ea4525ef240ee4">selectTest</link>. For example, One-dimensional plottables like <link linkend="class_q_c_p_graph">QCPGraph</link> or <link linkend="class_q_c_p_bars">QCPBars</link> convey the clicked data point in the <emphasis>details</emphasis> parameter, as <link linkend="class_q_c_p_data_selection">QCPDataSelection</link> packed as QVariant. Multi-part objects convey the specific <computeroutput>SelectablePart</computeroutput> that was hit (e.g. <link linkend="class_q_c_p_axis_1abee4c7a54c468b1385dfce2c898b115f">QCPAxis::SelectablePart</link> in the case of axes).</para>
+
+<para><link linkend="class_q_custom_plot">QCustomPlot</link> uses an event propagation system that works the same as Qt&apos;s system. If your layerable doesn&apos;t reimplement the <link linkend="class_q_c_p_color_scale_1a91f633b97ffcd57fdf8cd814974c20e6">mousePressEvent</link> or explicitly calls <computeroutput>event-&gt;ignore()</computeroutput> in its reimplementation, the event will be propagated to the next layerable in the stacking order.</para>
+
+<para>Once a layerable has accepted the <link linkend="class_q_c_p_color_scale_1a91f633b97ffcd57fdf8cd814974c20e6">mousePressEvent</link>, it is considered the mouse grabber and will receive all following calls to <link linkend="class_q_c_p_color_scale_1a3b2bd79725aefaf2630fc76e90939442">mouseMoveEvent</link> or <link linkend="class_q_c_p_color_scale_1a6a35dd39ab4e5cb2d7b29ebb4d5b61b0">mouseReleaseEvent</link> for this mouse interaction (a &quot;mouse interaction&quot; in this context ends with the release).</para>
+
+<para>The default implementation does nothing except explicitly ignoring the event with <computeroutput>event-&gt;ignore()</computeroutput>.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_color_scale_1a3b2bd79725aefaf2630fc76e90939442">mouseMoveEvent</link>, <link linkend="class_q_c_p_color_scale_1a6a35dd39ab4e5cb2d7b29ebb4d5b61b0">mouseReleaseEvent</link>, <link linkend="class_q_c_p_layerable_1a4171e2e823aca242dd0279f00ed2de81">mouseDoubleClickEvent</link>, <link linkend="class_q_c_p_color_scale_1a63cf19be184f6670c9495ad3a9a1baeb">wheelEvent</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_color_scale_1a3b2bd79725aefaf2630fc76e90939442">
+                <title>void QCPColorScale::mouseMoveEvent (QMouseEvent *event, const QPointF &amp;startPos) Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+<para>This event gets called when the user moves the mouse while holding a mouse button, after this layerable has become the mouse grabber by accepting the preceding <link linkend="class_q_c_p_color_scale_1a91f633b97ffcd57fdf8cd814974c20e6">mousePressEvent</link>.</para>
+
+<para>The current pixel position of the cursor on the <link linkend="class_q_custom_plot">QCustomPlot</link> widget is accessible via <computeroutput>event-&gt;pos()</computeroutput>. The parameter <emphasis>startPos</emphasis> indicates the position where the initial <link linkend="class_q_c_p_color_scale_1a91f633b97ffcd57fdf8cd814974c20e6">mousePressEvent</link> occured, that started the mouse interaction.</para>
+
+<para>The default implementation does nothing.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_color_scale_1a91f633b97ffcd57fdf8cd814974c20e6">mousePressEvent</link>, <link linkend="class_q_c_p_color_scale_1a6a35dd39ab4e5cb2d7b29ebb4d5b61b0">mouseReleaseEvent</link>, <link linkend="class_q_c_p_layerable_1a4171e2e823aca242dd0279f00ed2de81">mouseDoubleClickEvent</link>, <link linkend="class_q_c_p_color_scale_1a63cf19be184f6670c9495ad3a9a1baeb">wheelEvent</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_color_scale_1a6a35dd39ab4e5cb2d7b29ebb4d5b61b0">
+                <title>void QCPColorScale::mouseReleaseEvent (QMouseEvent *event, const QPointF &amp;startPos) Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+<para>This event gets called when the user releases the mouse button, after this layerable has become the mouse grabber by accepting the preceding <link linkend="class_q_c_p_color_scale_1a91f633b97ffcd57fdf8cd814974c20e6">mousePressEvent</link>.</para>
+
+<para>The current pixel position of the cursor on the <link linkend="class_q_custom_plot">QCustomPlot</link> widget is accessible via <computeroutput>event-&gt;pos()</computeroutput>. The parameter <emphasis>startPos</emphasis> indicates the position where the initial <link linkend="class_q_c_p_color_scale_1a91f633b97ffcd57fdf8cd814974c20e6">mousePressEvent</link> occured, that started the mouse interaction.</para>
+
+<para>The default implementation does nothing.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_color_scale_1a91f633b97ffcd57fdf8cd814974c20e6">mousePressEvent</link>, <link linkend="class_q_c_p_color_scale_1a3b2bd79725aefaf2630fc76e90939442">mouseMoveEvent</link>, <link linkend="class_q_c_p_layerable_1a4171e2e823aca242dd0279f00ed2de81">mouseDoubleClickEvent</link>, <link linkend="class_q_c_p_color_scale_1a63cf19be184f6670c9495ad3a9a1baeb">wheelEvent</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_color_scale_1a63cf19be184f6670c9495ad3a9a1baeb">
+                <title>void QCPColorScale::wheelEvent (QWheelEvent *event) Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+<para>This event gets called when the user turns the mouse scroll wheel while the cursor is over the layerable. Whether a cursor is over the layerable is decided by a preceding call to <link linkend="class_q_c_p_layout_element_1ae97f483cccedadbf18ea4525ef240ee4">selectTest</link>.</para>
+
+<para>The current pixel position of the cursor on the <link linkend="class_q_custom_plot">QCustomPlot</link> widget is accessible via <computeroutput>event-&gt;pos()</computeroutput>.</para>
+
+<para>The <computeroutput>event-&gt;delta()</computeroutput> indicates how far the mouse wheel was turned, which is usually +/- 120 for single rotation steps. However, if the mouse wheel is turned rapidly, multiple steps may accumulate to one event, making <computeroutput>event-&gt;delta()</computeroutput> larger. On the other hand, if the wheel has very smooth steps or none at all, the delta may be smaller.</para>
+
+<para>The default implementation does nothing.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_color_scale_1a91f633b97ffcd57fdf8cd814974c20e6">mousePressEvent</link>, <link linkend="class_q_c_p_color_scale_1a3b2bd79725aefaf2630fc76e90939442">mouseMoveEvent</link>, <link linkend="class_q_c_p_color_scale_1a6a35dd39ab4e5cb2d7b29ebb4d5b61b0">mouseReleaseEvent</link>, <link linkend="class_q_c_p_layerable_1a4171e2e823aca242dd0279f00ed2de81">mouseDoubleClickEvent</link> </para>
+</formalpara>
+</para>
+
+            </section>
+</section>

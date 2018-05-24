@@ -1,0 +1,186 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="class_q_c_p_axis_ticker_log">
+<title>QCPAxisTickerLog class Reference</title>
+<para>
+    <programlisting>#include <link linkend="qcustomplot_8h">&lt;qcustomplot.h&gt;</link></programlisting>
+</para>
+<para>Inheritance diagram for QCPAxisTickerLog</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_q_c_p_axis_ticker_log__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for QCPAxisTickerLog</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_q_c_p_axis_ticker_log__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title>Protected Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double mLogBase</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>int mSubTickCount</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double mLogBaseLnInv</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="class_q_c_p_axis_ticker_log_1af3cb86ea5eef2023c0b96b5260c4cbdf">QCPAxisTickerLog</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double <link linkend="class_q_c_p_axis_ticker_log_1a841a97f2b6850ff1ef3aa73e89d94775">logBase</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>int <link linkend="class_q_c_p_axis_ticker_log_1aebe43661977364fc1fd220fa1ae36a10">subTickCount</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_axis_ticker_log_1ac6e3b4e03baea3816f898869ab9751ef">setLogBase</link> (
+double base)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_axis_ticker_log_1ad51989c798c0cfd50936d77aac57c56a">setSubTickCount</link> (
+int subTicks)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual double <link linkend="class_q_c_p_axis_ticker_log_1a57be974214a065d3247406331f02fa49">getTickStep</link> (
+const <link linkend="class_q_c_p_range">QCPRange</link> &amp; range)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual int <link linkend="class_q_c_p_axis_ticker_log_1a352fef7ae68837acd26e35188aa86167">getSubTickCount</link> (
+double tickStep)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual QVector&lt; double &gt; <link linkend="class_q_c_p_axis_ticker_log_1af8873a8d1d2b9392d8f7a73218c889ab">createTickVector</link> (
+double tickStep, const <link linkend="class_q_c_p_range">QCPRange</link> &amp; range)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+    <simplesect>
+
+<para>Specialized axis ticker suited for logarithmic axes. </para>
+    </simplesect>
+        <simplesect>
+            <title>Detailed Description</title>
+
+<para></para>
+
+<para>This <link linkend="class_q_c_p_axis_ticker">QCPAxisTicker</link> subclass generates ticks with unequal tick intervals suited for logarithmic axis scales. The ticks are placed at powers of the specified log base (<link linkend="class_q_c_p_axis_ticker_log_1ac6e3b4e03baea3816f898869ab9751ef">setLogBase</link>).</para>
+
+<para>Especially in the case of a log base equal to 10 (the default), it might be desirable to have tick labels in the form of powers of ten without mantissa display. To achieve this, set the number precision (<link linkend="class_q_c_p_axis_1a21dc8023ad7500382ad9574b48137e63">QCPAxis::setNumberPrecision</link>) to zero and the number format (<link linkend="class_q_c_p_axis_1ae585a54dc2aac662e90a2ca82f002590">QCPAxis::setNumberFormat</link>) to scientific (exponential) display with beautifully typeset decimal powers, so a format string of <computeroutput>&quot;eb&quot;</computeroutput>. This will result in the following axis tick labels:</para>
+
+<para></para>
+
+<para>The ticker can be created and assigned to an axis like this: <literallayout><computeroutput></computeroutput></literallayout></para>
+                <para>Definition at line 1828 of file qcustomplot.h</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>qcustomplot.h</para></listitem></itemizedlist></para>
+        </simplesect>
+        <section>
+            <title>Member Data Documentation</title>
+        </section>
+            <section xml:id="class_q_c_p_axis_ticker_log_1af3cb86ea5eef2023c0b96b5260c4cbdf">
+                <title>QCPAxisTickerLog::QCPAxisTickerLog ()</title> <emphasis></emphasis>
+                
+<para>Constructs the ticker and sets reasonable default values. Axis tickers are commonly created managed by a QSharedPointer, which then can be passed to <link linkend="class_q_c_p_axis_1a4ee03fcd2c74d05cd1a419b9af5cfbdc">QCPAxis::setTicker</link>. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_axis_ticker_log_1a841a97f2b6850ff1ef3aa73e89d94775">
+                <title>double QCPAxisTickerLog::logBase () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_axis_ticker_log_1aebe43661977364fc1fd220fa1ae36a10">
+                <title>int QCPAxisTickerLog::subTickCount () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_axis_ticker_log_1ac6e3b4e03baea3816f898869ab9751ef">
+                <title>void QCPAxisTickerLog::setLogBase (double base)</title> <emphasis></emphasis>
+                
+<para>Sets the logarithm base used for tick coordinate generation. The ticks will be placed at integer powers of <emphasis>base</emphasis>. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_axis_ticker_log_1ad51989c798c0cfd50936d77aac57c56a">
+                <title>void QCPAxisTickerLog::setSubTickCount (int subTicks)</title> <emphasis></emphasis>
+                
+<para>Sets the number of sub ticks in a tick interval. Within each interval, the sub ticks are spaced linearly to provide a better visual guide, so the sub tick density increases toward the higher tick.</para>
+
+<para>Note that <emphasis>subTicks</emphasis> is the number of sub ticks (not sub intervals) in one tick interval. So in the case of logarithm base 10 an intuitive sub tick spacing would be achieved with eight sub ticks (the default). This means e.g. between the ticks 10 and 100 there will be eight ticks, namely at 20, 30, 40, 50, 60, 70, 80 and 90. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_axis_ticker_log_1a57be974214a065d3247406331f02fa49">
+                <title>double QCPAxisTickerLog::getTickStep (const QCPRange &amp;range) Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_axis_ticker_log_1a352fef7ae68837acd26e35188aa86167">
+                <title>int QCPAxisTickerLog::getSubTickCount (double tickStep) Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_axis_ticker_log_1af8873a8d1d2b9392d8f7a73218c889ab">
+                <title>QVector&lt; double &gt; QCPAxisTickerLog::createTickVector (double tickStep, const QCPRange &amp;range) Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+            </section>
+</section>

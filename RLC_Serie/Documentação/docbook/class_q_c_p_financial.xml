@@ -1,0 +1,863 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="class_q_c_p_financial">
+<title>QCPFinancial class Reference</title>
+<para>
+    <programlisting>#include <link linkend="qcustomplot_8h">&lt;qcustomplot.h&gt;</link></programlisting>
+</para>
+<para>Inheritance diagram for QCPFinancial</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_q_c_p_financial__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for QCPFinancial</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_q_c_p_financial__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                            <para><literallayout>enum <link linkend="class_q_c_p_financial_1aef1761dda71a53dc5269685e9e492626">WidthType</link> {
+<link linkend="class_q_c_p_financial_1aef1761dda71a53dc5269685e9e492626a0758d53bb6d7b4858e6bf8771edc934a">wtAbsolute</link>,
+<link linkend="class_q_c_p_financial_1aef1761dda71a53dc5269685e9e492626a806518350ea5814d28c29b0056e33ecd">wtAxisRectRatio</link>,
+<link linkend="class_q_c_p_financial_1aef1761dda71a53dc5269685e9e492626af676bc8dbe700b96b333329c9dbfc30f">wtPlotCoords</link>
+}</literallayout>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                            <para><literallayout>enum <link linkend="class_q_c_p_financial_1a0f800e21ee98d646dfc6f8f89d10ebfb">ChartStyle</link> {
+<link linkend="class_q_c_p_financial_1a0f800e21ee98d646dfc6f8f89d10ebfba3a516016c9298d3e95dd82aa203c4390">csOhlc</link>,
+<link linkend="class_q_c_p_financial_1a0f800e21ee98d646dfc6f8f89d10ebfbac803cbd39f26e3f206bcc7028679e62f">csCandlestick</link>
+}</literallayout>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title>Protected Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>ChartStyle mChartStyle</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double mWidth</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>WidthType mWidthType</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool mTwoColored</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QBrush mBrushPositive</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QBrush mBrushNegative</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPen mPenPositive</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPen mPenNegative</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="class_q_c_p_financial_1a4702d5248feeb9d1ec6e3ce725b10b32">QCPFinancial</link> (
+<link linkend="class_q_c_p_axis">QCPAxis</link> * keyAxis, <link linkend="class_q_c_p_axis">QCPAxis</link> * valueAxis)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual <link linkend="class_q_c_p_financial_1ad1fda0d793797b66819fac4682b10f31">~QCPFinancial</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QSharedPointer&lt; <link linkend="qcustomplot_8h_1ae36e482e04f19a54782f01ab38c354a6">QCPFinancialDataContainer</link> &gt; <link linkend="class_q_c_p_financial_1aec3f666271cf48bd7b87d84fe3f8c074">data</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="class_q_c_p_financial_1a0f800e21ee98d646dfc6f8f89d10ebfb">ChartStyle</link> <link linkend="class_q_c_p_financial_1a5243371c1fde30fdae00555d7760ec2d">chartStyle</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double <link linkend="class_q_c_p_financial_1a12548f13658eda5833204ef60f524870">width</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="class_q_c_p_financial_1aef1761dda71a53dc5269685e9e492626">WidthType</link> <link linkend="class_q_c_p_financial_1a7afa595e63800c072701e6e57d4ca9e2">widthType</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="class_q_c_p_financial_1afd4b51de5be8e53776b649f9877a50e6">twoColored</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QBrush <link linkend="class_q_c_p_financial_1ae922e75f3d5b8854369ac0bf1ebfb053">brushPositive</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QBrush <link linkend="class_q_c_p_financial_1ad4fdc5bc21f5eb17070e043bd4a35f53">brushNegative</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPen <link linkend="class_q_c_p_financial_1ae803fe25fdd6f0acacde4539590795ed">penPositive</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPen <link linkend="class_q_c_p_financial_1a25d9a8f256e5ddcba56b6e2e7e968653">penNegative</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_financial_1a72089e75b8a50d18097526c3c79fdb85">setData</link> (
+QSharedPointer&lt; <link linkend="qcustomplot_8h_1ae36e482e04f19a54782f01ab38c354a6">QCPFinancialDataContainer</link> &gt; data)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_financial_1a12992e669ed19d7bb48dbe601570cc05">setData</link> (
+const QVector&lt; double &gt; &amp; keys, const QVector&lt; double &gt; &amp; open, const QVector&lt; double &gt; &amp; high, const QVector&lt; double &gt; &amp; low, const QVector&lt; double &gt; &amp; close, bool alreadySorted)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_financial_1a5a59175d36279d71596e64d7bb65596f">setChartStyle</link> (
+<link linkend="class_q_c_p_financial_1a0f800e21ee98d646dfc6f8f89d10ebfb">ChartStyle</link> style)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_financial_1a99633f8bac86a61d534ae5eeb1a3068f">setWidth</link> (
+double width)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_financial_1a204b7b710352796593a432b723e34089">setWidthType</link> (
+<link linkend="class_q_c_p_financial_1aef1761dda71a53dc5269685e9e492626">WidthType</link> widthType)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_financial_1a138e44aac160a17a9676652e240c5f08">setTwoColored</link> (
+bool twoColored)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_financial_1a5ebff2b1764efd07cc44942e67821829">setBrushPositive</link> (
+const QBrush &amp; brush)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_financial_1a8bbdd87629f9144b3ef51af660c0961a">setBrushNegative</link> (
+const QBrush &amp; brush)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_financial_1ac58aa3adc7a35aab0088764b840683e5">setPenPositive</link> (
+const QPen &amp; pen)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_financial_1afe5c07e94ccea01a75b3a2476993c346">setPenNegative</link> (
+const QPen &amp; pen)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_financial_1a372ac031e44a7a6c912d203556af96f7">addData</link> (
+const QVector&lt; double &gt; &amp; keys, const QVector&lt; double &gt; &amp; open, const QVector&lt; double &gt; &amp; high, const QVector&lt; double &gt; &amp; low, const QVector&lt; double &gt; &amp; close, bool alreadySorted)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_financial_1a688bbd052e00a02954ddb0068b378170">addData</link> (
+double key, double open, double high, double low, double close)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual <link linkend="class_q_c_p_data_selection">QCPDataSelection</link> <link linkend="class_q_c_p_financial_1a3c5beb1ab028a1dba845fc9dcffc7cf4">selectTestRect</link> (
+const QRectF &amp; rect, bool onlySelectable)<para><emphasis>\copybrief QCPPlottableInterface1D::selectTestRect</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual double <link linkend="class_q_c_p_financial_1aac8e91622ac58330fa9ce81cc8fd40ee">selectTest</link> (
+const QPointF &amp; pos, bool onlySelectable, QVariant * details)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual <link linkend="class_q_c_p_range">QCPRange</link> <link linkend="class_q_c_p_financial_1a15d68fb257113fef697356d65fa76559">getKeyRange</link> (
+bool &amp; foundRange, <link linkend="namespace_q_c_p_1afd50e7cf431af385614987d8553ff8a9">QCP::SignDomain</link> inSignDomain)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual <link linkend="class_q_c_p_range">QCPRange</link> <link linkend="class_q_c_p_financial_1a82d862aa134d78853f98f8c57a03415b">getValueRange</link> (
+bool &amp; foundRange, <link linkend="namespace_q_c_p_1afd50e7cf431af385614987d8553ff8a9">QCP::SignDomain</link> inSignDomain, const <link linkend="class_q_c_p_range">QCPRange</link> &amp; inKeyRange)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="qcustomplot_8h_1ae36e482e04f19a54782f01ab38c354a6">QCPFinancialDataContainer</link> <link linkend="class_q_c_p_financial_1a9a058c035040d3939b8884f4aaccb1a7">timeSeriesToOhlc</link> (
+const QVector&lt; double &gt; &amp; time, const QVector&lt; double &gt; &amp; value, double timeBinSize, double timeBinOffset)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="class_q_c_p_financial_1a4d62b7a618d609321adb5f5f1e31f446">draw</link> (
+<link linkend="class_q_c_p_painter">QCPPainter</link> * painter)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="class_q_c_p_financial_1a53f6ef2cddb650993f04c66e39a04942">drawLegendIcon</link> (
+<link linkend="class_q_c_p_painter">QCPPainter</link> * painter, const QRectF &amp; rect)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_financial_1a2c77aab636f6bce6e0407b3f94e90d08">drawOhlcPlot</link> (
+<link linkend="class_q_c_p_painter">QCPPainter</link> * painter, const <link linkend="class_q_c_p_data_container_1ae40a91f5cb0bcac61d727427449b7d15">QCPFinancialDataContainer::const_iterator</link> &amp; begin, const <link linkend="class_q_c_p_data_container_1ae40a91f5cb0bcac61d727427449b7d15">QCPFinancialDataContainer::const_iterator</link> &amp; end, bool isSelected)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_financial_1ade6b703369d8acb3bfa0b8e244df4b06">drawCandlestickPlot</link> (
+<link linkend="class_q_c_p_painter">QCPPainter</link> * painter, const <link linkend="class_q_c_p_data_container_1ae40a91f5cb0bcac61d727427449b7d15">QCPFinancialDataContainer::const_iterator</link> &amp; begin, const <link linkend="class_q_c_p_data_container_1ae40a91f5cb0bcac61d727427449b7d15">QCPFinancialDataContainer::const_iterator</link> &amp; end, bool isSelected)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double <link linkend="class_q_c_p_financial_1a3ff49384a95233140c8205af77c08955">getPixelWidth</link> (
+double key, double keyPixel)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double <link linkend="class_q_c_p_financial_1a2bf2228cc443eb5fb11ec3ea3902859c">ohlcSelectTest</link> (
+const QPointF &amp; pos, const <link linkend="class_q_c_p_data_container_1ae40a91f5cb0bcac61d727427449b7d15">QCPFinancialDataContainer::const_iterator</link> &amp; begin, const <link linkend="class_q_c_p_data_container_1ae40a91f5cb0bcac61d727427449b7d15">QCPFinancialDataContainer::const_iterator</link> &amp; end, <link linkend="class_q_c_p_data_container_1ae40a91f5cb0bcac61d727427449b7d15">QCPFinancialDataContainer::const_iterator</link> &amp; closestDataPoint)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double <link linkend="class_q_c_p_financial_1a9783e91a33fd08a402b1a3821d43e471">candlestickSelectTest</link> (
+const QPointF &amp; pos, const <link linkend="class_q_c_p_data_container_1ae40a91f5cb0bcac61d727427449b7d15">QCPFinancialDataContainer::const_iterator</link> &amp; begin, const <link linkend="class_q_c_p_data_container_1ae40a91f5cb0bcac61d727427449b7d15">QCPFinancialDataContainer::const_iterator</link> &amp; end, <link linkend="class_q_c_p_data_container_1ae40a91f5cb0bcac61d727427449b7d15">QCPFinancialDataContainer::const_iterator</link> &amp; closestDataPoint)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_financial_1a31a3dda8b6b9a5b674e28f1daeb21a75">getVisibleDataBounds</link> (
+<link linkend="class_q_c_p_data_container_1ae40a91f5cb0bcac61d727427449b7d15">QCPFinancialDataContainer::const_iterator</link> &amp; begin, <link linkend="class_q_c_p_data_container_1ae40a91f5cb0bcac61d727427449b7d15">QCPFinancialDataContainer::const_iterator</link> &amp; end)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QRectF <link linkend="class_q_c_p_financial_1afbe9e8cb0de3e9e789a9668b29cad098">selectionHitBox</link> (
+<link linkend="class_q_c_p_data_container_1ae40a91f5cb0bcac61d727427449b7d15">QCPFinancialDataContainer::const_iterator</link> it)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+    <simplesect>
+
+<para>A plottable representing a financial stock chart. </para>
+    </simplesect>
+        <simplesect>
+            <title>Detailed Description</title>
+
+<para></para>
+
+<para>This plottable represents time series data binned to certain intervals, mainly used for stock charts. The two common representations OHLC (Open-High-Low-Close) bars and Candlesticks can be set via <link linkend="class_q_c_p_financial_1a5a59175d36279d71596e64d7bb65596f">setChartStyle</link>.</para>
+
+<para>The data is passed via <link linkend="class_q_c_p_financial_1a72089e75b8a50d18097526c3c79fdb85">setData</link> as a set of open/high/low/close values at certain keys (typically times). This means the data must be already binned appropriately. If data is only available as a series of values (e.g. <emphasis>price</emphasis> against <emphasis>time</emphasis>), you can use the static convenience function <link linkend="class_q_c_p_financial_1a9a058c035040d3939b8884f4aaccb1a7">timeSeriesToOhlc</link> to generate binned OHLC-data which can then be passed to <link linkend="class_q_c_p_financial_1a72089e75b8a50d18097526c3c79fdb85">setData</link>.</para>
+
+<para>The width of the OHLC bars/candlesticks can be controlled with <link linkend="class_q_c_p_financial_1a99633f8bac86a61d534ae5eeb1a3068f">setWidth</link> and <link linkend="class_q_c_p_financial_1a204b7b710352796593a432b723e34089">setWidthType</link>. A typical choice is to set the width type to <link linkend="class_q_c_p_financial_1aef1761dda71a53dc5269685e9e492626af676bc8dbe700b96b333329c9dbfc30f">wtPlotCoords</link> (the default) and the width to (or slightly less than) one time bin interval width.</para>
+<section xml:id="class_q_c_p_financial_1qcpfinancial-appearance">
+<title>Changing the appearance</title>
+
+<para>Charts can be either single- or two-colored (<link linkend="class_q_c_p_financial_1a138e44aac160a17a9676652e240c5f08">setTwoColored</link>). If set to be single-colored, lines are drawn with the plottable&apos;s pen (<link linkend="class_q_c_p_abstract_plottable_1ab74b09ae4c0e7e13142fe4b5bf46cac7">setPen</link>) and fills with the brush (<link linkend="class_q_c_p_abstract_plottable_1a7a4b92144dca6453a1f0f210e27edc74">setBrush</link>).</para>
+
+<para>If set to two-colored, positive changes of the value during an interval (<emphasis>close</emphasis> &gt;= <emphasis>open</emphasis>) are represented with a different pen and brush than negative changes (<emphasis>close</emphasis> &lt; <emphasis>open</emphasis>). These can be configured with <link linkend="class_q_c_p_financial_1ac58aa3adc7a35aab0088764b840683e5">setPenPositive</link>, <link linkend="class_q_c_p_financial_1afe5c07e94ccea01a75b3a2476993c346">setPenNegative</link>, <link linkend="class_q_c_p_financial_1a5ebff2b1764efd07cc44942e67821829">setBrushPositive</link>, and <link linkend="class_q_c_p_financial_1a8bbdd87629f9144b3ef51af660c0961a">setBrushNegative</link>. In two-colored mode, the normal plottable pen/brush is ignored. Upon selection however, the normal selected pen/brush (provided by the <link linkend="class_q_c_p_abstract_plottable_1a7861518e47ca0c6a0c386032c2db075e">selectionDecorator</link>) is used, irrespective of whether the chart is single- or two-colored.</para>
+</section>
+<section xml:id="class_q_c_p_financial_1qcpfinancial-usage">
+<title>Usage</title>
+
+<para>Like all data representing objects in <link linkend="class_q_custom_plot">QCustomPlot</link>, the <link linkend="class_q_c_p_financial">QCPFinancial</link> is a plottable (<link linkend="class_q_c_p_abstract_plottable">QCPAbstractPlottable</link>). So the plottable-interface of <link linkend="class_q_custom_plot">QCustomPlot</link> applies (<link linkend="class_q_custom_plot_1a32de81ff53e263e785b83b52ecd99d6f">QCustomPlot::plottable</link>, <link linkend="class_q_custom_plot_1af3dafd56884208474f311d6226513ab2">QCustomPlot::removePlottable</link>, etc.)</para>
+
+<para>Usually, you first create an instance:</para>
+
+<para><literallayout><computeroutput></computeroutput></literallayout>which registers it with the <link linkend="class_q_custom_plot">QCustomPlot</link> instance of the passed axes. Note that this <link linkend="class_q_custom_plot">QCustomPlot</link> instance takes ownership of the plottable, so do not delete it manually but use <link linkend="class_q_custom_plot_1af3dafd56884208474f311d6226513ab2">QCustomPlot::removePlottable()</link> instead. The newly created plottable can be modified, e.g.:</para>
+
+<para><literallayout><computeroutput></computeroutput></literallayout>Here we have used the static helper method <link linkend="class_q_c_p_financial_1a9a058c035040d3939b8884f4aaccb1a7">timeSeriesToOhlc</link>, to turn a time-price data series into a 24-hour binned open-high-low-close data series as <link linkend="class_q_c_p_financial">QCPFinancial</link> uses. </para>
+</section>
+                <para>Definition at line 5848 of file qcustomplot.h</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>qcustomplot.h</para></listitem></itemizedlist></para>
+        </simplesect>
+            <section xml:id="class_q_c_p_financial_1aef1761dda71a53dc5269685e9e492626">
+               <title>enum WidthType </title>
+               
+<para>Defines the ways the width of the financial bar can be specified. Thus it defines what the number passed to <link linkend="class_q_c_p_financial_1a99633f8bac86a61d534ae5eeb1a3068f">setWidth</link> actually means.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_financial_1a204b7b710352796593a432b723e34089">setWidthType</link>, <link linkend="class_q_c_p_financial_1a99633f8bac86a61d534ae5eeb1a3068f">setWidth</link> </para>
+</formalpara>
+</para>
+
+               <formalpara>
+                    <title>Enumerator:</title>
+                    <variablelist>
+                        <varlistentry xml:id="class_q_c_p_financial_1aef1761dda71a53dc5269685e9e492626a0758d53bb6d7b4858e6bf8771edc934a">
+                            <term>wtAbsolute</term>
+                            <listitem>
+                                <para>width is in absolute pixels</para>
+                            </listitem>
+                        </varlistentry>
+                        <varlistentry xml:id="class_q_c_p_financial_1aef1761dda71a53dc5269685e9e492626a806518350ea5814d28c29b0056e33ecd">
+                            <term>wtAxisRectRatio</term>
+                            <listitem>
+                                <para>width is given by a fraction of the axis rect size</para>
+                            </listitem>
+                        </varlistentry>
+                        <varlistentry xml:id="class_q_c_p_financial_1aef1761dda71a53dc5269685e9e492626af676bc8dbe700b96b333329c9dbfc30f">
+                            <term>wtPlotCoords</term>
+                            <listitem>
+                                <para>width is in key coordinates and thus scales with the key axis range</para>
+                            </listitem>
+                        </varlistentry>
+                     </variablelist>
+                </formalpara>
+                <para>Definition at line 5867 of file qcustomplot.h
+                    <computeroutput><literallayout>
+{
+wtAbsolute, 
+wtAxisRectRatio, 
+wtPlotCoords, 
+}WidthType;
+                    </literallayout></computeroutput>
+                </para>
+            </section>
+            <section xml:id="class_q_c_p_financial_1a0f800e21ee98d646dfc6f8f89d10ebfb">
+               <title>enum ChartStyle </title>
+               
+<para>Defines the possible representations of OHLC data in the plot.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_financial_1a5a59175d36279d71596e64d7bb65596f">setChartStyle</link> </para>
+</formalpara>
+</para>
+
+               <formalpara>
+                    <title>Enumerator:</title>
+                    <variablelist>
+                        <varlistentry xml:id="class_q_c_p_financial_1a0f800e21ee98d646dfc6f8f89d10ebfba3a516016c9298d3e95dd82aa203c4390">
+                            <term>csOhlc</term>
+                            <listitem>
+                                <para>Open-High-Low-Close bar representation.</para>
+                            </listitem>
+                        </varlistentry>
+                        <varlistentry xml:id="class_q_c_p_financial_1a0f800e21ee98d646dfc6f8f89d10ebfbac803cbd39f26e3f206bcc7028679e62f">
+                            <term>csCandlestick</term>
+                            <listitem>
+                                <para>Candlestick representation.</para>
+                            </listitem>
+                        </varlistentry>
+                     </variablelist>
+                </formalpara>
+                <para>Definition at line 5878 of file qcustomplot.h
+                    <computeroutput><literallayout>
+{
+csOhlc, 
+csCandlestick, 
+}ChartStyle;
+                    </literallayout></computeroutput>
+                </para>
+            </section>
+        <section>
+            <title>Member Data Documentation</title>
+        </section>
+            <section xml:id="class_q_c_p_financial_1a4702d5248feeb9d1ec6e3ce725b10b32">
+                <title>QCPFinancial::QCPFinancial (QCPAxis *keyAxis, QCPAxis *valueAxis)</title> <emphasis></emphasis>
+                
+<para>Constructs a financial chart which uses <emphasis>keyAxis</emphasis> as its key axis (&quot;x&quot;) and <emphasis>valueAxis</emphasis> as its value axis (&quot;y&quot;). <emphasis>keyAxis</emphasis> and <emphasis>valueAxis</emphasis> must reside in the same <link linkend="class_q_custom_plot">QCustomPlot</link> instance and not have the same orientation. If either of these restrictions is violated, a corresponding message is printed to the debug output (qDebug), the construction is not aborted, though.</para>
+
+<para>The created <link linkend="class_q_c_p_financial">QCPFinancial</link> is automatically registered with the <link linkend="class_q_custom_plot">QCustomPlot</link> instance inferred from <emphasis>keyAxis</emphasis>. This <link linkend="class_q_custom_plot">QCustomPlot</link> instance takes ownership of the <link linkend="class_q_c_p_financial">QCPFinancial</link>, so do not delete it manually but use <link linkend="class_q_custom_plot_1af3dafd56884208474f311d6226513ab2">QCustomPlot::removePlottable()</link> instead. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_financial_1ad1fda0d793797b66819fac4682b10f31">
+                <title>QCPFinancial::~QCPFinancial ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_financial_1aec3f666271cf48bd7b87d84fe3f8c074">
+                <title>QCPFinancialDataContainer * QCPFinancial::data () const</title> <emphasis></emphasis>
+                
+<para>Returns a pointer to the internal data storage of type <link linkend="qcustomplot_8h_1ae36e482e04f19a54782f01ab38c354a6">QCPFinancialDataContainer</link>. You may use it to directly manipulate the data, which may be more convenient and faster than using the regular <link linkend="class_q_c_p_financial_1a72089e75b8a50d18097526c3c79fdb85">setData</link> or <link linkend="class_q_c_p_financial_1a372ac031e44a7a6c912d203556af96f7">addData</link> methods, in certain situations. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_financial_1a5243371c1fde30fdae00555d7760ec2d">
+                <title>ChartStyle QCPFinancial::chartStyle () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_financial_1a12548f13658eda5833204ef60f524870">
+                <title>double QCPFinancial::width () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_financial_1a7afa595e63800c072701e6e57d4ca9e2">
+                <title>WidthType QCPFinancial::widthType () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_financial_1afd4b51de5be8e53776b649f9877a50e6">
+                <title>bool QCPFinancial::twoColored () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_financial_1ae922e75f3d5b8854369ac0bf1ebfb053">
+                <title>QBrush QCPFinancial::brushPositive () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_financial_1ad4fdc5bc21f5eb17070e043bd4a35f53">
+                <title>QBrush QCPFinancial::brushNegative () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_financial_1ae803fe25fdd6f0acacde4539590795ed">
+                <title>QPen QCPFinancial::penPositive () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_financial_1a25d9a8f256e5ddcba56b6e2e7e968653">
+                <title>QPen QCPFinancial::penNegative () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_financial_1a72089e75b8a50d18097526c3c79fdb85">
+                <title>void QCPFinancial::setData (QSharedPointer&lt; QCPFinancialDataContainer &gt; data)</title> <emphasis></emphasis>
+                
+<para>This is an overloaded member function, provided for convenience. It differs from the above function only in what argument(s) it accepts.</para>
+
+<para>Replaces the current data container with the provided <emphasis>data</emphasis> container.</para>
+
+<para>Since a QSharedPointer is used, multiple QCPFinancials may share the same data container safely. Modifying the data in the container will then affect all financials that share the container. Sharing can be achieved by simply exchanging the data containers wrapped in shared pointers: <literallayout><computeroutput></computeroutput></literallayout> If you do not wish to share containers, but create a copy from an existing container, rather use the <link linkend="class_q_c_p_data_container_1ae7042bd534fc3ce7befa2ce3f790b5bf">QCPDataContainer&lt;DataType&gt;::set</link> method on the financial&apos;s data container directly: <literallayout><computeroutput></computeroutput></literallayout> <formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_financial_1a372ac031e44a7a6c912d203556af96f7">addData</link>, <link linkend="class_q_c_p_financial_1a9a058c035040d3939b8884f4aaccb1a7">timeSeriesToOhlc</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_financial_1a12992e669ed19d7bb48dbe601570cc05">
+                <title>void QCPFinancial::setData (const QVector&lt; double &gt; &amp;keys, const QVector&lt; double &gt; &amp;open, const QVector&lt; double &gt; &amp;high, const QVector&lt; double &gt; &amp;low, const QVector&lt; double &gt; &amp;close, bool alreadySorted=false)</title> <emphasis></emphasis>
+                
+<para>This is an overloaded member function, provided for convenience. It differs from the above function only in what argument(s) it accepts.</para>
+
+<para>Replaces the current data with the provided points in <emphasis>keys</emphasis>, <emphasis>open</emphasis>, <emphasis>high</emphasis>, <emphasis>low</emphasis> and <emphasis>close</emphasis>. The provided vectors should have equal length. Else, the number of added points will be the size of the smallest vector.</para>
+
+<para>If you can guarantee that the passed data points are sorted by <emphasis>keys</emphasis> in ascending order, you can set <emphasis>alreadySorted</emphasis> to true, to improve performance by saving a sorting run.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_financial_1a372ac031e44a7a6c912d203556af96f7">addData</link>, <link linkend="class_q_c_p_financial_1a9a058c035040d3939b8884f4aaccb1a7">timeSeriesToOhlc</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_financial_1a5a59175d36279d71596e64d7bb65596f">
+                <title>void QCPFinancial::setChartStyle (ChartStyle style)</title> <emphasis></emphasis>
+                
+<para>Sets which representation style shall be used to display the OHLC data. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_financial_1a99633f8bac86a61d534ae5eeb1a3068f">
+                <title>void QCPFinancial::setWidth (double width)</title> <emphasis></emphasis>
+                
+<para>Sets the width of the individual bars/candlesticks to <emphasis>width</emphasis> in plot key coordinates.</para>
+
+<para>A typical choice is to set it to (or slightly less than) one bin interval width. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_financial_1a204b7b710352796593a432b723e34089">
+                <title>void QCPFinancial::setWidthType (WidthType widthType)</title> <emphasis></emphasis>
+                
+<para>Sets how the width of the financial bars is defined. See the documentation of <link linkend="class_q_c_p_financial_1aef1761dda71a53dc5269685e9e492626">WidthType</link> for an explanation of the possible values for <emphasis>widthType</emphasis>.</para>
+
+<para>The default value is <link linkend="class_q_c_p_financial_1aef1761dda71a53dc5269685e9e492626af676bc8dbe700b96b333329c9dbfc30f">wtPlotCoords</link>.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_financial_1a99633f8bac86a61d534ae5eeb1a3068f">setWidth</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_financial_1a138e44aac160a17a9676652e240c5f08">
+                <title>void QCPFinancial::setTwoColored (bool twoColored)</title> <emphasis></emphasis>
+                
+<para>Sets whether this chart shall contrast positive from negative trends per data point by using two separate colors to draw the respective bars/candlesticks.</para>
+
+<para>If <emphasis>twoColored</emphasis> is false, the normal plottable&apos;s pen and brush are used (<link linkend="class_q_c_p_abstract_plottable_1ab74b09ae4c0e7e13142fe4b5bf46cac7">setPen</link>, <link linkend="class_q_c_p_abstract_plottable_1a7a4b92144dca6453a1f0f210e27edc74">setBrush</link>).</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_financial_1ac58aa3adc7a35aab0088764b840683e5">setPenPositive</link>, <link linkend="class_q_c_p_financial_1afe5c07e94ccea01a75b3a2476993c346">setPenNegative</link>, <link linkend="class_q_c_p_financial_1a5ebff2b1764efd07cc44942e67821829">setBrushPositive</link>, <link linkend="class_q_c_p_financial_1a8bbdd87629f9144b3ef51af660c0961a">setBrushNegative</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_financial_1a5ebff2b1764efd07cc44942e67821829">
+                <title>void QCPFinancial::setBrushPositive (const QBrush &amp;brush)</title> <emphasis></emphasis>
+                
+<para>If <link linkend="class_q_c_p_financial_1a138e44aac160a17a9676652e240c5f08">setTwoColored</link> is set to true, this function controls the brush that is used to draw fills of data points with a positive trend (i.e. bars/candlesticks with close &gt;= open).</para>
+
+<para>If <emphasis>twoColored</emphasis> is false, the normal plottable&apos;s pen and brush are used (<link linkend="class_q_c_p_abstract_plottable_1ab74b09ae4c0e7e13142fe4b5bf46cac7">setPen</link>, <link linkend="class_q_c_p_abstract_plottable_1a7a4b92144dca6453a1f0f210e27edc74">setBrush</link>).</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_financial_1a8bbdd87629f9144b3ef51af660c0961a">setBrushNegative</link>, <link linkend="class_q_c_p_financial_1ac58aa3adc7a35aab0088764b840683e5">setPenPositive</link>, <link linkend="class_q_c_p_financial_1afe5c07e94ccea01a75b3a2476993c346">setPenNegative</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_financial_1a8bbdd87629f9144b3ef51af660c0961a">
+                <title>void QCPFinancial::setBrushNegative (const QBrush &amp;brush)</title> <emphasis></emphasis>
+                
+<para>If <link linkend="class_q_c_p_financial_1a138e44aac160a17a9676652e240c5f08">setTwoColored</link> is set to true, this function controls the brush that is used to draw fills of data points with a negative trend (i.e. bars/candlesticks with close &lt; open).</para>
+
+<para>If <emphasis>twoColored</emphasis> is false, the normal plottable&apos;s pen and brush are used (<link linkend="class_q_c_p_abstract_plottable_1ab74b09ae4c0e7e13142fe4b5bf46cac7">setPen</link>, <link linkend="class_q_c_p_abstract_plottable_1a7a4b92144dca6453a1f0f210e27edc74">setBrush</link>).</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_financial_1a5ebff2b1764efd07cc44942e67821829">setBrushPositive</link>, <link linkend="class_q_c_p_financial_1afe5c07e94ccea01a75b3a2476993c346">setPenNegative</link>, <link linkend="class_q_c_p_financial_1ac58aa3adc7a35aab0088764b840683e5">setPenPositive</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_financial_1ac58aa3adc7a35aab0088764b840683e5">
+                <title>void QCPFinancial::setPenPositive (const QPen &amp;pen)</title> <emphasis></emphasis>
+                
+<para>If <link linkend="class_q_c_p_financial_1a138e44aac160a17a9676652e240c5f08">setTwoColored</link> is set to true, this function controls the pen that is used to draw outlines of data points with a positive trend (i.e. bars/candlesticks with close &gt;= open).</para>
+
+<para>If <emphasis>twoColored</emphasis> is false, the normal plottable&apos;s pen and brush are used (<link linkend="class_q_c_p_abstract_plottable_1ab74b09ae4c0e7e13142fe4b5bf46cac7">setPen</link>, <link linkend="class_q_c_p_abstract_plottable_1a7a4b92144dca6453a1f0f210e27edc74">setBrush</link>).</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_financial_1afe5c07e94ccea01a75b3a2476993c346">setPenNegative</link>, <link linkend="class_q_c_p_financial_1a5ebff2b1764efd07cc44942e67821829">setBrushPositive</link>, <link linkend="class_q_c_p_financial_1a8bbdd87629f9144b3ef51af660c0961a">setBrushNegative</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_financial_1afe5c07e94ccea01a75b3a2476993c346">
+                <title>void QCPFinancial::setPenNegative (const QPen &amp;pen)</title> <emphasis></emphasis>
+                
+<para>If <link linkend="class_q_c_p_financial_1a138e44aac160a17a9676652e240c5f08">setTwoColored</link> is set to true, this function controls the pen that is used to draw outlines of data points with a negative trend (i.e. bars/candlesticks with close &lt; open).</para>
+
+<para>If <emphasis>twoColored</emphasis> is false, the normal plottable&apos;s pen and brush are used (<link linkend="class_q_c_p_abstract_plottable_1ab74b09ae4c0e7e13142fe4b5bf46cac7">setPen</link>, <link linkend="class_q_c_p_abstract_plottable_1a7a4b92144dca6453a1f0f210e27edc74">setBrush</link>).</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_financial_1ac58aa3adc7a35aab0088764b840683e5">setPenPositive</link>, <link linkend="class_q_c_p_financial_1a8bbdd87629f9144b3ef51af660c0961a">setBrushNegative</link>, <link linkend="class_q_c_p_financial_1a5ebff2b1764efd07cc44942e67821829">setBrushPositive</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_financial_1a372ac031e44a7a6c912d203556af96f7">
+                <title>void QCPFinancial::addData (const QVector&lt; double &gt; &amp;keys, const QVector&lt; double &gt; &amp;open, const QVector&lt; double &gt; &amp;high, const QVector&lt; double &gt; &amp;low, const QVector&lt; double &gt; &amp;close, bool alreadySorted=false)</title> <emphasis></emphasis>
+                
+<para>This is an overloaded member function, provided for convenience. It differs from the above function only in what argument(s) it accepts.</para>
+
+<para>Adds the provided points in <emphasis>keys</emphasis>, <emphasis>open</emphasis>, <emphasis>high</emphasis>, <emphasis>low</emphasis> and <emphasis>close</emphasis> to the current data. The provided vectors should have equal length. Else, the number of added points will be the size of the smallest vector.</para>
+
+<para>If you can guarantee that the passed data points are sorted by <emphasis>keys</emphasis> in ascending order, you can set <emphasis>alreadySorted</emphasis> to true, to improve performance by saving a sorting run.</para>
+
+<para>Alternatively, you can also access and modify the data directly via the <link linkend="class_q_c_p_financial_1aec3f666271cf48bd7b87d84fe3f8c074">data</link> method, which returns a pointer to the internal data container.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_financial_1a9a058c035040d3939b8884f4aaccb1a7">timeSeriesToOhlc</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_financial_1a688bbd052e00a02954ddb0068b378170">
+                <title>void QCPFinancial::addData (double key, double open, double high, double low, double close)</title> <emphasis></emphasis>
+                
+<para>This is an overloaded member function, provided for convenience. It differs from the above function only in what argument(s) it accepts.</para>
+
+<para>Adds the provided data point as <emphasis>key</emphasis>, <emphasis>open</emphasis>, <emphasis>high</emphasis>, <emphasis>low</emphasis> and <emphasis>close</emphasis> to the current data.</para>
+
+<para>Alternatively, you can also access and modify the data directly via the <link linkend="class_q_c_p_financial_1aec3f666271cf48bd7b87d84fe3f8c074">data</link> method, which returns a pointer to the internal data container.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_financial_1a9a058c035040d3939b8884f4aaccb1a7">timeSeriesToOhlc</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_financial_1a3c5beb1ab028a1dba845fc9dcffc7cf4">
+                <title>QCPDataSelection QCPFinancial::selectTestRect (const QRectF &amp;rect, bool onlySelectable) const Q_DECL_OVERRIDE</title> <emphasis>\copybrief QCPPlottableInterface1D::selectTestRect</emphasis>
+                
+<para>Returns a data selection containing all the data points of this plottable which are contained (or hit by) <emphasis>rect</emphasis>. This is used mainly in the selection rect interaction for data selection (data selection mechanism).</para>
+
+<para>If <emphasis>onlySelectable</emphasis> is true, an empty <link linkend="class_q_c_p_data_selection">QCPDataSelection</link> is returned if this plottable is not selectable (i.e. if <link linkend="class_q_c_p_abstract_plottable_1ac238d6e910f976f1f30d41c2bca44ac3">QCPAbstractPlottable::setSelectable</link> is <link linkend="namespace_q_c_p_1ac6cb9db26a564b27feda362a438db038aa64628e338a2dd1e6f0dc84dec0b63fe">QCP::stNone</link>).</para>
+
+<para><formalpara><title>Note: </title>
+
+<para><emphasis>rect</emphasis> must be a normalized rect (positive or zero width and height). This is especially important when using the rect of <link linkend="class_q_c_p_selection_rect_1a15a43542e1f7b953a44c260b419e6d2c">QCPSelectionRect::accepted</link>, which is not necessarily normalized. Use <computeroutput>QRect::normalized()</computeroutput> when passing a rect which might not be normalized. </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_financial_1aac8e91622ac58330fa9ce81cc8fd40ee">
+                <title>double QCPFinancial::selectTest (const QPointF &amp;pos, bool onlySelectable, QVariant *details=0) const Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+<para>Implements a point-selection algorithm assuming the data (accessed via the 1D data interface) is point-like. Most subclasses will want to reimplement this method again, to provide a more accurate hit test based on the true data visualization geometry.</para>
+
+            </section>
+            <section xml:id="class_q_c_p_financial_1a15d68fb257113fef697356d65fa76559">
+                <title>QCPRange QCPFinancial::getKeyRange (bool &amp;foundRange, QCP::SignDomain inSignDomain=QCP::sdBoth) const Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+<para>Returns the coordinate range that all data in this plottable span in the key axis dimension. For logarithmic plots, one can set <emphasis>inSignDomain</emphasis> to either <link linkend="namespace_q_c_p_1afd50e7cf431af385614987d8553ff8a9a2d18af0bc58f6528d1e82ce699fe4829">QCP::sdNegative</link> or <link linkend="namespace_q_c_p_1afd50e7cf431af385614987d8553ff8a9a584784b75fb816abcc627cf743bb699f">QCP::sdPositive</link> in order to restrict the returned range to that sign domain. E.g. when only negative range is wanted, set <emphasis>inSignDomain</emphasis> to <link linkend="namespace_q_c_p_1afd50e7cf431af385614987d8553ff8a9a2d18af0bc58f6528d1e82ce699fe4829">QCP::sdNegative</link> and all positive points will be ignored for range calculation. For no restriction, just set <emphasis>inSignDomain</emphasis> to <link linkend="namespace_q_c_p_1afd50e7cf431af385614987d8553ff8a9aa38352ef02d51ddfa4399d9551566e24">QCP::sdBoth</link> (default). <emphasis>foundRange</emphasis> is an output parameter that indicates whether a range could be found or not. If this is false, you shouldn&apos;t use the returned range (e.g. no points in data).</para>
+
+<para>Note that <emphasis>foundRange</emphasis> is not the same as <link linkend="class_q_c_p_range_1ab38bd4841c77c7bb86c9eea0f142dcc0">QCPRange::validRange</link>, since the range returned by this function may have size zero (e.g. when there is only one data point). In this case <emphasis>foundRange</emphasis> would return true, but the returned range is not a valid range in terms of <link linkend="class_q_c_p_range_1ab38bd4841c77c7bb86c9eea0f142dcc0">QCPRange::validRange</link>.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_abstract_plottable_1a1491c4a606bccd2d09e65e11b79eb882">rescaleAxes</link>, <link linkend="class_q_c_p_financial_1a82d862aa134d78853f98f8c57a03415b">getValueRange</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_financial_1a82d862aa134d78853f98f8c57a03415b">
+                <title>QCPRange QCPFinancial::getValueRange (bool &amp;foundRange, QCP::SignDomain inSignDomain=QCP::sdBoth, const QCPRange &amp;inKeyRange=QCPRange()) const Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+<para>Returns the coordinate range that the data points in the specified key range (<emphasis>inKeyRange</emphasis>) span in the value axis dimension. For logarithmic plots, one can set <emphasis>inSignDomain</emphasis> to either <link linkend="namespace_q_c_p_1afd50e7cf431af385614987d8553ff8a9a2d18af0bc58f6528d1e82ce699fe4829">QCP::sdNegative</link> or <link linkend="namespace_q_c_p_1afd50e7cf431af385614987d8553ff8a9a584784b75fb816abcc627cf743bb699f">QCP::sdPositive</link> in order to restrict the returned range to that sign domain. E.g. when only negative range is wanted, set <emphasis>inSignDomain</emphasis> to <link linkend="namespace_q_c_p_1afd50e7cf431af385614987d8553ff8a9a2d18af0bc58f6528d1e82ce699fe4829">QCP::sdNegative</link> and all positive points will be ignored for range calculation. For no restriction, just set <emphasis>inSignDomain</emphasis> to <link linkend="namespace_q_c_p_1afd50e7cf431af385614987d8553ff8a9aa38352ef02d51ddfa4399d9551566e24">QCP::sdBoth</link> (default). <emphasis>foundRange</emphasis> is an output parameter that indicates whether a range could be found or not. If this is false, you shouldn&apos;t use the returned range (e.g. no points in data).</para>
+
+<para>If <emphasis>inKeyRange</emphasis> has both lower and upper bound set to zero (is equal to <computeroutput><link linkend="class_q_c_p_range">QCPRange()</link></computeroutput>), all data points are considered, without any restriction on the keys.</para>
+
+<para>Note that <emphasis>foundRange</emphasis> is not the same as <link linkend="class_q_c_p_range_1ab38bd4841c77c7bb86c9eea0f142dcc0">QCPRange::validRange</link>, since the range returned by this function may have size zero (e.g. when there is only one data point). In this case <emphasis>foundRange</emphasis> would return true, but the returned range is not a valid range in terms of <link linkend="class_q_c_p_range_1ab38bd4841c77c7bb86c9eea0f142dcc0">QCPRange::validRange</link>.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_abstract_plottable_1a1491c4a606bccd2d09e65e11b79eb882">rescaleAxes</link>, <link linkend="class_q_c_p_financial_1a15d68fb257113fef697356d65fa76559">getKeyRange</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_financial_1a9a058c035040d3939b8884f4aaccb1a7">
+                <title>QCPFinancialDataContainer QCPFinancial::timeSeriesToOhlc (const QVector&lt; double &gt; &amp;time, const QVector&lt; double &gt; &amp;value, double timeBinSize, double timeBinOffset=0)</title> <emphasis></emphasis>
+                
+<para>A convenience function that converts time series data (<emphasis>value</emphasis> against <emphasis>time</emphasis>) to OHLC binned data points. The return value can then be passed on to <link linkend="class_q_c_p_data_container_1ae7042bd534fc3ce7befa2ce3f790b5bf">QCPFinancialDataContainer::set</link>(const QCPFinancialDataContainer&amp;).</para>
+
+<para>The size of the bins can be controlled with <emphasis>timeBinSize</emphasis> in the same units as <emphasis>time</emphasis> is given. For example, if the unit of <emphasis>time</emphasis> is seconds and single OHLC/Candlesticks should span an hour each, set <emphasis>timeBinSize</emphasis> to 3600.</para>
+
+<para><emphasis>timeBinOffset</emphasis> allows to control precisely at what <emphasis>time</emphasis> coordinate a bin should start. The value passed as <emphasis>timeBinOffset</emphasis> doesn&apos;t need to be in the range encompassed by the <emphasis>time</emphasis> keys. It merely defines the mathematical offset/phase of the bins that will be used to process the data. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_financial_1a4d62b7a618d609321adb5f5f1e31f446">
+                <title>void QCPFinancial::draw (QCPPainter *painter) Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_financial_1a53f6ef2cddb650993f04c66e39a04942">
+                <title>void QCPFinancial::drawLegendIcon (QCPPainter *painter, const QRectF &amp;rect) const Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_financial_1a2c77aab636f6bce6e0407b3f94e90d08">
+                <title>void QCPFinancial::drawOhlcPlot (QCPPainter *painter, const QCPFinancialDataContainer::const_iterator &amp;begin, const QCPFinancialDataContainer::const_iterator &amp;end, bool isSelected)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_financial_1ade6b703369d8acb3bfa0b8e244df4b06">
+                <title>void QCPFinancial::drawCandlestickPlot (QCPPainter *painter, const QCPFinancialDataContainer::const_iterator &amp;begin, const QCPFinancialDataContainer::const_iterator &amp;end, bool isSelected)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_financial_1a3ff49384a95233140c8205af77c08955">
+                <title>double QCPFinancial::getPixelWidth (double key, double keyPixel) const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_financial_1a2bf2228cc443eb5fb11ec3ea3902859c">
+                <title>double QCPFinancial::ohlcSelectTest (const QPointF &amp;pos, const QCPFinancialDataContainer::const_iterator &amp;begin, const QCPFinancialDataContainer::const_iterator &amp;end, QCPFinancialDataContainer::const_iterator &amp;closestDataPoint) const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_financial_1a9783e91a33fd08a402b1a3821d43e471">
+                <title>double QCPFinancial::candlestickSelectTest (const QPointF &amp;pos, const QCPFinancialDataContainer::const_iterator &amp;begin, const QCPFinancialDataContainer::const_iterator &amp;end, QCPFinancialDataContainer::const_iterator &amp;closestDataPoint) const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_financial_1a31a3dda8b6b9a5b674e28f1daeb21a75">
+                <title>void QCPFinancial::getVisibleDataBounds (QCPFinancialDataContainer::const_iterator &amp;begin, QCPFinancialDataContainer::const_iterator &amp;end) const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_financial_1afbe9e8cb0de3e9e789a9668b29cad098">
+                <title>QRectF QCPFinancial::selectionHitBox (QCPFinancialDataContainer::const_iterator it) const</title> <emphasis></emphasis>
+                
+            </section>
+</section>

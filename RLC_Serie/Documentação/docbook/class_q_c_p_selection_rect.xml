@@ -1,0 +1,347 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="class_q_c_p_selection_rect">
+<title>QCPSelectionRect class Reference</title>
+<para>
+    <programlisting>#include <link linkend="qcustomplot_8h">&lt;qcustomplot.h&gt;</link></programlisting>
+</para>
+<para>Inheritance diagram for QCPSelectionRect</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_q_c_p_selection_rect__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for QCPSelectionRect</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_q_c_p_selection_rect__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title>Protected Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QRect mRect</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPen mPen</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QBrush mBrush</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool mActive</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="class_q_c_p_selection_rect_1ade6ee59fabcc585a1e281eb527b01867">QCPSelectionRect</link> (
+<link linkend="class_q_custom_plot">QCustomPlot</link> * parentPlot)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual <link linkend="class_q_c_p_selection_rect_1aded186aabcdc3ee51775b7c5063e199a">~QCPSelectionRect</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QRect <link linkend="class_q_c_p_selection_rect_1a3812115ae4dfe2855bf1e58331c14805">rect</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="class_q_c_p_range">QCPRange</link> <link linkend="class_q_c_p_selection_rect_1a23ab082ffa04be1dbf9afb9e633ab815">range</link> (
+const <link linkend="class_q_c_p_axis">QCPAxis</link> * axis)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPen <link linkend="class_q_c_p_selection_rect_1ab4229f8faeaffba9617d2e6c4779b765">pen</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QBrush <link linkend="class_q_c_p_selection_rect_1a9669c77c5796dea9dc089a088d50ebfb">brush</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="class_q_c_p_selection_rect_1ad27c1569c6ea8fa48e24b81e2a302df3">isActive</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_selection_rect_1ada20b7fb1b2dcbe50523262636b06963">setPen</link> (
+const QPen &amp; pen)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_selection_rect_1ab0c66f1484418782efa01f4153611080">setBrush</link> (
+const QBrush &amp; brush)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>Q_SLOT void <link linkend="class_q_c_p_selection_rect_1af67bc58f4f5ce9a4dc420b9c42de235a">cancel</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="class_q_c_p_selection_rect_1a271f24cfca8bc50a0e2b4310ff90e227">startSelection</link> (
+QMouseEvent * event)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="class_q_c_p_selection_rect_1a95c3f1700be2a6d7bba0fe56ece5fbb1">moveSelection</link> (
+QMouseEvent * event)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="class_q_c_p_selection_rect_1a625bcffd73987f6de6c6559aaf29ab9d">endSelection</link> (
+QMouseEvent * event)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="class_q_c_p_selection_rect_1a1affe764316d6122a26fdb2e9583feb1">keyPressEvent</link> (
+QKeyEvent * event)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="class_q_c_p_selection_rect_1aa854697618e16037ba9c73056abfb9bf">applyDefaultAntialiasingHint</link> (
+<link linkend="class_q_c_p_painter">QCPPainter</link> * painter)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="class_q_c_p_selection_rect_1ab0e50ae796508bdcd97ab8c335c593bf">draw</link> (
+<link linkend="class_q_c_p_painter">QCPPainter</link> * painter)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+    <simplesect>
+
+<para>Provides rect/rubber-band data selection and range zoom interaction. </para>
+    </simplesect>
+        <simplesect>
+            <title>Detailed Description</title>
+
+<para><link linkend="class_q_c_p_selection_rect">QCPSelectionRect</link> is used by <link linkend="class_q_custom_plot">QCustomPlot</link> when the <link linkend="class_q_custom_plot_1a810ef958ebe84db661c7288b526c0deb">QCustomPlot::setSelectionRectMode</link> is not <link linkend="namespace_q_c_p_1ac9aa4d6d81ac76b094f9af9ad2d3aacfa9032f170490d67240a6c68c2638ffab1">QCP::srmNone</link>. When the user drags the mouse across the plot, the current selection rect instance (<link linkend="class_q_custom_plot_1a0c09f96df15faa4799ad7051bb16cf33">QCustomPlot::setSelectionRect</link>) is forwarded these events and makes sure an according rect shape is drawn. At the begin, during, and after completion of the interaction, it emits the corresponding signals <link linkend="class_q_c_p_selection_rect_1a7b7162d19f4f2174d3644ff1a5d335aa">started</link>, <link linkend="class_q_c_p_selection_rect_1a1bab11026bca52740c2e6682623e6964">changed</link>, <link linkend="class_q_c_p_selection_rect_1aeb82009393c90130102dccf36477b906">canceled</link>, and <link linkend="class_q_c_p_selection_rect_1a15a43542e1f7b953a44c260b419e6d2c">accepted</link>.</para>
+
+<para>The <link linkend="class_q_custom_plot">QCustomPlot</link> instance connects own slots to the current selection rect instance, in order to react to an accepted selection rect interaction accordingly.</para>
+
+<para><link linkend="class_q_c_p_selection_rect_1ad27c1569c6ea8fa48e24b81e2a302df3">isActive</link> can be used to check whether the selection rect is currently active. An ongoing selection interaction can be cancelled programmatically via calling <link linkend="class_q_c_p_selection_rect_1af67bc58f4f5ce9a4dc420b9c42de235a">cancel</link> at any time.</para>
+
+<para>The appearance of the selection rect can be controlled via <link linkend="class_q_c_p_selection_rect_1ada20b7fb1b2dcbe50523262636b06963">setPen</link> and <link linkend="class_q_c_p_selection_rect_1ab0c66f1484418782efa01f4153611080">setBrush</link>.</para>
+
+<para>If you wish to provide custom behaviour, e.g. a different visual representation of the selection rect (<link linkend="class_q_c_p_selection_rect_1ab0e50ae796508bdcd97ab8c335c593bf">QCPSelectionRect::draw</link>), you can subclass <link linkend="class_q_c_p_selection_rect">QCPSelectionRect</link> and pass an instance of your subclass to <link linkend="class_q_custom_plot_1a0c09f96df15faa4799ad7051bb16cf33">QCustomPlot::setSelectionRect</link>. </para>
+                <para>Definition at line 1095 of file qcustomplot.h</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>qcustomplot.h</para></listitem></itemizedlist></para>
+        </simplesect>
+        <section>
+            <title>Member Data Documentation</title>
+        </section>
+            <section xml:id="class_q_c_p_selection_rect_1ade6ee59fabcc585a1e281eb527b01867">
+                <title>QCPSelectionRect::QCPSelectionRect (QCustomPlot *parentPlot)</title> <emphasis></emphasis>
+                
+<para>Creates a new <link linkend="class_q_c_p_selection_rect">QCPSelectionRect</link> instance. To make <link linkend="class_q_custom_plot">QCustomPlot</link> use the selection rect instance, pass it to <link linkend="class_q_custom_plot_1a0c09f96df15faa4799ad7051bb16cf33">QCustomPlot::setSelectionRect</link>. <emphasis>parentPlot</emphasis> should be set to the same <link linkend="class_q_custom_plot">QCustomPlot</link> widget. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_selection_rect_1aded186aabcdc3ee51775b7c5063e199a">
+                <title>QCPSelectionRect::~QCPSelectionRect ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_selection_rect_1a3812115ae4dfe2855bf1e58331c14805">
+                <title>QRect QCPSelectionRect::rect () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_selection_rect_1a23ab082ffa04be1dbf9afb9e633ab815">
+                <title>QCPRange QCPSelectionRect::range (const QCPAxis *axis) const</title> <emphasis></emphasis>
+                
+<para>A convenience function which returns the coordinate range of the provided <emphasis>axis</emphasis>, that this selection rect currently encompasses. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_selection_rect_1ab4229f8faeaffba9617d2e6c4779b765">
+                <title>QPen QCPSelectionRect::pen () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_selection_rect_1a9669c77c5796dea9dc089a088d50ebfb">
+                <title>QBrush QCPSelectionRect::brush () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_selection_rect_1ad27c1569c6ea8fa48e24b81e2a302df3">
+                <title>bool QCPSelectionRect::isActive () const</title> <emphasis></emphasis>
+                
+<para>Returns true if there is currently a selection going on, i.e. the user has started dragging a selection rect, but hasn&apos;t released the mouse button yet.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_selection_rect_1af67bc58f4f5ce9a4dc420b9c42de235a">cancel</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_selection_rect_1ada20b7fb1b2dcbe50523262636b06963">
+                <title>void QCPSelectionRect::setPen (const QPen &amp;pen)</title> <emphasis></emphasis>
+                
+<para>Sets the pen that will be used to draw the selection rect outline.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_selection_rect_1ab0c66f1484418782efa01f4153611080">setBrush</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_selection_rect_1ab0c66f1484418782efa01f4153611080">
+                <title>void QCPSelectionRect::setBrush (const QBrush &amp;brush)</title> <emphasis></emphasis>
+                
+<para>Sets the brush that will be used to fill the selection rect. By default the selection rect is not filled, i.e. <emphasis>brush</emphasis> is <computeroutput>Qt::NoBrush</computeroutput>.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_selection_rect_1ada20b7fb1b2dcbe50523262636b06963">setPen</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_selection_rect_1af67bc58f4f5ce9a4dc420b9c42de235a">
+                <title>void QCPSelectionRect::cancel ()</title> <emphasis></emphasis>
+                
+<para>If there is currently a selection interaction going on (<link linkend="class_q_c_p_selection_rect_1ad27c1569c6ea8fa48e24b81e2a302df3">isActive</link>), the interaction is canceled. The selection rect will emit the <link linkend="class_q_c_p_selection_rect_1aeb82009393c90130102dccf36477b906">canceled</link> signal. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_selection_rect_1a271f24cfca8bc50a0e2b4310ff90e227">
+                <title>void QCPSelectionRect::startSelection (QMouseEvent *event)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_selection_rect_1a95c3f1700be2a6d7bba0fe56ece5fbb1">
+                <title>void QCPSelectionRect::moveSelection (QMouseEvent *event)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_selection_rect_1a625bcffd73987f6de6c6559aaf29ab9d">
+                <title>void QCPSelectionRect::endSelection (QMouseEvent *event)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_selection_rect_1a1affe764316d6122a26fdb2e9583feb1">
+                <title>void QCPSelectionRect::keyPressEvent (QKeyEvent *event)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_selection_rect_1aa854697618e16037ba9c73056abfb9bf">
+                <title>void QCPSelectionRect::applyDefaultAntialiasingHint (QCPPainter *painter) const Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_selection_rect_1ab0e50ae796508bdcd97ab8c335c593bf">
+                <title>void QCPSelectionRect::draw (QCPPainter *painter) Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+            </section>
+</section>

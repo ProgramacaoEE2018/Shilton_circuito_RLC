@@ -1,0 +1,845 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="class_q_c_p_item_text">
+<title>QCPItemText class Reference</title>
+<para>
+    <programlisting>#include <link linkend="qcustomplot_8h">&lt;qcustomplot.h&gt;</link></programlisting>
+</para>
+<para>Inheritance diagram for QCPItemText</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_q_c_p_item_text__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for QCPItemText</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_q_c_p_item_text__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                            <para><literallayout>enum <link linkend="class_q_c_p_item_text_1a14a84e58f72519c8ae1d7a4a1dd23f21">AnchorIndex</link> {
+<link linkend="class_q_c_p_item_text_1a14a84e58f72519c8ae1d7a4a1dd23f21a30342ee15065715f045cb52eb77b904c">aiTopLeft</link>,
+<link linkend="class_q_c_p_item_text_1a14a84e58f72519c8ae1d7a4a1dd23f21a55ce9699c71db6d264eb669bb0eb9aff">aiTop</link>,
+<link linkend="class_q_c_p_item_text_1a14a84e58f72519c8ae1d7a4a1dd23f21a7b6ff56fcad4c78db0b793a96fce9580">aiTopRight</link>,
+<link linkend="class_q_c_p_item_text_1a14a84e58f72519c8ae1d7a4a1dd23f21ad4faa7def46db6df2fedd1926237b48f">aiRight</link>,
+<link linkend="class_q_c_p_item_text_1a14a84e58f72519c8ae1d7a4a1dd23f21af2072f259730ef47aa7ad7519f3a0255">aiBottomRight</link>,
+<link linkend="class_q_c_p_item_text_1a14a84e58f72519c8ae1d7a4a1dd23f21a5773ad69b7f4cd2724ba46d8f31b0688">aiBottom</link>,
+<link linkend="class_q_c_p_item_text_1a14a84e58f72519c8ae1d7a4a1dd23f21a489ec73da5a18c15e98a4f9b17ed301f">aiBottomLeft</link>,
+<link linkend="class_q_c_p_item_text_1a14a84e58f72519c8ae1d7a4a1dd23f21a7f1c1b8c574c753e300a4759915a9170">aiLeft</link>
+}</literallayout>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title>Public Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QCPItemPosition *const position</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QCPItemAnchor *const topLeft</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QCPItemAnchor *const top</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QCPItemAnchor *const topRight</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QCPItemAnchor *const right</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QCPItemAnchor *const bottomRight</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QCPItemAnchor *const bottom</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QCPItemAnchor *const bottomLeft</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QCPItemAnchor *const left</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title>Protected Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QColor mColor</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QColor mSelectedColor</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPen mPen</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPen mSelectedPen</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QBrush mBrush</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QBrush mSelectedBrush</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QFont mFont</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QFont mSelectedFont</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QString mText</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>Qt::Alignment mPositionAlignment</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>Qt::Alignment mTextAlignment</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double mRotation</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QMargins mPadding</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="class_q_c_p_item_text_1a77ff96a2972a00872ff8f8c67143abbe">QCPItemText</link> (
+<link linkend="class_q_custom_plot">QCustomPlot</link> * parentPlot)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual <link linkend="class_q_c_p_item_text_1a1efd41ca53d49042d4f4b63cf9615cb6">~QCPItemText</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QColor <link linkend="class_q_c_p_item_text_1a071ec7567ae4deae2262a5b861df7d54">color</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QColor <link linkend="class_q_c_p_item_text_1a6e13d5497ea634fe1ee9f4aac94f664c">selectedColor</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPen <link linkend="class_q_c_p_item_text_1a7039d313069547682f28688448333979">pen</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPen <link linkend="class_q_c_p_item_text_1a852a79afa0e88e29e11474d323440126">selectedPen</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QBrush <link linkend="class_q_c_p_item_text_1a2600b9b419f17e2e2381f5ed8267da62">brush</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QBrush <link linkend="class_q_c_p_item_text_1a300770cc32acf3e92763651803482563">selectedBrush</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QFont <link linkend="class_q_c_p_item_text_1a44a564431890ffdfe0f978f8732cfb81">font</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QFont <link linkend="class_q_c_p_item_text_1a74c947c6193e3b47884fac84fdb29922">selectedFont</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QString <link linkend="class_q_c_p_item_text_1ad71c9e83ee3556d9d617eca854e8eb18">text</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>Qt::Alignment <link linkend="class_q_c_p_item_text_1a0d946dca3008d353afd04b4337739199">positionAlignment</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>Qt::Alignment <link linkend="class_q_c_p_item_text_1a9af3198d46551e1cc7703f02c95ddfe5">textAlignment</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double <link linkend="class_q_c_p_item_text_1a035962b4ed23ff0a89e6a8b46fa18bf1">rotation</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QMargins <link linkend="class_q_c_p_item_text_1a5a598618350b40446d031fa9dc15fba7">padding</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_item_text_1aa51efc0841fe52da9eaf8aff6fc8a8b2">setColor</link> (
+const QColor &amp; color)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_item_text_1ae7ba0bdb75c897b028388e45bfd435fa">setSelectedColor</link> (
+const QColor &amp; color)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_item_text_1a9b9ec6eea0eb0603977ff84d4c78d0a3">setPen</link> (
+const QPen &amp; pen)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_item_text_1a291febe586f0da3f1c392e77bef4aa20">setSelectedPen</link> (
+const QPen &amp; pen)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_item_text_1a1c7e131516df2ed8d941ef31240ded8e">setBrush</link> (
+const QBrush &amp; brush)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_item_text_1a6b8377eeb2af75eb9528422671ac16cb">setSelectedBrush</link> (
+const QBrush &amp; brush)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_item_text_1a94ad60ebe04f5c07c35e7c2029e96b1f">setFont</link> (
+const QFont &amp; font)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_item_text_1a0be2841772f83663c4db307928b82816">setSelectedFont</link> (
+const QFont &amp; font)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_item_text_1a3dacdda0ac88f99a05b333b977c48747">setText</link> (
+const QString &amp; text)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_item_text_1a781cdf8c640fc6a055dcff1e675c8c7a">setPositionAlignment</link> (
+Qt::Alignment alignment)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_item_text_1ab5bc0684c4d1bed81949a11b34dba478">setTextAlignment</link> (
+Qt::Alignment alignment)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_item_text_1a4bcc10cd97952c3f749d75824b5077f0">setRotation</link> (
+double degrees)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_item_text_1aeea8a3e01f135f9dd0bb08f51db66310">setPadding</link> (
+const QMargins &amp; padding)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual double <link linkend="class_q_c_p_item_text_1a676aaec10ad3cc4d7d0e4847db04c838">selectTest</link> (
+const QPointF &amp; pos, bool onlySelectable, QVariant * details)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="class_q_c_p_item_text_1a8f8f075da83b6547c2b32e1f64cf0554">draw</link> (
+<link linkend="class_q_c_p_painter">QCPPainter</link> * painter)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual QPointF <link linkend="class_q_c_p_item_text_1afcdb1724d88d561f65da95fb54b0acb7">anchorPixelPosition</link> (
+int anchorId)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPointF <link linkend="class_q_c_p_item_text_1a4c76ad7e33c50aff0a60b8f38fe6060e">getTextDrawPoint</link> (
+const QPointF &amp; pos, const QRectF &amp; rect, Qt::Alignment positionAlignment)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QFont <link linkend="class_q_c_p_item_text_1af30ac2a0b84afa86a1dec22ab48dd07d">mainFont</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QColor <link linkend="class_q_c_p_item_text_1abe3f10805baf62797cb91fd4a4464fcc">mainColor</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPen <link linkend="class_q_c_p_item_text_1a2f67fcbb7ac10ea9a94c4ecc3b0f4dfc">mainPen</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QBrush <link linkend="class_q_c_p_item_text_1acddddd3ce88cfc87ab57b1ec4b25acb9">mainBrush</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+    <simplesect>
+
+<para>A text label. </para>
+    </simplesect>
+        <simplesect>
+            <title>Detailed Description</title>
+
+<para> Its position is defined by the member <emphasis>position</emphasis> and the setting of <link linkend="class_q_c_p_item_text_1a781cdf8c640fc6a055dcff1e675c8c7a">setPositionAlignment</link>. The latter controls which part of the text rect shall be aligned with <emphasis>position</emphasis>.</para>
+
+<para>The text alignment itself (i.e. left, center, right) can be controlled with <link linkend="class_q_c_p_item_text_1ab5bc0684c4d1bed81949a11b34dba478">setTextAlignment</link>.</para>
+
+<para>The text may be rotated around the <emphasis>position</emphasis> point with <link linkend="class_q_c_p_item_text_1a4bcc10cd97952c3f749d75824b5077f0">setRotation</link>. </para>
+                <para>Definition at line 6284 of file qcustomplot.h</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>qcustomplot.h</para></listitem></itemizedlist></para>
+        </simplesect>
+            <section xml:id="class_q_c_p_item_text_1a14a84e58f72519c8ae1d7a4a1dd23f21">
+               <title>enum AnchorIndex </title>
+               
+               <formalpara>
+                    <title>Enumerator:</title>
+                    <variablelist>
+                        <varlistentry xml:id="class_q_c_p_item_text_1a14a84e58f72519c8ae1d7a4a1dd23f21a30342ee15065715f045cb52eb77b904c">
+                            <term>aiTopLeft</term>
+                            <listitem>
+                                <para></para>
+                            </listitem>
+                        </varlistentry>
+                        <varlistentry xml:id="class_q_c_p_item_text_1a14a84e58f72519c8ae1d7a4a1dd23f21a55ce9699c71db6d264eb669bb0eb9aff">
+                            <term>aiTop</term>
+                            <listitem>
+                                <para></para>
+                            </listitem>
+                        </varlistentry>
+                        <varlistentry xml:id="class_q_c_p_item_text_1a14a84e58f72519c8ae1d7a4a1dd23f21a7b6ff56fcad4c78db0b793a96fce9580">
+                            <term>aiTopRight</term>
+                            <listitem>
+                                <para></para>
+                            </listitem>
+                        </varlistentry>
+                        <varlistentry xml:id="class_q_c_p_item_text_1a14a84e58f72519c8ae1d7a4a1dd23f21ad4faa7def46db6df2fedd1926237b48f">
+                            <term>aiRight</term>
+                            <listitem>
+                                <para></para>
+                            </listitem>
+                        </varlistentry>
+                        <varlistentry xml:id="class_q_c_p_item_text_1a14a84e58f72519c8ae1d7a4a1dd23f21af2072f259730ef47aa7ad7519f3a0255">
+                            <term>aiBottomRight</term>
+                            <listitem>
+                                <para></para>
+                            </listitem>
+                        </varlistentry>
+                        <varlistentry xml:id="class_q_c_p_item_text_1a14a84e58f72519c8ae1d7a4a1dd23f21a5773ad69b7f4cd2724ba46d8f31b0688">
+                            <term>aiBottom</term>
+                            <listitem>
+                                <para></para>
+                            </listitem>
+                        </varlistentry>
+                        <varlistentry xml:id="class_q_c_p_item_text_1a14a84e58f72519c8ae1d7a4a1dd23f21a489ec73da5a18c15e98a4f9b17ed301f">
+                            <term>aiBottomLeft</term>
+                            <listitem>
+                                <para></para>
+                            </listitem>
+                        </varlistentry>
+                        <varlistentry xml:id="class_q_c_p_item_text_1a14a84e58f72519c8ae1d7a4a1dd23f21a7f1c1b8c574c753e300a4759915a9170">
+                            <term>aiLeft</term>
+                            <listitem>
+                                <para></para>
+                            </listitem>
+                        </varlistentry>
+                     </variablelist>
+                </formalpara>
+                <para>Definition at line 6349 of file qcustomplot.h
+                    <computeroutput><literallayout>
+{
+aiTopLeft, 
+aiTop, 
+aiTopRight, 
+aiRight, 
+aiBottomRight, 
+aiBottom, 
+aiBottomLeft, 
+aiLeft, 
+}AnchorIndex;
+                    </literallayout></computeroutput>
+                </para>
+            </section>
+        <section>
+            <title>Member Data Documentation</title>
+        </section>
+        <section>
+            <title>Member Data Documentation</title>
+        </section>
+            <section xml:id="class_q_c_p_item_text_1a77ff96a2972a00872ff8f8c67143abbe">
+                <title>QCPItemText::QCPItemText (QCustomPlot *parentPlot)</title> <emphasis></emphasis>
+                
+<para>Creates a text item and sets default values.</para>
+
+<para>The created item is automatically registered with <emphasis>parentPlot</emphasis>. This <link linkend="class_q_custom_plot">QCustomPlot</link> instance takes ownership of the item, so do not delete it manually but use <link linkend="class_q_custom_plot_1ae04446557292551e8fb6e2c106e1848d">QCustomPlot::removeItem()</link> instead. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_item_text_1a1efd41ca53d49042d4f4b63cf9615cb6">
+                <title>QCPItemText::~QCPItemText ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_item_text_1a071ec7567ae4deae2262a5b861df7d54">
+                <title>QColor QCPItemText::color () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_item_text_1a6e13d5497ea634fe1ee9f4aac94f664c">
+                <title>QColor QCPItemText::selectedColor () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_item_text_1a7039d313069547682f28688448333979">
+                <title>QPen QCPItemText::pen () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_item_text_1a852a79afa0e88e29e11474d323440126">
+                <title>QPen QCPItemText::selectedPen () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_item_text_1a2600b9b419f17e2e2381f5ed8267da62">
+                <title>QBrush QCPItemText::brush () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_item_text_1a300770cc32acf3e92763651803482563">
+                <title>QBrush QCPItemText::selectedBrush () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_item_text_1a44a564431890ffdfe0f978f8732cfb81">
+                <title>QFont QCPItemText::font () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_item_text_1a74c947c6193e3b47884fac84fdb29922">
+                <title>QFont QCPItemText::selectedFont () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_item_text_1ad71c9e83ee3556d9d617eca854e8eb18">
+                <title>QString QCPItemText::text () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_item_text_1a0d946dca3008d353afd04b4337739199">
+                <title>Qt::Alignment QCPItemText::positionAlignment () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_item_text_1a9af3198d46551e1cc7703f02c95ddfe5">
+                <title>Qt::Alignment QCPItemText::textAlignment () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_item_text_1a035962b4ed23ff0a89e6a8b46fa18bf1">
+                <title>double QCPItemText::rotation () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_item_text_1a5a598618350b40446d031fa9dc15fba7">
+                <title>QMargins QCPItemText::padding () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_item_text_1aa51efc0841fe52da9eaf8aff6fc8a8b2">
+                <title>void QCPItemText::setColor (const QColor &amp;color)</title> <emphasis></emphasis>
+                
+<para>Sets the color of the text. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_item_text_1ae7ba0bdb75c897b028388e45bfd435fa">
+                <title>void QCPItemText::setSelectedColor (const QColor &amp;color)</title> <emphasis></emphasis>
+                
+<para>Sets the color of the text that will be used when the item is selected. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_item_text_1a9b9ec6eea0eb0603977ff84d4c78d0a3">
+                <title>void QCPItemText::setPen (const QPen &amp;pen)</title> <emphasis></emphasis>
+                
+<para>Sets the pen that will be used do draw a rectangular border around the text. To disable the border, set <emphasis>pen</emphasis> to Qt::NoPen.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_item_text_1a291febe586f0da3f1c392e77bef4aa20">setSelectedPen</link>, <link linkend="class_q_c_p_item_text_1a1c7e131516df2ed8d941ef31240ded8e">setBrush</link>, <link linkend="class_q_c_p_item_text_1aeea8a3e01f135f9dd0bb08f51db66310">setPadding</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_item_text_1a291febe586f0da3f1c392e77bef4aa20">
+                <title>void QCPItemText::setSelectedPen (const QPen &amp;pen)</title> <emphasis></emphasis>
+                
+<para>Sets the pen that will be used do draw a rectangular border around the text, when the item is selected. To disable the border, set <emphasis>pen</emphasis> to Qt::NoPen.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_item_text_1a9b9ec6eea0eb0603977ff84d4c78d0a3">setPen</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_item_text_1a1c7e131516df2ed8d941ef31240ded8e">
+                <title>void QCPItemText::setBrush (const QBrush &amp;brush)</title> <emphasis></emphasis>
+                
+<para>Sets the brush that will be used do fill the background of the text. To disable the background, set <emphasis>brush</emphasis> to Qt::NoBrush.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_item_text_1a6b8377eeb2af75eb9528422671ac16cb">setSelectedBrush</link>, <link linkend="class_q_c_p_item_text_1a9b9ec6eea0eb0603977ff84d4c78d0a3">setPen</link>, <link linkend="class_q_c_p_item_text_1aeea8a3e01f135f9dd0bb08f51db66310">setPadding</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_item_text_1a6b8377eeb2af75eb9528422671ac16cb">
+                <title>void QCPItemText::setSelectedBrush (const QBrush &amp;brush)</title> <emphasis></emphasis>
+                
+<para>Sets the brush that will be used do fill the background of the text, when the item is selected. To disable the background, set <emphasis>brush</emphasis> to Qt::NoBrush.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_item_text_1a1c7e131516df2ed8d941ef31240ded8e">setBrush</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_item_text_1a94ad60ebe04f5c07c35e7c2029e96b1f">
+                <title>void QCPItemText::setFont (const QFont &amp;font)</title> <emphasis></emphasis>
+                
+<para>Sets the font of the text.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_item_text_1a0be2841772f83663c4db307928b82816">setSelectedFont</link>, <link linkend="class_q_c_p_item_text_1aa51efc0841fe52da9eaf8aff6fc8a8b2">setColor</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_item_text_1a0be2841772f83663c4db307928b82816">
+                <title>void QCPItemText::setSelectedFont (const QFont &amp;font)</title> <emphasis></emphasis>
+                
+<para>Sets the font of the text that will be used when the item is selected.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_item_text_1a94ad60ebe04f5c07c35e7c2029e96b1f">setFont</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_item_text_1a3dacdda0ac88f99a05b333b977c48747">
+                <title>void QCPItemText::setText (const QString &amp;text)</title> <emphasis></emphasis>
+                
+<para>Sets the text that will be displayed. Multi-line texts are supported by inserting a line break character, e.g. &apos;
+<literallayout>
+</literallayout>
+&apos;.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_item_text_1a94ad60ebe04f5c07c35e7c2029e96b1f">setFont</link>, <link linkend="class_q_c_p_item_text_1aa51efc0841fe52da9eaf8aff6fc8a8b2">setColor</link>, <link linkend="class_q_c_p_item_text_1ab5bc0684c4d1bed81949a11b34dba478">setTextAlignment</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_item_text_1a781cdf8c640fc6a055dcff1e675c8c7a">
+                <title>void QCPItemText::setPositionAlignment (Qt::Alignment alignment)</title> <emphasis></emphasis>
+                
+<para>Sets which point of the text rect shall be aligned with <emphasis>position</emphasis>.</para>
+
+<para>Examples: <itemizedlist>
+<listitem>
+<para>If <emphasis>alignment</emphasis> is <computeroutput>Qt::AlignHCenter | Qt::AlignTop</computeroutput>, the text will be positioned such that the top of the text rect will be horizontally centered on <emphasis>position</emphasis>. </para>
+</listitem>
+<listitem>
+<para>If <emphasis>alignment</emphasis> is <computeroutput>Qt::AlignLeft | Qt::AlignBottom</computeroutput>, <emphasis>position</emphasis> will indicate the bottom left corner of the text rect.</para>
+</listitem>
+</itemizedlist>
+If you want to control the alignment of (multi-lined) text within the text rect, use <link linkend="class_q_c_p_item_text_1ab5bc0684c4d1bed81949a11b34dba478">setTextAlignment</link>. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_item_text_1ab5bc0684c4d1bed81949a11b34dba478">
+                <title>void QCPItemText::setTextAlignment (Qt::Alignment alignment)</title> <emphasis></emphasis>
+                
+<para>Controls how (multi-lined) text is aligned inside the text rect (typically Qt::AlignLeft, Qt::AlignCenter or Qt::AlignRight). </para>
+
+            </section>
+            <section xml:id="class_q_c_p_item_text_1a4bcc10cd97952c3f749d75824b5077f0">
+                <title>void QCPItemText::setRotation (double degrees)</title> <emphasis></emphasis>
+                
+<para>Sets the angle in degrees by which the text (and the text rectangle, if visible) will be rotated around <emphasis>position</emphasis>. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_item_text_1aeea8a3e01f135f9dd0bb08f51db66310">
+                <title>void QCPItemText::setPadding (const QMargins &amp;padding)</title> <emphasis></emphasis>
+                
+<para>Sets the distance between the border of the text rectangle and the text. The appearance (and visibility) of the text rectangle can be controlled with <link linkend="class_q_c_p_item_text_1a9b9ec6eea0eb0603977ff84d4c78d0a3">setPen</link> and <link linkend="class_q_c_p_item_text_1a1c7e131516df2ed8d941ef31240ded8e">setBrush</link>. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_item_text_1a676aaec10ad3cc4d7d0e4847db04c838">
+                <title>double QCPItemText::selectTest (const QPointF &amp;pos, bool onlySelectable, QVariant *details=0) const Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+<para>This function is used to decide whether a click hits a layerable object or not.</para>
+
+<para><emphasis>pos</emphasis> is a point in pixel coordinates on the <link linkend="class_q_custom_plot">QCustomPlot</link> surface. This function returns the shortest pixel distance of this point to the object. If the object is either invisible or the distance couldn&apos;t be determined, -1.0 is returned. Further, if <emphasis>onlySelectable</emphasis> is true and the object is not selectable, -1.0 is returned, too.</para>
+
+<para>If the object is represented not by single lines but by an area like a <link linkend="class_q_c_p_item_text">QCPItemText</link> or the bars of a <link linkend="class_q_c_p_bars">QCPBars</link> plottable, a click inside the area should also be considered a hit. In these cases this function thus returns a constant value greater zero but still below the parent plot&apos;s selection tolerance. (typically the selectionTolerance multiplied by 0.99).</para>
+
+<para>Providing a constant value for area objects allows selecting line objects even when they are obscured by such area objects, by clicking close to the lines (i.e. closer than 0.99*selectionTolerance).</para>
+
+<para>The actual setting of the selection state is not done by this function. This is handled by the parent <link linkend="class_q_custom_plot">QCustomPlot</link> when the mouseReleaseEvent occurs, and the finally selected object is notified via the <link linkend="class_q_c_p_abstract_item_1aa4b969c58797f39c9c0b6c07c7869d17">selectEvent</link>/<link linkend="class_q_c_p_abstract_item_1af9093798cb07a861dcc73f93ca16c0c1">deselectEvent</link> methods.</para>
+
+<para><emphasis>details</emphasis> is an optional output parameter. Every layerable subclass may place any information in <emphasis>details</emphasis>. This information will be passed to <link linkend="class_q_c_p_abstract_item_1aa4b969c58797f39c9c0b6c07c7869d17">selectEvent</link> when the parent <link linkend="class_q_custom_plot">QCustomPlot</link> decides on the basis of this selectTest call, that the object was successfully selected. The subsequent call to <link linkend="class_q_c_p_abstract_item_1aa4b969c58797f39c9c0b6c07c7869d17">selectEvent</link> will carry the <emphasis>details</emphasis>. This is useful for multi-part objects (like <link linkend="class_q_c_p_axis">QCPAxis</link>). This way, a possibly complex calculation to decide which part was clicked is only done once in <link linkend="class_q_c_p_item_text_1a676aaec10ad3cc4d7d0e4847db04c838">selectTest</link>. The result (i.e. the actually clicked part) can then be placed in <emphasis>details</emphasis>. So in the subsequent <link linkend="class_q_c_p_abstract_item_1aa4b969c58797f39c9c0b6c07c7869d17">selectEvent</link>, the decision which part was selected doesn&apos;t have to be done a second time for a single selection operation.</para>
+
+<para>You may pass 0 as <emphasis>details</emphasis> to indicate that you are not interested in those selection details.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_abstract_item_1aa4b969c58797f39c9c0b6c07c7869d17">selectEvent</link>, <link linkend="class_q_c_p_abstract_item_1af9093798cb07a861dcc73f93ca16c0c1">deselectEvent</link>, <link linkend="class_q_c_p_layerable_1af6567604818db90f4fd52822f8bc8376">mousePressEvent</link>, <link linkend="class_q_c_p_layerable_1a47dfd7b8fd99c08ca54e09c362b6f022">wheelEvent</link>, <link linkend="class_q_custom_plot_1a5ee1e2f6ae27419deca53e75907c27e5">QCustomPlot::setInteractions</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_item_text_1a8f8f075da83b6547c2b32e1f64cf0554">
+                <title>void QCPItemText::draw (QCPPainter *painter) Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_item_text_1afcdb1724d88d561f65da95fb54b0acb7">
+                <title>QPointF QCPItemText::anchorPixelPosition (int anchorId) const Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_item_text_1a4c76ad7e33c50aff0a60b8f38fe6060e">
+                <title>QPointF QCPItemText::getTextDrawPoint (const QPointF &amp;pos, const QRectF &amp;rect, Qt::Alignment positionAlignment) const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_item_text_1af30ac2a0b84afa86a1dec22ab48dd07d">
+                <title>QFont QCPItemText::mainFont () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_item_text_1abe3f10805baf62797cb91fd4a4464fcc">
+                <title>QColor QCPItemText::mainColor () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_item_text_1a2f67fcbb7ac10ea9a94c4ecc3b0f4dfc">
+                <title>QPen QCPItemText::mainPen () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_item_text_1acddddd3ce88cfc87ab57b1ec4b25acb9">
+                <title>QBrush QCPItemText::mainBrush () const</title> <emphasis></emphasis>
+                
+            </section>
+</section>

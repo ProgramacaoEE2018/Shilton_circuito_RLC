@@ -1,0 +1,209 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="class_q_c_p_color_scale_axis_rect_private">
+<title>QCPColorScaleAxisRectPrivate class Reference</title>
+<para>
+    <programlisting>#include <link linkend="qcustomplot_8h">&lt;qcustomplot.h&gt;</link></programlisting>
+</para>
+<para>Inheritance diagram for QCPColorScaleAxisRectPrivate</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_q_c_p_color_scale_axis_rect_private__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for QCPColorScaleAxisRectPrivate</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_q_c_p_color_scale_axis_rect_private__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title>Protected Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QCPColorScale * mParentColorScale</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QImage mGradientImage</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool mGradientImageInvalidated</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="class_q_c_p_color_scale_axis_rect_private_1ad3b242f75dd2b33581364a4e668a80db">QCPColorScaleAxisRectPrivate</link> (
+<link linkend="class_q_c_p_color_scale">QCPColorScale</link> * parentColorScale)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="class_q_c_p_color_scale_axis_rect_private_1a52a21c7cbe086cd587c955cfe6e25e3b">draw</link> (
+<link linkend="class_q_c_p_painter">QCPPainter</link> * painter)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_color_scale_axis_rect_private_1a73754cab312aeaddea1bfcc67cc079ac">updateGradientImage</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>Q_SLOT void <link linkend="class_q_c_p_color_scale_axis_rect_private_1a6112ad4291ac1695d37659cb049d598d">axisSelectionChanged</link> (
+QCPAxis::SelectableParts selectedParts)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>Q_SLOT void <link linkend="class_q_c_p_color_scale_axis_rect_private_1a66d2baed86966bb03a6d7c32dc7d59f7">axisSelectableChanged</link> (
+QCPAxis::SelectableParts selectableParts)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual int <link linkend="class_q_c_p_color_scale_axis_rect_private_1ac51055d83f5f414b6d013d3a24b0a941">calculateAutoMargin</link> (
+<link linkend="namespace_q_c_p_1a7e487e3e2ccb62ab7771065bab7cae54">QCP::MarginSide</link> side)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="class_q_c_p_color_scale_axis_rect_private_1aa9a7c807eaa4666870ac94aa6abc4dde">mousePressEvent</link> (
+QMouseEvent * event, const QVariant &amp; details)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="class_q_c_p_color_scale_axis_rect_private_1a9cd27ad8c5cfb49aefd9dbb30def4beb">mouseMoveEvent</link> (
+QMouseEvent * event, const QPointF &amp; startPos)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="class_q_c_p_color_scale_axis_rect_private_1a6c89b988d3a0b93c0878f0ebdb5037f4">mouseReleaseEvent</link> (
+QMouseEvent * event, const QPointF &amp; startPos)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="class_q_c_p_color_scale_axis_rect_private_1a93eeaa0c127d6d6fe8171b2455080262">wheelEvent</link> (
+QWheelEvent * event)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="class_q_c_p_color_scale_axis_rect_private_1add049d464b9ef2ccdc638adc4ccb4aca">update</link> (
+<link linkend="class_q_c_p_layout_element_1a0d83360e05735735aaf6d7983c56374d">UpdatePhase</link> phase)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title>Member Data Documentation</title>
+        </section>
+            <section xml:id="class_q_c_p_color_scale_axis_rect_private_1ad3b242f75dd2b33581364a4e668a80db">
+                <title>QCPColorScaleAxisRectPrivate::QCPColorScaleAxisRectPrivate (QCPColorScale *parentColorScale)</title> <emphasis></emphasis>
+                
+<para>Creates a new instance, as a child of <emphasis>parentColorScale</emphasis>. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_color_scale_axis_rect_private_1a52a21c7cbe086cd587c955cfe6e25e3b">
+                <title>void QCPColorScaleAxisRectPrivate::draw (QCPPainter *painter) Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_color_scale_axis_rect_private_1a73754cab312aeaddea1bfcc67cc079ac">
+                <title>void QCPColorScaleAxisRectPrivate::updateGradientImage ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_color_scale_axis_rect_private_1a6112ad4291ac1695d37659cb049d598d">
+                <title>void QCPColorScaleAxisRectPrivate::axisSelectionChanged (QCPAxis::SelectableParts selectedParts)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_color_scale_axis_rect_private_1a66d2baed86966bb03a6d7c32dc7d59f7">
+                <title>void QCPColorScaleAxisRectPrivate::axisSelectableChanged (QCPAxis::SelectableParts selectableParts)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_color_scale_axis_rect_private_1ac51055d83f5f414b6d013d3a24b0a941">
+                <title>int QCPAxisRect::calculateAutoMargin (QCP::MarginSide side) Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_color_scale_axis_rect_private_1aa9a7c807eaa4666870ac94aa6abc4dde">
+                <title>void QCPAxisRect::mousePressEvent (QMouseEvent *event, const QVariant &amp;details) Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_color_scale_axis_rect_private_1a9cd27ad8c5cfb49aefd9dbb30def4beb">
+                <title>void QCPAxisRect::mouseMoveEvent (QMouseEvent *event, const QPointF &amp;startPos) Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_color_scale_axis_rect_private_1a6c89b988d3a0b93c0878f0ebdb5037f4">
+                <title>void QCPAxisRect::mouseReleaseEvent (QMouseEvent *event, const QPointF &amp;startPos) Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_color_scale_axis_rect_private_1a93eeaa0c127d6d6fe8171b2455080262">
+                <title>void QCPAxisRect::wheelEvent (QWheelEvent *event) Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_color_scale_axis_rect_private_1add049d464b9ef2ccdc638adc4ccb4aca">
+                <title>void QCPAxisRect::update (UpdatePhase phase) Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+<para>This method is called automatically upon replot and doesn&apos;t need to be called by users of <link linkend="class_q_c_p_axis_rect">QCPAxisRect</link>.</para>
+
+<para>Calls the base class implementation to update the margins (see <link linkend="class_q_c_p_layout_element_1a929c2ec62e0e0e1d8418eaa802e2af9b">QCPLayoutElement::update</link>), and finally passes the <link linkend="class_q_c_p_layout_element_1a208effccfe2cca4a0eaf9393e60f2dd4">rect</link> to the inset layout (<link linkend="class_q_c_p_axis_rect_1a949f803466619924c7018df4b511ae10">insetLayout</link>) and calls its QCPInsetLayout::update function.</para>
+
+            </section>
+</section>

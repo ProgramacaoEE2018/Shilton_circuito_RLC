@@ -1,0 +1,323 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="class_q_c_p_axis_ticker_text">
+<title>QCPAxisTickerText class Reference</title>
+<para>
+    <programlisting>#include <link linkend="qcustomplot_8h">&lt;qcustomplot.h&gt;</link></programlisting>
+</para>
+<para>Inheritance diagram for QCPAxisTickerText</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_q_c_p_axis_ticker_text__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for QCPAxisTickerText</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_q_c_p_axis_ticker_text__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title>Protected Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QMap&lt; double, QString &gt; mTicks</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>int mSubTickCount</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="class_q_c_p_axis_ticker_text_1a1d7243b1256c1aa9d1d5b99b2e84e648">QCPAxisTickerText</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QMap&lt; double, QString &gt; &amp; <link linkend="class_q_c_p_axis_ticker_text_1ac84622a6bb4f2a98474e185ecaf3189a">ticks</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>int <link linkend="class_q_c_p_axis_ticker_text_1a5c3c59e8fdf4c96568dd50d4a653e791">subTickCount</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_axis_ticker_text_1a8cdf1f21940f1f53f5e3d30b2c74f5cf">setTicks</link> (
+const QMap&lt; double, QString &gt; &amp; ticks)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_axis_ticker_text_1a69f3898cc1cf11d2437851f959faa1e8">setTicks</link> (
+const QVector&lt; double &gt; &amp; positions, const QVector&lt; QString &gt; labels)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_axis_ticker_text_1a8cfa50c51183c90186892eeef978d571">setSubTickCount</link> (
+int subTicks)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_axis_ticker_text_1a21826d2fcd9a25c194d34d4f67aa1460">clear</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_axis_ticker_text_1aada3db69e5fc6585aaa4ea5d89552eb0">addTick</link> (
+double position, QString label)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_axis_ticker_text_1aba34051300eecaefbedb2df8feff2d45">addTicks</link> (
+const QMap&lt; double, QString &gt; &amp; ticks)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_axis_ticker_text_1a8140c730e20b0050e1b702af3db00b2e">addTicks</link> (
+const QVector&lt; double &gt; &amp; positions, const QVector&lt; QString &gt; &amp; labels)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual double <link linkend="class_q_c_p_axis_ticker_text_1a628f16c41905e8c95c6622d6757a38c4">getTickStep</link> (
+const <link linkend="class_q_c_p_range">QCPRange</link> &amp; range)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual int <link linkend="class_q_c_p_axis_ticker_text_1a9c2488b877776870239abda4c8106052">getSubTickCount</link> (
+double tickStep)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual QString <link linkend="class_q_c_p_axis_ticker_text_1a99247779a9c20bea1f50911117540a71">getTickLabel</link> (
+double tick, const QLocale &amp; locale, QChar formatChar, int precision)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual QVector&lt; double &gt; <link linkend="class_q_c_p_axis_ticker_text_1aa195c4fd0364d0393f1798fb495d6a60">createTickVector</link> (
+double tickStep, const <link linkend="class_q_c_p_range">QCPRange</link> &amp; range)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+    <simplesect>
+
+<para>Specialized axis ticker which allows arbitrary labels at specified coordinates. </para>
+    </simplesect>
+        <simplesect>
+            <title>Detailed Description</title>
+
+<para></para>
+
+<para>This <link linkend="class_q_c_p_axis_ticker">QCPAxisTicker</link> subclass generates ticks which can be directly specified by the user as coordinates and associated strings. They can be passed as a whole with <link linkend="class_q_c_p_axis_ticker_text_1a8cdf1f21940f1f53f5e3d30b2c74f5cf">setTicks</link> or one at a time with <link linkend="class_q_c_p_axis_ticker_text_1aada3db69e5fc6585aaa4ea5d89552eb0">addTick</link>. Alternatively you can directly access the internal storage via <link linkend="class_q_c_p_axis_ticker_text_1ac84622a6bb4f2a98474e185ecaf3189a">ticks</link> and modify the tick/label data there.</para>
+
+<para>This is useful for cases where the axis represents categories rather than numerical values.</para>
+
+<para>If you are updating the ticks of this ticker regularly and in a dynamic fasion (e.g. dependent on the axis range), it is a sign that you should probably create an own ticker by subclassing <link linkend="class_q_c_p_axis_ticker">QCPAxisTicker</link>, instead of using this one.</para>
+
+<para>The ticker can be created and assigned to an axis like this: <literallayout><computeroutput></computeroutput></literallayout></para>
+                <para>Definition at line 1730 of file qcustomplot.h</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>qcustomplot.h</para></listitem></itemizedlist></para>
+        </simplesect>
+        <section>
+            <title>Member Data Documentation</title>
+        </section>
+            <section xml:id="class_q_c_p_axis_ticker_text_1a1d7243b1256c1aa9d1d5b99b2e84e648">
+                <title>QCPAxisTickerText::QCPAxisTickerText ()</title> <emphasis></emphasis>
+                
+<para>Constructs the ticker and sets reasonable default values. Axis tickers are commonly created managed by a QSharedPointer, which then can be passed to <link linkend="class_q_c_p_axis_1a4ee03fcd2c74d05cd1a419b9af5cfbdc">QCPAxis::setTicker</link>. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_axis_ticker_text_1ac84622a6bb4f2a98474e185ecaf3189a">
+                <title>QMap&lt; double, QString &gt; &amp; QCPAxisTickerText::ticks ()</title> <emphasis></emphasis>
+                
+<para>Returns a non-const reference to the internal map which stores the tick coordinates and their labels.</para>
+
+<para>You can access the map directly in order to add, remove or manipulate ticks, as an alternative to using the methods provided by <link linkend="class_q_c_p_axis_ticker_text">QCPAxisTickerText</link>, such as <link linkend="class_q_c_p_axis_ticker_text_1a8cdf1f21940f1f53f5e3d30b2c74f5cf">setTicks</link> and <link linkend="class_q_c_p_axis_ticker_text_1aada3db69e5fc6585aaa4ea5d89552eb0">addTick</link>. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_axis_ticker_text_1a5c3c59e8fdf4c96568dd50d4a653e791">
+                <title>int QCPAxisTickerText::subTickCount () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_axis_ticker_text_1a8cdf1f21940f1f53f5e3d30b2c74f5cf">
+                <title>void QCPAxisTickerText::setTicks (const QMap&lt; double, QString &gt; &amp;ticks)</title> <emphasis></emphasis>
+                
+<para>This is an overloaded member function, provided for convenience. It differs from the above function only in what argument(s) it accepts.</para>
+
+<para>Sets the ticks that shall appear on the axis. The map key of <emphasis>ticks</emphasis> corresponds to the axis coordinate, and the map value is the string that will appear as tick label.</para>
+
+<para>An alternative to manipulate ticks is to directly access the internal storage with the <link linkend="class_q_c_p_axis_ticker_text_1ac84622a6bb4f2a98474e185ecaf3189a">ticks</link> getter.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_axis_ticker_text_1aba34051300eecaefbedb2df8feff2d45">addTicks</link>, <link linkend="class_q_c_p_axis_ticker_text_1aada3db69e5fc6585aaa4ea5d89552eb0">addTick</link>, <link linkend="class_q_c_p_axis_ticker_text_1a21826d2fcd9a25c194d34d4f67aa1460">clear</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_axis_ticker_text_1a69f3898cc1cf11d2437851f959faa1e8">
+                <title>void QCPAxisTickerText::setTicks (const QVector&lt; double &gt; &amp;positions, const QVector&lt; QString &gt; labels)</title> <emphasis></emphasis>
+                
+<para>This is an overloaded member function, provided for convenience. It differs from the above function only in what argument(s) it accepts.</para>
+
+<para>Sets the ticks that shall appear on the axis. The entries of <emphasis>positions</emphasis> correspond to the axis coordinates, and the entries of <emphasis>labels</emphasis> are the respective strings that will appear as tick labels.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_axis_ticker_text_1aba34051300eecaefbedb2df8feff2d45">addTicks</link>, <link linkend="class_q_c_p_axis_ticker_text_1aada3db69e5fc6585aaa4ea5d89552eb0">addTick</link>, <link linkend="class_q_c_p_axis_ticker_text_1a21826d2fcd9a25c194d34d4f67aa1460">clear</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_axis_ticker_text_1a8cfa50c51183c90186892eeef978d571">
+                <title>void QCPAxisTickerText::setSubTickCount (int subTicks)</title> <emphasis></emphasis>
+                
+<para>Sets the number of sub ticks that shall appear between ticks. For <link linkend="class_q_c_p_axis_ticker_text">QCPAxisTickerText</link>, there is no automatic sub tick count calculation. So if sub ticks are needed, they must be configured with this method. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_axis_ticker_text_1a21826d2fcd9a25c194d34d4f67aa1460">
+                <title>void QCPAxisTickerText::clear ()</title> <emphasis></emphasis>
+                
+<para>Clears all ticks.</para>
+
+<para>An alternative to manipulate ticks is to directly access the internal storage with the <link linkend="class_q_c_p_axis_ticker_text_1ac84622a6bb4f2a98474e185ecaf3189a">ticks</link> getter.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_axis_ticker_text_1a8cdf1f21940f1f53f5e3d30b2c74f5cf">setTicks</link>, <link linkend="class_q_c_p_axis_ticker_text_1aba34051300eecaefbedb2df8feff2d45">addTicks</link>, <link linkend="class_q_c_p_axis_ticker_text_1aada3db69e5fc6585aaa4ea5d89552eb0">addTick</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_axis_ticker_text_1aada3db69e5fc6585aaa4ea5d89552eb0">
+                <title>void QCPAxisTickerText::addTick (double position, QString label)</title> <emphasis></emphasis>
+                
+<para>Adds a single tick to the axis at the given axis coordinate <emphasis>position</emphasis>, with the provided tick <emphasis>label</emphasis>.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_axis_ticker_text_1aba34051300eecaefbedb2df8feff2d45">addTicks</link>, <link linkend="class_q_c_p_axis_ticker_text_1a8cdf1f21940f1f53f5e3d30b2c74f5cf">setTicks</link>, <link linkend="class_q_c_p_axis_ticker_text_1a21826d2fcd9a25c194d34d4f67aa1460">clear</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_axis_ticker_text_1aba34051300eecaefbedb2df8feff2d45">
+                <title>void QCPAxisTickerText::addTicks (const QMap&lt; double, QString &gt; &amp;ticks)</title> <emphasis></emphasis>
+                
+<para>This is an overloaded member function, provided for convenience. It differs from the above function only in what argument(s) it accepts.</para>
+
+<para>Adds the provided <emphasis>ticks</emphasis> to the ones already existing. The map key of <emphasis>ticks</emphasis> corresponds to the axis coordinate, and the map value is the string that will appear as tick label.</para>
+
+<para>An alternative to manipulate ticks is to directly access the internal storage with the <link linkend="class_q_c_p_axis_ticker_text_1ac84622a6bb4f2a98474e185ecaf3189a">ticks</link> getter.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_axis_ticker_text_1aada3db69e5fc6585aaa4ea5d89552eb0">addTick</link>, <link linkend="class_q_c_p_axis_ticker_text_1a8cdf1f21940f1f53f5e3d30b2c74f5cf">setTicks</link>, <link linkend="class_q_c_p_axis_ticker_text_1a21826d2fcd9a25c194d34d4f67aa1460">clear</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_axis_ticker_text_1a8140c730e20b0050e1b702af3db00b2e">
+                <title>void QCPAxisTickerText::addTicks (const QVector&lt; double &gt; &amp;positions, const QVector&lt; QString &gt; &amp;labels)</title> <emphasis></emphasis>
+                
+<para>This is an overloaded member function, provided for convenience. It differs from the above function only in what argument(s) it accepts.</para>
+
+<para>Adds the provided ticks to the ones already existing. The entries of <emphasis>positions</emphasis> correspond to the axis coordinates, and the entries of <emphasis>labels</emphasis> are the respective strings that will appear as tick labels.</para>
+
+<para>An alternative to manipulate ticks is to directly access the internal storage with the <link linkend="class_q_c_p_axis_ticker_text_1ac84622a6bb4f2a98474e185ecaf3189a">ticks</link> getter.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_axis_ticker_text_1aada3db69e5fc6585aaa4ea5d89552eb0">addTick</link>, <link linkend="class_q_c_p_axis_ticker_text_1a8cdf1f21940f1f53f5e3d30b2c74f5cf">setTicks</link>, <link linkend="class_q_c_p_axis_ticker_text_1a21826d2fcd9a25c194d34d4f67aa1460">clear</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_axis_ticker_text_1a628f16c41905e8c95c6622d6757a38c4">
+                <title>double QCPAxisTickerText::getTickStep (const QCPRange &amp;range) Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+<para>Since the tick coordinates are provided externally, this method implementation does nothing.</para>
+
+            </section>
+            <section xml:id="class_q_c_p_axis_ticker_text_1a9c2488b877776870239abda4c8106052">
+                <title>int QCPAxisTickerText::getSubTickCount (double tickStep) Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+<para>Returns the sub tick count that was configured with <link linkend="class_q_c_p_axis_ticker_text_1a8cfa50c51183c90186892eeef978d571">setSubTickCount</link>.</para>
+
+            </section>
+            <section xml:id="class_q_c_p_axis_ticker_text_1a99247779a9c20bea1f50911117540a71">
+                <title>QString QCPAxisTickerText::getTickLabel (double tick, const QLocale &amp;locale, QChar formatChar, int precision) Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+<para>Returns the tick label which corresponds to the key <emphasis>tick</emphasis> in the internal tick storage. Since the labels are provided externally, <emphasis>locale</emphasis>, <emphasis>formatChar</emphasis>, and <emphasis>precision</emphasis> are ignored.</para>
+
+            </section>
+            <section xml:id="class_q_c_p_axis_ticker_text_1aa195c4fd0364d0393f1798fb495d6a60">
+                <title>QVector&lt; double &gt; QCPAxisTickerText::createTickVector (double tickStep, const QCPRange &amp;range) Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+<para>Returns the externally provided tick coordinates which are in the specified <emphasis>range</emphasis>. If available, one tick above and below the range is provided in addition, to allow possible sub tick calculation. The parameter <emphasis>tickStep</emphasis> is ignored.</para>
+
+            </section>
+</section>

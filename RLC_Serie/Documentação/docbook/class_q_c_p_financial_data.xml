@@ -1,0 +1,235 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="class_q_c_p_financial_data">
+<title>QCPFinancialData class Reference</title>
+<para>
+    <programlisting>#include <link linkend="qcustomplot_8h">&lt;qcustomplot.h&gt;</link></programlisting>
+</para>
+<para>Inheritance diagram for QCPFinancialData</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_q_c_p_financial_data__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for QCPFinancialData</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_q_c_p_financial_data__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title>Public Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double key</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double open</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double high</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double low</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double close</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="class_q_c_p_financial_data_1a1ca53b3a9ae4e9658a4fd1ca57d76ba4">QCPFinancialData</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="class_q_c_p_financial_data_1a069b72c514dfd4fc8e1d5df811e54ca4">QCPFinancialData</link> (
+double key, double open, double high, double low, double close)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double <link linkend="class_q_c_p_financial_data_1ab378e8ef6aef482735aba69115cb442e">sortKey</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double <link linkend="class_q_c_p_financial_data_1af6ed6349c65d938fabd2e4dd2cd499ff">mainKey</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double <link linkend="class_q_c_p_financial_data_1a65206c76b6f31a57e04dc7da88c9be60">mainValue</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="class_q_c_p_range">QCPRange</link> <link linkend="class_q_c_p_financial_data_1a164d5584eeeb9ba48b4b595ac2ac7fcf">valueRange</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="class_q_c_p_financial_data">QCPFinancialData</link> <link linkend="class_q_c_p_financial_data_1a54a0ca7ee7fd7713972477e8e2533ce5">fromSortKey</link> (
+double sortKey)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static bool <link linkend="class_q_c_p_financial_data_1a1121db9420a7694144f6a99b09257a5f">sortKeyIsMainKey</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+    <simplesect>
+
+<para>Holds the data of one single data point for <link linkend="class_q_c_p_financial">QCPFinancial</link>. </para>
+    </simplesect>
+        <simplesect>
+            <title>Detailed Description</title>
+
+<para>The stored data is: <itemizedlist>
+<listitem>
+<para><emphasis>key:</emphasis> coordinate on the key axis of this data point (this is the <emphasis>mainKey</emphasis> and the <emphasis>sortKey</emphasis>) </para>
+</listitem>
+<listitem>
+<para><emphasis>open:</emphasis> The opening value at the data point (this is the <emphasis>mainValue</emphasis>) </para>
+</listitem>
+<listitem>
+<para><emphasis>high:</emphasis> The high/maximum value at the data point </para>
+</listitem>
+<listitem>
+<para><emphasis>low:</emphasis> The low/minimum value at the data point </para>
+</listitem>
+<listitem>
+<para><emphasis>close:</emphasis> The closing value at the data point</para>
+</listitem>
+</itemizedlist>
+The container for storing multiple data points is <link linkend="qcustomplot_8h_1ae36e482e04f19a54782f01ab38c354a6">QCPFinancialDataContainer</link>. It is a typedef for <link linkend="class_q_c_p_data_container">QCPDataContainer</link> with <link linkend="class_q_c_p_financial_data">QCPFinancialData</link> as the DataType template parameter. See the documentation there for an explanation regarding the data type&apos;s generic methods.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="qcustomplot_8h_1ae36e482e04f19a54782f01ab38c354a6">QCPFinancialDataContainer</link> </para>
+</formalpara>
+</para>
+                <para>Definition at line 5817 of file qcustomplot.h</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>qcustomplot.h</para></listitem></itemizedlist></para>
+        </simplesect>
+        <section>
+            <title>Member Data Documentation</title>
+        </section>
+            <section xml:id="class_q_c_p_financial_data_1a1ca53b3a9ae4e9658a4fd1ca57d76ba4">
+                <title>QCPFinancialData::QCPFinancialData ()</title> <emphasis></emphasis>
+                
+<para>Constructs a data point with key and all values set to zero. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_financial_data_1a069b72c514dfd4fc8e1d5df811e54ca4">
+                <title>QCPFinancialData::QCPFinancialData (double key, double open, double high, double low, double close)</title> <emphasis></emphasis>
+                
+<para>Constructs a data point with the specified <emphasis>key</emphasis> and OHLC values. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_financial_data_1ab378e8ef6aef482735aba69115cb442e">
+                <title>double QCPFinancialData::sortKey () const</title> <emphasis></emphasis>
+                
+<para>Returns the <emphasis>key</emphasis> member of this data point.</para>
+
+<para>For a general explanation of what this method is good for in the context of the data container, see the documentation of <link linkend="class_q_c_p_data_container">QCPDataContainer</link>. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_financial_data_1af6ed6349c65d938fabd2e4dd2cd499ff">
+                <title>double QCPFinancialData::mainKey () const</title> <emphasis></emphasis>
+                
+<para>Returns the <emphasis>key</emphasis> member of this data point.</para>
+
+<para>For a general explanation of what this method is good for in the context of the data container, see the documentation of <link linkend="class_q_c_p_data_container">QCPDataContainer</link>. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_financial_data_1a65206c76b6f31a57e04dc7da88c9be60">
+                <title>double QCPFinancialData::mainValue () const</title> <emphasis></emphasis>
+                
+<para>Returns the <emphasis>open</emphasis> member of this data point.</para>
+
+<para>For a general explanation of what this method is good for in the context of the data container, see the documentation of <link linkend="class_q_c_p_data_container">QCPDataContainer</link>. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_financial_data_1a164d5584eeeb9ba48b4b595ac2ac7fcf">
+                <title>QCPRange QCPFinancialData::valueRange () const</title> <emphasis></emphasis>
+                
+<para>Returns a <link linkend="class_q_c_p_range">QCPRange</link> spanning from the <emphasis>low</emphasis> to the <emphasis>high</emphasis> value of this data point.</para>
+
+<para>For a general explanation of what this method is good for in the context of the data container, see the documentation of <link linkend="class_q_c_p_data_container">QCPDataContainer</link>. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_financial_data_1a54a0ca7ee7fd7713972477e8e2533ce5">
+                <title>static QCPFinancialData QCPFinancialData::fromSortKey (double sortKey)</title> <emphasis></emphasis>
+                
+<para>Returns a data point with the specified <emphasis>sortKey</emphasis>. All other members are set to zero.</para>
+
+<para>For a general explanation of what this method is good for in the context of the data container, see the documentation of <link linkend="class_q_c_p_data_container">QCPDataContainer</link>. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_financial_data_1a1121db9420a7694144f6a99b09257a5f">
+                <title>static static bool QCPFinancialData::sortKeyIsMainKey ()</title> <emphasis></emphasis>
+                
+<para>Since the member <emphasis>key</emphasis> is both the data point key coordinate and the data ordering parameter, this method returns true.</para>
+
+<para>For a general explanation of what this method is good for in the context of the data container, see the documentation of <link linkend="class_q_c_p_data_container">QCPDataContainer</link>. </para>
+
+            </section>
+</section>

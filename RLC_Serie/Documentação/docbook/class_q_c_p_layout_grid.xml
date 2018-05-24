@@ -1,0 +1,889 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="class_q_c_p_layout_grid">
+<title>QCPLayoutGrid class Reference</title>
+<para>
+    <programlisting>#include <link linkend="qcustomplot_8h">&lt;qcustomplot.h&gt;</link></programlisting>
+</para>
+<para>Inheritance diagram for QCPLayoutGrid</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_q_c_p_layout_grid__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for QCPLayoutGrid</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_q_c_p_layout_grid__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                            <para><literallayout>enum <link linkend="class_q_c_p_layout_grid_1a7d49ee08773de6b2fd246edfed353cca">FillOrder</link> {
+<link linkend="class_q_c_p_layout_grid_1a7d49ee08773de6b2fd246edfed353ccaa0202730954e26c474cc820164aedce3e">foRowsFirst</link>,
+<link linkend="class_q_c_p_layout_grid_1a7d49ee08773de6b2fd246edfed353ccaac4cb4b796ec4822d5894b47b51627fb3">foColumnsFirst</link>
+}</literallayout>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title>Protected Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QList&lt; QList&lt; QCPLayoutElement * &gt; &gt; mElements</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QList&lt; double &gt; mColumnStretchFactors</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QList&lt; double &gt; mRowStretchFactors</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>int mColumnSpacing</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>int mRowSpacing</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>int mWrap</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>FillOrder mFillOrder</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="class_q_c_p_layout_grid_1ab2a4c1587dc8aed4c41c509c8d8d2a64">QCPLayoutGrid</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual <link linkend="class_q_c_p_layout_grid_1af859f4a4db693a21056a9e615f6c4a90">~QCPLayoutGrid</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>int <link linkend="class_q_c_p_layout_grid_1a19c66fd76cbce58a8e94f33797e0c0aa">rowCount</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>int <link linkend="class_q_c_p_layout_grid_1a1a2962cbf45011405b64b913afa8e7a2">columnCount</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QList&lt; double &gt; <link linkend="class_q_c_p_layout_grid_1a8e0e587c386bbcd1b94119f5f44c512d">columnStretchFactors</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QList&lt; double &gt; <link linkend="class_q_c_p_layout_grid_1aa33408586427e77e05f79defde7f3568">rowStretchFactors</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>int <link linkend="class_q_c_p_layout_grid_1adcf4c387d5996bf6e4ae0ed26138247e">columnSpacing</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>int <link linkend="class_q_c_p_layout_grid_1a4cb6c680505cd0ce6f85b9e217fd2cd0">rowSpacing</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>int <link linkend="class_q_c_p_layout_grid_1a8bb71b52b2796c9f05fae6a32d2d0efd">wrap</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="class_q_c_p_layout_grid_1a7d49ee08773de6b2fd246edfed353cca">FillOrder</link> <link linkend="class_q_c_p_layout_grid_1a6cb6563a13759222ad92ae397bd6c27e">fillOrder</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_layout_grid_1ae38f31a71687b9d7ee3104852528fb50">setColumnStretchFactor</link> (
+int column, double factor)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_layout_grid_1a6c2591d1a7e2534ce036989543b49e57">setColumnStretchFactors</link> (
+const QList&lt; double &gt; &amp; factors)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_layout_grid_1a7b0273de5369bd93d942edbaf5b166ec">setRowStretchFactor</link> (
+int row, double factor)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_layout_grid_1a200b45f9c908f96ebadaa3c8d87a2782">setRowStretchFactors</link> (
+const QList&lt; double &gt; &amp; factors)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_layout_grid_1a3a49272aba32bb0fddc3bb2a45a3dba0">setColumnSpacing</link> (
+int pixels)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_layout_grid_1aaef2cd2d456197ee06a208793678e436">setRowSpacing</link> (
+int pixels)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_layout_grid_1ab36af18d77e4428386d02970382ee598">setWrap</link> (
+int count)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_layout_grid_1affc2f3cfd22f28698c5b29b960d2a391">setFillOrder</link> (
+<link linkend="class_q_c_p_layout_grid_1a7d49ee08773de6b2fd246edfed353cca">FillOrder</link> order, bool rearrange)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="class_q_c_p_layout_grid_1a6cf43f14d3fa335fd8758561ccf1f78c">updateLayout</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual int <link linkend="class_q_c_p_layout_grid_1a9a8942aface780a02445ebcf14c48513">elementCount</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual <link linkend="class_q_c_p_layout_element">QCPLayoutElement</link> * <link linkend="class_q_c_p_layout_grid_1a4288f174082555f6bd92021bdedb75dc">elementAt</link> (
+int index)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual <link linkend="class_q_c_p_layout_element">QCPLayoutElement</link> * <link linkend="class_q_c_p_layout_grid_1a17dd220234d1bbf8835abcc666384d45">takeAt</link> (
+int index)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual bool <link linkend="class_q_c_p_layout_grid_1aee961c2eb6cf8a85dcbc5a7d7b6c1a00">take</link> (
+<link linkend="class_q_c_p_layout_element">QCPLayoutElement</link> * element)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual QList&lt; <link linkend="class_q_c_p_layout_element">QCPLayoutElement</link> * &gt; <link linkend="class_q_c_p_layout_grid_1a7d5b968b4cf57393e9e387976d91f8f7">elements</link> (
+bool recursive)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="class_q_c_p_layout_grid_1a38621ca7aa633b6a9a88617df7f08672">simplify</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual QSize <link linkend="class_q_c_p_layout_grid_1a0438bc58b4d3894d01db95b08d4268df">minimumOuterSizeHint</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual QSize <link linkend="class_q_c_p_layout_grid_1a41ce0014c220d77b909e2ca937f0e599">maximumOuterSizeHint</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="class_q_c_p_layout_element">QCPLayoutElement</link> * <link linkend="class_q_c_p_layout_grid_1a602b426609b4411cf6a93c3ddf3a381a">element</link> (
+int row, int column)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="class_q_c_p_layout_grid_1adff1a2ca691ed83d2d24a4cd1fe17012">addElement</link> (
+int row, int column, <link linkend="class_q_c_p_layout_element">QCPLayoutElement</link> * element)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="class_q_c_p_layout_grid_1a4c44025dd25acd27e053cadfd448ad7b">addElement</link> (
+<link linkend="class_q_c_p_layout_element">QCPLayoutElement</link> * element)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="class_q_c_p_layout_grid_1ab0cf4f7edc9414a3bfaddac0f46dc0a0">hasElement</link> (
+int row, int column)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_layout_grid_1a886c0dcbabd51a45da399e044552b685">expandTo</link> (
+int newRowCount, int newColumnCount)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_layout_grid_1a48af3dd7c3a653d9c3d7dd99bd02e838">insertRow</link> (
+int newIndex)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_layout_grid_1a1e880a321dbe8b43b471ccd764433dc4">insertColumn</link> (
+int newIndex)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>int <link linkend="class_q_c_p_layout_grid_1a682ba76f130810ffd294032a1bfbcfcb">rowColToIndex</link> (
+int row, int column)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_layout_grid_1a577223db920e2acb34bc1091080c76d1">indexToRowCol</link> (
+int index, int &amp; row, int &amp; column)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_layout_grid_1a4b9a251919936f127a63fc1b9911cd4e">getMinimumRowColSizes</link> (
+QVector&lt; int &gt; * minColWidths, QVector&lt; int &gt; * minRowHeights)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_layout_grid_1a9be77011ec5b5dfbe7fbda126659e1eb">getMaximumRowColSizes</link> (
+QVector&lt; int &gt; * maxColWidths, QVector&lt; int &gt; * maxRowHeights)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+    <simplesect>
+
+<para>A layout that arranges child elements in a grid. </para>
+    </simplesect>
+        <simplesect>
+            <title>Detailed Description</title>
+
+<para>Elements are laid out in a grid with configurable stretch factors (<link linkend="class_q_c_p_layout_grid_1ae38f31a71687b9d7ee3104852528fb50">setColumnStretchFactor</link>, <link linkend="class_q_c_p_layout_grid_1a7b0273de5369bd93d942edbaf5b166ec">setRowStretchFactor</link>) and spacing (<link linkend="class_q_c_p_layout_grid_1a3a49272aba32bb0fddc3bb2a45a3dba0">setColumnSpacing</link>, <link linkend="class_q_c_p_layout_grid_1aaef2cd2d456197ee06a208793678e436">setRowSpacing</link>).</para>
+
+<para>Elements can be added to cells via <link linkend="class_q_c_p_layout_grid_1adff1a2ca691ed83d2d24a4cd1fe17012">addElement</link>. The grid is expanded if the specified row or column doesn&apos;t exist yet. Whether a cell contains a valid layout element can be checked with <link linkend="class_q_c_p_layout_grid_1ab0cf4f7edc9414a3bfaddac0f46dc0a0">hasElement</link>, that element can be retrieved with <link linkend="class_q_c_p_layout_grid_1a602b426609b4411cf6a93c3ddf3a381a">element</link>. If rows and columns that only have empty cells shall be removed, call <link linkend="class_q_c_p_layout_grid_1a38621ca7aa633b6a9a88617df7f08672">simplify</link>. Removal of elements is either done by just adding the element to a different layout or by using the <link linkend="class_q_c_p_layout">QCPLayout</link> interface <link linkend="class_q_c_p_layout_grid_1aee961c2eb6cf8a85dcbc5a7d7b6c1a00">take</link> or <link linkend="class_q_c_p_layout_1a6c58f537d8086f352576ab7c5b15d0bc">remove</link>.</para>
+
+<para>If you use <link linkend="class_q_c_p_layout_grid_1a4c44025dd25acd27e053cadfd448ad7b">addElement(QCPLayoutElement*)</link> without explicit parameters for <emphasis>row</emphasis> and <emphasis>column</emphasis>, the grid layout will choose the position according to the current <link linkend="class_q_c_p_layout_grid_1affc2f3cfd22f28698c5b29b960d2a391">setFillOrder</link> and the wrapping (<link linkend="class_q_c_p_layout_grid_1ab36af18d77e4428386d02970382ee598">setWrap</link>).</para>
+
+<para>Row and column insertion can be performed with <link linkend="class_q_c_p_layout_grid_1a48af3dd7c3a653d9c3d7dd99bd02e838">insertRow</link> and <link linkend="class_q_c_p_layout_grid_1a1e880a321dbe8b43b471ccd764433dc4">insertColumn</link>. </para>
+                <para>Definition at line 1323 of file qcustomplot.h</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>qcustomplot.h</para></listitem></itemizedlist></para>
+        </simplesect>
+            <section xml:id="class_q_c_p_layout_grid_1a7d49ee08773de6b2fd246edfed353cca">
+               <title>enum FillOrder </title>
+               
+<para>Defines in which direction the grid is filled when using <link linkend="class_q_c_p_layout_grid_1a4c44025dd25acd27e053cadfd448ad7b">addElement(QCPLayoutElement*)</link>. The column/row at which wrapping into the next row/column occurs can be specified with <link linkend="class_q_c_p_layout_grid_1ab36af18d77e4428386d02970382ee598">setWrap</link>.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_layout_grid_1affc2f3cfd22f28698c5b29b960d2a391">setFillOrder</link> </para>
+</formalpara>
+</para>
+
+               <formalpara>
+                    <title>Enumerator:</title>
+                    <variablelist>
+                        <varlistentry xml:id="class_q_c_p_layout_grid_1a7d49ee08773de6b2fd246edfed353ccaa0202730954e26c474cc820164aedce3e">
+                            <term>foRowsFirst</term>
+                            <listitem>
+                                <para>Rows are filled first, and a new element is wrapped to the next column if the row count would exceed \ref setWrap.</para>
+                            </listitem>
+                        </varlistentry>
+                        <varlistentry xml:id="class_q_c_p_layout_grid_1a7d49ee08773de6b2fd246edfed353ccaac4cb4b796ec4822d5894b47b51627fb3">
+                            <term>foColumnsFirst</term>
+                            <listitem>
+                                <para>Columns are filled first, and a new element is wrapped to the next row if the column count would exceed \ref setWrap.</para>
+                            </listitem>
+                        </varlistentry>
+                     </variablelist>
+                </formalpara>
+                <para>Definition at line 1344 of file qcustomplot.h
+                    <computeroutput><literallayout>
+{
+foRowsFirst, 
+foColumnsFirst, 
+}FillOrder;
+                    </literallayout></computeroutput>
+                </para>
+            </section>
+        <section>
+            <title>Member Data Documentation</title>
+        </section>
+            <section xml:id="class_q_c_p_layout_grid_1ab2a4c1587dc8aed4c41c509c8d8d2a64">
+                <title>QCPLayoutGrid::QCPLayoutGrid ()</title> <emphasis></emphasis>
+                
+<para>Creates an instance of <link linkend="class_q_c_p_layout_grid">QCPLayoutGrid</link> and sets default values. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_layout_grid_1af859f4a4db693a21056a9e615f6c4a90">
+                <title>QCPLayoutGrid::~QCPLayoutGrid ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_layout_grid_1a19c66fd76cbce58a8e94f33797e0c0aa">
+                <title>int QCPLayoutGrid::rowCount () const</title> <emphasis></emphasis>
+                
+<para>Returns the number of rows in the layout.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_layout_grid_1a1a2962cbf45011405b64b913afa8e7a2">columnCount</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_layout_grid_1a1a2962cbf45011405b64b913afa8e7a2">
+                <title>int QCPLayoutGrid::columnCount () const</title> <emphasis></emphasis>
+                
+<para>Returns the number of columns in the layout.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_layout_grid_1a19c66fd76cbce58a8e94f33797e0c0aa">rowCount</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_layout_grid_1a8e0e587c386bbcd1b94119f5f44c512d">
+                <title>QList&lt;double&gt; QCPLayoutGrid::columnStretchFactors () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_layout_grid_1aa33408586427e77e05f79defde7f3568">
+                <title>QList&lt;double&gt; QCPLayoutGrid::rowStretchFactors () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_layout_grid_1adcf4c387d5996bf6e4ae0ed26138247e">
+                <title>int QCPLayoutGrid::columnSpacing () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_layout_grid_1a4cb6c680505cd0ce6f85b9e217fd2cd0">
+                <title>int QCPLayoutGrid::rowSpacing () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_layout_grid_1a8bb71b52b2796c9f05fae6a32d2d0efd">
+                <title>int QCPLayoutGrid::wrap () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_layout_grid_1a6cb6563a13759222ad92ae397bd6c27e">
+                <title>FillOrder QCPLayoutGrid::fillOrder () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_layout_grid_1ae38f31a71687b9d7ee3104852528fb50">
+                <title>void QCPLayoutGrid::setColumnStretchFactor (int column, double factor)</title> <emphasis></emphasis>
+                
+<para>Sets the stretch <emphasis>factor</emphasis> of <emphasis>column</emphasis>.</para>
+
+<para>Stretch factors control the relative sizes of rows and columns. Cells will not be resized beyond their minimum and maximum widths/heights, regardless of the stretch factor. (see <link linkend="class_q_c_p_layout_element_1a5dd29a3c8bc88440c97c06b67be7886b">QCPLayoutElement::setMinimumSize</link>, <link linkend="class_q_c_p_layout_element_1a74eb5280a737ab44833d506db65efd95">QCPLayoutElement::setMaximumSize</link>, <link linkend="class_q_c_p_layout_element_1a361666cdcc6fbfd37344cc44be746b0f">QCPLayoutElement::setSizeConstraintRect</link>.)</para>
+
+<para>The default stretch factor of newly created rows/columns is 1.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_layout_grid_1a6c2591d1a7e2534ce036989543b49e57">setColumnStretchFactors</link>, <link linkend="class_q_c_p_layout_grid_1a7b0273de5369bd93d942edbaf5b166ec">setRowStretchFactor</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_layout_grid_1a6c2591d1a7e2534ce036989543b49e57">
+                <title>void QCPLayoutGrid::setColumnStretchFactors (const QList&lt; double &gt; &amp;factors)</title> <emphasis></emphasis>
+                
+<para>Sets the stretch <emphasis>factors</emphasis> of all columns. <emphasis>factors</emphasis> must have the size <link linkend="class_q_c_p_layout_grid_1a1a2962cbf45011405b64b913afa8e7a2">columnCount</link>.</para>
+
+<para>Stretch factors control the relative sizes of rows and columns. Cells will not be resized beyond their minimum and maximum widths/heights, regardless of the stretch factor. (see <link linkend="class_q_c_p_layout_element_1a5dd29a3c8bc88440c97c06b67be7886b">QCPLayoutElement::setMinimumSize</link>, <link linkend="class_q_c_p_layout_element_1a74eb5280a737ab44833d506db65efd95">QCPLayoutElement::setMaximumSize</link>, <link linkend="class_q_c_p_layout_element_1a361666cdcc6fbfd37344cc44be746b0f">QCPLayoutElement::setSizeConstraintRect</link>.)</para>
+
+<para>The default stretch factor of newly created rows/columns is 1.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_layout_grid_1ae38f31a71687b9d7ee3104852528fb50">setColumnStretchFactor</link>, <link linkend="class_q_c_p_layout_grid_1a200b45f9c908f96ebadaa3c8d87a2782">setRowStretchFactors</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_layout_grid_1a7b0273de5369bd93d942edbaf5b166ec">
+                <title>void QCPLayoutGrid::setRowStretchFactor (int row, double factor)</title> <emphasis></emphasis>
+                
+<para>Sets the stretch <emphasis>factor</emphasis> of <emphasis>row</emphasis>.</para>
+
+<para>Stretch factors control the relative sizes of rows and columns. Cells will not be resized beyond their minimum and maximum widths/heights, regardless of the stretch factor. (see <link linkend="class_q_c_p_layout_element_1a5dd29a3c8bc88440c97c06b67be7886b">QCPLayoutElement::setMinimumSize</link>, <link linkend="class_q_c_p_layout_element_1a74eb5280a737ab44833d506db65efd95">QCPLayoutElement::setMaximumSize</link>, <link linkend="class_q_c_p_layout_element_1a361666cdcc6fbfd37344cc44be746b0f">QCPLayoutElement::setSizeConstraintRect</link>.)</para>
+
+<para>The default stretch factor of newly created rows/columns is 1.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_layout_grid_1a6c2591d1a7e2534ce036989543b49e57">setColumnStretchFactors</link>, <link linkend="class_q_c_p_layout_grid_1a7b0273de5369bd93d942edbaf5b166ec">setRowStretchFactor</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_layout_grid_1a200b45f9c908f96ebadaa3c8d87a2782">
+                <title>void QCPLayoutGrid::setRowStretchFactors (const QList&lt; double &gt; &amp;factors)</title> <emphasis></emphasis>
+                
+<para>Sets the stretch <emphasis>factors</emphasis> of all rows. <emphasis>factors</emphasis> must have the size <link linkend="class_q_c_p_layout_grid_1a19c66fd76cbce58a8e94f33797e0c0aa">rowCount</link>.</para>
+
+<para>Stretch factors control the relative sizes of rows and columns. Cells will not be resized beyond their minimum and maximum widths/heights, regardless of the stretch factor. (see <link linkend="class_q_c_p_layout_element_1a5dd29a3c8bc88440c97c06b67be7886b">QCPLayoutElement::setMinimumSize</link>, <link linkend="class_q_c_p_layout_element_1a74eb5280a737ab44833d506db65efd95">QCPLayoutElement::setMaximumSize</link>, <link linkend="class_q_c_p_layout_element_1a361666cdcc6fbfd37344cc44be746b0f">QCPLayoutElement::setSizeConstraintRect</link>.)</para>
+
+<para>The default stretch factor of newly created rows/columns is 1.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_layout_grid_1a7b0273de5369bd93d942edbaf5b166ec">setRowStretchFactor</link>, <link linkend="class_q_c_p_layout_grid_1a6c2591d1a7e2534ce036989543b49e57">setColumnStretchFactors</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_layout_grid_1a3a49272aba32bb0fddc3bb2a45a3dba0">
+                <title>void QCPLayoutGrid::setColumnSpacing (int pixels)</title> <emphasis></emphasis>
+                
+<para>Sets the gap that is left blank between columns to <emphasis>pixels</emphasis>.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_layout_grid_1aaef2cd2d456197ee06a208793678e436">setRowSpacing</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_layout_grid_1aaef2cd2d456197ee06a208793678e436">
+                <title>void QCPLayoutGrid::setRowSpacing (int pixels)</title> <emphasis></emphasis>
+                
+<para>Sets the gap that is left blank between rows to <emphasis>pixels</emphasis>.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_layout_grid_1a3a49272aba32bb0fddc3bb2a45a3dba0">setColumnSpacing</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_layout_grid_1ab36af18d77e4428386d02970382ee598">
+                <title>void QCPLayoutGrid::setWrap (int count)</title> <emphasis></emphasis>
+                
+<para>Sets the maximum number of columns or rows that are used, before new elements added with <link linkend="class_q_c_p_layout_grid_1a4c44025dd25acd27e053cadfd448ad7b">addElement(QCPLayoutElement*)</link> will start to fill the next row or column, respectively. It depends on <link linkend="class_q_c_p_layout_grid_1affc2f3cfd22f28698c5b29b960d2a391">setFillOrder</link>, whether rows or columns are wrapped.</para>
+
+<para>If <emphasis>count</emphasis> is set to zero, no wrapping will ever occur.</para>
+
+<para>If you wish to re-wrap the elements currently in the layout, call <link linkend="class_q_c_p_layout_grid_1affc2f3cfd22f28698c5b29b960d2a391">setFillOrder</link> with <emphasis>rearrange</emphasis> set to true (the actual fill order doesn&apos;t need to be changed for the rearranging to be done).</para>
+
+<para>Note that the method <link linkend="class_q_c_p_layout_grid_1adff1a2ca691ed83d2d24a4cd1fe17012">addElement(int row, int column, QCPLayoutElement *element)</link> with explicitly stated row and column is not subject to wrapping and can place elements even beyond the specified wrapping point.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_layout_grid_1affc2f3cfd22f28698c5b29b960d2a391">setFillOrder</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_layout_grid_1affc2f3cfd22f28698c5b29b960d2a391">
+                <title>void QCPLayoutGrid::setFillOrder (FillOrder order, bool rearrange=true)</title> <emphasis></emphasis>
+                
+<para>Sets the filling order and wrapping behaviour that is used when adding new elements with the method <link linkend="class_q_c_p_layout_grid_1a4c44025dd25acd27e053cadfd448ad7b">addElement(QCPLayoutElement*)</link>.</para>
+
+<para>The specified <emphasis>order</emphasis> defines whether rows or columns are filled first. Using <link linkend="class_q_c_p_layout_grid_1ab36af18d77e4428386d02970382ee598">setWrap</link>, you can control at which row/column count wrapping into the next column/row will occur. If you set it to zero, no wrapping will ever occur. Changing the fill order also changes the meaning of the linear index used e.g. in <link linkend="class_q_c_p_layout_grid_1a4288f174082555f6bd92021bdedb75dc">elementAt</link> and <link linkend="class_q_c_p_layout_grid_1a17dd220234d1bbf8835abcc666384d45">takeAt</link>.</para>
+
+<para>If you want to have all current elements arranged in the new order, set <emphasis>rearrange</emphasis> to true. The elements will be rearranged in a way that tries to preserve their linear index. However, empty cells are skipped during build-up of the new cell order, which shifts the succeeding element&apos;s index. The rearranging is performed even if the specified <emphasis>order</emphasis> is already the current fill order. Thus this method can be used to re-wrap the current elements.</para>
+
+<para>If <emphasis>rearrange</emphasis> is false, the current element arrangement is not changed, which means the linear indexes change (because the linear index is dependent on the fill order).</para>
+
+<para>Note that the method <link linkend="class_q_c_p_layout_grid_1adff1a2ca691ed83d2d24a4cd1fe17012">addElement(int row, int column, QCPLayoutElement *element)</link> with explicitly stated row and column is not subject to wrapping and can place elements even beyond the specified wrapping point.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_layout_grid_1ab36af18d77e4428386d02970382ee598">setWrap</link>, <link linkend="class_q_c_p_layout_grid_1a4c44025dd25acd27e053cadfd448ad7b">addElement(QCPLayoutElement*)</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_layout_grid_1a6cf43f14d3fa335fd8758561ccf1f78c">
+                <title>void QCPLayoutGrid::updateLayout () Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_layout_grid_1a9a8942aface780a02445ebcf14c48513">
+                <title>virtual int QCPLayoutGrid::elementCount () const Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+<para>Returns the number of elements/cells in the layout.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_layout_grid_1a7d5b968b4cf57393e9e387976d91f8f7">elements</link>, <link linkend="class_q_c_p_layout_grid_1a4288f174082555f6bd92021bdedb75dc">elementAt</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_layout_grid_1a4288f174082555f6bd92021bdedb75dc">
+                <title>QCPLayoutElement * QCPLayoutGrid::elementAt (int index) const Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+<para>Note that the association of the linear <emphasis>index</emphasis> to the row/column based cells depends on the current setting of <link linkend="class_q_c_p_layout_grid_1affc2f3cfd22f28698c5b29b960d2a391">setFillOrder</link>.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_layout_grid_1a682ba76f130810ffd294032a1bfbcfcb">rowColToIndex</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_layout_grid_1a17dd220234d1bbf8835abcc666384d45">
+                <title>QCPLayoutElement * QCPLayoutGrid::takeAt (int index) Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+<para>Note that the association of the linear <emphasis>index</emphasis> to the row/column based cells depends on the current setting of <link linkend="class_q_c_p_layout_grid_1affc2f3cfd22f28698c5b29b960d2a391">setFillOrder</link>.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_layout_grid_1a682ba76f130810ffd294032a1bfbcfcb">rowColToIndex</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_layout_grid_1aee961c2eb6cf8a85dcbc5a7d7b6c1a00">
+                <title>bool QCPLayoutGrid::take (QCPLayoutElement *element) Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+<para>Removes the specified <emphasis>element</emphasis> from the layout and returns true on success.</para>
+
+<para>If the <emphasis>element</emphasis> isn&apos;t in this layout, returns false.</para>
+
+<para>Note that some layouts don&apos;t remove the respective cell right away but leave an empty cell after successful removal of the layout element. To collapse empty cells, use <link linkend="class_q_c_p_layout_grid_1a38621ca7aa633b6a9a88617df7f08672">simplify</link>.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_layout_grid_1a17dd220234d1bbf8835abcc666384d45">takeAt</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_layout_grid_1a7d5b968b4cf57393e9e387976d91f8f7">
+                <title>QList&lt; QCPLayoutElement * &gt; QCPLayoutGrid::elements (bool recursive) const Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+<para>Returns a list of all child elements in this layout element. If <emphasis>recursive</emphasis> is true, all sub-child elements are included in the list, too.</para>
+
+<para><formalpara><title>Warning: </title>
+
+<para>There may be entries with value 0 in the returned list. (For example, <link linkend="class_q_c_p_layout_grid">QCPLayoutGrid</link> may have empty cells which yield 0 at the respective index.) </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_layout_grid_1a38621ca7aa633b6a9a88617df7f08672">
+                <title>void QCPLayoutGrid::simplify () Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+<para>Simplifies the layout by collapsing rows and columns which only contain empty cells. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_layout_grid_1a0438bc58b4d3894d01db95b08d4268df">
+                <title>QSize QCPLayoutGrid::minimumOuterSizeHint () const Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+<para>Returns the suggested minimum size this layout element (the <link linkend="class_q_c_p_layout_element_1a2a32a12a6161c9dffbadeb9cc585510c">outerRect</link>) may be compressed to, if no manual minimum size is set.</para>
+
+<para>if a minimum size (<link linkend="class_q_c_p_layout_element_1a5dd29a3c8bc88440c97c06b67be7886b">setMinimumSize</link>) was not set manually, parent layouts use the returned size (usually indirectly through <link linkend="class_q_c_p_layout_1a864fddc84721f186663faf3683f1fa70">QCPLayout::getFinalMinimumOuterSize</link>) to determine the minimum allowed size of this layout element.</para>
+
+<para>A manual minimum size is considered set if it is non-zero.</para>
+
+<para>The default implementation simply returns the sum of the horizontal margins for the width and the sum of the vertical margins for the height. Reimplementations may use their detailed knowledge about the layout element&apos;s content to provide size hints. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_layout_grid_1a41ce0014c220d77b909e2ca937f0e599">
+                <title>QSize QCPLayoutGrid::maximumOuterSizeHint () const Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+<para>Returns the suggested maximum size this layout element (the <link linkend="class_q_c_p_layout_element_1a2a32a12a6161c9dffbadeb9cc585510c">outerRect</link>) may be expanded to, if no manual maximum size is set.</para>
+
+<para>if a maximum size (<link linkend="class_q_c_p_layout_element_1a74eb5280a737ab44833d506db65efd95">setMaximumSize</link>) was not set manually, parent layouts use the returned size (usually indirectly through <link linkend="class_q_c_p_layout_1add49fd6843821a6126914b837ed52e22">QCPLayout::getFinalMaximumOuterSize</link>) to determine the maximum allowed size of this layout element.</para>
+
+<para>A manual maximum size is considered set if it is smaller than Qt&apos;s <computeroutput>QWIDGETSIZE_MAX</computeroutput>.</para>
+
+<para>The default implementation simply returns <computeroutput>QWIDGETSIZE_MAX</computeroutput> for both width and height, implying no suggested maximum size. Reimplementations may use their detailed knowledge about the layout element&apos;s content to provide size hints. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_layout_grid_1a602b426609b4411cf6a93c3ddf3a381a">
+                <title>QCPLayoutElement * QCPLayoutGrid::element (int row, int column) const</title> <emphasis></emphasis>
+                
+<para>Returns the element in the cell in <emphasis>row</emphasis> and <emphasis>column</emphasis>.</para>
+
+<para>Returns 0 if either the row/column is invalid or if the cell is empty. In those cases, a qDebug message is printed. To check whether a cell exists and isn&apos;t empty, use <link linkend="class_q_c_p_layout_grid_1ab0cf4f7edc9414a3bfaddac0f46dc0a0">hasElement</link>.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_layout_grid_1adff1a2ca691ed83d2d24a4cd1fe17012">addElement</link>, <link linkend="class_q_c_p_layout_grid_1ab0cf4f7edc9414a3bfaddac0f46dc0a0">hasElement</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_layout_grid_1adff1a2ca691ed83d2d24a4cd1fe17012">
+                <title>bool QCPLayoutGrid::addElement (int row, int column, QCPLayoutElement *element)</title> <emphasis></emphasis>
+                
+<para>This is an overloaded member function, provided for convenience. It differs from the above function only in what argument(s) it accepts.</para>
+
+<para>Adds the <emphasis>element</emphasis> to cell with <emphasis>row</emphasis> and <emphasis>column</emphasis>. If <emphasis>element</emphasis> is already in a layout, it is first removed from there. If <emphasis>row</emphasis> or <emphasis>column</emphasis> don&apos;t exist yet, the layout is expanded accordingly.</para>
+
+<para>Returns true if the element was added successfully, i.e. if the cell at <emphasis>row</emphasis> and <emphasis>column</emphasis> didn&apos;t already have an element.</para>
+
+<para>Use the overload of this method without explicit row/column index to place the element according to the configured fill order and wrapping settings.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_layout_grid_1a602b426609b4411cf6a93c3ddf3a381a">element</link>, <link linkend="class_q_c_p_layout_grid_1ab0cf4f7edc9414a3bfaddac0f46dc0a0">hasElement</link>, <link linkend="class_q_c_p_layout_grid_1aee961c2eb6cf8a85dcbc5a7d7b6c1a00">take</link>, <link linkend="class_q_c_p_layout_1a6c58f537d8086f352576ab7c5b15d0bc">remove</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_layout_grid_1a4c44025dd25acd27e053cadfd448ad7b">
+                <title>bool QCPLayoutGrid::addElement (QCPLayoutElement *element)</title> <emphasis></emphasis>
+                
+<para>This is an overloaded member function, provided for convenience. It differs from the above function only in what argument(s) it accepts.</para>
+
+<para>Adds the <emphasis>element</emphasis> to the next empty cell according to the current fill order (<link linkend="class_q_c_p_layout_grid_1affc2f3cfd22f28698c5b29b960d2a391">setFillOrder</link>) and wrapping (<link linkend="class_q_c_p_layout_grid_1ab36af18d77e4428386d02970382ee598">setWrap</link>). If <emphasis>element</emphasis> is already in a layout, it is first removed from there. If necessary, the layout is expanded to hold the new element.</para>
+
+<para>Returns true if the element was added successfully.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_layout_grid_1affc2f3cfd22f28698c5b29b960d2a391">setFillOrder</link>, <link linkend="class_q_c_p_layout_grid_1ab36af18d77e4428386d02970382ee598">setWrap</link>, <link linkend="class_q_c_p_layout_grid_1a602b426609b4411cf6a93c3ddf3a381a">element</link>, <link linkend="class_q_c_p_layout_grid_1ab0cf4f7edc9414a3bfaddac0f46dc0a0">hasElement</link>, <link linkend="class_q_c_p_layout_grid_1aee961c2eb6cf8a85dcbc5a7d7b6c1a00">take</link>, <link linkend="class_q_c_p_layout_1a6c58f537d8086f352576ab7c5b15d0bc">remove</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_layout_grid_1ab0cf4f7edc9414a3bfaddac0f46dc0a0">
+                <title>bool QCPLayoutGrid::hasElement (int row, int column)</title> <emphasis></emphasis>
+                
+<para>Returns whether the cell at <emphasis>row</emphasis> and <emphasis>column</emphasis> exists and contains a valid element, i.e. isn&apos;t empty.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_layout_grid_1a602b426609b4411cf6a93c3ddf3a381a">element</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_layout_grid_1a886c0dcbabd51a45da399e044552b685">
+                <title>void QCPLayoutGrid::expandTo (int newRowCount, int newColumnCount)</title> <emphasis></emphasis>
+                
+<para>Expands the layout to have <emphasis>newRowCount</emphasis> rows and <emphasis>newColumnCount</emphasis> columns. So the last valid row index will be <emphasis>newRowCount-1</emphasis>, the last valid column index will be <emphasis>newColumnCount-1</emphasis>.</para>
+
+<para>If the current column/row count is already larger or equal to <emphasis>newColumnCount/<emphasis>newRowCount</emphasis>,</emphasis> this function does nothing in that dimension.</para>
+
+<para>Newly created cells are empty, new rows and columns have the stretch factor 1.</para>
+
+<para>Note that upon a call to <link linkend="class_q_c_p_layout_grid_1adff1a2ca691ed83d2d24a4cd1fe17012">addElement</link>, the layout is expanded automatically to contain the specified row and column, using this function.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_layout_grid_1a38621ca7aa633b6a9a88617df7f08672">simplify</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_layout_grid_1a48af3dd7c3a653d9c3d7dd99bd02e838">
+                <title>void QCPLayoutGrid::insertRow (int newIndex)</title> <emphasis></emphasis>
+                
+<para>Inserts a new row with empty cells at the row index <emphasis>newIndex</emphasis>. Valid values for <emphasis>newIndex</emphasis> range from 0 (inserts a row at the top) to <emphasis>rowCount</emphasis> (appends a row at the bottom).</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_layout_grid_1a1e880a321dbe8b43b471ccd764433dc4">insertColumn</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_layout_grid_1a1e880a321dbe8b43b471ccd764433dc4">
+                <title>void QCPLayoutGrid::insertColumn (int newIndex)</title> <emphasis></emphasis>
+                
+<para>Inserts a new column with empty cells at the column index <emphasis>newIndex</emphasis>. Valid values for <emphasis>newIndex</emphasis> range from 0 (inserts a column at the left) to <emphasis>columnCount</emphasis> (appends a column at the right).</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_layout_grid_1a48af3dd7c3a653d9c3d7dd99bd02e838">insertRow</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_layout_grid_1a682ba76f130810ffd294032a1bfbcfcb">
+                <title>int QCPLayoutGrid::rowColToIndex (int row, int column) const</title> <emphasis></emphasis>
+                
+<para>Converts the given <emphasis>row</emphasis> and <emphasis>column</emphasis> to the linear index used by some methods of <link linkend="class_q_c_p_layout_grid">QCPLayoutGrid</link> and <link linkend="class_q_c_p_layout">QCPLayout</link>.</para>
+
+<para>The way the cells are indexed depends on <link linkend="class_q_c_p_layout_grid_1affc2f3cfd22f28698c5b29b960d2a391">setFillOrder</link>. If it is <link linkend="class_q_c_p_layout_grid_1a7d49ee08773de6b2fd246edfed353ccaa0202730954e26c474cc820164aedce3e">foRowsFirst</link>, the indices increase left to right and then top to bottom. If it is <link linkend="class_q_c_p_layout_grid_1a7d49ee08773de6b2fd246edfed353ccaac4cb4b796ec4822d5894b47b51627fb3">foColumnsFirst</link>, the indices increase top to bottom and then left to right.</para>
+
+<para>For the returned index to be valid, <emphasis>row</emphasis> and <emphasis>column</emphasis> must be valid indices themselves, i.e. greater or equal to zero and smaller than the current <link linkend="class_q_c_p_layout_grid_1a19c66fd76cbce58a8e94f33797e0c0aa">rowCount</link>/<link linkend="class_q_c_p_layout_grid_1a1a2962cbf45011405b64b913afa8e7a2">columnCount</link>.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_layout_grid_1a577223db920e2acb34bc1091080c76d1">indexToRowCol</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_layout_grid_1a577223db920e2acb34bc1091080c76d1">
+                <title>void QCPLayoutGrid::indexToRowCol (int index, int &amp;row, int &amp;column) const</title> <emphasis></emphasis>
+                
+<para>Converts the linear index to row and column indices and writes the result to <emphasis>row</emphasis> and <emphasis>column</emphasis>.</para>
+
+<para>The way the cells are indexed depends on <link linkend="class_q_c_p_layout_grid_1affc2f3cfd22f28698c5b29b960d2a391">setFillOrder</link>. If it is <link linkend="class_q_c_p_layout_grid_1a7d49ee08773de6b2fd246edfed353ccaa0202730954e26c474cc820164aedce3e">foRowsFirst</link>, the indices increase left to right and then top to bottom. If it is <link linkend="class_q_c_p_layout_grid_1a7d49ee08773de6b2fd246edfed353ccaac4cb4b796ec4822d5894b47b51627fb3">foColumnsFirst</link>, the indices increase top to bottom and then left to right.</para>
+
+<para>If there are no cells (i.e. column or row count is zero), sets <emphasis>row</emphasis> and <emphasis>column</emphasis> to -1.</para>
+
+<para>For the retrieved <emphasis>row</emphasis> and <emphasis>column</emphasis> to be valid, the passed <emphasis>index</emphasis> must be valid itself, i.e. greater or equal to zero and smaller than the current <link linkend="class_q_c_p_layout_grid_1a9a8942aface780a02445ebcf14c48513">elementCount</link>.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_layout_grid_1a682ba76f130810ffd294032a1bfbcfcb">rowColToIndex</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_layout_grid_1a4b9a251919936f127a63fc1b9911cd4e">
+                <title>void QCPLayoutGrid::getMinimumRowColSizes (QVector&lt; int &gt; *minColWidths, QVector&lt; int &gt; *minRowHeights) const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_layout_grid_1a9be77011ec5b5dfbe7fbda126659e1eb">
+                <title>void QCPLayoutGrid::getMaximumRowColSizes (QVector&lt; int &gt; *maxColWidths, QVector&lt; int &gt; *maxRowHeights) const</title> <emphasis></emphasis>
+                
+            </section>
+</section>

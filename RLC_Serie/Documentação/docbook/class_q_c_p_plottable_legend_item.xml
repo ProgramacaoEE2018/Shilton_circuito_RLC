@@ -1,0 +1,164 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="class_q_c_p_plottable_legend_item">
+<title>QCPPlottableLegendItem class Reference</title>
+<para>
+    <programlisting>#include <link linkend="qcustomplot_8h">&lt;qcustomplot.h&gt;</link></programlisting>
+</para>
+<para>Inheritance diagram for QCPPlottableLegendItem</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_q_c_p_plottable_legend_item__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for QCPPlottableLegendItem</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_q_c_p_plottable_legend_item__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title>Protected Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QCPAbstractPlottable * mPlottable</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="class_q_c_p_plottable_legend_item_1ac1072591fe409d3dabad51b23ee4d6c5">QCPPlottableLegendItem</link> (
+<link linkend="class_q_c_p_legend">QCPLegend</link> * parent, <link linkend="class_q_c_p_abstract_plottable">QCPAbstractPlottable</link> * plottable)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="class_q_c_p_abstract_plottable">QCPAbstractPlottable</link> * <link linkend="class_q_c_p_plottable_legend_item_1af29e9a2c60b4cba0cac2447b8af7b488">plottable</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="class_q_c_p_plottable_legend_item_1a5838366619200e99680afa6d355d13fa">draw</link> (
+<link linkend="class_q_c_p_painter">QCPPainter</link> * painter)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual QSize <link linkend="class_q_c_p_plottable_legend_item_1a8b543f3ac32b2fe59326e01c1101b3b8">minimumOuterSizeHint</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPen <link linkend="class_q_c_p_plottable_legend_item_1afa81a8bd4434ec249efbbfc2a030a752">getIconBorderPen</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QColor <link linkend="class_q_c_p_plottable_legend_item_1a55daaffee35326765deebf8271efe210">getTextColor</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QFont <link linkend="class_q_c_p_plottable_legend_item_1a77d980f594046226f9ac075fa07244b3">getFont</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+    <simplesect>
+
+<para>A legend item representing a plottable with an icon and the plottable name. </para>
+    </simplesect>
+        <simplesect>
+            <title>Detailed Description</title>
+
+<para>This is the standard legend item for plottables. It displays an icon of the plottable next to the plottable name. The icon is drawn by the respective plottable itself (<link linkend="class_q_c_p_abstract_plottable_1a9a450783fd9ed539e589999fd390cdf7">QCPAbstractPlottable::drawLegendIcon</link>), and tries to give an intuitive symbol for the plottable. For example, the <link linkend="class_q_c_p_graph">QCPGraph</link> draws a centered horizontal line and/or a single scatter point in the middle.</para>
+
+<para>Legend items of this type are always associated with one plottable (retrievable via the <link linkend="class_q_c_p_plottable_legend_item_1af29e9a2c60b4cba0cac2447b8af7b488">plottable()</link> function and settable with the constructor). You may change the font of the plottable name with <link linkend="class_q_c_p_abstract_legend_item_1a409c53455d8112f71d70c0c43eb10265">setFont</link>. Icon padding and border pen is taken from the parent <link linkend="class_q_c_p_legend">QCPLegend</link>, see <link linkend="class_q_c_p_legend_1a2f2c93d18a651f4ff294bb3f026f49b8">QCPLegend::setIconBorderPen</link> and <link linkend="class_q_c_p_legend_1a62973bd69d5155e8ea3141366e8968f6">QCPLegend::setIconTextPadding</link>.</para>
+
+<para>The function <link linkend="class_q_c_p_abstract_plottable_1aa64e93cb5b606d8110d2cc0a349bb30f">QCPAbstractPlottable::addToLegend</link>/<link linkend="class_q_c_p_abstract_plottable_1a3cc235007e2343a65ad4f463767e0e20">QCPAbstractPlottable::removeFromLegend</link> creates/removes legend items of this type.</para>
+
+<para>Since <link linkend="class_q_c_p_legend">QCPLegend</link> is based on <link linkend="class_q_c_p_layout_grid">QCPLayoutGrid</link>, a legend item itself is just a subclass of <link linkend="class_q_c_p_layout_element">QCPLayoutElement</link>. While it could be added to a legend (or any other layout) via the normal layout interface, <link linkend="class_q_c_p_legend">QCPLegend</link> has specialized functions for handling legend items conveniently, see the documentation of <link linkend="class_q_c_p_legend">QCPLegend</link>. </para>
+                <para>Definition at line 4773 of file qcustomplot.h</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>qcustomplot.h</para></listitem></itemizedlist></para>
+        </simplesect>
+        <section>
+            <title>Member Data Documentation</title>
+        </section>
+            <section xml:id="class_q_c_p_plottable_legend_item_1ac1072591fe409d3dabad51b23ee4d6c5">
+                <title>QCPPlottableLegendItem::QCPPlottableLegendItem (QCPLegend *parent, QCPAbstractPlottable *plottable)</title> <emphasis></emphasis>
+                
+<para>Creates a new legend item associated with <emphasis>plottable</emphasis>.</para>
+
+<para>Once it&apos;s created, it can be added to the legend via <link linkend="class_q_c_p_legend_1a3ab274de52d2951faea45a6d975e6b3f">QCPLegend::addItem</link>.</para>
+
+<para>A more convenient way of adding/removing a plottable to/from the legend is via the functions <link linkend="class_q_c_p_abstract_plottable_1aa64e93cb5b606d8110d2cc0a349bb30f">QCPAbstractPlottable::addToLegend</link> and <link linkend="class_q_c_p_abstract_plottable_1a3cc235007e2343a65ad4f463767e0e20">QCPAbstractPlottable::removeFromLegend</link>. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_plottable_legend_item_1af29e9a2c60b4cba0cac2447b8af7b488">
+                <title>QCPAbstractPlottable* QCPPlottableLegendItem::plottable ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_plottable_legend_item_1a5838366619200e99680afa6d355d13fa">
+                <title>void QCPPlottableLegendItem::draw (QCPPainter *painter) Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_plottable_legend_item_1a8b543f3ac32b2fe59326e01c1101b3b8">
+                <title>QSize QCPPlottableLegendItem::minimumOuterSizeHint () const Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+<para>Returns the suggested minimum size this layout element (the <link linkend="class_q_c_p_layout_element_1a2a32a12a6161c9dffbadeb9cc585510c">outerRect</link>) may be compressed to, if no manual minimum size is set.</para>
+
+<para>if a minimum size (<link linkend="class_q_c_p_layout_element_1a5dd29a3c8bc88440c97c06b67be7886b">setMinimumSize</link>) was not set manually, parent layouts use the returned size (usually indirectly through <link linkend="class_q_c_p_layout_1a864fddc84721f186663faf3683f1fa70">QCPLayout::getFinalMinimumOuterSize</link>) to determine the minimum allowed size of this layout element.</para>
+
+<para>A manual minimum size is considered set if it is non-zero.</para>
+
+<para>The default implementation simply returns the sum of the horizontal margins for the width and the sum of the vertical margins for the height. Reimplementations may use their detailed knowledge about the layout element&apos;s content to provide size hints. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_plottable_legend_item_1afa81a8bd4434ec249efbbfc2a030a752">
+                <title>QPen QCPPlottableLegendItem::getIconBorderPen () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_plottable_legend_item_1a55daaffee35326765deebf8271efe210">
+                <title>QColor QCPPlottableLegendItem::getTextColor () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_plottable_legend_item_1a77d980f594046226f9ac075fa07244b3">
+                <title>QFont QCPPlottableLegendItem::getFont () const</title> <emphasis></emphasis>
+                
+            </section>
+</section>

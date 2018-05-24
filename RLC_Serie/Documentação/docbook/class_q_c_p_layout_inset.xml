@@ -1,0 +1,427 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="class_q_c_p_layout_inset">
+<title>QCPLayoutInset class Reference</title>
+<para>
+    <programlisting>#include <link linkend="qcustomplot_8h">&lt;qcustomplot.h&gt;</link></programlisting>
+</para>
+<para>Inheritance diagram for QCPLayoutInset</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_q_c_p_layout_inset__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for QCPLayoutInset</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_q_c_p_layout_inset__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                            <para><literallayout>enum <link linkend="class_q_c_p_layout_inset_1a8b9e17d9a2768293d2a7d72f5e298192">InsetPlacement</link> {
+<link linkend="class_q_c_p_layout_inset_1a8b9e17d9a2768293d2a7d72f5e298192aa4802986ea2cea457f932b115acba59e">ipFree</link>,
+<link linkend="class_q_c_p_layout_inset_1a8b9e17d9a2768293d2a7d72f5e298192aa81e7df4a785ddee2229a8f47c46e817">ipBorderAligned</link>
+}</literallayout>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title>Protected Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QList&lt; QCPLayoutElement * &gt; mElements</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QList&lt; InsetPlacement &gt; mInsetPlacement</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QList&lt; Qt::Alignment &gt; mInsetAlignment</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QList&lt; QRectF &gt; mInsetRect</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="class_q_c_p_layout_inset_1a3ad984f3221735374cc5dee14356a7dd">QCPLayoutInset</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual <link linkend="class_q_c_p_layout_inset_1a7d0e5647b2e92df92abab532441db112">~QCPLayoutInset</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="class_q_c_p_layout_inset_1a8b9e17d9a2768293d2a7d72f5e298192">InsetPlacement</link> <link linkend="class_q_c_p_layout_inset_1a6fcbd74ebbc45bfe64c604b2791aa57f">insetPlacement</link> (
+int index)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>Qt::Alignment <link linkend="class_q_c_p_layout_inset_1a5b33b66f0abbb4a7cc2f8aa6c94cf7f8">insetAlignment</link> (
+int index)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QRectF <link linkend="class_q_c_p_layout_inset_1ab23099a46af17c31f4c40668f13c9de1">insetRect</link> (
+int index)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_layout_inset_1a63298830744d5d8c5345511c00fd2144">setInsetPlacement</link> (
+int index, <link linkend="class_q_c_p_layout_inset_1a8b9e17d9a2768293d2a7d72f5e298192">InsetPlacement</link> placement)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_layout_inset_1a62882a4f9ad58bb0f53da12fde022abe">setInsetAlignment</link> (
+int index, Qt::Alignment alignment)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_layout_inset_1aa487c8378a6f9533567a2e6430099dc3">setInsetRect</link> (
+int index, const QRectF &amp; rect)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="class_q_c_p_layout_inset_1a493526b922ea66a75c45ef1842446988">updateLayout</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual int <link linkend="class_q_c_p_layout_inset_1a7f5aa4d48a2e844cfe6dd7ed8f0861df">elementCount</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual <link linkend="class_q_c_p_layout_element">QCPLayoutElement</link> * <link linkend="class_q_c_p_layout_inset_1a881ca205605bae9c034733b808f93a02">elementAt</link> (
+int index)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual <link linkend="class_q_c_p_layout_element">QCPLayoutElement</link> * <link linkend="class_q_c_p_layout_inset_1abf2e8233f5b7051220907e62ded490a2">takeAt</link> (
+int index)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual bool <link linkend="class_q_c_p_layout_inset_1af7f13cc369f8190b5e7e17d5f39dfe1c">take</link> (
+<link linkend="class_q_c_p_layout_element">QCPLayoutElement</link> * element)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="class_q_c_p_layout_inset_1a18b7d508f0baa60cc5dcb1343cf7f32a">simplify</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual double <link linkend="class_q_c_p_layout_inset_1a2eeef7ea1b8340e7c7c2e2fc229df5ea">selectTest</link> (
+const QPointF &amp; pos, bool onlySelectable, QVariant * details)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_layout_inset_1ad61529eb576af7f04dff94abb10c745a">addElement</link> (
+<link linkend="class_q_c_p_layout_element">QCPLayoutElement</link> * element, Qt::Alignment alignment)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_layout_inset_1a8ff61fbee4a1f0ff45c398009d9f1e56">addElement</link> (
+<link linkend="class_q_c_p_layout_element">QCPLayoutElement</link> * element, const QRectF &amp; rect)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+    <simplesect>
+
+<para>A layout that places child elements aligned to the border or arbitrarily positioned. </para>
+    </simplesect>
+        <simplesect>
+            <title>Detailed Description</title>
+
+<para>Elements are placed either aligned to the border or at arbitrary position in the area of the layout. Which placement applies is controlled with the <link linkend="class_q_c_p_layout_inset_1a8b9e17d9a2768293d2a7d72f5e298192">InsetPlacement</link> (<link linkend="class_q_c_p_layout_inset_1a63298830744d5d8c5345511c00fd2144">setInsetPlacement</link>).</para>
+
+<para>Elements are added via <link linkend="class_q_c_p_layout_inset_1ad61529eb576af7f04dff94abb10c745a">addElement(QCPLayoutElement *element, Qt::Alignment alignment)</link> or <link linkend="class_q_c_p_layout_inset_1a8ff61fbee4a1f0ff45c398009d9f1e56">addElement(QCPLayoutElement *element, const QRectF &amp;rect)</link>. If the first method is used, the inset placement will default to <link linkend="class_q_c_p_layout_inset_1a8b9e17d9a2768293d2a7d72f5e298192aa81e7df4a785ddee2229a8f47c46e817">ipBorderAligned</link> and the element will be aligned according to the <emphasis>alignment</emphasis> parameter. The second method defaults to <link linkend="class_q_c_p_layout_inset_1a8b9e17d9a2768293d2a7d72f5e298192aa4802986ea2cea457f932b115acba59e">ipFree</link> and allows placing elements at arbitrary position and size, defined by <emphasis>rect</emphasis>.</para>
+
+<para>The alignment or rect can be set via <link linkend="class_q_c_p_layout_inset_1a62882a4f9ad58bb0f53da12fde022abe">setInsetAlignment</link> or <link linkend="class_q_c_p_layout_inset_1aa487c8378a6f9533567a2e6430099dc3">setInsetRect</link>, respectively.</para>
+
+<para>This is the layout that every <link linkend="class_q_c_p_axis_rect">QCPAxisRect</link> has as <link linkend="class_q_c_p_axis_rect_1a949f803466619924c7018df4b511ae10">QCPAxisRect::insetLayout</link>. </para>
+                <para>Definition at line 1414 of file qcustomplot.h</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>qcustomplot.h</para></listitem></itemizedlist></para>
+        </simplesect>
+            <section xml:id="class_q_c_p_layout_inset_1a8b9e17d9a2768293d2a7d72f5e298192">
+               <title>enum InsetPlacement </title>
+               
+<para>Defines how the placement and sizing is handled for a certain element in a <link linkend="class_q_c_p_layout_inset">QCPLayoutInset</link>. </para>
+
+               <formalpara>
+                    <title>Enumerator:</title>
+                    <variablelist>
+                        <varlistentry xml:id="class_q_c_p_layout_inset_1a8b9e17d9a2768293d2a7d72f5e298192aa4802986ea2cea457f932b115acba59e">
+                            <term>ipFree</term>
+                            <listitem>
+                                <para>The element may be positioned/sized arbitrarily, see \ref setInsetRect.</para>
+                            </listitem>
+                        </varlistentry>
+                        <varlistentry xml:id="class_q_c_p_layout_inset_1a8b9e17d9a2768293d2a7d72f5e298192aa81e7df4a785ddee2229a8f47c46e817">
+                            <term>ipBorderAligned</term>
+                            <listitem>
+                                <para>The element is aligned to one of the layout sides, see \ref setInsetAlignment.</para>
+                            </listitem>
+                        </varlistentry>
+                     </variablelist>
+                </formalpara>
+                <para>Definition at line 1420 of file qcustomplot.h
+                    <computeroutput><literallayout>
+{
+ipFree, 
+ipBorderAligned, 
+}InsetPlacement;
+                    </literallayout></computeroutput>
+                </para>
+            </section>
+        <section>
+            <title>Member Data Documentation</title>
+        </section>
+            <section xml:id="class_q_c_p_layout_inset_1a3ad984f3221735374cc5dee14356a7dd">
+                <title>QCPLayoutInset::QCPLayoutInset ()</title> <emphasis></emphasis>
+                
+<para>Creates an instance of <link linkend="class_q_c_p_layout_inset">QCPLayoutInset</link> and sets default values. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_layout_inset_1a7d0e5647b2e92df92abab532441db112">
+                <title>QCPLayoutInset::~QCPLayoutInset ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_layout_inset_1a6fcbd74ebbc45bfe64c604b2791aa57f">
+                <title>QCPLayoutInset::InsetPlacement QCPLayoutInset::insetPlacement (int index) const</title> <emphasis></emphasis>
+                
+<para>Returns the placement type of the element with the specified <emphasis>index</emphasis>. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_layout_inset_1a5b33b66f0abbb4a7cc2f8aa6c94cf7f8">
+                <title>Qt::Alignment QCPLayoutInset::insetAlignment (int index) const</title> <emphasis></emphasis>
+                
+<para>Returns the alignment of the element with the specified <emphasis>index</emphasis>. The alignment only has a meaning, if the inset placement (<link linkend="class_q_c_p_layout_inset_1a63298830744d5d8c5345511c00fd2144">setInsetPlacement</link>) is <link linkend="class_q_c_p_layout_inset_1a8b9e17d9a2768293d2a7d72f5e298192aa81e7df4a785ddee2229a8f47c46e817">ipBorderAligned</link>. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_layout_inset_1ab23099a46af17c31f4c40668f13c9de1">
+                <title>QRectF QCPLayoutInset::insetRect (int index) const</title> <emphasis></emphasis>
+                
+<para>Returns the rect of the element with the specified <emphasis>index</emphasis>. The rect only has a meaning, if the inset placement (<link linkend="class_q_c_p_layout_inset_1a63298830744d5d8c5345511c00fd2144">setInsetPlacement</link>) is <link linkend="class_q_c_p_layout_inset_1a8b9e17d9a2768293d2a7d72f5e298192aa4802986ea2cea457f932b115acba59e">ipFree</link>. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_layout_inset_1a63298830744d5d8c5345511c00fd2144">
+                <title>void QCPLayoutInset::setInsetPlacement (int index, InsetPlacement placement)</title> <emphasis></emphasis>
+                
+<para>Sets the inset placement type of the element with the specified <emphasis>index</emphasis> to <emphasis>placement</emphasis>.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_layout_inset_1a8b9e17d9a2768293d2a7d72f5e298192">InsetPlacement</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_layout_inset_1a62882a4f9ad58bb0f53da12fde022abe">
+                <title>void QCPLayoutInset::setInsetAlignment (int index, Qt::Alignment alignment)</title> <emphasis></emphasis>
+                
+<para>If the inset placement (<link linkend="class_q_c_p_layout_inset_1a63298830744d5d8c5345511c00fd2144">setInsetPlacement</link>) is <link linkend="class_q_c_p_layout_inset_1a8b9e17d9a2768293d2a7d72f5e298192aa81e7df4a785ddee2229a8f47c46e817">ipBorderAligned</link>, this function is used to set the alignment of the element with the specified <emphasis>index</emphasis> to <emphasis>alignment</emphasis>.</para>
+
+<para><emphasis>alignment</emphasis> is an or combination of the following alignment flags: Qt::AlignLeft, Qt::AlignHCenter, Qt::AlighRight, Qt::AlignTop, Qt::AlignVCenter, Qt::AlignBottom. Any other alignment flags will be ignored. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_layout_inset_1aa487c8378a6f9533567a2e6430099dc3">
+                <title>void QCPLayoutInset::setInsetRect (int index, const QRectF &amp;rect)</title> <emphasis></emphasis>
+                
+<para>If the inset placement (<link linkend="class_q_c_p_layout_inset_1a63298830744d5d8c5345511c00fd2144">setInsetPlacement</link>) is <link linkend="class_q_c_p_layout_inset_1a8b9e17d9a2768293d2a7d72f5e298192aa4802986ea2cea457f932b115acba59e">ipFree</link>, this function is used to set the position and size of the element with the specified <emphasis>index</emphasis> to <emphasis>rect</emphasis>.</para>
+
+<para><emphasis>rect</emphasis> is given in fractions of the whole inset layout rect. So an inset with rect (0, 0, 1, 1) will span the entire layout. An inset with rect (0.6, 0.1, 0.35, 0.35) will be in the top right corner of the layout, with 35% width and height of the parent layout.</para>
+
+<para>Note that the minimum and maximum sizes of the embedded element (<link linkend="class_q_c_p_layout_element_1a5dd29a3c8bc88440c97c06b67be7886b">QCPLayoutElement::setMinimumSize</link>, <link linkend="class_q_c_p_layout_element_1a74eb5280a737ab44833d506db65efd95">QCPLayoutElement::setMaximumSize</link>) are enforced. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_layout_inset_1a493526b922ea66a75c45ef1842446988">
+                <title>void QCPLayoutInset::updateLayout () Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_layout_inset_1a7f5aa4d48a2e844cfe6dd7ed8f0861df">
+                <title>int QCPLayoutInset::elementCount () const Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+<para>Returns the number of elements/cells in the layout.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_layout_1aca129722c019f91d3367046f80abfa77">elements</link>, <link linkend="class_q_c_p_layout_inset_1a881ca205605bae9c034733b808f93a02">elementAt</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_layout_inset_1a881ca205605bae9c034733b808f93a02">
+                <title>QCPLayoutElement * QCPLayoutInset::elementAt (int index) const Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+<para>Returns the element in the cell with the given <emphasis>index</emphasis>. If <emphasis>index</emphasis> is invalid, returns 0.</para>
+
+<para>Note that even if <emphasis>index</emphasis> is valid, the respective cell may be empty in some layouts (e.g. <link linkend="class_q_c_p_layout_grid">QCPLayoutGrid</link>), so this function may return 0 in those cases. You may use this function to check whether a cell is empty or not.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_layout_1aca129722c019f91d3367046f80abfa77">elements</link>, <link linkend="class_q_c_p_layout_inset_1a7f5aa4d48a2e844cfe6dd7ed8f0861df">elementCount</link>, <link linkend="class_q_c_p_layout_inset_1abf2e8233f5b7051220907e62ded490a2">takeAt</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_layout_inset_1abf2e8233f5b7051220907e62ded490a2">
+                <title>QCPLayoutElement * QCPLayoutInset::takeAt (int index) Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+<para>Removes the element with the given <emphasis>index</emphasis> from the layout and returns it.</para>
+
+<para>If the <emphasis>index</emphasis> is invalid or the cell with that index is empty, returns 0.</para>
+
+<para>Note that some layouts don&apos;t remove the respective cell right away but leave an empty cell after successful removal of the layout element. To collapse empty cells, use <link linkend="class_q_c_p_layout_inset_1a18b7d508f0baa60cc5dcb1343cf7f32a">simplify</link>.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_layout_inset_1a881ca205605bae9c034733b808f93a02">elementAt</link>, <link linkend="class_q_c_p_layout_inset_1af7f13cc369f8190b5e7e17d5f39dfe1c">take</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_layout_inset_1af7f13cc369f8190b5e7e17d5f39dfe1c">
+                <title>bool QCPLayoutInset::take (QCPLayoutElement *element) Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+<para>Removes the specified <emphasis>element</emphasis> from the layout and returns true on success.</para>
+
+<para>If the <emphasis>element</emphasis> isn&apos;t in this layout, returns false.</para>
+
+<para>Note that some layouts don&apos;t remove the respective cell right away but leave an empty cell after successful removal of the layout element. To collapse empty cells, use <link linkend="class_q_c_p_layout_inset_1a18b7d508f0baa60cc5dcb1343cf7f32a">simplify</link>.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_layout_inset_1abf2e8233f5b7051220907e62ded490a2">takeAt</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_layout_inset_1a18b7d508f0baa60cc5dcb1343cf7f32a">
+                <title>void QCPLayoutInset::simplify () Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+<para>The QCPInsetLayout does not need simplification since it can never have empty cells due to its linear index structure. This method does nothing. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_layout_inset_1a2eeef7ea1b8340e7c7c2e2fc229df5ea">
+                <title>double QCPLayoutInset::selectTest (const QPointF &amp;pos, bool onlySelectable, QVariant *details=0) const Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+<para>The inset layout is sensitive to events only at areas where its (visible) child elements are sensitive. If the selectTest method of any of the child elements returns a positive number for <emphasis>pos</emphasis>, this method returns a value corresponding to 0.99 times the parent plot&apos;s selection tolerance. The inset layout is not selectable itself by default. So if <emphasis>onlySelectable</emphasis> is true, -1.0 is returned.</para>
+
+<para>See <link linkend="class_q_c_p_layerable_1a04db8351fefd44cfdb77958e75c6288e">QCPLayerable::selectTest</link> for a general explanation of this virtual method. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_layout_inset_1ad61529eb576af7f04dff94abb10c745a">
+                <title>void QCPLayoutInset::addElement (QCPLayoutElement *element, Qt::Alignment alignment)</title> <emphasis></emphasis>
+                
+<para>Adds the specified <emphasis>element</emphasis> to the layout as an inset aligned at the border (<link linkend="class_q_c_p_layout_inset_1a62882a4f9ad58bb0f53da12fde022abe">setInsetAlignment</link> is initialized with <link linkend="class_q_c_p_layout_inset_1a8b9e17d9a2768293d2a7d72f5e298192aa81e7df4a785ddee2229a8f47c46e817">ipBorderAligned</link>). The alignment is set to <emphasis>alignment</emphasis>.</para>
+
+<para><emphasis>alignment</emphasis> is an or combination of the following alignment flags: Qt::AlignLeft, Qt::AlignHCenter, Qt::AlighRight, Qt::AlignTop, Qt::AlignVCenter, Qt::AlignBottom. Any other alignment flags will be ignored.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_layout_inset_1a8ff61fbee4a1f0ff45c398009d9f1e56">addElement(QCPLayoutElement *element, const QRectF &amp;rect)</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_layout_inset_1a8ff61fbee4a1f0ff45c398009d9f1e56">
+                <title>void QCPLayoutInset::addElement (QCPLayoutElement *element, const QRectF &amp;rect)</title> <emphasis></emphasis>
+                
+<para>Adds the specified <emphasis>element</emphasis> to the layout as an inset with free positioning/sizing (<link linkend="class_q_c_p_layout_inset_1a62882a4f9ad58bb0f53da12fde022abe">setInsetAlignment</link> is initialized with <link linkend="class_q_c_p_layout_inset_1a8b9e17d9a2768293d2a7d72f5e298192aa4802986ea2cea457f932b115acba59e">ipFree</link>). The position and size is set to <emphasis>rect</emphasis>.</para>
+
+<para><emphasis>rect</emphasis> is given in fractions of the whole inset layout rect. So an inset with rect (0, 0, 1, 1) will span the entire layout. An inset with rect (0.6, 0.1, 0.35, 0.35) will be in the top right corner of the layout, with 35% width and height of the parent layout.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_layout_inset_1ad61529eb576af7f04dff94abb10c745a">addElement(QCPLayoutElement *element, Qt::Alignment alignment)</link> </para>
+</formalpara>
+</para>
+
+            </section>
+</section>

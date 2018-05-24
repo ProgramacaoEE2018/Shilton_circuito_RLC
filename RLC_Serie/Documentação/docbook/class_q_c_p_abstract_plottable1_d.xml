@@ -1,0 +1,350 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="class_q_c_p_abstract_plottable1_d">
+<title>QCPAbstractPlottable1D class Reference</title>
+<para>
+    <programlisting>#include <link linkend="qcustomplot_8h">&lt;qcustomplot.h&gt;</link></programlisting>
+</para>
+<para>Inheritance diagram for QCPAbstractPlottable1D</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_q_c_p_abstract_plottable1_d__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for QCPAbstractPlottable1D</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_q_c_p_abstract_plottable1_d__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+    <templateparamlist>
+      <param>
+        <type>class</type>
+        <declname>DataType</declname>
+        <defname>DataType</defname>
+      </param>
+    </templateparamlist>
+        <section>
+            <title>Protected Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QSharedPointer&lt; QCPDataContainer&lt; DataType &gt; &gt; mDataContainer</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="class_q_c_p_abstract_plottable1_d_1a30b2e50ab0afce65f104ea7a95440315">QCPAbstractPlottable1D</link> (
+<link linkend="class_q_c_p_axis">QCPAxis</link> * keyAxis, <link linkend="class_q_c_p_axis">QCPAxis</link> * valueAxis)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual <link linkend="class_q_c_p_abstract_plottable1_d_1afa6d5d2c971fed63bff4f4a79989a3f8">~QCPAbstractPlottable1D</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual int <link linkend="class_q_c_p_abstract_plottable1_d_1ab5dd99e4f1621e7dbd63438e0b02984e">dataCount</link> (
+)<para><emphasis>\copybrief QCPPlottableInterface1D::dataCount</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual double <link linkend="class_q_c_p_abstract_plottable1_d_1aeb156ebf5d3c8de906b428be30733ad8">dataMainKey</link> (
+int index)<para><emphasis>\copybrief QCPPlottableInterface1D::dataMainKey</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual double <link linkend="class_q_c_p_abstract_plottable1_d_1aa8277da921b009bce474437d50b4a2d8">dataSortKey</link> (
+int index)<para><emphasis>\copybrief QCPPlottableInterface1D::dataSortKey</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual double <link linkend="class_q_c_p_abstract_plottable1_d_1a6be0f657ba85a1688336d76ad649ecf2">dataMainValue</link> (
+int index)<para><emphasis>\copybrief QCPPlottableInterface1D::dataMainValue</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual <link linkend="class_q_c_p_range">QCPRange</link> <link linkend="class_q_c_p_abstract_plottable1_d_1a55f937ba6a63e56e57f0b1a6e85a333a">dataValueRange</link> (
+int index)<para><emphasis>\copybrief QCPPlottableInterface1D::dataValueRange</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual QPointF <link linkend="class_q_c_p_abstract_plottable1_d_1a6ca0699a6af5f25a7565de7c50ce13b2">dataPixelPosition</link> (
+int index)<para><emphasis>\copybrief QCPPlottableInterface1D::dataPixelPosition</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual bool <link linkend="class_q_c_p_abstract_plottable1_d_1afe0d56e39cc076032922f059b304c092">sortKeyIsMainKey</link> (
+)<para><emphasis>\copybrief QCPPlottableInterface1D::sortKeyIsMainKey</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual <link linkend="class_q_c_p_data_selection">QCPDataSelection</link> <link linkend="class_q_c_p_abstract_plottable1_d_1a22377bf6e57ab7eedbc9e489250c6ded">selectTestRect</link> (
+const QRectF &amp; rect, bool onlySelectable)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual int <link linkend="class_q_c_p_abstract_plottable1_d_1ad0b46d25cde3d035b180fb8f10c056e6">findBegin</link> (
+double sortKey, bool expandedRange)<para><emphasis>\copybrief QCPPlottableInterface1D::findBegin</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual int <link linkend="class_q_c_p_abstract_plottable1_d_1a6e3ba20c9160d7361e58070390d10b1a">findEnd</link> (
+double sortKey, bool expandedRange)<para><emphasis>\copybrief QCPPlottableInterface1D::findEnd</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual double <link linkend="class_q_c_p_abstract_plottable1_d_1a4611b43bcb6441b2154eb4f4e0a33db2">selectTest</link> (
+const QPointF &amp; pos, bool onlySelectable, QVariant * details)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual <link linkend="class_q_c_p_plottable_interface1_d">QCPPlottableInterface1D</link> * <link linkend="class_q_c_p_abstract_plottable1_d_1ac58fb47bfe330f6931ed8e64326387d7">interface1D</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_abstract_plottable1_d_1ae890e62ce403c54f575c73b9529f1af8">getDataSegments</link> (
+QList&lt; <link linkend="class_q_c_p_data_range">QCPDataRange</link> &gt; &amp; selectedSegments, QList&lt; <link linkend="class_q_c_p_data_range">QCPDataRange</link> &gt; &amp; unselectedSegments)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_abstract_plottable1_d_1a7adc6c3cccebb5341f11e0c2b7d54206">drawPolyline</link> (
+<link linkend="class_q_c_p_painter">QCPPainter</link> * painter, const QVector&lt; QPointF &gt; &amp; lineData)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+    <simplesect>
+
+<para>A template base class for plottables with one-dimensional data. </para>
+    </simplesect>
+        <simplesect>
+            <title>Detailed Description</title>
+
+<para>This template class derives from <link linkend="class_q_c_p_abstract_plottable">QCPAbstractPlottable</link> and from the abstract interface <link linkend="class_q_c_p_plottable_interface1_d">QCPPlottableInterface1D</link>. It serves as a base class for all one-dimensional data (i.e. data with one key dimension), such as <link linkend="class_q_c_p_graph">QCPGraph</link> and <link linkend="class_q_c_p_curve">QCPCurve</link>.</para>
+
+<para>The template parameter <emphasis>DataType</emphasis> is the type of the data points of this plottable (e.g. <link linkend="class_q_c_p_graph_data">QCPGraphData</link> or <link linkend="class_q_c_p_curve_data">QCPCurveData</link>). The main purpose of this base class is to provide the member <emphasis>mDataContainer</emphasis> (a shared pointer to a <link linkend="class_q_c_p_data_container">QCPDataContainer&lt;DataType&gt;</link>) and implement the according virtual methods of the <link linkend="class_q_c_p_plottable_interface1_d">QCPPlottableInterface1D</link>, such that most subclassed plottables don&apos;t need to worry about this anymore.</para>
+
+<para>Further, it provides a convenience method for retrieving selected/unselected data segments via <link linkend="class_q_c_p_abstract_plottable1_d_1ae890e62ce403c54f575c73b9529f1af8">getDataSegments</link>. This is useful when subclasses implement their <link linkend="class_q_c_p_abstract_plottable_1a453f676a5cee7bf846c5f0fa05ea84b3">draw</link> method and need to draw selected segments with a different pen/brush than unselected segments (also see <link linkend="class_q_c_p_selection_decorator">QCPSelectionDecorator</link>).</para>
+
+<para>This class implements basic functionality of <link linkend="class_q_c_p_abstract_plottable_1a38efe9641d972992a3d44204bc80ec1d">QCPAbstractPlottable::selectTest</link> and <link linkend="class_q_c_p_plottable_interface1_d_1a67093e4ccf490ff5f7750640941ff34c">QCPPlottableInterface1D::selectTestRect</link>, assuming point-like data points, based on the 1D data interface. In spite of that, most plottable subclasses will want to reimplement those methods again, to provide a more accurate hit test based on their specific data visualization geometry. </para>
+                <para>Definition at line 3869 of file qcustomplot.h</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>qcustomplot.h</para></listitem></itemizedlist></para>
+        </simplesect>
+        <section>
+            <title>Member Data Documentation</title>
+        </section>
+            <section xml:id="class_q_c_p_abstract_plottable1_d_1a30b2e50ab0afce65f104ea7a95440315">
+                <title>QCPAbstractPlottable1D&lt; DataType &gt;::QCPAbstractPlottable1D (QCPAxis *keyAxis, QCPAxis *valueAxis)</title> <emphasis></emphasis>
+                
+<para>Forwards <emphasis>keyAxis</emphasis> and <emphasis>valueAxis</emphasis> to the <link linkend="class_q_c_p_abstract_plottable_1af78a036e40db6f53a31abadc5323715a">QCPAbstractPlottable</link> constructor and allocates the <emphasis>mDataContainer</emphasis>. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_abstract_plottable1_d_1afa6d5d2c971fed63bff4f4a79989a3f8">
+                <title>QCPAbstractPlottable1D&lt; DataType &gt;::~QCPAbstractPlottable1D ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_abstract_plottable1_d_1ab5dd99e4f1621e7dbd63438e0b02984e">
+                <title>int QCPAbstractPlottable1D&lt; DataType &gt;::dataCount () const Q_DECL_OVERRIDE</title> <emphasis>\copybrief QCPPlottableInterface1D::dataCount</emphasis>
+                
+<para>Returns the number of data points of the plottable. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_abstract_plottable1_d_1aeb156ebf5d3c8de906b428be30733ad8">
+                <title>double QCPAbstractPlottable1D&lt; DataType &gt;::dataMainKey (int index) const Q_DECL_OVERRIDE</title> <emphasis>\copybrief QCPPlottableInterface1D::dataMainKey</emphasis>
+                
+<para>Returns the main key of the data point at the given <emphasis>index</emphasis>.</para>
+
+<para>What the main key is, is defined by the plottable&apos;s data type. See the <link linkend="class_q_c_p_data_container_1qcpdatacontainer-datatype">QCPDataContainer DataType</link> documentation for details about this naming convention. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_abstract_plottable1_d_1aa8277da921b009bce474437d50b4a2d8">
+                <title>double QCPAbstractPlottable1D&lt; DataType &gt;::dataSortKey (int index) const Q_DECL_OVERRIDE</title> <emphasis>\copybrief QCPPlottableInterface1D::dataSortKey</emphasis>
+                
+<para>Returns the sort key of the data point at the given <emphasis>index</emphasis>.</para>
+
+<para>What the sort key is, is defined by the plottable&apos;s data type. See the <link linkend="class_q_c_p_data_container_1qcpdatacontainer-datatype">QCPDataContainer DataType</link> documentation for details about this naming convention. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_abstract_plottable1_d_1a6be0f657ba85a1688336d76ad649ecf2">
+                <title>double QCPAbstractPlottable1D&lt; DataType &gt;::dataMainValue (int index) const Q_DECL_OVERRIDE</title> <emphasis>\copybrief QCPPlottableInterface1D::dataMainValue</emphasis>
+                
+<para>Returns the main value of the data point at the given <emphasis>index</emphasis>.</para>
+
+<para>What the main value is, is defined by the plottable&apos;s data type. See the <link linkend="class_q_c_p_data_container_1qcpdatacontainer-datatype">QCPDataContainer DataType</link> documentation for details about this naming convention. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_abstract_plottable1_d_1a55f937ba6a63e56e57f0b1a6e85a333a">
+                <title>QCPRange QCPAbstractPlottable1D&lt; DataType &gt;::dataValueRange (int index) const Q_DECL_OVERRIDE</title> <emphasis>\copybrief QCPPlottableInterface1D::dataValueRange</emphasis>
+                
+<para>Returns the value range of the data point at the given <emphasis>index</emphasis>.</para>
+
+<para>What the value range is, is defined by the plottable&apos;s data type. See the <link linkend="class_q_c_p_data_container_1qcpdatacontainer-datatype">QCPDataContainer DataType</link> documentation for details about this naming convention. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_abstract_plottable1_d_1a6ca0699a6af5f25a7565de7c50ce13b2">
+                <title>QPointF QCPAbstractPlottable1D&lt; DataType &gt;::dataPixelPosition (int index) const Q_DECL_OVERRIDE</title> <emphasis>\copybrief QCPPlottableInterface1D::dataPixelPosition</emphasis>
+                
+<para>Returns the pixel position on the widget surface at which the data point at the given <emphasis>index</emphasis> appears.</para>
+
+<para>Usually this corresponds to the point of <link linkend="class_q_c_p_abstract_plottable1_d_1aeb156ebf5d3c8de906b428be30733ad8">dataMainKey</link>/<link linkend="class_q_c_p_abstract_plottable1_d_1a6be0f657ba85a1688336d76ad649ecf2">dataMainValue</link>, in pixel coordinates. However, depending on the plottable, this might be a different apparent position than just a coord-to-pixel transform of those values. For example, <link linkend="class_q_c_p_bars">QCPBars</link> apparent data values can be shifted depending on their stacking, bar grouping or configured base value. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_abstract_plottable1_d_1afe0d56e39cc076032922f059b304c092">
+                <title>bool QCPAbstractPlottable1D&lt; DataType &gt;::sortKeyIsMainKey () const Q_DECL_OVERRIDE</title> <emphasis>\copybrief QCPPlottableInterface1D::sortKeyIsMainKey</emphasis>
+                
+<para>Returns whether the sort key (<link linkend="class_q_c_p_abstract_plottable1_d_1aa8277da921b009bce474437d50b4a2d8">dataSortKey</link>) is identical to the main key (<link linkend="class_q_c_p_abstract_plottable1_d_1aeb156ebf5d3c8de906b428be30733ad8">dataMainKey</link>).</para>
+
+<para>What the sort and main keys are, is defined by the plottable&apos;s data type. See the <link linkend="class_q_c_p_data_container_1qcpdatacontainer-datatype">QCPDataContainer DataType</link> documentation for details about this naming convention. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_abstract_plottable1_d_1a22377bf6e57ab7eedbc9e489250c6ded">
+                <title>QCPDataSelection QCPAbstractPlottable1D&lt; DataType &gt;::selectTestRect (const QRectF &amp;rect, bool onlySelectable) const Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+<para>Implements a rect-selection algorithm assuming the data (accessed via the 1D data interface) is point-like. Most subclasses will want to reimplement this method again, to provide a more accurate hit test based on the true data visualization geometry.</para>
+
+            </section>
+            <section xml:id="class_q_c_p_abstract_plottable1_d_1ad0b46d25cde3d035b180fb8f10c056e6">
+                <title>int QCPAbstractPlottable1D&lt; DataType &gt;::findBegin (double sortKey, bool expandedRange=true) const Q_DECL_OVERRIDE</title> <emphasis>\copybrief QCPPlottableInterface1D::findBegin</emphasis>
+                
+<para>Returns the index of the data point with a (sort-)key that is equal to, just below, or just above <emphasis>sortKey</emphasis>. If <emphasis>expandedRange</emphasis> is true, the data point just below <emphasis>sortKey</emphasis> will be considered, otherwise the one just above.</para>
+
+<para>This can be used in conjunction with <link linkend="class_q_c_p_abstract_plottable1_d_1a6e3ba20c9160d7361e58070390d10b1a">findEnd</link> to iterate over data points within a given key range, including or excluding the bounding data points that are just beyond the specified range.</para>
+
+<para>If <emphasis>expandedRange</emphasis> is true but there are no data points below <emphasis>sortKey</emphasis>, 0 is returned.</para>
+
+<para>If the container is empty, returns 0 (in that case, <link linkend="class_q_c_p_abstract_plottable1_d_1a6e3ba20c9160d7361e58070390d10b1a">findEnd</link> will also return 0, so a loop using these methods will not iterate over the index 0).</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_abstract_plottable1_d_1a6e3ba20c9160d7361e58070390d10b1a">findEnd</link>, <link linkend="class_q_c_p_data_container_1a2ad8a5399072d99a242d3a6d2d7e278a">QCPDataContainer::findBegin</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_abstract_plottable1_d_1a6e3ba20c9160d7361e58070390d10b1a">
+                <title>int QCPAbstractPlottable1D&lt; DataType &gt;::findEnd (double sortKey, bool expandedRange=true) const Q_DECL_OVERRIDE</title> <emphasis>\copybrief QCPPlottableInterface1D::findEnd</emphasis>
+                
+<para>Returns the index one after the data point with a (sort-)key that is equal to, just above, or just below <emphasis>sortKey</emphasis>. If <emphasis>expandedRange</emphasis> is true, the data point just above <emphasis>sortKey</emphasis> will be considered, otherwise the one just below.</para>
+
+<para>This can be used in conjunction with <link linkend="class_q_c_p_abstract_plottable1_d_1ad0b46d25cde3d035b180fb8f10c056e6">findBegin</link> to iterate over data points within a given key range, including the bounding data points that are just below and above the specified range.</para>
+
+<para>If <emphasis>expandedRange</emphasis> is true but there are no data points above <emphasis>sortKey</emphasis>, the index just above the highest data point is returned.</para>
+
+<para>If the container is empty, returns 0.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_abstract_plottable1_d_1ad0b46d25cde3d035b180fb8f10c056e6">findBegin</link>, <link linkend="class_q_c_p_data_container_1afb8b8f23cc2b7234a793a25ce79fe48f">QCPDataContainer::findEnd</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_abstract_plottable1_d_1a4611b43bcb6441b2154eb4f4e0a33db2">
+                <title>double QCPAbstractPlottable1D&lt; DataType &gt;::selectTest (const QPointF &amp;pos, bool onlySelectable, QVariant *details=0) const Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+<para>Implements a point-selection algorithm assuming the data (accessed via the 1D data interface) is point-like. Most subclasses will want to reimplement this method again, to provide a more accurate hit test based on the true data visualization geometry.</para>
+
+            </section>
+            <section xml:id="class_q_c_p_abstract_plottable1_d_1ac58fb47bfe330f6931ed8e64326387d7">
+                <title>QCPPlottableInterface1D * QCPAbstractPlottable1D&lt; DataType &gt;::interface1D () Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+<para>Returns a <link linkend="class_q_c_p_plottable_interface1_d">QCPPlottableInterface1D</link> pointer to this plottable, providing access to its 1D interface.</para>
+
+            </section>
+            <section xml:id="class_q_c_p_abstract_plottable1_d_1ae890e62ce403c54f575c73b9529f1af8">
+                <title>void QCPAbstractPlottable1D&lt; DataType &gt;::getDataSegments (QList&lt; QCPDataRange &gt; &amp;selectedSegments, QList&lt; QCPDataRange &gt; &amp;unselectedSegments) const</title> <emphasis></emphasis>
+                
+<para>Splits all data into selected and unselected segments and outputs them via <emphasis>selectedSegments</emphasis> and <emphasis>unselectedSegments</emphasis>, respectively.</para>
+
+<para>This is useful when subclasses implement their <link linkend="class_q_c_p_abstract_plottable_1a453f676a5cee7bf846c5f0fa05ea84b3">draw</link> method and need to draw selected segments with a different pen/brush than unselected segments (also see <link linkend="class_q_c_p_selection_decorator">QCPSelectionDecorator</link>).</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_abstract_plottable_1a219bc5403a9d85d3129165ec3f5ae436">setSelection</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_abstract_plottable1_d_1a7adc6c3cccebb5341f11e0c2b7d54206">
+                <title>void QCPAbstractPlottable1D&lt; DataType &gt;::drawPolyline (QCPPainter *painter, const QVector&lt; QPointF &gt; &amp;lineData) const</title> <emphasis></emphasis>
+                
+<para>A helper method which draws a line with the passed <emphasis>painter</emphasis>, according to the pixel data in <emphasis>lineData</emphasis>. NaN points create gaps in the line, as expected from <link linkend="class_q_custom_plot">QCustomPlot</link>&apos;s plottables (this is the main difference to QPainter&apos;s regular drawPolyline, which handles NaNs by lagging or crashing).</para>
+
+<para>Further it uses a faster line drawing technique based on <link linkend="class_q_c_p_painter_1a0b4b1b9bd495e182c731774dc800e6e0">QCPPainter::drawLine</link> rather than <computeroutput>QPainter::drawPolyline</computeroutput> if the configured <link linkend="class_q_custom_plot_1a94a33cbdadbbac5934843508bcfc210d">QCustomPlot::setPlottingHints()</link> and <emphasis>painter</emphasis> style allows. </para>
+
+            </section>
+</section>

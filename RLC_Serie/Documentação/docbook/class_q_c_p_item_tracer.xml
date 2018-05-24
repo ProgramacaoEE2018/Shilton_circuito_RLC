@@ -1,0 +1,614 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="class_q_c_p_item_tracer">
+<title>QCPItemTracer class Reference</title>
+<para>
+    <programlisting>#include <link linkend="qcustomplot_8h">&lt;qcustomplot.h&gt;</link></programlisting>
+</para>
+<para>Inheritance diagram for QCPItemTracer</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_q_c_p_item_tracer__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for QCPItemTracer</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_q_c_p_item_tracer__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                            <para><literallayout>enum <link linkend="class_q_c_p_item_tracer_1a2f05ddb13978036f902ca3ab47076500">TracerStyle</link> {
+<link linkend="class_q_c_p_item_tracer_1a2f05ddb13978036f902ca3ab47076500aac27462c79146225bfa8fba24d2ee8a4">tsNone</link>,
+<link linkend="class_q_c_p_item_tracer_1a2f05ddb13978036f902ca3ab47076500a3323fb04017146e4885e080a459472fa">tsPlus</link>,
+<link linkend="class_q_c_p_item_tracer_1a2f05ddb13978036f902ca3ab47076500af562ec81ac3ba99e26ef8540cf1ec16f">tsCrosshair</link>,
+<link linkend="class_q_c_p_item_tracer_1a2f05ddb13978036f902ca3ab47076500ae2252c28f4842880d71e9f94e69de94e">tsCircle</link>,
+<link linkend="class_q_c_p_item_tracer_1a2f05ddb13978036f902ca3ab47076500a4ed5f01f2c5fd86d980366d79f481b9b">tsSquare</link>
+}</literallayout>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title>Public Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QCPItemPosition *const position</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title>Protected Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPen mPen</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPen mSelectedPen</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QBrush mBrush</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QBrush mSelectedBrush</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double mSize</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>TracerStyle mStyle</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QCPGraph * mGraph</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double mGraphKey</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool mInterpolating</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="class_q_c_p_item_tracer_1adc5ca846eeac323db4aa1fc4081e36be">QCPItemTracer</link> (
+<link linkend="class_q_custom_plot">QCustomPlot</link> * parentPlot)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual <link linkend="class_q_c_p_item_tracer_1a43686565a9b70815915618636b9bdf0f">~QCPItemTracer</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPen <link linkend="class_q_c_p_item_tracer_1a789cdc627868f5a4a0956816072571c9">pen</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPen <link linkend="class_q_c_p_item_tracer_1ad231a97bac99e01778618d1a5720b17d">selectedPen</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QBrush <link linkend="class_q_c_p_item_tracer_1a6dd4660e70f58bb00390bcda56be568d">brush</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QBrush <link linkend="class_q_c_p_item_tracer_1ae3e48270b4a6ec20f7a9e1f63e778243">selectedBrush</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double <link linkend="class_q_c_p_item_tracer_1a4e42d7b49f293273a74a49a2457856e2">size</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="class_q_c_p_item_tracer_1a2f05ddb13978036f902ca3ab47076500">TracerStyle</link> <link linkend="class_q_c_p_item_tracer_1afdaee32c9ccc9c14502b28d3d86bf5ed">style</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="class_q_c_p_graph">QCPGraph</link> * <link linkend="class_q_c_p_item_tracer_1ac6526e3e1fff79894f034823461b138a">graph</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double <link linkend="class_q_c_p_item_tracer_1ac39a0791109588d11bb97cd643da2470">graphKey</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="class_q_c_p_item_tracer_1ae9ab6d72e0a35e1769c0b5a9b58181f2">interpolating</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_item_tracer_1af8048636fc1ef0152e51809b008df2ca">setPen</link> (
+const QPen &amp; pen)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_item_tracer_1ae1bf70db7f13f928660168cd3e5069f3">setSelectedPen</link> (
+const QPen &amp; pen)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_item_tracer_1a2c303f7470a30084daa201ed556b3c36">setBrush</link> (
+const QBrush &amp; brush)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_item_tracer_1a0f55c084980a7a312af859d3e7b558ef">setSelectedBrush</link> (
+const QBrush &amp; brush)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_item_tracer_1ae47fe0617f5fef5fdb766999569be10a">setSize</link> (
+double size)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_item_tracer_1a41a2ac4f1acd7897b4e2a2579c03204e">setStyle</link> (
+<link linkend="class_q_c_p_item_tracer_1a2f05ddb13978036f902ca3ab47076500">TracerStyle</link> style)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_item_tracer_1af5886f4ded8dd68cb4f3388f390790c0">setGraph</link> (
+<link linkend="class_q_c_p_graph">QCPGraph</link> * graph)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_item_tracer_1a6840143b42f3b685cedf7c6d83a704c8">setGraphKey</link> (
+double key)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_item_tracer_1a6c244a9d1175bef12b50afafd4f5fcd2">setInterpolating</link> (
+bool enabled)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual double <link linkend="class_q_c_p_item_tracer_1a9fd955fea40e977d66f3a9fd5765aec4">selectTest</link> (
+const QPointF &amp; pos, bool onlySelectable, QVariant * details)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_item_tracer_1a5b90296109e36384aedbc8908a670413">updatePosition</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="class_q_c_p_item_tracer_1a11f187ffea436434f3b5cfc387811967">draw</link> (
+<link linkend="class_q_c_p_painter">QCPPainter</link> * painter)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPen <link linkend="class_q_c_p_item_tracer_1abffdcf64d0f84f7b41bd4af07d144642">mainPen</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QBrush <link linkend="class_q_c_p_item_tracer_1a94f81c54197577e86c53a60cf39155cd">mainBrush</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+    <simplesect>
+
+<para>Item that sticks to <link linkend="class_q_c_p_graph">QCPGraph</link> data points. </para>
+    </simplesect>
+        <simplesect>
+            <title>Detailed Description</title>
+
+<para> The tracer can be connected with a <link linkend="class_q_c_p_graph">QCPGraph</link> via <link linkend="class_q_c_p_item_tracer_1af5886f4ded8dd68cb4f3388f390790c0">setGraph</link>. Then it will automatically adopt the coordinate axes of the graph and update its <emphasis>position</emphasis> to be on the graph&apos;s data. This means the key stays controllable via <link linkend="class_q_c_p_item_tracer_1a6840143b42f3b685cedf7c6d83a704c8">setGraphKey</link>, but the value will follow the graph data. If a <link linkend="class_q_c_p_graph">QCPGraph</link> is connected, note that setting the coordinates of the tracer item directly via <emphasis>position</emphasis> will have no effect because they will be overriden in the next redraw (this is when the coordinate update happens).</para>
+
+<para>If the specified key in <link linkend="class_q_c_p_item_tracer_1a6840143b42f3b685cedf7c6d83a704c8">setGraphKey</link> is outside the key bounds of the graph, the tracer will stay at the corresponding end of the graph.</para>
+
+<para>With <link linkend="class_q_c_p_item_tracer_1a6c244a9d1175bef12b50afafd4f5fcd2">setInterpolating</link> you may specify whether the tracer may only stay exactly on data points or whether it interpolates data points linearly, if given a key that lies between two data points of the graph.</para>
+
+<para>The tracer has different visual styles, see <link linkend="class_q_c_p_item_tracer_1a41a2ac4f1acd7897b4e2a2579c03204e">setStyle</link>. It is also possible to make the tracer have no own visual appearance (set the style to <link linkend="class_q_c_p_item_tracer_1a2f05ddb13978036f902ca3ab47076500aac27462c79146225bfa8fba24d2ee8a4">tsNone</link>), and just connect other item positions to the tracer <emphasis>position</emphasis> (used as an anchor) via <link linkend="class_q_c_p_item_position_1ac094d67a95d2dceafa0d50b9db3a7e51">QCPItemPosition::setParentAnchor</link>.</para>
+
+<para><formalpara><title>Note: </title>
+
+<para>The tracer position is only automatically updated upon redraws. So when the data of the graph changes and immediately afterwards (without a redraw) the position coordinates of the tracer are retrieved, they will not reflect the updated data of the graph. In this case <link linkend="class_q_c_p_item_tracer_1a5b90296109e36384aedbc8908a670413">updatePosition</link> must be called manually, prior to reading the tracer coordinates. </para>
+</formalpara>
+</para>
+                <para>Definition at line 6512 of file qcustomplot.h</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>qcustomplot.h</para></listitem></itemizedlist></para>
+        </simplesect>
+            <section xml:id="class_q_c_p_item_tracer_1a2f05ddb13978036f902ca3ab47076500">
+               <title>enum TracerStyle </title>
+               
+<para>The different visual appearances a tracer item can have. Some styles size may be controlled with <link linkend="class_q_c_p_item_tracer_1ae47fe0617f5fef5fdb766999569be10a">setSize</link>.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_item_tracer_1a41a2ac4f1acd7897b4e2a2579c03204e">setStyle</link> </para>
+</formalpara>
+</para>
+
+               <formalpara>
+                    <title>Enumerator:</title>
+                    <variablelist>
+                        <varlistentry xml:id="class_q_c_p_item_tracer_1a2f05ddb13978036f902ca3ab47076500aac27462c79146225bfa8fba24d2ee8a4">
+                            <term>tsNone</term>
+                            <listitem>
+                                <para>The tracer is not visible.</para>
+                            </listitem>
+                        </varlistentry>
+                        <varlistentry xml:id="class_q_c_p_item_tracer_1a2f05ddb13978036f902ca3ab47076500a3323fb04017146e4885e080a459472fa">
+                            <term>tsPlus</term>
+                            <listitem>
+                                <para>A plus shaped crosshair with limited size.</para>
+                            </listitem>
+                        </varlistentry>
+                        <varlistentry xml:id="class_q_c_p_item_tracer_1a2f05ddb13978036f902ca3ab47076500af562ec81ac3ba99e26ef8540cf1ec16f">
+                            <term>tsCrosshair</term>
+                            <listitem>
+                                <para>A plus shaped crosshair which spans the complete axis rect.</para>
+                            </listitem>
+                        </varlistentry>
+                        <varlistentry xml:id="class_q_c_p_item_tracer_1a2f05ddb13978036f902ca3ab47076500ae2252c28f4842880d71e9f94e69de94e">
+                            <term>tsCircle</term>
+                            <listitem>
+                                <para>A circle.</para>
+                            </listitem>
+                        </varlistentry>
+                        <varlistentry xml:id="class_q_c_p_item_tracer_1a2f05ddb13978036f902ca3ab47076500a4ed5f01f2c5fd86d980366d79f481b9b">
+                            <term>tsSquare</term>
+                            <listitem>
+                                <para>A square.</para>
+                            </listitem>
+                        </varlistentry>
+                     </variablelist>
+                </formalpara>
+                <para>Definition at line 6531 of file qcustomplot.h
+                    <computeroutput><literallayout>
+{
+tsNone, 
+tsPlus, 
+tsCrosshair, 
+tsCircle, 
+tsSquare, 
+}TracerStyle;
+                    </literallayout></computeroutput>
+                </para>
+            </section>
+        <section>
+            <title>Member Data Documentation</title>
+        </section>
+        <section>
+            <title>Member Data Documentation</title>
+        </section>
+            <section xml:id="class_q_c_p_item_tracer_1adc5ca846eeac323db4aa1fc4081e36be">
+                <title>QCPItemTracer::QCPItemTracer (QCustomPlot *parentPlot)</title> <emphasis></emphasis>
+                
+<para>Creates a tracer item and sets default values.</para>
+
+<para>The created item is automatically registered with <emphasis>parentPlot</emphasis>. This <link linkend="class_q_custom_plot">QCustomPlot</link> instance takes ownership of the item, so do not delete it manually but use <link linkend="class_q_custom_plot_1ae04446557292551e8fb6e2c106e1848d">QCustomPlot::removeItem()</link> instead. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_item_tracer_1a43686565a9b70815915618636b9bdf0f">
+                <title>QCPItemTracer::~QCPItemTracer ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_item_tracer_1a789cdc627868f5a4a0956816072571c9">
+                <title>QPen QCPItemTracer::pen () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_item_tracer_1ad231a97bac99e01778618d1a5720b17d">
+                <title>QPen QCPItemTracer::selectedPen () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_item_tracer_1a6dd4660e70f58bb00390bcda56be568d">
+                <title>QBrush QCPItemTracer::brush () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_item_tracer_1ae3e48270b4a6ec20f7a9e1f63e778243">
+                <title>QBrush QCPItemTracer::selectedBrush () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_item_tracer_1a4e42d7b49f293273a74a49a2457856e2">
+                <title>double QCPItemTracer::size () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_item_tracer_1afdaee32c9ccc9c14502b28d3d86bf5ed">
+                <title>TracerStyle QCPItemTracer::style () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_item_tracer_1ac6526e3e1fff79894f034823461b138a">
+                <title>QCPGraph* QCPItemTracer::graph () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_item_tracer_1ac39a0791109588d11bb97cd643da2470">
+                <title>double QCPItemTracer::graphKey () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_item_tracer_1ae9ab6d72e0a35e1769c0b5a9b58181f2">
+                <title>bool QCPItemTracer::interpolating () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_item_tracer_1af8048636fc1ef0152e51809b008df2ca">
+                <title>void QCPItemTracer::setPen (const QPen &amp;pen)</title> <emphasis></emphasis>
+                
+<para>Sets the pen that will be used to draw the line of the tracer</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_item_tracer_1ae1bf70db7f13f928660168cd3e5069f3">setSelectedPen</link>, <link linkend="class_q_c_p_item_tracer_1a2c303f7470a30084daa201ed556b3c36">setBrush</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_item_tracer_1ae1bf70db7f13f928660168cd3e5069f3">
+                <title>void QCPItemTracer::setSelectedPen (const QPen &amp;pen)</title> <emphasis></emphasis>
+                
+<para>Sets the pen that will be used to draw the line of the tracer when selected</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_item_tracer_1af8048636fc1ef0152e51809b008df2ca">setPen</link>, <link linkend="class_q_c_p_abstract_item_1a203de94ad586cc44d16c9565f49d3378">setSelected</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_item_tracer_1a2c303f7470a30084daa201ed556b3c36">
+                <title>void QCPItemTracer::setBrush (const QBrush &amp;brush)</title> <emphasis></emphasis>
+                
+<para>Sets the brush that will be used to draw any fills of the tracer</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_item_tracer_1a0f55c084980a7a312af859d3e7b558ef">setSelectedBrush</link>, <link linkend="class_q_c_p_item_tracer_1af8048636fc1ef0152e51809b008df2ca">setPen</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_item_tracer_1a0f55c084980a7a312af859d3e7b558ef">
+                <title>void QCPItemTracer::setSelectedBrush (const QBrush &amp;brush)</title> <emphasis></emphasis>
+                
+<para>Sets the brush that will be used to draw any fills of the tracer, when selected.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_item_tracer_1a2c303f7470a30084daa201ed556b3c36">setBrush</link>, <link linkend="class_q_c_p_abstract_item_1a203de94ad586cc44d16c9565f49d3378">setSelected</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_item_tracer_1ae47fe0617f5fef5fdb766999569be10a">
+                <title>void QCPItemTracer::setSize (double size)</title> <emphasis></emphasis>
+                
+<para>Sets the size of the tracer in pixels, if the style supports setting a size (e.g. <link linkend="class_q_c_p_item_tracer_1a2f05ddb13978036f902ca3ab47076500a4ed5f01f2c5fd86d980366d79f481b9b">tsSquare</link> does, <link linkend="class_q_c_p_item_tracer_1a2f05ddb13978036f902ca3ab47076500af562ec81ac3ba99e26ef8540cf1ec16f">tsCrosshair</link> does not). </para>
+
+            </section>
+            <section xml:id="class_q_c_p_item_tracer_1a41a2ac4f1acd7897b4e2a2579c03204e">
+                <title>void QCPItemTracer::setStyle (TracerStyle style)</title> <emphasis></emphasis>
+                
+<para>Sets the style/visual appearance of the tracer.</para>
+
+<para>If you only want to use the tracer <emphasis>position</emphasis> as an anchor for other items, set <emphasis>style</emphasis> to <link linkend="class_q_c_p_item_tracer_1a2f05ddb13978036f902ca3ab47076500aac27462c79146225bfa8fba24d2ee8a4">tsNone</link>. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_item_tracer_1af5886f4ded8dd68cb4f3388f390790c0">
+                <title>void QCPItemTracer::setGraph (QCPGraph *graph)</title> <emphasis></emphasis>
+                
+<para>Sets the <link linkend="class_q_c_p_graph">QCPGraph</link> this tracer sticks to. The tracer <emphasis>position</emphasis> will be set to type <link linkend="class_q_c_p_item_position_1aad9936c22bf43e3d358552f6e86dbdc8ad5ffb8dc99ad73263f7010c77342294c">QCPItemPosition::ptPlotCoords</link> and the axes will be set to the axes of <emphasis>graph</emphasis>.</para>
+
+<para>To free the tracer from any graph, set <emphasis>graph</emphasis> to 0. The tracer <emphasis>position</emphasis> can then be placed freely like any other item position. This is the state the tracer will assume when its graph gets deleted while still attached to it.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_item_tracer_1a6840143b42f3b685cedf7c6d83a704c8">setGraphKey</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_item_tracer_1a6840143b42f3b685cedf7c6d83a704c8">
+                <title>void QCPItemTracer::setGraphKey (double key)</title> <emphasis></emphasis>
+                
+<para>Sets the key of the graph&apos;s data point the tracer will be positioned at. This is the only free coordinate of a tracer when attached to a graph.</para>
+
+<para>Depending on <link linkend="class_q_c_p_item_tracer_1a6c244a9d1175bef12b50afafd4f5fcd2">setInterpolating</link>, the tracer will be either positioned on the data point closest to <emphasis>key</emphasis>, or will stay exactly at <emphasis>key</emphasis> and interpolate the value linearly.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_item_tracer_1af5886f4ded8dd68cb4f3388f390790c0">setGraph</link>, <link linkend="class_q_c_p_item_tracer_1a6c244a9d1175bef12b50afafd4f5fcd2">setInterpolating</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_item_tracer_1a6c244a9d1175bef12b50afafd4f5fcd2">
+                <title>void QCPItemTracer::setInterpolating (bool enabled)</title> <emphasis></emphasis>
+                
+<para>Sets whether the value of the graph&apos;s data points shall be interpolated, when positioning the tracer.</para>
+
+<para>If <emphasis>enabled</emphasis> is set to false and a key is given with <link linkend="class_q_c_p_item_tracer_1a6840143b42f3b685cedf7c6d83a704c8">setGraphKey</link>, the tracer is placed on the data point of the graph which is closest to the key, but which is not necessarily exactly there. If <emphasis>enabled</emphasis> is true, the tracer will be positioned exactly at the specified key, and the appropriate value will be interpolated from the graph&apos;s data points linearly.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_item_tracer_1af5886f4ded8dd68cb4f3388f390790c0">setGraph</link>, <link linkend="class_q_c_p_item_tracer_1a6840143b42f3b685cedf7c6d83a704c8">setGraphKey</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_item_tracer_1a9fd955fea40e977d66f3a9fd5765aec4">
+                <title>double QCPItemTracer::selectTest (const QPointF &amp;pos, bool onlySelectable, QVariant *details=0) const Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+<para>This function is used to decide whether a click hits a layerable object or not.</para>
+
+<para><emphasis>pos</emphasis> is a point in pixel coordinates on the <link linkend="class_q_custom_plot">QCustomPlot</link> surface. This function returns the shortest pixel distance of this point to the object. If the object is either invisible or the distance couldn&apos;t be determined, -1.0 is returned. Further, if <emphasis>onlySelectable</emphasis> is true and the object is not selectable, -1.0 is returned, too.</para>
+
+<para>If the object is represented not by single lines but by an area like a <link linkend="class_q_c_p_item_text">QCPItemText</link> or the bars of a <link linkend="class_q_c_p_bars">QCPBars</link> plottable, a click inside the area should also be considered a hit. In these cases this function thus returns a constant value greater zero but still below the parent plot&apos;s selection tolerance. (typically the selectionTolerance multiplied by 0.99).</para>
+
+<para>Providing a constant value for area objects allows selecting line objects even when they are obscured by such area objects, by clicking close to the lines (i.e. closer than 0.99*selectionTolerance).</para>
+
+<para>The actual setting of the selection state is not done by this function. This is handled by the parent <link linkend="class_q_custom_plot">QCustomPlot</link> when the mouseReleaseEvent occurs, and the finally selected object is notified via the <link linkend="class_q_c_p_abstract_item_1aa4b969c58797f39c9c0b6c07c7869d17">selectEvent</link>/<link linkend="class_q_c_p_abstract_item_1af9093798cb07a861dcc73f93ca16c0c1">deselectEvent</link> methods.</para>
+
+<para><emphasis>details</emphasis> is an optional output parameter. Every layerable subclass may place any information in <emphasis>details</emphasis>. This information will be passed to <link linkend="class_q_c_p_abstract_item_1aa4b969c58797f39c9c0b6c07c7869d17">selectEvent</link> when the parent <link linkend="class_q_custom_plot">QCustomPlot</link> decides on the basis of this selectTest call, that the object was successfully selected. The subsequent call to <link linkend="class_q_c_p_abstract_item_1aa4b969c58797f39c9c0b6c07c7869d17">selectEvent</link> will carry the <emphasis>details</emphasis>. This is useful for multi-part objects (like <link linkend="class_q_c_p_axis">QCPAxis</link>). This way, a possibly complex calculation to decide which part was clicked is only done once in <link linkend="class_q_c_p_item_tracer_1a9fd955fea40e977d66f3a9fd5765aec4">selectTest</link>. The result (i.e. the actually clicked part) can then be placed in <emphasis>details</emphasis>. So in the subsequent <link linkend="class_q_c_p_abstract_item_1aa4b969c58797f39c9c0b6c07c7869d17">selectEvent</link>, the decision which part was selected doesn&apos;t have to be done a second time for a single selection operation.</para>
+
+<para>You may pass 0 as <emphasis>details</emphasis> to indicate that you are not interested in those selection details.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_abstract_item_1aa4b969c58797f39c9c0b6c07c7869d17">selectEvent</link>, <link linkend="class_q_c_p_abstract_item_1af9093798cb07a861dcc73f93ca16c0c1">deselectEvent</link>, <link linkend="class_q_c_p_layerable_1af6567604818db90f4fd52822f8bc8376">mousePressEvent</link>, <link linkend="class_q_c_p_layerable_1a47dfd7b8fd99c08ca54e09c362b6f022">wheelEvent</link>, <link linkend="class_q_custom_plot_1a5ee1e2f6ae27419deca53e75907c27e5">QCustomPlot::setInteractions</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_q_c_p_item_tracer_1a5b90296109e36384aedbc8908a670413">
+                <title>void QCPItemTracer::updatePosition ()</title> <emphasis></emphasis>
+                
+<para>If the tracer is connected with a graph (<link linkend="class_q_c_p_item_tracer_1af5886f4ded8dd68cb4f3388f390790c0">setGraph</link>), this function updates the tracer&apos;s <emphasis>position</emphasis> to reside on the graph data, depending on the configured key (<link linkend="class_q_c_p_item_tracer_1a6840143b42f3b685cedf7c6d83a704c8">setGraphKey</link>).</para>
+
+<para>It is called automatically on every redraw and normally doesn&apos;t need to be called manually. One exception is when you want to read the tracer coordinates via <emphasis>position</emphasis> and are not sure that the graph&apos;s data (or the tracer key with <link linkend="class_q_c_p_item_tracer_1a6840143b42f3b685cedf7c6d83a704c8">setGraphKey</link>) hasn&apos;t changed since the last redraw. In that situation, call this function before accessing <emphasis>position</emphasis>, to make sure you don&apos;t get out-of-date coordinates.</para>
+
+<para>If there is no graph set on this tracer, this function does nothing. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_item_tracer_1a11f187ffea436434f3b5cfc387811967">
+                <title>void QCPItemTracer::draw (QCPPainter *painter) Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_item_tracer_1abffdcf64d0f84f7b41bd4af07d144642">
+                <title>QPen QCPItemTracer::mainPen () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_item_tracer_1a94f81c54197577e86c53a60cf39155cd">
+                <title>QBrush QCPItemTracer::mainBrush () const</title> <emphasis></emphasis>
+                
+            </section>
+</section>

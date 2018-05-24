@@ -1,0 +1,216 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="class_q_c_p_axis_ticker_fixed">
+<title>QCPAxisTickerFixed class Reference</title>
+<para>
+    <programlisting>#include <link linkend="qcustomplot_8h">&lt;qcustomplot.h&gt;</link></programlisting>
+</para>
+<para>Inheritance diagram for QCPAxisTickerFixed</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_q_c_p_axis_ticker_fixed__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for QCPAxisTickerFixed</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_q_c_p_axis_ticker_fixed__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                            <para><literallayout>enum <link linkend="class_q_c_p_axis_ticker_fixed_1a15b3d38b935d404b1311eb85cfb6a439">ScaleStrategy</link> {
+<link linkend="class_q_c_p_axis_ticker_fixed_1a15b3d38b935d404b1311eb85cfb6a439a6621275677a05caa0de204ae3956b85f">ssNone</link>,
+<link linkend="class_q_c_p_axis_ticker_fixed_1a15b3d38b935d404b1311eb85cfb6a439a22f651785f6412645837421896561104">ssMultiples</link>,
+<link linkend="class_q_c_p_axis_ticker_fixed_1a15b3d38b935d404b1311eb85cfb6a439ac39d5813e9165ebd494307ae61ce5dce">ssPowers</link>
+}</literallayout>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title>Protected Attributes</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double mTickStep</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>ScaleStrategy mScaleStrategy</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="class_q_c_p_axis_ticker_fixed_1a96d2b053a15f9b8e94550c3efeff6a34">QCPAxisTickerFixed</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double <link linkend="class_q_c_p_axis_ticker_fixed_1a33d1324c8666b4d5df975dea32ed5a28">tickStep</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="class_q_c_p_axis_ticker_fixed_1a15b3d38b935d404b1311eb85cfb6a439">ScaleStrategy</link> <link linkend="class_q_c_p_axis_ticker_fixed_1a20fd8fcb257f63449f8913335ad57e45">scaleStrategy</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_axis_ticker_fixed_1a4bc83d85a4f81d4abdd3fa5042d7b833">setTickStep</link> (
+double step)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_axis_ticker_fixed_1acbc7c9bcd80b3dc3edee5f0519d301f6">setScaleStrategy</link> (
+<link linkend="class_q_c_p_axis_ticker_fixed_1a15b3d38b935d404b1311eb85cfb6a439">ScaleStrategy</link> strategy)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual double <link linkend="class_q_c_p_axis_ticker_fixed_1a9e99da01ab92a86aed415eef32fed13a">getTickStep</link> (
+const <link linkend="class_q_c_p_range">QCPRange</link> &amp; range)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+    <simplesect>
+
+<para>Specialized axis ticker with a fixed tick step. </para>
+    </simplesect>
+        <simplesect>
+            <title>Detailed Description</title>
+
+<para></para>
+
+<para>This <link linkend="class_q_c_p_axis_ticker">QCPAxisTicker</link> subclass generates ticks with a fixed tick step set with <link linkend="class_q_c_p_axis_ticker_fixed_1a4bc83d85a4f81d4abdd3fa5042d7b833">setTickStep</link>. It is also possible to allow integer multiples and integer powers of the specified tick step with <link linkend="class_q_c_p_axis_ticker_fixed_1acbc7c9bcd80b3dc3edee5f0519d301f6">setScaleStrategy</link>.</para>
+
+<para>A typical application of this ticker is to make an axis only display integers, by setting the tick step of the ticker to 1.0 and the scale strategy to <link linkend="class_q_c_p_axis_ticker_fixed_1a15b3d38b935d404b1311eb85cfb6a439a22f651785f6412645837421896561104">ssMultiples</link>.</para>
+
+<para>Another case is when a certain number has a special meaning and axis ticks should only appear at multiples of that value. In this case you might also want to consider <link linkend="class_q_c_p_axis_ticker_pi">QCPAxisTickerPi</link> because despite the name it is not limited to only pi symbols/values.</para>
+
+<para>The ticker can be created and assigned to an axis like this: <literallayout><computeroutput></computeroutput></literallayout></para>
+                <para>Definition at line 1688 of file qcustomplot.h</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>qcustomplot.h</para></listitem></itemizedlist></para>
+        </simplesect>
+            <section xml:id="class_q_c_p_axis_ticker_fixed_1a15b3d38b935d404b1311eb85cfb6a439">
+               <title>enum ScaleStrategy </title>
+               
+<para>Defines how the axis ticker may modify the specified tick step (<link linkend="class_q_c_p_axis_ticker_fixed_1a4bc83d85a4f81d4abdd3fa5042d7b833">setTickStep</link>) in order to control the number of ticks in the axis range.</para>
+
+<para><formalpara><title>See also: </title>
+
+<para><link linkend="class_q_c_p_axis_ticker_fixed_1acbc7c9bcd80b3dc3edee5f0519d301f6">setScaleStrategy</link> </para>
+</formalpara>
+</para>
+
+               <formalpara>
+                    <title>Enumerator:</title>
+                    <variablelist>
+                        <varlistentry xml:id="class_q_c_p_axis_ticker_fixed_1a15b3d38b935d404b1311eb85cfb6a439a6621275677a05caa0de204ae3956b85f">
+                            <term>ssNone</term>
+                            <listitem>
+                                <para>Modifications are not allowed, the specified tick step is absolutely fixed. This might cause a high tick density and overlapping labels if the axis range is zoomed out.</para>
+                            </listitem>
+                        </varlistentry>
+                        <varlistentry xml:id="class_q_c_p_axis_ticker_fixed_1a15b3d38b935d404b1311eb85cfb6a439a22f651785f6412645837421896561104">
+                            <term>ssMultiples</term>
+                            <listitem>
+                                <para>An integer multiple of the specified tick step is allowed. The used factor follows the base class properties of \ref setTickStepStrategy and \ref setTickCount.</para>
+                            </listitem>
+                        </varlistentry>
+                        <varlistentry xml:id="class_q_c_p_axis_ticker_fixed_1a15b3d38b935d404b1311eb85cfb6a439ac39d5813e9165ebd494307ae61ce5dce">
+                            <term>ssPowers</term>
+                            <listitem>
+                                <para>An integer power of the specified tick step is allowed.</para>
+                            </listitem>
+                        </varlistentry>
+                     </variablelist>
+                </formalpara>
+                <para>Definition at line 1697 of file qcustomplot.h
+                    <computeroutput><literallayout>
+{
+ssNone, 
+ssMultiples, 
+ssPowers, 
+}ScaleStrategy;
+                    </literallayout></computeroutput>
+                </para>
+            </section>
+        <section>
+            <title>Member Data Documentation</title>
+        </section>
+            <section xml:id="class_q_c_p_axis_ticker_fixed_1a96d2b053a15f9b8e94550c3efeff6a34">
+                <title>QCPAxisTickerFixed::QCPAxisTickerFixed ()</title> <emphasis></emphasis>
+                
+<para>Constructs the ticker and sets reasonable default values. Axis tickers are commonly created managed by a QSharedPointer, which then can be passed to <link linkend="class_q_c_p_axis_1a4ee03fcd2c74d05cd1a419b9af5cfbdc">QCPAxis::setTicker</link>. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_axis_ticker_fixed_1a33d1324c8666b4d5df975dea32ed5a28">
+                <title>double QCPAxisTickerFixed::tickStep () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_axis_ticker_fixed_1a20fd8fcb257f63449f8913335ad57e45">
+                <title>ScaleStrategy QCPAxisTickerFixed::scaleStrategy () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_axis_ticker_fixed_1a4bc83d85a4f81d4abdd3fa5042d7b833">
+                <title>void QCPAxisTickerFixed::setTickStep (double step)</title> <emphasis></emphasis>
+                
+<para>Sets the fixed tick interval to <emphasis>step</emphasis>.</para>
+
+<para>The axis ticker will only use this tick step when generating axis ticks. This might cause a very high tick density and overlapping labels if the axis range is zoomed out. Using <link linkend="class_q_c_p_axis_ticker_fixed_1acbc7c9bcd80b3dc3edee5f0519d301f6">setScaleStrategy</link> it is possible to relax the fixed step and also allow multiples or powers of <emphasis>step</emphasis>. This will enable the ticker to reduce the number of ticks to a reasonable amount (see <link linkend="class_q_c_p_axis_ticker_1a47752abba8293e6dc18491501ae34008">setTickCount</link>). </para>
+
+            </section>
+            <section xml:id="class_q_c_p_axis_ticker_fixed_1acbc7c9bcd80b3dc3edee5f0519d301f6">
+                <title>void QCPAxisTickerFixed::setScaleStrategy (ScaleStrategy strategy)</title> <emphasis></emphasis>
+                
+<para>Sets whether the specified tick step (<link linkend="class_q_c_p_axis_ticker_fixed_1a4bc83d85a4f81d4abdd3fa5042d7b833">setTickStep</link>) is absolutely fixed or whether modifications may be applied to it before calculating the finally used tick step, such as permitting multiples or powers. See <link linkend="class_q_c_p_axis_ticker_fixed_1a15b3d38b935d404b1311eb85cfb6a439">ScaleStrategy</link> for details.</para>
+
+<para>The default strategy is <link linkend="class_q_c_p_axis_ticker_fixed_1a15b3d38b935d404b1311eb85cfb6a439a6621275677a05caa0de204ae3956b85f">ssNone</link>, which means the tick step is absolutely fixed. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_axis_ticker_fixed_1a9e99da01ab92a86aed415eef32fed13a">
+                <title>double QCPAxisTickerFixed::getTickStep (const QCPRange &amp;range) Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+            </section>
+</section>
