@@ -11,12 +11,12 @@ private:
 
 public:
 	Resistor(float valor);
-	void set_imp(complex<double> s);
+    void set_imp();
 	float get_resist();
 	complex<double> get_imp();
 };
 Resistor::Resistor(float valor) {resist = valor;}
-void Resistor::set_imp(complex<double> s) {imp = complex<double>(resist, 0);}
+void Resistor::set_imp() {imp = complex<double>(resist, 0);}
 float Resistor::get_resist() {return resist;}
 complex<double> Resistor::get_imp() { return imp; }
 

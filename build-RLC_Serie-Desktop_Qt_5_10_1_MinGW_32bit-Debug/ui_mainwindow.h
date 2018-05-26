@@ -25,7 +25,7 @@
 #include <QtWidgets/QToolBar>
 #include <QtWidgets/QVBoxLayout>
 #include <QtWidgets/QWidget>
-#include <qcustomplot.h>
+#include "qcustomplot.h"
 
 QT_BEGIN_NAMESPACE
 
@@ -46,12 +46,9 @@ public:
     QLabel *label_7;
     QWidget *gridLayoutWidget;
     QGridLayout *gridLayout;
-    QWidget *widget;
+    QWidget *ThemeWidgetForm;
     QGridLayout *gridLayout_2;
-    QCustomPlot *graph_fonte;
-    QCustomPlot *graph_capacitor;
-    QCustomPlot *graph_resistor;
-    QCustomPlot *graph_indutor;
+    QCustomPlot *customPlot;
     QWidget *verticalLayoutWidget;
     QVBoxLayout *verticalLayout;
     QLabel *label_5;
@@ -62,11 +59,15 @@ public:
     QFormLayout *formLayout_2;
     QLabel *label_13;
     QLabel *label_9;
-    QLineEdit *lineA_2;
+    QLineEdit *lineRes;
     QLabel *label_10;
-    QLineEdit *lineB_2;
+    QLineEdit *lineCap;
     QLabel *label_11;
-    QLineEdit *lineC_2;
+    QLineEdit *lineL;
+    QWidget *verticalLayoutWidget_2;
+    QVBoxLayout *verticalLayout_2;
+    QLabel *label_12;
+    QLineEdit *lineTempo;
     QMenuBar *menuBar;
     QToolBar *mainToolBar;
     QStatusBar *statusBar;
@@ -140,34 +141,19 @@ public:
         gridLayout->setContentsMargins(11, 11, 11, 11);
         gridLayout->setObjectName(QStringLiteral("gridLayout"));
         gridLayout->setContentsMargins(0, 0, 0, 0);
-        widget = new QWidget(gridLayoutWidget);
-        widget->setObjectName(QStringLiteral("widget"));
-        gridLayout_2 = new QGridLayout(widget);
+        ThemeWidgetForm = new QWidget(gridLayoutWidget);
+        ThemeWidgetForm->setObjectName(QStringLiteral("ThemeWidgetForm"));
+        gridLayout_2 = new QGridLayout(ThemeWidgetForm);
         gridLayout_2->setSpacing(6);
         gridLayout_2->setContentsMargins(11, 11, 11, 11);
         gridLayout_2->setObjectName(QStringLiteral("gridLayout_2"));
-        graph_fonte = new QCustomPlot(widget);
-        graph_fonte->setObjectName(QStringLiteral("graph_fonte"));
+        customPlot = new QCustomPlot(ThemeWidgetForm);
+        customPlot->setObjectName(QStringLiteral("customPlot"));
 
-        gridLayout_2->addWidget(graph_fonte, 0, 0, 1, 1);
-
-        graph_capacitor = new QCustomPlot(widget);
-        graph_capacitor->setObjectName(QStringLiteral("graph_capacitor"));
-
-        gridLayout_2->addWidget(graph_capacitor, 0, 1, 1, 1);
-
-        graph_resistor = new QCustomPlot(widget);
-        graph_resistor->setObjectName(QStringLiteral("graph_resistor"));
-
-        gridLayout_2->addWidget(graph_resistor, 1, 0, 1, 1);
-
-        graph_indutor = new QCustomPlot(widget);
-        graph_indutor->setObjectName(QStringLiteral("graph_indutor"));
-
-        gridLayout_2->addWidget(graph_indutor, 1, 1, 1, 1);
+        gridLayout_2->addWidget(customPlot, 0, 0, 1, 1);
 
 
-        gridLayout->addWidget(widget, 2, 0, 1, 2);
+        gridLayout->addWidget(ThemeWidgetForm, 2, 0, 1, 2);
 
         verticalLayoutWidget = new QWidget(centralWidget);
         verticalLayoutWidget->setObjectName(QStringLiteral("verticalLayoutWidget"));
@@ -195,7 +181,7 @@ public:
         label_8->setGeometry(QRect(60, 10, 401, 196));
         formLayoutWidget_2 = new QWidget(centralWidget);
         formLayoutWidget_2->setObjectName(QStringLiteral("formLayoutWidget_2"));
-        formLayoutWidget_2->setGeometry(QRect(260, 220, 171, 231));
+        formLayoutWidget_2->setGeometry(QRect(260, 220, 171, 111));
         formLayout_2 = new QFormLayout(formLayoutWidget_2);
         formLayout_2->setSpacing(6);
         formLayout_2->setContentsMargins(11, 11, 11, 11);
@@ -211,30 +197,48 @@ public:
 
         formLayout_2->setWidget(1, QFormLayout::LabelRole, label_9);
 
-        lineA_2 = new QLineEdit(formLayoutWidget_2);
-        lineA_2->setObjectName(QStringLiteral("lineA_2"));
+        lineRes = new QLineEdit(formLayoutWidget_2);
+        lineRes->setObjectName(QStringLiteral("lineRes"));
 
-        formLayout_2->setWidget(1, QFormLayout::FieldRole, lineA_2);
+        formLayout_2->setWidget(1, QFormLayout::FieldRole, lineRes);
 
         label_10 = new QLabel(formLayoutWidget_2);
         label_10->setObjectName(QStringLiteral("label_10"));
 
         formLayout_2->setWidget(2, QFormLayout::LabelRole, label_10);
 
-        lineB_2 = new QLineEdit(formLayoutWidget_2);
-        lineB_2->setObjectName(QStringLiteral("lineB_2"));
+        lineCap = new QLineEdit(formLayoutWidget_2);
+        lineCap->setObjectName(QStringLiteral("lineCap"));
 
-        formLayout_2->setWidget(2, QFormLayout::FieldRole, lineB_2);
+        formLayout_2->setWidget(2, QFormLayout::FieldRole, lineCap);
 
         label_11 = new QLabel(formLayoutWidget_2);
         label_11->setObjectName(QStringLiteral("label_11"));
 
         formLayout_2->setWidget(3, QFormLayout::LabelRole, label_11);
 
-        lineC_2 = new QLineEdit(formLayoutWidget_2);
-        lineC_2->setObjectName(QStringLiteral("lineC_2"));
+        lineL = new QLineEdit(formLayoutWidget_2);
+        lineL->setObjectName(QStringLiteral("lineL"));
 
-        formLayout_2->setWidget(3, QFormLayout::FieldRole, lineC_2);
+        formLayout_2->setWidget(3, QFormLayout::FieldRole, lineL);
+
+        verticalLayoutWidget_2 = new QWidget(centralWidget);
+        verticalLayoutWidget_2->setObjectName(QStringLiteral("verticalLayoutWidget_2"));
+        verticalLayoutWidget_2->setGeometry(QRect(260, 350, 171, 51));
+        verticalLayout_2 = new QVBoxLayout(verticalLayoutWidget_2);
+        verticalLayout_2->setSpacing(6);
+        verticalLayout_2->setContentsMargins(11, 11, 11, 11);
+        verticalLayout_2->setObjectName(QStringLiteral("verticalLayout_2"));
+        verticalLayout_2->setContentsMargins(0, 0, 0, 0);
+        label_12 = new QLabel(verticalLayoutWidget_2);
+        label_12->setObjectName(QStringLiteral("label_12"));
+
+        verticalLayout_2->addWidget(label_12);
+
+        lineTempo = new QLineEdit(verticalLayoutWidget_2);
+        lineTempo->setObjectName(QStringLiteral("lineTempo"));
+
+        verticalLayout_2->addWidget(lineTempo);
 
         MainWindow->setCentralWidget(centralWidget);
         menuBar = new QMenuBar(MainWindow);
@@ -269,6 +273,7 @@ public:
         label_9->setText(QApplication::translate("MainWindow", "R(\342\204\246)", nullptr));
         label_10->setText(QApplication::translate("MainWindow", "C(F)", nullptr));
         label_11->setText(QApplication::translate("MainWindow", "L(H)", nullptr));
+        label_12->setText(QApplication::translate("MainWindow", "Tempo de Amostragem", nullptr));
     } // retranslateUi
 
 };
