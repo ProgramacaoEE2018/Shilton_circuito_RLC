@@ -1,0 +1,909 @@
+{\rtf1\ansi\ansicpg1252\uc1 \deff0\deflang1033\deflangfe1033
+{\fonttbl {\f0\froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}
+{\f1\fswiss\fcharset0\fprq2{\*\panose 020b0604020202020204}Arial;}
+{\f2\fmodern\fcharset0\fprq1{\*\panose 02070309020205020404}Courier New;}
+{\f3\froman\fcharset2\fprq2{\*\panose 05050102010706020507}Symbol;}
+}
+{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;}
+{\stylesheet
+{\widctlpar\adjustright \fs20\cgrid \snext0 Normal;}
+{\paperw11900\paperh16840\margl1800\margr1800\margt1440\margb1440\gutter0\ltrsect}
+{\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid \sbasedon0 \snext0 heading 1;}
+{\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid \sbasedon0 \snext0 heading 2;}
+{\s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid \sbasedon0 \snext0 heading 3;}
+{\s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext0 heading 4;}{\*\cs10 \additive Default Paragraph Font;}
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext0 heading 5;}{\*\cs10 \additive Default Paragraph Font;}
+{\s15\qc\sb240\sa60\widctlpar\outlinelevel0\adjustright \b\f1\fs32\kerning28\cgrid \sbasedon0 \snext15 Title;}
+{\s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid \sbasedon0 \snext16 Subtitle;}
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid \sbasedon0 \snext17 BodyText;}
+{\s18\widctlpar\fs22\cgrid \sbasedon0 \snext18 DenseText;}
+{\s28\widctlpar\tqc\tx4320\tqr\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext28 header;}
+{\s29\widctlpar\tqc\tx4320\tqr\tx8640\qr\adjustright \fs20\cgrid \sbasedon0 \snext29 footer;}
+{\s30\li360\sa60\sb120\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext30 GroupHeader;}
+{\s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext41 Code Example 0;}
+{\s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext42 Code Example 1;}
+{\s42\li720\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext43 Code Example 2;}
+{\s43\li1080\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext44 Code Example 3;}
+{\s44\li1440\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext45 Code Example 4;}
+{\s45\li1800\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext46 Code Example 5;}
+{\s46\li2160\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext47 Code Example 6;}
+{\s47\li2520\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext48 Code Example 7;}
+{\s48\li2880\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext49 Code Example 8;}
+{\s49\li3240\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext49 Code Example 9;}
+{\s50\li0\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext51 List Continue 0;}
+{\s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext52 List Continue 1;}
+{\s52\li720\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext53 List Continue 2;}
+{\s53\li1080\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext54 List Continue 3;}
+{\s54\li1440\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext55 List Continue 4;}
+{\s55\li1800\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext56 List Continue 5;}
+{\s56\li2160\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext57 List Continue 6;}
+{\s57\li2520\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext58 List Continue 7;}
+{\s58\li2880\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext59 List Continue 8;}
+{\s59\li3240\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext59 List Continue 9;}
+{\s60\li0\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext61 DescContinue 0;}
+{\s61\li360\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext62 DescContinue 1;}
+{\s62\li720\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext63 DescContinue 2;}
+{\s63\li1080\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext64 DescContinue 3;}
+{\s64\li1440\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext65 DescContinue 4;}
+{\s65\li1800\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext66 DescContinue 5;}
+{\s66\li2160\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext67 DescContinue 6;}
+{\s67\li2520\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext68 DescContinue 7;}
+{\s68\li2880\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext69 DescContinue 8;}
+{\s69\li3240\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext69 DescContinue 9;}
+{\s70\li0\sa30\sb30\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext81 LatexTOC 0;}
+{\s71\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext82 LatexTOC 1;}
+{\s72\li720\sa24\sb24\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext83 LatexTOC 2;}
+{\s73\li1080\sa21\sb21\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext84 LatexTOC 3;}
+{\s74\li1440\sa18\sb18\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext85 LatexTOC 4;}
+{\s75\li1800\sa15\sb15\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext86 LatexTOC 5;}
+{\s76\li2160\sa12\sb12\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext87 LatexTOC 6;}
+{\s77\li2520\sa9\sb9\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext88 LatexTOC 7;}
+{\s78\li2880\sa6\sb6\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext89 LatexTOC 8;}
+{\s79\li3240\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext89 LatexTOC 9;}
+{\s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext81 \sautoupd List Bullet 0;}
+{\s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid \sbasedon0 \snext82 \sautoupd List Bullet 1;}
+{\s82\fi-360\li1080\widctlpar\jclisttab\tx1080{\*\pn \pnlvlbody\ilvl0\ls3\pnrnot0\pndec }\ls3\adjustright \fs20\cgrid \sbasedon0 \snext83 \sautoupd List Bullet 2;}
+{\s83\fi-360\li1440\widctlpar\jclisttab\tx1440{\*\pn \pnlvlbody\ilvl0\ls4\pnrnot0\pndec }\ls4\adjustright \fs20\cgrid \sbasedon0 \snext84 \sautoupd List Bullet 3;}
+{\s84\fi-360\li1800\widctlpar\jclisttab\tx1800{\*\pn \pnlvlbody\ilvl0\ls5\pnrnot0\pndec }\ls5\adjustright \fs20\cgrid \sbasedon0 \snext85 \sautoupd List Bullet 4;}
+{\s85\fi-360\li2160\widctlpar\jclisttab\tx2160{\*\pn \pnlvlbody\ilvl0\ls6\pnrnot0\pndec }\ls6\adjustright \fs20\cgrid \sbasedon0 \snext86 \sautoupd List Bullet 5;}
+{\s86\fi-360\li2520\widctlpar\jclisttab\tx2520{\*\pn \pnlvlbody\ilvl0\ls7\pnrnot0\pndec }\ls7\adjustright \fs20\cgrid \sbasedon0 \snext87 \sautoupd List Bullet 6;}
+{\s87\fi-360\li2880\widctlpar\jclisttab\tx2880{\*\pn \pnlvlbody\ilvl0\ls8\pnrnot0\pndec }\ls8\adjustright \fs20\cgrid \sbasedon0 \snext88 \sautoupd List Bullet 7;}
+{\s88\fi-360\li3240\widctlpar\jclisttab\tx3240{\*\pn \pnlvlbody\ilvl0\ls9\pnrnot0\pndec }\ls9\adjustright \fs20\cgrid \sbasedon0 \snext89 \sautoupd List Bullet 8;}
+{\s89\fi-360\li3600\widctlpar\jclisttab\tx3600{\*\pn \pnlvlbody\ilvl0\ls10\pnrnot0\pndec }\ls10\adjustright \fs20\cgrid \sbasedon0 \snext89 \sautoupd List Bullet 9;}
+{\s90\fi-360\li360\widctlpar\fs20\cgrid \sbasedon0 \snext91 \sautoupd List Enum 0;}
+{\s91\fi-360\li720\widctlpar\fs20\cgrid \sbasedon0 \snext92 \sautoupd List Enum 1;}
+{\s92\fi-360\li1080\widctlpar\fs20\cgrid \sbasedon0 \snext93 \sautoupd List Enum 2;}
+{\s93\fi-360\li1440\widctlpar\fs20\cgrid \sbasedon0 \snext94 \sautoupd List Enum 3;}
+{\s94\fi-360\li1800\widctlpar\fs20\cgrid \sbasedon0 \snext95 \sautoupd List Enum 4;}
+{\s95\fi-360\li2160\widctlpar\fs20\cgrid \sbasedon0 \snext96 \sautoupd List Enum 5;}
+{\s96\fi-360\li2520\widctlpar\fs20\cgrid \sbasedon0 \snext96 \sautoupd List Enum 5;}
+{\s97\fi-360\li2880\widctlpar\fs20\cgrid \sbasedon0 \snext98 \sautoupd List Enum 7;}
+{\s98\fi-360\li3240\widctlpar\fs20\cgrid \sbasedon0 \snext99 \sautoupd List Enum 8;}
+{\s99\fi-360\li3600\widctlpar\fs20\cgrid \sbasedon0 \snext99 \sautoupd List Enum 9;}
+}
+{\comment begin body}
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Referência da Classe QCPRange\par \pard\plain 
+{\tc\tcl2 \v QCPRange}
+{\xe \v QCPRange}
+{\bkmkstart AAAAAAADHD}
+{\bkmkend AAAAAAADHD}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Represents the range an axis is encompassing. }}\par
+{
+{\f2 #include <qcustomplot.h>}}\par
+Diagrama de colaboração para QCPRange:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "classQCPRange__coll__graph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Membros Públicos\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b QCPRange} ()\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b QCPRange} (double {\b lower}, double {\b upper})\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b operator==} (const {\b QCPRange} &other) const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b operator!=} (const {\b QCPRange} &other) const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b QCPRange} & {\b operator+=} (const double &value)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b QCPRange} & {\b operator-=} (const double &value)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b QCPRange} & {\b operator*=} (const double &value)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b QCPRange} & {\b operator/=} (const double &value)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+double {\b size} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+double {\b center} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b normalize} ()\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b expand} (const {\b QCPRange} &otherRange)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b expand} (double includeCoord)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b QCPRange} {\b expanded} (const {\b QCPRange} &otherRange) const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b QCPRange} {\b expanded} (double includeCoord) const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b QCPRange} {\b bounded} (double lowerBound, double upperBound) const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b QCPRange} {\b sanitizedForLogScale} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b QCPRange} {\b sanitizedForLinScale} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b contains} (double value) const\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Membros Públicos Estáticos\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+static bool {\b validRange} (double {\b lower}, double {\b upper})\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+static bool {\b validRange} (const {\b QCPRange} &range)\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Atributos Públicos\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+double {\b lower}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+double {\b upper}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Atributos Estáticos Públicos\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+static const double {\b minRange} = 1e-280\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+static const double {\b maxRange} = 1e250\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Amigas\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+const {\b QCPRange} {\b operator+} (const {\b QCPRange} &, double)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+const {\b QCPRange} {\b operator+} (double, const {\b QCPRange} &)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+const {\b QCPRange} {\b operator-} (const {\b QCPRange} &range, double value)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+const {\b QCPRange} {\b operator*} (const {\b QCPRange} &range, double value)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+const {\b QCPRange} {\b operator*} (double value, const {\b QCPRange} &range)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+const {\b QCPRange} {\b operator/} (const {\b QCPRange} &range, double value)\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Funções Relacionadas\par
+\pard\plain 
+{
+\pard\plain \s50\li0\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+(Note que estas não são funções membros.) \par
+}}
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+QDebug {\b operator<<} (QDebug d, const {\b QCPRange} &range)\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Descrição detalhada\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Represents the range an axis is encompassing. \par
+}
+
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+contains a {\i lower}  and {\i upper}  double value and provides convenience input, output and modification functions.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s61\li360\widctlpar\ql\adjustright \fs20\cgrid {\b QCPAxis::setRange} \par
+}}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Construtores e Destrutores\par
+\pard\plain 
+{\xe \v QCPRange\:QCPRange}
+{\xe \v QCPRange\:QCPRange}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QCPRange::QCPRange ()}}
+\par
+{\bkmkstart AAAAAAADHE}
+{\bkmkend AAAAAAADHE}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Constructs a range with {\i lower}  and {\i upper}  set to zero. \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1895                    :\par
+ 1896   lower(0),\par
+ 1897   upper(0)\par
+ 1898 \{\par
+ 1899 \}\par
+}
+}
+{\xe \v QCPRange\:QCPRange}
+{\xe \v QCPRange\:QCPRange}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QCPRange::QCPRange (double  {\i lower}, double  {\i upper})}}
+\par
+{\bkmkstart AAAAAAADHF}
+{\bkmkend AAAAAAADHF}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.\par
+Constructs a range with the specified {\i lower}  and {\i upper}  values.\par
+The resulting range will be normalized (see {\b normalize}), so if {\i lower}  is not numerically smaller than {\i upper} , they will be swapped. \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1908                                              :\par
+ 1909   lower(lower),\par
+ 1910   upper(upper)\par
+ 1911 \{\par
+ 1912   normalize();\par
+ 1913 \}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Funções membros\par
+\pard\plain 
+{\xe \v bounded\:QCPRange}
+{\xe \v QCPRange\:bounded}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b QCPRange} QCPRange::bounded (double  {\i lowerBound}, double  {\i upperBound}) const}}
+\par
+{\bkmkstart AAAAAAADHG}
+{\bkmkend AAAAAAADHG}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Returns this range, possibly modified to not exceed the bounds provided as {\i lowerBound}  and {\i upperBound} . If possible, the size of the current range is preserved in the process.\par
+If the range shall only be bounded at the lower side, you can set {\i upperBound}  to {\b QCPRange::maxRange}. If it shall only be bounded at the upper side, set {\i lowerBound}  to -{\b QCPRange::maxRange}. \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1999 \{\par
+ 2000   if (lowerBound > upperBound)\par
+ 2001     qSwap(lowerBound, upperBound);\par
+ 2002   \par
+ 2003   QCPRange result(lower, upper);\par
+ 2004   if (result.lower < lowerBound)\par
+ 2005   \{\par
+ 2006     result.lower = lowerBound;\par
+ 2007     result.upper = lowerBound + size();\par
+ 2008     if (result.upper > upperBound || qFuzzyCompare(size(), upperBound-lowerBound))\par
+ 2009       result.upper = upperBound;\par
+ 2010   \} else if (result.upper > upperBound)\par
+ 2011   \{\par
+ 2012     result.upper = upperBound;\par
+ 2013     result.lower = upperBound - size();\par
+ 2014     if (result.lower < lowerBound || qFuzzyCompare(size(), upperBound-lowerBound))\par
+ 2015       result.lower = lowerBound;\par
+ 2016   \}\par
+ 2017   \par
+ 2018   return result;\par
+ 2019 \}\par
+}
+}
+{\xe \v center\:QCPRange}
+{\xe \v QCPRange\:center}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+double QCPRange::center () const{\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAADHH}
+{\bkmkend AAAAAAADHH}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Returns the center of the range, i.e. ({\i upper+{\i lower} )*0} .5 \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid   795 \{ return (upper+lower)*0.5; \}\par
+}
+}
+{\xe \v contains\:QCPRange}
+{\xe \v QCPRange\:contains}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool QCPRange::contains (double  {\i value}) const{\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAADHI}
+{\bkmkend AAAAAAADHI}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Returns true when {\i value}  lies within or exactly on the borders of the range. \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid   804 \{ return value >= lower && value <= upper; \}\par
+}
+}
+{\xe \v expand\:QCPRange}
+{\xe \v QCPRange\:expand}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPRange::expand (const {\b QCPRange} &  {\i otherRange})}}
+\par
+{\bkmkstart AAAAAAADHJ}
+{\bkmkend AAAAAAADHJ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.\par
+Expands this range such that {\i otherRange}  is contained in the new range. It is assumed that both this range and {\i otherRange}  are normalized (see {\b normalize}).\par
+If this range contains NaN as lower or upper bound, it will be replaced by the respective bound of {\i otherRange} .\par
+If {\i otherRange}  is already inside the current range, this function does nothing.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b expanded} \par
+}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1928 \{\par
+ 1929   if (lower > otherRange.lower || qIsNaN(lower))\par
+ 1930     lower = otherRange.lower;\par
+ 1931   if (upper < otherRange.upper || qIsNaN(upper))\par
+ 1932     upper = otherRange.upper;\par
+ 1933 \}\par
+}
+}
+{\xe \v expand\:QCPRange}
+{\xe \v QCPRange\:expand}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPRange::expand (double  {\i includeCoord})}}
+\par
+{\bkmkstart AAAAAAADHK}
+{\bkmkend AAAAAAADHK}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.\par
+Expands this range such that {\i includeCoord}  is contained in the new range. It is assumed that this range is normalized (see {\b normalize}).\par
+If this range contains NaN as lower or upper bound, the respective bound will be set to {\i includeCoord} .\par
+If {\i includeCoord}  is already inside the current range, this function does nothing.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b expand} \par
+}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1948 \{\par
+ 1949   if (lower > includeCoord || qIsNaN(lower))\par
+ 1950     lower = includeCoord;\par
+ 1951   if (upper < includeCoord || qIsNaN(upper))\par
+ 1952     upper = includeCoord;\par
+ 1953 \}\par
+}
+}
+{\xe \v expanded\:QCPRange}
+{\xe \v QCPRange\:expanded}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b QCPRange} QCPRange::expanded (const {\b QCPRange} &  {\i otherRange}) const}}
+\par
+{\bkmkstart AAAAAAADHL}
+{\bkmkend AAAAAAADHL}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.\par
+Returns an expanded range that contains this and {\i otherRange} . It is assumed that both this range and {\i otherRange}  are normalized (see {\b normalize}).\par
+If this range contains NaN as lower or upper bound, the returned range's bound will be taken from {\i otherRange} .\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b expand} \par
+}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1967 \{\par
+ 1968   QCPRange result = *this;\par
+ 1969   result.expand(otherRange);\par
+ 1970   return result;\par
+ 1971 \}\par
+}
+}
+{\xe \v expanded\:QCPRange}
+{\xe \v QCPRange\:expanded}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b QCPRange} QCPRange::expanded (double  {\i includeCoord}) const}}
+\par
+{\bkmkstart AAAAAAADHM}
+{\bkmkend AAAAAAADHM}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.\par
+Returns an expanded range that includes the specified {\i includeCoord} . It is assumed that this range is normalized (see {\b normalize}).\par
+If this range contains NaN as lower or upper bound, the returned range's bound will be set to {\i includeCoord} .\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b expand} \par
+}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1984 \{\par
+ 1985   QCPRange result = *this;\par
+ 1986   result.expand(includeCoord);\par
+ 1987   return result;\par
+ 1988 \}\par
+}
+}
+{\xe \v normalize\:QCPRange}
+{\xe \v QCPRange\:normalize}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPRange::normalize (){\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAADHN}
+{\bkmkend AAAAAAADHN}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Makes sure {\i lower}  is numerically smaller than {\i upper} . If this is not the case, the values are swapped. \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid   796 \{ if (lower > upper) qSwap(lower, upper); \}\par
+}
+}
+{\xe \v operator!=\:QCPRange}
+{\xe \v QCPRange\:operator!=}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool QCPRange::operator!= (const {\b QCPRange} &  {\i other}) const{\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAADHO}
+{\bkmkend AAAAAAADHO}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid   781 \{ return !(*this == other); \}\par
+}
+}
+{\xe \v operator*=\:QCPRange}
+{\xe \v QCPRange\:operator*=}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b QCPRange} & QCPRange::operator*= (const double &  {\i value}){\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAADHP}
+{\bkmkend AAAAAAADHP}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Multiplies both boundaries of the range by {\i value} . \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid   785 \{ lower*=value; upper*=value; return *this; \}\par
+}
+}
+{\xe \v operator+=\:QCPRange}
+{\xe \v QCPRange\:operator+=}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b QCPRange} & QCPRange::operator+= (const double &  {\i value}){\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAADHQ}
+{\bkmkend AAAAAAADHQ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Adds {\i value}  to both boundaries of the range. \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid   783 \{ lower+=value; upper+=value; return *this; \}\par
+}
+}
+{\xe \v operator-=\:QCPRange}
+{\xe \v QCPRange\:operator-=}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b QCPRange} & QCPRange::operator-= (const double &  {\i value}){\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAADHR}
+{\bkmkend AAAAAAADHR}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Subtracts {\i value}  from both boundaries of the range. \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid   784 \{ lower-=value; upper-=value; return *this; \}\par
+}
+}
+{\xe \v operator/=\:QCPRange}
+{\xe \v QCPRange\:operator/=}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b QCPRange} & QCPRange::operator/= (const double &  {\i value}){\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAADHS}
+{\bkmkend AAAAAAADHS}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Divides both boundaries of the range by {\i value} . \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid   786 \{ lower/=value; upper/=value; return *this; \}\par
+}
+}
+{\xe \v operator==\:QCPRange}
+{\xe \v QCPRange\:operator==}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool QCPRange::operator== (const {\b QCPRange} &  {\i other}) const{\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAADHT}
+{\bkmkend AAAAAAADHT}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid   780 \{ return lower == other.lower && upper == other.upper; \}\par
+}
+}
+{\xe \v sanitizedForLinScale\:QCPRange}
+{\xe \v QCPRange\:sanitizedForLinScale}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b QCPRange} QCPRange::sanitizedForLinScale () const}}
+\par
+{\bkmkstart AAAAAAADHU}
+{\bkmkend AAAAAAADHU}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Returns a sanitized version of the range. Sanitized means for linear scales, that {\i lower}  will always be numerically smaller (or equal) to {\i upper} . \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  2083 \{\par
+ 2084   QCPRange sanitizedRange(lower, upper);\par
+ 2085   sanitizedRange.normalize();\par
+ 2086   return sanitizedRange;\par
+ 2087 \}\par
+}
+}
+{\xe \v sanitizedForLogScale\:QCPRange}
+{\xe \v QCPRange\:sanitizedForLogScale}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b QCPRange} QCPRange::sanitizedForLogScale () const}}
+\par
+{\bkmkstart AAAAAAADHV}
+{\bkmkend AAAAAAADHV}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Returns a sanitized version of the range. Sanitized means for logarithmic scales, that the range won't span the positive and negative sign domain, i.e. contain zero. Further {\i lower}  will always be numerically smaller (or equal) to {\i upper} .\par
+If the original range does span positive and negative sign domains or contains zero, the returned range will try to approximate the original range as good as possible. If the positive interval of the original range is wider than the negative interval, the returned range will only contain the positive interval, with lower bound set to {\i rangeFac}  or {\i rangeFac}  *{\i upper} , whichever is closer to zero. Same procedure is used if the negative interval is wider than the positive interval, this time by changing the {\i upper}  bound. \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  2034 \{\par
+ 2035   double rangeFac = 1e-3;\par
+ 2036   QCPRange sanitizedRange(lower, upper);\par
+ 2037   sanitizedRange.normalize();\par
+ 2038   // can't have range spanning negative and positive values in log plot, so change range to fix it\par
+ 2039   //if (qFuzzyCompare(sanitizedRange.lower+1, 1) && !qFuzzyCompare(sanitizedRange.upper+1, 1))\par
+ 2040   if (sanitizedRange.lower == 0.0 && sanitizedRange.upper != 0.0)\par
+ 2041   \{\par
+ 2042     // case lower is 0\par
+ 2043     if (rangeFac < sanitizedRange.upper*rangeFac)\par
+ 2044       sanitizedRange.lower = rangeFac;\par
+ 2045     else\par
+ 2046       sanitizedRange.lower = sanitizedRange.upper*rangeFac;\par
+ 2047   \} //else if (!qFuzzyCompare(lower+1, 1) && qFuzzyCompare(upper+1, 1))\par
+ 2048   else if (sanitizedRange.lower != 0.0 && sanitizedRange.upper == 0.0)\par
+ 2049   \{\par
+ 2050     // case upper is 0\par
+ 2051     if (-rangeFac > sanitizedRange.lower*rangeFac)\par
+ 2052       sanitizedRange.upper = -rangeFac;\par
+ 2053     else\par
+ 2054       sanitizedRange.upper = sanitizedRange.lower*rangeFac;\par
+ 2055   \} else if (sanitizedRange.lower < 0 && sanitizedRange.upper > 0)\par
+ 2056   \{\par
+ 2057     // find out whether negative or positive interval is wider to decide which sign domain will be chosen\par
+ 2058     if (-sanitizedRange.lower > sanitizedRange.upper)\par
+ 2059     \{\par
+ 2060       // negative is wider, do same as in case upper is 0\par
+ 2061       if (-rangeFac > sanitizedRange.lower*rangeFac)\par
+ 2062         sanitizedRange.upper = -rangeFac;\par
+ 2063       else\par
+ 2064         sanitizedRange.upper = sanitizedRange.lower*rangeFac;\par
+ 2065     \} else\par
+ 2066     \{\par
+ 2067       // positive is wider, do same as in case lower is 0\par
+ 2068       if (rangeFac < sanitizedRange.upper*rangeFac)\par
+ 2069         sanitizedRange.lower = rangeFac;\par
+ 2070       else\par
+ 2071         sanitizedRange.lower = sanitizedRange.upper*rangeFac;\par
+ 2072     \}\par
+ 2073   \}\par
+ 2074   // due to normalization, case lower>0 && upper<0 should never occur, because that implies upper<lower\par
+ 2075   return sanitizedRange;\par
+ 2076 \}\par
+}
+}
+{\xe \v size\:QCPRange}
+{\xe \v QCPRange\:size}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+double QCPRange::size () const{\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAADHW}
+{\bkmkend AAAAAAADHW}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Returns the size of the range, i.e. {\i upper-{\i lower}  }  \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid   794 \{ return upper-lower; \}\par
+}
+}
+{\xe \v validRange\:QCPRange}
+{\xe \v QCPRange\:validRange}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool QCPRange::validRange (double  {\i lower}, double  {\i upper}){\f2 [static]}}}
+\par
+{\bkmkstart AAAAAAADHX}
+{\bkmkend AAAAAAADHX}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Checks, whether the specified range is within valid bounds, which are defined as {\b QCPRange::maxRange} and {\b QCPRange::minRange}. A valid range means: {
+\par\pard\plain \s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid 
+range bounds within -maxRange and maxRange \par\pard\plain \s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid 
+range size above minRange \par\pard\plain \s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid 
+range size below maxRange \par
+}
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  2098 \{\par
+ 2099   return (lower > -maxRange &&\par
+ 2100           upper < maxRange &&\par
+ 2101           qAbs(lower-upper) > minRange &&\par
+ 2102           qAbs(lower-upper) < maxRange &&\par
+ 2103           !(lower > 0 && qIsInf(upper/lower)) &&\par
+ 2104           !(upper < 0 && qIsInf(lower/upper)));\par
+ 2105 \}\par
+}
+}
+{\xe \v validRange\:QCPRange}
+{\xe \v QCPRange\:validRange}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool QCPRange::validRange (const {\b QCPRange} &  {\i range}){\f2 [static]}}}
+\par
+{\bkmkstart AAAAAAADHY}
+{\bkmkend AAAAAAADHY}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados. Checks, whether the specified range is within valid bounds, which are defined as {\b QCPRange::maxRange} and {\b QCPRange::minRange}. A valid range means: {
+\par\pard\plain \s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid 
+range bounds within -maxRange and maxRange \par\pard\plain \s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid 
+range size above minRange \par\pard\plain \s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid 
+range size below maxRange \par
+}
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  2117 \{\par
+ 2118   return (range.lower > -maxRange &&\par
+ 2119           range.upper < maxRange &&\par
+ 2120           qAbs(range.lower-range.upper) > minRange &&\par
+ 2121           qAbs(range.lower-range.upper) < maxRange &&\par
+ 2122           !(range.lower > 0 && qIsInf(range.upper/range.lower)) &&\par
+ 2123           !(range.upper < 0 && qIsInf(range.lower/range.upper)));\par
+ 2124 \}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Amigas e Funções Relacionadas\par
+\pard\plain 
+{\xe \v operator*\:QCPRange}
+{\xe \v QCPRange\:operator*}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+const {\b QCPRange} operator* (const {\b QCPRange} &  {\i range}, double  {\i value}){\f2 [friend]}}}
+\par
+{\bkmkstart AAAAAAADHZ}
+{\bkmkend AAAAAAADHZ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Multiplies both boundaries of the range by {\i value} . \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid   858 \{\par
+  859   QCPRange result(range);\par
+  860   result *= value;\par
+  861   return result;\par
+  862 \}\par
+}
+}
+{\xe \v operator*\:QCPRange}
+{\xe \v QCPRange\:operator*}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+const {\b QCPRange} operator* (double  {\i value}, const {\b QCPRange} &  {\i range}){\f2 [friend]}}}
+\par
+{\bkmkstart AAAAAAADIA}
+{\bkmkend AAAAAAADIA}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Multiplies both boundaries of the range by {\i value} . \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid   868 \{\par
+  869   QCPRange result(range);\par
+  870   result *= value;\par
+  871   return result;\par
+  872 \}\par
+}
+}
+{\xe \v operator+\:QCPRange}
+{\xe \v QCPRange\:operator+}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+const {\b QCPRange} operator+ (const {\b QCPRange} &  {\i range}, double  {\i value}){\f2 [friend]}}}
+\par
+{\bkmkstart AAAAAAADIB}
+{\bkmkend AAAAAAADIB}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Adds {\i value}  to both boundaries of the range. \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid   828 \{\par
+  829   QCPRange result(range);\par
+  830   result += value;\par
+  831   return result;\par
+  832 \}\par
+}
+}
+{\xe \v operator+\:QCPRange}
+{\xe \v QCPRange\:operator+}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+const {\b QCPRange} operator+ (double  {\i value}, const {\b QCPRange} &  {\i range}){\f2 [friend]}}}
+\par
+{\bkmkstart AAAAAAADIC}
+{\bkmkend AAAAAAADIC}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Adds {\i value}  to both boundaries of the range. \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid   838 \{\par
+  839   QCPRange result(range);\par
+  840   result += value;\par
+  841   return result;\par
+  842 \}\par
+}
+}
+{\xe \v operator-\:QCPRange}
+{\xe \v QCPRange\:operator-}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+const {\b QCPRange} operator- (const {\b QCPRange} &  {\i range}, double  {\i value}){\f2 [friend]}}}
+\par
+{\bkmkstart AAAAAAADID}
+{\bkmkend AAAAAAADID}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Subtracts {\i value}  from both boundaries of the range. \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid   848 \{\par
+  849   QCPRange result(range);\par
+  850   result -= value;\par
+  851   return result;\par
+  852 \}\par
+}
+}
+{\xe \v operator/\:QCPRange}
+{\xe \v QCPRange\:operator/}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+const {\b QCPRange} operator/ (const {\b QCPRange} &  {\i range}, double  {\i value}){\f2 [friend]}}}
+\par
+{\bkmkstart AAAAAAADIE}
+{\bkmkend AAAAAAADIE}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Divides both boundaries of the range by {\i value} . \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid   878 \{\par
+  879   QCPRange result(range);\par
+  880   result /= value;\par
+  881   return result;\par
+  882 \}\par
+}
+}
+{\xe \v operator<<\:QCPRange}
+{\xe \v QCPRange\:operator<<}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QDebug operator<< (QDebug  {\i d}, const {\b QCPRange} &  {\i range}){\f2 [related]}}}
+\par
+{\bkmkstart AAAAAAADIF}
+{\bkmkend AAAAAAADIF}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Prints {\i range}  in a human readable format to the qDebug output. \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid   819 \{\par
+  820     d.nospace() << "QCPRange(" << range.lower << ", " << range.upper << ")";\par
+  821     return d.space();\par
+  822 \}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Atributos\par
+\pard\plain 
+{\xe \v lower\:QCPRange}
+{\xe \v QCPRange\:lower}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+double QCPRange::lower}}
+\par
+{\bkmkstart AAAAAAADIG}
+{\bkmkend AAAAAAADIG}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v maxRange\:QCPRange}
+{\xe \v QCPRange\:maxRange}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+const double QCPRange::maxRange = 1e250{\f2 [static]}}}
+\par
+{\bkmkstart AAAAAAADIH}
+{\bkmkend AAAAAAADIH}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Maximum values (negative and positive) the range will accept in range-changing functions. Larger absolute values would cause errors due to the 11-bit exponent of double precision numbers, corresponding to a maximum magnitude of roughly 1e308.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Aviso:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid Do not use this constant to indicate "arbitrarily large" values in plotting logic (as values that will appear in the plot)! It is intended only as a bound to compare against, e.g. to prevent axis ranges from obtaining overflowing ranges.\par
+}{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b validRange}, {\b minRange} \par
+}}}
+{\xe \v minRange\:QCPRange}
+{\xe \v QCPRange\:minRange}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+const double QCPRange::minRange = 1e-280{\f2 [static]}}}
+\par
+{\bkmkstart AAAAAAADII}
+{\bkmkend AAAAAAADII}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Minimum range size ({\i upper}  - {\i lower} ) the range changing functions will accept. Smaller intervals would cause errors due to the 11-bit exponent of double precision numbers, corresponding to a minimum magnitude of roughly 1e-308.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Aviso:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid Do not use this constant to indicate "arbitrarily small" values in plotting logic (as values that will appear in the plot)! It is intended only as a bound to compare against, e.g. to prevent axis ranges from obtaining underflowing ranges.\par
+}{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b validRange}, {\b maxRange} \par
+}}}
+{\xe \v upper\:QCPRange}
+{\xe \v QCPRange\:upper}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+double QCPRange::upper}}
+\par
+{\bkmkstart AAAAAAADIJ}
+{\bkmkend AAAAAAADIJ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+A documentação para essa classe foi gerada a partir dos seguintes arquivos:{\par
+\pard\plain \s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid 
+{\b qcustomplot.h}\par
+\pard\plain \s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid 
+{\b qcustomplot.cpp}\par
+}}

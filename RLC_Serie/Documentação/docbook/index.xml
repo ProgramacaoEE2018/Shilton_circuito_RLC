@@ -5,102 +5,106 @@
     </info>
     <chapter>
         <title>Namespace Documentation</title>
-        <xi:include href="namespace_q_c_p.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="namespaceQCP.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
         <xi:include href="namespacestd.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        <xi:include href="namespace_ui.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="namespaceUi.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
     </chapter>
-        <xi:include href="md__r_e_a_d_m_e.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="md_README.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
     <chapter>
-        <title>Class Documentation</title>
-        <xi:include href="struct_q_c_p_axis_painter_private_1_1_cached_label.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        <xi:include href="class_capacitor.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        <xi:include href="class_indutor.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        <xi:include href="class_main_window.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        <xi:include href="class_q_c_p_abstract_item.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        <xi:include href="class_q_c_p_abstract_legend_item.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        <xi:include href="class_q_c_p_abstract_paint_buffer.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        <xi:include href="class_q_c_p_abstract_plottable.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        <xi:include href="class_q_c_p_abstract_plottable1_d.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        <xi:include href="class_q_c_p_axis.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        <xi:include href="class_q_c_p_axis_painter_private.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        <xi:include href="class_q_c_p_axis_rect.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        <xi:include href="class_q_c_p_axis_ticker.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        <xi:include href="class_q_c_p_axis_ticker_date_time.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        <xi:include href="class_q_c_p_axis_ticker_fixed.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        <xi:include href="class_q_c_p_axis_ticker_log.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        <xi:include href="class_q_c_p_axis_ticker_pi.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        <xi:include href="class_q_c_p_axis_ticker_text.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        <xi:include href="class_q_c_p_axis_ticker_time.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        <xi:include href="class_q_c_p_bars.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        <xi:include href="class_q_c_p_bars_data.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        <xi:include href="class_q_c_p_bars_group.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        <xi:include href="class_q_c_p_color_gradient.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        <xi:include href="class_q_c_p_color_map.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        <xi:include href="class_q_c_p_color_map_data.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        <xi:include href="class_q_c_p_color_scale.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        <xi:include href="class_q_c_p_color_scale_axis_rect_private.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        <xi:include href="class_q_c_p_curve.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        <xi:include href="class_q_c_p_curve_data.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        <xi:include href="class_q_c_p_data_container.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        <xi:include href="class_q_c_p_data_range.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        <xi:include href="class_q_c_p_data_selection.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        <xi:include href="class_q_c_p_error_bars.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        <xi:include href="class_q_c_p_error_bars_data.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        <xi:include href="class_q_c_p_financial.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        <xi:include href="class_q_c_p_financial_data.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        <xi:include href="class_q_c_p_graph.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        <xi:include href="class_q_c_p_graph_data.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        <xi:include href="class_q_c_p_grid.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        <xi:include href="class_q_c_p_item_anchor.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        <xi:include href="class_q_c_p_item_bracket.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        <xi:include href="class_q_c_p_item_curve.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        <xi:include href="class_q_c_p_item_ellipse.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        <xi:include href="class_q_c_p_item_line.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        <xi:include href="class_q_c_p_item_pixmap.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        <xi:include href="class_q_c_p_item_position.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        <xi:include href="class_q_c_p_item_rect.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        <xi:include href="class_q_c_p_item_straight_line.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        <xi:include href="class_q_c_p_item_text.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        <xi:include href="class_q_c_p_item_tracer.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        <xi:include href="class_q_c_p_layer.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        <xi:include href="class_q_c_p_layerable.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        <xi:include href="class_q_c_p_layout.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        <xi:include href="class_q_c_p_layout_element.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        <xi:include href="class_q_c_p_layout_grid.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        <xi:include href="class_q_c_p_layout_inset.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        <xi:include href="class_q_c_p_legend.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        <xi:include href="class_q_c_p_line_ending.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        <xi:include href="class_q_c_p_margin_group.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        <xi:include href="class_q_c_p_paint_buffer_pixmap.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        <xi:include href="class_q_c_p_painter.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        <xi:include href="class_q_c_p_plottable_interface1_d.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        <xi:include href="class_q_c_p_plottable_legend_item.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        <xi:include href="class_q_c_p_range.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        <xi:include href="class_q_c_p_scatter_style.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        <xi:include href="class_q_c_p_selection_decorator.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        <xi:include href="class_q_c_p_selection_decorator_bracket.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        <xi:include href="class_q_c_p_selection_rect.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        <xi:include href="class_q_c_p_statistical_box.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        <xi:include href="class_q_c_p_statistical_box_data.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        <xi:include href="class_q_c_p_text_element.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        <xi:include href="class_q_c_p_vector2_d.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        <xi:include href="class_q_custom_plot.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        <xi:include href="class_q_main_window.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        <xi:include href="class_q_object.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        <xi:include href="class_q_painter.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        <xi:include href="class_q_widget.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        <xi:include href="class_resistor.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        <xi:include href="class_tensao.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        <xi:include href="struct_q_c_p_axis_painter_private_1_1_tick_label_data.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <title>Classes</title>
+        <xi:include href="structQCPAxisPainterPrivate_1_1CachedLabel.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="classCapacitor.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="classDialog.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="classIndutor.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="classMainWindow.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="classQCPAbstractItem.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="classQCPAbstractLegendItem.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="classQCPAbstractPaintBuffer.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="classQCPAbstractPlottable.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="classQCPAbstractPlottable1D.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="classQCPAxis.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="classQCPAxisPainterPrivate.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="classQCPAxisRect.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="classQCPAxisTicker.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="classQCPAxisTickerDateTime.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="classQCPAxisTickerFixed.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="classQCPAxisTickerLog.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="classQCPAxisTickerPi.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="classQCPAxisTickerText.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="classQCPAxisTickerTime.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="classQCPBars.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="classQCPBarsData.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="classQCPBarsGroup.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="classQCPColorGradient.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="classQCPColorMap.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="classQCPColorMapData.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="classQCPColorScale.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="classQCPColorScaleAxisRectPrivate.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="classQCPCurve.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="classQCPCurveData.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="classQCPDataContainer.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="classQCPDataRange.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="classQCPDataSelection.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="classQCPErrorBars.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="classQCPErrorBarsData.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="classQCPFinancial.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="classQCPFinancialData.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="classQCPGraph.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="classQCPGraphData.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="classQCPGrid.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="classQCPItemAnchor.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="classQCPItemBracket.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="classQCPItemCurve.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="classQCPItemEllipse.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="classQCPItemLine.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="classQCPItemPixmap.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="classQCPItemPosition.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="classQCPItemRect.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="classQCPItemStraightLine.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="classQCPItemText.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="classQCPItemTracer.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="classQCPLayer.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="classQCPLayerable.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="classQCPLayout.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="classQCPLayoutElement.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="classQCPLayoutGrid.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="classQCPLayoutInset.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="classQCPLegend.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="classQCPLineEnding.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="classQCPMarginGroup.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="classQCPPaintBufferPixmap.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="classQCPPainter.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="classQCPPlottableInterface1D.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="classQCPPlottableLegendItem.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="classQCPRange.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="classQCPScatterStyle.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="classQCPSelectionDecorator.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="classQCPSelectionDecoratorBracket.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="classQCPSelectionRect.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="classQCPStatisticalBox.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="classQCPStatisticalBoxData.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="classQCPTextElement.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="classQCPVector2D.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="classQCustomPlot.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="classQDialog.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="classQMainWindow.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="classQObject.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="classQPainter.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="classQWidget.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="classResistor.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="classTensao.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="structQCPAxisPainterPrivate_1_1TickLabelData.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
     </chapter>
     <chapter>
-        <title>File Documentation</title>
-        <xi:include href="_classes__cirkt_8h.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <title>Arquivos</title>
+        <xi:include href="Classes__cirkt_8h.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="dialog_8cpp.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="dialog_8h.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
         <xi:include href="main_8cpp.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
         <xi:include href="mainwindow_8cpp.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
         <xi:include href="mainwindow_8h.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
         <xi:include href="qcustomplot_8cpp.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
         <xi:include href="qcustomplot_8h.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        <xi:include href="_r_e_a_d_m_e_8md.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="README_8md.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
     </chapter>
 </book>

@@ -42,7 +42,7 @@
             </para>
         </section>
         <section>
-            <title>Protected Attributes</title>
+            <title>Atributos Protegidos</title>
             <para>
                 <itemizedlist>
                     <listitem>
@@ -244,7 +244,7 @@ const <link linkend="class_q_c_p_bars">QCPBars</link> * bars, double keyCoord)</
 <para>Groups multiple <link linkend="class_q_c_p_bars">QCPBars</link> together so they appear side by side. </para>
     </simplesect>
         <simplesect>
-            <title>Detailed Description</title>
+            <title>Descrição detalhada</title>
 
 <para></para>
 
@@ -274,14 +274,14 @@ const <link linkend="class_q_c_p_bars">QCPBars</link> * bars, double keyCoord)</
                
 <para>Defines the ways the spacing between bars in the group can be specified. Thus it defines what the number passed to <link linkend="class_q_c_p_bars_group_1aa553d327479d72a0c3dafcc724a190e2">setSpacing</link> actually means.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_c_p_bars_group_1a2c7e2d61b10594a4555b615e1fcaf49e">setSpacingType</link>, <link linkend="class_q_c_p_bars_group_1aa553d327479d72a0c3dafcc724a190e2">setSpacing</link> </para>
 </formalpara>
 </para>
 
                <formalpara>
-                    <title>Enumerator:</title>
+                    <title>Enumeradores:</title>
                     <variablelist>
                         <varlistentry xml:id="class_q_c_p_bars_group_1a4c0521120a97e60bbca37677a37075b6ab53fa3efaf14867dd0f14d41d64e42ac">
                             <term>stAbsolute</term>
@@ -314,7 +314,7 @@ stPlotCoords,
                 </para>
             </section>
         <section>
-            <title>Member Data Documentation</title>
+            <title>Atributos</title>
         </section>
             <section xml:id="class_q_c_p_bars_group_1aa4e043b9a22c6c5ea0f93740aca063e1">
                 <title>QCPBarsGroup::QCPBarsGroup (QCustomPlot *parentPlot)</title> <emphasis></emphasis>
@@ -341,7 +341,7 @@ stPlotCoords,
 
 <para>The actual spacing can then be specified with <link linkend="class_q_c_p_bars_group_1aa553d327479d72a0c3dafcc724a190e2">setSpacing</link>.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_c_p_bars_group_1aa553d327479d72a0c3dafcc724a190e2">setSpacing</link> </para>
 </formalpara>
@@ -353,7 +353,7 @@ stPlotCoords,
                 
 <para>Sets the spacing between adjacent bars. What the number passed as <emphasis>spacing</emphasis> actually means, is defined by the current <link linkend="class_q_c_p_bars_group_1a4c0521120a97e60bbca37677a37075b6">SpacingType</link>, which can be set with <link linkend="class_q_c_p_bars_group_1a2c7e2d61b10594a4555b615e1fcaf49e">setSpacingType</link>.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_c_p_bars_group_1a2c7e2d61b10594a4555b615e1fcaf49e">setSpacingType</link> </para>
 </formalpara>
@@ -365,7 +365,7 @@ stPlotCoords,
                 
 <para>Returns all bars currently in this group.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para>bars(int index) </para>
 </formalpara>
@@ -377,7 +377,7 @@ stPlotCoords,
                 
 <para>Returns the <link linkend="class_q_c_p_bars">QCPBars</link> instance with the specified <emphasis>index</emphasis> in this group. If no such <link linkend="class_q_c_p_bars">QCPBars</link> exists, returns 0.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_c_p_bars_group_1a6e4f4e86abbec6a9342f204ef82abef8">bars()</link>, <link linkend="class_q_c_p_bars_group_1a3780ec77919cb00840207ec7a0f00dd5">size</link> </para>
 </formalpara>
@@ -395,7 +395,7 @@ stPlotCoords,
                 
 <para>Returns whether this bars group is empty.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_c_p_bars_group_1a3780ec77919cb00840207ec7a0f00dd5">size</link> </para>
 </formalpara>
@@ -407,7 +407,7 @@ stPlotCoords,
                 
 <para>Removes all <link linkend="class_q_c_p_bars">QCPBars</link> plottables from this group.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_c_p_bars_group_1aac959e79e852e8ef9aea6e0449ad000a">isEmpty</link> </para>
 </formalpara>
@@ -425,7 +425,7 @@ stPlotCoords,
                 
 <para>Adds the specified <emphasis>bars</emphasis> plottable to this group. Alternatively, you can also use <link linkend="class_q_c_p_bars_1aedd1709061f0b307c47ddb45e172ef9a">QCPBars::setBarsGroup</link> on the <emphasis>bars</emphasis> instance.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_c_p_bars_group_1a309a5f7233db189f3ea9c2d04ece6c13">insert</link>, <link linkend="class_q_c_p_bars_group_1a215e28a5944f1159013a0e19169220e7">remove</link> </para>
 </formalpara>
@@ -439,7 +439,7 @@ stPlotCoords,
 
 <para><emphasis>bars</emphasis> may already be part of this group. In that case, <emphasis>bars</emphasis> is just moved to the new index position.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_c_p_bars_group_1a809ed63cc4ff7cd5b0b8c96b470163d3">append</link>, <link linkend="class_q_c_p_bars_group_1a215e28a5944f1159013a0e19169220e7">remove</link> </para>
 </formalpara>
@@ -451,7 +451,7 @@ stPlotCoords,
                 
 <para>Removes the specified <emphasis>bars</emphasis> plottable from this group.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_c_p_bars_group_1ae26da07a23553052a178fb3fae90d0dc">contains</link>, <link linkend="class_q_c_p_bars_group_1a3ddf23928c6cd89530bd34ab7ba7b177">clear</link> </para>
 </formalpara>

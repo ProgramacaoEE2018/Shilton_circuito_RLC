@@ -3,13 +3,10 @@
     <title>main.cpp File Reference</title>
     <programlisting>#include &quot;mainwindow.h&quot;</programlisting>
     <programlisting>#include &lt;QApplication&gt;</programlisting>
-    <programlisting>#include &lt;iostream&gt;</programlisting>
-    <programlisting>#include &lt;complex&gt;</programlisting>
-    <programlisting>#include &lt;vector&gt;</programlisting>
-    <programlisting>#include &lt;map&gt;</programlisting>
-    <programlisting>#include &lt;ctgmath&gt;</programlisting>
-    <programlisting>#include &quot;Classes_cirkt.h&quot;</programlisting>
-    <programlisting>#include &lt;QPixmap&gt;</programlisting>
+    <programlisting>#include &lt;QtWidgets/QApplication&gt;</programlisting>
+    <programlisting>#include &lt;QtWidgets/QMainWindow&gt;</programlisting>
+    <programlisting>#include &lt;QtCharts/QChartView&gt;</programlisting>
+    <programlisting>#include &lt;QtCharts/QLineSeries&gt;</programlisting>
 <para>Include dependency diagram for main.cpp</para>
 <para>
     <figure>
@@ -33,7 +30,7 @@
     </figure>
 </para>
         <section>
-            <title>Functions</title>
+            <title>Funções</title>
             <para>
                 <itemizedlist>
                     <listitem>
@@ -44,7 +41,7 @@ int argc, char * argv)</para>
             </para>
         </section>
     <simplesect>
-        <title>Detailed Description</title>
+        <title>Descrição detalhada</title>
     <para>Definition in file E:/IME/3 ano/Programação/Projeto 2018/Shilton_circuito_RLC/RLC_Serie/main.cpp</para>
     </simplesect>
 </section>

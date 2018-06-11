@@ -1,0 +1,246 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="classQCPPlottableInterface1D">
+<title>QCPPlottableInterface1D class Reference</title>
+<para>
+    <programlisting>#include <link linkend="qcustomplot_8h">&lt;qcustomplot.h&gt;</link></programlisting>
+</para>
+<para>Inheritance diagram for QCPPlottableInterface1D</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="classQCPPlottableInterface1D__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for QCPPlottableInterface1D</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="classQCPPlottableInterface1D__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual <link linkend="classQCPPlottableInterface1D_1a8829011d62208625f741f2d7e1cb6280">~QCPPlottableInterface1D</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual int <link linkend="classQCPPlottableInterface1D_1a058a22c770ef4d5a0e878a7f02183da9">dataCount</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual double <link linkend="classQCPPlottableInterface1D_1a2bd60daaac046945fead558cbd83cf73">dataMainKey</link> (
+int index)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual double <link linkend="classQCPPlottableInterface1D_1afdc92f9f01e7e35f2e96b2ea9dc14ae7">dataSortKey</link> (
+int index)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual double <link linkend="classQCPPlottableInterface1D_1af6330919e8023277d08c958a6074fc76">dataMainValue</link> (
+int index)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual <link linkend="classQCPRange">QCPRange</link> <link linkend="classQCPPlottableInterface1D_1a9ca7fcf14d885a200879768679b19be9">dataValueRange</link> (
+int index)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual QPointF <link linkend="classQCPPlottableInterface1D_1a78911838cfbcfd2d8df9ad2fdbfb8e93">dataPixelPosition</link> (
+int index)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual bool <link linkend="classQCPPlottableInterface1D_1a229e65e7ab968dd6cd0e259fa504b79d">sortKeyIsMainKey</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual <link linkend="classQCPDataSelection">QCPDataSelection</link> <link linkend="classQCPPlottableInterface1D_1a67093e4ccf490ff5f7750640941ff34c">selectTestRect</link> (
+const QRectF &amp; rect, bool onlySelectable)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual int <link linkend="classQCPPlottableInterface1D_1a5b95783271306a4de97be54eac1e7d13">findBegin</link> (
+double sortKey, bool expandedRange)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual int <link linkend="classQCPPlottableInterface1D_1a5deced1016bc55a41a2339619045b295">findEnd</link> (
+double sortKey, bool expandedRange)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+    <simplesect>
+
+<para>Defines an abstract interface for one-dimensional plottables. </para>
+    </simplesect>
+        <simplesect>
+            <title>Descrição detalhada</title>
+
+<para>This class contains only pure virtual methods which define a common interface to the data of one-dimensional plottables.</para>
+
+<para>For example, it is implemented by the template class <link linkend="classQCPAbstractPlottable1D">QCPAbstractPlottable1D</link> (the preferred base class for one-dimensional plottables). So if you use that template class as base class of your one-dimensional plottable, you won&apos;t have to care about implementing the 1d interface yourself.</para>
+
+<para>If your plottable doesn&apos;t derive from <link linkend="classQCPAbstractPlottable1D">QCPAbstractPlottable1D</link> but still wants to provide a 1d interface (e.g. like <link linkend="classQCPErrorBars">QCPErrorBars</link> does), you should inherit from both <link linkend="classQCPAbstractPlottable">QCPAbstractPlottable</link> and <link linkend="classQCPPlottableInterface1D">QCPPlottableInterface1D</link> and accordingly reimplement the pure virtual methods of the 1d interface, matching your data container. Also, reimplement <link linkend="classQCPAbstractPlottable_1a81fd9fd5c4f429c074785e2eb238a8e7">QCPAbstractPlottable::interface1D</link> to return the <computeroutput>this</computeroutput> pointer.</para>
+
+<para>If you have a <link linkend="classQCPAbstractPlottable">QCPAbstractPlottable</link> pointer, you can check whether it implements this interface by calling <link linkend="classQCPAbstractPlottable_1a81fd9fd5c4f429c074785e2eb238a8e7">QCPAbstractPlottable::interface1D</link> and testing it for a non-zero return value. If it indeed implements this interface, you may use it to access the plottable&apos;s data without needing to know the exact type of the plottable or its data point type. </para>
+                <para>Definition at line 3851 of file qcustomplot.h</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>qcustomplot.h</para></listitem></itemizedlist></para>
+        </simplesect>
+            <section xml:id="classQCPPlottableInterface1D_1a8829011d62208625f741f2d7e1cb6280">
+                <title>virtual QCPPlottableInterface1D::~QCPPlottableInterface1D ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPPlottableInterface1D_1a058a22c770ef4d5a0e878a7f02183da9">
+                <title>int QCPPlottableInterface1D::dataCount () const =0</title> <emphasis></emphasis>
+                
+<para>Returns the number of data points of the plottable. </para>
+
+            </section>
+            <section xml:id="classQCPPlottableInterface1D_1a2bd60daaac046945fead558cbd83cf73">
+                <title>double QCPPlottableInterface1D::dataMainKey (int index) const =0</title> <emphasis></emphasis>
+                
+<para>Returns the main key of the data point at the given <emphasis>index</emphasis>.</para>
+
+<para>What the main key is, is defined by the plottable&apos;s data type. See the <link linkend="classQCPDataContainer_1qcpdatacontainer-datatype">QCPDataContainer DataType</link> documentation for details about this naming convention. </para>
+
+            </section>
+            <section xml:id="classQCPPlottableInterface1D_1afdc92f9f01e7e35f2e96b2ea9dc14ae7">
+                <title>double QCPPlottableInterface1D::dataSortKey (int index) const =0</title> <emphasis></emphasis>
+                
+<para>Returns the sort key of the data point at the given <emphasis>index</emphasis>.</para>
+
+<para>What the sort key is, is defined by the plottable&apos;s data type. See the <link linkend="classQCPDataContainer_1qcpdatacontainer-datatype">QCPDataContainer DataType</link> documentation for details about this naming convention. </para>
+
+            </section>
+            <section xml:id="classQCPPlottableInterface1D_1af6330919e8023277d08c958a6074fc76">
+                <title>double QCPPlottableInterface1D::dataMainValue (int index) const =0</title> <emphasis></emphasis>
+                
+<para>Returns the main value of the data point at the given <emphasis>index</emphasis>.</para>
+
+<para>What the main value is, is defined by the plottable&apos;s data type. See the <link linkend="classQCPDataContainer_1qcpdatacontainer-datatype">QCPDataContainer DataType</link> documentation for details about this naming convention. </para>
+
+            </section>
+            <section xml:id="classQCPPlottableInterface1D_1a9ca7fcf14d885a200879768679b19be9">
+                <title>QCPRange QCPPlottableInterface1D::dataValueRange (int index) const =0</title> <emphasis></emphasis>
+                
+<para>Returns the value range of the data point at the given <emphasis>index</emphasis>.</para>
+
+<para>What the value range is, is defined by the plottable&apos;s data type. See the <link linkend="classQCPDataContainer_1qcpdatacontainer-datatype">QCPDataContainer DataType</link> documentation for details about this naming convention. </para>
+
+            </section>
+            <section xml:id="classQCPPlottableInterface1D_1a78911838cfbcfd2d8df9ad2fdbfb8e93">
+                <title>QPointF QCPPlottableInterface1D::dataPixelPosition (int index) const =0</title> <emphasis></emphasis>
+                
+<para>Returns the pixel position on the widget surface at which the data point at the given <emphasis>index</emphasis> appears.</para>
+
+<para>Usually this corresponds to the point of <link linkend="classQCPPlottableInterface1D_1a2bd60daaac046945fead558cbd83cf73">dataMainKey</link>/<link linkend="classQCPPlottableInterface1D_1af6330919e8023277d08c958a6074fc76">dataMainValue</link>, in pixel coordinates. However, depending on the plottable, this might be a different apparent position than just a coord-to-pixel transform of those values. For example, <link linkend="classQCPBars">QCPBars</link> apparent data values can be shifted depending on their stacking, bar grouping or configured base value. </para>
+
+            </section>
+            <section xml:id="classQCPPlottableInterface1D_1a229e65e7ab968dd6cd0e259fa504b79d">
+                <title>bool QCPPlottableInterface1D::sortKeyIsMainKey () const =0</title> <emphasis></emphasis>
+                
+<para>Returns whether the sort key (<link linkend="classQCPPlottableInterface1D_1afdc92f9f01e7e35f2e96b2ea9dc14ae7">dataSortKey</link>) is identical to the main key (<link linkend="classQCPPlottableInterface1D_1a2bd60daaac046945fead558cbd83cf73">dataMainKey</link>).</para>
+
+<para>What the sort and main keys are, is defined by the plottable&apos;s data type. See the <link linkend="classQCPDataContainer_1qcpdatacontainer-datatype">QCPDataContainer DataType</link> documentation for details about this naming convention. </para>
+
+            </section>
+            <section xml:id="classQCPPlottableInterface1D_1a67093e4ccf490ff5f7750640941ff34c">
+                <title>QCPDataSelection QCPPlottableInterface1D::selectTestRect (const QRectF &amp;rect, bool onlySelectable) const =0</title> <emphasis></emphasis>
+                
+<para>Returns a data selection containing all the data points of this plottable which are contained (or hit by) <emphasis>rect</emphasis>. This is used mainly in the selection rect interaction for data selection (data selection mechanism).</para>
+
+<para>If <emphasis>onlySelectable</emphasis> is true, an empty <link linkend="classQCPDataSelection">QCPDataSelection</link> is returned if this plottable is not selectable (i.e. if <link linkend="classQCPAbstractPlottable_1ac238d6e910f976f1f30d41c2bca44ac3">QCPAbstractPlottable::setSelectable</link> is <link linkend="namespaceQCP_1ac6cb9db26a564b27feda362a438db038aa64628e338a2dd1e6f0dc84dec0b63fe">QCP::stNone</link>).</para>
+
+<para><formalpara><title>Observação: </title>
+
+<para><emphasis>rect</emphasis> must be a normalized rect (positive or zero width and height). This is especially important when using the rect of <link linkend="classQCPSelectionRect_1a15a43542e1f7b953a44c260b419e6d2c">QCPSelectionRect::accepted</link>, which is not necessarily normalized. Use <computeroutput>QRect::normalized()</computeroutput> when passing a rect which might not be normalized. </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPPlottableInterface1D_1a5b95783271306a4de97be54eac1e7d13">
+                <title>int QCPPlottableInterface1D::findBegin (double sortKey, bool expandedRange=true) const =0</title> <emphasis></emphasis>
+                
+<para>Returns the index of the data point with a (sort-)key that is equal to, just below, or just above <emphasis>sortKey</emphasis>. If <emphasis>expandedRange</emphasis> is true, the data point just below <emphasis>sortKey</emphasis> will be considered, otherwise the one just above.</para>
+
+<para>This can be used in conjunction with <link linkend="classQCPPlottableInterface1D_1a5deced1016bc55a41a2339619045b295">findEnd</link> to iterate over data points within a given key range, including or excluding the bounding data points that are just beyond the specified range.</para>
+
+<para>If <emphasis>expandedRange</emphasis> is true but there are no data points below <emphasis>sortKey</emphasis>, 0 is returned.</para>
+
+<para>If the container is empty, returns 0 (in that case, <link linkend="classQCPPlottableInterface1D_1a5deced1016bc55a41a2339619045b295">findEnd</link> will also return 0, so a loop using these methods will not iterate over the index 0).</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPPlottableInterface1D_1a5deced1016bc55a41a2339619045b295">findEnd</link>, <link linkend="classQCPDataContainer_1a2ad8a5399072d99a242d3a6d2d7e278a">QCPDataContainer::findBegin</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPPlottableInterface1D_1a5deced1016bc55a41a2339619045b295">
+                <title>int QCPPlottableInterface1D::findEnd (double sortKey, bool expandedRange=true) const =0</title> <emphasis></emphasis>
+                
+<para>Returns the index one after the data point with a (sort-)key that is equal to, just above, or just below <emphasis>sortKey</emphasis>. If <emphasis>expandedRange</emphasis> is true, the data point just above <emphasis>sortKey</emphasis> will be considered, otherwise the one just below.</para>
+
+<para>This can be used in conjunction with <link linkend="classQCPPlottableInterface1D_1a5b95783271306a4de97be54eac1e7d13">findBegin</link> to iterate over data points within a given key range, including the bounding data points that are just below and above the specified range.</para>
+
+<para>If <emphasis>expandedRange</emphasis> is true but there are no data points above <emphasis>sortKey</emphasis>, the index just above the highest data point is returned.</para>
+
+<para>If the container is empty, returns 0.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPPlottableInterface1D_1a5b95783271306a4de97be54eac1e7d13">findBegin</link>, <link linkend="classQCPDataContainer_1afb8b8f23cc2b7234a793a25ce79fe48f">QCPDataContainer::findEnd</link> </para>
+</formalpara>
+</para>
+
+            </section>
+</section>

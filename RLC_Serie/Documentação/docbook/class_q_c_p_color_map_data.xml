@@ -27,7 +27,7 @@
     </figure>
 </para>
         <section>
-            <title>Protected Attributes</title>
+            <title>Atributos Protegidos</title>
             <para>
                 <itemizedlist>
                     <listitem>
@@ -352,7 +352,7 @@ bool initializeOpaque)</para>
 <para>Holds the two-dimensional data of a <link linkend="class_q_c_p_color_map">QCPColorMap</link> plottable. </para>
     </simplesect>
         <simplesect>
-            <title>Detailed Description</title>
+            <title>Descrição detalhada</title>
 
 <para>This class is a data storage for <link linkend="class_q_c_p_color_map">QCPColorMap</link>. It holds a two-dimensional array, which <link linkend="class_q_c_p_color_map">QCPColorMap</link> then displays as a 2D image in the plot, where the array values are represented by a color, depending on the value.</para>
 
@@ -368,14 +368,14 @@ bool initializeOpaque)</para>
                 <para><itemizedlist><listitem><para>qcustomplot.h</para></listitem></itemizedlist></para>
         </simplesect>
         <section>
-            <title>Member Data Documentation</title>
+            <title>Atributos</title>
         </section>
             <section xml:id="class_q_c_p_color_map_data_1aac9d8eb81e18e240d89d56c01933fd23">
                 <title>QCPColorMapData::QCPColorMapData (int keySize, int valueSize, const QCPRange &amp;keyRange, const QCPRange &amp;valueRange)</title> <emphasis></emphasis>
                 
 <para>Constructs a new <link linkend="class_q_c_p_color_map_data">QCPColorMapData</link> instance. The instance has <emphasis>keySize</emphasis> cells in the key direction and <emphasis>valueSize</emphasis> cells in the value direction. These cells will be displayed by the <link linkend="class_q_c_p_color_map">QCPColorMap</link> at the coordinates <emphasis>keyRange</emphasis> and <emphasis>valueRange</emphasis>.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_c_p_color_map_data_1a0d9ff35c299d0478b682bfbcdd9c097e">setSize</link>, <link linkend="class_q_c_p_color_map_data_1ac7ef70e383aface34b44dbde49234b6b">setKeySize</link>, <link linkend="class_q_c_p_color_map_data_1a0893c9e3914513048b45e3429ffd16f2">setValueSize</link>, <link linkend="class_q_c_p_color_map_data_1aad9c1c7c703c1339489fc730517c83d4">setRange</link>, <link linkend="class_q_c_p_color_map_data_1a0738c485f3c9df9ea1241b7a8bb6a86e">setKeyRange</link>, <link linkend="class_q_c_p_color_map_data_1ada1b2680ba96a5f4175b6d341cf75d23">setValueRange</link> </para>
 </formalpara>
@@ -433,7 +433,7 @@ bool initializeOpaque)</para>
 
 <para>If this color map data doesn&apos;t have an alpha map (because <link linkend="class_q_c_p_color_map_data_1aaf7de5b34c58f38d8f4c1ceb064a876c">setAlpha</link> was never called after creation or after a call to <link linkend="class_q_c_p_color_map_data_1a14d08b9c3720cd719400079b86d3906b">clearAlpha</link>), returns 255, which corresponds to full opacity.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_c_p_color_map_data_1aaf7de5b34c58f38d8f4c1ceb064a876c">setAlpha</link> </para>
 </formalpara>
@@ -449,7 +449,7 @@ bool initializeOpaque)</para>
 
 <para>Setting at least one of <emphasis>keySize</emphasis> or <emphasis>valueSize</emphasis> to zero frees the internal data array and <link linkend="class_q_c_p_color_map_data_1aea88cc75a76ca571acf29b2ba8ac970d">isEmpty</link> returns true.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_c_p_color_map_data_1aad9c1c7c703c1339489fc730517c83d4">setRange</link>, <link linkend="class_q_c_p_color_map_data_1ac7ef70e383aface34b44dbde49234b6b">setKeySize</link>, <link linkend="class_q_c_p_color_map_data_1a0893c9e3914513048b45e3429ffd16f2">setValueSize</link> </para>
 </formalpara>
@@ -465,7 +465,7 @@ bool initializeOpaque)</para>
 
 <para>Setting <emphasis>keySize</emphasis> to zero frees the internal data array and <link linkend="class_q_c_p_color_map_data_1aea88cc75a76ca571acf29b2ba8ac970d">isEmpty</link> returns true.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_c_p_color_map_data_1a0738c485f3c9df9ea1241b7a8bb6a86e">setKeyRange</link>, <link linkend="class_q_c_p_color_map_data_1a0d9ff35c299d0478b682bfbcdd9c097e">setSize</link>, <link linkend="class_q_c_p_color_map_data_1a0893c9e3914513048b45e3429ffd16f2">setValueSize</link> </para>
 </formalpara>
@@ -481,7 +481,7 @@ bool initializeOpaque)</para>
 
 <para>Setting <emphasis>valueSize</emphasis> to zero frees the internal data array and <link linkend="class_q_c_p_color_map_data_1aea88cc75a76ca571acf29b2ba8ac970d">isEmpty</link> returns true.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_c_p_color_map_data_1ada1b2680ba96a5f4175b6d341cf75d23">setValueRange</link>, <link linkend="class_q_c_p_color_map_data_1a0d9ff35c299d0478b682bfbcdd9c097e">setSize</link>, <link linkend="class_q_c_p_color_map_data_1ac7ef70e383aface34b44dbde49234b6b">setKeySize</link> </para>
 </formalpara>
@@ -495,7 +495,7 @@ bool initializeOpaque)</para>
 
 <para>The outer cells will be centered on the range boundaries given to this function. For example, if the key size (<link linkend="class_q_c_p_color_map_data_1ac7ef70e383aface34b44dbde49234b6b">setKeySize</link>) is 3 and <emphasis>keyRange</emphasis> is set to <computeroutput><link linkend="class_q_c_p_range">QCPRange(2, 3)</link></computeroutput> there will be cells centered on the key coordinates 2, 2.5 and 3.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_c_p_color_map_data_1a0d9ff35c299d0478b682bfbcdd9c097e">setSize</link> </para>
 </formalpara>
@@ -509,7 +509,7 @@ bool initializeOpaque)</para>
 
 <para>The outer cells will be centered on the range boundaries given to this function. For example, if the key size (<link linkend="class_q_c_p_color_map_data_1ac7ef70e383aface34b44dbde49234b6b">setKeySize</link>) is 3 and <emphasis>keyRange</emphasis> is set to <computeroutput><link linkend="class_q_c_p_range">QCPRange(2, 3)</link></computeroutput> there will be cells centered on the key coordinates 2, 2.5 and 3.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_c_p_color_map_data_1aad9c1c7c703c1339489fc730517c83d4">setRange</link>, <link linkend="class_q_c_p_color_map_data_1ada1b2680ba96a5f4175b6d341cf75d23">setValueRange</link>, <link linkend="class_q_c_p_color_map_data_1a0d9ff35c299d0478b682bfbcdd9c097e">setSize</link> </para>
 </formalpara>
@@ -523,7 +523,7 @@ bool initializeOpaque)</para>
 
 <para>The outer cells will be centered on the range boundaries given to this function. For example, if the value size (<link linkend="class_q_c_p_color_map_data_1a0893c9e3914513048b45e3429ffd16f2">setValueSize</link>) is 3 and <emphasis>valueRange</emphasis> is set to <computeroutput><link linkend="class_q_c_p_range">QCPRange(2, 3)</link></computeroutput> there will be cells centered on the value coordinates 2, 2.5 and 3.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_c_p_color_map_data_1aad9c1c7c703c1339489fc730517c83d4">setRange</link>, <link linkend="class_q_c_p_color_map_data_1a0738c485f3c9df9ea1241b7a8bb6a86e">setKeyRange</link>, <link linkend="class_q_c_p_color_map_data_1a0d9ff35c299d0478b682bfbcdd9c097e">setSize</link> </para>
 </formalpara>
@@ -535,11 +535,11 @@ bool initializeOpaque)</para>
                 
 <para>Sets the data of the cell, which lies at the plot coordinates given by <emphasis>key</emphasis> and <emphasis>value</emphasis>, to <emphasis>z</emphasis>.</para>
 
-<para><formalpara><title>Note: </title>
+<para><formalpara><title>Observação: </title>
 
 <para>The <link linkend="class_q_c_p_color_map">QCPColorMap</link> always displays the data at equal key/value intervals, even if the key or value axis is set to a logarithmic scaling. If you want to use <link linkend="class_q_c_p_color_map">QCPColorMap</link> with logarithmic axes, you shouldn&apos;t use the <link linkend="class_q_c_p_color_map_data_1afd2083ccfd6987ec94aa7ef8e91ca39a">QCPColorMapData::setData</link> method as it uses a linear transformation to determine the cell index. Rather directly access the cell index with <link linkend="class_q_c_p_color_map_data_1a8e75eaf8746596319032a93f3d2d0683">QCPColorMapData::setCell</link>.</para>
 </formalpara>
-<formalpara><title>See also: </title>
+<formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_c_p_color_map_data_1a8e75eaf8746596319032a93f3d2d0683">setCell</link>, <link linkend="class_q_c_p_color_map_data_1aad9c1c7c703c1339489fc730517c83d4">setRange</link> </para>
 </formalpara>
@@ -553,7 +553,7 @@ bool initializeOpaque)</para>
 
 <para>In the standard plot configuration (horizontal key axis and vertical value axis, both not range-reversed), the cell with indices (0, 0) is in the bottom left corner and the cell with indices (keySize-1, valueSize-1) is in the top right corner of the color map.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_c_p_color_map_data_1afd2083ccfd6987ec94aa7ef8e91ca39a">setData</link>, <link linkend="class_q_c_p_color_map_data_1a0d9ff35c299d0478b682bfbcdd9c097e">setSize</link> </para>
 </formalpara>
@@ -569,7 +569,7 @@ bool initializeOpaque)</para>
 
 <para>Note that the cell-wise alpha which can be configured here is independent of any alpha configured in the color map&apos;s gradient (<link linkend="class_q_c_p_color_gradient">QCPColorGradient</link>). If a cell is affected both by the cell-wise and gradient alpha, the alpha values will be blended accordingly during rendering of the color map.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_c_p_color_map_data_1a93e2a549d7702bc849cd48a585294657">fillAlpha</link>, <link linkend="class_q_c_p_color_map_data_1a14d08b9c3720cd719400079b86d3906b">clearAlpha</link> </para>
 </formalpara>
@@ -613,7 +613,7 @@ bool initializeOpaque)</para>
 
 <para>If you wish to restore opacity to 100% and free any used memory for the alpha map, rather use <link linkend="class_q_c_p_color_map_data_1a14d08b9c3720cd719400079b86d3906b">clearAlpha</link>.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_c_p_color_map_data_1aaf7de5b34c58f38d8f4c1ceb064a876c">setAlpha</link> </para>
 </formalpara>
@@ -635,11 +635,11 @@ bool initializeOpaque)</para>
 
 <para>If you are only interested in a key or value index, you may pass 0 as <emphasis>valueIndex</emphasis> or <emphasis>keyIndex</emphasis>.</para>
 
-<para><formalpara><title>Note: </title>
+<para><formalpara><title>Observação: </title>
 
 <para>The <link linkend="class_q_c_p_color_map">QCPColorMap</link> always displays the data at equal key/value intervals, even if the key or value axis is set to a logarithmic scaling. If you want to use <link linkend="class_q_c_p_color_map">QCPColorMap</link> with logarithmic axes, you shouldn&apos;t use the <link linkend="class_q_c_p_color_map_data_1aca5b29e0ca2f299c9060fc6e1f74d0c8">QCPColorMapData::coordToCell</link> method as it uses a linear transformation to determine the cell index.</para>
 </formalpara>
-<formalpara><title>See also: </title>
+<formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_c_p_color_map_data_1af1a36385c78ab624cd617065602408b6">cellToCoord</link>, <link linkend="class_q_c_p_axis_1af15d1b3a7f7e9b53d759d3ccff1fe4b4">QCPAxis::coordToPixel</link> </para>
 </formalpara>
@@ -653,11 +653,11 @@ bool initializeOpaque)</para>
 
 <para>If you are only interested in a key or value coordinate, you may pass 0 as <emphasis>key</emphasis> or <emphasis>value</emphasis>.</para>
 
-<para><formalpara><title>Note: </title>
+<para><formalpara><title>Observação: </title>
 
 <para>The <link linkend="class_q_c_p_color_map">QCPColorMap</link> always displays the data at equal key/value intervals, even if the key or value axis is set to a logarithmic scaling. If you want to use <link linkend="class_q_c_p_color_map">QCPColorMap</link> with logarithmic axes, you shouldn&apos;t use the <link linkend="class_q_c_p_color_map_data_1af1a36385c78ab624cd617065602408b6">QCPColorMapData::cellToCoord</link> method as it uses a linear transformation to determine the cell index.</para>
 </formalpara>
-<formalpara><title>See also: </title>
+<formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_c_p_color_map_data_1aca5b29e0ca2f299c9060fc6e1f74d0c8">coordToCell</link>, <link linkend="class_q_c_p_axis_1a536ef8f624cac59b6b6fdcb495723c57">QCPAxis::pixelToCoord</link> </para>
 </formalpara>

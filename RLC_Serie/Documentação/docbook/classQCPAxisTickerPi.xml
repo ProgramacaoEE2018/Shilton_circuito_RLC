@@ -1,0 +1,628 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="classQCPAxisTickerPi">
+<title>QCPAxisTickerPi class Reference</title>
+<para>
+    <programlisting>#include <link linkend="qcustomplot_8h">&lt;qcustomplot.h&gt;</link></programlisting>
+</para>
+<para>Inheritance diagram for QCPAxisTickerPi</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="classQCPAxisTickerPi__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for QCPAxisTickerPi</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="classQCPAxisTickerPi__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                            <para><literallayout>enum <link linkend="classQCPAxisTickerPi_1a262f1534c7f0c79a7d5237f5d1e2c54c">FractionStyle</link> {
+<link linkend="classQCPAxisTickerPi_1a262f1534c7f0c79a7d5237f5d1e2c54ca00f097b669b2a0e22f508f1ae97877d8">fsFloatingPoint</link>,
+<link linkend="classQCPAxisTickerPi_1a262f1534c7f0c79a7d5237f5d1e2c54ca05a5457e0e14cb726f623e25282066b3">fsAsciiFractions</link>,
+<link linkend="classQCPAxisTickerPi_1a262f1534c7f0c79a7d5237f5d1e2c54ca92f38a938c8b179b23363d9993681c55">fsUnicodeFractions</link>
+}</literallayout>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                            <para><literallayout>enum <link linkend="classQCPAxisTicker_1ab6d2f9d9477821623ac9bc4b21ddf49a">TickStepStrategy</link> {
+<link linkend="classQCPAxisTicker_1ab6d2f9d9477821623ac9bc4b21ddf49aa9002aa2fd5633ab5556c71a26fed63a8">tssReadability</link>,
+<link linkend="classQCPAxisTicker_1ab6d2f9d9477821623ac9bc4b21ddf49aa770312b6b9b0c64a37ceeba96e0cd7f2">tssMeetTickCount</link>
+}</literallayout>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title>Atributos Protegidos</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QString mPiSymbol</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double mPiValue</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>int mPeriodicity</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>FractionStyle mFractionStyle</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double mPiTickStep</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>TickStepStrategy mTickStepStrategy</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>int mTickCount</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double mTickOrigin</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="classQCPAxisTickerPi_1aa0d7b7034055927c0f0077a2d713d7d0">QCPAxisTickerPi</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QString <link linkend="classQCPAxisTickerPi_1a2fd785cd66a6f4f969ac2eca1b08e0f2">piSymbol</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double <link linkend="classQCPAxisTickerPi_1abddc18799caa4ae6c721e1e5e229b3a4">piValue</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="classQCPAxisTickerPi_1aa320edf0a30386ce6a63c18050fbdfd8">periodicity</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="classQCPAxisTickerPi_1a262f1534c7f0c79a7d5237f5d1e2c54c">FractionStyle</link> <link linkend="classQCPAxisTickerPi_1ab532d5e838168a8a5bbafea4eafc94be">fractionStyle</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPAxisTickerPi_1acfdcd4758a393bde4be12a50fb2017b5">setPiSymbol</link> (
+QString symbol)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPAxisTickerPi_1a36ce0651d2ec92edd36feac1619c2468">setPiValue</link> (
+double pi)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPAxisTickerPi_1a58f538dc01860fb56e46970e28a87f03">setPeriodicity</link> (
+int multiplesOfPi)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPAxisTickerPi_1a760c8af6ca68178e607556c4e5049d71">setFractionStyle</link> (
+<link linkend="classQCPAxisTickerPi_1a262f1534c7f0c79a7d5237f5d1e2c54c">FractionStyle</link> style)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="classQCPAxisTicker_1ab6d2f9d9477821623ac9bc4b21ddf49a">TickStepStrategy</link> <link linkend="classQCPAxisTicker_1a58df76f2ec3eb48401bdd314b0e14ba1">tickStepStrategy</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>int <link linkend="classQCPAxisTicker_1aaf9edbe4169ce55e216fd067cc139452">tickCount</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double <link linkend="classQCPAxisTicker_1ac0c6e9587c36fdeefb5518c00fe7ab15">tickOrigin</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPAxisTicker_1a73b1d847c1a12159af6bfda4ebebe7d5">setTickStepStrategy</link> (
+<link linkend="classQCPAxisTicker_1ab6d2f9d9477821623ac9bc4b21ddf49a">TickStepStrategy</link> strategy)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPAxisTicker_1a47752abba8293e6dc18491501ae34008">setTickCount</link> (
+int count)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPAxisTicker_1ab509c7e500293bf66a8409f0d7c23943">setTickOrigin</link> (
+double origin)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="classQCPAxisTicker_1aefbd11725678ca824add8cf926cbc856">generate</link> (
+const <link linkend="classQCPRange">QCPRange</link> &amp; range, const QLocale &amp; locale, QChar formatChar, int precision, QVector&lt; double &gt; &amp; ticks, QVector&lt; double &gt; * subTicks, QVector&lt; QString &gt; * tickLabels)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual double <link linkend="classQCPAxisTickerPi_1a55301f0072983bd2d7c131a24e1779e7">getTickStep</link> (
+const <link linkend="classQCPRange">QCPRange</link> &amp; range)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual int <link linkend="classQCPAxisTickerPi_1a56c90f870da97c8670cfae4d04ff3ac7">getSubTickCount</link> (
+double tickStep)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual QString <link linkend="classQCPAxisTickerPi_1a9a087d931d4344b8a91d5cecceff7109">getTickLabel</link> (
+double tick, const QLocale &amp; locale, QChar formatChar, int precision)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPAxisTickerPi_1a0e30609aed5025d331cb61671f0115d0">simplifyFraction</link> (
+int &amp; numerator, int &amp; denominator)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QString <link linkend="classQCPAxisTickerPi_1afb59d434358173eb5b58e41255bea904">fractionToString</link> (
+int numerator, int denominator)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QString <link linkend="classQCPAxisTickerPi_1ade6f7e49238e986e9aed74178a78d8d3">unicodeFraction</link> (
+int numerator, int denominator)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QString <link linkend="classQCPAxisTickerPi_1a34798972670b3760d649ccfe0d0ee9a5">unicodeSuperscript</link> (
+int number)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QString <link linkend="classQCPAxisTickerPi_1a5b3bb340adb888a30a96225e1ca23c7a">unicodeSubscript</link> (
+int number)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual QVector&lt; double &gt; <link linkend="classQCPAxisTicker_1af4645a824c7bd2ca8fc7e86ebf9055bd">createTickVector</link> (
+double tickStep, const <link linkend="classQCPRange">QCPRange</link> &amp; range)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual QVector&lt; double &gt; <link linkend="classQCPAxisTicker_1a9a6435723fa0bd366d1ea4c2cff7c33f">createSubTickVector</link> (
+int subTickCount, const QVector&lt; double &gt; &amp; ticks)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual QVector&lt; QString &gt; <link linkend="classQCPAxisTicker_1a804050e408f37a0b9770c6654ebe6aa7">createLabelVector</link> (
+const QVector&lt; double &gt; &amp; ticks, const QLocale &amp; locale, QChar formatChar, int precision)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPAxisTicker_1ab28cc1ab549489be7975f5ce7e717916">trimTicks</link> (
+const <link linkend="classQCPRange">QCPRange</link> &amp; range, QVector&lt; double &gt; &amp; ticks, bool keepOneOutlier)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double <link linkend="classQCPAxisTicker_1a4ea0a7c4ca1c610f92b9bd5944ab4260">pickClosest</link> (
+double target, const QVector&lt; double &gt; &amp; candidates)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double <link linkend="classQCPAxisTicker_1a2f1e223bafbf2cec7c3ba8b08d5c77e8">getMantissa</link> (
+double input, double * magnitude)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double <link linkend="classQCPAxisTicker_1ac7df6c72876b7abd67c932663a0b0f6a">cleanMantissa</link> (
+double input)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+    <simplesect>
+
+<para>Specialized axis ticker to display ticks in units of an arbitrary constant, for example pi. </para>
+    </simplesect>
+        <simplesect>
+            <title>Descrição detalhada</title>
+
+<para></para>
+
+<para>This <link linkend="classQCPAxisTicker">QCPAxisTicker</link> subclass generates ticks that are expressed with respect to a given symbolic constant with a numerical value specified with <link linkend="classQCPAxisTickerPi_1a36ce0651d2ec92edd36feac1619c2468">setPiValue</link> and an appearance in the tick labels specified with <link linkend="classQCPAxisTickerPi_1acfdcd4758a393bde4be12a50fb2017b5">setPiSymbol</link>.</para>
+
+<para>Ticks may be generated at fractions of the symbolic constant. How these fractions appear in the tick label can be configured with <link linkend="classQCPAxisTickerPi_1a760c8af6ca68178e607556c4e5049d71">setFractionStyle</link>.</para>
+
+<para>The ticker can be created and assigned to an axis like this: <literallayout><computeroutput></computeroutput></literallayout></para>
+                <para>Definition at line 1769 of file qcustomplot.h</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>qcustomplot.h</para></listitem></itemizedlist></para>
+        </simplesect>
+            <section xml:id="classQCPAxisTickerPi_1a262f1534c7f0c79a7d5237f5d1e2c54c">
+               <title>enum FractionStyle </title>
+               
+<para>Defines how fractions should be displayed in tick labels.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPAxisTickerPi_1a760c8af6ca68178e607556c4e5049d71">setFractionStyle</link> </para>
+</formalpara>
+</para>
+
+               <formalpara>
+                    <title>Enumeradores:</title>
+                    <variablelist>
+                        <varlistentry xml:id="classQCPAxisTickerPi_1a262f1534c7f0c79a7d5237f5d1e2c54ca00f097b669b2a0e22f508f1ae97877d8">
+                            <term>fsFloatingPoint</term>
+                            <listitem>
+                                <para>Fractions are displayed as regular decimal floating point numbers, e.g. &quot;0.25&quot; or &quot;0.125&quot;.</para>
+                            </listitem>
+                        </varlistentry>
+                        <varlistentry xml:id="classQCPAxisTickerPi_1a262f1534c7f0c79a7d5237f5d1e2c54ca05a5457e0e14cb726f623e25282066b3">
+                            <term>fsAsciiFractions</term>
+                            <listitem>
+                                <para>Fractions are written as rationals using ASCII characters only, e.g. &quot;1/4&quot; or &quot;1/8&quot;.</para>
+                            </listitem>
+                        </varlistentry>
+                        <varlistentry xml:id="classQCPAxisTickerPi_1a262f1534c7f0c79a7d5237f5d1e2c54ca92f38a938c8b179b23363d9993681c55">
+                            <term>fsUnicodeFractions</term>
+                            <listitem>
+                                <para>Fractions are written using sub- and superscript UTF-8 digits and the fraction symbol.</para>
+                            </listitem>
+                        </varlistentry>
+                     </variablelist>
+                </formalpara>
+                <para>Definition at line 1777 of file qcustomplot.h
+                    <computeroutput><literallayout>
+{
+fsFloatingPoint, 
+fsAsciiFractions, 
+fsUnicodeFractions, 
+}FractionStyle;
+                    </literallayout></computeroutput>
+                </para>
+            </section>
+            <section xml:id="classQCPAxisTicker_1ab6d2f9d9477821623ac9bc4b21ddf49a">
+               <title>enum TickStepStrategy </title>
+               
+<para>Defines the strategies that the axis ticker may follow when choosing the size of the tick step.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPAxisTicker_1a73b1d847c1a12159af6bfda4ebebe7d5">setTickStepStrategy</link> </para>
+</formalpara>
+</para>
+
+               <formalpara>
+                    <title>Enumeradores:</title>
+                    <variablelist>
+                        <varlistentry xml:id="classQCPAxisTicker_1ab6d2f9d9477821623ac9bc4b21ddf49aa9002aa2fd5633ab5556c71a26fed63a8">
+                            <term>tssReadability</term>
+                            <listitem>
+                                <para>A nicely readable tick step is prioritized over matching the requested number of ticks (see \ref setTickCount)</para>
+                            </listitem>
+                        </varlistentry>
+                        <varlistentry xml:id="classQCPAxisTicker_1ab6d2f9d9477821623ac9bc4b21ddf49aa770312b6b9b0c64a37ceeba96e0cd7f2">
+                            <term>tssMeetTickCount</term>
+                            <listitem>
+                                <para>Less readable tick steps are allowed which in turn facilitates getting closer to the requested tick count.</para>
+                            </listitem>
+                        </varlistentry>
+                     </variablelist>
+                </formalpara>
+                <para>Definition at line 1543 of file qcustomplot.h
+                    <computeroutput><literallayout>
+{
+tssReadability, 
+tssMeetTickCount, 
+}TickStepStrategy;
+                    </literallayout></computeroutput>
+                </para>
+            </section>
+        <section>
+            <title>Atributos</title>
+        </section>
+            <section xml:id="classQCPAxisTickerPi_1aa0d7b7034055927c0f0077a2d713d7d0">
+                <title>QCPAxisTickerPi::QCPAxisTickerPi ()</title> <emphasis></emphasis>
+                
+<para>Constructs the ticker and sets reasonable default values. Axis tickers are commonly created managed by a QSharedPointer, which then can be passed to <link linkend="classQCPAxis_1a4ee03fcd2c74d05cd1a419b9af5cfbdc">QCPAxis::setTicker</link>. </para>
+
+            </section>
+            <section xml:id="classQCPAxisTickerPi_1a2fd785cd66a6f4f969ac2eca1b08e0f2">
+                <title>QString QCPAxisTickerPi::piSymbol () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAxisTickerPi_1abddc18799caa4ae6c721e1e5e229b3a4">
+                <title>double QCPAxisTickerPi::piValue () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAxisTickerPi_1aa320edf0a30386ce6a63c18050fbdfd8">
+                <title>bool QCPAxisTickerPi::periodicity () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAxisTickerPi_1ab532d5e838168a8a5bbafea4eafc94be">
+                <title>FractionStyle QCPAxisTickerPi::fractionStyle () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAxisTickerPi_1acfdcd4758a393bde4be12a50fb2017b5">
+                <title>void QCPAxisTickerPi::setPiSymbol (QString symbol)</title> <emphasis></emphasis>
+                
+<para>Sets how the symbol part (which is always a suffix to the number) shall appear in the axis tick label.</para>
+
+<para>If a space shall appear between the number and the symbol, make sure the space is contained in <emphasis>symbol</emphasis>. </para>
+
+            </section>
+            <section xml:id="classQCPAxisTickerPi_1a36ce0651d2ec92edd36feac1619c2468">
+                <title>void QCPAxisTickerPi::setPiValue (double pi)</title> <emphasis></emphasis>
+                
+<para>Sets the numerical value that the symbolic constant has.</para>
+
+<para>This will be used to place the appropriate fractions of the symbol at the respective axis coordinates. </para>
+
+            </section>
+            <section xml:id="classQCPAxisTickerPi_1a58f538dc01860fb56e46970e28a87f03">
+                <title>void QCPAxisTickerPi::setPeriodicity (int multiplesOfPi)</title> <emphasis></emphasis>
+                
+<para>Sets whether the axis labels shall appear periodicly and if so, at which multiplicity of the symbolic constant.</para>
+
+<para>To disable periodicity, set <emphasis>multiplesOfPi</emphasis> to zero.</para>
+
+<para>For example, an axis that identifies 0 with 2pi would set <emphasis>multiplesOfPi</emphasis> to two. </para>
+
+            </section>
+            <section xml:id="classQCPAxisTickerPi_1a760c8af6ca68178e607556c4e5049d71">
+                <title>void QCPAxisTickerPi::setFractionStyle (FractionStyle style)</title> <emphasis></emphasis>
+                
+<para>Sets how the numerical/fractional part preceding the symbolic constant is displayed in tick labels. See <link linkend="classQCPAxisTickerPi_1a262f1534c7f0c79a7d5237f5d1e2c54c">FractionStyle</link> for the various options. </para>
+
+            </section>
+            <section xml:id="classQCPAxisTicker_1a58df76f2ec3eb48401bdd314b0e14ba1">
+                <title>TickStepStrategy QCPAxisTicker::tickStepStrategy () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAxisTicker_1aaf9edbe4169ce55e216fd067cc139452">
+                <title>int QCPAxisTicker::tickCount () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAxisTicker_1ac0c6e9587c36fdeefb5518c00fe7ab15">
+                <title>double QCPAxisTicker::tickOrigin () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAxisTicker_1a73b1d847c1a12159af6bfda4ebebe7d5">
+                <title>void QCPAxisTicker::setTickStepStrategy (TickStepStrategy strategy)</title> <emphasis></emphasis>
+                
+<para>Sets which strategy the axis ticker follows when choosing the size of the tick step. For the available strategies, see <link linkend="classQCPAxisTicker_1ab6d2f9d9477821623ac9bc4b21ddf49a">TickStepStrategy</link>. </para>
+
+            </section>
+            <section xml:id="classQCPAxisTicker_1a47752abba8293e6dc18491501ae34008">
+                <title>void QCPAxisTicker::setTickCount (int count)</title> <emphasis></emphasis>
+                
+<para>Sets how many ticks this ticker shall aim to generate across the axis range. Note that <emphasis>count</emphasis> is not guaranteed to be matched exactly, as generating readable tick intervals may conflict with the requested number of ticks.</para>
+
+<para>Whether the readability has priority over meeting the requested <emphasis>count</emphasis> can be specified with <link linkend="classQCPAxisTicker_1a73b1d847c1a12159af6bfda4ebebe7d5">setTickStepStrategy</link>. </para>
+
+            </section>
+            <section xml:id="classQCPAxisTicker_1ab509c7e500293bf66a8409f0d7c23943">
+                <title>void QCPAxisTicker::setTickOrigin (double origin)</title> <emphasis></emphasis>
+                
+<para>Sets the mathematical coordinate (or &quot;offset&quot;) of the zeroth tick. This tick coordinate is just a concept and doesn&apos;t need to be inside the currently visible axis range.</para>
+
+<para>By default <emphasis>origin</emphasis> is zero, which for example yields ticks {-5, 0, 5, 10, 15,...} when the tick step is five. If <emphasis>origin</emphasis> is now set to 1 instead, the correspondingly generated ticks would be {-4, 1, 6, 11, 16,...}. </para>
+
+            </section>
+            <section xml:id="classQCPAxisTicker_1aefbd11725678ca824add8cf926cbc856">
+                <title>void QCPAxisTicker::generate (const QCPRange &amp;range, const QLocale &amp;locale, QChar formatChar, int precision, QVector&lt; double &gt; &amp;ticks, QVector&lt; double &gt; *subTicks, QVector&lt; QString &gt; *tickLabels)</title> <emphasis></emphasis>
+                
+<para>This is the method called by <link linkend="classQCPAxis">QCPAxis</link> in order to actually generate tick coordinates (<emphasis>ticks</emphasis>), tick label strings (<emphasis>tickLabels</emphasis>) and sub tick coordinates (<emphasis>subTicks</emphasis>).</para>
+
+<para>The ticks are generated for the specified <emphasis>range</emphasis>. The generated labels typically follow the specified <emphasis>locale</emphasis>, <emphasis>formatChar</emphasis> and number <emphasis>precision</emphasis>, however this might be different (or even irrelevant) for certain <link linkend="classQCPAxisTicker">QCPAxisTicker</link> subclasses.</para>
+
+<para>The output parameter <emphasis>ticks</emphasis> is filled with the generated tick positions in axis coordinates. The output parameters <emphasis>subTicks</emphasis> and <emphasis>tickLabels</emphasis> are optional (set them to 0 if not needed) and are respectively filled with sub tick coordinates, and tick label strings belonging to <emphasis>ticks</emphasis> by index. </para>
+
+            </section>
+            <section xml:id="classQCPAxisTickerPi_1a55301f0072983bd2d7c131a24e1779e7">
+                <title>double QCPAxisTickerPi::getTickStep (const QCPRange &amp;range) Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAxisTickerPi_1a56c90f870da97c8670cfae4d04ff3ac7">
+                <title>int QCPAxisTickerPi::getSubTickCount (double tickStep) Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAxisTickerPi_1a9a087d931d4344b8a91d5cecceff7109">
+                <title>QString QCPAxisTickerPi::getTickLabel (double tick, const QLocale &amp;locale, QChar formatChar, int precision) Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAxisTickerPi_1a0e30609aed5025d331cb61671f0115d0">
+                <title>void QCPAxisTickerPi::simplifyFraction (int &amp;numerator, int &amp;denominator) const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAxisTickerPi_1afb59d434358173eb5b58e41255bea904">
+                <title>QString QCPAxisTickerPi::fractionToString (int numerator, int denominator) const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAxisTickerPi_1ade6f7e49238e986e9aed74178a78d8d3">
+                <title>QString QCPAxisTickerPi::unicodeFraction (int numerator, int denominator) const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAxisTickerPi_1a34798972670b3760d649ccfe0d0ee9a5">
+                <title>QString QCPAxisTickerPi::unicodeSuperscript (int number) const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAxisTickerPi_1a5b3bb340adb888a30a96225e1ca23c7a">
+                <title>QString QCPAxisTickerPi::unicodeSubscript (int number) const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAxisTicker_1af4645a824c7bd2ca8fc7e86ebf9055bd">
+                <title>QVector&lt; double &gt; QCPAxisTicker::createTickVector (double tickStep, const QCPRange &amp;range)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAxisTicker_1a9a6435723fa0bd366d1ea4c2cff7c33f">
+                <title>QVector&lt; double &gt; QCPAxisTicker::createSubTickVector (int subTickCount, const QVector&lt; double &gt; &amp;ticks)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAxisTicker_1a804050e408f37a0b9770c6654ebe6aa7">
+                <title>QVector&lt; QString &gt; QCPAxisTicker::createLabelVector (const QVector&lt; double &gt; &amp;ticks, const QLocale &amp;locale, QChar formatChar, int precision)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAxisTicker_1ab28cc1ab549489be7975f5ce7e717916">
+                <title>void QCPAxisTicker::trimTicks (const QCPRange &amp;range, QVector&lt; double &gt; &amp;ticks, bool keepOneOutlier) const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAxisTicker_1a4ea0a7c4ca1c610f92b9bd5944ab4260">
+                <title>double QCPAxisTicker::pickClosest (double target, const QVector&lt; double &gt; &amp;candidates) const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAxisTicker_1a2f1e223bafbf2cec7c3ba8b08d5c77e8">
+                <title>double QCPAxisTicker::getMantissa (double input, double *magnitude=0) const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAxisTicker_1ac7df6c72876b7abd67c932663a0b0f6a">
+                <title>double QCPAxisTicker::cleanMantissa (double input) const</title> <emphasis></emphasis>
+                
+            </section>
+</section>

@@ -1,0 +1,718 @@
+{\rtf1\ansi\ansicpg1252\uc1 \deff0\deflang1033\deflangfe1033
+{\fonttbl {\f0\froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}
+{\f1\fswiss\fcharset0\fprq2{\*\panose 020b0604020202020204}Arial;}
+{\f2\fmodern\fcharset0\fprq1{\*\panose 02070309020205020404}Courier New;}
+{\f3\froman\fcharset2\fprq2{\*\panose 05050102010706020507}Symbol;}
+}
+{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;}
+{\stylesheet
+{\widctlpar\adjustright \fs20\cgrid \snext0 Normal;}
+{\paperw11900\paperh16840\margl1800\margr1800\margt1440\margb1440\gutter0\ltrsect}
+{\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid \sbasedon0 \snext0 heading 1;}
+{\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid \sbasedon0 \snext0 heading 2;}
+{\s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid \sbasedon0 \snext0 heading 3;}
+{\s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext0 heading 4;}{\*\cs10 \additive Default Paragraph Font;}
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext0 heading 5;}{\*\cs10 \additive Default Paragraph Font;}
+{\s15\qc\sb240\sa60\widctlpar\outlinelevel0\adjustright \b\f1\fs32\kerning28\cgrid \sbasedon0 \snext15 Title;}
+{\s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid \sbasedon0 \snext16 Subtitle;}
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid \sbasedon0 \snext17 BodyText;}
+{\s18\widctlpar\fs22\cgrid \sbasedon0 \snext18 DenseText;}
+{\s28\widctlpar\tqc\tx4320\tqr\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext28 header;}
+{\s29\widctlpar\tqc\tx4320\tqr\tx8640\qr\adjustright \fs20\cgrid \sbasedon0 \snext29 footer;}
+{\s30\li360\sa60\sb120\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext30 GroupHeader;}
+{\s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext41 Code Example 0;}
+{\s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext42 Code Example 1;}
+{\s42\li720\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext43 Code Example 2;}
+{\s43\li1080\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext44 Code Example 3;}
+{\s44\li1440\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext45 Code Example 4;}
+{\s45\li1800\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext46 Code Example 5;}
+{\s46\li2160\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext47 Code Example 6;}
+{\s47\li2520\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext48 Code Example 7;}
+{\s48\li2880\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext49 Code Example 8;}
+{\s49\li3240\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext49 Code Example 9;}
+{\s50\li0\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext51 List Continue 0;}
+{\s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext52 List Continue 1;}
+{\s52\li720\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext53 List Continue 2;}
+{\s53\li1080\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext54 List Continue 3;}
+{\s54\li1440\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext55 List Continue 4;}
+{\s55\li1800\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext56 List Continue 5;}
+{\s56\li2160\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext57 List Continue 6;}
+{\s57\li2520\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext58 List Continue 7;}
+{\s58\li2880\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext59 List Continue 8;}
+{\s59\li3240\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext59 List Continue 9;}
+{\s60\li0\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext61 DescContinue 0;}
+{\s61\li360\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext62 DescContinue 1;}
+{\s62\li720\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext63 DescContinue 2;}
+{\s63\li1080\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext64 DescContinue 3;}
+{\s64\li1440\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext65 DescContinue 4;}
+{\s65\li1800\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext66 DescContinue 5;}
+{\s66\li2160\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext67 DescContinue 6;}
+{\s67\li2520\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext68 DescContinue 7;}
+{\s68\li2880\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext69 DescContinue 8;}
+{\s69\li3240\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext69 DescContinue 9;}
+{\s70\li0\sa30\sb30\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext81 LatexTOC 0;}
+{\s71\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext82 LatexTOC 1;}
+{\s72\li720\sa24\sb24\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext83 LatexTOC 2;}
+{\s73\li1080\sa21\sb21\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext84 LatexTOC 3;}
+{\s74\li1440\sa18\sb18\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext85 LatexTOC 4;}
+{\s75\li1800\sa15\sb15\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext86 LatexTOC 5;}
+{\s76\li2160\sa12\sb12\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext87 LatexTOC 6;}
+{\s77\li2520\sa9\sb9\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext88 LatexTOC 7;}
+{\s78\li2880\sa6\sb6\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext89 LatexTOC 8;}
+{\s79\li3240\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext89 LatexTOC 9;}
+{\s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext81 \sautoupd List Bullet 0;}
+{\s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid \sbasedon0 \snext82 \sautoupd List Bullet 1;}
+{\s82\fi-360\li1080\widctlpar\jclisttab\tx1080{\*\pn \pnlvlbody\ilvl0\ls3\pnrnot0\pndec }\ls3\adjustright \fs20\cgrid \sbasedon0 \snext83 \sautoupd List Bullet 2;}
+{\s83\fi-360\li1440\widctlpar\jclisttab\tx1440{\*\pn \pnlvlbody\ilvl0\ls4\pnrnot0\pndec }\ls4\adjustright \fs20\cgrid \sbasedon0 \snext84 \sautoupd List Bullet 3;}
+{\s84\fi-360\li1800\widctlpar\jclisttab\tx1800{\*\pn \pnlvlbody\ilvl0\ls5\pnrnot0\pndec }\ls5\adjustright \fs20\cgrid \sbasedon0 \snext85 \sautoupd List Bullet 4;}
+{\s85\fi-360\li2160\widctlpar\jclisttab\tx2160{\*\pn \pnlvlbody\ilvl0\ls6\pnrnot0\pndec }\ls6\adjustright \fs20\cgrid \sbasedon0 \snext86 \sautoupd List Bullet 5;}
+{\s86\fi-360\li2520\widctlpar\jclisttab\tx2520{\*\pn \pnlvlbody\ilvl0\ls7\pnrnot0\pndec }\ls7\adjustright \fs20\cgrid \sbasedon0 \snext87 \sautoupd List Bullet 6;}
+{\s87\fi-360\li2880\widctlpar\jclisttab\tx2880{\*\pn \pnlvlbody\ilvl0\ls8\pnrnot0\pndec }\ls8\adjustright \fs20\cgrid \sbasedon0 \snext88 \sautoupd List Bullet 7;}
+{\s88\fi-360\li3240\widctlpar\jclisttab\tx3240{\*\pn \pnlvlbody\ilvl0\ls9\pnrnot0\pndec }\ls9\adjustright \fs20\cgrid \sbasedon0 \snext89 \sautoupd List Bullet 8;}
+{\s89\fi-360\li3600\widctlpar\jclisttab\tx3600{\*\pn \pnlvlbody\ilvl0\ls10\pnrnot0\pndec }\ls10\adjustright \fs20\cgrid \sbasedon0 \snext89 \sautoupd List Bullet 9;}
+{\s90\fi-360\li360\widctlpar\fs20\cgrid \sbasedon0 \snext91 \sautoupd List Enum 0;}
+{\s91\fi-360\li720\widctlpar\fs20\cgrid \sbasedon0 \snext92 \sautoupd List Enum 1;}
+{\s92\fi-360\li1080\widctlpar\fs20\cgrid \sbasedon0 \snext93 \sautoupd List Enum 2;}
+{\s93\fi-360\li1440\widctlpar\fs20\cgrid \sbasedon0 \snext94 \sautoupd List Enum 3;}
+{\s94\fi-360\li1800\widctlpar\fs20\cgrid \sbasedon0 \snext95 \sautoupd List Enum 4;}
+{\s95\fi-360\li2160\widctlpar\fs20\cgrid \sbasedon0 \snext96 \sautoupd List Enum 5;}
+{\s96\fi-360\li2520\widctlpar\fs20\cgrid \sbasedon0 \snext96 \sautoupd List Enum 5;}
+{\s97\fi-360\li2880\widctlpar\fs20\cgrid \sbasedon0 \snext98 \sautoupd List Enum 7;}
+{\s98\fi-360\li3240\widctlpar\fs20\cgrid \sbasedon0 \snext99 \sautoupd List Enum 8;}
+{\s99\fi-360\li3600\widctlpar\fs20\cgrid \sbasedon0 \snext99 \sautoupd List Enum 9;}
+}
+{\comment begin body}
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Referência da Classe QCPLayer\par \pard\plain 
+{\tc\tcl2 \v QCPLayer}
+{\xe \v QCPLayer}
+{\bkmkstart AAAAAAACWH}
+{\bkmkend AAAAAAACWH}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+A layer that may contain objects, to control the rendering order. }}\par
+{
+{\f2 #include <qcustomplot.h>}}\par
+Diagrama de hierarquia para QCPLayer:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "classQCPLayer__inherit__graph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+Diagrama de colaboração para QCPLayer:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "classQCPLayer__coll__graph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Tipos Públicos\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+enum {\b LayerMode} \{ {\b lmLogical}, 
+{\b lmBuffered}
+ \}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Membros Públicos\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b QCPLayer} ({\b QCustomPlot} *{\b parentPlot}, const QString &layerName)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual {\b ~QCPLayer} ()\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b QCustomPlot} * {\b parentPlot} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+QString {\b name} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b index} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+QList< {\b QCPLayerable} * > {\b children} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b visible} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b LayerMode} {\b mode} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setVisible} (bool {\b visible})\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setMode} ({\b LayerMode} {\b mode})\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b replot} ()\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Membros Protegidos\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b draw} ({\b QCPPainter} *painter)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b drawToPaintBuffer} ()\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b addChild} ({\b QCPLayerable} *layerable, bool prepend)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b removeChild} ({\b QCPLayerable} *layerable)\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Atributos Protegidos\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b QCustomPlot} * {\b mParentPlot}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+QString {\b mName}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b mIndex}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+QList< {\b QCPLayerable} * > {\b mChildren}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b mVisible}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b LayerMode} {\b mMode}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+QWeakPointer< {\b QCPAbstractPaintBuffer} > {\b mPaintBuffer}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Amigas\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b QCustomPlot}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b QCPLayerable}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Descrição detalhada\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+A layer that may contain objects, to control the rendering order. \par
+}
+
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+The Layering system of {\b QCustomPlot} is the mechanism to control the rendering order of the elements inside the plot.\par
+It is based on the two classes {\b QCPLayer} and {\b QCPLayerable}. {\b QCustomPlot} holds an ordered list of one or more instances of {\b QCPLayer} (see {\b QCustomPlot::addLayer}, {\b QCustomPlot::layer}, {\b QCustomPlot::moveLayer}, etc.). When replotting, {\b QCustomPlot} goes through the list of layers bottom to top and successively draws the layerables of the layers into the paint buffer(s).\par
+A {\b QCPLayer} contains an ordered list of {\b QCPLayerable} instances. {\b QCPLayerable} is an abstract base class from which almost all visible objects derive, like axes, grids, graphs, items, etc.\par
+{\bkmkstart AAAAAAACWI}
+{\bkmkend AAAAAAACWI}
+{{\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Default layers
+\par}
+{\tc\tcl2 \v Default layers}
+Initially, {\b QCustomPlot} has six layers: "background", "grid", "main", "axes", "legend" and "overlay" (in that order). On top is the "overlay" layer, which only contains the {\b QCustomPlot}'s selection rect ({\b QCustomPlot::selectionRect}). The next two layers "axes" and "legend" contain the default axes and legend, so they will be drawn above plottables. In the middle, there is the "main" layer. It is initially empty and set as the current layer (see {\b QCustomPlot::setCurrentLayer}). This means, all new plottables, items etc. are created on this layer by default. Then comes the "grid" layer which contains the {\b QCPGrid} instances (which belong tightly to {\b QCPAxis}, see {\b QCPAxis::grid}). The Axis rect background shall be drawn behind everything else, thus the default {\b QCPAxisRect} instance is placed on the "background" layer. Of course, the layer affiliation of the individual objects can be changed as required ({\b QCPLayerable::setLayer}).\par}
+{\bkmkstart AAAAAAACWJ}
+{\bkmkend AAAAAAACWJ}
+{{\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Controlling the rendering order via layers
+\par}
+{\tc\tcl2 \v Controlling the rendering order via layers}
+Controlling the ordering of layerables in the plot is easy: Create a new layer in the position you want the layerable to be in, e.g. above "main", with {\b QCustomPlot::addLayer}. Then set the current layer with {\b QCustomPlot::setCurrentLayer} to that new layer and finally create the objects normally. They will be placed on the new layer automatically, due to the current layer setting. Alternatively you could have also ignored the current layer setting and just moved the objects with {\b QCPLayerable::setLayer} to the desired layer after creating them.\par
+It is also possible to move whole layers. For example, If you want the grid to be shown in front of all plottables/items on the "main" layer, just move it above "main" with {\b QCustomPlot::moveLayer}.\par
+The rendering order within one layer is simply by order of creation or insertion. The item created last (or added last to the layer), is drawn on top of all other objects on that layer.\par
+When a layer is deleted, the objects on it are not deleted with it, but fall on the layer below the deleted layer, see {\b QCustomPlot::removeLayer}.\par}
+{\bkmkstart AAAAAAACWK}
+{\bkmkend AAAAAAACWK}
+{{\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Replotting only a specific layer
+\par}
+{\tc\tcl2 \v Replotting only a specific layer}
+If the layer mode ({\b setMode}) is set to {\b lmBuffered}, you can replot only this specific layer by calling {\b replot}. In certain situations this can provide better replot performance, compared with a full replot of all layers. Upon creation of a new layer, the layer mode is initialized to {\b lmLogical}. The only layer that is set to {\b lmBuffered} in a new {\b QCustomPlot} instance is the "overlay" layer, containing the selection rect. \par}
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Enumerações\par
+\pard\plain 
+{\xe \v LayerMode\:QCPLayer}
+{\xe \v QCPLayer\:LayerMode}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+enum {\b QCPLayer::LayerMode}}}
+\par
+{\bkmkstart AAAAAAACWL}
+{\bkmkend AAAAAAACWL}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Defines the different rendering modes of a layer. Depending on the mode, certain layers can be replotted individually, without the need to replot (possibly complex) layerables on other layers.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b setMode} \par
+}}{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Enumeradores:\par}
+\pard\plain \s61\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{\xe \v lmLogical\:QCPLayer}
+{\xe \v QCPLayer\:lmLogical}
+{\qr lmLogical{\bkmkstart AAAAAAACWM}
+{\bkmkend AAAAAAACWM}
+\cell }{{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Layer is used only for rendering order, and shares paint buffer with all other adjacent logical layers. \par
+}\cell }{\row }
+{\xe \v lmBuffered\:QCPLayer}
+{\xe \v QCPLayer\:lmBuffered}
+{\qr lmBuffered{\bkmkstart AAAAAAACWN}
+{\bkmkend AAAAAAACWN}
+\cell }{{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Layer has its own paint buffer and may be replotted individually (see {\b replot}). \par
+}\cell }{\row }
+}
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid   643                  \{ lmLogical   \par
+  644                    ,lmBuffered \par
+  645                  \};\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Construtores e Destrutores\par
+\pard\plain 
+{\xe \v QCPLayer\:QCPLayer}
+{\xe \v QCPLayer\:QCPLayer}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QCPLayer::QCPLayer ({\b QCustomPlot} *  {\i parentPlot}, const QString &  {\i layerName})}}
+\par
+{\bkmkstart AAAAAAACWO}
+{\bkmkend AAAAAAACWO}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Creates a new {\b QCPLayer} instance.\par
+Normally you shouldn't directly instantiate layers, use {\b QCustomPlot::addLayer} instead.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Aviso:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid It is not checked that {\i layerName}  is actually a unique layer name in {\i parentPlot} . This check is only performed by {\b QCustomPlot::addLayer}. \par
+}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1042                                                                     :\par
+ 1043   QObject(parentPlot),\par
+ 1044   mParentPlot(parentPlot),\par
+ 1045   mName(layerName),\par
+ 1046   mIndex(-1), // will be set to a proper value by the QCustomPlot layer creation function\par
+ 1047   mVisible(true),\par
+ 1048   mMode(lmLogical)\par
+ 1049 \{\par
+ 1050   // Note: no need to make sure layerName is unique, because layer\par
+ 1051   // management is done with QCustomPlot functions.\par
+ 1052 \}\par
+}
+}
+{\xe \v ~QCPLayer\:QCPLayer}
+{\xe \v QCPLayer\:~QCPLayer}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QCPLayer::~QCPLayer (){\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAACWP}
+{\bkmkend AAAAAAACWP}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1055 \{\par
+ 1056   // If child layerables are still on this layer, detach them, so they don't try to reach back to this\par
+ 1057   // then invalid layer once they get deleted/moved themselves. This only happens when layers are deleted\par
+ 1058   // directly, like in the QCustomPlot destructor. (The regular layer removal procedure for the user is to\par
+ 1059   // call QCustomPlot::removeLayer, which moves all layerables off this layer before deleting it.)\par
+ 1060   \par
+ 1061   while (!mChildren.isEmpty())\par
+ 1062     mChildren.last()->setLayer(0); // removes itself from mChildren via removeChild()\par
+ 1063   \par
+ 1064   if (mParentPlot->currentLayer() == this)\par
+ 1065     qDebug() << Q_FUNC_INFO << "The parent plot's mCurrentLayer will be a dangling pointer. Should have been set to a valid layer or 0 beforehand.";\par
+ 1066 \}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Funções membros\par
+\pard\plain 
+{\xe \v addChild\:QCPLayer}
+{\xe \v QCPLayer\:addChild}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPLayer::addChild ({\b QCPLayerable} *  {\i layerable}, bool  {\i prepend}){\f2 [protected]}}}
+\par
+{\bkmkstart AAAAAAACWQ}
+{\bkmkend AAAAAAACWQ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1199 \{\par
+ 1200   if (!mChildren.contains(layerable))\par
+ 1201   \{\par
+ 1202     if (prepend)\par
+ 1203       mChildren.prepend(layerable);\par
+ 1204     else\par
+ 1205       mChildren.append(layerable);\par
+ 1206     if (!mPaintBuffer.isNull())\par
+ 1207       mPaintBuffer.data()->setInvalidated();\par
+ 1208   \} else\par
+ 1209     qDebug() << Q_FUNC_INFO << "layerable is already child of this layer" << reinterpret_cast<quintptr>(layerable);\par
+ 1210 \}\par
+}
+}
+{\xe \v children\:QCPLayer}
+{\xe \v QCPLayer\:children}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QList< {\b QCPLayerable} * > QCPLayer::children () const{\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAACWR}
+{\bkmkend AAAAAAACWR}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Returns a list of all layerables on this layer. The order corresponds to the rendering order: layerables with higher indices are drawn above layerables with lower indices. \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid   655 \{ return mChildren; \}\par
+}
+}
+{\xe \v draw\:QCPLayer}
+{\xe \v QCPLayer\:draw}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPLayer::draw ({\b QCPPainter} *  {\i painter}){\f2 [protected]}}}
+\par
+{\bkmkstart AAAAAAACWS}
+{\bkmkend AAAAAAACWS}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1119 \{\par
+ 1120   foreach (QCPLayerable *child, mChildren)\par
+ 1121   \{\par
+ 1122     if (child->realVisibility())\par
+ 1123     \{\par
+ 1124       painter->save();\par
+ 1125       painter->setClipRect(child->clipRect().translated(0, -1));\par
+ 1126       child->applyDefaultAntialiasingHint(painter);\par
+ 1127       child->draw(painter);\par
+ 1128       painter->restore();\par
+ 1129     \}\par
+ 1130   \}\par
+ 1131 \}\par
+}
+}
+{\xe \v drawToPaintBuffer\:QCPLayer}
+{\xe \v QCPLayer\:drawToPaintBuffer}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPLayer::drawToPaintBuffer (){\f2 [protected]}}}
+\par
+{\bkmkstart AAAAAAACWT}
+{\bkmkend AAAAAAACWT}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1142 \{\par
+ 1143   if (!mPaintBuffer.isNull())\par
+ 1144   \{\par
+ 1145     if (QCPPainter *painter = mPaintBuffer.data()->startPainting())\par
+ 1146     \{\par
+ 1147       if (painter->isActive())\par
+ 1148         draw(painter);\par
+ 1149       else\par
+ 1150         qDebug() << Q_FUNC_INFO << "paint buffer returned inactive painter";\par
+ 1151       delete painter;\par
+ 1152       mPaintBuffer.data()->donePainting();\par
+ 1153     \} else\par
+ 1154       qDebug() << Q_FUNC_INFO << "paint buffer returned zero painter";\par
+ 1155   \} else\par
+ 1156     qDebug() << Q_FUNC_INFO << "no valid paint buffer associated with this layer";\par
+ 1157 \}\par
+}
+}
+{\xe \v index\:QCPLayer}
+{\xe \v QCPLayer\:index}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int QCPLayer::index () const{\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAACWU}
+{\bkmkend AAAAAAACWU}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Returns the index this layer has in the {\b QCustomPlot}. The index is the integer number by which this layer can be accessed via {\b QCustomPlot::layer}.\par
+Layers with higher indices will be drawn above layers with lower indices. \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid   654 \{ return mIndex; \}\par
+}
+}
+{\xe \v mode\:QCPLayer}
+{\xe \v QCPLayer\:mode}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b LayerMode} QCPLayer::mode () const{\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAACWV}
+{\bkmkend AAAAAAACWV}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid   657 \{ return mMode; \}\par
+}
+}
+{\xe \v name\:QCPLayer}
+{\xe \v QCPLayer\:name}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QString QCPLayer::name () const{\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAACWW}
+{\bkmkend AAAAAAACWW}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid   653 \{ return mName; \}\par
+}
+}
+{\xe \v parentPlot\:QCPLayer}
+{\xe \v QCPLayer\:parentPlot}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b QCustomPlot}* QCPLayer::parentPlot () const{\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAACWX}
+{\bkmkend AAAAAAACWX}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid   652 \{ return mParentPlot; \}\par
+}
+}
+{\xe \v removeChild\:QCPLayer}
+{\xe \v QCPLayer\:removeChild}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPLayer::removeChild ({\b QCPLayerable} *  {\i layerable}){\f2 [protected]}}}
+\par
+{\bkmkstart AAAAAAACWY}
+{\bkmkend AAAAAAACWY}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1222 \{\par
+ 1223   if (mChildren.removeOne(layerable))\par
+ 1224   \{\par
+ 1225     if (!mPaintBuffer.isNull())\par
+ 1226       mPaintBuffer.data()->setInvalidated();\par
+ 1227   \} else\par
+ 1228     qDebug() << Q_FUNC_INFO << "layerable is not child of this layer" << reinterpret_cast<quintptr>(layerable);\par
+ 1229 \}\par
+}
+}
+{\xe \v replot\:QCPLayer}
+{\xe \v QCPLayer\:replot}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPLayer::replot ()}}
+\par
+{\bkmkstart AAAAAAACWZ}
+{\bkmkend AAAAAAACWZ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+If the layer mode ({\b setMode}) is set to {\b lmBuffered}, this method allows replotting only the layerables on this specific layer, without the need to replot all other layers (as a call to {\b QCustomPlot::replot} would do).\par
+If the layer mode is {\b lmLogical} however, this method simply calls {\b QCustomPlot::replot} on the parent {\b QCustomPlot} instance.\par
+{\b QCustomPlot} also makes sure to replot all layers instead of only this one, if the layer ordering has changed since the last full replot and the other paint buffers were thus invalidated.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b draw} \par
+}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1173 \{\par
+ 1174   if (mMode == lmBuffered && !mParentPlot->hasInvalidatedPaintBuffers())\par
+ 1175   \{\par
+ 1176     if (!mPaintBuffer.isNull())\par
+ 1177     \{\par
+ 1178       mPaintBuffer.data()->clear(Qt::transparent);\par
+ 1179       drawToPaintBuffer();\par
+ 1180       mPaintBuffer.data()->setInvalidated(false);\par
+ 1181       mParentPlot->update();\par
+ 1182     \} else\par
+ 1183       qDebug() << Q_FUNC_INFO << "no valid paint buffer associated with this layer";\par
+ 1184   \} else if (mMode == lmLogical)\par
+ 1185     mParentPlot->replot();\par
+ 1186 \}\par
+}
+}
+{\xe \v setMode\:QCPLayer}
+{\xe \v QCPLayer\:setMode}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPLayer::setMode ({\b QCPLayer::LayerMode}  {\i mode})}}
+\par
+{\bkmkstart AAAAAAACXA}
+{\bkmkend AAAAAAACXA}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Sets the rendering mode of this layer.\par
+If {\i mode}  is set to {\b lmBuffered} for a layer, it will be given a dedicated paint buffer by the parent {\b QCustomPlot} instance. This means it may be replotted individually by calling {\b QCPLayer::replot}, without needing to replot all other layers.\par
+Layers which are set to {\b lmLogical} (the default) are used only to define the rendering order and can't be replotted individually.\par
+Note that each layer which is set to {\b lmBuffered} requires additional paint buffers for the layers below, above and for the layer itself. This increases the memory consumption and (slightly) decreases the repainting speed because multiple paint buffers need to be joined. So you should carefully choose which layers benefit from having their own paint buffer. A typical example would be a layer which contains certain layerables (e.g. items) that need to be changed and thus replotted regularly, while all other layerables on other layers stay static. By default, only the topmost layer called "overlay" is in mode {\b lmBuffered}, and contains the selection rect.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b replot} \par
+}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1103 \{\par
+ 1104   if (mMode != mode)\par
+ 1105   \{\par
+ 1106     mMode = mode;\par
+ 1107     if (!mPaintBuffer.isNull())\par
+ 1108       mPaintBuffer.data()->setInvalidated();\par
+ 1109   \}\par
+ 1110 \}\par
+}
+}
+{\xe \v setVisible\:QCPLayer}
+{\xe \v QCPLayer\:setVisible}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPLayer::setVisible (bool  {\i visible})}}
+\par
+{\bkmkstart AAAAAAACXB}
+{\bkmkend AAAAAAACXB}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Sets whether this layer is visible or not. If {\i visible}  is set to false, all layerables on this layer will be invisible.\par
+This function doesn't change the visibility property of the layerables ({\b QCPLayerable::setVisible}), but the {\b QCPLayerable::realVisibility} of each layerable takes the visibility of the parent layer into account. \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1077 \{\par
+ 1078   mVisible = visible;\par
+ 1079 \}\par
+}
+}
+{\xe \v visible\:QCPLayer}
+{\xe \v QCPLayer\:visible}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool QCPLayer::visible () const{\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAACXC}
+{\bkmkend AAAAAAACXC}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid   656 \{ return mVisible; \}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Amigas e Funções Relacionadas\par
+\pard\plain 
+{\xe \v QCPLayerable\:QCPLayer}
+{\xe \v QCPLayer\:QCPLayerable}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+friend class {\b QCPLayerable}{\f2 [friend]}}}
+\par
+{\bkmkstart AAAAAAACXD}
+{\bkmkend AAAAAAACXD}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v QCustomPlot\:QCPLayer}
+{\xe \v QCPLayer\:QCustomPlot}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+friend class {\b QCustomPlot}{\f2 [friend]}}}
+\par
+{\bkmkstart AAAAAAACXE}
+{\bkmkend AAAAAAACXE}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Atributos\par
+\pard\plain 
+{\xe \v mChildren\:QCPLayer}
+{\xe \v QCPLayer\:mChildren}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QList<{\b QCPLayerable}*> QCPLayer::mChildren{\f2 [protected]}}}
+\par
+{\bkmkstart AAAAAAACXF}
+{\bkmkend AAAAAAACXF}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v mIndex\:QCPLayer}
+{\xe \v QCPLayer\:mIndex}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int QCPLayer::mIndex{\f2 [protected]}}}
+\par
+{\bkmkstart AAAAAAACXG}
+{\bkmkend AAAAAAACXG}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v mMode\:QCPLayer}
+{\xe \v QCPLayer\:mMode}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b LayerMode} QCPLayer::mMode{\f2 [protected]}}}
+\par
+{\bkmkstart AAAAAAACXH}
+{\bkmkend AAAAAAACXH}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v mName\:QCPLayer}
+{\xe \v QCPLayer\:mName}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QString QCPLayer::mName{\f2 [protected]}}}
+\par
+{\bkmkstart AAAAAAACXI}
+{\bkmkend AAAAAAACXI}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v mPaintBuffer\:QCPLayer}
+{\xe \v QCPLayer\:mPaintBuffer}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QWeakPointer<{\b QCPAbstractPaintBuffer}> QCPLayer::mPaintBuffer{\f2 [protected]}}}
+\par
+{\bkmkstart AAAAAAACXJ}
+{\bkmkend AAAAAAACXJ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v mParentPlot\:QCPLayer}
+{\xe \v QCPLayer\:mParentPlot}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b QCustomPlot}* QCPLayer::mParentPlot{\f2 [protected]}}}
+\par
+{\bkmkstart AAAAAAACXK}
+{\bkmkend AAAAAAACXK}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v mVisible\:QCPLayer}
+{\xe \v QCPLayer\:mVisible}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool QCPLayer::mVisible{\f2 [protected]}}}
+\par
+{\bkmkstart AAAAAAACXL}
+{\bkmkend AAAAAAACXL}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+A documentação para essa classe foi gerada a partir dos seguintes arquivos:{\par
+\pard\plain \s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid 
+{\b qcustomplot.h}\par
+\pard\plain \s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid 
+{\b qcustomplot.cpp}\par
+}}

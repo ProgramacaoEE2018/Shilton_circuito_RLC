@@ -1,0 +1,756 @@
+{\rtf1\ansi\ansicpg1252\uc1 \deff0\deflang1033\deflangfe1033
+{\fonttbl {\f0\froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}
+{\f1\fswiss\fcharset0\fprq2{\*\panose 020b0604020202020204}Arial;}
+{\f2\fmodern\fcharset0\fprq1{\*\panose 02070309020205020404}Courier New;}
+{\f3\froman\fcharset2\fprq2{\*\panose 05050102010706020507}Symbol;}
+}
+{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;}
+{\stylesheet
+{\widctlpar\adjustright \fs20\cgrid \snext0 Normal;}
+{\paperw11900\paperh16840\margl1800\margr1800\margt1440\margb1440\gutter0\ltrsect}
+{\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid \sbasedon0 \snext0 heading 1;}
+{\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid \sbasedon0 \snext0 heading 2;}
+{\s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid \sbasedon0 \snext0 heading 3;}
+{\s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext0 heading 4;}{\*\cs10 \additive Default Paragraph Font;}
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext0 heading 5;}{\*\cs10 \additive Default Paragraph Font;}
+{\s15\qc\sb240\sa60\widctlpar\outlinelevel0\adjustright \b\f1\fs32\kerning28\cgrid \sbasedon0 \snext15 Title;}
+{\s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid \sbasedon0 \snext16 Subtitle;}
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid \sbasedon0 \snext17 BodyText;}
+{\s18\widctlpar\fs22\cgrid \sbasedon0 \snext18 DenseText;}
+{\s28\widctlpar\tqc\tx4320\tqr\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext28 header;}
+{\s29\widctlpar\tqc\tx4320\tqr\tx8640\qr\adjustright \fs20\cgrid \sbasedon0 \snext29 footer;}
+{\s30\li360\sa60\sb120\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext30 GroupHeader;}
+{\s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext41 Code Example 0;}
+{\s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext42 Code Example 1;}
+{\s42\li720\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext43 Code Example 2;}
+{\s43\li1080\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext44 Code Example 3;}
+{\s44\li1440\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext45 Code Example 4;}
+{\s45\li1800\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext46 Code Example 5;}
+{\s46\li2160\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext47 Code Example 6;}
+{\s47\li2520\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext48 Code Example 7;}
+{\s48\li2880\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext49 Code Example 8;}
+{\s49\li3240\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext49 Code Example 9;}
+{\s50\li0\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext51 List Continue 0;}
+{\s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext52 List Continue 1;}
+{\s52\li720\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext53 List Continue 2;}
+{\s53\li1080\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext54 List Continue 3;}
+{\s54\li1440\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext55 List Continue 4;}
+{\s55\li1800\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext56 List Continue 5;}
+{\s56\li2160\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext57 List Continue 6;}
+{\s57\li2520\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext58 List Continue 7;}
+{\s58\li2880\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext59 List Continue 8;}
+{\s59\li3240\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext59 List Continue 9;}
+{\s60\li0\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext61 DescContinue 0;}
+{\s61\li360\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext62 DescContinue 1;}
+{\s62\li720\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext63 DescContinue 2;}
+{\s63\li1080\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext64 DescContinue 3;}
+{\s64\li1440\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext65 DescContinue 4;}
+{\s65\li1800\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext66 DescContinue 5;}
+{\s66\li2160\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext67 DescContinue 6;}
+{\s67\li2520\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext68 DescContinue 7;}
+{\s68\li2880\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext69 DescContinue 8;}
+{\s69\li3240\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext69 DescContinue 9;}
+{\s70\li0\sa30\sb30\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext81 LatexTOC 0;}
+{\s71\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext82 LatexTOC 1;}
+{\s72\li720\sa24\sb24\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext83 LatexTOC 2;}
+{\s73\li1080\sa21\sb21\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext84 LatexTOC 3;}
+{\s74\li1440\sa18\sb18\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext85 LatexTOC 4;}
+{\s75\li1800\sa15\sb15\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext86 LatexTOC 5;}
+{\s76\li2160\sa12\sb12\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext87 LatexTOC 6;}
+{\s77\li2520\sa9\sb9\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext88 LatexTOC 7;}
+{\s78\li2880\sa6\sb6\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext89 LatexTOC 8;}
+{\s79\li3240\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext89 LatexTOC 9;}
+{\s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext81 \sautoupd List Bullet 0;}
+{\s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid \sbasedon0 \snext82 \sautoupd List Bullet 1;}
+{\s82\fi-360\li1080\widctlpar\jclisttab\tx1080{\*\pn \pnlvlbody\ilvl0\ls3\pnrnot0\pndec }\ls3\adjustright \fs20\cgrid \sbasedon0 \snext83 \sautoupd List Bullet 2;}
+{\s83\fi-360\li1440\widctlpar\jclisttab\tx1440{\*\pn \pnlvlbody\ilvl0\ls4\pnrnot0\pndec }\ls4\adjustright \fs20\cgrid \sbasedon0 \snext84 \sautoupd List Bullet 3;}
+{\s84\fi-360\li1800\widctlpar\jclisttab\tx1800{\*\pn \pnlvlbody\ilvl0\ls5\pnrnot0\pndec }\ls5\adjustright \fs20\cgrid \sbasedon0 \snext85 \sautoupd List Bullet 4;}
+{\s85\fi-360\li2160\widctlpar\jclisttab\tx2160{\*\pn \pnlvlbody\ilvl0\ls6\pnrnot0\pndec }\ls6\adjustright \fs20\cgrid \sbasedon0 \snext86 \sautoupd List Bullet 5;}
+{\s86\fi-360\li2520\widctlpar\jclisttab\tx2520{\*\pn \pnlvlbody\ilvl0\ls7\pnrnot0\pndec }\ls7\adjustright \fs20\cgrid \sbasedon0 \snext87 \sautoupd List Bullet 6;}
+{\s87\fi-360\li2880\widctlpar\jclisttab\tx2880{\*\pn \pnlvlbody\ilvl0\ls8\pnrnot0\pndec }\ls8\adjustright \fs20\cgrid \sbasedon0 \snext88 \sautoupd List Bullet 7;}
+{\s88\fi-360\li3240\widctlpar\jclisttab\tx3240{\*\pn \pnlvlbody\ilvl0\ls9\pnrnot0\pndec }\ls9\adjustright \fs20\cgrid \sbasedon0 \snext89 \sautoupd List Bullet 8;}
+{\s89\fi-360\li3600\widctlpar\jclisttab\tx3600{\*\pn \pnlvlbody\ilvl0\ls10\pnrnot0\pndec }\ls10\adjustright \fs20\cgrid \sbasedon0 \snext89 \sautoupd List Bullet 9;}
+{\s90\fi-360\li360\widctlpar\fs20\cgrid \sbasedon0 \snext91 \sautoupd List Enum 0;}
+{\s91\fi-360\li720\widctlpar\fs20\cgrid \sbasedon0 \snext92 \sautoupd List Enum 1;}
+{\s92\fi-360\li1080\widctlpar\fs20\cgrid \sbasedon0 \snext93 \sautoupd List Enum 2;}
+{\s93\fi-360\li1440\widctlpar\fs20\cgrid \sbasedon0 \snext94 \sautoupd List Enum 3;}
+{\s94\fi-360\li1800\widctlpar\fs20\cgrid \sbasedon0 \snext95 \sautoupd List Enum 4;}
+{\s95\fi-360\li2160\widctlpar\fs20\cgrid \sbasedon0 \snext96 \sautoupd List Enum 5;}
+{\s96\fi-360\li2520\widctlpar\fs20\cgrid \sbasedon0 \snext96 \sautoupd List Enum 5;}
+{\s97\fi-360\li2880\widctlpar\fs20\cgrid \sbasedon0 \snext98 \sautoupd List Enum 7;}
+{\s98\fi-360\li3240\widctlpar\fs20\cgrid \sbasedon0 \snext99 \sautoupd List Enum 8;}
+{\s99\fi-360\li3600\widctlpar\fs20\cgrid \sbasedon0 \snext99 \sautoupd List Enum 9;}
+}
+{\comment begin body}
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Referência da Classe QCPLineEnding\par \pard\plain 
+{\tc\tcl2 \v QCPLineEnding}
+{\xe \v QCPLineEnding}
+{\bkmkstart AAAAAAADEA}
+{\bkmkend AAAAAAADEA}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Handles the different ending decorations for line-like items. }}\par
+{
+{\f2 #include <qcustomplot.h>}}\par
+Diagrama de colaboração para QCPLineEnding:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "classQCPLineEnding__coll__graph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Tipos Públicos\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+enum {\b EndingStyle} \{ {\b esNone}, 
+{\b esFlatArrow}, 
+{\b esSpikeArrow}, 
+{\b esLineArrow}, 
+{\b esDisc}, 
+{\b esSquare}, 
+{\b esDiamond}, 
+{\b esBar}, 
+{\b esHalfBar}, 
+{\b esSkewedBar}
+ \}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Membros Públicos\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b QCPLineEnding} ()\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b QCPLineEnding} ({\b EndingStyle} {\b style}, double {\b width}=8, double {\b length}=10, bool {\b inverted}=false)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b EndingStyle} {\b style} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+double {\b width} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+double {\b length} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b inverted} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setStyle} ({\b EndingStyle} {\b style})\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setWidth} (double {\b width})\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setLength} (double {\b length})\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setInverted} (bool {\b inverted})\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+double {\b boundingDistance} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+double {\b realLength} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b draw} ({\b QCPPainter} *painter, const {\b QCPVector2D} &pos, const {\b QCPVector2D} &dir) const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b draw} ({\b QCPPainter} *painter, const {\b QCPVector2D} &pos, double {\b angle}) const\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Atributos Protegidos\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b EndingStyle} {\b mStyle}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+double {\b mWidth}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+double {\b mLength}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b mInverted}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Descrição detalhada\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Handles the different ending decorations for line-like items. \par
+}
+
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+ For every ending a line-like item has, an instance of this class exists. For example, {\b QCPItemLine} has two endings which can be set with {\b QCPItemLine::setHead} and {\b QCPItemLine::setTail}.\par
+The styles themselves are defined via the enum {\b QCPLineEnding::EndingStyle}. Most decorations can be modified regarding width and length, see {\b setWidth} and {\b setLength}. The direction of the ending decoration (e.g. direction an arrow is pointing) is controlled by the line-like item. For example, when both endings of a {\b QCPItemLine} are set to be arrows, they will point to opposite directions, e.g. "outward". This can be changed by {\b setInverted}, which would make the respective arrow point inward.\par
+Note that due to the overloaded {\b QCPLineEnding} constructor, you may directly specify a {\b QCPLineEnding::EndingStyle} where actually a {\b QCPLineEnding} is expected, e.g. {
+\par
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid }}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Enumerações\par
+\pard\plain 
+{\xe \v EndingStyle\:QCPLineEnding}
+{\xe \v QCPLineEnding\:EndingStyle}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+enum {\b QCPLineEnding::EndingStyle}}}
+\par
+{\bkmkstart AAAAAAADEB}
+{\bkmkend AAAAAAADEB}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Defines the type of ending decoration for line-like items, e.g. an arrow.\par
+The width and length of these decorations can be controlled with the functions {\b setWidth} and {\b setLength}. Some decorations like {\b esDisc}, {\b esSquare}, {\b esDiamond} and {\b esBar} only support a width, the length property is ignored.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b QCPItemLine::setHead}, {\b QCPItemLine::setTail}, {\b QCPItemCurve::setHead}, {\b QCPItemCurve::setTail}, {\b QCPAxis::setLowerEnding}, {\b QCPAxis::setUpperEnding} \par
+}}{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Enumeradores:\par}
+\pard\plain \s61\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{\xe \v esNone\:QCPLineEnding}
+{\xe \v QCPLineEnding\:esNone}
+{\qr esNone{\bkmkstart AAAAAAADEC}
+{\bkmkend AAAAAAADEC}
+\cell }{{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+No ending decoration. \par
+}\cell }{\row }
+{\xe \v esFlatArrow\:QCPLineEnding}
+{\xe \v QCPLineEnding\:esFlatArrow}
+{\qr esFlatArrow{\bkmkstart AAAAAAADED}
+{\bkmkend AAAAAAADED}
+\cell }{{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+A filled arrow head with a straight/flat back (a triangle) \par
+}\cell }{\row }
+{\xe \v esSpikeArrow\:QCPLineEnding}
+{\xe \v QCPLineEnding\:esSpikeArrow}
+{\qr esSpikeArrow{\bkmkstart AAAAAAADEE}
+{\bkmkend AAAAAAADEE}
+\cell }{{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+A filled arrow head with an indented back. \par
+}\cell }{\row }
+{\xe \v esLineArrow\:QCPLineEnding}
+{\xe \v QCPLineEnding\:esLineArrow}
+{\qr esLineArrow{\bkmkstart AAAAAAADEF}
+{\bkmkend AAAAAAADEF}
+\cell }{{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+A non-filled arrow head with open back. \par
+}\cell }{\row }
+{\xe \v esDisc\:QCPLineEnding}
+{\xe \v QCPLineEnding\:esDisc}
+{\qr esDisc{\bkmkstart AAAAAAADEG}
+{\bkmkend AAAAAAADEG}
+\cell }{{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+A filled circle. \par
+}\cell }{\row }
+{\xe \v esSquare\:QCPLineEnding}
+{\xe \v QCPLineEnding\:esSquare}
+{\qr esSquare{\bkmkstart AAAAAAADEH}
+{\bkmkend AAAAAAADEH}
+\cell }{{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+A filled square. \par
+}\cell }{\row }
+{\xe \v esDiamond\:QCPLineEnding}
+{\xe \v QCPLineEnding\:esDiamond}
+{\qr esDiamond{\bkmkstart AAAAAAADEI}
+{\bkmkend AAAAAAADEI}
+\cell }{{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+A filled diamond (45 degrees rotated square) \par
+}\cell }{\row }
+{\xe \v esBar\:QCPLineEnding}
+{\xe \v QCPLineEnding\:esBar}
+{\qr esBar{\bkmkstart AAAAAAADEJ}
+{\bkmkend AAAAAAADEJ}
+\cell }{{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+A bar perpendicular to the line. \par
+}\cell }{\row }
+{\xe \v esHalfBar\:QCPLineEnding}
+{\xe \v QCPLineEnding\:esHalfBar}
+{\qr esHalfBar{\bkmkstart AAAAAAADEK}
+{\bkmkend AAAAAAADEK}
+\cell }{{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+A bar perpendicular to the line, pointing out to only one side (to which side can be changed with {\b setInverted}) \par
+}\cell }{\row }
+{\xe \v esSkewedBar\:QCPLineEnding}
+{\xe \v QCPLineEnding\:esSkewedBar}
+{\qr esSkewedBar{\bkmkstart AAAAAAADEL}
+{\bkmkend AAAAAAADEL}
+\cell }{{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+A bar that is skewed (skew controllable via {\b setLength}) \par
+}\cell }{\row }
+}
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1484                    \{ esNone          \par
+ 1485                      ,esFlatArrow    \par
+ 1486                      ,esSpikeArrow   \par
+ 1487                      ,esLineArrow    \par
+ 1488                      ,esDisc         \par
+ 1489                      ,esSquare       \par
+ 1490                      ,esDiamond      \par
+ 1491                      ,esBar          \par
+ 1492                      ,esHalfBar      \par
+ 1493                      ,esSkewedBar    \par
+ 1494                    \};\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Construtores e Destrutores\par
+\pard\plain 
+{\xe \v QCPLineEnding\:QCPLineEnding}
+{\xe \v QCPLineEnding\:QCPLineEnding}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QCPLineEnding::QCPLineEnding ()}}
+\par
+{\bkmkstart AAAAAAADEM}
+{\bkmkend AAAAAAADEM}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Creates a {\b QCPLineEnding} instance with default values (style {\b esNone}). \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  5157                              :\par
+ 5158   mStyle(esNone),\par
+ 5159   mWidth(8),\par
+ 5160   mLength(10),\par
+ 5161   mInverted(false)\par
+ 5162 \{\par
+ 5163 \}\par
+}
+}
+{\xe \v QCPLineEnding\:QCPLineEnding}
+{\xe \v QCPLineEnding\:QCPLineEnding}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QCPLineEnding::QCPLineEnding ({\b QCPLineEnding::EndingStyle}  {\i style}, double  {\i width} = {\f2 8}, double  {\i length} = {\f2 10}, bool  {\i inverted} = {\f2 false})}}
+\par
+{\bkmkstart AAAAAAADEN}
+{\bkmkend AAAAAAADEN}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Creates a {\b QCPLineEnding} instance with the specified values. \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  5168                                                                                                        :\par
+ 5169   mStyle(style),\par
+ 5170   mWidth(width),\par
+ 5171   mLength(length),\par
+ 5172   mInverted(inverted)\par
+ 5173 \{\par
+ 5174 \}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Funções membros\par
+\pard\plain 
+{\xe \v boundingDistance\:QCPLineEnding}
+{\xe \v QCPLineEnding\:boundingDistance}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+double QCPLineEnding::boundingDistance () const}}
+\par
+{\bkmkstart AAAAAAADEO}
+{\bkmkend AAAAAAADEO}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  5229 \{\par
+ 5230   switch (mStyle)\par
+ 5231   \{\par
+ 5232     case esNone:\par
+ 5233       return 0;\par
+ 5234       \par
+ 5235     case esFlatArrow:\par
+ 5236     case esSpikeArrow:\par
+ 5237     case esLineArrow:\par
+ 5238     case esSkewedBar:\par
+ 5239       return qSqrt(mWidth*mWidth+mLength*mLength); // items that have width and length\par
+ 5240       \par
+ 5241     case esDisc:\par
+ 5242     case esSquare:\par
+ 5243     case esDiamond:\par
+ 5244     case esBar:\par
+ 5245     case esHalfBar:\par
+ 5246       return mWidth*1.42; // items that only have a width -> width*sqrt(2)\par
+ 5247 \par
+ 5248   \}\par
+ 5249   return 0;\par
+ 5250 \}\par
+}
+}
+{\xe \v draw\:QCPLineEnding}
+{\xe \v QCPLineEnding\:draw}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPLineEnding::draw ({\b QCPPainter} *  {\i painter}, const {\b QCPVector2D} &  {\i pos}, const {\b QCPVector2D} &  {\i dir}) const}}
+\par
+{\bkmkstart AAAAAAADEP}
+{\bkmkend AAAAAAADEP}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  5294 \{\par
+ 5295   if (mStyle == esNone)\par
+ 5296     return;\par
+ 5297   \par
+ 5298   QCPVector2D lengthVec = dir.normalized() * mLength*(mInverted ? -1 : 1);\par
+ 5299   if (lengthVec.isNull())\par
+ 5300     lengthVec = QCPVector2D(1, 0);\par
+ 5301   QCPVector2D widthVec = dir.normalized().perpendicular() * mWidth*0.5*(mInverted ? -1 : 1);\par
+ 5302   \par
+ 5303   QPen penBackup = painter->pen();\par
+ 5304   QBrush brushBackup = painter->brush();\par
+ 5305   QPen miterPen = penBackup;\par
+ 5306   miterPen.setJoinStyle(Qt::MiterJoin); // to make arrow heads spikey\par
+ 5307   QBrush brush(painter->pen().color(), Qt::SolidPattern);\par
+ 5308   switch (mStyle)\par
+ 5309   \{\par
+ 5310     case esNone: break;\par
+ 5311     case esFlatArrow:\par
+ 5312     \{\par
+ 5313       QPointF points[3] = \{pos.toPointF(),\par
+ 5314                            (pos-lengthVec+widthVec).toPointF(),\par
+ 5315                            (pos-lengthVec-widthVec).toPointF()\par
+ 5316                           \};\par
+ 5317       painter->setPen(miterPen);\par
+ 5318       painter->setBrush(brush);\par
+ 5319       painter->drawConvexPolygon(points, 3);\par
+ 5320       painter->setBrush(brushBackup);\par
+ 5321       painter->setPen(penBackup);\par
+ 5322       break;\par
+ 5323     \}\par
+ 5324     case esSpikeArrow:\par
+ 5325     \{\par
+ 5326       QPointF points[4] = \{pos.toPointF(),\par
+ 5327                            (pos-lengthVec+widthVec).toPointF(),\par
+ 5328                            (pos-lengthVec*0.8).toPointF(),\par
+ 5329                            (pos-lengthVec-widthVec).toPointF()\par
+ 5330                           \};\par
+ 5331       painter->setPen(miterPen);\par
+ 5332       painter->setBrush(brush);\par
+ 5333       painter->drawConvexPolygon(points, 4);\par
+ 5334       painter->setBrush(brushBackup);\par
+ 5335       painter->setPen(penBackup);\par
+ 5336       break;\par
+ 5337     \}\par
+ 5338     case esLineArrow:\par
+ 5339     \{\par
+ 5340       QPointF points[3] = \{(pos-lengthVec+widthVec).toPointF(),\par
+ 5341                            pos.toPointF(),\par
+ 5342                            (pos-lengthVec-widthVec).toPointF()\par
+ 5343                           \};\par
+ 5344       painter->setPen(miterPen);\par
+ 5345       painter->drawPolyline(points, 3);\par
+ 5346       painter->setPen(penBackup);\par
+ 5347       break;\par
+ 5348     \}\par
+ 5349     case esDisc:\par
+ 5350     \{\par
+ 5351       painter->setBrush(brush);\par
+ 5352       painter->drawEllipse(pos.toPointF(),  mWidth*0.5, mWidth*0.5);\par
+ 5353       painter->setBrush(brushBackup);\par
+ 5354       break;\par
+ 5355     \}\par
+ 5356     case esSquare:\par
+ 5357     \{\par
+ 5358       QCPVector2D widthVecPerp = widthVec.perpendicular();\par
+ 5359       QPointF points[4] = \{(pos-widthVecPerp+widthVec).toPointF(),\par
+ 5360                            (pos-widthVecPerp-widthVec).toPointF(),\par
+ 5361                            (pos+widthVecPerp-widthVec).toPointF(),\par
+ 5362                            (pos+widthVecPerp+widthVec).toPointF()\par
+ 5363                           \};\par
+ 5364       painter->setPen(miterPen);\par
+ 5365       painter->setBrush(brush);\par
+ 5366       painter->drawConvexPolygon(points, 4);\par
+ 5367       painter->setBrush(brushBackup);\par
+ 5368       painter->setPen(penBackup);\par
+ 5369       break;\par
+ 5370     \}\par
+ 5371     case esDiamond:\par
+ 5372     \{\par
+ 5373       QCPVector2D widthVecPerp = widthVec.perpendicular();\par
+ 5374       QPointF points[4] = \{(pos-widthVecPerp).toPointF(),\par
+ 5375                            (pos-widthVec).toPointF(),\par
+ 5376                            (pos+widthVecPerp).toPointF(),\par
+ 5377                            (pos+widthVec).toPointF()\par
+ 5378                           \};\par
+ 5379       painter->setPen(miterPen);\par
+ 5380       painter->setBrush(brush);\par
+ 5381       painter->drawConvexPolygon(points, 4);\par
+ 5382       painter->setBrush(brushBackup);\par
+ 5383       painter->setPen(penBackup);\par
+ 5384       break;\par
+ 5385     \}\par
+ 5386     case esBar:\par
+ 5387     \{\par
+ 5388       painter->drawLine((pos+widthVec).toPointF(), (pos-widthVec).toPointF());\par
+ 5389       break;\par
+ 5390     \}\par
+ 5391     case esHalfBar:\par
+ 5392     \{\par
+ 5393       painter->drawLine((pos+widthVec).toPointF(), pos.toPointF());\par
+ 5394       break;\par
+ 5395     \}\par
+ 5396     case esSkewedBar:\par
+ 5397     \{\par
+ 5398       if (qFuzzyIsNull(painter->pen().widthF()) && !painter->modes().testFlag(QCPPainter::pmNonCosmetic))\par
+ 5399       \{\par
+ 5400         // if drawing with cosmetic pen (perfectly thin stroke, happens only in vector exports), draw bar exactly on tip of line\par
+ 5401         painter->drawLine((pos+widthVec+lengthVec*0.2*(mInverted?-1:1)).toPointF(),\par
+ 5402                           (pos-widthVec-lengthVec*0.2*(mInverted?-1:1)).toPointF());\par
+ 5403       \} else\par
+ 5404       \{\par
+ 5405         // if drawing with thick (non-cosmetic) pen, shift bar a little in line direction to prevent line from sticking through bar slightly\par
+ 5406         painter->drawLine((pos+widthVec+lengthVec*0.2*(mInverted?-1:1)+dir.normalized()*qMax(1.0f, (float)painter->pen().widthF())*0.5f).toPointF(),\par
+ 5407                           (pos-widthVec-lengthVec*0.2*(mInverted?-1:1)+dir.normalized()*qMax(1.0f, (float)painter->pen().widthF())*0.5f).toPointF());\par
+ 5408       \}\par
+ 5409       break;\par
+ 5410     \}\par
+ 5411   \}\par
+ 5412 \}\par
+}
+}
+{\xe \v draw\:QCPLineEnding}
+{\xe \v QCPLineEnding\:draw}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPLineEnding::draw ({\b QCPPainter} *  {\i painter}, const {\b QCPVector2D} &  {\i pos}, double  {\i angle}) const}}
+\par
+{\bkmkstart AAAAAAADEQ}
+{\bkmkend AAAAAAADEQ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  5420 \{\par
+ 5421   draw(painter, pos, QCPVector2D(qCos(angle), qSin(angle)));\par
+ 5422 \}\par
+}
+}
+{\xe \v inverted\:QCPLineEnding}
+{\xe \v QCPLineEnding\:inverted}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool QCPLineEnding::inverted () const{\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAADER}
+{\bkmkend AAAAAAADER}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1504 \{ return mInverted; \}\par
+}
+}
+{\xe \v length\:QCPLineEnding}
+{\xe \v QCPLineEnding\:length}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+double QCPLineEnding::length () const{\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAADES}
+{\bkmkend AAAAAAADES}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1503 \{ return mLength; \}\par
+}
+}
+{\xe \v realLength\:QCPLineEnding}
+{\xe \v QCPLineEnding\:realLength}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+double QCPLineEnding::realLength () const}}
+\par
+{\bkmkstart AAAAAAADET}
+{\bkmkend AAAAAAADET}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Starting from the origin of this line ending (which is style specific), returns the length covered by the line ending symbol, in backward direction.\par
+For example, the {\b esSpikeArrow} has a shorter real length than a {\b esFlatArrow}, even if both have the same {\b setLength} value, because the spike arrow has an inward curved back, which reduces the length along its center axis (the drawing origin for arrows is at the tip).\par
+This function is used for precise, style specific placement of line endings, for example in QCPAxes. \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  5264 \{\par
+ 5265   switch (mStyle)\par
+ 5266   \{\par
+ 5267     case esNone:\par
+ 5268     case esLineArrow:\par
+ 5269     case esSkewedBar:\par
+ 5270     case esBar:\par
+ 5271     case esHalfBar:\par
+ 5272       return 0;\par
+ 5273       \par
+ 5274     case esFlatArrow:\par
+ 5275       return mLength;\par
+ 5276       \par
+ 5277     case esDisc:\par
+ 5278     case esSquare:\par
+ 5279     case esDiamond:\par
+ 5280       return mWidth*0.5;\par
+ 5281       \par
+ 5282     case esSpikeArrow:\par
+ 5283       return mLength*0.8;\par
+ 5284   \}\par
+ 5285   return 0;\par
+ 5286 \}\par
+}
+}
+{\xe \v setInverted\:QCPLineEnding}
+{\xe \v QCPLineEnding\:setInverted}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPLineEnding::setInverted (bool  {\i inverted})}}
+\par
+{\bkmkstart AAAAAAADEU}
+{\bkmkend AAAAAAADEU}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Sets whether the ending decoration shall be inverted. For example, an arrow decoration will point inward when {\i inverted}  is set to true.\par
+Note that also the {\i width}  direction is inverted. For symmetrical ending styles like arrows or discs, this doesn't make a difference. However, asymmetric styles like {\b esHalfBar} are affected by it, which can be used to control to which side the half bar points to. \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  5215 \{\par
+ 5216   mInverted = inverted;\par
+ 5217 \}\par
+}
+}
+{\xe \v setLength\:QCPLineEnding}
+{\xe \v QCPLineEnding\:setLength}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPLineEnding::setLength (double  {\i length})}}
+\par
+{\bkmkstart AAAAAAADEV}
+{\bkmkend AAAAAAADEV}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Sets the length of the ending decoration, if the style supports it. On arrows, for example, the length defines the size in pointing direction.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b setWidth} \par
+}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  5202 \{\par
+ 5203   mLength = length;\par
+ 5204 \}\par
+}
+}
+{\xe \v setStyle\:QCPLineEnding}
+{\xe \v QCPLineEnding\:setStyle}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPLineEnding::setStyle ({\b QCPLineEnding::EndingStyle}  {\i style})}}
+\par
+{\bkmkstart AAAAAAADEW}
+{\bkmkend AAAAAAADEW}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Sets the style of the ending decoration. \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  5180 \{\par
+ 5181   mStyle = style;\par
+ 5182 \}\par
+}
+}
+{\xe \v setWidth\:QCPLineEnding}
+{\xe \v QCPLineEnding\:setWidth}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPLineEnding::setWidth (double  {\i width})}}
+\par
+{\bkmkstart AAAAAAADEX}
+{\bkmkend AAAAAAADEX}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Sets the width of the ending decoration, if the style supports it. On arrows, for example, the width defines the size perpendicular to the arrow's pointing direction.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b setLength} \par
+}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  5191 \{\par
+ 5192   mWidth = width;\par
+ 5193 \}\par
+}
+}
+{\xe \v style\:QCPLineEnding}
+{\xe \v QCPLineEnding\:style}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b EndingStyle} QCPLineEnding::style () const{\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAADEY}
+{\bkmkend AAAAAAADEY}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1501 \{ return mStyle; \}\par
+}
+}
+{\xe \v width\:QCPLineEnding}
+{\xe \v QCPLineEnding\:width}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+double QCPLineEnding::width () const{\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAADEZ}
+{\bkmkend AAAAAAADEZ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1502 \{ return mWidth; \}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Atributos\par
+\pard\plain 
+{\xe \v mInverted\:QCPLineEnding}
+{\xe \v QCPLineEnding\:mInverted}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool QCPLineEnding::mInverted{\f2 [protected]}}}
+\par
+{\bkmkstart AAAAAAADFA}
+{\bkmkend AAAAAAADFA}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v mLength\:QCPLineEnding}
+{\xe \v QCPLineEnding\:mLength}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+double QCPLineEnding::mLength{\f2 [protected]}}}
+\par
+{\bkmkstart AAAAAAADFB}
+{\bkmkend AAAAAAADFB}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v mStyle\:QCPLineEnding}
+{\xe \v QCPLineEnding\:mStyle}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b EndingStyle} QCPLineEnding::mStyle{\f2 [protected]}}}
+\par
+{\bkmkstart AAAAAAADFC}
+{\bkmkend AAAAAAADFC}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v mWidth\:QCPLineEnding}
+{\xe \v QCPLineEnding\:mWidth}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+double QCPLineEnding::mWidth{\f2 [protected]}}}
+\par
+{\bkmkstart AAAAAAADFD}
+{\bkmkend AAAAAAADFD}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+A documentação para essa classe foi gerada a partir dos seguintes arquivos:{\par
+\pard\plain \s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid 
+{\b qcustomplot.h}\par
+\pard\plain \s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid 
+{\b qcustomplot.cpp}\par
+}}

@@ -40,9 +40,20 @@
                     </listitem>
                 </itemizedlist>
             </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                            <para><literallayout>enum <link linkend="class_q_c_p_axis_ticker_1ab6d2f9d9477821623ac9bc4b21ddf49a">TickStepStrategy</link> {
+<link linkend="class_q_c_p_axis_ticker_1ab6d2f9d9477821623ac9bc4b21ddf49aa9002aa2fd5633ab5556c71a26fed63a8">tssReadability</link>,
+<link linkend="class_q_c_p_axis_ticker_1ab6d2f9d9477821623ac9bc4b21ddf49aa770312b6b9b0c64a37ceeba96e0cd7f2">tssMeetTickCount</link>
+}</literallayout>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
         </section>
         <section>
-            <title>Protected Attributes</title>
+            <title>Atributos Protegidos</title>
             <para>
                 <itemizedlist>
                     <listitem>
@@ -75,6 +86,27 @@
                 <itemizedlist>
                     <listitem>
                         <para>double mPiTickStep</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>TickStepStrategy mTickStepStrategy</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>int mTickCount</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double mTickOrigin</para>
                     </listitem>
                 </itemizedlist>
             </para>
@@ -153,6 +185,62 @@ int multiplesOfPi)</para>
                     </listitem>
                 </itemizedlist>
             </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="class_q_c_p_axis_ticker_1ab6d2f9d9477821623ac9bc4b21ddf49a">TickStepStrategy</link> <link linkend="class_q_c_p_axis_ticker_1a58df76f2ec3eb48401bdd314b0e14ba1">tickStepStrategy</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>int <link linkend="class_q_c_p_axis_ticker_1aaf9edbe4169ce55e216fd067cc139452">tickCount</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double <link linkend="class_q_c_p_axis_ticker_1ac0c6e9587c36fdeefb5518c00fe7ab15">tickOrigin</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_axis_ticker_1a73b1d847c1a12159af6bfda4ebebe7d5">setTickStepStrategy</link> (
+<link linkend="class_q_c_p_axis_ticker_1ab6d2f9d9477821623ac9bc4b21ddf49a">TickStepStrategy</link> strategy)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_axis_ticker_1a47752abba8293e6dc18491501ae34008">setTickCount</link> (
+int count)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_axis_ticker_1ab509c7e500293bf66a8409f0d7c23943">setTickOrigin</link> (
+double origin)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="class_q_c_p_axis_ticker_1aefbd11725678ca824add8cf926cbc856">generate</link> (
+const <link linkend="class_q_c_p_range">QCPRange</link> &amp; range, const QLocale &amp; locale, QChar formatChar, int precision, QVector&lt; double &gt; &amp; ticks, QVector&lt; double &gt; * subTicks, QVector&lt; QString &gt; * tickLabels)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
         </section>
         <section>
             <title></title>
@@ -220,13 +308,69 @@ int number)</para>
                     </listitem>
                 </itemizedlist>
             </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual QVector&lt; double &gt; <link linkend="class_q_c_p_axis_ticker_1af4645a824c7bd2ca8fc7e86ebf9055bd">createTickVector</link> (
+double tickStep, const <link linkend="class_q_c_p_range">QCPRange</link> &amp; range)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual QVector&lt; double &gt; <link linkend="class_q_c_p_axis_ticker_1a9a6435723fa0bd366d1ea4c2cff7c33f">createSubTickVector</link> (
+int subTickCount, const QVector&lt; double &gt; &amp; ticks)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual QVector&lt; QString &gt; <link linkend="class_q_c_p_axis_ticker_1a804050e408f37a0b9770c6654ebe6aa7">createLabelVector</link> (
+const QVector&lt; double &gt; &amp; ticks, const QLocale &amp; locale, QChar formatChar, int precision)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_axis_ticker_1ab28cc1ab549489be7975f5ce7e717916">trimTicks</link> (
+const <link linkend="class_q_c_p_range">QCPRange</link> &amp; range, QVector&lt; double &gt; &amp; ticks, bool keepOneOutlier)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double <link linkend="class_q_c_p_axis_ticker_1a4ea0a7c4ca1c610f92b9bd5944ab4260">pickClosest</link> (
+double target, const QVector&lt; double &gt; &amp; candidates)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double <link linkend="class_q_c_p_axis_ticker_1a2f1e223bafbf2cec7c3ba8b08d5c77e8">getMantissa</link> (
+double input, double * magnitude)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double <link linkend="class_q_c_p_axis_ticker_1ac7df6c72876b7abd67c932663a0b0f6a">cleanMantissa</link> (
+double input)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
         </section>
     <simplesect>
 
 <para>Specialized axis ticker to display ticks in units of an arbitrary constant, for example pi. </para>
     </simplesect>
         <simplesect>
-            <title>Detailed Description</title>
+            <title>Descrição detalhada</title>
 
 <para></para>
 
@@ -244,14 +388,14 @@ int number)</para>
                
 <para>Defines how fractions should be displayed in tick labels.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_c_p_axis_ticker_pi_1a760c8af6ca68178e607556c4e5049d71">setFractionStyle</link> </para>
 </formalpara>
 </para>
 
                <formalpara>
-                    <title>Enumerator:</title>
+                    <title>Enumeradores:</title>
                     <variablelist>
                         <varlistentry xml:id="class_q_c_p_axis_ticker_pi_1a262f1534c7f0c79a7d5237f5d1e2c54ca00f097b669b2a0e22f508f1ae97877d8">
                             <term>fsFloatingPoint</term>
@@ -283,8 +427,45 @@ fsUnicodeFractions,
                     </literallayout></computeroutput>
                 </para>
             </section>
+            <section xml:id="class_q_c_p_axis_ticker_1ab6d2f9d9477821623ac9bc4b21ddf49a">
+               <title>enum TickStepStrategy </title>
+               
+<para>Defines the strategies that the axis ticker may follow when choosing the size of the tick step.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="class_q_c_p_axis_ticker_1a73b1d847c1a12159af6bfda4ebebe7d5">setTickStepStrategy</link> </para>
+</formalpara>
+</para>
+
+               <formalpara>
+                    <title>Enumeradores:</title>
+                    <variablelist>
+                        <varlistentry xml:id="class_q_c_p_axis_ticker_1ab6d2f9d9477821623ac9bc4b21ddf49aa9002aa2fd5633ab5556c71a26fed63a8">
+                            <term>tssReadability</term>
+                            <listitem>
+                                <para>A nicely readable tick step is prioritized over matching the requested number of ticks (see \ref setTickCount)</para>
+                            </listitem>
+                        </varlistentry>
+                        <varlistentry xml:id="class_q_c_p_axis_ticker_1ab6d2f9d9477821623ac9bc4b21ddf49aa770312b6b9b0c64a37ceeba96e0cd7f2">
+                            <term>tssMeetTickCount</term>
+                            <listitem>
+                                <para>Less readable tick steps are allowed which in turn facilitates getting closer to the requested tick count.</para>
+                            </listitem>
+                        </varlistentry>
+                     </variablelist>
+                </formalpara>
+                <para>Definition at line 1543 of file qcustomplot.h
+                    <computeroutput><literallayout>
+{
+tssReadability, 
+tssMeetTickCount, 
+}TickStepStrategy;
+                    </literallayout></computeroutput>
+                </para>
+            </section>
         <section>
-            <title>Member Data Documentation</title>
+            <title>Atributos</title>
         </section>
             <section xml:id="class_q_c_p_axis_ticker_pi_1aa0d7b7034055927c0f0077a2d713d7d0">
                 <title>QCPAxisTickerPi::QCPAxisTickerPi ()</title> <emphasis></emphasis>
@@ -340,6 +521,50 @@ fsUnicodeFractions,
 <para>Sets how the numerical/fractional part preceding the symbolic constant is displayed in tick labels. See <link linkend="class_q_c_p_axis_ticker_pi_1a262f1534c7f0c79a7d5237f5d1e2c54c">FractionStyle</link> for the various options. </para>
 
             </section>
+            <section xml:id="class_q_c_p_axis_ticker_1a58df76f2ec3eb48401bdd314b0e14ba1">
+                <title>TickStepStrategy QCPAxisTicker::tickStepStrategy () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_axis_ticker_1aaf9edbe4169ce55e216fd067cc139452">
+                <title>int QCPAxisTicker::tickCount () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_axis_ticker_1ac0c6e9587c36fdeefb5518c00fe7ab15">
+                <title>double QCPAxisTicker::tickOrigin () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_axis_ticker_1a73b1d847c1a12159af6bfda4ebebe7d5">
+                <title>void QCPAxisTicker::setTickStepStrategy (TickStepStrategy strategy)</title> <emphasis></emphasis>
+                
+<para>Sets which strategy the axis ticker follows when choosing the size of the tick step. For the available strategies, see <link linkend="class_q_c_p_axis_ticker_1ab6d2f9d9477821623ac9bc4b21ddf49a">TickStepStrategy</link>. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_axis_ticker_1a47752abba8293e6dc18491501ae34008">
+                <title>void QCPAxisTicker::setTickCount (int count)</title> <emphasis></emphasis>
+                
+<para>Sets how many ticks this ticker shall aim to generate across the axis range. Note that <emphasis>count</emphasis> is not guaranteed to be matched exactly, as generating readable tick intervals may conflict with the requested number of ticks.</para>
+
+<para>Whether the readability has priority over meeting the requested <emphasis>count</emphasis> can be specified with <link linkend="class_q_c_p_axis_ticker_1a73b1d847c1a12159af6bfda4ebebe7d5">setTickStepStrategy</link>. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_axis_ticker_1ab509c7e500293bf66a8409f0d7c23943">
+                <title>void QCPAxisTicker::setTickOrigin (double origin)</title> <emphasis></emphasis>
+                
+<para>Sets the mathematical coordinate (or &quot;offset&quot;) of the zeroth tick. This tick coordinate is just a concept and doesn&apos;t need to be inside the currently visible axis range.</para>
+
+<para>By default <emphasis>origin</emphasis> is zero, which for example yields ticks {-5, 0, 5, 10, 15,...} when the tick step is five. If <emphasis>origin</emphasis> is now set to 1 instead, the correspondingly generated ticks would be {-4, 1, 6, 11, 16,...}. </para>
+
+            </section>
+            <section xml:id="class_q_c_p_axis_ticker_1aefbd11725678ca824add8cf926cbc856">
+                <title>void QCPAxisTicker::generate (const QCPRange &amp;range, const QLocale &amp;locale, QChar formatChar, int precision, QVector&lt; double &gt; &amp;ticks, QVector&lt; double &gt; *subTicks, QVector&lt; QString &gt; *tickLabels)</title> <emphasis></emphasis>
+                
+<para>This is the method called by <link linkend="class_q_c_p_axis">QCPAxis</link> in order to actually generate tick coordinates (<emphasis>ticks</emphasis>), tick label strings (<emphasis>tickLabels</emphasis>) and sub tick coordinates (<emphasis>subTicks</emphasis>).</para>
+
+<para>The ticks are generated for the specified <emphasis>range</emphasis>. The generated labels typically follow the specified <emphasis>locale</emphasis>, <emphasis>formatChar</emphasis> and number <emphasis>precision</emphasis>, however this might be different (or even irrelevant) for certain <link linkend="class_q_c_p_axis_ticker">QCPAxisTicker</link> subclasses.</para>
+
+<para>The output parameter <emphasis>ticks</emphasis> is filled with the generated tick positions in axis coordinates. The output parameters <emphasis>subTicks</emphasis> and <emphasis>tickLabels</emphasis> are optional (set them to 0 if not needed) and are respectively filled with sub tick coordinates, and tick label strings belonging to <emphasis>ticks</emphasis> by index. </para>
+
+            </section>
             <section xml:id="class_q_c_p_axis_ticker_pi_1a55301f0072983bd2d7c131a24e1779e7">
                 <title>double QCPAxisTickerPi::getTickStep (const QCPRange &amp;range) Q_DECL_OVERRIDE</title> <emphasis></emphasis>
                 
@@ -370,6 +595,34 @@ fsUnicodeFractions,
             </section>
             <section xml:id="class_q_c_p_axis_ticker_pi_1a5b3bb340adb888a30a96225e1ca23c7a">
                 <title>QString QCPAxisTickerPi::unicodeSubscript (int number) const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_axis_ticker_1af4645a824c7bd2ca8fc7e86ebf9055bd">
+                <title>QVector&lt; double &gt; QCPAxisTicker::createTickVector (double tickStep, const QCPRange &amp;range)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_axis_ticker_1a9a6435723fa0bd366d1ea4c2cff7c33f">
+                <title>QVector&lt; double &gt; QCPAxisTicker::createSubTickVector (int subTickCount, const QVector&lt; double &gt; &amp;ticks)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_axis_ticker_1a804050e408f37a0b9770c6654ebe6aa7">
+                <title>QVector&lt; QString &gt; QCPAxisTicker::createLabelVector (const QVector&lt; double &gt; &amp;ticks, const QLocale &amp;locale, QChar formatChar, int precision)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_axis_ticker_1ab28cc1ab549489be7975f5ce7e717916">
+                <title>void QCPAxisTicker::trimTicks (const QCPRange &amp;range, QVector&lt; double &gt; &amp;ticks, bool keepOneOutlier) const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_axis_ticker_1a4ea0a7c4ca1c610f92b9bd5944ab4260">
+                <title>double QCPAxisTicker::pickClosest (double target, const QVector&lt; double &gt; &amp;candidates) const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_axis_ticker_1a2f1e223bafbf2cec7c3ba8b08d5c77e8">
+                <title>double QCPAxisTicker::getMantissa (double input, double *magnitude=0) const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_axis_ticker_1ac7df6c72876b7abd67c932663a0b0f6a">
+                <title>double QCPAxisTicker::cleanMantissa (double input) const</title> <emphasis></emphasis>
                 
             </section>
 </section>

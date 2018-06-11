@@ -1,0 +1,546 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="classQCPRange">
+<title>QCPRange class Reference</title>
+<para>
+    <programlisting>#include <link linkend="qcustomplot_8h">&lt;qcustomplot.h&gt;</link></programlisting>
+</para>
+<para>Inheritance diagram for QCPRange</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="classQCPRange__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for QCPRange</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="classQCPRange__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title>Atributos Públicos</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double lower</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double upper</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static const double minRange</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static const double maxRange</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="classQCPRange_1aca158d7e69702cee5d77d10a269b01e2">QCPRange</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="classQCPRange_1a1d9d84d084c8f368fdedd42e0978d405">QCPRange</link> (
+double lower, double upper)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="classQCPRange_1a9f8d1fdcf4b6d19779f1c3d9a14b09c9">operator==</link> (
+const <link linkend="classQCPRange">QCPRange</link> &amp; other)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="classQCPRange_1a4827a37c83b8bb4bf53fcf8f6a257e77">operator!=</link> (
+const <link linkend="classQCPRange">QCPRange</link> &amp; other)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="classQCPRange">QCPRange</link> &amp; <link linkend="classQCPRange_1afea7c1aa7d08f061cd9bd8832f957df8">operator+=</link> (
+const double &amp; value)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="classQCPRange">QCPRange</link> &amp; <link linkend="classQCPRange_1a95894bcb15a16a75ca564091374e2191">operator-=</link> (
+const double &amp; value)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="classQCPRange">QCPRange</link> &amp; <link linkend="classQCPRange_1a6876aa9620ff2f0f7f1873f998372cef">operator*=</link> (
+const double &amp; value)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="classQCPRange">QCPRange</link> &amp; <link linkend="classQCPRange_1a6137d8682b6835ace840730b4c1e2d63">operator/=</link> (
+const double &amp; value)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double <link linkend="classQCPRange_1a62326e7cc4316b96df6a60813230e63f">size</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double <link linkend="classQCPRange_1af57d4a37a45d0101177ca30fae5d4ca8">center</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPRange_1af914a7740269b0604d0827c634a878a9">normalize</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPRange_1a0fa1bc8048be50d52bea93a8caf08305">expand</link> (
+const <link linkend="classQCPRange">QCPRange</link> &amp; otherRange)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPRange_1a5fa977db0a4b7800075c629c62cf5e80">expand</link> (
+double includeCoord)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="classQCPRange">QCPRange</link> <link linkend="classQCPRange_1a9cbfb7cd06eac1839cae981e05c19633">expanded</link> (
+const <link linkend="classQCPRange">QCPRange</link> &amp; otherRange)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="classQCPRange">QCPRange</link> <link linkend="classQCPRange_1af81d70f1add7233d73a19dcbe5decb2e">expanded</link> (
+double includeCoord)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="classQCPRange">QCPRange</link> <link linkend="classQCPRange_1a22151e18d961d762d25721211e89c2e5">bounded</link> (
+double lowerBound, double upperBound)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="classQCPRange">QCPRange</link> <link linkend="classQCPRange_1a3d66288d66e1d6df3636075eb42502ee">sanitizedForLogScale</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="classQCPRange">QCPRange</link> <link linkend="classQCPRange_1a808751fdd9b17ef52327ba011df2e5f1">sanitizedForLinScale</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="classQCPRange_1ae9842b48b6d38dc5e9607358e3083cc8">contains</link> (
+double value)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static bool <link linkend="classQCPRange_1ab38bd4841c77c7bb86c9eea0f142dcc0">validRange</link> (
+double lower, double upper)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static bool <link linkend="classQCPRange_1a801b964752eaad6219be9d8a651ec2b3">validRange</link> (
+const <link linkend="classQCPRange">QCPRange</link> &amp; range)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QDebug <link linkend="classQCPRange_1ab4b7d434541ec2e2e00ef3764dde90d8">operator&lt;&lt;</link> (
+QDebug d, const <link linkend="classQCPRange">QCPRange</link> &amp; range)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+    <simplesect>
+
+<para>Represents the range an axis is encompassing. </para>
+    </simplesect>
+        <simplesect>
+            <title>Descrição detalhada</title>
+
+<para>contains a <emphasis>lower</emphasis> and <emphasis>upper</emphasis> double value and provides convenience input, output and modification functions.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPAxis_1aebdfea5d44c3a0ad2b4700cd4d25b641">QCPAxis::setRange</link> </para>
+</formalpara>
+</para>
+                <para>Definition at line 773 of file qcustomplot.h</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>qcustomplot.h</para></listitem></itemizedlist></para>
+        </simplesect>
+        <section>
+            <title>Atributos</title>
+        </section>
+            <simplesect>
+                <title>const double QCPRange::minRange</title>                
+<para>Minimum range size (<emphasis>upper</emphasis> - <emphasis>lower</emphasis>) the range changing functions will accept. Smaller intervals would cause errors due to the 11-bit exponent of double precision numbers, corresponding to a minimum magnitude of roughly 1e-308.</para>
+
+<para><formalpara><title>Aviso: </title>
+
+<para>Do not use this constant to indicate &quot;arbitrarily small&quot; values in plotting logic (as values that will appear in the plot)! It is intended only as a bound to compare against, e.g. to prevent axis ranges from obtaining underflowing ranges.</para>
+</formalpara>
+<formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPRange_1ab38bd4841c77c7bb86c9eea0f142dcc0">validRange</link>, <link linkend="classQCPRange_1a5ca51e7a2dc5dc0d49527ab171fe1f4f">maxRange</link> </para>
+</formalpara>
+</para>
+
+                <para>Definition at line 808 of file qcustomplot.h</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>qcustomplot.h</para></listitem></itemizedlist></para>
+            </simplesect>
+            <simplesect>
+                <title>const double QCPRange::maxRange</title>                
+<para>Maximum values (negative and positive) the range will accept in range-changing functions. Larger absolute values would cause errors due to the 11-bit exponent of double precision numbers, corresponding to a maximum magnitude of roughly 1e308.</para>
+
+<para><formalpara><title>Aviso: </title>
+
+<para>Do not use this constant to indicate &quot;arbitrarily large&quot; values in plotting logic (as values that will appear in the plot)! It is intended only as a bound to compare against, e.g. to prevent axis ranges from obtaining overflowing ranges.</para>
+</formalpara>
+<formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPRange_1ab38bd4841c77c7bb86c9eea0f142dcc0">validRange</link>, <link linkend="classQCPRange_1ab46d3bc95030ee25efda41b89e2b616b">minRange</link> </para>
+</formalpara>
+</para>
+
+                <para>Definition at line 809 of file qcustomplot.h</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>qcustomplot.h</para></listitem></itemizedlist></para>
+            </simplesect>
+            <section xml:id="classQCPRange_1aca158d7e69702cee5d77d10a269b01e2">
+                <title>QCPRange::QCPRange ()</title> <emphasis></emphasis>
+                
+<para>Constructs a range with <emphasis>lower</emphasis> and <emphasis>upper</emphasis> set to zero. </para>
+
+            </section>
+            <section xml:id="classQCPRange_1a1d9d84d084c8f368fdedd42e0978d405">
+                <title>QCPRange::QCPRange (double lower, double upper)</title> <emphasis></emphasis>
+                
+<para>Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.</para>
+
+<para>Constructs a range with the specified <emphasis>lower</emphasis> and <emphasis>upper</emphasis> values.</para>
+
+<para>The resulting range will be normalized (see <link linkend="classQCPRange_1af914a7740269b0604d0827c634a878a9">normalize</link>), so if <emphasis>lower</emphasis> is not numerically smaller than <emphasis>upper</emphasis>, they will be swapped. </para>
+
+            </section>
+            <section xml:id="classQCPRange_1a9f8d1fdcf4b6d19779f1c3d9a14b09c9">
+                <title>bool QCPRange::operator== (const QCPRange &amp;other) const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPRange_1a4827a37c83b8bb4bf53fcf8f6a257e77">
+                <title>bool QCPRange::operator!= (const QCPRange &amp;other) const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPRange_1afea7c1aa7d08f061cd9bd8832f957df8">
+                <title>QCPRange &amp; QCPRange::operator+= (const double &amp;value)</title> <emphasis></emphasis>
+                
+<para>Adds <emphasis>value</emphasis> to both boundaries of the range. </para>
+
+            </section>
+            <section xml:id="classQCPRange_1a95894bcb15a16a75ca564091374e2191">
+                <title>QCPRange &amp; QCPRange::operator-= (const double &amp;value)</title> <emphasis></emphasis>
+                
+<para>Subtracts <emphasis>value</emphasis> from both boundaries of the range. </para>
+
+            </section>
+            <section xml:id="classQCPRange_1a6876aa9620ff2f0f7f1873f998372cef">
+                <title>QCPRange &amp; QCPRange::operator*= (const double &amp;value)</title> <emphasis></emphasis>
+                
+<para>Multiplies both boundaries of the range by <emphasis>value</emphasis>. </para>
+
+            </section>
+            <section xml:id="classQCPRange_1a6137d8682b6835ace840730b4c1e2d63">
+                <title>QCPRange &amp; QCPRange::operator/= (const double &amp;value)</title> <emphasis></emphasis>
+                
+<para>Divides both boundaries of the range by <emphasis>value</emphasis>. </para>
+
+            </section>
+            <section xml:id="classQCPRange_1a62326e7cc4316b96df6a60813230e63f">
+                <title>double QCPRange::size () const</title> <emphasis></emphasis>
+                
+<para>Returns the size of the range, i.e. <emphasis>upper-<emphasis>lower</emphasis> </emphasis> </para>
+
+            </section>
+            <section xml:id="classQCPRange_1af57d4a37a45d0101177ca30fae5d4ca8">
+                <title>double QCPRange::center () const</title> <emphasis></emphasis>
+                
+<para>Returns the center of the range, i.e. (<emphasis>upper+<emphasis>lower</emphasis>)*0</emphasis>.5 </para>
+
+            </section>
+            <section xml:id="classQCPRange_1af914a7740269b0604d0827c634a878a9">
+                <title>void QCPRange::normalize ()</title> <emphasis></emphasis>
+                
+<para>Makes sure <emphasis>lower</emphasis> is numerically smaller than <emphasis>upper</emphasis>. If this is not the case, the values are swapped. </para>
+
+            </section>
+            <section xml:id="classQCPRange_1a0fa1bc8048be50d52bea93a8caf08305">
+                <title>void QCPRange::expand (const QCPRange &amp;otherRange)</title> <emphasis></emphasis>
+                
+<para>Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.</para>
+
+<para>Expands this range such that <emphasis>otherRange</emphasis> is contained in the new range. It is assumed that both this range and <emphasis>otherRange</emphasis> are normalized (see <link linkend="classQCPRange_1af914a7740269b0604d0827c634a878a9">normalize</link>).</para>
+
+<para>If this range contains NaN as lower or upper bound, it will be replaced by the respective bound of <emphasis>otherRange</emphasis>.</para>
+
+<para>If <emphasis>otherRange</emphasis> is already inside the current range, this function does nothing.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPRange_1a9cbfb7cd06eac1839cae981e05c19633">expanded</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPRange_1a5fa977db0a4b7800075c629c62cf5e80">
+                <title>void QCPRange::expand (double includeCoord)</title> <emphasis></emphasis>
+                
+<para>Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.</para>
+
+<para>Expands this range such that <emphasis>includeCoord</emphasis> is contained in the new range. It is assumed that this range is normalized (see <link linkend="classQCPRange_1af914a7740269b0604d0827c634a878a9">normalize</link>).</para>
+
+<para>If this range contains NaN as lower or upper bound, the respective bound will be set to <emphasis>includeCoord</emphasis>.</para>
+
+<para>If <emphasis>includeCoord</emphasis> is already inside the current range, this function does nothing.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPRange_1a0fa1bc8048be50d52bea93a8caf08305">expand</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPRange_1a9cbfb7cd06eac1839cae981e05c19633">
+                <title>QCPRange QCPRange::expanded (const QCPRange &amp;otherRange) const</title> <emphasis></emphasis>
+                
+<para>Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.</para>
+
+<para>Returns an expanded range that contains this and <emphasis>otherRange</emphasis>. It is assumed that both this range and <emphasis>otherRange</emphasis> are normalized (see <link linkend="classQCPRange_1af914a7740269b0604d0827c634a878a9">normalize</link>).</para>
+
+<para>If this range contains NaN as lower or upper bound, the returned range&apos;s bound will be taken from <emphasis>otherRange</emphasis>.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPRange_1a0fa1bc8048be50d52bea93a8caf08305">expand</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPRange_1af81d70f1add7233d73a19dcbe5decb2e">
+                <title>QCPRange QCPRange::expanded (double includeCoord) const</title> <emphasis></emphasis>
+                
+<para>Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.</para>
+
+<para>Returns an expanded range that includes the specified <emphasis>includeCoord</emphasis>. It is assumed that this range is normalized (see <link linkend="classQCPRange_1af914a7740269b0604d0827c634a878a9">normalize</link>).</para>
+
+<para>If this range contains NaN as lower or upper bound, the returned range&apos;s bound will be set to <emphasis>includeCoord</emphasis>.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPRange_1a0fa1bc8048be50d52bea93a8caf08305">expand</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPRange_1a22151e18d961d762d25721211e89c2e5">
+                <title>QCPRange QCPRange::bounded (double lowerBound, double upperBound) const</title> <emphasis></emphasis>
+                
+<para>Returns this range, possibly modified to not exceed the bounds provided as <emphasis>lowerBound</emphasis> and <emphasis>upperBound</emphasis>. If possible, the size of the current range is preserved in the process.</para>
+
+<para>If the range shall only be bounded at the lower side, you can set <emphasis>upperBound</emphasis> to <link linkend="classQCPRange_1a5ca51e7a2dc5dc0d49527ab171fe1f4f">QCPRange::maxRange</link>. If it shall only be bounded at the upper side, set <emphasis>lowerBound</emphasis> to -<link linkend="classQCPRange_1a5ca51e7a2dc5dc0d49527ab171fe1f4f">QCPRange::maxRange</link>. </para>
+
+            </section>
+            <section xml:id="classQCPRange_1a3d66288d66e1d6df3636075eb42502ee">
+                <title>QCPRange QCPRange::sanitizedForLogScale () const</title> <emphasis></emphasis>
+                
+<para>Returns a sanitized version of the range. Sanitized means for logarithmic scales, that the range won&apos;t span the positive and negative sign domain, i.e. contain zero. Further <emphasis>lower</emphasis> will always be numerically smaller (or equal) to <emphasis>upper</emphasis>.</para>
+
+<para>If the original range does span positive and negative sign domains or contains zero, the returned range will try to approximate the original range as good as possible. If the positive interval of the original range is wider than the negative interval, the returned range will only contain the positive interval, with lower bound set to <emphasis>rangeFac</emphasis> or <emphasis>rangeFac</emphasis> *<emphasis>upper</emphasis>, whichever is closer to zero. Same procedure is used if the negative interval is wider than the positive interval, this time by changing the <emphasis>upper</emphasis> bound. </para>
+
+            </section>
+            <section xml:id="classQCPRange_1a808751fdd9b17ef52327ba011df2e5f1">
+                <title>QCPRange QCPRange::sanitizedForLinScale () const</title> <emphasis></emphasis>
+                
+<para>Returns a sanitized version of the range. Sanitized means for linear scales, that <emphasis>lower</emphasis> will always be numerically smaller (or equal) to <emphasis>upper</emphasis>. </para>
+
+            </section>
+            <section xml:id="classQCPRange_1ae9842b48b6d38dc5e9607358e3083cc8">
+                <title>bool QCPRange::contains (double value) const</title> <emphasis></emphasis>
+                
+<para>Returns true when <emphasis>value</emphasis> lies within or exactly on the borders of the range. </para>
+
+            </section>
+            <section xml:id="classQCPRange_1ab38bd4841c77c7bb86c9eea0f142dcc0">
+                <title>bool QCPRange::validRange (double lower, double upper)</title> <emphasis></emphasis>
+                
+<para>Checks, whether the specified range is within valid bounds, which are defined as <link linkend="classQCPRange_1a5ca51e7a2dc5dc0d49527ab171fe1f4f">QCPRange::maxRange</link> and <link linkend="classQCPRange_1ab46d3bc95030ee25efda41b89e2b616b">QCPRange::minRange</link>. A valid range means: <itemizedlist>
+<listitem>
+<para>range bounds within -maxRange and maxRange </para>
+</listitem>
+<listitem>
+<para>range size above minRange </para>
+</listitem>
+<listitem>
+<para>range size below maxRange </para>
+</listitem>
+</itemizedlist>
+</para>
+
+            </section>
+            <section xml:id="classQCPRange_1a801b964752eaad6219be9d8a651ec2b3">
+                <title>bool QCPRange::validRange (const QCPRange &amp;range)</title> <emphasis></emphasis>
+                
+<para>Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados. Checks, whether the specified range is within valid bounds, which are defined as <link linkend="classQCPRange_1a5ca51e7a2dc5dc0d49527ab171fe1f4f">QCPRange::maxRange</link> and <link linkend="classQCPRange_1ab46d3bc95030ee25efda41b89e2b616b">QCPRange::minRange</link>. A valid range means: <itemizedlist>
+<listitem>
+<para>range bounds within -maxRange and maxRange </para>
+</listitem>
+<listitem>
+<para>range size above minRange </para>
+</listitem>
+<listitem>
+<para>range size below maxRange </para>
+</listitem>
+</itemizedlist>
+</para>
+
+            </section>
+            <section xml:id="classQCPRange_1ab4b7d434541ec2e2e00ef3764dde90d8">
+                <title>QDebug operator&lt;&lt; (QDebug d, const QCPRange &amp;range)</title> <emphasis></emphasis>
+                
+<para>Prints <emphasis>range</emphasis> in a human readable format to the qDebug output. </para>
+
+            </section>
+</section>

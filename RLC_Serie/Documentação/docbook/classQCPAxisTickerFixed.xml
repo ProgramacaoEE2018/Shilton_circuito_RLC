@@ -1,0 +1,493 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="classQCPAxisTickerFixed">
+<title>QCPAxisTickerFixed class Reference</title>
+<para>
+    <programlisting>#include <link linkend="qcustomplot_8h">&lt;qcustomplot.h&gt;</link></programlisting>
+</para>
+<para>Inheritance diagram for QCPAxisTickerFixed</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="classQCPAxisTickerFixed__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for QCPAxisTickerFixed</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="classQCPAxisTickerFixed__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                            <para><literallayout>enum <link linkend="classQCPAxisTickerFixed_1a15b3d38b935d404b1311eb85cfb6a439">ScaleStrategy</link> {
+<link linkend="classQCPAxisTickerFixed_1a15b3d38b935d404b1311eb85cfb6a439a6621275677a05caa0de204ae3956b85f">ssNone</link>,
+<link linkend="classQCPAxisTickerFixed_1a15b3d38b935d404b1311eb85cfb6a439a22f651785f6412645837421896561104">ssMultiples</link>,
+<link linkend="classQCPAxisTickerFixed_1a15b3d38b935d404b1311eb85cfb6a439ac39d5813e9165ebd494307ae61ce5dce">ssPowers</link>
+}</literallayout>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                            <para><literallayout>enum <link linkend="classQCPAxisTicker_1ab6d2f9d9477821623ac9bc4b21ddf49a">TickStepStrategy</link> {
+<link linkend="classQCPAxisTicker_1ab6d2f9d9477821623ac9bc4b21ddf49aa9002aa2fd5633ab5556c71a26fed63a8">tssReadability</link>,
+<link linkend="classQCPAxisTicker_1ab6d2f9d9477821623ac9bc4b21ddf49aa770312b6b9b0c64a37ceeba96e0cd7f2">tssMeetTickCount</link>
+}</literallayout>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title>Atributos Protegidos</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double mTickStep</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>ScaleStrategy mScaleStrategy</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>TickStepStrategy mTickStepStrategy</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>int mTickCount</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double mTickOrigin</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="classQCPAxisTickerFixed_1a96d2b053a15f9b8e94550c3efeff6a34">QCPAxisTickerFixed</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double <link linkend="classQCPAxisTickerFixed_1a33d1324c8666b4d5df975dea32ed5a28">tickStep</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="classQCPAxisTickerFixed_1a15b3d38b935d404b1311eb85cfb6a439">ScaleStrategy</link> <link linkend="classQCPAxisTickerFixed_1a20fd8fcb257f63449f8913335ad57e45">scaleStrategy</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPAxisTickerFixed_1a4bc83d85a4f81d4abdd3fa5042d7b833">setTickStep</link> (
+double step)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPAxisTickerFixed_1acbc7c9bcd80b3dc3edee5f0519d301f6">setScaleStrategy</link> (
+<link linkend="classQCPAxisTickerFixed_1a15b3d38b935d404b1311eb85cfb6a439">ScaleStrategy</link> strategy)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="classQCPAxisTicker_1ab6d2f9d9477821623ac9bc4b21ddf49a">TickStepStrategy</link> <link linkend="classQCPAxisTicker_1a58df76f2ec3eb48401bdd314b0e14ba1">tickStepStrategy</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>int <link linkend="classQCPAxisTicker_1aaf9edbe4169ce55e216fd067cc139452">tickCount</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double <link linkend="classQCPAxisTicker_1ac0c6e9587c36fdeefb5518c00fe7ab15">tickOrigin</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPAxisTicker_1a73b1d847c1a12159af6bfda4ebebe7d5">setTickStepStrategy</link> (
+<link linkend="classQCPAxisTicker_1ab6d2f9d9477821623ac9bc4b21ddf49a">TickStepStrategy</link> strategy)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPAxisTicker_1a47752abba8293e6dc18491501ae34008">setTickCount</link> (
+int count)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPAxisTicker_1ab509c7e500293bf66a8409f0d7c23943">setTickOrigin</link> (
+double origin)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="classQCPAxisTicker_1aefbd11725678ca824add8cf926cbc856">generate</link> (
+const <link linkend="classQCPRange">QCPRange</link> &amp; range, const QLocale &amp; locale, QChar formatChar, int precision, QVector&lt; double &gt; &amp; ticks, QVector&lt; double &gt; * subTicks, QVector&lt; QString &gt; * tickLabels)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual double <link linkend="classQCPAxisTickerFixed_1a9e99da01ab92a86aed415eef32fed13a">getTickStep</link> (
+const <link linkend="classQCPRange">QCPRange</link> &amp; range)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual int <link linkend="classQCPAxisTicker_1a4ccc403ced7a1457ce6ba293509933c8">getSubTickCount</link> (
+double tickStep)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual QString <link linkend="classQCPAxisTicker_1a8201eb4aa8be192bf786b126eb5ee089">getTickLabel</link> (
+double tick, const QLocale &amp; locale, QChar formatChar, int precision)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual QVector&lt; double &gt; <link linkend="classQCPAxisTicker_1af4645a824c7bd2ca8fc7e86ebf9055bd">createTickVector</link> (
+double tickStep, const <link linkend="classQCPRange">QCPRange</link> &amp; range)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual QVector&lt; double &gt; <link linkend="classQCPAxisTicker_1a9a6435723fa0bd366d1ea4c2cff7c33f">createSubTickVector</link> (
+int subTickCount, const QVector&lt; double &gt; &amp; ticks)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual QVector&lt; QString &gt; <link linkend="classQCPAxisTicker_1a804050e408f37a0b9770c6654ebe6aa7">createLabelVector</link> (
+const QVector&lt; double &gt; &amp; ticks, const QLocale &amp; locale, QChar formatChar, int precision)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPAxisTicker_1ab28cc1ab549489be7975f5ce7e717916">trimTicks</link> (
+const <link linkend="classQCPRange">QCPRange</link> &amp; range, QVector&lt; double &gt; &amp; ticks, bool keepOneOutlier)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double <link linkend="classQCPAxisTicker_1a4ea0a7c4ca1c610f92b9bd5944ab4260">pickClosest</link> (
+double target, const QVector&lt; double &gt; &amp; candidates)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double <link linkend="classQCPAxisTicker_1a2f1e223bafbf2cec7c3ba8b08d5c77e8">getMantissa</link> (
+double input, double * magnitude)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double <link linkend="classQCPAxisTicker_1ac7df6c72876b7abd67c932663a0b0f6a">cleanMantissa</link> (
+double input)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+    <simplesect>
+
+<para>Specialized axis ticker with a fixed tick step. </para>
+    </simplesect>
+        <simplesect>
+            <title>Descrição detalhada</title>
+
+<para></para>
+
+<para>This <link linkend="classQCPAxisTicker">QCPAxisTicker</link> subclass generates ticks with a fixed tick step set with <link linkend="classQCPAxisTickerFixed_1a4bc83d85a4f81d4abdd3fa5042d7b833">setTickStep</link>. It is also possible to allow integer multiples and integer powers of the specified tick step with <link linkend="classQCPAxisTickerFixed_1acbc7c9bcd80b3dc3edee5f0519d301f6">setScaleStrategy</link>.</para>
+
+<para>A typical application of this ticker is to make an axis only display integers, by setting the tick step of the ticker to 1.0 and the scale strategy to <link linkend="classQCPAxisTickerFixed_1a15b3d38b935d404b1311eb85cfb6a439a22f651785f6412645837421896561104">ssMultiples</link>.</para>
+
+<para>Another case is when a certain number has a special meaning and axis ticks should only appear at multiples of that value. In this case you might also want to consider <link linkend="classQCPAxisTickerPi">QCPAxisTickerPi</link> because despite the name it is not limited to only pi symbols/values.</para>
+
+<para>The ticker can be created and assigned to an axis like this: <literallayout><computeroutput></computeroutput></literallayout></para>
+                <para>Definition at line 1688 of file qcustomplot.h</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>qcustomplot.h</para></listitem></itemizedlist></para>
+        </simplesect>
+            <section xml:id="classQCPAxisTickerFixed_1a15b3d38b935d404b1311eb85cfb6a439">
+               <title>enum ScaleStrategy </title>
+               
+<para>Defines how the axis ticker may modify the specified tick step (<link linkend="classQCPAxisTickerFixed_1a4bc83d85a4f81d4abdd3fa5042d7b833">setTickStep</link>) in order to control the number of ticks in the axis range.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPAxisTickerFixed_1acbc7c9bcd80b3dc3edee5f0519d301f6">setScaleStrategy</link> </para>
+</formalpara>
+</para>
+
+               <formalpara>
+                    <title>Enumeradores:</title>
+                    <variablelist>
+                        <varlistentry xml:id="classQCPAxisTickerFixed_1a15b3d38b935d404b1311eb85cfb6a439a6621275677a05caa0de204ae3956b85f">
+                            <term>ssNone</term>
+                            <listitem>
+                                <para>Modifications are not allowed, the specified tick step is absolutely fixed. This might cause a high tick density and overlapping labels if the axis range is zoomed out.</para>
+                            </listitem>
+                        </varlistentry>
+                        <varlistentry xml:id="classQCPAxisTickerFixed_1a15b3d38b935d404b1311eb85cfb6a439a22f651785f6412645837421896561104">
+                            <term>ssMultiples</term>
+                            <listitem>
+                                <para>An integer multiple of the specified tick step is allowed. The used factor follows the base class properties of \ref setTickStepStrategy and \ref setTickCount.</para>
+                            </listitem>
+                        </varlistentry>
+                        <varlistentry xml:id="classQCPAxisTickerFixed_1a15b3d38b935d404b1311eb85cfb6a439ac39d5813e9165ebd494307ae61ce5dce">
+                            <term>ssPowers</term>
+                            <listitem>
+                                <para>An integer power of the specified tick step is allowed.</para>
+                            </listitem>
+                        </varlistentry>
+                     </variablelist>
+                </formalpara>
+                <para>Definition at line 1697 of file qcustomplot.h
+                    <computeroutput><literallayout>
+{
+ssNone, 
+ssMultiples, 
+ssPowers, 
+}ScaleStrategy;
+                    </literallayout></computeroutput>
+                </para>
+            </section>
+            <section xml:id="classQCPAxisTicker_1ab6d2f9d9477821623ac9bc4b21ddf49a">
+               <title>enum TickStepStrategy </title>
+               
+<para>Defines the strategies that the axis ticker may follow when choosing the size of the tick step.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPAxisTicker_1a73b1d847c1a12159af6bfda4ebebe7d5">setTickStepStrategy</link> </para>
+</formalpara>
+</para>
+
+               <formalpara>
+                    <title>Enumeradores:</title>
+                    <variablelist>
+                        <varlistentry xml:id="classQCPAxisTicker_1ab6d2f9d9477821623ac9bc4b21ddf49aa9002aa2fd5633ab5556c71a26fed63a8">
+                            <term>tssReadability</term>
+                            <listitem>
+                                <para>A nicely readable tick step is prioritized over matching the requested number of ticks (see \ref setTickCount)</para>
+                            </listitem>
+                        </varlistentry>
+                        <varlistentry xml:id="classQCPAxisTicker_1ab6d2f9d9477821623ac9bc4b21ddf49aa770312b6b9b0c64a37ceeba96e0cd7f2">
+                            <term>tssMeetTickCount</term>
+                            <listitem>
+                                <para>Less readable tick steps are allowed which in turn facilitates getting closer to the requested tick count.</para>
+                            </listitem>
+                        </varlistentry>
+                     </variablelist>
+                </formalpara>
+                <para>Definition at line 1543 of file qcustomplot.h
+                    <computeroutput><literallayout>
+{
+tssReadability, 
+tssMeetTickCount, 
+}TickStepStrategy;
+                    </literallayout></computeroutput>
+                </para>
+            </section>
+        <section>
+            <title>Atributos</title>
+        </section>
+            <section xml:id="classQCPAxisTickerFixed_1a96d2b053a15f9b8e94550c3efeff6a34">
+                <title>QCPAxisTickerFixed::QCPAxisTickerFixed ()</title> <emphasis></emphasis>
+                
+<para>Constructs the ticker and sets reasonable default values. Axis tickers are commonly created managed by a QSharedPointer, which then can be passed to <link linkend="classQCPAxis_1a4ee03fcd2c74d05cd1a419b9af5cfbdc">QCPAxis::setTicker</link>. </para>
+
+            </section>
+            <section xml:id="classQCPAxisTickerFixed_1a33d1324c8666b4d5df975dea32ed5a28">
+                <title>double QCPAxisTickerFixed::tickStep () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAxisTickerFixed_1a20fd8fcb257f63449f8913335ad57e45">
+                <title>ScaleStrategy QCPAxisTickerFixed::scaleStrategy () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAxisTickerFixed_1a4bc83d85a4f81d4abdd3fa5042d7b833">
+                <title>void QCPAxisTickerFixed::setTickStep (double step)</title> <emphasis></emphasis>
+                
+<para>Sets the fixed tick interval to <emphasis>step</emphasis>.</para>
+
+<para>The axis ticker will only use this tick step when generating axis ticks. This might cause a very high tick density and overlapping labels if the axis range is zoomed out. Using <link linkend="classQCPAxisTickerFixed_1acbc7c9bcd80b3dc3edee5f0519d301f6">setScaleStrategy</link> it is possible to relax the fixed step and also allow multiples or powers of <emphasis>step</emphasis>. This will enable the ticker to reduce the number of ticks to a reasonable amount (see <link linkend="classQCPAxisTicker_1a47752abba8293e6dc18491501ae34008">setTickCount</link>). </para>
+
+            </section>
+            <section xml:id="classQCPAxisTickerFixed_1acbc7c9bcd80b3dc3edee5f0519d301f6">
+                <title>void QCPAxisTickerFixed::setScaleStrategy (ScaleStrategy strategy)</title> <emphasis></emphasis>
+                
+<para>Sets whether the specified tick step (<link linkend="classQCPAxisTickerFixed_1a4bc83d85a4f81d4abdd3fa5042d7b833">setTickStep</link>) is absolutely fixed or whether modifications may be applied to it before calculating the finally used tick step, such as permitting multiples or powers. See <link linkend="classQCPAxisTickerFixed_1a15b3d38b935d404b1311eb85cfb6a439">ScaleStrategy</link> for details.</para>
+
+<para>The default strategy is <link linkend="classQCPAxisTickerFixed_1a15b3d38b935d404b1311eb85cfb6a439a6621275677a05caa0de204ae3956b85f">ssNone</link>, which means the tick step is absolutely fixed. </para>
+
+            </section>
+            <section xml:id="classQCPAxisTicker_1a58df76f2ec3eb48401bdd314b0e14ba1">
+                <title>TickStepStrategy QCPAxisTicker::tickStepStrategy () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAxisTicker_1aaf9edbe4169ce55e216fd067cc139452">
+                <title>int QCPAxisTicker::tickCount () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAxisTicker_1ac0c6e9587c36fdeefb5518c00fe7ab15">
+                <title>double QCPAxisTicker::tickOrigin () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAxisTicker_1a73b1d847c1a12159af6bfda4ebebe7d5">
+                <title>void QCPAxisTicker::setTickStepStrategy (TickStepStrategy strategy)</title> <emphasis></emphasis>
+                
+<para>Sets which strategy the axis ticker follows when choosing the size of the tick step. For the available strategies, see <link linkend="classQCPAxisTicker_1ab6d2f9d9477821623ac9bc4b21ddf49a">TickStepStrategy</link>. </para>
+
+            </section>
+            <section xml:id="classQCPAxisTicker_1a47752abba8293e6dc18491501ae34008">
+                <title>void QCPAxisTicker::setTickCount (int count)</title> <emphasis></emphasis>
+                
+<para>Sets how many ticks this ticker shall aim to generate across the axis range. Note that <emphasis>count</emphasis> is not guaranteed to be matched exactly, as generating readable tick intervals may conflict with the requested number of ticks.</para>
+
+<para>Whether the readability has priority over meeting the requested <emphasis>count</emphasis> can be specified with <link linkend="classQCPAxisTicker_1a73b1d847c1a12159af6bfda4ebebe7d5">setTickStepStrategy</link>. </para>
+
+            </section>
+            <section xml:id="classQCPAxisTicker_1ab509c7e500293bf66a8409f0d7c23943">
+                <title>void QCPAxisTicker::setTickOrigin (double origin)</title> <emphasis></emphasis>
+                
+<para>Sets the mathematical coordinate (or &quot;offset&quot;) of the zeroth tick. This tick coordinate is just a concept and doesn&apos;t need to be inside the currently visible axis range.</para>
+
+<para>By default <emphasis>origin</emphasis> is zero, which for example yields ticks {-5, 0, 5, 10, 15,...} when the tick step is five. If <emphasis>origin</emphasis> is now set to 1 instead, the correspondingly generated ticks would be {-4, 1, 6, 11, 16,...}. </para>
+
+            </section>
+            <section xml:id="classQCPAxisTicker_1aefbd11725678ca824add8cf926cbc856">
+                <title>void QCPAxisTicker::generate (const QCPRange &amp;range, const QLocale &amp;locale, QChar formatChar, int precision, QVector&lt; double &gt; &amp;ticks, QVector&lt; double &gt; *subTicks, QVector&lt; QString &gt; *tickLabels)</title> <emphasis></emphasis>
+                
+<para>This is the method called by <link linkend="classQCPAxis">QCPAxis</link> in order to actually generate tick coordinates (<emphasis>ticks</emphasis>), tick label strings (<emphasis>tickLabels</emphasis>) and sub tick coordinates (<emphasis>subTicks</emphasis>).</para>
+
+<para>The ticks are generated for the specified <emphasis>range</emphasis>. The generated labels typically follow the specified <emphasis>locale</emphasis>, <emphasis>formatChar</emphasis> and number <emphasis>precision</emphasis>, however this might be different (or even irrelevant) for certain <link linkend="classQCPAxisTicker">QCPAxisTicker</link> subclasses.</para>
+
+<para>The output parameter <emphasis>ticks</emphasis> is filled with the generated tick positions in axis coordinates. The output parameters <emphasis>subTicks</emphasis> and <emphasis>tickLabels</emphasis> are optional (set them to 0 if not needed) and are respectively filled with sub tick coordinates, and tick label strings belonging to <emphasis>ticks</emphasis> by index. </para>
+
+            </section>
+            <section xml:id="classQCPAxisTickerFixed_1a9e99da01ab92a86aed415eef32fed13a">
+                <title>double QCPAxisTickerFixed::getTickStep (const QCPRange &amp;range) Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAxisTicker_1a4ccc403ced7a1457ce6ba293509933c8">
+                <title>int QCPAxisTicker::getSubTickCount (double tickStep)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAxisTicker_1a8201eb4aa8be192bf786b126eb5ee089">
+                <title>QString QCPAxisTicker::getTickLabel (double tick, const QLocale &amp;locale, QChar formatChar, int precision)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAxisTicker_1af4645a824c7bd2ca8fc7e86ebf9055bd">
+                <title>QVector&lt; double &gt; QCPAxisTicker::createTickVector (double tickStep, const QCPRange &amp;range)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAxisTicker_1a9a6435723fa0bd366d1ea4c2cff7c33f">
+                <title>QVector&lt; double &gt; QCPAxisTicker::createSubTickVector (int subTickCount, const QVector&lt; double &gt; &amp;ticks)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAxisTicker_1a804050e408f37a0b9770c6654ebe6aa7">
+                <title>QVector&lt; QString &gt; QCPAxisTicker::createLabelVector (const QVector&lt; double &gt; &amp;ticks, const QLocale &amp;locale, QChar formatChar, int precision)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAxisTicker_1ab28cc1ab549489be7975f5ce7e717916">
+                <title>void QCPAxisTicker::trimTicks (const QCPRange &amp;range, QVector&lt; double &gt; &amp;ticks, bool keepOneOutlier) const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAxisTicker_1a4ea0a7c4ca1c610f92b9bd5944ab4260">
+                <title>double QCPAxisTicker::pickClosest (double target, const QVector&lt; double &gt; &amp;candidates) const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAxisTicker_1a2f1e223bafbf2cec7c3ba8b08d5c77e8">
+                <title>double QCPAxisTicker::getMantissa (double input, double *magnitude=0) const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAxisTicker_1ac7df6c72876b7abd67c932663a0b0f6a">
+                <title>double QCPAxisTicker::cleanMantissa (double input) const</title> <emphasis></emphasis>
+                
+            </section>
+</section>

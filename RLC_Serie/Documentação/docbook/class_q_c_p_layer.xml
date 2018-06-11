@@ -41,7 +41,7 @@
             </para>
         </section>
         <section>
-            <title>Protected Attributes</title>
+            <title>Atributos Protegidos</title>
             <para>
                 <itemizedlist>
                     <listitem>
@@ -238,7 +238,7 @@ bool visible)</para>
 <para>A layer that may contain objects, to control the rendering order. </para>
     </simplesect>
         <simplesect>
-            <title>Detailed Description</title>
+            <title>Descrição detalhada</title>
 
 <para>The Layering system of <link linkend="class_q_custom_plot">QCustomPlot</link> is the mechanism to control the rendering order of the elements inside the plot.</para>
 
@@ -275,14 +275,14 @@ bool visible)</para>
                
 <para>Defines the different rendering modes of a layer. Depending on the mode, certain layers can be replotted individually, without the need to replot (possibly complex) layerables on other layers.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_c_p_layer_1a938d57b04f4e4c23cedf1711f983919b">setMode</link> </para>
 </formalpara>
 </para>
 
                <formalpara>
-                    <title>Enumerator:</title>
+                    <title>Enumeradores:</title>
                     <variablelist>
                         <varlistentry xml:id="class_q_c_p_layer_1a67dcfc1590be2a1f2227c5a39bb59c7ca02eb5e9a4cb7f1baf1e2b6b99e3b87ce">
                             <term>lmLogical</term>
@@ -308,7 +308,7 @@ lmBuffered,
                 </para>
             </section>
         <section>
-            <title>Member Data Documentation</title>
+            <title>Atributos</title>
         </section>
             <section xml:id="class_q_c_p_layer_1a5d0657fc86d624e5efbe930ef21af718">
                 <title>QCPLayer::QCPLayer (QCustomPlot *parentPlot, const QString &amp;layerName)</title> <emphasis></emphasis>
@@ -317,7 +317,7 @@ lmBuffered,
 
 <para>Normally you shouldn&apos;t directly instantiate layers, use <link linkend="class_q_custom_plot_1ad5255393df078448bb6ac83fa5db5f52">QCustomPlot::addLayer</link> instead.</para>
 
-<para><formalpara><title>Warning: </title>
+<para><formalpara><title>Aviso: </title>
 
 <para>It is not checked that <emphasis>layerName</emphasis> is actually a unique layer name in <emphasis>parentPlot</emphasis>. This check is only performed by <link linkend="class_q_custom_plot_1ad5255393df078448bb6ac83fa5db5f52">QCustomPlot::addLayer</link>. </para>
 </formalpara>
@@ -377,7 +377,7 @@ lmBuffered,
 
 <para>Note that each layer which is set to <link linkend="class_q_c_p_layer_1a67dcfc1590be2a1f2227c5a39bb59c7cab581b9fab3007c4c65f057f4185d7538">lmBuffered</link> requires additional paint buffers for the layers below, above and for the layer itself. This increases the memory consumption and (slightly) decreases the repainting speed because multiple paint buffers need to be joined. So you should carefully choose which layers benefit from having their own paint buffer. A typical example would be a layer which contains certain layerables (e.g. items) that need to be changed and thus replotted regularly, while all other layerables on other layers stay static. By default, only the topmost layer called &quot;overlay&quot; is in mode <link linkend="class_q_c_p_layer_1a67dcfc1590be2a1f2227c5a39bb59c7cab581b9fab3007c4c65f057f4185d7538">lmBuffered</link>, and contains the selection rect.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_c_p_layer_1adefd53b6db02f470151c416f42e37180">replot</link> </para>
 </formalpara>
@@ -393,7 +393,7 @@ lmBuffered,
 
 <para><link linkend="class_q_custom_plot">QCustomPlot</link> also makes sure to replot all layers instead of only this one, if the layer ordering has changed since the last full replot and the other paint buffers were thus invalidated.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_c_p_layer_1ab831a99c8d30b15ec4533ca341e8813b">draw</link> </para>
 </formalpara>

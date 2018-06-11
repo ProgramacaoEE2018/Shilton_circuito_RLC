@@ -1,0 +1,949 @@
+{\rtf1\ansi\ansicpg1252\uc1 \deff0\deflang1033\deflangfe1033
+{\fonttbl {\f0\froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}
+{\f1\fswiss\fcharset0\fprq2{\*\panose 020b0604020202020204}Arial;}
+{\f2\fmodern\fcharset0\fprq1{\*\panose 02070309020205020404}Courier New;}
+{\f3\froman\fcharset2\fprq2{\*\panose 05050102010706020507}Symbol;}
+}
+{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;}
+{\stylesheet
+{\widctlpar\adjustright \fs20\cgrid \snext0 Normal;}
+{\paperw11900\paperh16840\margl1800\margr1800\margt1440\margb1440\gutter0\ltrsect}
+{\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid \sbasedon0 \snext0 heading 1;}
+{\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid \sbasedon0 \snext0 heading 2;}
+{\s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid \sbasedon0 \snext0 heading 3;}
+{\s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext0 heading 4;}{\*\cs10 \additive Default Paragraph Font;}
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext0 heading 5;}{\*\cs10 \additive Default Paragraph Font;}
+{\s15\qc\sb240\sa60\widctlpar\outlinelevel0\adjustright \b\f1\fs32\kerning28\cgrid \sbasedon0 \snext15 Title;}
+{\s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid \sbasedon0 \snext16 Subtitle;}
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid \sbasedon0 \snext17 BodyText;}
+{\s18\widctlpar\fs22\cgrid \sbasedon0 \snext18 DenseText;}
+{\s28\widctlpar\tqc\tx4320\tqr\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext28 header;}
+{\s29\widctlpar\tqc\tx4320\tqr\tx8640\qr\adjustright \fs20\cgrid \sbasedon0 \snext29 footer;}
+{\s30\li360\sa60\sb120\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext30 GroupHeader;}
+{\s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext41 Code Example 0;}
+{\s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext42 Code Example 1;}
+{\s42\li720\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext43 Code Example 2;}
+{\s43\li1080\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext44 Code Example 3;}
+{\s44\li1440\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext45 Code Example 4;}
+{\s45\li1800\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext46 Code Example 5;}
+{\s46\li2160\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext47 Code Example 6;}
+{\s47\li2520\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext48 Code Example 7;}
+{\s48\li2880\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext49 Code Example 8;}
+{\s49\li3240\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext49 Code Example 9;}
+{\s50\li0\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext51 List Continue 0;}
+{\s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext52 List Continue 1;}
+{\s52\li720\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext53 List Continue 2;}
+{\s53\li1080\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext54 List Continue 3;}
+{\s54\li1440\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext55 List Continue 4;}
+{\s55\li1800\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext56 List Continue 5;}
+{\s56\li2160\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext57 List Continue 6;}
+{\s57\li2520\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext58 List Continue 7;}
+{\s58\li2880\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext59 List Continue 8;}
+{\s59\li3240\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext59 List Continue 9;}
+{\s60\li0\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext61 DescContinue 0;}
+{\s61\li360\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext62 DescContinue 1;}
+{\s62\li720\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext63 DescContinue 2;}
+{\s63\li1080\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext64 DescContinue 3;}
+{\s64\li1440\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext65 DescContinue 4;}
+{\s65\li1800\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext66 DescContinue 5;}
+{\s66\li2160\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext67 DescContinue 6;}
+{\s67\li2520\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext68 DescContinue 7;}
+{\s68\li2880\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext69 DescContinue 8;}
+{\s69\li3240\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext69 DescContinue 9;}
+{\s70\li0\sa30\sb30\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext81 LatexTOC 0;}
+{\s71\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext82 LatexTOC 1;}
+{\s72\li720\sa24\sb24\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext83 LatexTOC 2;}
+{\s73\li1080\sa21\sb21\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext84 LatexTOC 3;}
+{\s74\li1440\sa18\sb18\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext85 LatexTOC 4;}
+{\s75\li1800\sa15\sb15\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext86 LatexTOC 5;}
+{\s76\li2160\sa12\sb12\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext87 LatexTOC 6;}
+{\s77\li2520\sa9\sb9\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext88 LatexTOC 7;}
+{\s78\li2880\sa6\sb6\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext89 LatexTOC 8;}
+{\s79\li3240\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext89 LatexTOC 9;}
+{\s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext81 \sautoupd List Bullet 0;}
+{\s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid \sbasedon0 \snext82 \sautoupd List Bullet 1;}
+{\s82\fi-360\li1080\widctlpar\jclisttab\tx1080{\*\pn \pnlvlbody\ilvl0\ls3\pnrnot0\pndec }\ls3\adjustright \fs20\cgrid \sbasedon0 \snext83 \sautoupd List Bullet 2;}
+{\s83\fi-360\li1440\widctlpar\jclisttab\tx1440{\*\pn \pnlvlbody\ilvl0\ls4\pnrnot0\pndec }\ls4\adjustright \fs20\cgrid \sbasedon0 \snext84 \sautoupd List Bullet 3;}
+{\s84\fi-360\li1800\widctlpar\jclisttab\tx1800{\*\pn \pnlvlbody\ilvl0\ls5\pnrnot0\pndec }\ls5\adjustright \fs20\cgrid \sbasedon0 \snext85 \sautoupd List Bullet 4;}
+{\s85\fi-360\li2160\widctlpar\jclisttab\tx2160{\*\pn \pnlvlbody\ilvl0\ls6\pnrnot0\pndec }\ls6\adjustright \fs20\cgrid \sbasedon0 \snext86 \sautoupd List Bullet 5;}
+{\s86\fi-360\li2520\widctlpar\jclisttab\tx2520{\*\pn \pnlvlbody\ilvl0\ls7\pnrnot0\pndec }\ls7\adjustright \fs20\cgrid \sbasedon0 \snext87 \sautoupd List Bullet 6;}
+{\s87\fi-360\li2880\widctlpar\jclisttab\tx2880{\*\pn \pnlvlbody\ilvl0\ls8\pnrnot0\pndec }\ls8\adjustright \fs20\cgrid \sbasedon0 \snext88 \sautoupd List Bullet 7;}
+{\s88\fi-360\li3240\widctlpar\jclisttab\tx3240{\*\pn \pnlvlbody\ilvl0\ls9\pnrnot0\pndec }\ls9\adjustright \fs20\cgrid \sbasedon0 \snext89 \sautoupd List Bullet 8;}
+{\s89\fi-360\li3600\widctlpar\jclisttab\tx3600{\*\pn \pnlvlbody\ilvl0\ls10\pnrnot0\pndec }\ls10\adjustright \fs20\cgrid \sbasedon0 \snext89 \sautoupd List Bullet 9;}
+{\s90\fi-360\li360\widctlpar\fs20\cgrid \sbasedon0 \snext91 \sautoupd List Enum 0;}
+{\s91\fi-360\li720\widctlpar\fs20\cgrid \sbasedon0 \snext92 \sautoupd List Enum 1;}
+{\s92\fi-360\li1080\widctlpar\fs20\cgrid \sbasedon0 \snext93 \sautoupd List Enum 2;}
+{\s93\fi-360\li1440\widctlpar\fs20\cgrid \sbasedon0 \snext94 \sautoupd List Enum 3;}
+{\s94\fi-360\li1800\widctlpar\fs20\cgrid \sbasedon0 \snext95 \sautoupd List Enum 4;}
+{\s95\fi-360\li2160\widctlpar\fs20\cgrid \sbasedon0 \snext96 \sautoupd List Enum 5;}
+{\s96\fi-360\li2520\widctlpar\fs20\cgrid \sbasedon0 \snext96 \sautoupd List Enum 5;}
+{\s97\fi-360\li2880\widctlpar\fs20\cgrid \sbasedon0 \snext98 \sautoupd List Enum 7;}
+{\s98\fi-360\li3240\widctlpar\fs20\cgrid \sbasedon0 \snext99 \sautoupd List Enum 8;}
+{\s99\fi-360\li3600\widctlpar\fs20\cgrid \sbasedon0 \snext99 \sautoupd List Enum 9;}
+}
+{\comment begin body}
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Referência da Classe QCPAxisTickerText\par \pard\plain 
+{\tc\tcl2 \v QCPAxisTickerText}
+{\xe \v QCPAxisTickerText}
+{\bkmkstart AAAAAAABJU}
+{\bkmkend AAAAAAABJU}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Specialized axis ticker which allows arbitrary labels at specified coordinates. }}\par
+{
+{\f2 #include <qcustomplot.h>}}\par
+Diagrama de hierarquia para QCPAxisTickerText:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "classQCPAxisTickerText__inherit__graph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+Diagrama de colaboração para QCPAxisTickerText:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "classQCPAxisTickerText__coll__graph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Tipos Públicos\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+enum {\b TickStepStrategy} \{ {\b tssReadability}, 
+{\b tssMeetTickCount}
+ \}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Membros Públicos\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b QCPAxisTickerText} ()\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+QMap< double, QString > & {\b ticks} ()\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b subTickCount} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setTicks} (const QMap< double, QString > &{\b ticks})\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setTicks} (const QVector< double > &positions, const QVector< QString > labels)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setSubTickCount} (int subTicks)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b clear} ()\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b addTick} (double position, QString label)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b addTicks} (const QMap< double, QString > &{\b ticks})\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b addTicks} (const QVector< double > &positions, const QVector< QString > &labels)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b TickStepStrategy} {\b tickStepStrategy} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b tickCount} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+double {\b tickOrigin} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setTickStepStrategy} ({\b TickStepStrategy} strategy)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setTickCount} (int count)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setTickOrigin} (double origin)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual void {\b generate} (const {\b QCPRange} &range, const QLocale &locale, QChar formatChar, int precision, QVector< double > &{\b ticks}, QVector< double > *subTicks, QVector< QString > *tickLabels)\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Membros Protegidos\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual double {\b getTickStep} (const {\b QCPRange} &range) {\b Q_DECL_OVERRIDE}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual int {\b getSubTickCount} (double tickStep) {\b Q_DECL_OVERRIDE}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual QString {\b getTickLabel} (double tick, const QLocale &locale, QChar formatChar, int precision) {\b Q_DECL_OVERRIDE}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual QVector< double > {\b createTickVector} (double tickStep, const {\b QCPRange} &range) {\b Q_DECL_OVERRIDE}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual QVector< double > {\b createSubTickVector} (int {\b subTickCount}, const QVector< double > &{\b ticks})\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual QVector< QString > {\b createLabelVector} (const QVector< double > &{\b ticks}, const QLocale &locale, QChar formatChar, int precision)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b trimTicks} (const {\b QCPRange} &range, QVector< double > &{\b ticks}, bool keepOneOutlier) const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+double {\b pickClosest} (double target, const QVector< double > &candidates) const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+double {\b getMantissa} (double input, double *magnitude=0) const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+double {\b cleanMantissa} (double input) const\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Atributos Protegidos\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+QMap< double, QString > {\b mTicks}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b mSubTickCount}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b TickStepStrategy} {\b mTickStepStrategy}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b mTickCount}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+double {\b mTickOrigin}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Descrição detalhada\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Specialized axis ticker which allows arbitrary labels at specified coordinates. \par
+}
+
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+This {\b QCPAxisTicker} subclass generates ticks which can be directly specified by the user as coordinates and associated strings. They can be passed as a whole with {\b setTicks} or one at a time with {\b addTick}. Alternatively you can directly access the internal storage via {\b ticks} and modify the tick/label data there.\par
+This is useful for cases where the axis represents categories rather than numerical values.\par
+If you are updating the ticks of this ticker regularly and in a dynamic fasion (e.g. dependent on the axis range), it is a sign that you should probably create an own ticker by subclassing {\b QCPAxisTicker}, instead of using this one.\par
+The ticker can be created and assigned to an axis like this: {
+\par
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid }}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Enumerações\par
+\pard\plain 
+{\xe \v TickStepStrategy\:QCPAxisTickerText}
+{\xe \v QCPAxisTickerText\:TickStepStrategy}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+enum {\b QCPAxisTicker::TickStepStrategy}{\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAABFS}
+{\bkmkend AAAAAAABFS}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Defines the strategies that the axis ticker may follow when choosing the size of the tick step.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b setTickStepStrategy} \par
+}}{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Enumeradores:\par}
+\pard\plain \s61\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{\xe \v tssReadability\:QCPAxisTickerText}
+{\xe \v QCPAxisTickerText\:tssReadability}
+{\qr tssReadability{\bkmkstart AAAAAAABFT}
+{\bkmkend AAAAAAABFT}
+\cell }{{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+A nicely readable tick step is prioritized over matching the requested number of ticks (see {\b setTickCount}) \par
+}\cell }{\row }
+{\xe \v tssMeetTickCount\:QCPAxisTickerText}
+{\xe \v QCPAxisTickerText\:tssMeetTickCount}
+{\qr tssMeetTickCount{\bkmkstart AAAAAAABFU}
+{\bkmkend AAAAAAABFU}
+\cell }{{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Less readable tick steps are allowed which in turn facilitates getting closer to the requested tick count. \par
+}\cell }{\row }
+}
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1543   \{\par
+ 1544     tssReadability    \par
+ 1545     ,tssMeetTickCount \par
+ 1546   \};\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Construtores e Destrutores\par
+\pard\plain 
+{\xe \v QCPAxisTickerText\:QCPAxisTickerText}
+{\xe \v QCPAxisTickerText\:QCPAxisTickerText}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QCPAxisTickerText::QCPAxisTickerText ()}}
+\par
+{\bkmkstart AAAAAAABJV}
+{\bkmkend AAAAAAABJV}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Constructs the ticker and sets reasonable default values. Axis tickers are commonly created managed by a QSharedPointer, which then can be passed to {\b QCPAxis::setTicker}. \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  6537                                      :\par
+ 6538   mSubTickCount(0)\par
+ 6539 \{\par
+ 6540 \}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Funções membros\par
+\pard\plain 
+{\xe \v addTick\:QCPAxisTickerText}
+{\xe \v QCPAxisTickerText\:addTick}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPAxisTickerText::addTick (double  {\i position}, QString  {\i label})}}
+\par
+{\bkmkstart AAAAAAABJW}
+{\bkmkend AAAAAAABJW}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Adds a single tick to the axis at the given axis coordinate {\i position} , with the provided tick {\i label} .\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b addTicks}, {\b setTicks}, {\b clear} \par
+}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  6604 \{\par
+ 6605   mTicks.insert(position, label);\par
+ 6606 \}\par
+}
+}
+{\xe \v addTicks\:QCPAxisTickerText}
+{\xe \v QCPAxisTickerText\:addTicks}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPAxisTickerText::addTicks (const QMap< double, QString > &  {\i ticks})}}
+\par
+{\bkmkstart AAAAAAABJX}
+{\bkmkend AAAAAAABJX}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.\par
+Adds the provided {\i ticks}  to the ones already existing. The map key of {\i ticks}  corresponds to the axis coordinate, and the map value is the string that will appear as tick label.\par
+An alternative to manipulate ticks is to directly access the internal storage with the {\b ticks} getter.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b addTick}, {\b setTicks}, {\b clear} \par
+}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  6619 \{\par
+ 6620   mTicks.unite(ticks);\par
+ 6621 \}\par
+}
+}
+{\xe \v addTicks\:QCPAxisTickerText}
+{\xe \v QCPAxisTickerText\:addTicks}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPAxisTickerText::addTicks (const QVector< double > &  {\i positions}, const QVector< QString > &  {\i labels})}}
+\par
+{\bkmkstart AAAAAAABJY}
+{\bkmkend AAAAAAABJY}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.\par
+Adds the provided ticks to the ones already existing. The entries of {\i positions}  correspond to the axis coordinates, and the entries of {\i labels}  are the respective strings that will appear as tick labels.\par
+An alternative to manipulate ticks is to directly access the internal storage with the {\b ticks} getter.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b addTick}, {\b setTicks}, {\b clear} \par
+}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  6635 \{\par
+ 6636   if (positions.size() != labels.size())\par
+ 6637     qDebug() << Q_FUNC_INFO << "passed unequal length vectors for positions and labels:" << positions.size() << labels.size();\par
+ 6638   int n = qMin(positions.size(), labels.size());\par
+ 6639   for (int i=0; i<n; ++i)\par
+ 6640     mTicks.insert(positions.at(i), labels.at(i));\par
+ 6641 \}\par
+}
+}
+{\xe \v cleanMantissa\:QCPAxisTickerText}
+{\xe \v QCPAxisTickerText\:cleanMantissa}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+double QCPAxisTicker::cleanMantissa (double  {\i input}) const{\f2 [protected]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAABFX}
+{\bkmkend AAAAAAABFX}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  5823 \{\par
+ 5824   double magnitude;\par
+ 5825   const double mantissa = getMantissa(input, &magnitude);\par
+ 5826   switch (mTickStepStrategy)\par
+ 5827   \{\par
+ 5828     case tssReadability:\par
+ 5829     \{\par
+ 5830       return pickClosest(mantissa, QVector<double>() << 1.0 << 2.0 << 2.5 << 5.0 << 10.0)*magnitude;\par
+ 5831     \}\par
+ 5832     case tssMeetTickCount:\par
+ 5833     \{\par
+ 5834       // this gives effectively a mantissa of 1.0, 1.5, 2.0, 2.5, 3.0, 3.5, 4.0, 4.5, 5.0, 6.0, 8.0, 10.0\par
+ 5835       if (mantissa <= 5.0)\par
+ 5836         return (int)(mantissa*2)/2.0*magnitude; // round digit after decimal point to 0.5\par
+ 5837       else\par
+ 5838         return (int)(mantissa/2.0)*2.0*magnitude; // round to first digit in multiples of 2\par
+ 5839     \}\par
+ 5840   \}\par
+ 5841   return input;\par
+ 5842 \}\par
+}
+}
+{\xe \v clear\:QCPAxisTickerText}
+{\xe \v QCPAxisTickerText\:clear}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPAxisTickerText::clear ()}}
+\par
+{\bkmkstart AAAAAAABJZ}
+{\bkmkend AAAAAAABJZ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Clears all ticks.\par
+An alternative to manipulate ticks is to directly access the internal storage with the {\b ticks} getter.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b setTicks}, {\b addTicks}, {\b addTick} \par
+}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  6593 \{\par
+ 6594   mTicks.clear();\par
+ 6595 \}\par
+}
+}
+{\xe \v createLabelVector\:QCPAxisTickerText}
+{\xe \v QCPAxisTickerText\:createLabelVector}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QVector< QString > QCPAxisTicker::createLabelVector (const QVector< double > &  {\i ticks}, const QLocale &  {\i locale}, QChar  {\i formatChar}, int  {\i precision}){\f2 [protected]}, {\f2 [virtual]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAABFY}
+{\bkmkend AAAAAAABFY}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  5732 \{\par
+ 5733   QVector<QString> result;\par
+ 5734   result.reserve(ticks.size());\par
+ 5735   for (int i=0; i<ticks.size(); ++i)\par
+ 5736     result.append(getTickLabel(ticks.at(i), locale, formatChar, precision));\par
+ 5737   return result;\par
+ 5738 \}\par
+}
+}
+{\xe \v createSubTickVector\:QCPAxisTickerText}
+{\xe \v QCPAxisTickerText\:createSubTickVector}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QVector< double > QCPAxisTicker::createSubTickVector (int  {\i subTickCount}, const QVector< double > &  {\i ticks}){\f2 [protected]}, {\f2 [virtual]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAABFZ}
+{\bkmkend AAAAAAABFZ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  5678 \{\par
+ 5679   QVector<double> result;\par
+ 5680   if (subTickCount <= 0 || ticks.size() < 2)\par
+ 5681     return result;\par
+ 5682   \par
+ 5683   result.reserve((ticks.size()-1)*subTickCount);\par
+ 5684   for (int i=1; i<ticks.size(); ++i)\par
+ 5685   \{\par
+ 5686     double subTickStep = (ticks.at(i)-ticks.at(i-1))/(double)(subTickCount+1);\par
+ 5687     for (int k=1; k<=subTickCount; ++k)\par
+ 5688       result.append(ticks.at(i-1) + k*subTickStep);\par
+ 5689   \}\par
+ 5690   return result;\par
+ 5691 \}\par
+}
+}
+{\xe \v createTickVector\:QCPAxisTickerText}
+{\xe \v QCPAxisTickerText\:createTickVector}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QVector< double > QCPAxisTickerText::createTickVector (double  {\i tickStep}, const {\b QCPRange} &  {\i range}){\f2 [protected]}, {\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAABGC}
+{\bkmkend AAAAAAABGC}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Returns the externally provided tick coordinates which are in the specified {\i range} . If available, one tick above and below the range is provided in addition, to allow possible sub tick calculation. The parameter {\i tickStep}  is ignored.\par
+}{
+Reimplementa {\b QCPAxisTicker} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAABGA \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  6688 \{\par
+ 6689   Q_UNUSED(tickStep)\par
+ 6690   QVector<double> result;\par
+ 6691   if (mTicks.isEmpty())\par
+ 6692     return result;\par
+ 6693   \par
+ 6694   QMap<double, QString>::const_iterator start = mTicks.lowerBound(range.lower);\par
+ 6695   QMap<double, QString>::const_iterator end = mTicks.upperBound(range.upper);\par
+ 6696   // this method should try to give one tick outside of range so proper subticks can be generated:\par
+ 6697   if (start != mTicks.constBegin()) --start;\par
+ 6698   if (end != mTicks.constEnd()) ++end;\par
+ 6699   for (QMap<double, QString>::const_iterator it = start; it != end; ++it)\par
+ 6700     result.append(it.key());\par
+ 6701   \par
+ 6702   return result;\par
+ 6703 \}\par
+}
+}
+{\xe \v generate\:QCPAxisTickerText}
+{\xe \v QCPAxisTickerText\:generate}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPAxisTicker::generate (const {\b QCPRange} &  {\i range}, const QLocale &  {\i locale}, QChar  {\i formatChar}, int  {\i precision}, QVector< double > &  {\i ticks}, QVector< double > *  {\i subTicks}, QVector< QString > *  {\i tickLabels}){\f2 [virtual]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAABGE}
+{\bkmkend AAAAAAABGE}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+This is the method called by {\b QCPAxis} in order to actually generate tick coordinates ({\i ticks} ), tick label strings ({\i tickLabels} ) and sub tick coordinates ({\i subTicks} ).\par
+The ticks are generated for the specified {\i range} . The generated labels typically follow the specified {\i locale} , {\i formatChar}  and number {\i precision} , however this might be different (or even irrelevant) for certain {\b QCPAxisTicker} subclasses.\par
+The output parameter {\i ticks}  is filled with the generated tick positions in axis coordinates. The output parameters {\i subTicks}  and {\i tickLabels}  are optional (set them to 0 if not needed) and are respectively filled with sub tick coordinates, and tick label strings belonging to {\i ticks}  by index. \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  5553 \{\par
+ 5554   // generate (major) ticks:\par
+ 5555   double tickStep = getTickStep(range);\par
+ 5556   ticks = createTickVector(tickStep, range);\par
+ 5557   trimTicks(range, ticks, true); // trim ticks to visible range plus one outer tick on each side (incase a subclass createTickVector creates more)\par
+ 5558   \par
+ 5559   // generate sub ticks between major ticks:\par
+ 5560   if (subTicks)\par
+ 5561   \{\par
+ 5562     if (ticks.size() > 0)\par
+ 5563     \{\par
+ 5564       *subTicks = createSubTickVector(getSubTickCount(tickStep), ticks);\par
+ 5565       trimTicks(range, *subTicks, false);\par
+ 5566     \} else\par
+ 5567       *subTicks = QVector<double>();\par
+ 5568   \}\par
+ 5569   \par
+ 5570   // finally trim also outliers (no further clipping happens in axis drawing):\par
+ 5571   trimTicks(range, ticks, false);\par
+ 5572   // generate labels for visible ticks if requested:\par
+ 5573   if (tickLabels)\par
+ 5574     *tickLabels = createLabelVector(ticks, locale, formatChar, precision);\par
+ 5575 \}\par
+}
+}
+{\xe \v getMantissa\:QCPAxisTickerText}
+{\xe \v QCPAxisTickerText\:getMantissa}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+double QCPAxisTicker::getMantissa (double  {\i input}, double *  {\i magnitude} = {\f2 0}) const{\f2 [protected]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAABGF}
+{\bkmkend AAAAAAABGF}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  5810 \{\par
+ 5811   const double mag = qPow(10.0, qFloor(qLn(input)/qLn(10.0)));\par
+ 5812   if (magnitude) *magnitude = mag;\par
+ 5813   return input/mag;\par
+ 5814 \}\par
+}
+}
+{\xe \v getSubTickCount\:QCPAxisTickerText}
+{\xe \v QCPAxisTickerText\:getSubTickCount}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int QCPAxisTickerText::getSubTickCount (double  {\i tickStep}){\f2 [protected]}, {\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAABGJ}
+{\bkmkend AAAAAAABGJ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Returns the sub tick count that was configured with {\b setSubTickCount}.\par
+}{
+Reimplementa {\b QCPAxisTicker} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAABGG \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  6661 \{\par
+ 6662   Q_UNUSED(tickStep)\par
+ 6663   return mSubTickCount;\par
+ 6664 \}\par
+}
+}
+{\xe \v getTickLabel\:QCPAxisTickerText}
+{\xe \v QCPAxisTickerText\:getTickLabel}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QString QCPAxisTickerText::getTickLabel (double  {\i tick}, const QLocale &  {\i locale}, QChar  {\i formatChar}, int  {\i precision}){\f2 [protected]}, {\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAABGO}
+{\bkmkend AAAAAAABGO}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Returns the tick label which corresponds to the key {\i tick}  in the internal tick storage. Since the labels are provided externally, {\i locale} , {\i formatChar} , and {\i precision}  are ignored.\par
+}{
+Reimplementa {\b QCPAxisTicker} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAABGM \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  6673 \{\par
+ 6674   Q_UNUSED(locale)\par
+ 6675   Q_UNUSED(formatChar)\par
+ 6676   Q_UNUSED(precision)\par
+ 6677   return mTicks.value(tick);\par
+ 6678 \}\par
+}
+}
+{\xe \v getTickStep\:QCPAxisTickerText}
+{\xe \v QCPAxisTickerText\:getTickStep}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+double QCPAxisTickerText::getTickStep (const {\b QCPRange} &  {\i range}){\f2 [protected]}, {\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAABGU}
+{\bkmkend AAAAAAABGU}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Since the tick coordinates are provided externally, this method implementation does nothing.\par
+}{
+Reimplementa {\b QCPAxisTicker} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAABGR \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  6649 \{\par
+ 6650   // text axis ticker has manual tick positions, so doesn't need this method\par
+ 6651   Q_UNUSED(range)\par
+ 6652   return 1.0;\par
+ 6653 \}\par
+}
+}
+{\xe \v pickClosest\:QCPAxisTickerText}
+{\xe \v QCPAxisTickerText\:pickClosest}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+double QCPAxisTicker::pickClosest (double  {\i target}, const QVector< double > &  {\i candidates}) const{\f2 [protected]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAABGY}
+{\bkmkend AAAAAAABGY}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  5790 \{\par
+ 5791   if (candidates.size() == 1)\par
+ 5792     return candidates.first();\par
+ 5793   QVector<double>::const_iterator it = std::lower_bound(candidates.constBegin(), candidates.constEnd(), target);\par
+ 5794   if (it == candidates.constEnd())\par
+ 5795     return *(it-1);\par
+ 5796   else if (it == candidates.constBegin())\par
+ 5797     return *it;\par
+ 5798   else\par
+ 5799     return target-*(it-1) < *it-target ? *(it-1) : *it;\par
+ 5800 \}\par
+}
+}
+{\xe \v setSubTickCount\:QCPAxisTickerText}
+{\xe \v QCPAxisTickerText\:setSubTickCount}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPAxisTickerText::setSubTickCount (int  {\i subTicks})}}
+\par
+{\bkmkstart AAAAAAABKA}
+{\bkmkend AAAAAAABKA}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Sets the number of sub ticks that shall appear between ticks. For {\b QCPAxisTickerText}, there is no automatic sub tick count calculation. So if sub ticks are needed, they must be configured with this method. \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  6577 \{\par
+ 6578   if (subTicks >= 0)\par
+ 6579     mSubTickCount = subTicks;\par
+ 6580   else\par
+ 6581     qDebug() << Q_FUNC_INFO << "sub tick count can't be negative:" << subTicks;\par
+ 6582 \}\par
+}
+}
+{\xe \v setTickCount\:QCPAxisTickerText}
+{\xe \v QCPAxisTickerText\:setTickCount}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPAxisTicker::setTickCount (int  {\i count}){\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAABGZ}
+{\bkmkend AAAAAAABGZ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Sets how many ticks this ticker shall aim to generate across the axis range. Note that {\i count}  is not guaranteed to be matched exactly, as generating readable tick intervals may conflict with the requested number of ticks.\par
+Whether the readability has priority over meeting the requested {\i count}  can be specified with {\b setTickStepStrategy}. \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  5519 \{\par
+ 5520   if (count > 0)\par
+ 5521     mTickCount = count;\par
+ 5522   else\par
+ 5523     qDebug() << Q_FUNC_INFO << "tick count must be greater than zero:" << count;\par
+ 5524 \}\par
+}
+}
+{\xe \v setTickOrigin\:QCPAxisTickerText}
+{\xe \v QCPAxisTickerText\:setTickOrigin}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPAxisTicker::setTickOrigin (double  {\i origin}){\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAABHA}
+{\bkmkend AAAAAAABHA}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Sets the mathematical coordinate (or "offset") of the zeroth tick. This tick coordinate is just a concept and doesn't need to be inside the currently visible axis range.\par
+By default {\i origin}  is zero, which for example yields ticks \{-5, 0, 5, 10, 15,...\} when the tick step is five. If {\i origin}  is now set to 1 instead, the correspondingly generated ticks would be \{-4, 1, 6, 11, 16,...\}. \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  5535 \{\par
+ 5536   mTickOrigin = origin;\par
+ 5537 \}\par
+}
+}
+{\xe \v setTicks\:QCPAxisTickerText}
+{\xe \v QCPAxisTickerText\:setTicks}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPAxisTickerText::setTicks (const QMap< double, QString > &  {\i ticks})}}
+\par
+{\bkmkstart AAAAAAABKB}
+{\bkmkend AAAAAAABKB}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.\par
+Sets the ticks that shall appear on the axis. The map key of {\i ticks}  corresponds to the axis coordinate, and the map value is the string that will appear as tick label.\par
+An alternative to manipulate ticks is to directly access the internal storage with the {\b ticks} getter.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b addTicks}, {\b addTick}, {\b clear} \par
+}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  6553 \{\par
+ 6554   mTicks = ticks;\par
+ 6555 \}\par
+}
+}
+{\xe \v setTicks\:QCPAxisTickerText}
+{\xe \v QCPAxisTickerText\:setTicks}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPAxisTickerText::setTicks (const QVector< double > &  {\i positions}, const QVector< QString >  {\i labels})}}
+\par
+{\bkmkstart AAAAAAABKC}
+{\bkmkend AAAAAAABKC}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.\par
+Sets the ticks that shall appear on the axis. The entries of {\i positions}  correspond to the axis coordinates, and the entries of {\i labels}  are the respective strings that will appear as tick labels.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b addTicks}, {\b addTick}, {\b clear} \par
+}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  6566 \{\par
+ 6567   clear();\par
+ 6568   addTicks(positions, labels);\par
+ 6569 \}\par
+}
+}
+{\xe \v setTickStepStrategy\:QCPAxisTickerText}
+{\xe \v QCPAxisTickerText\:setTickStepStrategy}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPAxisTicker::setTickStepStrategy ({\b QCPAxisTicker::TickStepStrategy}  {\i strategy}){\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAABHB}
+{\bkmkend AAAAAAABHB}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Sets which strategy the axis ticker follows when choosing the size of the tick step. For the available strategies, see {\b TickStepStrategy}. \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  5506 \{\par
+ 5507   mTickStepStrategy = strategy;\par
+ 5508 \}\par
+}
+}
+{\xe \v subTickCount\:QCPAxisTickerText}
+{\xe \v QCPAxisTickerText\:subTickCount}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int QCPAxisTickerText::subTickCount () const{\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAABKD}
+{\bkmkend AAAAAAABKD}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1736 \{ return mSubTickCount; \}\par
+}
+}
+{\xe \v tickCount\:QCPAxisTickerText}
+{\xe \v QCPAxisTickerText\:tickCount}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int QCPAxisTicker::tickCount () const{\f2 [inline]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAABHC}
+{\bkmkend AAAAAAABHC}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1554 \{ return mTickCount; \}\par
+}
+}
+{\xe \v tickOrigin\:QCPAxisTickerText}
+{\xe \v QCPAxisTickerText\:tickOrigin}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+double QCPAxisTicker::tickOrigin () const{\f2 [inline]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAABHD}
+{\bkmkend AAAAAAABHD}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1555 \{ return mTickOrigin; \}\par
+}
+}
+{\xe \v ticks\:QCPAxisTickerText}
+{\xe \v QCPAxisTickerText\:ticks}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QMap< double, QString > & QCPAxisTickerText::ticks (){\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAABKE}
+{\bkmkend AAAAAAABKE}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Returns a non-const reference to the internal map which stores the tick coordinates and their labels.\par
+You can access the map directly in order to add, remove or manipulate ticks, as an alternative to using the methods provided by {\b QCPAxisTickerText}, such as {\b setTicks} and {\b addTick}. \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1735 \{ return mTicks; \}\par
+}
+}
+{\xe \v tickStepStrategy\:QCPAxisTickerText}
+{\xe \v QCPAxisTickerText\:tickStepStrategy}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b TickStepStrategy} QCPAxisTicker::tickStepStrategy () const{\f2 [inline]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAABHE}
+{\bkmkend AAAAAAABHE}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1553 \{ return mTickStepStrategy; \}\par
+}
+}
+{\xe \v trimTicks\:QCPAxisTickerText}
+{\xe \v QCPAxisTickerText\:trimTicks}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPAxisTicker::trimTicks (const {\b QCPRange} &  {\i range}, QVector< double > &  {\i ticks}, bool  {\i keepOneOutlier}) const{\f2 [protected]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAABHF}
+{\bkmkend AAAAAAABHF}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  5748 \{\par
+ 5749   bool lowFound = false;\par
+ 5750   bool highFound = false;\par
+ 5751   int lowIndex = 0;\par
+ 5752   int highIndex = -1;\par
+ 5753   \par
+ 5754   for (int i=0; i < ticks.size(); ++i)\par
+ 5755   \{\par
+ 5756     if (ticks.at(i) >= range.lower)\par
+ 5757     \{\par
+ 5758       lowFound = true;\par
+ 5759       lowIndex = i;\par
+ 5760       break;\par
+ 5761     \}\par
+ 5762   \}\par
+ 5763   for (int i=ticks.size()-1; i >= 0; --i)\par
+ 5764   \{\par
+ 5765     if (ticks.at(i) <= range.upper)\par
+ 5766     \{\par
+ 5767       highFound = true;\par
+ 5768       highIndex = i;\par
+ 5769       break;\par
+ 5770     \}\par
+ 5771   \}\par
+ 5772   \par
+ 5773   if (highFound && lowFound)\par
+ 5774   \{\par
+ 5775     int trimFront = qMax(0, lowIndex-(keepOneOutlier ? 1 : 0));\par
+ 5776     int trimBack = qMax(0, ticks.size()-(keepOneOutlier ? 2 : 1)-highIndex);\par
+ 5777     if (trimFront > 0 || trimBack > 0)\par
+ 5778       ticks = ticks.mid(trimFront, ticks.size()-trimFront-trimBack);\par
+ 5779   \} else // all ticks are either all below or all above the range\par
+ 5780     ticks.clear();\par
+ 5781 \}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Atributos\par
+\pard\plain 
+{\xe \v mSubTickCount\:QCPAxisTickerText}
+{\xe \v QCPAxisTickerText\:mSubTickCount}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int QCPAxisTickerText::mSubTickCount{\f2 [protected]}}}
+\par
+{\bkmkstart AAAAAAABKF}
+{\bkmkend AAAAAAABKF}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v mTickCount\:QCPAxisTickerText}
+{\xe \v QCPAxisTickerText\:mTickCount}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int QCPAxisTicker::mTickCount{\f2 [protected]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAABHG}
+{\bkmkend AAAAAAABHG}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v mTickOrigin\:QCPAxisTickerText}
+{\xe \v QCPAxisTickerText\:mTickOrigin}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+double QCPAxisTicker::mTickOrigin{\f2 [protected]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAABHH}
+{\bkmkend AAAAAAABHH}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v mTicks\:QCPAxisTickerText}
+{\xe \v QCPAxisTickerText\:mTicks}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QMap<double, QString> QCPAxisTickerText::mTicks{\f2 [protected]}}}
+\par
+{\bkmkstart AAAAAAABKG}
+{\bkmkend AAAAAAABKG}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v mTickStepStrategy\:QCPAxisTickerText}
+{\xe \v QCPAxisTickerText\:mTickStepStrategy}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b TickStepStrategy} QCPAxisTicker::mTickStepStrategy{\f2 [protected]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAABHI}
+{\bkmkend AAAAAAABHI}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+A documentação para essa classe foi gerada a partir dos seguintes arquivos:{\par
+\pard\plain \s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid 
+{\b qcustomplot.h}\par
+\pard\plain \s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid 
+{\b qcustomplot.cpp}\par
+}}

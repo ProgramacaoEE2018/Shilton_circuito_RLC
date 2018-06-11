@@ -1,0 +1,6 @@
+digraph "QCPGraphData"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node510 [label="{QCPGraphData\n|+ key\l+ value\l|+ QCPGraphData()\l+ QCPGraphData()\l+ sortKey()\l+ mainKey()\l+ mainValue()\l+ valueRange()\l+ fromSortKey()\l+ sortKeyIsMainKey()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

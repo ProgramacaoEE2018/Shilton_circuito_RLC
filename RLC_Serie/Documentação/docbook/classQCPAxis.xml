@@ -1,0 +1,2949 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="classQCPAxis">
+<title>QCPAxis class Reference</title>
+<para>
+    <programlisting>#include <link linkend="qcustomplot_8h">&lt;qcustomplot.h&gt;</link></programlisting>
+</para>
+<para>Inheritance diagram for QCPAxis</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="classQCPAxis__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for QCPAxis</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="classQCPAxis__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                            <para><literallayout>enum <link linkend="classQCPAxis_1ae2bcc1728b382f10f064612b368bc18a">AxisType</link> {
+<link linkend="classQCPAxis_1ae2bcc1728b382f10f064612b368bc18aaf84aa6cac6fb6099f54a2cbf7546b730">atLeft</link>= 0x01,
+<link linkend="classQCPAxis_1ae2bcc1728b382f10f064612b368bc18aadf5509f7d29199ef2f263b1dd224b345">atRight</link>= 0x02,
+<link linkend="classQCPAxis_1ae2bcc1728b382f10f064612b368bc18aac0ece2b680d3f545e701f75af1655977">atTop</link>= 0x04,
+<link linkend="classQCPAxis_1ae2bcc1728b382f10f064612b368bc18aa220d68888516b6c3b493d144f1ba438f">atBottom</link>= 0x08
+}</literallayout>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                            <para><literallayout>enum <link linkend="classQCPAxis_1a24b13374b9b8f75f47eed2ea78c37db9">LabelSide</link> {
+<link linkend="classQCPAxis_1a24b13374b9b8f75f47eed2ea78c37db9aae7b027ac2839cf4ad611df30236fc3f">lsInside</link>,
+<link linkend="classQCPAxis_1a24b13374b9b8f75f47eed2ea78c37db9a2eadb509fc0c9a8b35b85c86ec9f3c7a">lsOutside</link>
+}</literallayout>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                            <para><literallayout>enum <link linkend="classQCPAxis_1a36d8e8658dbaa179bf2aeb973db2d6f0">ScaleType</link> {
+<link linkend="classQCPAxis_1a36d8e8658dbaa179bf2aeb973db2d6f0aff6e30a11a828bc850caffab0ff994f6">stLinear</link>,
+<link linkend="classQCPAxis_1a36d8e8658dbaa179bf2aeb973db2d6f0abf5b785ad976618816dc6f79b73216d4">stLogarithmic</link>
+}</literallayout>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                            <para><literallayout>enum <link linkend="classQCPAxis_1abee4c7a54c468b1385dfce2c898b115f">SelectablePart</link> {
+<link linkend="classQCPAxis_1abee4c7a54c468b1385dfce2c898b115fae0df8123a5528d5ccf87cb7794f971ea">spNone</link>= 0,
+<link linkend="classQCPAxis_1abee4c7a54c468b1385dfce2c898b115fa8949d2c1a31eccae9be7ed32e7a1ae38">spAxis</link>= 0x001,
+<link linkend="classQCPAxis_1abee4c7a54c468b1385dfce2c898b115fa584e0a3dc4d064880647619f4bd4e771">spTickLabels</link>= 0x002,
+<link linkend="classQCPAxis_1abee4c7a54c468b1385dfce2c898b115fa851e0600e0d08b4f5fee9361e3fedabd">spAxisLabel</link>= 0x004
+}</literallayout>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title>Atributos Protegidos</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>AxisType mAxisType</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QCPAxisRect * mAxisRect</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>int mPadding</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>Qt::Orientation mOrientation</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>SelectableParts mSelectableParts</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>SelectableParts mSelectedParts</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPen mBasePen</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPen mSelectedBasePen</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QString mLabel</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QFont mLabelFont</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QFont mSelectedLabelFont</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QColor mLabelColor</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QColor mSelectedLabelColor</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool mTickLabels</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QFont mTickLabelFont</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QFont mSelectedTickLabelFont</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QColor mTickLabelColor</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QColor mSelectedTickLabelColor</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>int mNumberPrecision</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QLatin1Char mNumberFormatChar</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool mNumberBeautifulPowers</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool mTicks</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool mSubTicks</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPen mTickPen</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPen mSelectedTickPen</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPen mSubTickPen</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPen mSelectedSubTickPen</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QCPRange mRange</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool mRangeReversed</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>ScaleType mScaleType</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QCPGrid * mGrid</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QCPAxisPainterPrivate * mAxisPainter</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QSharedPointer&lt; QCPAxisTicker &gt; mTicker</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QVector&lt; double &gt; mTickVector</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QVector&lt; QString &gt; mTickVectorLabels</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QVector&lt; double &gt; mSubTickVector</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool mCachedMarginValid</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>int mCachedMargin</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool mDragging</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QCPRange mDragStartRange</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QCP::AntialiasedElements mAADragBackup</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QCP::AntialiasedElements mNotAADragBackup</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool mVisible</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QCustomPlot * mParentPlot</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPointer&lt; QCPLayerable &gt; mParentLayerable</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QCPLayer * mLayer</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool mAntialiased</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="classQCPAxis_1ac62c042968bae0e6d474fcfc57c9b71f">QCPAxis</link> (
+<link linkend="classQCPAxisRect">QCPAxisRect</link> * parent, <link linkend="classQCPAxis_1ae2bcc1728b382f10f064612b368bc18a">AxisType</link> type)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual <link linkend="classQCPAxis_1a7cfa27ea9da0bb1fe0ae995572c0b85d">~QCPAxis</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="classQCPAxis_1ae2bcc1728b382f10f064612b368bc18a">AxisType</link> <link linkend="classQCPAxis_1aa19679359783c5ecd27757b7e5619976">axisType</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="classQCPAxisRect">QCPAxisRect</link> * <link linkend="classQCPAxis_1afc94bcfdf8adfe8e01013f13bdf159a2">axisRect</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="classQCPAxis_1a36d8e8658dbaa179bf2aeb973db2d6f0">ScaleType</link> <link linkend="classQCPAxis_1ad23e9ad97b44e9aeaf4fab8904280098">scaleType</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const <link linkend="classQCPRange">QCPRange</link> <link linkend="classQCPAxis_1ac4058855a81f1a883cf2e754f6a6acb1">range</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="classQCPAxis_1ab9866dd1a78f1920f491ec12a794bec2">rangeReversed</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QSharedPointer&lt; <link linkend="classQCPAxisTicker">QCPAxisTicker</link> &gt; <link linkend="classQCPAxis_1a7b7a27151be8235059e1294f73ecf615">ticker</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="classQCPAxis_1a5c3da767a2dc990f200856a9e27ea06e">ticks</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="classQCPAxis_1ae4158bbc52939ee52cdb12b805860a28">tickLabels</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>int <link linkend="classQCPAxis_1afac7316ca35941e7080f98e0022c1891">tickLabelPadding</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QFont <link linkend="classQCPAxis_1a09f339b7125cf1094920f86687b88236">tickLabelFont</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QColor <link linkend="classQCPAxis_1a9e21b2326bb2de0b7a8efcd1efc0ce78">tickLabelColor</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double <link linkend="classQCPAxis_1a5c81e5d550266fdb9e11d96d1dc5713e">tickLabelRotation</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="classQCPAxis_1a24b13374b9b8f75f47eed2ea78c37db9">LabelSide</link> <link linkend="classQCPAxis_1a1dc21783965a7c7d9c29c2a75d0a54e1">tickLabelSide</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QString <link linkend="classQCPAxis_1a20cc29c2f282a0e9efd8f32145e47be6">numberFormat</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>int <link linkend="classQCPAxis_1a2562b6f3a4a01c7ed83a388042664998">numberPrecision</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QVector&lt; double &gt; <link linkend="classQCPAxis_1a5aad9d6b34821ab0751dfc38dbc92a46">tickVector</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QVector&lt; QString &gt; <link linkend="classQCPAxis_1a1bd4a9036e0c9fc68b6f3df81f07e55f">tickVectorLabels</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>int <link linkend="classQCPAxis_1ace2accb350fd3f3f474280f58c1d61c5">tickLengthIn</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>int <link linkend="classQCPAxis_1ad3ba6614ccddf351f133e0acdd4f021e">tickLengthOut</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="classQCPAxis_1ad74153c38fd83b54c509cff249370beb">subTicks</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>int <link linkend="classQCPAxis_1af907c8ecc4624d1bf4a8f6f702e64fbe">subTickLengthIn</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>int <link linkend="classQCPAxis_1ac98c66cae50c98f3ae90e2969382976d">subTickLengthOut</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPen <link linkend="classQCPAxis_1a216974be018e73008b3cf6d033c1325d">basePen</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPen <link linkend="classQCPAxis_1affd022d4f56dfc575b4ced95ad417860">tickPen</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPen <link linkend="classQCPAxis_1a7a89df74ba427fac311bf4cc92fbddca">subTickPen</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QFont <link linkend="classQCPAxis_1aa7b465fe233f1878793954ba5ab9c47e">labelFont</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QColor <link linkend="classQCPAxis_1a05794f13d322da7fd9d5554d11186b0e">labelColor</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QString <link linkend="classQCPAxis_1a32ba4d3effcddd8af3bc49f405e1d53e">label</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>int <link linkend="classQCPAxis_1a6d9a9fe1c7166f209fb1e25686390451">labelPadding</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>int <link linkend="classQCPAxis_1a07df379d5c017b8f3a4702532eb037b2">padding</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>int <link linkend="classQCPAxis_1aef66fa16353b4993b1cceabfb644a1a9">offset</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>SelectableParts <link linkend="classQCPAxis_1a893e8d6cfed9267eb2b793cb1d2b4dce">selectedParts</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>SelectableParts <link linkend="classQCPAxis_1a1d12d157756c114f4e57517c62177181">selectableParts</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QFont <link linkend="classQCPAxis_1a09817512bef8ddfb669a6828f9c855bc">selectedTickLabelFont</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QFont <link linkend="classQCPAxis_1a1399d614f7c307159bfec938a069203d">selectedLabelFont</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QColor <link linkend="classQCPAxis_1a75f11d3031a11559f3e984e916fcde2c">selectedTickLabelColor</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QColor <link linkend="classQCPAxis_1a7adea64ef4b715e7a1c519fff2b110b8">selectedLabelColor</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPen <link linkend="classQCPAxis_1a0d54314ab3053fd0fb77294a0e7f08cb">selectedBasePen</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPen <link linkend="classQCPAxis_1a76b52a6d824ccf9a95eb024251e1b833">selectedTickPen</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPen <link linkend="classQCPAxis_1a73c147bb2c5598edbb842adc2da8a7bf">selectedSubTickPen</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="classQCPLineEnding">QCPLineEnding</link> <link linkend="classQCPAxis_1a0cc60e5694ed4df6a2c3554e53ee6ae7">lowerEnding</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="classQCPLineEnding">QCPLineEnding</link> <link linkend="classQCPAxis_1a9feaf5f78286693e89221bc205f9389a">upperEnding</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="classQCPGrid">QCPGrid</link> * <link linkend="classQCPAxis_1a63f1dd2df663680d2a8d06c19592dd63">grid</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>Q_SLOT void <link linkend="classQCPAxis_1adef29cae617af4f519f6c40d1a866ca6">setScaleType</link> (
+<link linkend="classQCPAxis_1a36d8e8658dbaa179bf2aeb973db2d6f0">QCPAxis::ScaleType</link> type)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>Q_SLOT void <link linkend="classQCPAxis_1aebdfea5d44c3a0ad2b4700cd4d25b641">setRange</link> (
+const <link linkend="classQCPRange">QCPRange</link> &amp; range)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPAxis_1a57d6ee9e9009fe88cb19db476ec70bca">setRange</link> (
+double lower, double upper)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPAxis_1acf60e5b2d631fbc8c4548c3d579cb6d0">setRange</link> (
+double position, double size, Qt::AlignmentFlag alignment)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPAxis_1afcf51227d337db28d1a9ce9a4d1bc91a">setRangeLower</link> (
+double lower)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPAxis_1acd3ca1247aa867b540cd5ec30ccd3bef">setRangeUpper</link> (
+double upper)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPAxis_1a2172fdb196b1a0dc3f40992fcad8e9e1">setRangeReversed</link> (
+bool reversed)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPAxis_1a4ee03fcd2c74d05cd1a419b9af5cfbdc">setTicker</link> (
+QSharedPointer&lt; <link linkend="classQCPAxisTicker">QCPAxisTicker</link> &gt; ticker)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPAxis_1ac891409315bc379e3b1abdb162c1a011">setTicks</link> (
+bool show)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPAxis_1a04ba16e1f6f78d70f938519576ed32c8">setTickLabels</link> (
+bool show)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPAxis_1af302c479af9dbc2e9f0e44e07c0012ee">setTickLabelPadding</link> (
+int padding)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPAxis_1a2b8690c4e8dbc39d9185d2b398ce7a6c">setTickLabelFont</link> (
+const QFont &amp; font)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPAxis_1a395e445c3fe496b935bee7b911ecfd1c">setTickLabelColor</link> (
+const QColor &amp; color)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPAxis_1a1bddd4413df8a576b7ad4b067fb33375">setTickLabelRotation</link> (
+double degrees)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPAxis_1a13ec644fc6e22715744c92c6dfa4f0fa">setTickLabelSide</link> (
+<link linkend="classQCPAxis_1a24b13374b9b8f75f47eed2ea78c37db9">LabelSide</link> side)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPAxis_1ae585a54dc2aac662e90a2ca82f002590">setNumberFormat</link> (
+const QString &amp; formatCode)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPAxis_1a21dc8023ad7500382ad9574b48137e63">setNumberPrecision</link> (
+int precision)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPAxis_1a62ec40bebe3540e9c1479a8fd2be3b0d">setTickLength</link> (
+int inside, int outside)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPAxis_1afae1a37a99611366275a51204d991739">setTickLengthIn</link> (
+int inside)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPAxis_1a3b8a0debd1ffedd2c22d0592dfbb4e62">setTickLengthOut</link> (
+int outside)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPAxis_1afa0ce8d4d0015ed23dcde01f8bc30106">setSubTicks</link> (
+bool show)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPAxis_1ab702d6fd42fc620607435339a1c2a2e1">setSubTickLength</link> (
+int inside, int outside)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPAxis_1ac46fa2a993a9f5789540977610acf1de">setSubTickLengthIn</link> (
+int inside)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPAxis_1a4c6dfc3963492ed72a77724012df5f23">setSubTickLengthOut</link> (
+int outside)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPAxis_1a778d45fb71b3c7ab3bb7079e18b058e4">setBasePen</link> (
+const QPen &amp; pen)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPAxis_1ad80923bcc1c5da4c4db602c5325e797e">setTickPen</link> (
+const QPen &amp; pen)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPAxis_1aede4028ae7516bd51a60618a8233f9cf">setSubTickPen</link> (
+const QPen &amp; pen)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPAxis_1a71ac1a47f7547e490a8c4311d1433cf3">setLabelFont</link> (
+const QFont &amp; font)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPAxis_1a6c906fe56d75f0122335b9f79b999608">setLabelColor</link> (
+const QColor &amp; color)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPAxis_1a33bcc382c111c9f31bb0687352a2dea4">setLabel</link> (
+const QString &amp; str)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPAxis_1a4391192a766e5d20cfe5cbc17607a7a2">setLabelPadding</link> (
+int padding)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPAxis_1a5691441cb3de9e9844855d339c0db279">setPadding</link> (
+int padding)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPAxis_1a04a652603cbe50eba9969ee6d68873c3">setOffset</link> (
+int offset)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPAxis_1a845ccb560b7bc5281098a5be494145f6">setSelectedTickLabelFont</link> (
+const QFont &amp; font)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPAxis_1a02ec2a75d4d8401eaab834fbc6803d30">setSelectedLabelFont</link> (
+const QFont &amp; font)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPAxis_1a9bdbf5e63ab15187f3a1de9440129227">setSelectedTickLabelColor</link> (
+const QColor &amp; color)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPAxis_1a5d502dec597c634f491fdd73d151c72d">setSelectedLabelColor</link> (
+const QColor &amp; color)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPAxis_1aeb917a909215605b95ef2be843de1ee8">setSelectedBasePen</link> (
+const QPen &amp; pen)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPAxis_1a8360502685eb782edbf04019c9345cdc">setSelectedTickPen</link> (
+const QPen &amp; pen)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPAxis_1a2a00a7166600155eac26843132eb9576">setSelectedSubTickPen</link> (
+const QPen &amp; pen)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>Q_SLOT void <link linkend="classQCPAxis_1a513f9b9e326c505d9bec54880031b085">setSelectableParts</link> (
+const QCPAxis::SelectableParts &amp; selectableParts)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>Q_SLOT void <link linkend="classQCPAxis_1ab9d7a69277dcbed9119b3c1f25ca19c3">setSelectedParts</link> (
+const QCPAxis::SelectableParts &amp; selectedParts)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPAxis_1a08af1c72db9ae4dc8cb8a973d44405ab">setLowerEnding</link> (
+const <link linkend="classQCPLineEnding">QCPLineEnding</link> &amp; ending)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPAxis_1a69119b892fc306f651763596685aa377">setUpperEnding</link> (
+const <link linkend="classQCPLineEnding">QCPLineEnding</link> &amp; ending)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual double <link linkend="classQCPAxis_1a63b7103c57fe9acfbce164334ea837f8">selectTest</link> (
+const QPointF &amp; pos, bool onlySelectable, QVariant * details)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>Qt::Orientation <link linkend="classQCPAxis_1ab988ef4538e2655bb77bd138189cd42e">orientation</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>int <link linkend="classQCPAxis_1a45c45bed7e5666683b8d56afa66fa51f">pixelOrientation</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPAxis_1a18f3a68f2b691af1fd34b6593c886630">moveRange</link> (
+double diff)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPAxis_1a31d18ddf3a4f21ceb077db8ae5b69856">scaleRange</link> (
+double factor)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPAxis_1a7072ff96fe690148f1bbcdb4f773ea1c">scaleRange</link> (
+double factor, double center)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPAxis_1af4bbd446dcaee5a83ac30ce9bcd6e125">setScaleRatio</link> (
+const <link linkend="classQCPAxis">QCPAxis</link> * otherAxis, double ratio)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPAxis_1a499345f02ebce4b23d8ccec96e58daa9">rescale</link> (
+bool onlyVisiblePlottables)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double <link linkend="classQCPAxis_1a536ef8f624cac59b6b6fdcb495723c57">pixelToCoord</link> (
+double value)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double <link linkend="classQCPAxis_1af15d1b3a7f7e9b53d759d3ccff1fe4b4">coordToPixel</link> (
+double value)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="classQCPAxis_1abee4c7a54c468b1385dfce2c898b115f">SelectablePart</link> <link linkend="classQCPAxis_1a22ab2d71d7341b9b3974c0dd10619af2">getPartAt</link> (
+const QPointF &amp; pos)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QList&lt; <link linkend="classQCPAbstractPlottable">QCPAbstractPlottable</link> * &gt; <link linkend="classQCPAxis_1ac5e0f6f65c75efb5fd32275d6e4ef0d6">plottables</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QList&lt; <link linkend="classQCPGraph">QCPGraph</link> * &gt; <link linkend="classQCPAxis_1ad590c0da223697a2727f97a520870fec">graphs</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QList&lt; <link linkend="classQCPAbstractItem">QCPAbstractItem</link> * &gt; <link linkend="classQCPAxis_1a42761bc68e2f3a9f68549d45b73f705b">items</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="classQCPLayerable_1af0297b944b6192b6d67d00bff41b6b70">visible</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="classQCustomPlot">QCustomPlot</link> * <link linkend="classQCPLayerable_1a473edb813a4c1929d6b6a8fe3ff3faf7">parentPlot</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="classQCPLayerable">QCPLayerable</link> * <link linkend="classQCPLayerable_1aa78b7e644d2c519e1a9a6f2ac5fcd858">parentLayerable</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="classQCPLayer">QCPLayer</link> * <link linkend="classQCPLayerable_1a5ff4862e8c784c9f5986dbc1533ba2a4">layer</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="classQCPLayerable_1a71cbd212fde2703cee076e204a475709">antialiased</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPLayerable_1a3bed99ddc396b48ce3ebfdc0418744f8">setVisible</link> (
+bool on)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>Q_SLOT bool <link linkend="classQCPLayerable_1ab0d0da6d2de45a118886d2c8e16d5a54">setLayer</link> (
+<link linkend="classQCPLayer">QCPLayer</link> * layer)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="classQCPLayerable_1ab25a0e7b897993b44447caee0f142083">setLayer</link> (
+const QString &amp; layerName)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPLayerable_1a4fd43e89be4a553ead41652565ff0581">setAntialiased</link> (
+bool enabled)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="classQCPLayerable_1ab054e88f15d485defcb95e7376f119e7">realVisibility</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="classQCPAxis_1ae2bcc1728b382f10f064612b368bc18a">AxisType</link> <link linkend="classQCPAxis_1ac0a6b77bd52bec6c81cd62d167cfeba6">marginSideToAxisType</link> (
+<link linkend="namespaceQCP_1a7e487e3e2ccb62ab7771065bab7cae54">QCP::MarginSide</link> side)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static Qt::Orientation <link linkend="classQCPAxis_1a9a68b3e45f1b1e33d4d807822342516c">orientation</link> (
+<link linkend="classQCPAxis_1ae2bcc1728b382f10f064612b368bc18a">AxisType</link> type)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="classQCPAxis_1ae2bcc1728b382f10f064612b368bc18a">AxisType</link> <link linkend="classQCPAxis_1aa85ba73dfee6483e23825461b725e363">opposite</link> (
+<link linkend="classQCPAxis_1ae2bcc1728b382f10f064612b368bc18a">AxisType</link> type)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual int <link linkend="classQCPAxis_1a47bdb0a55de6759489ee47665199aebb">calculateMargin</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="classQCPAxis_1adbaeffcdc2707f2bd5dc1bbd11236770">applyDefaultAntialiasingHint</link> (
+<link linkend="classQCPPainter">QCPPainter</link> * painter)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="classQCPAxis_1ac15ebb4225ca5212d8e5fffae481bc9b">draw</link> (
+<link linkend="classQCPPainter">QCPPainter</link> * painter)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual <link linkend="namespaceQCP_1a2ad6bb6281c7c2d593d4277b44c2b037">QCP::Interaction</link> <link linkend="classQCPAxis_1ab751e3e96495716a2f6742ca7d7b3d49">selectionCategory</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="classQCPAxis_1a50c3ed18e189d48421ec2978f88e4f87">selectEvent</link> (
+QMouseEvent * event, bool additive, const QVariant &amp; details, bool * selectionStateChanged)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="classQCPAxis_1a5bc1f8a8d0fbc7658eba70c80279ed31">deselectEvent</link> (
+bool * selectionStateChanged)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="classQCPAxis_1ac89c068873ee9197a5d2af715bdc1105">mousePressEvent</link> (
+QMouseEvent * event, const QVariant &amp; details)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="classQCPAxis_1a2a89a13440eec099fc2327c2672be0cd">mouseMoveEvent</link> (
+QMouseEvent * event, const QPointF &amp; startPos)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="classQCPAxis_1a35663b938ad83e91c0b8e59dbc8c6b18">mouseReleaseEvent</link> (
+QMouseEvent * event, const QPointF &amp; startPos)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="classQCPAxis_1a71643d27524a843230b5ba68085b3d9b">wheelEvent</link> (
+QWheelEvent * event)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPAxis_1a57d9e961bae7d62f5b4e1f143e660c78">setupTickVectors</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPen <link linkend="classQCPAxis_1a8cd3764c6a4ce9c3d7d913e81cad0a50">getBasePen</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPen <link linkend="classQCPAxis_1afe7d57415cbbf31e5549a5cc40b6f8d8">getTickPen</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPen <link linkend="classQCPAxis_1aad7739c229b292ddab0b3a43a5676f54">getSubTickPen</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QFont <link linkend="classQCPAxis_1a694ab8b4240f3c90a866372e3dcb364f">getTickLabelFont</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QFont <link linkend="classQCPAxis_1aeac21c907d2516af9cde9a463043d671">getLabelFont</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QColor <link linkend="classQCPAxis_1a8d00d5b78ecfbebbea5a8161bddb9a17">getTickLabelColor</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QColor <link linkend="classQCPAxis_1ae914abd56afa570cb9f2ab50e59c0f0e">getLabelColor</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="classQCPLayerable_1ab20b7dbd8e0249ed61adb9622c427382">parentPlotInitialized</link> (
+<link linkend="classQCustomPlot">QCustomPlot</link> * parentPlot)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual QRect <link linkend="classQCPLayerable_1acbcfc9ecc75433747b1978a77b1864b3">clipRect</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="classQCPLayerable_1a4171e2e823aca242dd0279f00ed2de81">mouseDoubleClickEvent</link> (
+QMouseEvent * event, const QVariant &amp; details)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPLayerable_1a8cbe5a0c9a5674249982f5ca5f8e02bc">initializeParentPlot</link> (
+<link linkend="classQCustomPlot">QCustomPlot</link> * parentPlot)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPLayerable_1aa23c893671f1f6744ac235cf2204cf3a">setParentLayerable</link> (
+<link linkend="classQCPLayerable">QCPLayerable</link> * parentLayerable)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="classQCPLayerable_1af94484cfb7cbbddb7de522e9be71d9a4">moveToLayer</link> (
+<link linkend="classQCPLayer">QCPLayer</link> * layer, bool prepend)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPLayerable_1acb663e375d2d36dc5c55021ee5a2119b">applyAntialiasingHint</link> (
+<link linkend="classQCPPainter">QCPPainter</link> * painter, bool localAntialiased, <link linkend="namespaceQCP_1ae55dbe315d41fe80f29ba88100843a0c">QCP::AntialiasedElement</link> overrideElement)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+    <simplesect>
+
+<para>Manages a single axis inside a <link linkend="classQCustomPlot">QCustomPlot</link>. </para>
+    </simplesect>
+        <simplesect>
+            <title>Descrição detalhada</title>
+
+<para>Usually doesn&apos;t need to be instantiated externally. Access QCustomPlot&apos;s default four axes via <link linkend="classQCustomPlot_1a9a79cd0158a4c7f30cbc702f0fd800e4">QCustomPlot::xAxis</link> (bottom), <link linkend="classQCustomPlot_1af6fea5679725b152c14facd920b19367">QCustomPlot::yAxis</link> (left), <link linkend="classQCustomPlot_1ada41599f22cad901c030f3dcbdd82fd9">QCustomPlot::xAxis2</link> (top) and <link linkend="classQCustomPlot_1af13fdc5bce7d0fabd640f13ba805c0b7">QCustomPlot::yAxis2</link> (right).</para>
+
+<para>Axes are always part of an axis rect, see <link linkend="classQCPAxisRect">QCPAxisRect</link>.  <informaltable frame='none'><tgroup cols='1'><colspec align='center'/><tbody><row><entry align='center'>Naming convention of axis parts</entry></row></tbody></tgroup></informaltable> 
+<literallayout>
+</literallayout>
+  <informaltable frame='none'><tgroup cols='1'><colspec align='center'/><tbody><row><entry align='center'>Overview of the spacings and paddings that define the geometry of an axis. The dashed gray line on the left represents the <link linkend="classQCustomPlot">QCustomPlot</link> widget border.</entry></row></tbody></tgroup></informaltable></para>
+
+<para>Each axis holds an instance of <link linkend="classQCPAxisTicker">QCPAxisTicker</link> which is used to generate the tick coordinates and tick labels. You can access the currently installed <link linkend="classQCPAxis_1a7b7a27151be8235059e1294f73ecf615">ticker</link> or set a new one (possibly one of the specialized subclasses, or your own subclass) via <link linkend="classQCPAxis_1a4ee03fcd2c74d05cd1a419b9af5cfbdc">setTicker</link>. For details, see the documentation of <link linkend="classQCPAxisTicker">QCPAxisTicker</link>. </para>
+                <para>Definition at line 1912 of file qcustomplot.h</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>qcustomplot.h</para></listitem></itemizedlist></para>
+        </simplesect>
+            <section xml:id="classQCPAxis_1ae2bcc1728b382f10f064612b368bc18a">
+               <title>enum AxisType </title>
+               
+<para>Defines at which side of the axis rect the axis will appear. This also affects how the tick marks are drawn, on which side the labels are placed etc. </para>
+
+               <formalpara>
+                    <title>Enumeradores:</title>
+                    <variablelist>
+                        <varlistentry xml:id="classQCPAxis_1ae2bcc1728b382f10f064612b368bc18aaf84aa6cac6fb6099f54a2cbf7546b730">
+                            <term>atLeft</term>
+                            <listitem>
+                                <para>&lt;tt&gt;0x01&lt;/tt&gt; Axis is vertical and on the left side of the axis rect</para>
+                            </listitem>
+                        </varlistentry>
+                        <varlistentry xml:id="classQCPAxis_1ae2bcc1728b382f10f064612b368bc18aadf5509f7d29199ef2f263b1dd224b345">
+                            <term>atRight</term>
+                            <listitem>
+                                <para>&lt;tt&gt;0x02&lt;/tt&gt; Axis is vertical and on the right side of the axis rect</para>
+                            </listitem>
+                        </varlistentry>
+                        <varlistentry xml:id="classQCPAxis_1ae2bcc1728b382f10f064612b368bc18aac0ece2b680d3f545e701f75af1655977">
+                            <term>atTop</term>
+                            <listitem>
+                                <para>&lt;tt&gt;0x04&lt;/tt&gt; Axis is horizontal and on the top side of the axis rect</para>
+                            </listitem>
+                        </varlistentry>
+                        <varlistentry xml:id="classQCPAxis_1ae2bcc1728b382f10f064612b368bc18aa220d68888516b6c3b493d144f1ba438f">
+                            <term>atBottom</term>
+                            <listitem>
+                                <para>&lt;tt&gt;0x08&lt;/tt&gt; Axis is horizontal and on the bottom side of the axis rect</para>
+                            </listitem>
+                        </varlistentry>
+                     </variablelist>
+                </formalpara>
+                <para>Definition at line 1964 of file qcustomplot.h
+                    <computeroutput><literallayout>
+{
+atLeft= 0x01, 
+atRight= 0x02, 
+atTop= 0x04, 
+atBottom= 0x08, 
+}AxisType;
+                    </literallayout></computeroutput>
+                </para>
+            </section>
+            <section xml:id="classQCPAxis_1a24b13374b9b8f75f47eed2ea78c37db9">
+               <title>enum LabelSide </title>
+               
+<para>Defines on which side of the axis the tick labels (numbers) shall appear.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPAxis_1a13ec644fc6e22715744c92c6dfa4f0fa">setTickLabelSide</link> </para>
+</formalpara>
+</para>
+
+               <formalpara>
+                    <title>Enumeradores:</title>
+                    <variablelist>
+                        <varlistentry xml:id="classQCPAxis_1a24b13374b9b8f75f47eed2ea78c37db9aae7b027ac2839cf4ad611df30236fc3f">
+                            <term>lsInside</term>
+                            <listitem>
+                                <para>Tick labels will be displayed inside the axis rect and clipped to the inner axis rect.</para>
+                            </listitem>
+                        </varlistentry>
+                        <varlistentry xml:id="classQCPAxis_1a24b13374b9b8f75f47eed2ea78c37db9a2eadb509fc0c9a8b35b85c86ec9f3c7a">
+                            <term>lsOutside</term>
+                            <listitem>
+                                <para>Tick labels will be displayed outside the axis rect.</para>
+                            </listitem>
+                        </varlistentry>
+                     </variablelist>
+                </formalpara>
+                <para>Definition at line 1977 of file qcustomplot.h
+                    <computeroutput><literallayout>
+{
+lsInside, 
+lsOutside, 
+}LabelSide;
+                    </literallayout></computeroutput>
+                </para>
+            </section>
+            <section xml:id="classQCPAxis_1a36d8e8658dbaa179bf2aeb973db2d6f0">
+               <title>enum ScaleType </title>
+               
+<para>Defines the scale of an axis. <formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPAxis_1adef29cae617af4f519f6c40d1a866ca6">setScaleType</link> </para>
+</formalpara>
+</para>
+
+               <formalpara>
+                    <title>Enumeradores:</title>
+                    <variablelist>
+                        <varlistentry xml:id="classQCPAxis_1a36d8e8658dbaa179bf2aeb973db2d6f0aff6e30a11a828bc850caffab0ff994f6">
+                            <term>stLinear</term>
+                            <listitem>
+                                <para>Linear scaling.</para>
+                            </listitem>
+                        </varlistentry>
+                        <varlistentry xml:id="classQCPAxis_1a36d8e8658dbaa179bf2aeb973db2d6f0abf5b785ad976618816dc6f79b73216d4">
+                            <term>stLogarithmic</term>
+                            <listitem>
+                                <para>Logarithmic scaling with correspondingly transformed axis coordinates (possibly also \ref setTicker to a \ref QCPAxisTickerLog instance).</para>
+                            </listitem>
+                        </varlistentry>
+                     </variablelist>
+                </formalpara>
+                <para>Definition at line 1985 of file qcustomplot.h
+                    <computeroutput><literallayout>
+{
+stLinear, 
+stLogarithmic, 
+}ScaleType;
+                    </literallayout></computeroutput>
+                </para>
+            </section>
+            <section xml:id="classQCPAxis_1abee4c7a54c468b1385dfce2c898b115f">
+               <title>enum SelectablePart </title>
+               
+<para>Defines the selectable parts of an axis. <formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPAxis_1a513f9b9e326c505d9bec54880031b085">setSelectableParts</link>, <link linkend="classQCPAxis_1ab9d7a69277dcbed9119b3c1f25ca19c3">setSelectedParts</link> </para>
+</formalpara>
+</para>
+
+               <formalpara>
+                    <title>Enumeradores:</title>
+                    <variablelist>
+                        <varlistentry xml:id="classQCPAxis_1abee4c7a54c468b1385dfce2c898b115fae0df8123a5528d5ccf87cb7794f971ea">
+                            <term>spNone</term>
+                            <listitem>
+                                <para>None of the selectable parts.</para>
+                            </listitem>
+                        </varlistentry>
+                        <varlistentry xml:id="classQCPAxis_1abee4c7a54c468b1385dfce2c898b115fa8949d2c1a31eccae9be7ed32e7a1ae38">
+                            <term>spAxis</term>
+                            <listitem>
+                                <para>The axis backbone and tick marks.</para>
+                            </listitem>
+                        </varlistentry>
+                        <varlistentry xml:id="classQCPAxis_1abee4c7a54c468b1385dfce2c898b115fa584e0a3dc4d064880647619f4bd4e771">
+                            <term>spTickLabels</term>
+                            <listitem>
+                                <para>Tick labels (numbers) of this axis (as a whole, not individually)</para>
+                            </listitem>
+                        </varlistentry>
+                        <varlistentry xml:id="classQCPAxis_1abee4c7a54c468b1385dfce2c898b115fa851e0600e0d08b4f5fee9361e3fedabd">
+                            <term>spAxisLabel</term>
+                            <listitem>
+                                <para>The axis label.</para>
+                            </listitem>
+                        </varlistentry>
+                     </variablelist>
+                </formalpara>
+                <para>Definition at line 1993 of file qcustomplot.h
+                    <computeroutput><literallayout>
+{
+spNone= 0, 
+spAxis= 0x001, 
+spTickLabels= 0x002, 
+spAxisLabel= 0x004, 
+}SelectablePart;
+                    </literallayout></computeroutput>
+                </para>
+            </section>
+        <section>
+            <title>Atributos</title>
+        </section>
+            <section xml:id="classQCPAxis_1ac62c042968bae0e6d474fcfc57c9b71f">
+                <title>QCPAxis::QCPAxis (QCPAxisRect *parent, AxisType type)</title> <emphasis></emphasis>
+                
+<para>Constructs an Axis instance of Type <emphasis>type</emphasis> for the axis rect <emphasis>parent</emphasis>.</para>
+
+<para>Usually it isn&apos;t necessary to instantiate axes directly, because you can let <link linkend="classQCustomPlot">QCustomPlot</link> create them for you with <link linkend="classQCPAxisRect_1a2dc336092ccc57d44a46194c8a23e4f4">QCPAxisRect::addAxis</link>. If you want to use own QCPAxis-subclasses however, create them manually and then inject them also via <link linkend="classQCPAxisRect_1a2dc336092ccc57d44a46194c8a23e4f4">QCPAxisRect::addAxis</link>. </para>
+
+            </section>
+            <section xml:id="classQCPAxis_1a7cfa27ea9da0bb1fe0ae995572c0b85d">
+                <title>QCPAxis::~QCPAxis ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAxis_1aa19679359783c5ecd27757b7e5619976">
+                <title>AxisType QCPAxis::axisType () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAxis_1afc94bcfdf8adfe8e01013f13bdf159a2">
+                <title>QCPAxisRect* QCPAxis::axisRect () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAxis_1ad23e9ad97b44e9aeaf4fab8904280098">
+                <title>ScaleType QCPAxis::scaleType () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAxis_1ac4058855a81f1a883cf2e754f6a6acb1">
+                <title>const QCPRange QCPAxis::range () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAxis_1ab9866dd1a78f1920f491ec12a794bec2">
+                <title>bool QCPAxis::rangeReversed () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAxis_1a7b7a27151be8235059e1294f73ecf615">
+                <title>QSharedPointer&lt; QCPAxisTicker &gt; QCPAxis::ticker () const</title> <emphasis></emphasis>
+                
+<para>Returns a modifiable shared pointer to the currently installed axis ticker. The axis ticker is responsible for generating the tick positions and tick labels of this axis. You can access the <link linkend="classQCPAxisTicker">QCPAxisTicker</link> with this method and modify basic properties such as the approximate tick count (<link linkend="classQCPAxisTicker_1a47752abba8293e6dc18491501ae34008">QCPAxisTicker::setTickCount</link>).</para>
+
+<para>You can gain more control over the axis ticks by setting a different <link linkend="classQCPAxisTicker">QCPAxisTicker</link> subclass, see the documentation there. A new axis ticker can be set with <link linkend="classQCPAxis_1a4ee03fcd2c74d05cd1a419b9af5cfbdc">setTicker</link>.</para>
+
+<para>Since the ticker is stored in the axis as a shared pointer, multiple axes may share the same axis ticker simply by passing the same shared pointer to multiple axes.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPAxis_1a4ee03fcd2c74d05cd1a419b9af5cfbdc">setTicker</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPAxis_1a5c3da767a2dc990f200856a9e27ea06e">
+                <title>bool QCPAxis::ticks () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAxis_1ae4158bbc52939ee52cdb12b805860a28">
+                <title>bool QCPAxis::tickLabels () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAxis_1afac7316ca35941e7080f98e0022c1891">
+                <title>int QCPAxis::tickLabelPadding () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAxis_1a09f339b7125cf1094920f86687b88236">
+                <title>QFont QCPAxis::tickLabelFont () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAxis_1a9e21b2326bb2de0b7a8efcd1efc0ce78">
+                <title>QColor QCPAxis::tickLabelColor () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAxis_1a5c81e5d550266fdb9e11d96d1dc5713e">
+                <title>double QCPAxis::tickLabelRotation () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAxis_1a1dc21783965a7c7d9c29c2a75d0a54e1">
+                <title>QCPAxis::LabelSide QCPAxis::tickLabelSide () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAxis_1a20cc29c2f282a0e9efd8f32145e47be6">
+                <title>QString QCPAxis::numberFormat () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAxis_1a2562b6f3a4a01c7ed83a388042664998">
+                <title>int QCPAxis::numberPrecision () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAxis_1a5aad9d6b34821ab0751dfc38dbc92a46">
+                <title>QVector&lt;double&gt; QCPAxis::tickVector () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAxis_1a1bd4a9036e0c9fc68b6f3df81f07e55f">
+                <title>QVector&lt;QString&gt; QCPAxis::tickVectorLabels () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAxis_1ace2accb350fd3f3f474280f58c1d61c5">
+                <title>int QCPAxis::tickLengthIn () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAxis_1ad3ba6614ccddf351f133e0acdd4f021e">
+                <title>int QCPAxis::tickLengthOut () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAxis_1ad74153c38fd83b54c509cff249370beb">
+                <title>bool QCPAxis::subTicks () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAxis_1af907c8ecc4624d1bf4a8f6f702e64fbe">
+                <title>int QCPAxis::subTickLengthIn () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAxis_1ac98c66cae50c98f3ae90e2969382976d">
+                <title>int QCPAxis::subTickLengthOut () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAxis_1a216974be018e73008b3cf6d033c1325d">
+                <title>QPen QCPAxis::basePen () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAxis_1affd022d4f56dfc575b4ced95ad417860">
+                <title>QPen QCPAxis::tickPen () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAxis_1a7a89df74ba427fac311bf4cc92fbddca">
+                <title>QPen QCPAxis::subTickPen () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAxis_1aa7b465fe233f1878793954ba5ab9c47e">
+                <title>QFont QCPAxis::labelFont () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAxis_1a05794f13d322da7fd9d5554d11186b0e">
+                <title>QColor QCPAxis::labelColor () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAxis_1a32ba4d3effcddd8af3bc49f405e1d53e">
+                <title>QString QCPAxis::label () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAxis_1a6d9a9fe1c7166f209fb1e25686390451">
+                <title>int QCPAxis::labelPadding () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAxis_1a07df379d5c017b8f3a4702532eb037b2">
+                <title>int QCPAxis::padding () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAxis_1aef66fa16353b4993b1cceabfb644a1a9">
+                <title>int QCPAxis::offset () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAxis_1a893e8d6cfed9267eb2b793cb1d2b4dce">
+                <title>SelectableParts QCPAxis::selectedParts () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAxis_1a1d12d157756c114f4e57517c62177181">
+                <title>SelectableParts QCPAxis::selectableParts () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAxis_1a09817512bef8ddfb669a6828f9c855bc">
+                <title>QFont QCPAxis::selectedTickLabelFont () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAxis_1a1399d614f7c307159bfec938a069203d">
+                <title>QFont QCPAxis::selectedLabelFont () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAxis_1a75f11d3031a11559f3e984e916fcde2c">
+                <title>QColor QCPAxis::selectedTickLabelColor () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAxis_1a7adea64ef4b715e7a1c519fff2b110b8">
+                <title>QColor QCPAxis::selectedLabelColor () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAxis_1a0d54314ab3053fd0fb77294a0e7f08cb">
+                <title>QPen QCPAxis::selectedBasePen () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAxis_1a76b52a6d824ccf9a95eb024251e1b833">
+                <title>QPen QCPAxis::selectedTickPen () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAxis_1a73c147bb2c5598edbb842adc2da8a7bf">
+                <title>QPen QCPAxis::selectedSubTickPen () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAxis_1a0cc60e5694ed4df6a2c3554e53ee6ae7">
+                <title>QCPLineEnding QCPAxis::lowerEnding () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAxis_1a9feaf5f78286693e89221bc205f9389a">
+                <title>QCPLineEnding QCPAxis::upperEnding () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAxis_1a63f1dd2df663680d2a8d06c19592dd63">
+                <title>QCPGrid * QCPAxis::grid () const</title> <emphasis></emphasis>
+                
+<para>Returns the <link linkend="classQCPGrid">QCPGrid</link> instance belonging to this axis. Access it to set details about the way the grid is displayed. </para>
+
+            </section>
+            <section xml:id="classQCPAxis_1adef29cae617af4f519f6c40d1a866ca6">
+                <title>void QCPAxis::setScaleType (QCPAxis::ScaleType type)</title> <emphasis></emphasis>
+                
+<para>Sets whether the axis uses a linear scale or a logarithmic scale.</para>
+
+<para>Note that this method controls the coordinate transformation. You will likely also want to use a logarithmic tick spacing and labeling, which can be achieved by setting an instance of <link linkend="classQCPAxisTickerLog">QCPAxisTickerLog</link> via <link linkend="classQCPAxis_1a4ee03fcd2c74d05cd1a419b9af5cfbdc">setTicker</link>. See the documentation of <link linkend="classQCPAxisTickerLog">QCPAxisTickerLog</link> about the details of logarithmic axis tick creation.</para>
+
+<para><link linkend="classQCPAxis_1a21dc8023ad7500382ad9574b48137e63">setNumberPrecision</link> </para>
+
+            </section>
+            <section xml:id="classQCPAxis_1aebdfea5d44c3a0ad2b4700cd4d25b641">
+                <title>void QCPAxis::setRange (const QCPRange &amp;range)</title> <emphasis></emphasis>
+                
+<para>Sets the range of the axis.</para>
+
+<para>This slot may be connected with the <link linkend="classQCPAxis_1a0894084e4c16a1736534c4095746f910">rangeChanged</link> signal of another axis so this axis is always synchronized with the other axis range, when it changes.</para>
+
+<para>To invert the direction of an axis, use <link linkend="classQCPAxis_1a2172fdb196b1a0dc3f40992fcad8e9e1">setRangeReversed</link>. </para>
+
+            </section>
+            <section xml:id="classQCPAxis_1a57d6ee9e9009fe88cb19db476ec70bca">
+                <title>void QCPAxis::setRange (double lower, double upper)</title> <emphasis></emphasis>
+                
+<para>Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.</para>
+
+<para>Sets the lower and upper bound of the axis range.</para>
+
+<para>To invert the direction of an axis, use <link linkend="classQCPAxis_1a2172fdb196b1a0dc3f40992fcad8e9e1">setRangeReversed</link>.</para>
+
+<para>There is also a slot to set a range, see <link linkend="classQCPAxis_1aebdfea5d44c3a0ad2b4700cd4d25b641">setRange(const QCPRange &amp;range)</link>. </para>
+
+            </section>
+            <section xml:id="classQCPAxis_1acf60e5b2d631fbc8c4548c3d579cb6d0">
+                <title>void QCPAxis::setRange (double position, double size, Qt::AlignmentFlag alignment)</title> <emphasis></emphasis>
+                
+<para>Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.</para>
+
+<para>Sets the range of the axis.</para>
+
+<para>The <emphasis>position</emphasis> coordinate indicates together with the <emphasis>alignment</emphasis> parameter, where the new range will be positioned. <emphasis>size</emphasis> defines the size of the new axis range. <emphasis>alignment</emphasis> may be Qt::AlignLeft, Qt::AlignRight or Qt::AlignCenter. This will cause the left border, right border, or center of the range to be aligned with <emphasis>position</emphasis>. Any other values of <emphasis>alignment</emphasis> will default to Qt::AlignCenter. </para>
+
+            </section>
+            <section xml:id="classQCPAxis_1afcf51227d337db28d1a9ce9a4d1bc91a">
+                <title>void QCPAxis::setRangeLower (double lower)</title> <emphasis></emphasis>
+                
+<para>Sets the lower bound of the axis range. The upper bound is not changed. <formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPAxis_1aebdfea5d44c3a0ad2b4700cd4d25b641">setRange</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPAxis_1acd3ca1247aa867b540cd5ec30ccd3bef">
+                <title>void QCPAxis::setRangeUpper (double upper)</title> <emphasis></emphasis>
+                
+<para>Sets the upper bound of the axis range. The lower bound is not changed. <formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPAxis_1aebdfea5d44c3a0ad2b4700cd4d25b641">setRange</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPAxis_1a2172fdb196b1a0dc3f40992fcad8e9e1">
+                <title>void QCPAxis::setRangeReversed (bool reversed)</title> <emphasis></emphasis>
+                
+<para>Sets whether the axis range (direction) is displayed reversed. Normally, the values on horizontal axes increase left to right, on vertical axes bottom to top. When <emphasis>reversed</emphasis> is set to true, the direction of increasing values is inverted.</para>
+
+<para>Note that the range and data interface stays the same for reversed axes, e.g. the <emphasis>lower</emphasis> part of the <link linkend="classQCPAxis_1aebdfea5d44c3a0ad2b4700cd4d25b641">setRange</link> interface will still reference the mathematically smaller number than the <emphasis>upper</emphasis> part. </para>
+
+            </section>
+            <section xml:id="classQCPAxis_1a4ee03fcd2c74d05cd1a419b9af5cfbdc">
+                <title>void QCPAxis::setTicker (QSharedPointer&lt; QCPAxisTicker &gt; ticker)</title> <emphasis></emphasis>
+                
+<para>The axis ticker is responsible for generating the tick positions and tick labels. See the documentation of <link linkend="classQCPAxisTicker">QCPAxisTicker</link> for details on how to work with axis tickers.</para>
+
+<para>You can change the tick positioning/labeling behaviour of this axis by setting a different <link linkend="classQCPAxisTicker">QCPAxisTicker</link> subclass using this method. If you only wish to modify the currently installed axis ticker, access it via <link linkend="classQCPAxis_1a7b7a27151be8235059e1294f73ecf615">ticker</link>.</para>
+
+<para>Since the ticker is stored in the axis as a shared pointer, multiple axes may share the same axis ticker simply by passing the same shared pointer to multiple axes.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPAxis_1a7b7a27151be8235059e1294f73ecf615">ticker</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPAxis_1ac891409315bc379e3b1abdb162c1a011">
+                <title>void QCPAxis::setTicks (bool show)</title> <emphasis></emphasis>
+                
+<para>Sets whether tick marks are displayed.</para>
+
+<para>Note that setting <emphasis>show</emphasis> to false does not imply that tick labels are invisible, too. To achieve that, see <link linkend="classQCPAxis_1a04ba16e1f6f78d70f938519576ed32c8">setTickLabels</link>.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPAxis_1afa0ce8d4d0015ed23dcde01f8bc30106">setSubTicks</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPAxis_1a04ba16e1f6f78d70f938519576ed32c8">
+                <title>void QCPAxis::setTickLabels (bool show)</title> <emphasis></emphasis>
+                
+<para>Sets whether tick labels are displayed. Tick labels are the numbers drawn next to tick marks. </para>
+
+            </section>
+            <section xml:id="classQCPAxis_1af302c479af9dbc2e9f0e44e07c0012ee">
+                <title>void QCPAxis::setTickLabelPadding (int padding)</title> <emphasis></emphasis>
+                
+<para>Sets the distance between the axis base line (including any outward ticks) and the tick labels. <formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPAxis_1a4391192a766e5d20cfe5cbc17607a7a2">setLabelPadding</link>, <link linkend="classQCPAxis_1a5691441cb3de9e9844855d339c0db279">setPadding</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPAxis_1a2b8690c4e8dbc39d9185d2b398ce7a6c">
+                <title>void QCPAxis::setTickLabelFont (const QFont &amp;font)</title> <emphasis></emphasis>
+                
+<para>Sets the font of the tick labels.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPAxis_1a04ba16e1f6f78d70f938519576ed32c8">setTickLabels</link>, <link linkend="classQCPAxis_1a395e445c3fe496b935bee7b911ecfd1c">setTickLabelColor</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPAxis_1a395e445c3fe496b935bee7b911ecfd1c">
+                <title>void QCPAxis::setTickLabelColor (const QColor &amp;color)</title> <emphasis></emphasis>
+                
+<para>Sets the color of the tick labels.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPAxis_1a04ba16e1f6f78d70f938519576ed32c8">setTickLabels</link>, <link linkend="classQCPAxis_1a2b8690c4e8dbc39d9185d2b398ce7a6c">setTickLabelFont</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPAxis_1a1bddd4413df8a576b7ad4b067fb33375">
+                <title>void QCPAxis::setTickLabelRotation (double degrees)</title> <emphasis></emphasis>
+                
+<para>Sets the rotation of the tick labels. If <emphasis>degrees</emphasis> is zero, the labels are drawn normally. Else, the tick labels are drawn rotated by <emphasis>degrees</emphasis> clockwise. The specified angle is bound to values from -90 to 90 degrees.</para>
+
+<para>If <emphasis>degrees</emphasis> is exactly -90, 0 or 90, the tick labels are centered on the tick coordinate. For other angles, the label is drawn with an offset such that it seems to point toward or away from the tick mark. </para>
+
+            </section>
+            <section xml:id="classQCPAxis_1a13ec644fc6e22715744c92c6dfa4f0fa">
+                <title>void QCPAxis::setTickLabelSide (LabelSide side)</title> <emphasis></emphasis>
+                
+<para>Sets whether the tick labels (numbers) shall appear inside or outside the axis rect.</para>
+
+<para>The usual and default setting is <link linkend="classQCPAxis_1a24b13374b9b8f75f47eed2ea78c37db9a2eadb509fc0c9a8b35b85c86ec9f3c7a">lsOutside</link>. Very compact plots sometimes require tick labels to be inside the axis rect, to save space. If <emphasis>side</emphasis> is set to <link linkend="classQCPAxis_1a24b13374b9b8f75f47eed2ea78c37db9aae7b027ac2839cf4ad611df30236fc3f">lsInside</link>, the tick labels appear on the inside are additionally clipped to the axis rect. </para>
+
+            </section>
+            <section xml:id="classQCPAxis_1ae585a54dc2aac662e90a2ca82f002590">
+                <title>void QCPAxis::setNumberFormat (const QString &amp;formatCode)</title> <emphasis></emphasis>
+                
+<para>Sets the number format for the numbers in tick labels. This <emphasis>formatCode</emphasis> is an extended version of the format code used e.g. by QString::number() and QLocale::toString(). For reference about that, see the &quot;Argument Formats&quot; section in the detailed description of the QString class.</para>
+
+<para><emphasis>formatCode</emphasis> is a string of one, two or three characters. The first character is identical to the normal format code used by Qt. In short, this means: &apos;e&apos;/&apos;E&apos; scientific format, &apos;f&apos; fixed format, &apos;g&apos;/&apos;G&apos; scientific or fixed, whichever is shorter.</para>
+
+<para>The second and third characters are optional and specific to <link linkend="classQCustomPlot">QCustomPlot</link>:
+<literallayout>
+</literallayout>
+If the first char was &apos;e&apos; or &apos;g&apos;, numbers are/might be displayed in the scientific format, e.g. &quot;5.5e9&quot;, which is ugly in a plot. So when the second char of <emphasis>formatCode</emphasis> is set to &apos;b&apos; (for &quot;beautiful&quot;), those exponential numbers are formatted in a more natural way, i.e. &quot;5.5
+[multiplication sign] 10 [superscript] 9&quot;. By default, the multiplication sign is a centered dot. If instead a cross should be shown (as is usual in the USA), the third char of <emphasis>formatCode</emphasis> can be set to &apos;c&apos;. The inserted multiplication signs are the UTF-8 characters 215 (0xD7) for the cross and 183 (0xB7) for the dot.</para>
+
+<para>Examples for <emphasis>formatCode:</emphasis> <itemizedlist>
+<listitem>
+<para><computeroutput>g</computeroutput> normal format code behaviour. If number is small, fixed format is used, if number is large, normal scientific format is used </para>
+</listitem>
+<listitem>
+<para><computeroutput>gb</computeroutput> If number is small, fixed format is used, if number is large, scientific format is used with beautifully typeset decimal powers and a dot as multiplication sign </para>
+</listitem>
+<listitem>
+<para><computeroutput>ebc</computeroutput> All numbers are in scientific format with beautifully typeset decimal power and a cross as multiplication sign </para>
+</listitem>
+<listitem>
+<para><computeroutput>fb</computeroutput> illegal format code, since fixed format doesn&apos;t support (or need) beautifully typeset decimal powers. Format code will be reduced to &apos;f&apos;. </para>
+</listitem>
+<listitem>
+<para><computeroutput>hello</computeroutput> illegal format code, since first char is not &apos;e&apos;, &apos;E&apos;, &apos;f&apos;, &apos;g&apos; or &apos;G&apos;. Current format code will not be changed. </para>
+</listitem>
+</itemizedlist>
+</para>
+
+            </section>
+            <section xml:id="classQCPAxis_1a21dc8023ad7500382ad9574b48137e63">
+                <title>void QCPAxis::setNumberPrecision (int precision)</title> <emphasis></emphasis>
+                
+<para>Sets the precision of the tick label numbers. See QLocale::toString(double i, char f, int prec) for details. The effect of precisions are most notably for number Formats starting with &apos;e&apos;, see <link linkend="classQCPAxis_1ae585a54dc2aac662e90a2ca82f002590">setNumberFormat</link> </para>
+
+            </section>
+            <section xml:id="classQCPAxis_1a62ec40bebe3540e9c1479a8fd2be3b0d">
+                <title>void QCPAxis::setTickLength (int inside, int outside=0)</title> <emphasis></emphasis>
+                
+<para>Sets the length of the ticks in pixels. <emphasis>inside</emphasis> is the length the ticks will reach inside the plot and <emphasis>outside</emphasis> is the length they will reach outside the plot. If <emphasis>outside</emphasis> is greater than zero, the tick labels and axis label will increase their distance to the axis accordingly, so they won&apos;t collide with the ticks.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPAxis_1ab702d6fd42fc620607435339a1c2a2e1">setSubTickLength</link>, <link linkend="classQCPAxis_1afae1a37a99611366275a51204d991739">setTickLengthIn</link>, <link linkend="classQCPAxis_1a3b8a0debd1ffedd2c22d0592dfbb4e62">setTickLengthOut</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPAxis_1afae1a37a99611366275a51204d991739">
+                <title>void QCPAxis::setTickLengthIn (int inside)</title> <emphasis></emphasis>
+                
+<para>Sets the length of the inward ticks in pixels. <emphasis>inside</emphasis> is the length the ticks will reach inside the plot.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPAxis_1a3b8a0debd1ffedd2c22d0592dfbb4e62">setTickLengthOut</link>, <link linkend="classQCPAxis_1a62ec40bebe3540e9c1479a8fd2be3b0d">setTickLength</link>, <link linkend="classQCPAxis_1ab702d6fd42fc620607435339a1c2a2e1">setSubTickLength</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPAxis_1a3b8a0debd1ffedd2c22d0592dfbb4e62">
+                <title>void QCPAxis::setTickLengthOut (int outside)</title> <emphasis></emphasis>
+                
+<para>Sets the length of the outward ticks in pixels. <emphasis>outside</emphasis> is the length the ticks will reach outside the plot. If <emphasis>outside</emphasis> is greater than zero, the tick labels and axis label will increase their distance to the axis accordingly, so they won&apos;t collide with the ticks.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPAxis_1afae1a37a99611366275a51204d991739">setTickLengthIn</link>, <link linkend="classQCPAxis_1a62ec40bebe3540e9c1479a8fd2be3b0d">setTickLength</link>, <link linkend="classQCPAxis_1ab702d6fd42fc620607435339a1c2a2e1">setSubTickLength</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPAxis_1afa0ce8d4d0015ed23dcde01f8bc30106">
+                <title>void QCPAxis::setSubTicks (bool show)</title> <emphasis></emphasis>
+                
+<para>Sets whether sub tick marks are displayed.</para>
+
+<para>Sub ticks are only potentially visible if (major) ticks are also visible (see <link linkend="classQCPAxis_1ac891409315bc379e3b1abdb162c1a011">setTicks</link>)</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPAxis_1ac891409315bc379e3b1abdb162c1a011">setTicks</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPAxis_1ab702d6fd42fc620607435339a1c2a2e1">
+                <title>void QCPAxis::setSubTickLength (int inside, int outside=0)</title> <emphasis></emphasis>
+                
+<para>Sets the length of the subticks in pixels. <emphasis>inside</emphasis> is the length the subticks will reach inside the plot and <emphasis>outside</emphasis> is the length they will reach outside the plot. If <emphasis>outside</emphasis> is greater than zero, the tick labels and axis label will increase their distance to the axis accordingly, so they won&apos;t collide with the ticks.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPAxis_1a62ec40bebe3540e9c1479a8fd2be3b0d">setTickLength</link>, <link linkend="classQCPAxis_1ac46fa2a993a9f5789540977610acf1de">setSubTickLengthIn</link>, <link linkend="classQCPAxis_1a4c6dfc3963492ed72a77724012df5f23">setSubTickLengthOut</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPAxis_1ac46fa2a993a9f5789540977610acf1de">
+                <title>void QCPAxis::setSubTickLengthIn (int inside)</title> <emphasis></emphasis>
+                
+<para>Sets the length of the inward subticks in pixels. <emphasis>inside</emphasis> is the length the subticks will reach inside the plot.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPAxis_1a4c6dfc3963492ed72a77724012df5f23">setSubTickLengthOut</link>, <link linkend="classQCPAxis_1ab702d6fd42fc620607435339a1c2a2e1">setSubTickLength</link>, <link linkend="classQCPAxis_1a62ec40bebe3540e9c1479a8fd2be3b0d">setTickLength</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPAxis_1a4c6dfc3963492ed72a77724012df5f23">
+                <title>void QCPAxis::setSubTickLengthOut (int outside)</title> <emphasis></emphasis>
+                
+<para>Sets the length of the outward subticks in pixels. <emphasis>outside</emphasis> is the length the subticks will reach outside the plot. If <emphasis>outside</emphasis> is greater than zero, the tick labels will increase their distance to the axis accordingly, so they won&apos;t collide with the ticks.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPAxis_1ac46fa2a993a9f5789540977610acf1de">setSubTickLengthIn</link>, <link linkend="classQCPAxis_1ab702d6fd42fc620607435339a1c2a2e1">setSubTickLength</link>, <link linkend="classQCPAxis_1a62ec40bebe3540e9c1479a8fd2be3b0d">setTickLength</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPAxis_1a778d45fb71b3c7ab3bb7079e18b058e4">
+                <title>void QCPAxis::setBasePen (const QPen &amp;pen)</title> <emphasis></emphasis>
+                
+<para>Sets the pen, the axis base line is drawn with.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPAxis_1ad80923bcc1c5da4c4db602c5325e797e">setTickPen</link>, <link linkend="classQCPAxis_1aede4028ae7516bd51a60618a8233f9cf">setSubTickPen</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPAxis_1ad80923bcc1c5da4c4db602c5325e797e">
+                <title>void QCPAxis::setTickPen (const QPen &amp;pen)</title> <emphasis></emphasis>
+                
+<para>Sets the pen, tick marks will be drawn with.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPAxis_1a62ec40bebe3540e9c1479a8fd2be3b0d">setTickLength</link>, <link linkend="classQCPAxis_1a778d45fb71b3c7ab3bb7079e18b058e4">setBasePen</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPAxis_1aede4028ae7516bd51a60618a8233f9cf">
+                <title>void QCPAxis::setSubTickPen (const QPen &amp;pen)</title> <emphasis></emphasis>
+                
+<para>Sets the pen, subtick marks will be drawn with.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para>setSubTickCount, <link linkend="classQCPAxis_1ab702d6fd42fc620607435339a1c2a2e1">setSubTickLength</link>, <link linkend="classQCPAxis_1a778d45fb71b3c7ab3bb7079e18b058e4">setBasePen</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPAxis_1a71ac1a47f7547e490a8c4311d1433cf3">
+                <title>void QCPAxis::setLabelFont (const QFont &amp;font)</title> <emphasis></emphasis>
+                
+<para>Sets the font of the axis label.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPAxis_1a6c906fe56d75f0122335b9f79b999608">setLabelColor</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPAxis_1a6c906fe56d75f0122335b9f79b999608">
+                <title>void QCPAxis::setLabelColor (const QColor &amp;color)</title> <emphasis></emphasis>
+                
+<para>Sets the color of the axis label.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPAxis_1a71ac1a47f7547e490a8c4311d1433cf3">setLabelFont</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPAxis_1a33bcc382c111c9f31bb0687352a2dea4">
+                <title>void QCPAxis::setLabel (const QString &amp;str)</title> <emphasis></emphasis>
+                
+<para>Sets the text of the axis label that will be shown below/above or next to the axis, depending on its orientation. To disable axis labels, pass an empty string as <emphasis>str</emphasis>. </para>
+
+            </section>
+            <section xml:id="classQCPAxis_1a4391192a766e5d20cfe5cbc17607a7a2">
+                <title>void QCPAxis::setLabelPadding (int padding)</title> <emphasis></emphasis>
+                
+<para>Sets the distance between the tick labels and the axis label.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPAxis_1af302c479af9dbc2e9f0e44e07c0012ee">setTickLabelPadding</link>, <link linkend="classQCPAxis_1a5691441cb3de9e9844855d339c0db279">setPadding</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPAxis_1a5691441cb3de9e9844855d339c0db279">
+                <title>void QCPAxis::setPadding (int padding)</title> <emphasis></emphasis>
+                
+<para>Sets the padding of the axis.</para>
+
+<para>When <link linkend="classQCPLayoutElement_1accfda49994e3e6d51ed14504abf9d27d">QCPAxisRect::setAutoMargins</link> is enabled, the padding is the additional outer most space, that is left blank.</para>
+
+<para>The axis padding has no meaning if <link linkend="classQCPLayoutElement_1accfda49994e3e6d51ed14504abf9d27d">QCPAxisRect::setAutoMargins</link> is disabled.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPAxis_1a4391192a766e5d20cfe5cbc17607a7a2">setLabelPadding</link>, <link linkend="classQCPAxis_1af302c479af9dbc2e9f0e44e07c0012ee">setTickLabelPadding</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPAxis_1a04a652603cbe50eba9969ee6d68873c3">
+                <title>void QCPAxis::setOffset (int offset)</title> <emphasis></emphasis>
+                
+<para>Sets the offset the axis has to its axis rect side.</para>
+
+<para>If an axis rect side has multiple axes and automatic margin calculation is enabled for that side, only the offset of the inner most axis has meaning (even if it is set to be invisible). The offset of the other, outer axes is controlled automatically, to place them at appropriate positions. </para>
+
+            </section>
+            <section xml:id="classQCPAxis_1a845ccb560b7bc5281098a5be494145f6">
+                <title>void QCPAxis::setSelectedTickLabelFont (const QFont &amp;font)</title> <emphasis></emphasis>
+                
+<para>Sets the font that is used for tick labels when they are selected.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPAxis_1a2b8690c4e8dbc39d9185d2b398ce7a6c">setTickLabelFont</link>, <link linkend="classQCPAxis_1a513f9b9e326c505d9bec54880031b085">setSelectableParts</link>, <link linkend="classQCPAxis_1ab9d7a69277dcbed9119b3c1f25ca19c3">setSelectedParts</link>, <link linkend="classQCustomPlot_1a5ee1e2f6ae27419deca53e75907c27e5">QCustomPlot::setInteractions</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPAxis_1a02ec2a75d4d8401eaab834fbc6803d30">
+                <title>void QCPAxis::setSelectedLabelFont (const QFont &amp;font)</title> <emphasis></emphasis>
+                
+<para>Sets the font that is used for the axis label when it is selected.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPAxis_1a71ac1a47f7547e490a8c4311d1433cf3">setLabelFont</link>, <link linkend="classQCPAxis_1a513f9b9e326c505d9bec54880031b085">setSelectableParts</link>, <link linkend="classQCPAxis_1ab9d7a69277dcbed9119b3c1f25ca19c3">setSelectedParts</link>, <link linkend="classQCustomPlot_1a5ee1e2f6ae27419deca53e75907c27e5">QCustomPlot::setInteractions</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPAxis_1a9bdbf5e63ab15187f3a1de9440129227">
+                <title>void QCPAxis::setSelectedTickLabelColor (const QColor &amp;color)</title> <emphasis></emphasis>
+                
+<para>Sets the color that is used for tick labels when they are selected.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPAxis_1a395e445c3fe496b935bee7b911ecfd1c">setTickLabelColor</link>, <link linkend="classQCPAxis_1a513f9b9e326c505d9bec54880031b085">setSelectableParts</link>, <link linkend="classQCPAxis_1ab9d7a69277dcbed9119b3c1f25ca19c3">setSelectedParts</link>, <link linkend="classQCustomPlot_1a5ee1e2f6ae27419deca53e75907c27e5">QCustomPlot::setInteractions</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPAxis_1a5d502dec597c634f491fdd73d151c72d">
+                <title>void QCPAxis::setSelectedLabelColor (const QColor &amp;color)</title> <emphasis></emphasis>
+                
+<para>Sets the color that is used for the axis label when it is selected.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPAxis_1a6c906fe56d75f0122335b9f79b999608">setLabelColor</link>, <link linkend="classQCPAxis_1a513f9b9e326c505d9bec54880031b085">setSelectableParts</link>, <link linkend="classQCPAxis_1ab9d7a69277dcbed9119b3c1f25ca19c3">setSelectedParts</link>, <link linkend="classQCustomPlot_1a5ee1e2f6ae27419deca53e75907c27e5">QCustomPlot::setInteractions</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPAxis_1aeb917a909215605b95ef2be843de1ee8">
+                <title>void QCPAxis::setSelectedBasePen (const QPen &amp;pen)</title> <emphasis></emphasis>
+                
+<para>Sets the pen that is used to draw the axis base line when selected.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPAxis_1a778d45fb71b3c7ab3bb7079e18b058e4">setBasePen</link>, <link linkend="classQCPAxis_1a513f9b9e326c505d9bec54880031b085">setSelectableParts</link>, <link linkend="classQCPAxis_1ab9d7a69277dcbed9119b3c1f25ca19c3">setSelectedParts</link>, <link linkend="classQCustomPlot_1a5ee1e2f6ae27419deca53e75907c27e5">QCustomPlot::setInteractions</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPAxis_1a8360502685eb782edbf04019c9345cdc">
+                <title>void QCPAxis::setSelectedTickPen (const QPen &amp;pen)</title> <emphasis></emphasis>
+                
+<para>Sets the pen that is used to draw the (major) ticks when selected.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPAxis_1ad80923bcc1c5da4c4db602c5325e797e">setTickPen</link>, <link linkend="classQCPAxis_1a513f9b9e326c505d9bec54880031b085">setSelectableParts</link>, <link linkend="classQCPAxis_1ab9d7a69277dcbed9119b3c1f25ca19c3">setSelectedParts</link>, <link linkend="classQCustomPlot_1a5ee1e2f6ae27419deca53e75907c27e5">QCustomPlot::setInteractions</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPAxis_1a2a00a7166600155eac26843132eb9576">
+                <title>void QCPAxis::setSelectedSubTickPen (const QPen &amp;pen)</title> <emphasis></emphasis>
+                
+<para>Sets the pen that is used to draw the subticks when selected.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPAxis_1aede4028ae7516bd51a60618a8233f9cf">setSubTickPen</link>, <link linkend="classQCPAxis_1a513f9b9e326c505d9bec54880031b085">setSelectableParts</link>, <link linkend="classQCPAxis_1ab9d7a69277dcbed9119b3c1f25ca19c3">setSelectedParts</link>, <link linkend="classQCustomPlot_1a5ee1e2f6ae27419deca53e75907c27e5">QCustomPlot::setInteractions</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPAxis_1a513f9b9e326c505d9bec54880031b085">
+                <title>void QCPAxis::setSelectableParts (const QCPAxis::SelectableParts &amp;selectableParts)</title> <emphasis></emphasis>
+                
+<para>Sets whether the user can (de-)select the parts in <emphasis>selectable</emphasis> by clicking on the <link linkend="classQCustomPlot">QCustomPlot</link> surface. (When <link linkend="classQCustomPlot_1a5ee1e2f6ae27419deca53e75907c27e5">QCustomPlot::setInteractions</link> contains iSelectAxes.)</para>
+
+<para>However, even when <emphasis>selectable</emphasis> is set to a value not allowing the selection of a specific part, it is still possible to set the selection of this part manually, by calling <link linkend="classQCPAxis_1ab9d7a69277dcbed9119b3c1f25ca19c3">setSelectedParts</link> directly.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPAxis_1abee4c7a54c468b1385dfce2c898b115f">SelectablePart</link>, <link linkend="classQCPAxis_1ab9d7a69277dcbed9119b3c1f25ca19c3">setSelectedParts</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPAxis_1ab9d7a69277dcbed9119b3c1f25ca19c3">
+                <title>void QCPAxis::setSelectedParts (const QCPAxis::SelectableParts &amp;selectedParts)</title> <emphasis></emphasis>
+                
+<para>Sets the selected state of the respective axis parts described by <link linkend="classQCPAxis_1abee4c7a54c468b1385dfce2c898b115f">SelectablePart</link>. When a part is selected, it uses a different pen/font.</para>
+
+<para>The entire selection mechanism for axes is handled automatically when <link linkend="classQCustomPlot_1a5ee1e2f6ae27419deca53e75907c27e5">QCustomPlot::setInteractions</link> contains iSelectAxes. You only need to call this function when you wish to change the selection state manually.</para>
+
+<para>This function can change the selection state of a part, independent of the <link linkend="classQCPAxis_1a513f9b9e326c505d9bec54880031b085">setSelectableParts</link> setting.</para>
+
+<para>emits the <link linkend="classQCPAxis_1a62b598abeee7174a05f9d542cc85b1f5">selectionChanged</link> signal when <emphasis>selected</emphasis> is different from the previous selection state.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPAxis_1abee4c7a54c468b1385dfce2c898b115f">SelectablePart</link>, <link linkend="classQCPAxis_1a513f9b9e326c505d9bec54880031b085">setSelectableParts</link>, <link linkend="classQCPAxis_1a63b7103c57fe9acfbce164334ea837f8">selectTest</link>, <link linkend="classQCPAxis_1aeb917a909215605b95ef2be843de1ee8">setSelectedBasePen</link>, <link linkend="classQCPAxis_1a8360502685eb782edbf04019c9345cdc">setSelectedTickPen</link>, <link linkend="classQCPAxis_1a2a00a7166600155eac26843132eb9576">setSelectedSubTickPen</link>, <link linkend="classQCPAxis_1a845ccb560b7bc5281098a5be494145f6">setSelectedTickLabelFont</link>, <link linkend="classQCPAxis_1a02ec2a75d4d8401eaab834fbc6803d30">setSelectedLabelFont</link>, <link linkend="classQCPAxis_1a9bdbf5e63ab15187f3a1de9440129227">setSelectedTickLabelColor</link>, <link linkend="classQCPAxis_1a5d502dec597c634f491fdd73d151c72d">setSelectedLabelColor</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPAxis_1a08af1c72db9ae4dc8cb8a973d44405ab">
+                <title>void QCPAxis::setLowerEnding (const QCPLineEnding &amp;ending)</title> <emphasis></emphasis>
+                
+<para>Sets the style for the lower axis ending. See the documentation of <link linkend="classQCPLineEnding">QCPLineEnding</link> for available styles.</para>
+
+<para>For horizontal axes, this method refers to the left ending, for vertical axes the bottom ending. Note that this meaning does not change when the axis range is reversed with <link linkend="classQCPAxis_1a2172fdb196b1a0dc3f40992fcad8e9e1">setRangeReversed</link>.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPAxis_1a69119b892fc306f651763596685aa377">setUpperEnding</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPAxis_1a69119b892fc306f651763596685aa377">
+                <title>void QCPAxis::setUpperEnding (const QCPLineEnding &amp;ending)</title> <emphasis></emphasis>
+                
+<para>Sets the style for the upper axis ending. See the documentation of <link linkend="classQCPLineEnding">QCPLineEnding</link> for available styles.</para>
+
+<para>For horizontal axes, this method refers to the right ending, for vertical axes the top ending. Note that this meaning does not change when the axis range is reversed with <link linkend="classQCPAxis_1a2172fdb196b1a0dc3f40992fcad8e9e1">setRangeReversed</link>.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPAxis_1a08af1c72db9ae4dc8cb8a973d44405ab">setLowerEnding</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPAxis_1a63b7103c57fe9acfbce164334ea837f8">
+                <title>double QCPAxis::selectTest (const QPointF &amp;pos, bool onlySelectable, QVariant *details=0) const Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+<para>This function is used to decide whether a click hits a layerable object or not.</para>
+
+<para><emphasis>pos</emphasis> is a point in pixel coordinates on the <link linkend="classQCustomPlot">QCustomPlot</link> surface. This function returns the shortest pixel distance of this point to the object. If the object is either invisible or the distance couldn&apos;t be determined, -1.0 is returned. Further, if <emphasis>onlySelectable</emphasis> is true and the object is not selectable, -1.0 is returned, too.</para>
+
+<para>If the object is represented not by single lines but by an area like a <link linkend="classQCPItemText">QCPItemText</link> or the bars of a <link linkend="classQCPBars">QCPBars</link> plottable, a click inside the area should also be considered a hit. In these cases this function thus returns a constant value greater zero but still below the parent plot&apos;s selection tolerance. (typically the selectionTolerance multiplied by 0.99).</para>
+
+<para>Providing a constant value for area objects allows selecting line objects even when they are obscured by such area objects, by clicking close to the lines (i.e. closer than 0.99*selectionTolerance).</para>
+
+<para>The actual setting of the selection state is not done by this function. This is handled by the parent <link linkend="classQCustomPlot">QCustomPlot</link> when the mouseReleaseEvent occurs, and the finally selected object is notified via the <link linkend="classQCPAxis_1a50c3ed18e189d48421ec2978f88e4f87">selectEvent</link>/<link linkend="classQCPAxis_1a5bc1f8a8d0fbc7658eba70c80279ed31">deselectEvent</link> methods.</para>
+
+<para><emphasis>details</emphasis> is an optional output parameter. Every layerable subclass may place any information in <emphasis>details</emphasis>. This information will be passed to <link linkend="classQCPAxis_1a50c3ed18e189d48421ec2978f88e4f87">selectEvent</link> when the parent <link linkend="classQCustomPlot">QCustomPlot</link> decides on the basis of this selectTest call, that the object was successfully selected. The subsequent call to <link linkend="classQCPAxis_1a50c3ed18e189d48421ec2978f88e4f87">selectEvent</link> will carry the <emphasis>details</emphasis>. This is useful for multi-part objects (like <link linkend="classQCPAxis">QCPAxis</link>). This way, a possibly complex calculation to decide which part was clicked is only done once in <link linkend="classQCPAxis_1a63b7103c57fe9acfbce164334ea837f8">selectTest</link>. The result (i.e. the actually clicked part) can then be placed in <emphasis>details</emphasis>. So in the subsequent <link linkend="classQCPAxis_1a50c3ed18e189d48421ec2978f88e4f87">selectEvent</link>, the decision which part was selected doesn&apos;t have to be done a second time for a single selection operation.</para>
+
+<para>You may pass 0 as <emphasis>details</emphasis> to indicate that you are not interested in those selection details.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPAxis_1a50c3ed18e189d48421ec2978f88e4f87">selectEvent</link>, <link linkend="classQCPAxis_1a5bc1f8a8d0fbc7658eba70c80279ed31">deselectEvent</link>, <link linkend="classQCPAxis_1ac89c068873ee9197a5d2af715bdc1105">mousePressEvent</link>, <link linkend="classQCPAxis_1a71643d27524a843230b5ba68085b3d9b">wheelEvent</link>, <link linkend="classQCustomPlot_1a5ee1e2f6ae27419deca53e75907c27e5">QCustomPlot::setInteractions</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPAxis_1ab988ef4538e2655bb77bd138189cd42e">
+                <title>Qt::Orientation QCPAxis::orientation () const</title> <emphasis></emphasis>
+                
+<para>Returns the orientation of this axis. The axis orientation (horizontal or vertical) is deduced from the axis type (left, top, right or bottom).</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPAxis_1a9a68b3e45f1b1e33d4d807822342516c">orientation(AxisType type)</link>, <link linkend="classQCPAxis_1a45c45bed7e5666683b8d56afa66fa51f">pixelOrientation</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPAxis_1a45c45bed7e5666683b8d56afa66fa51f">
+                <title>int QCPAxis::pixelOrientation () const</title> <emphasis></emphasis>
+                
+<para>Returns which direction points towards higher coordinate values/keys, in pixel space.</para>
+
+<para>This method returns either 1 or -1. If it returns 1, then going in the positive direction along the orientation of the axis in pixels corresponds to going from lower to higher axis coordinates. On the other hand, if this method returns -1, going to smaller pixel values corresponds to going from lower to higher axis coordinates.</para>
+
+<para>For example, this is useful to easily shift axis coordinates by a certain amount given in pixels, without having to care about reversed or vertically aligned axes:</para>
+
+<para><literallayout><computeroutput>double&#32;newKey&#32;=&#32;keyAxis-&gt;pixelToCoord(keyAxis-&gt;coordToPixel(oldKey)+10*keyAxis-&gt;pixelOrientation());
+</computeroutput></literallayout></para>
+
+<para><emphasis>newKey</emphasis> will then contain a key that is ten pixels towards higher keys, starting from <emphasis>oldKey</emphasis>. </para>
+
+            </section>
+            <section xml:id="classQCPAxis_1a18f3a68f2b691af1fd34b6593c886630">
+                <title>void QCPAxis::moveRange (double diff)</title> <emphasis></emphasis>
+                
+<para>If the scale type (<link linkend="classQCPAxis_1adef29cae617af4f519f6c40d1a866ca6">setScaleType</link>) is <link linkend="classQCPAxis_1a36d8e8658dbaa179bf2aeb973db2d6f0aff6e30a11a828bc850caffab0ff994f6">stLinear</link>, <emphasis>diff</emphasis> is added to the lower and upper bounds of the range. The range is simply moved by <emphasis>diff</emphasis>.</para>
+
+<para>If the scale type is <link linkend="classQCPAxis_1a36d8e8658dbaa179bf2aeb973db2d6f0abf5b785ad976618816dc6f79b73216d4">stLogarithmic</link>, the range bounds are multiplied by <emphasis>diff</emphasis>. This corresponds to an apparent &quot;linear&quot; move in logarithmic scaling by a distance of log(diff). </para>
+
+            </section>
+            <section xml:id="classQCPAxis_1a31d18ddf3a4f21ceb077db8ae5b69856">
+                <title>void QCPAxis::scaleRange (double factor)</title> <emphasis></emphasis>
+                
+<para>Scales the range of this axis by <emphasis>factor</emphasis> around the center of the current axis range. For example, if <emphasis>factor</emphasis> is 2.0, then the axis range will double its size, and the point at the axis range center won&apos;t have changed its position in the <link linkend="classQCustomPlot">QCustomPlot</link> widget (i.e. coordinates around the center will have moved symmetrically closer).</para>
+
+<para>If you wish to scale around a different coordinate than the current axis range center, use the overload <link linkend="classQCPAxis_1a7072ff96fe690148f1bbcdb4f773ea1c">scaleRange(double factor, double center)</link>. </para>
+
+            </section>
+            <section xml:id="classQCPAxis_1a7072ff96fe690148f1bbcdb4f773ea1c">
+                <title>void QCPAxis::scaleRange (double factor, double center)</title> <emphasis></emphasis>
+                
+<para>Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.</para>
+
+<para>Scales the range of this axis by <emphasis>factor</emphasis> around the coordinate <emphasis>center</emphasis>. For example, if <emphasis>factor</emphasis> is 2.0, <emphasis>center</emphasis> is 1.0, then the axis range will double its size, and the point at coordinate 1.0 won&apos;t have changed its position in the <link linkend="classQCustomPlot">QCustomPlot</link> widget (i.e. coordinates around 1.0 will have moved symmetrically closer to 1.0).</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPAxis_1a31d18ddf3a4f21ceb077db8ae5b69856">scaleRange(double factor)</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPAxis_1af4bbd446dcaee5a83ac30ce9bcd6e125">
+                <title>void QCPAxis::setScaleRatio (const QCPAxis *otherAxis, double ratio=1.0)</title> <emphasis></emphasis>
+                
+<para>Scales the range of this axis to have a certain scale <emphasis>ratio</emphasis> to <emphasis>otherAxis</emphasis>. The scaling will be done around the center of the current axis range.</para>
+
+<para>For example, if <emphasis>ratio</emphasis> is 1, this axis is the <emphasis>yAxis</emphasis> and <emphasis>otherAxis</emphasis> is <emphasis>xAxis</emphasis>, graphs plotted with those axes will appear in a 1:1 aspect ratio, independent of the aspect ratio the axis rect has.</para>
+
+<para>This is an operation that changes the range of this axis once, it doesn&apos;t fix the scale ratio indefinitely. Note that calling this function in the constructor of the <link linkend="classQCustomPlot">QCustomPlot</link>&apos;s parent won&apos;t have the desired effect, since the widget dimensions aren&apos;t defined yet, and a resizeEvent will follow. </para>
+
+            </section>
+            <section xml:id="classQCPAxis_1a499345f02ebce4b23d8ccec96e58daa9">
+                <title>void QCPAxis::rescale (bool onlyVisiblePlottables=false)</title> <emphasis></emphasis>
+                
+<para>Changes the axis range such that all plottables associated with this axis are fully visible in that dimension.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPAbstractPlottable_1a1491c4a606bccd2d09e65e11b79eb882">QCPAbstractPlottable::rescaleAxes</link>, <link linkend="classQCustomPlot_1ad86528f2cee6c7e446dea4a6e8839935">QCustomPlot::rescaleAxes</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPAxis_1a536ef8f624cac59b6b6fdcb495723c57">
+                <title>double QCPAxis::pixelToCoord (double value) const</title> <emphasis></emphasis>
+                
+<para>Transforms <emphasis>value</emphasis>, in pixel coordinates of the <link linkend="classQCustomPlot">QCustomPlot</link> widget, to axis coordinates. </para>
+
+            </section>
+            <section xml:id="classQCPAxis_1af15d1b3a7f7e9b53d759d3ccff1fe4b4">
+                <title>double QCPAxis::coordToPixel (double value) const</title> <emphasis></emphasis>
+                
+<para>Transforms <emphasis>value</emphasis>, in coordinates of the axis, to pixel coordinates of the <link linkend="classQCustomPlot">QCustomPlot</link> widget. </para>
+
+            </section>
+            <section xml:id="classQCPAxis_1a22ab2d71d7341b9b3974c0dd10619af2">
+                <title>QCPAxis::SelectablePart QCPAxis::getPartAt (const QPointF &amp;pos) const</title> <emphasis></emphasis>
+                
+<para>Returns the part of the axis that is hit by <emphasis>pos</emphasis> (in pixels). The return value of this function is independent of the user-selectable parts defined with <link linkend="classQCPAxis_1a513f9b9e326c505d9bec54880031b085">setSelectableParts</link>. Further, this function does not change the current selection state of the axis.</para>
+
+<para>If the axis is not visible (<link linkend="classQCPLayerable_1a3bed99ddc396b48ce3ebfdc0418744f8">setVisible</link>), this function always returns <link linkend="classQCPAxis_1abee4c7a54c468b1385dfce2c898b115fae0df8123a5528d5ccf87cb7794f971ea">spNone</link>.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPAxis_1ab9d7a69277dcbed9119b3c1f25ca19c3">setSelectedParts</link>, <link linkend="classQCPAxis_1a513f9b9e326c505d9bec54880031b085">setSelectableParts</link>, <link linkend="classQCustomPlot_1a5ee1e2f6ae27419deca53e75907c27e5">QCustomPlot::setInteractions</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPAxis_1ac5e0f6f65c75efb5fd32275d6e4ef0d6">
+                <title>QList&lt; QCPAbstractPlottable * &gt; QCPAxis::plottables () const</title> <emphasis></emphasis>
+                
+<para>Returns a list of all the plottables that have this axis as key or value axis.</para>
+
+<para>If you are only interested in plottables of type <link linkend="classQCPGraph">QCPGraph</link>, see <link linkend="classQCPAxis_1ad590c0da223697a2727f97a520870fec">graphs</link>.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPAxis_1ad590c0da223697a2727f97a520870fec">graphs</link>, <link linkend="classQCPAxis_1a42761bc68e2f3a9f68549d45b73f705b">items</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPAxis_1ad590c0da223697a2727f97a520870fec">
+                <title>QList&lt; QCPGraph * &gt; QCPAxis::graphs () const</title> <emphasis></emphasis>
+                
+<para>Returns a list of all the graphs that have this axis as key or value axis.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPAxis_1ac5e0f6f65c75efb5fd32275d6e4ef0d6">plottables</link>, <link linkend="classQCPAxis_1a42761bc68e2f3a9f68549d45b73f705b">items</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPAxis_1a42761bc68e2f3a9f68549d45b73f705b">
+                <title>QList&lt; QCPAbstractItem * &gt; QCPAxis::items () const</title> <emphasis></emphasis>
+                
+<para>Returns a list of all the items that are associated with this axis. An item is considered associated with an axis if at least one of its positions uses the axis as key or value axis.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPAxis_1ac5e0f6f65c75efb5fd32275d6e4ef0d6">plottables</link>, <link linkend="classQCPAxis_1ad590c0da223697a2727f97a520870fec">graphs</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPLayerable_1af0297b944b6192b6d67d00bff41b6b70">
+                <title>bool QCPLayerable::visible () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPLayerable_1a473edb813a4c1929d6b6a8fe3ff3faf7">
+                <title>QCustomPlot* QCPLayerable::parentPlot () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPLayerable_1aa78b7e644d2c519e1a9a6f2ac5fcd858">
+                <title>QCPLayerable * QCPLayerable::parentLayerable () const</title> <emphasis></emphasis>
+                
+<para>Returns the parent layerable of this layerable. The parent layerable is used to provide visibility hierarchies in conjunction with the method <link linkend="classQCPLayerable_1ab054e88f15d485defcb95e7376f119e7">realVisibility</link>. This way, layerables only get drawn if their parent layerables are visible, too.</para>
+
+<para>Note that a parent layerable is not necessarily also the QObject parent for memory management. Further, a layerable doesn&apos;t always have a parent layerable, so this function may return 0.</para>
+
+<para>A parent layerable is set implicitly when placed inside layout elements and doesn&apos;t need to be set manually by the user. </para>
+
+            </section>
+            <section xml:id="classQCPLayerable_1a5ff4862e8c784c9f5986dbc1533ba2a4">
+                <title>QCPLayer* QCPLayerable::layer () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPLayerable_1a71cbd212fde2703cee076e204a475709">
+                <title>bool QCPLayerable::antialiased () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPLayerable_1a3bed99ddc396b48ce3ebfdc0418744f8">
+                <title>void QCPLayerable::setVisible (bool on)</title> <emphasis></emphasis>
+                
+<para>Sets the visibility of this layerable object. If an object is not visible, it will not be drawn on the <link linkend="classQCustomPlot">QCustomPlot</link> surface, and user interaction with it (e.g. click and selection) is not possible. </para>
+
+            </section>
+            <section xml:id="classQCPLayerable_1ab0d0da6d2de45a118886d2c8e16d5a54">
+                <title>bool QCPLayerable::setLayer (QCPLayer *layer)</title> <emphasis></emphasis>
+                
+<para>Sets the <emphasis>layer</emphasis> of this layerable object. The object will be placed on top of the other objects already on <emphasis>layer</emphasis>.</para>
+
+<para>If <emphasis>layer</emphasis> is 0, this layerable will not be on any layer and thus not appear in the plot (or interact/receive events).</para>
+
+<para>Returns true if the layer of this layerable was successfully changed to <emphasis>layer</emphasis>. </para>
+
+            </section>
+            <section xml:id="classQCPLayerable_1ab25a0e7b897993b44447caee0f142083">
+                <title>bool QCPLayerable::setLayer (const QString &amp;layerName)</title> <emphasis></emphasis>
+                
+<para>Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados. Sets the layer of this layerable object by name</para>
+
+<para>Returns true on success, i.e. if <emphasis>layerName</emphasis> is a valid layer name. </para>
+
+            </section>
+            <section xml:id="classQCPLayerable_1a4fd43e89be4a553ead41652565ff0581">
+                <title>void QCPLayerable::setAntialiased (bool enabled)</title> <emphasis></emphasis>
+                
+<para>Sets whether this object will be drawn antialiased or not.</para>
+
+<para>Note that antialiasing settings may be overridden by <link linkend="classQCustomPlot_1af6f91e5eab1be85f67c556e98c3745e8">QCustomPlot::setAntialiasedElements</link> and <link linkend="classQCustomPlot_1ae10d685b5eabea2999fb8775ca173c24">QCustomPlot::setNotAntialiasedElements</link>. </para>
+
+            </section>
+            <section xml:id="classQCPLayerable_1ab054e88f15d485defcb95e7376f119e7">
+                <title>bool QCPLayerable::realVisibility () const</title> <emphasis></emphasis>
+                
+<para>Returns whether this layerable is visible, taking the visibility of the layerable parent and the visibility of this layerable&apos;s layer into account. This is the method that is consulted to decide whether a layerable shall be drawn or not.</para>
+
+<para>If this layerable has a direct layerable parent (usually set via hierarchies implemented in subclasses, like in the case of <link linkend="classQCPLayoutElement">QCPLayoutElement</link>), this function returns true only if this layerable has its visibility set to true and the parent layerable&apos;s <link linkend="classQCPLayerable_1ab054e88f15d485defcb95e7376f119e7">realVisibility</link> returns true. </para>
+
+            </section>
+            <section xml:id="classQCPAxis_1ac0a6b77bd52bec6c81cd62d167cfeba6">
+                <title>QCPAxis::AxisType QCPAxis::marginSideToAxisType (QCP::MarginSide side)</title> <emphasis></emphasis>
+                
+<para>Transforms a margin side to the logically corresponding axis type. (<link linkend="namespaceQCP_1a7e487e3e2ccb62ab7771065bab7cae54a9500c8bfcc9e80b9dff0a8e00e867f07">QCP::msLeft</link> to <link linkend="classQCPAxis_1ae2bcc1728b382f10f064612b368bc18aaf84aa6cac6fb6099f54a2cbf7546b730">QCPAxis::atLeft</link>, <link linkend="namespaceQCP_1a7e487e3e2ccb62ab7771065bab7cae54a93c719593bb2b94ed244d52c86d83b65">QCP::msRight</link> to <link linkend="classQCPAxis_1ae2bcc1728b382f10f064612b368bc18aadf5509f7d29199ef2f263b1dd224b345">QCPAxis::atRight</link>, etc.) </para>
+
+            </section>
+            <section xml:id="classQCPAxis_1a9a68b3e45f1b1e33d4d807822342516c">
+                <title>static Qt::Orientation QCPAxis::orientation (AxisType type)</title> <emphasis></emphasis>
+                
+<para>Returns the orientation of the specified axis type</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPAxis_1ab988ef4538e2655bb77bd138189cd42e">orientation()</link>, <link linkend="classQCPAxis_1a45c45bed7e5666683b8d56afa66fa51f">pixelOrientation</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPAxis_1aa85ba73dfee6483e23825461b725e363">
+                <title>QCPAxis::AxisType QCPAxis::opposite (AxisType type)</title> <emphasis></emphasis>
+                
+<para>Returns the axis type that describes the opposite axis of an axis with the specified <emphasis>type</emphasis>. </para>
+
+            </section>
+            <section xml:id="classQCPAxis_1a47bdb0a55de6759489ee47665199aebb">
+                <title>int QCPAxis::calculateMargin ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAxis_1adbaeffcdc2707f2bd5dc1bbd11236770">
+                <title>void QCPAxis::applyDefaultAntialiasingHint (QCPPainter *painter) const Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAxis_1ac15ebb4225ca5212d8e5fffae481bc9b">
+                <title>void QCPAxis::draw (QCPPainter *painter) Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAxis_1ab751e3e96495716a2f6742ca7d7b3d49">
+                <title>QCP::Interaction QCPAxis::selectionCategory () const Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAxis_1a50c3ed18e189d48421ec2978f88e4f87">
+                <title>void QCPAxis::selectEvent (QMouseEvent *event, bool additive, const QVariant &amp;details, bool *selectionStateChanged) Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAxis_1a5bc1f8a8d0fbc7658eba70c80279ed31">
+                <title>void QCPAxis::deselectEvent (bool *selectionStateChanged) Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAxis_1ac89c068873ee9197a5d2af715bdc1105">
+                <title>void QCPAxis::mousePressEvent (QMouseEvent *event, const QVariant &amp;details)</title> <emphasis></emphasis>
+                
+<para>This event gets called when the user presses a mouse button while the cursor is over the layerable. Whether a cursor is over the layerable is decided by a preceding call to <link linkend="classQCPAxis_1a63b7103c57fe9acfbce164334ea837f8">selectTest</link>.</para>
+
+<para>The current pixel position of the cursor on the <link linkend="classQCustomPlot">QCustomPlot</link> widget is accessible via <computeroutput>event-&gt;pos()</computeroutput>. The parameter <emphasis>details</emphasis> contains layerable-specific details about the hit, which were generated in the previous call to <link linkend="classQCPAxis_1a63b7103c57fe9acfbce164334ea837f8">selectTest</link>. For example, One-dimensional plottables like <link linkend="classQCPGraph">QCPGraph</link> or <link linkend="classQCPBars">QCPBars</link> convey the clicked data point in the <emphasis>details</emphasis> parameter, as <link linkend="classQCPDataSelection">QCPDataSelection</link> packed as QVariant. Multi-part objects convey the specific <computeroutput>SelectablePart</computeroutput> that was hit (e.g. <link linkend="classQCPAxis_1abee4c7a54c468b1385dfce2c898b115f">QCPAxis::SelectablePart</link> in the case of axes).</para>
+
+<para><link linkend="classQCustomPlot">QCustomPlot</link> uses an event propagation system that works the same as Qt&apos;s system. If your layerable doesn&apos;t reimplement the <link linkend="classQCPAxis_1ac89c068873ee9197a5d2af715bdc1105">mousePressEvent</link> or explicitly calls <computeroutput>event-&gt;ignore()</computeroutput> in its reimplementation, the event will be propagated to the next layerable in the stacking order.</para>
+
+<para>Once a layerable has accepted the <link linkend="classQCPAxis_1ac89c068873ee9197a5d2af715bdc1105">mousePressEvent</link>, it is considered the mouse grabber and will receive all following calls to <link linkend="classQCPAxis_1a2a89a13440eec099fc2327c2672be0cd">mouseMoveEvent</link> or <link linkend="classQCPAxis_1a35663b938ad83e91c0b8e59dbc8c6b18">mouseReleaseEvent</link> for this mouse interaction (a &quot;mouse interaction&quot; in this context ends with the release).</para>
+
+<para>The default implementation does nothing except explicitly ignoring the event with <computeroutput>event-&gt;ignore()</computeroutput>.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPAxis_1a2a89a13440eec099fc2327c2672be0cd">mouseMoveEvent</link>, <link linkend="classQCPAxis_1a35663b938ad83e91c0b8e59dbc8c6b18">mouseReleaseEvent</link>, <link linkend="classQCPLayerable_1a4171e2e823aca242dd0279f00ed2de81">mouseDoubleClickEvent</link>, <link linkend="classQCPAxis_1a71643d27524a843230b5ba68085b3d9b">wheelEvent</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPAxis_1a2a89a13440eec099fc2327c2672be0cd">
+                <title>void QCPAxis::mouseMoveEvent (QMouseEvent *event, const QPointF &amp;startPos)</title> <emphasis></emphasis>
+                
+<para>This event gets called when the user moves the mouse while holding a mouse button, after this layerable has become the mouse grabber by accepting the preceding <link linkend="classQCPAxis_1ac89c068873ee9197a5d2af715bdc1105">mousePressEvent</link>.</para>
+
+<para>The current pixel position of the cursor on the <link linkend="classQCustomPlot">QCustomPlot</link> widget is accessible via <computeroutput>event-&gt;pos()</computeroutput>. The parameter <emphasis>startPos</emphasis> indicates the position where the initial <link linkend="classQCPAxis_1ac89c068873ee9197a5d2af715bdc1105">mousePressEvent</link> occured, that started the mouse interaction.</para>
+
+<para>The default implementation does nothing.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPAxis_1ac89c068873ee9197a5d2af715bdc1105">mousePressEvent</link>, <link linkend="classQCPAxis_1a35663b938ad83e91c0b8e59dbc8c6b18">mouseReleaseEvent</link>, <link linkend="classQCPLayerable_1a4171e2e823aca242dd0279f00ed2de81">mouseDoubleClickEvent</link>, <link linkend="classQCPAxis_1a71643d27524a843230b5ba68085b3d9b">wheelEvent</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPAxis_1a35663b938ad83e91c0b8e59dbc8c6b18">
+                <title>void QCPAxis::mouseReleaseEvent (QMouseEvent *event, const QPointF &amp;startPos)</title> <emphasis></emphasis>
+                
+<para>This event gets called when the user releases the mouse button, after this layerable has become the mouse grabber by accepting the preceding <link linkend="classQCPAxis_1ac89c068873ee9197a5d2af715bdc1105">mousePressEvent</link>.</para>
+
+<para>The current pixel position of the cursor on the <link linkend="classQCustomPlot">QCustomPlot</link> widget is accessible via <computeroutput>event-&gt;pos()</computeroutput>. The parameter <emphasis>startPos</emphasis> indicates the position where the initial <link linkend="classQCPAxis_1ac89c068873ee9197a5d2af715bdc1105">mousePressEvent</link> occured, that started the mouse interaction.</para>
+
+<para>The default implementation does nothing.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPAxis_1ac89c068873ee9197a5d2af715bdc1105">mousePressEvent</link>, <link linkend="classQCPAxis_1a2a89a13440eec099fc2327c2672be0cd">mouseMoveEvent</link>, <link linkend="classQCPLayerable_1a4171e2e823aca242dd0279f00ed2de81">mouseDoubleClickEvent</link>, <link linkend="classQCPAxis_1a71643d27524a843230b5ba68085b3d9b">wheelEvent</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPAxis_1a71643d27524a843230b5ba68085b3d9b">
+                <title>void QCPAxis::wheelEvent (QWheelEvent *event)</title> <emphasis></emphasis>
+                
+<para>This event gets called when the user turns the mouse scroll wheel while the cursor is over the layerable. Whether a cursor is over the layerable is decided by a preceding call to <link linkend="classQCPAxis_1a63b7103c57fe9acfbce164334ea837f8">selectTest</link>.</para>
+
+<para>The current pixel position of the cursor on the <link linkend="classQCustomPlot">QCustomPlot</link> widget is accessible via <computeroutput>event-&gt;pos()</computeroutput>.</para>
+
+<para>The <computeroutput>event-&gt;delta()</computeroutput> indicates how far the mouse wheel was turned, which is usually +/- 120 for single rotation steps. However, if the mouse wheel is turned rapidly, multiple steps may accumulate to one event, making <computeroutput>event-&gt;delta()</computeroutput> larger. On the other hand, if the wheel has very smooth steps or none at all, the delta may be smaller.</para>
+
+<para>The default implementation does nothing.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPAxis_1ac89c068873ee9197a5d2af715bdc1105">mousePressEvent</link>, <link linkend="classQCPAxis_1a2a89a13440eec099fc2327c2672be0cd">mouseMoveEvent</link>, <link linkend="classQCPAxis_1a35663b938ad83e91c0b8e59dbc8c6b18">mouseReleaseEvent</link>, <link linkend="classQCPLayerable_1a4171e2e823aca242dd0279f00ed2de81">mouseDoubleClickEvent</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPAxis_1a57d9e961bae7d62f5b4e1f143e660c78">
+                <title>void QCPAxis::setupTickVectors ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAxis_1a8cd3764c6a4ce9c3d7d913e81cad0a50">
+                <title>QPen QCPAxis::getBasePen () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAxis_1afe7d57415cbbf31e5549a5cc40b6f8d8">
+                <title>QPen QCPAxis::getTickPen () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAxis_1aad7739c229b292ddab0b3a43a5676f54">
+                <title>QPen QCPAxis::getSubTickPen () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAxis_1a694ab8b4240f3c90a866372e3dcb364f">
+                <title>QFont QCPAxis::getTickLabelFont () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAxis_1aeac21c907d2516af9cde9a463043d671">
+                <title>QFont QCPAxis::getLabelFont () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAxis_1a8d00d5b78ecfbebbea5a8161bddb9a17">
+                <title>QColor QCPAxis::getTickLabelColor () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAxis_1ae914abd56afa570cb9f2ab50e59c0f0e">
+                <title>QColor QCPAxis::getLabelColor () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPLayerable_1ab20b7dbd8e0249ed61adb9622c427382">
+                <title>void QCPLayerable::parentPlotInitialized (QCustomPlot *parentPlot)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPLayerable_1acbcfc9ecc75433747b1978a77b1864b3">
+                <title>QRect QCPLayerable::clipRect () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPLayerable_1a4171e2e823aca242dd0279f00ed2de81">
+                <title>void QCPLayerable::mouseDoubleClickEvent (QMouseEvent *event, const QVariant &amp;details)</title> <emphasis></emphasis>
+                
+<para>This event gets called when the user presses the mouse button a second time in a double-click, while the cursor is over the layerable. Whether a cursor is over the layerable is decided by a preceding call to <link linkend="classQCPLayerable_1a04db8351fefd44cfdb77958e75c6288e">selectTest</link>.</para>
+
+<para>The <link linkend="classQCPLayerable_1a4171e2e823aca242dd0279f00ed2de81">mouseDoubleClickEvent</link> is called instead of the second <link linkend="classQCPLayerable_1af6567604818db90f4fd52822f8bc8376">mousePressEvent</link>. So in the case of a double-click, the event succession is <emphasis>pressEvent &#8211; releaseEvent &#8211; doubleClickEvent &#8211; releaseEvent</emphasis>.</para>
+
+<para>The current pixel position of the cursor on the <link linkend="classQCustomPlot">QCustomPlot</link> widget is accessible via <computeroutput>event-&gt;pos()</computeroutput>. The parameter <emphasis>details</emphasis> contains layerable-specific details about the hit, which were generated in the previous call to <link linkend="classQCPLayerable_1a04db8351fefd44cfdb77958e75c6288e">selectTest</link>. For example, One-dimensional plottables like <link linkend="classQCPGraph">QCPGraph</link> or <link linkend="classQCPBars">QCPBars</link> convey the clicked data point in the <emphasis>details</emphasis> parameter, as <link linkend="classQCPDataSelection">QCPDataSelection</link> packed as QVariant. Multi-part objects convey the specific <computeroutput>SelectablePart</computeroutput> that was hit (e.g. <link linkend="classQCPAxis_1abee4c7a54c468b1385dfce2c898b115f">QCPAxis::SelectablePart</link> in the case of axes).</para>
+
+<para>Similarly to <link linkend="classQCPLayerable_1af6567604818db90f4fd52822f8bc8376">mousePressEvent</link>, once a layerable has accepted the <link linkend="classQCPLayerable_1a4171e2e823aca242dd0279f00ed2de81">mouseDoubleClickEvent</link>, it is considered the mouse grabber and will receive all following calls to <link linkend="classQCPLayerable_1a9eee1ba47fd69be111059ca3881933e4">mouseMoveEvent</link> and <link linkend="classQCPLayerable_1aa0d79b005686f668622bbe66ac03ba2c">mouseReleaseEvent</link> for this mouse interaction (a &quot;mouse interaction&quot; in this context ends with the release).</para>
+
+<para>The default implementation does nothing except explicitly ignoring the event with <computeroutput>event-&gt;ignore()</computeroutput>.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPLayerable_1af6567604818db90f4fd52822f8bc8376">mousePressEvent</link>, <link linkend="classQCPLayerable_1a9eee1ba47fd69be111059ca3881933e4">mouseMoveEvent</link>, <link linkend="classQCPLayerable_1aa0d79b005686f668622bbe66ac03ba2c">mouseReleaseEvent</link>, <link linkend="classQCPLayerable_1a47dfd7b8fd99c08ca54e09c362b6f022">wheelEvent</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPLayerable_1a8cbe5a0c9a5674249982f5ca5f8e02bc">
+                <title>void QCPLayerable::initializeParentPlot (QCustomPlot *parentPlot)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPLayerable_1aa23c893671f1f6744ac235cf2204cf3a">
+                <title>void QCPLayerable::setParentLayerable (QCPLayerable *parentLayerable)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPLayerable_1af94484cfb7cbbddb7de522e9be71d9a4">
+                <title>bool QCPLayerable::moveToLayer (QCPLayer *layer, bool prepend)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPLayerable_1acb663e375d2d36dc5c55021ee5a2119b">
+                <title>void QCPLayerable::applyAntialiasingHint (QCPPainter *painter, bool localAntialiased, QCP::AntialiasedElement overrideElement) const</title> <emphasis></emphasis>
+                
+            </section>
+</section>

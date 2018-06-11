@@ -56,7 +56,7 @@
             </para>
         </section>
         <simplesect>
-            <title> Namespaces </title>
+            <title> <em>Namespaces</em> </title>
             <para>
                 <itemizedlist>
                     <listitem>
@@ -66,7 +66,7 @@
             </para>
         </simplesect>
         <section>
-            <title>Variables</title>
+            <title>Variáveis</title>
             <para>
                 <itemizedlist>
                     <listitem>
@@ -76,7 +76,7 @@
             </para>
         </section>
     <simplesect>
-        <title>Detailed Description</title>
+        <title>Descrição detalhada</title>
     <para>Definition in file E:/IME/3 ano/Programação/Projeto 2018/Shilton_circuito_RLC/RLC_Serie/Classes_cirkt.h</para>
     </simplesect>
 </section>

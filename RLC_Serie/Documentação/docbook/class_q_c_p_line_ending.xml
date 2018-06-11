@@ -49,7 +49,7 @@
             </para>
         </section>
         <section>
-            <title>Protected Attributes</title>
+            <title>Atributos Protegidos</title>
             <para>
                 <itemizedlist>
                     <listitem>
@@ -199,7 +199,7 @@ bool inverted)</para>
 <para>Handles the different ending decorations for line-like items. </para>
     </simplesect>
         <simplesect>
-            <title>Detailed Description</title>
+            <title>Descrição detalhada</title>
 
 <para> For every ending a line-like item has, an instance of this class exists. For example, <link linkend="class_q_c_p_item_line">QCPItemLine</link> has two endings which can be set with <link linkend="class_q_c_p_item_line_1aebf3d687114d584e0459db6759e2c3c3">QCPItemLine::setHead</link> and <link linkend="class_q_c_p_item_line_1ac264222c3297a7efe33df9345c811a5f">QCPItemLine::setTail</link>.</para>
 
@@ -219,14 +219,14 @@ bool inverted)</para>
 
 <para>The width and length of these decorations can be controlled with the functions <link linkend="class_q_c_p_line_ending_1a26dc020ea985a72cc25881ce2115e34e">setWidth</link> and <link linkend="class_q_c_p_line_ending_1ae36fa01763751cd64b7f56c3507e935a">setLength</link>. Some decorations like <link linkend="class_q_c_p_line_ending_1a5ef16e6876b4b74959c7261d8d4c2cd5ae5a3414916817258bcc6dddd605e8f5c">esDisc</link>, <link linkend="class_q_c_p_line_ending_1a5ef16e6876b4b74959c7261d8d4c2cd5ae1836502fa43d8990bb62b2d493a140a">esSquare</link>, <link linkend="class_q_c_p_line_ending_1a5ef16e6876b4b74959c7261d8d4c2cd5a378fe5a8b768411b0bc1765210fe7200">esDiamond</link> and <link linkend="class_q_c_p_line_ending_1a5ef16e6876b4b74959c7261d8d4c2cd5a2cf543bbca332df26d89bf779f50469f">esBar</link> only support a width, the length property is ignored.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_c_p_item_line_1aebf3d687114d584e0459db6759e2c3c3">QCPItemLine::setHead</link>, <link linkend="class_q_c_p_item_line_1ac264222c3297a7efe33df9345c811a5f">QCPItemLine::setTail</link>, <link linkend="class_q_c_p_item_curve_1a08a30d9cdd63995deea3d9e20430676f">QCPItemCurve::setHead</link>, <link linkend="class_q_c_p_item_curve_1ac3488d8b1a6489c845dc5bff3ef71124">QCPItemCurve::setTail</link>, <link linkend="class_q_c_p_axis_1a08af1c72db9ae4dc8cb8a973d44405ab">QCPAxis::setLowerEnding</link>, <link linkend="class_q_c_p_axis_1a69119b892fc306f651763596685aa377">QCPAxis::setUpperEnding</link> </para>
 </formalpara>
 </para>
 
                <formalpara>
-                    <title>Enumerator:</title>
+                    <title>Enumeradores:</title>
                     <variablelist>
                         <varlistentry xml:id="class_q_c_p_line_ending_1a5ef16e6876b4b74959c7261d8d4c2cd5aca12d500f50cd6871766801bac30fb03">
                             <term>esNone</term>
@@ -308,7 +308,7 @@ esSkewedBar,
                 </para>
             </section>
         <section>
-            <title>Member Data Documentation</title>
+            <title>Atributos</title>
         </section>
             <section xml:id="class_q_c_p_line_ending_1af2eaf8123b000d97fbd11929c669f61b">
                 <title>QCPLineEnding::QCPLineEnding ()</title> <emphasis></emphasis>
@@ -349,7 +349,7 @@ esSkewedBar,
                 
 <para>Sets the width of the ending decoration, if the style supports it. On arrows, for example, the width defines the size perpendicular to the arrow&apos;s pointing direction.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_c_p_line_ending_1ae36fa01763751cd64b7f56c3507e935a">setLength</link> </para>
 </formalpara>
@@ -361,7 +361,7 @@ esSkewedBar,
                 
 <para>Sets the length of the ending decoration, if the style supports it. On arrows, for example, the length defines the size in pointing direction.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_c_p_line_ending_1a26dc020ea985a72cc25881ce2115e34e">setWidth</link> </para>
 </formalpara>

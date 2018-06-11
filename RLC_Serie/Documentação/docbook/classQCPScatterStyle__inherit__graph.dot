@@ -1,0 +1,6 @@
+digraph "QCPScatterStyle"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1079 [label="{QCPScatterStyle\n|# mSize\l# mShape\l# mPen\l# mBrush\l# mPixmap\l# mCustomPath\l# mPenDefined\l|+ QCPScatterStyle()\l+ QCPScatterStyle()\l+ QCPScatterStyle()\l+ QCPScatterStyle()\l+ QCPScatterStyle()\l+ QCPScatterStyle()\l+ QCPScatterStyle()\l+ size()\l+ shape()\l+ pen()\l+ brush()\l+ pixmap()\l+ customPath()\l+ setFromOther()\l+ setSize()\l+ setShape()\l+ setPen()\l+ setBrush()\l+ setPixmap()\l+ setCustomPath()\l+ isNone()\l+ isPenDefined()\l+ undefinePen()\l+ applyTo()\l+ drawShape()\l+ drawShape()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

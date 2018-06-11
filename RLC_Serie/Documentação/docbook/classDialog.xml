@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="classDialog">
+<title>Dialog class Reference</title>
+<para>
+    <programlisting>#include <link linkend="dialog_8h">&lt;dialog.h&gt;</link></programlisting>
+</para>
+<para>Inheritance diagram for Dialog</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="classDialog__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for Dialog</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="classDialog__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title>Atributos Privados</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>Ui::Dialog * ui</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="classDialog_1acfa2063f9f962d394c6a645b6e7e08d8">Dialog</link> (
+QWidget * parent)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="classDialog_1a2a1fe6ef28513eed13bfcd3a4da83ccb">~Dialog</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title>Atributos</title>
+        </section>
+            <section xml:id="classDialog_1acfa2063f9f962d394c6a645b6e7e08d8">
+                <title>Dialog::Dialog (QWidget *parent=0)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classDialog_1a2a1fe6ef28513eed13bfcd3a4da83ccb">
+                <title>Dialog::~Dialog ()</title> <emphasis></emphasis>
+                
+            </section>
+</section>

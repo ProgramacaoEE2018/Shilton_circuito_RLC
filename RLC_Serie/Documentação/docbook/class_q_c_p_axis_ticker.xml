@@ -41,7 +41,7 @@
             </para>
         </section>
         <section>
-            <title>Protected Attributes</title>
+            <title>Atributos Protegidos</title>
             <para>
                 <itemizedlist>
                     <listitem>
@@ -227,7 +227,7 @@ double input)</para>
 <para>The base class tick generator used by <link linkend="class_q_c_p_axis">QCPAxis</link> to create tick positions and tick labels. </para>
     </simplesect>
         <simplesect>
-            <title>Detailed Description</title>
+            <title>Descrição detalhada</title>
 
 <para>Each <link linkend="class_q_c_p_axis">QCPAxis</link> has an internal <link linkend="class_q_c_p_axis_ticker">QCPAxisTicker</link> (or a subclass) in order to generate tick positions and tick labels for the current axis range. The ticker of an axis can be set via <link linkend="class_q_c_p_axis_1a4ee03fcd2c74d05cd1a419b9af5cfbdc">QCPAxis::setTicker</link>. Since that method takes a <computeroutput>QSharedPointer&lt;QCPAxisTicker&gt;</computeroutput>, multiple axes can share the same ticker instance.</para>
 
@@ -301,14 +301,14 @@ double input)</para>
                
 <para>Defines the strategies that the axis ticker may follow when choosing the size of the tick step.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_c_p_axis_ticker_1a73b1d847c1a12159af6bfda4ebebe7d5">setTickStepStrategy</link> </para>
 </formalpara>
 </para>
 
                <formalpara>
-                    <title>Enumerator:</title>
+                    <title>Enumeradores:</title>
                     <variablelist>
                         <varlistentry xml:id="class_q_c_p_axis_ticker_1ab6d2f9d9477821623ac9bc4b21ddf49aa9002aa2fd5633ab5556c71a26fed63a8">
                             <term>tssReadability</term>
@@ -334,7 +334,7 @@ tssMeetTickCount,
                 </para>
             </section>
         <section>
-            <title>Member Data Documentation</title>
+            <title>Atributos</title>
         </section>
             <section xml:id="class_q_c_p_axis_ticker_1a8fcf23c79ebd72202fe79253f9f01ea8">
                 <title>QCPAxisTicker::QCPAxisTicker ()</title> <emphasis></emphasis>

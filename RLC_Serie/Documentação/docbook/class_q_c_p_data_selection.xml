@@ -27,7 +27,7 @@
     </figure>
 </para>
         <section>
-            <title>Private Attributes</title>
+            <title>Atributos Privados</title>
             <para>
                 <itemizedlist>
                     <listitem>
@@ -293,7 +293,7 @@ QDebug d, const <link linkend="class_q_c_p_data_selection">QCPDataSelection</lin
 <para>Describes a data set by holding multiple <link linkend="class_q_c_p_data_range">QCPDataRange</link> instances. </para>
     </simplesect>
         <simplesect>
-            <title>Detailed Description</title>
+            <title>Descrição detalhada</title>
 
 <para><link linkend="class_q_c_p_data_selection">QCPDataSelection</link> manages multiple instances of <link linkend="class_q_c_p_data_range">QCPDataRange</link> in order to represent any (possibly disjoint) set of data selection.</para>
 
@@ -316,7 +316,7 @@ QDebug d, const <link linkend="class_q_c_p_data_selection">QCPDataSelection</lin
                 <para><itemizedlist><listitem><para>qcustomplot.h</para></listitem></itemizedlist></para>
         </simplesect>
         <section>
-            <title>Member Data Documentation</title>
+            <title>Atributos</title>
         </section>
             <section xml:id="class_q_c_p_data_selection_1a0e0b7faaec7df1a7c77dd6f4883cdf0d">
                 <title>QCPDataSelection::QCPDataSelection ()</title> <emphasis></emphasis>
@@ -371,7 +371,7 @@ QDebug d, const <link linkend="class_q_c_p_data_selection">QCPDataSelection</lin
                 
 <para>Returns the number of ranges that make up the data selection. The ranges can be accessed by <link linkend="class_q_c_p_data_selection_1a6956acf6a9a49a353b4f9b58608978ad">dataRange</link> via their index.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_c_p_data_selection_1a6956acf6a9a49a353b4f9b58608978ad">dataRange</link>, <link linkend="class_q_c_p_data_selection_1ac9e74dd294778aa799216c3435c9c4f0">dataPointCount</link> </para>
 </formalpara>
@@ -391,7 +391,7 @@ QDebug d, const <link linkend="class_q_c_p_data_selection">QCPDataSelection</lin
 
 <para>If the data selection is simplified (the usual state of the selection, see <link linkend="class_q_c_p_data_selection_1a4a2fbad1a6e4d1dd26fdfdf88956f2a4">simplify</link>), the ranges are sorted by ascending data point index.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_c_p_data_selection_1abd8869ccb231ab991e8576de931f647d">dataRangeCount</link> </para>
 </formalpara>
@@ -403,7 +403,7 @@ QDebug d, const <link linkend="class_q_c_p_data_selection">QCPDataSelection</lin
                 
 <para>Returns all data ranges that make up the data selection. If the data selection is simplified (the usual state of the selection, see <link linkend="class_q_c_p_data_selection_1a4a2fbad1a6e4d1dd26fdfdf88956f2a4">simplify</link>), the ranges are sorted by ascending data point index.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_c_p_data_selection_1a6956acf6a9a49a353b4f9b58608978ad">dataRange</link> </para>
 </formalpara>
@@ -435,7 +435,7 @@ QDebug d, const <link linkend="class_q_c_p_data_selection">QCPDataSelection</lin
                 
 <para>Returns true if there are no data ranges, and thus no data points, in this <link linkend="class_q_c_p_data_selection">QCPDataSelection</link> instance.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_c_p_data_selection_1abd8869ccb231ab991e8576de931f647d">dataRangeCount</link> </para>
 </formalpara>
@@ -457,7 +457,7 @@ QDebug d, const <link linkend="class_q_c_p_data_selection">QCPDataSelection</lin
 
 <para>Depending on <emphasis>type</emphasis>, enforcing means adding new data points that were previously not part of the selection, or removing data points from the selection. If the current selection already conforms to <emphasis>type</emphasis>, the data selection is not changed.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="namespace_q_c_p_1ac6cb9db26a564b27feda362a438db038">QCP::SelectionType</link> </para>
 </formalpara>
@@ -469,7 +469,7 @@ QDebug d, const <link linkend="class_q_c_p_data_selection">QCPDataSelection</lin
                 
 <para>Returns true if the data selection <emphasis>other</emphasis> is contained entirely in this data selection, i.e. all data point indices that are in <emphasis>other</emphasis> are also in this data selection.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_c_p_data_range_1a13ca398776374a3160aa85433718b812">QCPDataRange::contains</link> </para>
 </formalpara>

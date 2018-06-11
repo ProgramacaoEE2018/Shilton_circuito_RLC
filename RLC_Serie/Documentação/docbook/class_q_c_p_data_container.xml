@@ -51,7 +51,7 @@
             </para>
         </section>
         <section>
-            <title>Protected Attributes</title>
+            <title>Atributos Protegidos</title>
             <para>
                 <itemizedlist>
                     <listitem>
@@ -343,7 +343,7 @@ const DataType &amp; a, const DataType &amp; b)</para>
 <para>The generic data container for one-dimensional plottables. </para>
     </simplesect>
         <simplesect>
-            <title>Detailed Description</title>
+            <title>Descrição detalhada</title>
 
 <para>This class template provides a fast container for data storage of one-dimensional data. The data type is specified as template parameter (called <emphasis>DataType</emphasis> in the following) and must provide some methods as described in the <link linkend="class_q_c_p_data_container_1qcpdatacontainer-datatype">next section</link>.</para>
 
@@ -422,7 +422,7 @@ const DataType &amp; a, const DataType &amp; b)</para>
                 
             </section>
         <section>
-            <title>Member Data Documentation</title>
+            <title>Atributos</title>
         </section>
             <section xml:id="class_q_c_p_data_container_1af86c0c63719f92c360ff67cc06c6fe6f">
                 <title>QCPDataContainer&lt; DataType &gt;::QCPDataContainer ()</title> <emphasis></emphasis>
@@ -457,11 +457,11 @@ const DataType &amp; a, const DataType &amp; b)</para>
             <section xml:id="class_q_c_p_data_container_1ae7042bd534fc3ce7befa2ce3f790b5bf">
                 <title>void QCPDataContainer&lt; DataType &gt;::set (const QCPDataContainer&lt; DataType &gt; &amp;data)</title> <emphasis></emphasis>
                 
-<para>This is an overloaded member function, provided for convenience. It differs from the above function only in what argument(s) it accepts.</para>
+<para>Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.</para>
 
 <para>Replaces the current data in this container with the provided <emphasis>data</emphasis>.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_c_p_data_container_1a42b98bd994307ccd163a43d576f91ad9">add</link>, <link linkend="class_q_c_p_data_container_1ae5f569a120648b167efa78835f12fd38">remove</link> </para>
 </formalpara>
@@ -471,13 +471,13 @@ const DataType &amp; a, const DataType &amp; b)</para>
             <section xml:id="class_q_c_p_data_container_1aff99fffbb26597a354c4bc8312596ab2">
                 <title>void QCPDataContainer&lt; DataType &gt;::set (const QVector&lt; DataType &gt; &amp;data, bool alreadySorted=false)</title> <emphasis></emphasis>
                 
-<para>This is an overloaded member function, provided for convenience. It differs from the above function only in what argument(s) it accepts.</para>
+<para>Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.</para>
 
 <para>Replaces the current data in this container with the provided <emphasis>data</emphasis> </para>
 
 <para>If you can guarantee that the data points in <emphasis>data</emphasis> have ascending order with respect to the DataType&apos;s sort key, set <emphasis>alreadySorted</emphasis> to true to avoid an unnecessary sorting run.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_c_p_data_container_1a42b98bd994307ccd163a43d576f91ad9">add</link>, <link linkend="class_q_c_p_data_container_1ae5f569a120648b167efa78835f12fd38">remove</link> </para>
 </formalpara>
@@ -487,11 +487,11 @@ const DataType &amp; a, const DataType &amp; b)</para>
             <section xml:id="class_q_c_p_data_container_1a42b98bd994307ccd163a43d576f91ad9">
                 <title>void QCPDataContainer&lt; DataType &gt;::add (const QCPDataContainer&lt; DataType &gt; &amp;data)</title> <emphasis></emphasis>
                 
-<para>This is an overloaded member function, provided for convenience. It differs from the above function only in what argument(s) it accepts.</para>
+<para>Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.</para>
 
 <para>Adds the provided <emphasis>data</emphasis> to the current data in this container.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_c_p_data_container_1ae7042bd534fc3ce7befa2ce3f790b5bf">set</link>, <link linkend="class_q_c_p_data_container_1ae5f569a120648b167efa78835f12fd38">remove</link> </para>
 </formalpara>
@@ -505,7 +505,7 @@ const DataType &amp; a, const DataType &amp; b)</para>
 
 <para>If you can guarantee that the data points in <emphasis>data</emphasis> have ascending order with respect to the DataType&apos;s sort key, set <emphasis>alreadySorted</emphasis> to true to avoid an unnecessary sorting run.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_c_p_data_container_1ae7042bd534fc3ce7befa2ce3f790b5bf">set</link>, <link linkend="class_q_c_p_data_container_1ae5f569a120648b167efa78835f12fd38">remove</link> </para>
 </formalpara>
@@ -515,11 +515,11 @@ const DataType &amp; a, const DataType &amp; b)</para>
             <section xml:id="class_q_c_p_data_container_1a715e8e9972466804954a2f8fbd5288b7">
                 <title>void QCPDataContainer&lt; DataType &gt;::add (const DataType &amp;data)</title> <emphasis></emphasis>
                 
-<para>This is an overloaded member function, provided for convenience. It differs from the above function only in what argument(s) it accepts.</para>
+<para>Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.</para>
 
 <para>Adds the provided single data point to the current data.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_c_p_data_container_1ae5f569a120648b167efa78835f12fd38">remove</link> </para>
 </formalpara>
@@ -531,7 +531,7 @@ const DataType &amp; a, const DataType &amp; b)</para>
                 
 <para>Removes all data points with (sort-)keys smaller than or equal to <emphasis>sortKey</emphasis>.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_c_p_data_container_1abbe5d87ffc10b5aeffa5bb42cf03aa3c">removeAfter</link>, <link linkend="class_q_c_p_data_container_1ae5f569a120648b167efa78835f12fd38">remove</link>, <link linkend="class_q_c_p_data_container_1a7e2b29736c6fd761649bda1a54ba967f">clear</link> </para>
 </formalpara>
@@ -543,7 +543,7 @@ const DataType &amp; a, const DataType &amp; b)</para>
                 
 <para>Removes all data points with (sort-)keys greater than or equal to <emphasis>sortKey</emphasis>.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_c_p_data_container_1aa7f74cbce304b0369e1626c3798e1eda">removeBefore</link>, <link linkend="class_q_c_p_data_container_1ae5f569a120648b167efa78835f12fd38">remove</link>, <link linkend="class_q_c_p_data_container_1a7e2b29736c6fd761649bda1a54ba967f">clear</link> </para>
 </formalpara>
@@ -555,7 +555,7 @@ const DataType &amp; a, const DataType &amp; b)</para>
                 
 <para>Removes all data points with (sort-)keys between <emphasis>sortKeyFrom</emphasis> and <emphasis>sortKeyTo</emphasis>. if <emphasis>sortKeyFrom</emphasis> is greater or equal to <emphasis>sortKeyTo</emphasis>, the function does nothing. To remove a single data point with known (sort-)key, use <link linkend="class_q_c_p_data_container_1a2dbded7f0732bacf9db48fdfbbb620bc">remove(double sortKey)</link>.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_c_p_data_container_1aa7f74cbce304b0369e1626c3798e1eda">removeBefore</link>, <link linkend="class_q_c_p_data_container_1abbe5d87ffc10b5aeffa5bb42cf03aa3c">removeAfter</link>, <link linkend="class_q_c_p_data_container_1a7e2b29736c6fd761649bda1a54ba967f">clear</link> </para>
 </formalpara>
@@ -565,11 +565,11 @@ const DataType &amp; a, const DataType &amp; b)</para>
             <section xml:id="class_q_c_p_data_container_1a2dbded7f0732bacf9db48fdfbbb620bc">
                 <title>void QCPDataContainer&lt; DataType &gt;::remove (double sortKey)</title> <emphasis></emphasis>
                 
-<para>This is an overloaded member function, provided for convenience. It differs from the above function only in what argument(s) it accepts.</para>
+<para>Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.</para>
 
 <para>Removes a single data point at <emphasis>sortKey</emphasis>. If the position is not known with absolute (binary) precision, consider using <link linkend="class_q_c_p_data_container_1ae5f569a120648b167efa78835f12fd38">remove(double sortKeyFrom, double sortKeyTo)</link> with a small fuzziness interval around the suspected position, depeding on the precision with which the (sort-)key is known.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_c_p_data_container_1aa7f74cbce304b0369e1626c3798e1eda">removeBefore</link>, <link linkend="class_q_c_p_data_container_1abbe5d87ffc10b5aeffa5bb42cf03aa3c">removeAfter</link>, <link linkend="class_q_c_p_data_container_1a7e2b29736c6fd761649bda1a54ba967f">clear</link> </para>
 </formalpara>
@@ -581,7 +581,7 @@ const DataType &amp; a, const DataType &amp; b)</para>
                 
 <para>Removes all data points.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_c_p_data_container_1ae5f569a120648b167efa78835f12fd38">remove</link>, <link linkend="class_q_c_p_data_container_1abbe5d87ffc10b5aeffa5bb42cf03aa3c">removeAfter</link>, <link linkend="class_q_c_p_data_container_1aa7f74cbce304b0369e1626c3798e1eda">removeBefore</link> </para>
 </formalpara>
@@ -645,7 +645,7 @@ const DataType &amp; a, const DataType &amp; b)</para>
 
 <para>If the container is empty, returns <link linkend="class_q_c_p_data_container_1aa7f7cf239b85b1a28de3d675cc5b3da1">constEnd</link>.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_c_p_data_container_1afb8b8f23cc2b7234a793a25ce79fe48f">findEnd</link>, <link linkend="class_q_c_p_plottable_interface1_d_1a5b95783271306a4de97be54eac1e7d13">QCPPlottableInterface1D::findBegin</link> </para>
 </formalpara>
@@ -663,7 +663,7 @@ const DataType &amp; a, const DataType &amp; b)</para>
 
 <para>If the container is empty, <link linkend="class_q_c_p_data_container_1aa7f7cf239b85b1a28de3d675cc5b3da1">constEnd</link> is returned.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_c_p_data_container_1a2ad8a5399072d99a242d3a6d2d7e278a">findBegin</link>, <link linkend="class_q_c_p_plottable_interface1_d_1a5deced1016bc55a41a2339619045b295">QCPPlottableInterface1D::findEnd</link> </para>
 </formalpara>
@@ -687,7 +687,7 @@ const DataType &amp; a, const DataType &amp; b)</para>
 
 <para>If the DataType reports that its main key is equal to the sort key (<emphasis>sortKeyIsMainKey</emphasis>), as is the case for most plottables, this method uses this fact and finds the range very quickly.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_c_p_data_container_1a35a102dc2424d1228fc374d9313efbe9">valueRange</link> </para>
 </formalpara>
@@ -703,7 +703,7 @@ const DataType &amp; a, const DataType &amp; b)</para>
 
 <para>Use <emphasis>signDomain</emphasis> to control which sign of the value coordinates should be considered. This is relevant e.g. for logarithmic plots which can mathematically only display one sign domain at a time.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_c_p_data_container_1aba6e1a93c21ccc56a432b4a02c9d0ed2">keyRange</link> </para>
 </formalpara>
@@ -737,7 +737,7 @@ const DataType &amp; a, const DataType &amp; b)</para>
                 
 <para>Returns whether the sort key of <emphasis>a</emphasis> is less than the sort key of <emphasis>b</emphasis>.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_c_p_data_container_1a75da92e33063b63d6da5014683591d45">QCPDataContainer::sort</link> </para>
 </formalpara>

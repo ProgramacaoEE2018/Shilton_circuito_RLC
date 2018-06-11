@@ -19,7 +19,7 @@
 <area shape="rect" id="node18" href="$class_q_c_p_axis_rect.html" title="Holds multiple axes and arranges them in a rectangular shape. " alt="" coords="802,3116,1005,4411"/>
 <area shape="rect" id="node14" href="$class_q_c_p_range.html" title="Represents the range an axis is encompassing. " alt="" coords="1080,7026,1247,7441"/>
 <area shape="rect" id="node16" href="$class_q_c_p_line_ending.html" title="Handles the different ending decorations for line&#45;like items. " alt="" coords="775,5478,920,5790"/>
-<area shape="rect" id="node21" href="$class_q_c_p_data_selection.html" title="Describes a data set by holding multiple QCPDataRange instances. " alt="" coords="1660,198,1811,583"/>
+<area shape="rect" id="node21" href="$class_q_c_p_data_selection.html" title="Describes a data set by holding multiple QCPDataRange instances. " alt="" coords="1642,191,1829,591"/>
 <area shape="rect" id="node23" href="$class_q_c_p_scatter_style.html" title="Represents the visual appearance of scatter points. " alt="" coords="1506,873,1648,1405"/>
 <area shape="rect" id="node24" href="$class_q_c_p_plottable_interface1_d.html" title="Defines an abstract interface for one&#45;dimensional plottables. " alt="" coords="985,1027,1180,1251"/>
 </map>

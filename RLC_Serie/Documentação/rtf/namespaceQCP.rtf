@@ -1,0 +1,930 @@
+{\rtf1\ansi\ansicpg1252\uc1 \deff0\deflang1033\deflangfe1033
+{\fonttbl {\f0\froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}
+{\f1\fswiss\fcharset0\fprq2{\*\panose 020b0604020202020204}Arial;}
+{\f2\fmodern\fcharset0\fprq1{\*\panose 02070309020205020404}Courier New;}
+{\f3\froman\fcharset2\fprq2{\*\panose 05050102010706020507}Symbol;}
+}
+{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;}
+{\stylesheet
+{\widctlpar\adjustright \fs20\cgrid \snext0 Normal;}
+{\paperw11900\paperh16840\margl1800\margr1800\margt1440\margb1440\gutter0\ltrsect}
+{\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid \sbasedon0 \snext0 heading 1;}
+{\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid \sbasedon0 \snext0 heading 2;}
+{\s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid \sbasedon0 \snext0 heading 3;}
+{\s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext0 heading 4;}{\*\cs10 \additive Default Paragraph Font;}
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext0 heading 5;}{\*\cs10 \additive Default Paragraph Font;}
+{\s15\qc\sb240\sa60\widctlpar\outlinelevel0\adjustright \b\f1\fs32\kerning28\cgrid \sbasedon0 \snext15 Title;}
+{\s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid \sbasedon0 \snext16 Subtitle;}
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid \sbasedon0 \snext17 BodyText;}
+{\s18\widctlpar\fs22\cgrid \sbasedon0 \snext18 DenseText;}
+{\s28\widctlpar\tqc\tx4320\tqr\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext28 header;}
+{\s29\widctlpar\tqc\tx4320\tqr\tx8640\qr\adjustright \fs20\cgrid \sbasedon0 \snext29 footer;}
+{\s30\li360\sa60\sb120\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext30 GroupHeader;}
+{\s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext41 Code Example 0;}
+{\s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext42 Code Example 1;}
+{\s42\li720\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext43 Code Example 2;}
+{\s43\li1080\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext44 Code Example 3;}
+{\s44\li1440\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext45 Code Example 4;}
+{\s45\li1800\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext46 Code Example 5;}
+{\s46\li2160\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext47 Code Example 6;}
+{\s47\li2520\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext48 Code Example 7;}
+{\s48\li2880\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext49 Code Example 8;}
+{\s49\li3240\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext49 Code Example 9;}
+{\s50\li0\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext51 List Continue 0;}
+{\s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext52 List Continue 1;}
+{\s52\li720\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext53 List Continue 2;}
+{\s53\li1080\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext54 List Continue 3;}
+{\s54\li1440\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext55 List Continue 4;}
+{\s55\li1800\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext56 List Continue 5;}
+{\s56\li2160\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext57 List Continue 6;}
+{\s57\li2520\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext58 List Continue 7;}
+{\s58\li2880\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext59 List Continue 8;}
+{\s59\li3240\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext59 List Continue 9;}
+{\s60\li0\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext61 DescContinue 0;}
+{\s61\li360\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext62 DescContinue 1;}
+{\s62\li720\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext63 DescContinue 2;}
+{\s63\li1080\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext64 DescContinue 3;}
+{\s64\li1440\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext65 DescContinue 4;}
+{\s65\li1800\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext66 DescContinue 5;}
+{\s66\li2160\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext67 DescContinue 6;}
+{\s67\li2520\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext68 DescContinue 7;}
+{\s68\li2880\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext69 DescContinue 8;}
+{\s69\li3240\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext69 DescContinue 9;}
+{\s70\li0\sa30\sb30\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext81 LatexTOC 0;}
+{\s71\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext82 LatexTOC 1;}
+{\s72\li720\sa24\sb24\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext83 LatexTOC 2;}
+{\s73\li1080\sa21\sb21\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext84 LatexTOC 3;}
+{\s74\li1440\sa18\sb18\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext85 LatexTOC 4;}
+{\s75\li1800\sa15\sb15\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext86 LatexTOC 5;}
+{\s76\li2160\sa12\sb12\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext87 LatexTOC 6;}
+{\s77\li2520\sa9\sb9\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext88 LatexTOC 7;}
+{\s78\li2880\sa6\sb6\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext89 LatexTOC 8;}
+{\s79\li3240\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext89 LatexTOC 9;}
+{\s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext81 \sautoupd List Bullet 0;}
+{\s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid \sbasedon0 \snext82 \sautoupd List Bullet 1;}
+{\s82\fi-360\li1080\widctlpar\jclisttab\tx1080{\*\pn \pnlvlbody\ilvl0\ls3\pnrnot0\pndec }\ls3\adjustright \fs20\cgrid \sbasedon0 \snext83 \sautoupd List Bullet 2;}
+{\s83\fi-360\li1440\widctlpar\jclisttab\tx1440{\*\pn \pnlvlbody\ilvl0\ls4\pnrnot0\pndec }\ls4\adjustright \fs20\cgrid \sbasedon0 \snext84 \sautoupd List Bullet 3;}
+{\s84\fi-360\li1800\widctlpar\jclisttab\tx1800{\*\pn \pnlvlbody\ilvl0\ls5\pnrnot0\pndec }\ls5\adjustright \fs20\cgrid \sbasedon0 \snext85 \sautoupd List Bullet 4;}
+{\s85\fi-360\li2160\widctlpar\jclisttab\tx2160{\*\pn \pnlvlbody\ilvl0\ls6\pnrnot0\pndec }\ls6\adjustright \fs20\cgrid \sbasedon0 \snext86 \sautoupd List Bullet 5;}
+{\s86\fi-360\li2520\widctlpar\jclisttab\tx2520{\*\pn \pnlvlbody\ilvl0\ls7\pnrnot0\pndec }\ls7\adjustright \fs20\cgrid \sbasedon0 \snext87 \sautoupd List Bullet 6;}
+{\s87\fi-360\li2880\widctlpar\jclisttab\tx2880{\*\pn \pnlvlbody\ilvl0\ls8\pnrnot0\pndec }\ls8\adjustright \fs20\cgrid \sbasedon0 \snext88 \sautoupd List Bullet 7;}
+{\s88\fi-360\li3240\widctlpar\jclisttab\tx3240{\*\pn \pnlvlbody\ilvl0\ls9\pnrnot0\pndec }\ls9\adjustright \fs20\cgrid \sbasedon0 \snext89 \sautoupd List Bullet 8;}
+{\s89\fi-360\li3600\widctlpar\jclisttab\tx3600{\*\pn \pnlvlbody\ilvl0\ls10\pnrnot0\pndec }\ls10\adjustright \fs20\cgrid \sbasedon0 \snext89 \sautoupd List Bullet 9;}
+{\s90\fi-360\li360\widctlpar\fs20\cgrid \sbasedon0 \snext91 \sautoupd List Enum 0;}
+{\s91\fi-360\li720\widctlpar\fs20\cgrid \sbasedon0 \snext92 \sautoupd List Enum 1;}
+{\s92\fi-360\li1080\widctlpar\fs20\cgrid \sbasedon0 \snext93 \sautoupd List Enum 2;}
+{\s93\fi-360\li1440\widctlpar\fs20\cgrid \sbasedon0 \snext94 \sautoupd List Enum 3;}
+{\s94\fi-360\li1800\widctlpar\fs20\cgrid \sbasedon0 \snext95 \sautoupd List Enum 4;}
+{\s95\fi-360\li2160\widctlpar\fs20\cgrid \sbasedon0 \snext96 \sautoupd List Enum 5;}
+{\s96\fi-360\li2520\widctlpar\fs20\cgrid \sbasedon0 \snext96 \sautoupd List Enum 5;}
+{\s97\fi-360\li2880\widctlpar\fs20\cgrid \sbasedon0 \snext98 \sautoupd List Enum 7;}
+{\s98\fi-360\li3240\widctlpar\fs20\cgrid \sbasedon0 \snext99 \sautoupd List Enum 8;}
+{\s99\fi-360\li3600\widctlpar\fs20\cgrid \sbasedon0 \snext99 \sautoupd List Enum 9;}
+}
+{\comment begin body}
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refência do Namespace QCP\par \pard\plain 
+{\tc\tcl2 \v QCP}
+{\xe \v QCP}
+{\bkmkstart AAAAAAAEAR}
+{\bkmkend AAAAAAAEAR}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Enumerações\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+enum {\b ResolutionUnit} \{ {\b ruDotsPerMeter}, 
+{\b ruDotsPerCentimeter}, 
+{\b ruDotsPerInch}
+ \}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+enum {\b ExportPen} \{ {\b epNoCosmetic}, 
+{\b epAllowCosmetic}
+ \}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+enum {\b SignDomain} \{ {\b sdNegative}, 
+{\b sdBoth}, 
+{\b sdPositive}
+ \}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+enum {\b MarginSide} \{ {\b msLeft} = 0x01, 
+{\b msRight} = 0x02, 
+{\b msTop} = 0x04, 
+{\b msBottom} = 0x08, 
+{\b msAll} = 0xFF, 
+{\b msNone} = 0x00
+ \}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+enum {\b AntialiasedElement} \{ {\b aeAxes} = 0x0001, 
+{\b aeGrid} = 0x0002, 
+{\b aeSubGrid} = 0x0004, 
+{\b aeLegend} = 0x0008, 
+{\b aeLegendItems} = 0x0010, 
+{\b aePlottables} = 0x0020, 
+{\b aeItems} = 0x0040, 
+{\b aeScatters} = 0x0080, 
+{\b aeFills} = 0x0100, 
+{\b aeZeroLine} = 0x0200, 
+{\b aeOther} = 0x8000, 
+{\b aeAll} = 0xFFFF, 
+{\b aeNone} = 0x0000
+ \}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+enum {\b PlottingHint} \{ {\b phNone} = 0x000, 
+{\b phFastPolylines} = 0x001, 
+{\b phImmediateRefresh} = 0x002, 
+{\b phCacheLabels} = 0x004
+ \}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+enum {\b Interaction} \{ {\b iRangeDrag} = 0x001, 
+{\b iRangeZoom} = 0x002, 
+{\b iMultiSelect} = 0x004, 
+{\b iSelectPlottables} = 0x008, 
+{\b iSelectAxes} = 0x010, 
+{\b iSelectLegend} = 0x020, 
+{\b iSelectItems} = 0x040, 
+{\b iSelectOther} = 0x080
+ \}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+enum {\b SelectionRectMode} \{ {\b srmNone}, 
+{\b srmZoom}, 
+{\b srmSelect}, 
+{\b srmCustom}
+ \}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+enum {\b SelectionType} \{ {\b stNone}, 
+{\b stWhole}, 
+{\b stSingleData}, 
+{\b stDataRange}, 
+{\b stMultipleDataRanges}
+ \}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Funções\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b isInvalidData} (double value)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b isInvalidData} (double value1, double value2)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setMarginValue} (QMargins &margins, {\b QCP::MarginSide} side, int value)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b getMarginValue} (const QMargins &margins, {\b QCP::MarginSide} side)\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Variáveis\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+const QMetaObject {\b staticMetaObject}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Descrição detalhada\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+The {\b QCP} Namespace contains general enums, QFlags and functions used throughout the {\b QCustomPlot} library.\par
+It provides QMetaObject-based reflection of its enums and flags via {\i {\b QCP::staticMetaObject}} . \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Enumerações\par
+\pard\plain 
+{\xe \v AntialiasedElement\:QCP}
+{\xe \v QCP\:AntialiasedElement}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+enum {\b QCP::AntialiasedElement}}}
+\par
+{\bkmkstart AAAAAAAEAS}
+{\bkmkend AAAAAAAEAS}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Defines what objects of a plot can be forcibly drawn antialiased/not antialiased. If an object is neither forcibly drawn antialiased nor forcibly drawn not antialiased, it is up to the respective element how it is drawn. Typically it provides a {\i setAntialiased}  function for this.\par
+{\f2 AntialiasedElements}  is a flag of or-combined elements of this enum type.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b QCustomPlot::setAntialiasedElements}, {\b QCustomPlot::setNotAntialiasedElements} \par
+}}{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Enumeradores:\par}
+\pard\plain \s61\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{\xe \v aeAxes\:QCP}
+{\xe \v QCP\:aeAxes}
+{\qr aeAxes{\bkmkstart AAAAAAAEAT}
+{\bkmkend AAAAAAAEAT}
+\cell }{{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\f2 0x0001}  Axis base line and tick marks \par
+}\cell }{\row }
+{\xe \v aeGrid\:QCP}
+{\xe \v QCP\:aeGrid}
+{\qr aeGrid{\bkmkstart AAAAAAAEAU}
+{\bkmkend AAAAAAAEAU}
+\cell }{{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\f2 0x0002}  Grid lines \par
+}\cell }{\row }
+{\xe \v aeSubGrid\:QCP}
+{\xe \v QCP\:aeSubGrid}
+{\qr aeSubGrid{\bkmkstart AAAAAAAEAV}
+{\bkmkend AAAAAAAEAV}
+\cell }{{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\f2 0x0004}  Sub grid lines \par
+}\cell }{\row }
+{\xe \v aeLegend\:QCP}
+{\xe \v QCP\:aeLegend}
+{\qr aeLegend{\bkmkstart AAAAAAAEAW}
+{\bkmkend AAAAAAAEAW}
+\cell }{{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\f2 0x0008}  Legend box \par
+}\cell }{\row }
+{\xe \v aeLegendItems\:QCP}
+{\xe \v QCP\:aeLegendItems}
+{\qr aeLegendItems{\bkmkstart AAAAAAAEAX}
+{\bkmkend AAAAAAAEAX}
+\cell }{{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\f2 0x0010}  Legend items \par
+}\cell }{\row }
+{\xe \v aePlottables\:QCP}
+{\xe \v QCP\:aePlottables}
+{\qr aePlottables{\bkmkstart AAAAAAAEAY}
+{\bkmkend AAAAAAAEAY}
+\cell }{{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\f2 0x0020}  Main lines of plottables \par
+}\cell }{\row }
+{\xe \v aeItems\:QCP}
+{\xe \v QCP\:aeItems}
+{\qr aeItems{\bkmkstart AAAAAAAEAZ}
+{\bkmkend AAAAAAAEAZ}
+\cell }{{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\f2 0x0040}  Main lines of items \par
+}\cell }{\row }
+{\xe \v aeScatters\:QCP}
+{\xe \v QCP\:aeScatters}
+{\qr aeScatters{\bkmkstart AAAAAAAEBA}
+{\bkmkend AAAAAAAEBA}
+\cell }{{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\f2 0x0080}  Scatter symbols of plottables (excluding scatter symbols of type ssPixmap) \par
+}\cell }{\row }
+{\xe \v aeFills\:QCP}
+{\xe \v QCP\:aeFills}
+{\qr aeFills{\bkmkstart AAAAAAAEBB}
+{\bkmkend AAAAAAAEBB}
+\cell }{{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\f2 0x0100}  Borders of fills (e.g. under or between graphs) \par
+}\cell }{\row }
+{\xe \v aeZeroLine\:QCP}
+{\xe \v QCP\:aeZeroLine}
+{\qr aeZeroLine{\bkmkstart AAAAAAAEBC}
+{\bkmkend AAAAAAAEBC}
+\cell }{{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\f2 0x0200}  Zero-lines, see {\b QCPGrid::setZeroLinePen} \par
+}\cell }{\row }
+{\xe \v aeOther\:QCP}
+{\xe \v QCP\:aeOther}
+{\qr aeOther{\bkmkstart AAAAAAAEBD}
+{\bkmkend AAAAAAAEBD}
+\cell }{{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\f2 0x8000}  Other elements that don't fit into any of the existing categories \par
+}\cell }{\row }
+{\xe \v aeAll\:QCP}
+{\xe \v QCP\:aeAll}
+{\qr aeAll{\bkmkstart AAAAAAAEBE}
+{\bkmkend AAAAAAAEBE}
+\cell }{{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\f2 0xFFFF}  All elements \par
+}\cell }{\row }
+{\xe \v aeNone\:QCP}
+{\xe \v QCP\:aeNone}
+{\qr aeNone{\bkmkstart AAAAAAAEBF}
+{\bkmkend AAAAAAAEBF}
+\cell }{{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\f2 0x0000}  No elements \par
+}\cell }{\row }
+}
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid   214                         \{ aeAxes           = 0x0001 \par
+  215                           ,aeGrid          = 0x0002 \par
+  216                           ,aeSubGrid       = 0x0004 \par
+  217                           ,aeLegend        = 0x0008 \par
+  218                           ,aeLegendItems   = 0x0010 \par
+  219                           ,aePlottables    = 0x0020 \par
+  220                           ,aeItems         = 0x0040 \par
+  221                           ,aeScatters      = 0x0080 \par
+  222                           ,aeFills         = 0x0100 \par
+  223                           ,aeZeroLine      = 0x0200 \par
+  224                           ,aeOther         = 0x8000 \par
+  225                           ,aeAll           = 0xFFFF \par
+  226                           ,aeNone          = 0x0000 \par
+  227                         \};\par
+}
+}
+{\xe \v ExportPen\:QCP}
+{\xe \v QCP\:ExportPen}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+enum {\b QCP::ExportPen}}}
+\par
+{\bkmkstart AAAAAAAEBG}
+{\bkmkend AAAAAAAEBG}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Defines how cosmetic pens (pens with numerical width 0) are handled during export.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b QCustomPlot::savePdf} \par
+}}{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Enumeradores:\par}
+\pard\plain \s61\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{\xe \v epNoCosmetic\:QCP}
+{\xe \v QCP\:epNoCosmetic}
+{\qr epNoCosmetic{\bkmkstart AAAAAAAEBH}
+{\bkmkend AAAAAAAEBH}
+\cell }{{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Cosmetic pens are converted to pens with pixel width 1 when exporting. \par
+}\cell }{\row }
+{\xe \v epAllowCosmetic\:QCP}
+{\xe \v QCP\:epAllowCosmetic}
+{\qr epAllowCosmetic{\bkmkstart AAAAAAAEBI}
+{\bkmkend AAAAAAAEBI}
+\cell }{{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Cosmetic pens are exported normally (e.g. in PDF exports, cosmetic pens always appear as 1 pixel on screen, independent of viewer zoom level) \par
+}\cell }{\row }
+}
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid   175                \{ epNoCosmetic     \par
+  176                  ,epAllowCosmetic \par
+  177                \};\par
+}
+}
+{\xe \v Interaction\:QCP}
+{\xe \v QCP\:Interaction}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+enum {\b QCP::Interaction}}}
+\par
+{\bkmkstart AAAAAAAEBJ}
+{\bkmkend AAAAAAAEBJ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Defines the mouse interactions possible with {\b QCustomPlot}.\par
+{\f2 Interactions}  is a flag of or-combined elements of this enum type.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b QCustomPlot::setInteractions} \par
+}}{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Enumeradores:\par}
+\pard\plain \s61\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{\xe \v iRangeDrag\:QCP}
+{\xe \v QCP\:iRangeDrag}
+{\qr iRangeDrag{\bkmkstart AAAAAAAEBK}
+{\bkmkend AAAAAAAEBK}
+\cell }{{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\f2 0x001}  Axis ranges are draggable (see {\b QCPAxisRect::setRangeDrag}, {\b QCPAxisRect::setRangeDragAxes}) \par
+}\cell }{\row }
+{\xe \v iRangeZoom\:QCP}
+{\xe \v QCP\:iRangeZoom}
+{\qr iRangeZoom{\bkmkstart AAAAAAAEBL}
+{\bkmkend AAAAAAAEBL}
+\cell }{{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\f2 0x002}  Axis ranges are zoomable with the mouse wheel (see {\b QCPAxisRect::setRangeZoom}, {\b QCPAxisRect::setRangeZoomAxes}) \par
+}\cell }{\row }
+{\xe \v iMultiSelect\:QCP}
+{\xe \v QCP\:iMultiSelect}
+{\qr iMultiSelect{\bkmkstart AAAAAAAEBM}
+{\bkmkend AAAAAAAEBM}
+\cell }{{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\f2 0x004}  The user can select multiple objects by holding the modifier set by {\b QCustomPlot::setMultiSelectModifier} while clicking \par
+}\cell }{\row }
+{\xe \v iSelectPlottables\:QCP}
+{\xe \v QCP\:iSelectPlottables}
+{\qr iSelectPlottables{\bkmkstart AAAAAAAEBN}
+{\bkmkend AAAAAAAEBN}
+\cell }{{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\f2 0x008}  Plottables are selectable (e.g. graphs, curves, bars,... see {\b QCPAbstractPlottable}) \par
+}\cell }{\row }
+{\xe \v iSelectAxes\:QCP}
+{\xe \v QCP\:iSelectAxes}
+{\qr iSelectAxes{\bkmkstart AAAAAAAEBO}
+{\bkmkend AAAAAAAEBO}
+\cell }{{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\f2 0x010}  Axes are selectable (or parts of them, see {\b QCPAxis::setSelectableParts}) \par
+}\cell }{\row }
+{\xe \v iSelectLegend\:QCP}
+{\xe \v QCP\:iSelectLegend}
+{\qr iSelectLegend{\bkmkstart AAAAAAAEBP}
+{\bkmkend AAAAAAAEBP}
+\cell }{{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\f2 0x020}  Legends are selectable (or their child items, see {\b QCPLegend::setSelectableParts}) \par
+}\cell }{\row }
+{\xe \v iSelectItems\:QCP}
+{\xe \v QCP\:iSelectItems}
+{\qr iSelectItems{\bkmkstart AAAAAAAEBQ}
+{\bkmkend AAAAAAAEBQ}
+\cell }{{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\f2 0x040}  Items are selectable (Rectangles, Arrows, Textitems, etc. see {\b QCPAbstractItem}) \par
+}\cell }{\row }
+{\xe \v iSelectOther\:QCP}
+{\xe \v QCP\:iSelectOther}
+{\qr iSelectOther{\bkmkstart AAAAAAAEBR}
+{\bkmkend AAAAAAAEBR}
+\cell }{{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\f2 0x080}  All other objects are selectable (e.g. your own derived layerables, other layout elements,...) \par
+}\cell }{\row }
+}
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid   251                  \{ iRangeDrag         = 0x001 \par
+  252                    ,iRangeZoom        = 0x002 \par
+  253                    ,iMultiSelect      = 0x004 \par
+  254                    ,iSelectPlottables = 0x008 \par
+  255                    ,iSelectAxes       = 0x010 \par
+  256                    ,iSelectLegend     = 0x020 \par
+  257                    ,iSelectItems      = 0x040 \par
+  258                    ,iSelectOther      = 0x080 \par
+  259                  \};\par
+}
+}
+{\xe \v MarginSide\:QCP}
+{\xe \v QCP\:MarginSide}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+enum {\b QCP::MarginSide}}}
+\par
+{\bkmkstart AAAAAAAEBS}
+{\bkmkend AAAAAAAEBS}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Defines the sides of a rectangular entity to which margins can be applied.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b QCPLayoutElement::setAutoMargins}, {\b QCPAxisRect::setAutoMargins} \par
+}}{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Enumeradores:\par}
+\pard\plain \s61\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{\xe \v msLeft\:QCP}
+{\xe \v QCP\:msLeft}
+{\qr msLeft{\bkmkstart AAAAAAAEBT}
+{\bkmkend AAAAAAAEBT}
+\cell }{{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\f2 0x01}  left margin \par
+}\cell }{\row }
+{\xe \v msRight\:QCP}
+{\xe \v QCP\:msRight}
+{\qr msRight{\bkmkstart AAAAAAAEBU}
+{\bkmkend AAAAAAAEBU}
+\cell }{{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\f2 0x02}  right margin \par
+}\cell }{\row }
+{\xe \v msTop\:QCP}
+{\xe \v QCP\:msTop}
+{\qr msTop{\bkmkstart AAAAAAAEBV}
+{\bkmkend AAAAAAAEBV}
+\cell }{{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\f2 0x04}  top margin \par
+}\cell }{\row }
+{\xe \v msBottom\:QCP}
+{\xe \v QCP\:msBottom}
+{\qr msBottom{\bkmkstart AAAAAAAEBW}
+{\bkmkend AAAAAAAEBW}
+\cell }{{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\f2 0x08}  bottom margin \par
+}\cell }{\row }
+{\xe \v msAll\:QCP}
+{\xe \v QCP\:msAll}
+{\qr msAll{\bkmkstart AAAAAAAEBX}
+{\bkmkend AAAAAAAEBX}
+\cell }{{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\f2 0xFF}  all margins \par
+}\cell }{\row }
+{\xe \v msNone\:QCP}
+{\xe \v QCP\:msNone}
+{\qr msNone{\bkmkstart AAAAAAAEBY}
+{\bkmkend AAAAAAAEBY}
+\cell }{{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\f2 0x00}  no margin \par
+}\cell }{\row }
+}
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid   196                 \{ msLeft     = 0x01 \par
+  197                   ,msRight   = 0x02 \par
+  198                   ,msTop     = 0x04 \par
+  199                   ,msBottom  = 0x08 \par
+  200                   ,msAll     = 0xFF \par
+  201                   ,msNone    = 0x00 \par
+  202                 \};\par
+}
+}
+{\xe \v PlottingHint\:QCP}
+{\xe \v QCP\:PlottingHint}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+enum {\b QCP::PlottingHint}}}
+\par
+{\bkmkstart AAAAAAAEBZ}
+{\bkmkend AAAAAAAEBZ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Defines plotting hints that control various aspects of the quality and speed of plotting.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b QCustomPlot::setPlottingHints} \par
+}}{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Enumeradores:\par}
+\pard\plain \s61\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{\xe \v phNone\:QCP}
+{\xe \v QCP\:phNone}
+{\qr phNone{\bkmkstart AAAAAAAECA}
+{\bkmkend AAAAAAAECA}
+\cell }{{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\f2 0x000}  No hints are set \par
+}\cell }{\row }
+{\xe \v phFastPolylines\:QCP}
+{\xe \v QCP\:phFastPolylines}
+{\qr phFastPolylines{\bkmkstart AAAAAAAECB}
+{\bkmkend AAAAAAAECB}
+\cell }{{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\f2 0x001}  Graph/Curve lines are drawn with a faster method. This reduces the quality especially of the line segment joins, thus is most effective for pen sizes larger than 1. It is only used for solid line pens. \par
+}\cell }{\row }
+{\xe \v phImmediateRefresh\:QCP}
+{\xe \v QCP\:phImmediateRefresh}
+{\qr phImmediateRefresh{\bkmkstart AAAAAAAECC}
+{\bkmkend AAAAAAAECC}
+\cell }{{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\f2 0x002}  causes an immediate repaint() instead of a soft update() when {\b QCustomPlot::replot()} is called with parameter {\b QCustomPlot::rpRefreshHint}. This is set by default to prevent the plot from freezing on fast consecutive replots (e.g. user drags ranges with mouse). \par
+}\cell }{\row }
+{\xe \v phCacheLabels\:QCP}
+{\xe \v QCP\:phCacheLabels}
+{\qr phCacheLabels{\bkmkstart AAAAAAAECD}
+{\bkmkend AAAAAAAECD}
+\cell }{{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\f2 0x004}  axis (tick) labels will be cached as pixmaps, increasing replot performance. \par
+}\cell }{\row }
+}
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid   235                   \{ phNone              = 0x000 \par
+  236                     ,phFastPolylines    = 0x001 \par
+  237                     ,phImmediateRefresh = 0x002 \par
+  239                     ,phCacheLabels      = 0x004 \par
+  241                   \};\par
+}
+}
+{\xe \v ResolutionUnit\:QCP}
+{\xe \v QCP\:ResolutionUnit}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+enum {\b QCP::ResolutionUnit}}}
+\par
+{\bkmkstart AAAAAAAECE}
+{\bkmkend AAAAAAAECE}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Defines the different units in which the image resolution can be specified in the export functions.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b QCustomPlot::savePng}, {\b QCustomPlot::saveJpg}, {\b QCustomPlot::saveBmp}, {\b QCustomPlot::saveRastered} \par
+}}{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Enumeradores:\par}
+\pard\plain \s61\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{\xe \v ruDotsPerMeter\:QCP}
+{\xe \v QCP\:ruDotsPerMeter}
+{\qr ruDotsPerMeter{\bkmkstart AAAAAAAECF}
+{\bkmkend AAAAAAAECF}
+\cell }{{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Resolution is given in dots per meter (dpm) \par
+}\cell }{\row }
+{\xe \v ruDotsPerCentimeter\:QCP}
+{\xe \v QCP\:ruDotsPerCentimeter}
+{\qr ruDotsPerCentimeter{\bkmkstart AAAAAAAECG}
+{\bkmkend AAAAAAAECG}
+\cell }{{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Resolution is given in dots per centimeter (dpcm) \par
+}\cell }{\row }
+{\xe \v ruDotsPerInch\:QCP}
+{\xe \v QCP\:ruDotsPerInch}
+{\qr ruDotsPerInch{\bkmkstart AAAAAAAECH}
+{\bkmkend AAAAAAAECH}
+\cell }{{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Resolution is given in dots per inch (DPI/PPI) \par
+}\cell }{\row }
+}
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid   165                     \{ ruDotsPerMeter       \par
+  166                       ,ruDotsPerCentimeter \par
+  167                       ,ruDotsPerInch       \par
+  168                     \};\par
+}
+}
+{\xe \v SelectionRectMode\:QCP}
+{\xe \v QCP\:SelectionRectMode}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+enum {\b QCP::SelectionRectMode}}}
+\par
+{\bkmkstart AAAAAAAECI}
+{\bkmkend AAAAAAAECI}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Defines the behaviour of the selection rect.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b QCustomPlot::setSelectionRectMode}, {\b QCustomPlot::selectionRect}, {\b QCPSelectionRect} \par
+}}{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Enumeradores:\par}
+\pard\plain \s61\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{\xe \v srmNone\:QCP}
+{\xe \v QCP\:srmNone}
+{\qr srmNone{\bkmkstart AAAAAAAECJ}
+{\bkmkend AAAAAAAECJ}
+\cell }{{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+The selection rect is disabled, and all mouse events are forwarded to the underlying objects, e.g. for axis range dragging. \par
+}\cell }{\row }
+{\xe \v srmZoom\:QCP}
+{\xe \v QCP\:srmZoom}
+{\qr srmZoom{\bkmkstart AAAAAAAECK}
+{\bkmkend AAAAAAAECK}
+\cell }{{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+When dragging the mouse, a selection rect becomes active. Upon releasing, the axes that are currently set as range zoom axes ({\b QCPAxisRect::setRangeZoomAxes}) will have their ranges zoomed accordingly. \par
+}\cell }{\row }
+{\xe \v srmSelect\:QCP}
+{\xe \v QCP\:srmSelect}
+{\qr srmSelect{\bkmkstart AAAAAAAECL}
+{\bkmkend AAAAAAAECL}
+\cell }{{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+When dragging the mouse, a selection rect becomes active. Upon releasing, plottable data points that were within the selection rect are selected, if the plottable's selectability setting permits. (See data selection mechanism for details.) \par
+}\cell }{\row }
+{\xe \v srmCustom\:QCP}
+{\xe \v QCP\:srmCustom}
+{\qr srmCustom{\bkmkstart AAAAAAAECM}
+{\bkmkend AAAAAAAECM}
+\cell }{{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+When dragging the mouse, a selection rect becomes active. It is the programmer's responsibility to connect according slots to the selection rect's signals (e.g. {\b QCPSelectionRect::accepted}) in order to process the user interaction. \par
+}\cell }{\row }
+}
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid   267                        \{ srmNone    \par
+  268                          ,srmZoom   \par
+  269                          ,srmSelect \par
+  270                          ,srmCustom \par
+  271                        \};\par
+}
+}
+{\xe \v SelectionType\:QCP}
+{\xe \v QCP\:SelectionType}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+enum {\b QCP::SelectionType}}}
+\par
+{\bkmkstart AAAAAAAECN}
+{\bkmkend AAAAAAAECN}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Defines the different ways a plottable can be selected. These images show the effect of the different selection types, when the indicated selection rect was dragged:\par
+{\qc  \par
+\trowd \trgaph108\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trbrdrh\brdrs\brdrw10 \trbrdrv\brdrs\brdrw10 
+\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr \brdrs\brdrw10 \cltxlrtb \cellx1749
+\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr \brdrs\brdrw10 \cltxlrtb \cellx3498
+\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr \brdrs\brdrw10 \cltxlrtb \cellx5247
+\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr \brdrs\brdrw10 \cltxlrtb \cellx6996
+\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr \brdrs\brdrw10 \cltxlrtb \cellx8745
+\pard \widctlpar\intbl\adjustright
+{ \cell }{ \cell }{ \cell }{ \cell }{  \cell }
+\pard \widctlpar\intbl\adjustright
+{\row }
+\pard\plain
+\par
+} \par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b QCPAbstractPlottable::setSelectable}, {\b QCPDataSelection::enforceType} \par
+}}{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Enumeradores:\par}
+\pard\plain \s61\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{\xe \v stNone\:QCP}
+{\xe \v QCP\:stNone}
+{\qr stNone{\bkmkstart AAAAAAAECO}
+{\bkmkend AAAAAAAECO}
+\cell }{{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+The plottable is not selectable. \par
+}\cell }{\row }
+{\xe \v stWhole\:QCP}
+{\xe \v QCP\:stWhole}
+{\qr stWhole{\bkmkstart AAAAAAAECP}
+{\bkmkend AAAAAAAECP}
+\cell }{{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Selection behaves like {\b stMultipleDataRanges}, but if there are any data points selected, the entire plottable is drawn as selected. \par
+}\cell }{\row }
+{\xe \v stSingleData\:QCP}
+{\xe \v QCP\:stSingleData}
+{\qr stSingleData{\bkmkstart AAAAAAAECQ}
+{\bkmkend AAAAAAAECQ}
+\cell }{{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+One individual data point can be selected at a time. \par
+}\cell }{\row }
+{\xe \v stDataRange\:QCP}
+{\xe \v QCP\:stDataRange}
+{\qr stDataRange{\bkmkstart AAAAAAAECR}
+{\bkmkend AAAAAAAECR}
+\cell }{{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Multiple contiguous data points (a data range) can be selected. \par
+}\cell }{\row }
+{\xe \v stMultipleDataRanges\:QCP}
+{\xe \v QCP\:stMultipleDataRanges}
+{\qr stMultipleDataRanges{\bkmkstart AAAAAAAECS}
+{\bkmkend AAAAAAAECS}
+\cell }{{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Any combination of data points/ranges can be selected. \par
+}\cell }{\row }
+}
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid   291                    \{ stNone                \par
+  292                      ,stWhole              \par
+  293                      ,stSingleData         \par
+  294                      ,stDataRange          \par
+  295                      ,stMultipleDataRanges \par
+  296                     \};\par
+}
+}
+{\xe \v SignDomain\:QCP}
+{\xe \v QCP\:SignDomain}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+enum {\b QCP::SignDomain}}}
+\par
+{\bkmkstart AAAAAAAECT}
+{\bkmkend AAAAAAAECT}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Represents negative and positive sign domain, e.g. for passing to {\b QCPAbstractPlottable::getKeyRange} and {\b QCPAbstractPlottable::getValueRange}.\par
+This is primarily needed when working with logarithmic axis scales, since only one of the sign domains can be visible at a time. \par
+}{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Enumeradores:\par}
+\pard\plain \s61\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{\xe \v sdNegative\:QCP}
+{\xe \v QCP\:sdNegative}
+{\qr sdNegative{\bkmkstart AAAAAAAECU}
+{\bkmkend AAAAAAAECU}
+\cell }{{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+The negative sign domain, i.e. numbers smaller than zero. \par
+}\cell }{\row }
+{\xe \v sdBoth\:QCP}
+{\xe \v QCP\:sdBoth}
+{\qr sdBoth{\bkmkstart AAAAAAAECV}
+{\bkmkend AAAAAAAECV}
+\cell }{{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Both sign domains, including zero, i.e. all numbers. \par
+}\cell }{\row }
+{\xe \v sdPositive\:QCP}
+{\xe \v QCP\:sdPositive}
+{\qr sdPositive{\bkmkstart AAAAAAAECW}
+{\bkmkend AAAAAAAECW}
+\cell }{{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+The positive sign domain, i.e. numbers greater than zero. \par
+}\cell }{\row }
+}
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid   186                 \{ sdNegative  \par
+  187                   ,sdBoth     \par
+  188                   ,sdPositive \par
+  189                 \};\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Funções\par
+\pard\plain 
+{\xe \v getMarginValue\:QCP}
+{\xe \v QCP\:getMarginValue}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int QCP::getMarginValue (const QMargins &  {\i margins}, {\b QCP::MarginSide}  {\i side}){\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAECX}
+{\bkmkend AAAAAAAECX}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid   346 \{\par
+  347   switch (side)\par
+  348   \{\par
+  349     case QCP::msLeft: return margins.left();\par
+  350     case QCP::msRight: return margins.right();\par
+  351     case QCP::msTop: return margins.top();\par
+  352     case QCP::msBottom: return margins.bottom();\par
+  353     default: break;\par
+  354   \}\par
+  355   return 0;\par
+  356 \}\par
+}
+}
+{\xe \v isInvalidData\:QCP}
+{\xe \v QCP\:isInvalidData}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool QCP::isInvalidData (double  {\i value}){\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAECY}
+{\bkmkend AAAAAAAECY}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid   305 \{\par
+  306   return qIsNaN(value) || qIsInf(value);\par
+  307 \}\par
+}
+}
+{\xe \v isInvalidData\:QCP}
+{\xe \v QCP\:isInvalidData}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool QCP::isInvalidData (double  {\i value1}, double  {\i value2}){\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAECZ}
+{\bkmkend AAAAAAAECZ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid   315 \{\par
+  316   return isInvalidData(value1) || isInvalidData(value2);\par
+  317 \}\par
+}
+}
+{\xe \v setMarginValue\:QCP}
+{\xe \v QCP\:setMarginValue}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCP::setMarginValue (QMargins &  {\i margins}, {\b QCP::MarginSide}  {\i side}, int  {\i value}){\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAEDA}
+{\bkmkend AAAAAAAEDA}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid   326 \{\par
+  327   switch (side)\par
+  328   \{\par
+  329     case QCP::msLeft: margins.setLeft(value); break;\par
+  330     case QCP::msRight: margins.setRight(value); break;\par
+  331     case QCP::msTop: margins.setTop(value); break;\par
+  332     case QCP::msBottom: margins.setBottom(value); break;\par
+  333     case QCP::msAll: margins = QMargins(value, value, value, value); break;\par
+  334     default: break;\par
+  335   \}\par
+  336 \}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Variáveis\par
+\pard\plain 
+{\xe \v staticMetaObject\:QCP}
+{\xe \v QCP\:staticMetaObject}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+const QMetaObject QCP::staticMetaObject}}
+\par
+{\bkmkstart AAAAAAAEDB}
+{\bkmkend AAAAAAAEDB}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+}

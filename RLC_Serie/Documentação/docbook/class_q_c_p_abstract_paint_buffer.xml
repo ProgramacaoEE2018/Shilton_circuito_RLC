@@ -27,7 +27,7 @@
     </figure>
 </para>
         <section>
-            <title>Protected Attributes</title>
+            <title>Atributos Protegidos</title>
             <para>
                 <itemizedlist>
                     <listitem>
@@ -165,7 +165,7 @@ const QColor &amp; color)</para>
 <para>The abstract base class for paint buffers, which define the rendering backend. </para>
     </simplesect>
         <simplesect>
-            <title>Detailed Description</title>
+            <title>Descrição detalhada</title>
 
 <para>This abstract base class defines the basic interface that a paint buffer needs to provide in order to be usable by <link linkend="class_q_custom_plot">QCustomPlot</link>.</para>
 
@@ -177,7 +177,7 @@ const QColor &amp; color)</para>
                 <para><itemizedlist><listitem><para>qcustomplot.h</para></listitem></itemizedlist></para>
         </simplesect>
         <section>
-            <title>Member Data Documentation</title>
+            <title>Atributos</title>
         </section>
             <section xml:id="class_q_c_p_abstract_paint_buffer_1a3ce532c12f10b81697108835755641e2">
                 <title>QCPAbstractPaintBuffer::QCPAbstractPaintBuffer (const QSize &amp;size, double devicePixelRatio)</title> <emphasis></emphasis>
@@ -232,7 +232,7 @@ const QColor &amp; color)</para>
 
 <para>The buffer is reallocated (by calling <link linkend="class_q_c_p_abstract_paint_buffer_1aee7506a52bd7e5a07c2af27935eb13e7">reallocateBuffer</link>), so any painters that were obtained by <link linkend="class_q_c_p_abstract_paint_buffer_1a9e9f29b19c033cf02fb96f1a148463f3">startPainting</link> are invalidated and must not be used after calling this method.</para>
 
-<para><formalpara><title>Note: </title>
+<para><formalpara><title>Observação: </title>
 
 <para>This method is only available for Qt versions 5.4 and higher. </para>
 </formalpara>
@@ -278,7 +278,7 @@ const QColor &amp; color)</para>
                 
 <para>Reallocates the internal buffer with the currently configured size (<link linkend="class_q_c_p_abstract_paint_buffer_1a8b68c3cd36533f1a4a23b5ce8cd66f01">setSize</link>) and device pixel ratio, if applicable (<link linkend="class_q_c_p_abstract_paint_buffer_1a555eaad5d5c806420ff35602a1bb68fa">setDevicePixelRatio</link>). It is called as soon as any of those properties are changed on this paint buffer.</para>
 
-<para><formalpara><title>Note: </title>
+<para><formalpara><title>Observação: </title>
 
 <para>Subclasses of <link linkend="class_q_c_p_abstract_paint_buffer">QCPAbstractPaintBuffer</link> must call their reimplementation of this method in their constructor, to perform the first allocation (this can not be done by the base class because calling pure virtual methods in base class constructors is not possible). </para>
 </formalpara>

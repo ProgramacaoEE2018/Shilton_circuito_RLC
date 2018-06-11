@@ -27,7 +27,7 @@
     </figure>
 </para>
         <section>
-            <title>Protected Attributes</title>
+            <title>Atributos Protegidos</title>
             <para>
                 <itemizedlist>
                     <listitem>
@@ -212,7 +212,7 @@ const <link linkend="class_q_c_p_selection_decorator">QCPSelectionDecorator</lin
 <para>Controls how a plottable&apos;s data selection is drawn. </para>
     </simplesect>
         <simplesect>
-            <title>Detailed Description</title>
+            <title>Descrição detalhada</title>
 
 <para>Each <link linkend="class_q_c_p_abstract_plottable">QCPAbstractPlottable</link> instance has one <link linkend="class_q_c_p_selection_decorator">QCPSelectionDecorator</link> (accessible via <link linkend="class_q_c_p_abstract_plottable_1a7861518e47ca0c6a0c386032c2db075e">QCPAbstractPlottable::selectionDecorator</link>) and uses it when drawing selected segments of its data.</para>
 
@@ -228,7 +228,7 @@ const <link linkend="class_q_c_p_selection_decorator">QCPSelectionDecorator</lin
                 <para><itemizedlist><listitem><para>qcustomplot.h</para></listitem></itemizedlist></para>
         </simplesect>
         <section>
-            <title>Member Data Documentation</title>
+            <title>Atributos</title>
         </section>
             <section xml:id="class_q_c_p_selection_decorator_1aa145480d9a062cd176fe30900bb7bca8">
                 <title>QCPSelectionDecorator::QCPSelectionDecorator ()</title> <emphasis></emphasis>
@@ -281,7 +281,7 @@ const <link linkend="class_q_c_p_selection_decorator">QCPSelectionDecorator</lin
                 
 <para>Use this method to define which properties of the scatter style (set via <link linkend="class_q_c_p_selection_decorator_1ab403a613289714ff4fd4a0c0371ab116">setScatterStyle</link>) will be used for selected data segments. All properties of the scatter style that are not specified in <emphasis>properties</emphasis> will remain as specified in the plottable&apos;s original scatter style.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_c_p_scatter_style_1a8974f6a20f8f6eea7781f0e6af9deb46">QCPScatterStyle::ScatterProperty</link> </para>
 </formalpara>
@@ -293,7 +293,7 @@ const <link linkend="class_q_c_p_selection_decorator">QCPSelectionDecorator</lin
                 
 <para>Sets the pen of <emphasis>painter</emphasis> to the pen of this selection decorator.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_c_p_selection_decorator_1a225544527d51b49546b70d0e6d655a34">applyBrush</link>, <link linkend="class_q_c_p_selection_decorator_1a1277b373248896bc70e8cc1de96da9fa">getFinalScatterStyle</link> </para>
 </formalpara>
@@ -305,7 +305,7 @@ const <link linkend="class_q_c_p_selection_decorator">QCPSelectionDecorator</lin
                 
 <para>Sets the brush of <emphasis>painter</emphasis> to the brush of this selection decorator.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_c_p_selection_decorator_1a75098893f7d08660ea449206810679d7">applyPen</link>, <link linkend="class_q_c_p_selection_decorator_1a1277b373248896bc70e8cc1de96da9fa">getFinalScatterStyle</link> </para>
 </formalpara>
@@ -317,7 +317,7 @@ const <link linkend="class_q_c_p_selection_decorator">QCPSelectionDecorator</lin
                 
 <para>Returns the scatter style that the parent plottable shall use for selected scatter points. The plottable&apos;s original (unselected) scatter style must be passed as <emphasis>unselectedStyle</emphasis>. Depending on the setting of <link linkend="class_q_c_p_selection_decorator_1a808c1607cd4e83869c04986e332455c0">setUsedScatterProperties</link>, the returned scatter style is a mixture of this selecion decorator&apos;s scatter style (<link linkend="class_q_c_p_selection_decorator_1ab403a613289714ff4fd4a0c0371ab116">setScatterStyle</link>), and <emphasis>unselectedStyle</emphasis>.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_c_p_selection_decorator_1a75098893f7d08660ea449206810679d7">applyPen</link>, <link linkend="class_q_c_p_selection_decorator_1a225544527d51b49546b70d0e6d655a34">applyBrush</link>, <link linkend="class_q_c_p_selection_decorator_1ab403a613289714ff4fd4a0c0371ab116">setScatterStyle</link> </para>
 </formalpara>

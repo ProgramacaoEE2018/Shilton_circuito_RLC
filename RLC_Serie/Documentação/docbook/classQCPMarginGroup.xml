@@ -1,0 +1,195 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="classQCPMarginGroup">
+<title>QCPMarginGroup class Reference</title>
+<para>
+    <programlisting>#include <link linkend="qcustomplot_8h">&lt;qcustomplot.h&gt;</link></programlisting>
+</para>
+<para>Inheritance diagram for QCPMarginGroup</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="classQCPMarginGroup__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for QCPMarginGroup</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="classQCPMarginGroup__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title>Atributos Protegidos</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QCustomPlot * mParentPlot</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QHash&lt; QCP::MarginSide, QList&lt; QCPLayoutElement * &gt; &gt; mChildren</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="classQCPMarginGroup_1ac481c20678ec5b305d6df330715f4b7b">QCPMarginGroup</link> (
+<link linkend="classQCustomPlot">QCustomPlot</link> * parentPlot)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual <link linkend="classQCPMarginGroup_1a42c62becdaac41406ca90f1c2a755e1c">~QCPMarginGroup</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QList&lt; <link linkend="classQCPLayoutElement">QCPLayoutElement</link> * &gt; <link linkend="classQCPMarginGroup_1ac967a4dc5fe02ae44aeb43511d5e1bd4">elements</link> (
+<link linkend="namespaceQCP_1a7e487e3e2ccb62ab7771065bab7cae54">QCP::MarginSide</link> side)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="classQCPMarginGroup_1ae0d32656d8a5fc5690c4e7693f9d0539">isEmpty</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPMarginGroup_1a144b67f216e4e86c3a3a309e850285fe">clear</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual int <link linkend="classQCPMarginGroup_1aea6a00373b3a0305de56c34d2423ea99">commonMargin</link> (
+<link linkend="namespaceQCP_1a7e487e3e2ccb62ab7771065bab7cae54">QCP::MarginSide</link> side)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPMarginGroup_1acb9c3a35acec655c2895b7eb95ee0524">addChild</link> (
+<link linkend="namespaceQCP_1a7e487e3e2ccb62ab7771065bab7cae54">QCP::MarginSide</link> side, <link linkend="classQCPLayoutElement">QCPLayoutElement</link> * element)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPMarginGroup_1a20ab3286062957d99b58db683fe725b0">removeChild</link> (
+<link linkend="namespaceQCP_1a7e487e3e2ccb62ab7771065bab7cae54">QCP::MarginSide</link> side, <link linkend="classQCPLayoutElement">QCPLayoutElement</link> * element)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+    <simplesect>
+
+<para>A margin group allows synchronization of margin sides if working with multiple layout elements. </para>
+    </simplesect>
+        <simplesect>
+            <title>Descrição detalhada</title>
+
+<para><link linkend="classQCPMarginGroup">QCPMarginGroup</link> allows you to tie a margin side of two or more layout elements together, such that they will all have the same size, based on the largest required margin in the group.</para>
+
+<para>
+<literallayout>
+</literallayout>
+
+<literallayout>
+</literallayout>
+ In certain situations it is desirable that margins at specific sides are synchronized across layout elements. For example, if one <link linkend="classQCPAxisRect">QCPAxisRect</link> is below another one in a grid layout, it will provide a cleaner look to the user if the left and right margins of the two axis rects are of the same size. The left axis of the top axis rect will then be at the same horizontal position as the left axis of the lower axis rect, making them appear aligned. The same applies for the right axes. This is what <link linkend="classQCPMarginGroup">QCPMarginGroup</link> makes possible.</para>
+
+<para>To add/remove a specific side of a layout element to/from a margin group, use the <link linkend="classQCPLayoutElement_1a516e56f76b6bc100e8e71d329866847d">QCPLayoutElement::setMarginGroup</link> method. To completely break apart the margin group, either call <link linkend="classQCPMarginGroup_1a144b67f216e4e86c3a3a309e850285fe">clear</link>, or just delete the margin group.</para>
+<section xml:id="classQCPMarginGroup_1QCPMarginGroup-example">
+<title>Example</title>
+
+<para>First create a margin group: <literallayout><computeroutput></computeroutput></literallayout>Then set this group on the layout element sides: <literallayout><computeroutput></computeroutput></literallayout>Here, we&apos;ve used the first two axis rects of the plot and synchronized their left margins with each other and their right margins with each other. </para>
+</section>
+                <para>Definition at line 1149 of file qcustomplot.h</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>qcustomplot.h</para></listitem></itemizedlist></para>
+        </simplesect>
+        <section>
+            <title>Atributos</title>
+        </section>
+            <section xml:id="classQCPMarginGroup_1ac481c20678ec5b305d6df330715f4b7b">
+                <title>QCPMarginGroup::QCPMarginGroup (QCustomPlot *parentPlot)</title> <emphasis></emphasis>
+                
+<para>Creates a new <link linkend="classQCPMarginGroup">QCPMarginGroup</link> instance in <emphasis>parentPlot</emphasis>. </para>
+
+            </section>
+            <section xml:id="classQCPMarginGroup_1a42c62becdaac41406ca90f1c2a755e1c">
+                <title>QCPMarginGroup::~QCPMarginGroup ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPMarginGroup_1ac967a4dc5fe02ae44aeb43511d5e1bd4">
+                <title>QList&lt; QCPLayoutElement * &gt; QCPMarginGroup::elements (QCP::MarginSide side) const</title> <emphasis></emphasis>
+                
+<para>Returns a list of all layout elements that have their margin <emphasis>side</emphasis> associated with this margin group. </para>
+
+            </section>
+            <section xml:id="classQCPMarginGroup_1ae0d32656d8a5fc5690c4e7693f9d0539">
+                <title>bool QCPMarginGroup::isEmpty () const</title> <emphasis></emphasis>
+                
+<para>Returns whether this margin group is empty. If this function returns true, no layout elements use this margin group to synchronize margin sides. </para>
+
+            </section>
+            <section xml:id="classQCPMarginGroup_1a144b67f216e4e86c3a3a309e850285fe">
+                <title>void QCPMarginGroup::clear ()</title> <emphasis></emphasis>
+                
+<para>Clears this margin group. The synchronization of the margin sides that use this margin group is lifted and they will use their individual margin sizes again. </para>
+
+            </section>
+            <section xml:id="classQCPMarginGroup_1aea6a00373b3a0305de56c34d2423ea99">
+                <title>int QCPMarginGroup::commonMargin (QCP::MarginSide side) const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPMarginGroup_1acb9c3a35acec655c2895b7eb95ee0524">
+                <title>void QCPMarginGroup::addChild (QCP::MarginSide side, QCPLayoutElement *element)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPMarginGroup_1a20ab3286062957d99b58db683fe725b0">
+                <title>void QCPMarginGroup::removeChild (QCP::MarginSide side, QCPLayoutElement *element)</title> <emphasis></emphasis>
+                
+            </section>
+</section>

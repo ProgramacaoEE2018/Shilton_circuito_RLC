@@ -1,0 +1,479 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="classQCPAxisPainterPrivate">
+<title>QCPAxisPainterPrivate class Reference</title>
+<para>
+    <programlisting>#include <link linkend="qcustomplot_8h">&lt;qcustomplot.h&gt;</link></programlisting>
+</para>
+<para>Inheritance diagram for QCPAxisPainterPrivate</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="classQCPAxisPainterPrivate__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for QCPAxisPainterPrivate</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="classQCPAxisPainterPrivate__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title> Classes </title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="structQCPAxisPainterPrivate_1_1CachedLabel">QCPAxisPainterPrivate::CachedLabel</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="structQCPAxisPainterPrivate_1_1TickLabelData">QCPAxisPainterPrivate::TickLabelData</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title>Atributos Públicos</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QCPAxis::AxisType type</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPen basePen</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QCPLineEnding lowerEnding</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QCPLineEnding upperEnding</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>int labelPadding</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QFont labelFont</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QColor labelColor</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QString label</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>int tickLabelPadding</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double tickLabelRotation</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QCPAxis::LabelSide tickLabelSide</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool substituteExponent</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool numberMultiplyCross</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>int tickLengthIn</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>int tickLengthOut</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>int subTickLengthIn</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>int subTickLengthOut</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPen tickPen</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPen subTickPen</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QFont tickLabelFont</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QColor tickLabelColor</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QRect axisRect</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QRect viewportRect</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double offset</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool abbreviateDecimalPowers</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool reversedEndings</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QVector&lt; double &gt; subTickPositions</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QVector&lt; double &gt; tickPositions</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QVector&lt; QString &gt; tickLabels</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title>Atributos Protegidos</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QCustomPlot * mParentPlot</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QByteArray mLabelParameterHash</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QCache&lt; QString, CachedLabel &gt; mLabelCache</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QRect mAxisSelectionBox</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QRect mTickLabelsSelectionBox</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QRect mLabelSelectionBox</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="classQCPAxisPainterPrivate_1a0f14aa5c4aa83dbcd68984a7c73bf94f">QCPAxisPainterPrivate</link> (
+<link linkend="classQCustomPlot">QCustomPlot</link> * parentPlot)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual <link linkend="classQCPAxisPainterPrivate_1a7c7f95313f0f78c3c3975f822a5fea35">~QCPAxisPainterPrivate</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="classQCPAxisPainterPrivate_1a0207a99bdf9c4f70af20928898ddc2fc">draw</link> (
+<link linkend="classQCPPainter">QCPPainter</link> * painter)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual int <link linkend="classQCPAxisPainterPrivate_1a60fc2eec99ed23e9a3c98e8f7e5730b0">size</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPAxisPainterPrivate_1a7b6806e32c44384fd0ae4dcdaa72b1b5">clearCache</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QRect <link linkend="classQCPAxisPainterPrivate_1ab29635564acb5d0012fa9e297477db05">axisSelectionBox</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QRect <link linkend="classQCPAxisPainterPrivate_1acf8a4fef47cec70b596fe20941aa5b16">tickLabelsSelectionBox</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QRect <link linkend="classQCPAxisPainterPrivate_1ae7800667d15867040ada5f4bf027f070">labelSelectionBox</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual QByteArray <link linkend="classQCPAxisPainterPrivate_1ab6f77ae2bd3eccca3fef4b7ec8e34b31">generateLabelParameterHash</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="classQCPAxisPainterPrivate_1af8fe7350c19575bc33ca770f9b3a15fd">placeTickLabel</link> (
+<link linkend="classQCPPainter">QCPPainter</link> * painter, double position, int distanceToAxis, const QString &amp; text, QSize * tickLabelsSize)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="classQCPAxisPainterPrivate_1aab666e1d85b234afbc88076c7ba9424a">drawTickLabel</link> (
+<link linkend="classQCPPainter">QCPPainter</link> * painter, double x, double y, const <link linkend="structQCPAxisPainterPrivate_1_1TickLabelData">TickLabelData</link> &amp; labelData)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual <link linkend="structQCPAxisPainterPrivate_1_1TickLabelData">TickLabelData</link> <link linkend="classQCPAxisPainterPrivate_1a5331f78e398da5442767c261578da502">getTickLabelData</link> (
+const QFont &amp; font, const QString &amp; text)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual QPointF <link linkend="classQCPAxisPainterPrivate_1a6205b60c7d305854ffd7602139433f6e">getTickLabelDrawOffset</link> (
+const <link linkend="structQCPAxisPainterPrivate_1_1TickLabelData">TickLabelData</link> &amp; labelData)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="classQCPAxisPainterPrivate_1a7a961f0e05c57b51cf1100b05e93f5b9">getMaxTickLabelSize</link> (
+const QFont &amp; font, const QString &amp; text, QSize * tickLabelsSize)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title>Atributos</title>
+        </section>
+        <section>
+            <title>Atributos</title>
+        </section>
+            <section xml:id="classQCPAxisPainterPrivate_1a0f14aa5c4aa83dbcd68984a7c73bf94f">
+                <title>QCPAxisPainterPrivate::QCPAxisPainterPrivate (QCustomPlot *parentPlot)</title> <emphasis></emphasis>
+                
+<para>Constructs a <link linkend="classQCPAxisPainterPrivate">QCPAxisPainterPrivate</link> instance. Make sure to not create a new instance on every redraw, to utilize the caching mechanisms. </para>
+
+            </section>
+            <section xml:id="classQCPAxisPainterPrivate_1a7c7f95313f0f78c3c3975f822a5fea35">
+                <title>QCPAxisPainterPrivate::~QCPAxisPainterPrivate ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAxisPainterPrivate_1a0207a99bdf9c4f70af20928898ddc2fc">
+                <title>void QCPAxisPainterPrivate::draw (QCPPainter *painter)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAxisPainterPrivate_1a60fc2eec99ed23e9a3c98e8f7e5730b0">
+                <title>int QCPAxisPainterPrivate::size () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAxisPainterPrivate_1a7b6806e32c44384fd0ae4dcdaa72b1b5">
+                <title>void QCPAxisPainterPrivate::clearCache ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAxisPainterPrivate_1ab29635564acb5d0012fa9e297477db05">
+                <title>QRect QCPAxisPainterPrivate::axisSelectionBox () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAxisPainterPrivate_1acf8a4fef47cec70b596fe20941aa5b16">
+                <title>QRect QCPAxisPainterPrivate::tickLabelsSelectionBox () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAxisPainterPrivate_1ae7800667d15867040ada5f4bf027f070">
+                <title>QRect QCPAxisPainterPrivate::labelSelectionBox () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAxisPainterPrivate_1ab6f77ae2bd3eccca3fef4b7ec8e34b31">
+                <title>QByteArray QCPAxisPainterPrivate::generateLabelParameterHash () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAxisPainterPrivate_1af8fe7350c19575bc33ca770f9b3a15fd">
+                <title>void QCPAxisPainterPrivate::placeTickLabel (QCPPainter *painter, double position, int distanceToAxis, const QString &amp;text, QSize *tickLabelsSize)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAxisPainterPrivate_1aab666e1d85b234afbc88076c7ba9424a">
+                <title>void QCPAxisPainterPrivate::drawTickLabel (QCPPainter *painter, double x, double y, const TickLabelData &amp;labelData) const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAxisPainterPrivate_1a5331f78e398da5442767c261578da502">
+                <title>QCPAxisPainterPrivate::TickLabelData QCPAxisPainterPrivate::getTickLabelData (const QFont &amp;font, const QString &amp;text) const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAxisPainterPrivate_1a6205b60c7d305854ffd7602139433f6e">
+                <title>QPointF QCPAxisPainterPrivate::getTickLabelDrawOffset (const TickLabelData &amp;labelData) const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAxisPainterPrivate_1a7a961f0e05c57b51cf1100b05e93f5b9">
+                <title>void QCPAxisPainterPrivate::getMaxTickLabelSize (const QFont &amp;font, const QString &amp;text, QSize *tickLabelsSize) const</title> <emphasis></emphasis>
+                
+            </section>
+</section>

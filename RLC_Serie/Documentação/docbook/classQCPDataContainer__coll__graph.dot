@@ -1,0 +1,6 @@
+digraph "QCPDataContainer&lt; DataType &gt;"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node408 [label="{QCPDataContainer\< DataType \>\n|# mAutoSqueeze\l# mData\l# mPreallocSize\l# mPreallocIteration\l|+ QCPDataContainer()\l+ size()\l+ isEmpty()\l+ autoSqueeze()\l+ setAutoSqueeze()\l+ set()\l+ set()\l+ add()\l+ add()\l+ add()\l+ removeBefore()\l+ removeAfter()\l+ remove()\l+ remove()\l+ clear()\l+ sort()\l+ squeeze()\l+ constBegin()\l+ constEnd()\l+ begin()\l+ end()\l+ findBegin()\l+ findEnd()\l+ at()\l+ keyRange()\l+ valueRange()\l+ dataRange()\l+ limitIteratorsToDataRange()\l# preallocateGrow()\l# performAutoSqueeze()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

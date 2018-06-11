@@ -27,7 +27,7 @@
     </figure>
 </para>
         <section>
-            <title>Private Attributes</title>
+            <title>Atributos Privados</title>
             <para>
                 <itemizedlist>
                     <listitem>
@@ -56,8 +56,8 @@ float valor)</para>
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para>void <link linkend="class_resistor_1ad9ec62a683dcde2f04f38715c2b56842">set_imp</link> (
-complex&lt; double &gt; s)</para>
+                        <para>void <link linkend="class_resistor_1ab353639b798f764afe340dbba5a2a527">set_imp</link> (
+)</para>
                     </listitem>
                 </itemizedlist>
             </para>
@@ -79,14 +79,14 @@ complex&lt; double &gt; s)</para>
             </para>
         </section>
         <section>
-            <title>Member Data Documentation</title>
+            <title>Atributos</title>
         </section>
             <section xml:id="class_resistor_1af51e11292a6823f790faf0e9a54261a8">
                 <title>Resistor::Resistor (float valor)</title> <emphasis></emphasis>
                 
             </section>
-            <section xml:id="class_resistor_1ad9ec62a683dcde2f04f38715c2b56842">
-                <title>void Resistor::set_imp (complex&lt; double &gt; s)</title> <emphasis></emphasis>
+            <section xml:id="class_resistor_1ab353639b798f764afe340dbba5a2a527">
+                <title>void Resistor::set_imp ()</title> <emphasis></emphasis>
                 
             </section>
             <section xml:id="class_resistor_1adc2239e3faf23c6c765f7b3ece11a6cd">

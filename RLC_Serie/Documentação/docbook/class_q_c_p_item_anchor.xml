@@ -27,7 +27,7 @@
     </figure>
 </para>
         <section>
-            <title>Protected Attributes</title>
+            <title>Atributos Protegidos</title>
             <para>
                 <itemizedlist>
                     <listitem>
@@ -163,7 +163,7 @@
 <para>An anchor of an item to which positions can be attached to. </para>
     </simplesect>
         <simplesect>
-            <title>Detailed Description</title>
+            <title>Descrição detalhada</title>
 
 <para>An item (<link linkend="class_q_c_p_abstract_item">QCPAbstractItem</link>) may have one or more anchors. Unlike <link linkend="class_q_c_p_item_position">QCPItemPosition</link>, an anchor doesn&apos;t control anything on its item, but provides a way to tie other items via their positions to the anchor.</para>
 
@@ -177,7 +177,7 @@
                 <para><itemizedlist><listitem><para>qcustomplot.h</para></listitem></itemizedlist></para>
         </simplesect>
         <section>
-            <title>Member Data Documentation</title>
+            <title>Atributos</title>
         </section>
             <section xml:id="class_q_c_p_item_anchor_1a32573023c6fa65b4496f1f995e5bfa5f">
                 <title>QCPItemAnchor::QCPItemAnchor (QCustomPlot *parentPlot, QCPAbstractItem *parentItem, const QString &amp;name, int anchorId=-1)</title> <emphasis></emphasis>

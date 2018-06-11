@@ -1,4 +1,4 @@
-<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<map id="Gráfico de Hierarquia de Classes" name="Gráfico de Hierarquia de Classes">
 <area shape="rect" id="node1" href="$class_q_c_p_axis_ticker.html" title="The base class tick generator used by QCPAxis to create tick positions and tick labels. " alt="" coords="5,132,116,159"/>
 <area shape="rect" id="node2" href="$class_q_c_p_axis_ticker_date_time.html" title="Specialized axis ticker for calendar dates and times as axis ticks. " alt="" coords="164,5,331,32"/>
 <area shape="rect" id="node3" href="$class_q_c_p_axis_ticker_fixed.html" title="Specialized axis ticker with a fixed tick step. " alt="" coords="176,56,319,83"/>

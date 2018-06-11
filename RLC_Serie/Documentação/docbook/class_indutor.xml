@@ -27,7 +27,7 @@
     </figure>
 </para>
         <section>
-            <title>Private Attributes</title>
+            <title>Atributos Privados</title>
             <para>
                 <itemizedlist>
                     <listitem>
@@ -79,7 +79,7 @@ complex&lt; double &gt; s)</para>
             </para>
         </section>
         <section>
-            <title>Member Data Documentation</title>
+            <title>Atributos</title>
         </section>
             <section xml:id="class_indutor_1a0413c638b46aec5ef715866c3a1d48e2">
                 <title>Indutor::Indutor (float valor)</title> <emphasis></emphasis>

@@ -19,7 +19,6 @@
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QLineEdit>
 #include <QtWidgets/QMainWindow>
-#include <QtWidgets/QMenuBar>
 #include <QtWidgets/QPushButton>
 #include <QtWidgets/QStatusBar>
 #include <QtWidgets/QToolBar>
@@ -53,6 +52,7 @@ public:
     QVBoxLayout *verticalLayout;
     QLabel *label_5;
     QLabel *label_6;
+    QLabel *label_15;
     QPushButton *pushButton;
     QLabel *label_8;
     QWidget *formLayoutWidget_2;
@@ -68,7 +68,8 @@ public:
     QVBoxLayout *verticalLayout_2;
     QLabel *label_12;
     QLineEdit *lineTempo;
-    QMenuBar *menuBar;
+    QLabel *label_14;
+    QPushButton *pushButton_2;
     QToolBar *mainToolBar;
     QStatusBar *statusBar;
 
@@ -76,7 +77,7 @@ public:
     {
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName(QStringLiteral("MainWindow"));
-        MainWindow->resize(1197, 580);
+        MainWindow->resize(1197, 622);
         MainWindow->setMaximumSize(QSize(1197, 16777215));
         centralWidget = new QWidget(MainWindow);
         centralWidget->setObjectName(QStringLiteral("centralWidget"));
@@ -157,7 +158,7 @@ public:
 
         verticalLayoutWidget = new QWidget(centralWidget);
         verticalLayoutWidget->setObjectName(QStringLiteral("verticalLayoutWidget"));
-        verticalLayoutWidget->setGeometry(QRect(610, 40, 451, 81));
+        verticalLayoutWidget->setGeometry(QRect(610, 10, 451, 141));
         verticalLayout = new QVBoxLayout(verticalLayoutWidget);
         verticalLayout->setSpacing(6);
         verticalLayout->setContentsMargins(11, 11, 11, 11);
@@ -172,6 +173,11 @@ public:
         label_6->setObjectName(QStringLiteral("label_6"));
 
         verticalLayout->addWidget(label_6);
+
+        label_15 = new QLabel(verticalLayoutWidget);
+        label_15->setObjectName(QStringLiteral("label_15"));
+
+        verticalLayout->addWidget(label_15);
 
         pushButton = new QPushButton(centralWidget);
         pushButton->setObjectName(QStringLiteral("pushButton"));
@@ -240,11 +246,13 @@ public:
 
         verticalLayout_2->addWidget(lineTempo);
 
+        label_14 = new QLabel(centralWidget);
+        label_14->setObjectName(QStringLiteral("label_14"));
+        label_14->setGeometry(QRect(520, 540, 411, 21));
+        pushButton_2 = new QPushButton(centralWidget);
+        pushButton_2->setObjectName(QStringLiteral("pushButton_2"));
+        pushButton_2->setGeometry(QRect(1070, 530, 93, 28));
         MainWindow->setCentralWidget(centralWidget);
-        menuBar = new QMenuBar(MainWindow);
-        menuBar->setObjectName(QStringLiteral("menuBar"));
-        menuBar->setGeometry(QRect(0, 0, 1197, 26));
-        MainWindow->setMenuBar(menuBar);
         mainToolBar = new QToolBar(MainWindow);
         mainToolBar->setObjectName(QStringLiteral("mainToolBar"));
         MainWindow->addToolBar(Qt::TopToolBarArea, mainToolBar);
@@ -265,8 +273,9 @@ public:
         label_3->setText(QApplication::translate("MainWindow", "C", nullptr));
         label_4->setText(QApplication::translate("MainWindow", "W", nullptr));
         label_7->setText(QApplication::translate("MainWindow", "Par\303\242metros da Fonte:", nullptr));
-        label_5->setText(QApplication::translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-size:10pt; font-weight:600;\">Sinal de Entrada:</span></p></body></html>", nullptr));
-        label_6->setText(QApplication::translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-size:14pt;\">e(t) = </span><span style=\" font-size:14pt; text-decoration: underline;\">A</span><span style=\" font-size:14pt;\">*exp(</span><span style=\" font-size:14pt; text-decoration: underline;\">B</span><span style=\" font-size:14pt;\">*t)cos(</span><span style=\" font-size:14pt; text-decoration: underline;\">W</span><span style=\" font-size:14pt;\">*t+</span><span style=\" font-size:14pt; text-decoration: underline;\">C</span><span style=\" font-size:14pt;\">)</span></p></body></html>", nullptr));
+        label_5->setText(QApplication::translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-size:10pt; font-weight:600; text-decoration: underline;\">Sinal de Entrada</span></p></body></html>", nullptr));
+        label_6->setText(QApplication::translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-size:14pt;\">Forma Geral: e(t) = </span><span style=\" font-size:14pt; text-decoration: underline;\">A</span><span style=\" font-size:14pt;\">*exp(</span><span style=\" font-size:14pt; text-decoration: underline;\">B</span><span style=\" font-size:14pt;\">*t)cos(</span><span style=\" font-size:14pt; text-decoration: underline;\">W</span><span style=\" font-size:14pt;\">*t+</span><span style=\" font-size:14pt; text-decoration: underline;\">C</span><span style=\" font-size:14pt;\">)</span></p></body></html>", nullptr));
+        label_15->setText(QString());
         pushButton->setText(QApplication::translate("MainWindow", "Rodar", nullptr));
         label_8->setText(QApplication::translate("MainWindow", "<html><head/><body><p><img src=\":/img/img/400px-RLC_serie.PNG\"/></p></body></html>", nullptr));
         label_13->setText(QApplication::translate("MainWindow", "Par\303\242metros do Circuito:", nullptr));
@@ -274,6 +283,8 @@ public:
         label_10->setText(QApplication::translate("MainWindow", "C(F)", nullptr));
         label_11->setText(QApplication::translate("MainWindow", "L(H)", nullptr));
         label_12->setText(QApplication::translate("MainWindow", "Tempo de Amostragem", nullptr));
+        label_14->setText(QString());
+        pushButton_2->setText(QApplication::translate("MainWindow", "Ajuda", nullptr));
     } // retranslateUi
 
 };

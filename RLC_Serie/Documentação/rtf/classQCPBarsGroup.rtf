@@ -1,0 +1,802 @@
+{\rtf1\ansi\ansicpg1252\uc1 \deff0\deflang1033\deflangfe1033
+{\fonttbl {\f0\froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}
+{\f1\fswiss\fcharset0\fprq2{\*\panose 020b0604020202020204}Arial;}
+{\f2\fmodern\fcharset0\fprq1{\*\panose 02070309020205020404}Courier New;}
+{\f3\froman\fcharset2\fprq2{\*\panose 05050102010706020507}Symbol;}
+}
+{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;}
+{\stylesheet
+{\widctlpar\adjustright \fs20\cgrid \snext0 Normal;}
+{\paperw11900\paperh16840\margl1800\margr1800\margt1440\margb1440\gutter0\ltrsect}
+{\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid \sbasedon0 \snext0 heading 1;}
+{\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid \sbasedon0 \snext0 heading 2;}
+{\s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid \sbasedon0 \snext0 heading 3;}
+{\s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext0 heading 4;}{\*\cs10 \additive Default Paragraph Font;}
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext0 heading 5;}{\*\cs10 \additive Default Paragraph Font;}
+{\s15\qc\sb240\sa60\widctlpar\outlinelevel0\adjustright \b\f1\fs32\kerning28\cgrid \sbasedon0 \snext15 Title;}
+{\s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid \sbasedon0 \snext16 Subtitle;}
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid \sbasedon0 \snext17 BodyText;}
+{\s18\widctlpar\fs22\cgrid \sbasedon0 \snext18 DenseText;}
+{\s28\widctlpar\tqc\tx4320\tqr\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext28 header;}
+{\s29\widctlpar\tqc\tx4320\tqr\tx8640\qr\adjustright \fs20\cgrid \sbasedon0 \snext29 footer;}
+{\s30\li360\sa60\sb120\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext30 GroupHeader;}
+{\s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext41 Code Example 0;}
+{\s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext42 Code Example 1;}
+{\s42\li720\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext43 Code Example 2;}
+{\s43\li1080\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext44 Code Example 3;}
+{\s44\li1440\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext45 Code Example 4;}
+{\s45\li1800\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext46 Code Example 5;}
+{\s46\li2160\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext47 Code Example 6;}
+{\s47\li2520\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext48 Code Example 7;}
+{\s48\li2880\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext49 Code Example 8;}
+{\s49\li3240\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext49 Code Example 9;}
+{\s50\li0\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext51 List Continue 0;}
+{\s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext52 List Continue 1;}
+{\s52\li720\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext53 List Continue 2;}
+{\s53\li1080\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext54 List Continue 3;}
+{\s54\li1440\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext55 List Continue 4;}
+{\s55\li1800\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext56 List Continue 5;}
+{\s56\li2160\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext57 List Continue 6;}
+{\s57\li2520\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext58 List Continue 7;}
+{\s58\li2880\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext59 List Continue 8;}
+{\s59\li3240\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext59 List Continue 9;}
+{\s60\li0\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext61 DescContinue 0;}
+{\s61\li360\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext62 DescContinue 1;}
+{\s62\li720\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext63 DescContinue 2;}
+{\s63\li1080\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext64 DescContinue 3;}
+{\s64\li1440\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext65 DescContinue 4;}
+{\s65\li1800\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext66 DescContinue 5;}
+{\s66\li2160\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext67 DescContinue 6;}
+{\s67\li2520\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext68 DescContinue 7;}
+{\s68\li2880\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext69 DescContinue 8;}
+{\s69\li3240\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext69 DescContinue 9;}
+{\s70\li0\sa30\sb30\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext81 LatexTOC 0;}
+{\s71\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext82 LatexTOC 1;}
+{\s72\li720\sa24\sb24\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext83 LatexTOC 2;}
+{\s73\li1080\sa21\sb21\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext84 LatexTOC 3;}
+{\s74\li1440\sa18\sb18\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext85 LatexTOC 4;}
+{\s75\li1800\sa15\sb15\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext86 LatexTOC 5;}
+{\s76\li2160\sa12\sb12\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext87 LatexTOC 6;}
+{\s77\li2520\sa9\sb9\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext88 LatexTOC 7;}
+{\s78\li2880\sa6\sb6\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext89 LatexTOC 8;}
+{\s79\li3240\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext89 LatexTOC 9;}
+{\s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext81 \sautoupd List Bullet 0;}
+{\s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid \sbasedon0 \snext82 \sautoupd List Bullet 1;}
+{\s82\fi-360\li1080\widctlpar\jclisttab\tx1080{\*\pn \pnlvlbody\ilvl0\ls3\pnrnot0\pndec }\ls3\adjustright \fs20\cgrid \sbasedon0 \snext83 \sautoupd List Bullet 2;}
+{\s83\fi-360\li1440\widctlpar\jclisttab\tx1440{\*\pn \pnlvlbody\ilvl0\ls4\pnrnot0\pndec }\ls4\adjustright \fs20\cgrid \sbasedon0 \snext84 \sautoupd List Bullet 3;}
+{\s84\fi-360\li1800\widctlpar\jclisttab\tx1800{\*\pn \pnlvlbody\ilvl0\ls5\pnrnot0\pndec }\ls5\adjustright \fs20\cgrid \sbasedon0 \snext85 \sautoupd List Bullet 4;}
+{\s85\fi-360\li2160\widctlpar\jclisttab\tx2160{\*\pn \pnlvlbody\ilvl0\ls6\pnrnot0\pndec }\ls6\adjustright \fs20\cgrid \sbasedon0 \snext86 \sautoupd List Bullet 5;}
+{\s86\fi-360\li2520\widctlpar\jclisttab\tx2520{\*\pn \pnlvlbody\ilvl0\ls7\pnrnot0\pndec }\ls7\adjustright \fs20\cgrid \sbasedon0 \snext87 \sautoupd List Bullet 6;}
+{\s87\fi-360\li2880\widctlpar\jclisttab\tx2880{\*\pn \pnlvlbody\ilvl0\ls8\pnrnot0\pndec }\ls8\adjustright \fs20\cgrid \sbasedon0 \snext88 \sautoupd List Bullet 7;}
+{\s88\fi-360\li3240\widctlpar\jclisttab\tx3240{\*\pn \pnlvlbody\ilvl0\ls9\pnrnot0\pndec }\ls9\adjustright \fs20\cgrid \sbasedon0 \snext89 \sautoupd List Bullet 8;}
+{\s89\fi-360\li3600\widctlpar\jclisttab\tx3600{\*\pn \pnlvlbody\ilvl0\ls10\pnrnot0\pndec }\ls10\adjustright \fs20\cgrid \sbasedon0 \snext89 \sautoupd List Bullet 9;}
+{\s90\fi-360\li360\widctlpar\fs20\cgrid \sbasedon0 \snext91 \sautoupd List Enum 0;}
+{\s91\fi-360\li720\widctlpar\fs20\cgrid \sbasedon0 \snext92 \sautoupd List Enum 1;}
+{\s92\fi-360\li1080\widctlpar\fs20\cgrid \sbasedon0 \snext93 \sautoupd List Enum 2;}
+{\s93\fi-360\li1440\widctlpar\fs20\cgrid \sbasedon0 \snext94 \sautoupd List Enum 3;}
+{\s94\fi-360\li1800\widctlpar\fs20\cgrid \sbasedon0 \snext95 \sautoupd List Enum 4;}
+{\s95\fi-360\li2160\widctlpar\fs20\cgrid \sbasedon0 \snext96 \sautoupd List Enum 5;}
+{\s96\fi-360\li2520\widctlpar\fs20\cgrid \sbasedon0 \snext96 \sautoupd List Enum 5;}
+{\s97\fi-360\li2880\widctlpar\fs20\cgrid \sbasedon0 \snext98 \sautoupd List Enum 7;}
+{\s98\fi-360\li3240\widctlpar\fs20\cgrid \sbasedon0 \snext99 \sautoupd List Enum 8;}
+{\s99\fi-360\li3600\widctlpar\fs20\cgrid \sbasedon0 \snext99 \sautoupd List Enum 9;}
+}
+{\comment begin body}
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Referência da Classe QCPBarsGroup\par \pard\plain 
+{\tc\tcl2 \v QCPBarsGroup}
+{\xe \v QCPBarsGroup}
+{\bkmkstart AAAAAAABNB}
+{\bkmkend AAAAAAABNB}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Groups multiple {\b QCPBars} together so they appear side by side. }}\par
+{
+{\f2 #include <qcustomplot.h>}}\par
+Diagrama de hierarquia para QCPBarsGroup:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "classQCPBarsGroup__inherit__graph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+Diagrama de colaboração para QCPBarsGroup:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "classQCPBarsGroup__coll__graph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Tipos Públicos\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+enum {\b SpacingType} \{ {\b stAbsolute}, 
+{\b stAxisRectRatio}, 
+{\b stPlotCoords}
+ \}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Membros Públicos\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b QCPBarsGroup} ({\b QCustomPlot} *parentPlot)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual {\b ~QCPBarsGroup} ()\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b SpacingType} {\b spacingType} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+double {\b spacing} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setSpacingType} ({\b SpacingType} {\b spacingType})\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setSpacing} (double {\b spacing})\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+QList< {\b QCPBars} * > {\b bars} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b QCPBars} * {\b bars} (int index) const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b size} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b isEmpty} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b clear} ()\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b contains} ({\b QCPBars} *{\b bars}) const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b append} ({\b QCPBars} *{\b bars})\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b insert} (int {\b i}, {\b QCPBars} *{\b bars})\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b remove} ({\b QCPBars} *{\b bars})\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Membros Protegidos\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b registerBars} ({\b QCPBars} *{\b bars})\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b unregisterBars} ({\b QCPBars} *{\b bars})\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+double {\b keyPixelOffset} (const {\b QCPBars} *{\b bars}, double keyCoord)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+double {\b getPixelSpacing} (const {\b QCPBars} *{\b bars}, double keyCoord)\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Atributos Protegidos\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b QCustomPlot} * {\b mParentPlot}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b SpacingType} {\b mSpacingType}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+double {\b mSpacing}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+QList< {\b QCPBars} * > {\b mBars}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Amigas\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b QCPBars}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Descrição detalhada\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Groups multiple {\b QCPBars} together so they appear side by side. \par
+}
+
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+When showing multiple {\b QCPBars} in one plot which have bars at identical keys, it may be desirable to have them appearing next to each other at each key. This is what adding the respective {\b QCPBars} plottables to a {\b QCPBarsGroup} achieves. (An alternative approach is to stack them on top of each other, see {\b QCPBars::moveAbove}.)\par
+{\bkmkstart AAAAAAABNC}
+{\bkmkend AAAAAAABNC}
+{{\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Usage
+\par}
+{\tc\tcl2 \v Usage}
+To add a {\b QCPBars} plottable to the group, create a new group and then add the respective bars intances: {
+\par
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid }Alternatively to appending to the group like shown above, you can also set the group on the {\b QCPBars} plottable via {\b QCPBars::setBarsGroup}.\par
+The spacing between the bars can be configured via {\b setSpacingType} and {\b setSpacing}. The bars in this group appear in the plot in the order they were appended. To insert a bars plottable at a certain index position, or to reposition a bars plottable which is already in the group, use {\b insert}.\par
+To remove specific bars from the group, use either {\b remove} or call {\b QCPBars::setBarsGroup(0)} on the respective bars plottable.\par
+To clear the entire group, call {\b clear}, or simply delete the group.\par}
+{\bkmkstart AAAAAAABND}
+{\bkmkend AAAAAAABND}
+{{\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Example
+\par}
+{\tc\tcl2 \v Example}
+The image above is generated with the following code: {
+\par
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid }\par}
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Enumerações\par
+\pard\plain 
+{\xe \v SpacingType\:QCPBarsGroup}
+{\xe \v QCPBarsGroup\:SpacingType}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+enum {\b QCPBarsGroup::SpacingType}}}
+\par
+{\bkmkstart AAAAAAABNE}
+{\bkmkend AAAAAAABNE}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Defines the ways the spacing between bars in the group can be specified. Thus it defines what the number passed to {\b setSpacing} actually means.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b setSpacingType}, {\b setSpacing} \par
+}}{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Enumeradores:\par}
+\pard\plain \s61\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{\xe \v stAbsolute\:QCPBarsGroup}
+{\xe \v QCPBarsGroup\:stAbsolute}
+{\qr stAbsolute{\bkmkstart AAAAAAABNF}
+{\bkmkend AAAAAAABNF}
+\cell }{{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Bar spacing is in absolute pixels. \par
+}\cell }{\row }
+{\xe \v stAxisRectRatio\:QCPBarsGroup}
+{\xe \v QCPBarsGroup\:stAxisRectRatio}
+{\qr stAxisRectRatio{\bkmkstart AAAAAAABNG}
+{\bkmkend AAAAAAABNG}
+\cell }{{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Bar spacing is given by a fraction of the axis rect size. \par
+}\cell }{\row }
+{\xe \v stPlotCoords\:QCPBarsGroup}
+{\xe \v QCPBarsGroup\:stPlotCoords}
+{\qr stPlotCoords{\bkmkstart AAAAAAABNH}
+{\bkmkend AAAAAAABNH}
+\cell }{{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Bar spacing is in key coordinates and thus scales with the key axis range. \par
+}\cell }{\row }
+}
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  5389                    \{ stAbsolute       \par
+ 5390                      ,stAxisRectRatio \par
+ 5391                      ,stPlotCoords    \par
+ 5392                    \};\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Construtores e Destrutores\par
+\pard\plain 
+{\xe \v QCPBarsGroup\:QCPBarsGroup}
+{\xe \v QCPBarsGroup\:QCPBarsGroup}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QCPBarsGroup::QCPBarsGroup ({\b QCustomPlot} *  {\i parentPlot})}}
+\par
+{\bkmkstart AAAAAAABNI}
+{\bkmkend AAAAAAABNI}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Constructs a new bars group for the specified {\b QCustomPlot} instance. \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 23174                                                   :\par
+23175   QObject(parentPlot),\par
+23176   mParentPlot(parentPlot),\par
+23177   mSpacingType(stAbsolute),\par
+23178   mSpacing(4)\par
+23179 \{\par
+23180 \}\par
+}
+}
+{\xe \v ~QCPBarsGroup\:QCPBarsGroup}
+{\xe \v QCPBarsGroup\:~QCPBarsGroup}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QCPBarsGroup::~QCPBarsGroup (){\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAABNJ}
+{\bkmkend AAAAAAABNJ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 23183 \{\par
+23184   clear();\par
+23185 \}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Funções membros\par
+\pard\plain 
+{\xe \v append\:QCPBarsGroup}
+{\xe \v QCPBarsGroup\:append}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPBarsGroup::append ({\b QCPBars} *  {\i bars})}}
+\par
+{\bkmkstart AAAAAAABNK}
+{\bkmkend AAAAAAABNK}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Adds the specified {\i bars}  plottable to this group. Alternatively, you can also use {\b QCPBars::setBarsGroup} on the {\i bars}  instance.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b insert}, {\b remove} \par
+}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 23246 \{\par
+23247   if (!bars)\par
+23248   \{\par
+23249     qDebug() << Q_FUNC_INFO << "bars is 0";\par
+23250     return;\par
+23251   \}\par
+23252     \par
+23253   if (!mBars.contains(bars))\par
+23254     bars->setBarsGroup(this);\par
+23255   else\par
+23256     qDebug() << Q_FUNC_INFO << "bars plottable is already in this bars group:" << reinterpret_cast<quintptr>(bars);\par
+23257 \}\par
+}
+}
+{\xe \v bars\:QCPBarsGroup}
+{\xe \v QCPBarsGroup\:bars}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QList< {\b QCPBars} * > QCPBarsGroup::bars () const{\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAABNL}
+{\bkmkend AAAAAAABNL}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Returns all bars currently in this group.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid bars(int index) \par
+}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  5407 \{ return mBars; \}\par
+}
+}
+{\xe \v bars\:QCPBarsGroup}
+{\xe \v QCPBarsGroup\:bars}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b QCPBars} * QCPBarsGroup::bars (int  {\i index}) const}}
+\par
+{\bkmkstart AAAAAAABNM}
+{\bkmkend AAAAAAABNM}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Returns the {\b QCPBars} instance with the specified {\i index}  in this group. If no such {\b QCPBars} exists, returns 0.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b bars()}, {\b size} \par
+}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 23217 \{\par
+23218   if (index >= 0 && index < mBars.size())\par
+23219   \{\par
+23220     return mBars.at(index);\par
+23221   \} else\par
+23222   \{\par
+23223     qDebug() << Q_FUNC_INFO << "index out of bounds:" << index;\par
+23224     return 0;\par
+23225   \}\par
+23226 \}\par
+}
+}
+{\xe \v clear\:QCPBarsGroup}
+{\xe \v QCPBarsGroup\:clear}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPBarsGroup::clear ()}}
+\par
+{\bkmkstart AAAAAAABNN}
+{\bkmkend AAAAAAABNN}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Removes all {\b QCPBars} plottables from this group.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b isEmpty} \par
+}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 23234 \{\par
+23235   foreach (QCPBars *bars, mBars) // since foreach takes a copy, removing bars in the loop is okay\par
+23236     bars->setBarsGroup(0); // removes itself via removeBars\par
+23237 \}\par
+}
+}
+{\xe \v contains\:QCPBarsGroup}
+{\xe \v QCPBarsGroup\:contains}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool QCPBarsGroup::contains ({\b QCPBars} *  {\i bars}) const{\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAABNO}
+{\bkmkend AAAAAAABNO}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Returns whether the specified {\i bars}  plottable is part of this group. \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  5412 \{ return mBars.contains(bars); \}\par
+}
+}
+{\xe \v getPixelSpacing\:QCPBarsGroup}
+{\xe \v QCPBarsGroup\:getPixelSpacing}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+double QCPBarsGroup::getPixelSpacing (const {\b QCPBars} *  {\i bars}, double  {\i keyCoord}){\f2 [protected]}}}
+\par
+{\bkmkstart AAAAAAABNP}
+{\bkmkend AAAAAAABNP}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 23400 \{\par
+23401   switch (mSpacingType)\par
+23402   \{\par
+23403     case stAbsolute:\par
+23404     \{\par
+23405       return mSpacing;\par
+23406     \}\par
+23407     case stAxisRectRatio:\par
+23408     \{\par
+23409       if (bars->keyAxis()->orientation() == Qt::Horizontal)\par
+23410         return bars->keyAxis()->axisRect()->width()*mSpacing;\par
+23411       else\par
+23412         return bars->keyAxis()->axisRect()->height()*mSpacing;\par
+23413     \}\par
+23414     case stPlotCoords:\par
+23415     \{\par
+23416       double keyPixel = bars->keyAxis()->coordToPixel(keyCoord);\par
+23417       return qAbs(bars->keyAxis()->coordToPixel(keyCoord+mSpacing)-keyPixel);\par
+23418     \}\par
+23419   \}\par
+23420   return 0;\par
+23421 \}\par
+}
+}
+{\xe \v insert\:QCPBarsGroup}
+{\xe \v QCPBarsGroup\:insert}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPBarsGroup::insert (int  {\i i}, {\b QCPBars} *  {\i bars})}}
+\par
+{\bkmkstart AAAAAAABNQ}
+{\bkmkend AAAAAAABNQ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Inserts the specified {\i bars}  plottable into this group at the specified index position {\i i} . This gives you full control over the ordering of the bars.\par
+{\i bars}  may already be part of this group. In that case, {\i bars}  is just moved to the new index position.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b append}, {\b remove} \par
+}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 23269 \{\par
+23270   if (!bars)\par
+23271   \{\par
+23272     qDebug() << Q_FUNC_INFO << "bars is 0";\par
+23273     return;\par
+23274   \}\par
+23275   \par
+23276   // first append to bars list normally:\par
+23277   if (!mBars.contains(bars))\par
+23278     bars->setBarsGroup(this);\par
+23279   // then move to according position:\par
+23280   mBars.move(mBars.indexOf(bars), qBound(0, i, mBars.size()-1));\par
+23281 \}\par
+}
+}
+{\xe \v isEmpty\:QCPBarsGroup}
+{\xe \v QCPBarsGroup\:isEmpty}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool QCPBarsGroup::isEmpty () const{\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAABNR}
+{\bkmkend AAAAAAABNR}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Returns whether this bars group is empty.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b size} \par
+}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  5410 \{ return mBars.isEmpty(); \}\par
+}
+}
+{\xe \v keyPixelOffset\:QCPBarsGroup}
+{\xe \v QCPBarsGroup\:keyPixelOffset}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+double QCPBarsGroup::keyPixelOffset (const {\b QCPBars} *  {\i bars}, double  {\i keyCoord}){\f2 [protected]}}}
+\par
+{\bkmkstart AAAAAAABNS}
+{\bkmkend AAAAAAABNS}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 23334 \{\par
+23335   // find list of all base bars in case some mBars are stacked:\par
+23336   QList<const QCPBars*> baseBars;\par
+23337   foreach (const QCPBars *b, mBars)\par
+23338   \{\par
+23339     while (b->barBelow())\par
+23340       b = b->barBelow();\par
+23341     if (!baseBars.contains(b))\par
+23342       baseBars.append(b);\par
+23343   \}\par
+23344   // find base bar this "bars" is stacked on:\par
+23345   const QCPBars *thisBase = bars;\par
+23346   while (thisBase->barBelow())\par
+23347     thisBase = thisBase->barBelow();\par
+23348   \par
+23349   // determine key pixel offset of this base bars considering all other base bars in this barsgroup:\par
+23350   double result = 0;\par
+23351   int index = baseBars.indexOf(thisBase);\par
+23352   if (index >= 0)\par
+23353   \{\par
+23354     if (baseBars.size() % 2 == 1 && index == (baseBars.size()-1)/2) // is center bar (int division on purpose)\par
+23355     \{\par
+23356       return result;\par
+23357     \} else\par
+23358     \{\par
+23359       double lowerPixelWidth, upperPixelWidth;\par
+23360       int startIndex;\par
+23361       int dir = (index <= (baseBars.size()-1)/2) ? -1 : 1; // if bar is to lower keys of center, dir is negative\par
+23362       if (baseBars.size() % 2 == 0) // even number of bars\par
+23363       \{\par
+23364         startIndex = baseBars.size()/2 + (dir < 0 ? -1 : 0);\par
+23365         result += getPixelSpacing(baseBars.at(startIndex), keyCoord)*0.5; // half of middle spacing\par
+23366       \} else // uneven number of bars\par
+23367       \{\par
+23368         startIndex = (baseBars.size()-1)/2+dir;\par
+23369         baseBars.at((baseBars.size()-1)/2)->getPixelWidth(keyCoord, lowerPixelWidth, upperPixelWidth);\par
+23370         result += qAbs(upperPixelWidth-lowerPixelWidth)*0.5; // half of center bar\par
+23371         result += getPixelSpacing(baseBars.at((baseBars.size()-1)/2), keyCoord); // center bar spacing\par
+23372       \}\par
+23373       for (int i = startIndex; i != index; i += dir) // add widths and spacings of bars in between center and our bars\par
+23374       \{\par
+23375         baseBars.at(i)->getPixelWidth(keyCoord, lowerPixelWidth, upperPixelWidth);\par
+23376         result += qAbs(upperPixelWidth-lowerPixelWidth);\par
+23377         result += getPixelSpacing(baseBars.at(i), keyCoord);\par
+23378       \}\par
+23379       // finally half of our bars width:\par
+23380       baseBars.at(index)->getPixelWidth(keyCoord, lowerPixelWidth, upperPixelWidth);\par
+23381       result += qAbs(upperPixelWidth-lowerPixelWidth)*0.5;\par
+23382       // correct sign of result depending on orientation and direction of key axis:\par
+23383       result *= dir*thisBase->keyAxis()->pixelOrientation();\par
+23384     \}\par
+23385   \}\par
+23386   return result;\par
+23387 \}\par
+}
+}
+{\xe \v registerBars\:QCPBarsGroup}
+{\xe \v QCPBarsGroup\:registerBars}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPBarsGroup::registerBars ({\b QCPBars} *  {\i bars}){\f2 [protected]}}}
+\par
+{\bkmkstart AAAAAAABNT}
+{\bkmkend AAAAAAABNT}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 23310 \{\par
+23311   if (!mBars.contains(bars))\par
+23312     mBars.append(bars);\par
+23313 \}\par
+}
+}
+{\xe \v remove\:QCPBarsGroup}
+{\xe \v QCPBarsGroup\:remove}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPBarsGroup::remove ({\b QCPBars} *  {\i bars})}}
+\par
+{\bkmkstart AAAAAAABNU}
+{\bkmkend AAAAAAABNU}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Removes the specified {\i bars}  plottable from this group.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b contains}, {\b clear} \par
+}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 23289 \{\par
+23290   if (!bars)\par
+23291   \{\par
+23292     qDebug() << Q_FUNC_INFO << "bars is 0";\par
+23293     return;\par
+23294   \}\par
+23295   \par
+23296   if (mBars.contains(bars))\par
+23297     bars->setBarsGroup(0);\par
+23298   else\par
+23299     qDebug() << Q_FUNC_INFO << "bars plottable is not in this bars group:" << reinterpret_cast<quintptr>(bars);\par
+23300 \}\par
+}
+}
+{\xe \v setSpacing\:QCPBarsGroup}
+{\xe \v QCPBarsGroup\:setSpacing}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPBarsGroup::setSpacing (double  {\i spacing})}}
+\par
+{\bkmkstart AAAAAAABNV}
+{\bkmkend AAAAAAABNV}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Sets the spacing between adjacent bars. What the number passed as {\i spacing}  actually means, is defined by the current {\b SpacingType}, which can be set with {\b setSpacingType}.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b setSpacingType} \par
+}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 23206 \{\par
+23207   mSpacing = spacing;\par
+23208 \}\par
+}
+}
+{\xe \v setSpacingType\:QCPBarsGroup}
+{\xe \v QCPBarsGroup\:setSpacingType}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPBarsGroup::setSpacingType ({\b SpacingType}  {\i spacingType})}}
+\par
+{\bkmkstart AAAAAAABNW}
+{\bkmkend AAAAAAABNW}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Sets how the spacing between adjacent bars is interpreted. See {\b SpacingType}.\par
+The actual spacing can then be specified with {\b setSpacing}.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b setSpacing} \par
+}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 23195 \{\par
+23196   mSpacingType = spacingType;\par
+23197 \}\par
+}
+}
+{\xe \v size\:QCPBarsGroup}
+{\xe \v QCPBarsGroup\:size}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int QCPBarsGroup::size () const{\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAABNX}
+{\bkmkend AAAAAAABNX}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Returns the number of {\b QCPBars} plottables that are part of this group. \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  5409 \{ return mBars.size(); \}\par
+}
+}
+{\xe \v spacing\:QCPBarsGroup}
+{\xe \v QCPBarsGroup\:spacing}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+double QCPBarsGroup::spacing () const{\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAABNY}
+{\bkmkend AAAAAAABNY}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  5400 \{ return mSpacing; \}\par
+}
+}
+{\xe \v spacingType\:QCPBarsGroup}
+{\xe \v QCPBarsGroup\:spacingType}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b SpacingType} QCPBarsGroup::spacingType () const{\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAABNZ}
+{\bkmkend AAAAAAABNZ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  5399 \{ return mSpacingType; \}\par
+}
+}
+{\xe \v unregisterBars\:QCPBarsGroup}
+{\xe \v QCPBarsGroup\:unregisterBars}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPBarsGroup::unregisterBars ({\b QCPBars} *  {\i bars}){\f2 [protected]}}}
+\par
+{\bkmkstart AAAAAAABOA}
+{\bkmkend AAAAAAABOA}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 23323 \{\par
+23324   mBars.removeOne(bars);\par
+23325 \}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Amigas e Funções Relacionadas\par
+\pard\plain 
+{\xe \v QCPBars\:QCPBarsGroup}
+{\xe \v QCPBarsGroup\:QCPBars}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+friend class {\b QCPBars}{\f2 [friend]}}}
+\par
+{\bkmkstart AAAAAAABOB}
+{\bkmkend AAAAAAABOB}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Atributos\par
+\pard\plain 
+{\xe \v mBars\:QCPBarsGroup}
+{\xe \v QCPBarsGroup\:mBars}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QList<{\b QCPBars}*> QCPBarsGroup::mBars{\f2 [protected]}}}
+\par
+{\bkmkstart AAAAAAABOC}
+{\bkmkend AAAAAAABOC}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v mParentPlot\:QCPBarsGroup}
+{\xe \v QCPBarsGroup\:mParentPlot}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b QCustomPlot}* QCPBarsGroup::mParentPlot{\f2 [protected]}}}
+\par
+{\bkmkstart AAAAAAABOD}
+{\bkmkend AAAAAAABOD}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v mSpacing\:QCPBarsGroup}
+{\xe \v QCPBarsGroup\:mSpacing}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+double QCPBarsGroup::mSpacing{\f2 [protected]}}}
+\par
+{\bkmkstart AAAAAAABOE}
+{\bkmkend AAAAAAABOE}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v mSpacingType\:QCPBarsGroup}
+{\xe \v QCPBarsGroup\:mSpacingType}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b SpacingType} QCPBarsGroup::mSpacingType{\f2 [protected]}}}
+\par
+{\bkmkstart AAAAAAABOF}
+{\bkmkend AAAAAAABOF}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+A documentação para essa classe foi gerada a partir dos seguintes arquivos:{\par
+\pard\plain \s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid 
+{\b qcustomplot.h}\par
+\pard\plain \s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid 
+{\b qcustomplot.cpp}\par
+}}

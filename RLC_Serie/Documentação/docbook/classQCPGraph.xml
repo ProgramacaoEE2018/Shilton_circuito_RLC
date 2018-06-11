@@ -1,0 +1,2262 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="classQCPGraph">
+<title>QCPGraph class Reference</title>
+<para>
+    <programlisting>#include <link linkend="qcustomplot_8h">&lt;qcustomplot.h&gt;</link></programlisting>
+</para>
+<para>Inheritance diagram for QCPGraph</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="classQCPGraph__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for QCPGraph</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="classQCPGraph__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                            <para><literallayout>enum <link linkend="classQCPGraph_1ad60175cd9b5cac937c5ee685c32c0859">LineStyle</link> {
+<link linkend="classQCPGraph_1ad60175cd9b5cac937c5ee685c32c0859aea9591b933733cc7b20786b71e60fa04">lsNone</link>,
+<link linkend="classQCPGraph_1ad60175cd9b5cac937c5ee685c32c0859a3c42a27b15aa3c92d399082fad8b7515">lsLine</link>,
+<link linkend="classQCPGraph_1ad60175cd9b5cac937c5ee685c32c0859ae10568bda57836487d9dec5eba1d6c6e">lsStepLeft</link>,
+<link linkend="classQCPGraph_1ad60175cd9b5cac937c5ee685c32c0859a9c37951f7d11aa070100fd16f2935c9e">lsStepRight</link>,
+<link linkend="classQCPGraph_1ad60175cd9b5cac937c5ee685c32c0859a5adf7b04da215a40a764c21294ea7366">lsStepCenter</link>,
+<link linkend="classQCPGraph_1ad60175cd9b5cac937c5ee685c32c0859aa3b358b4ae7cca94aceeb8e529c12ebb">lsImpulse</link>
+}</literallayout>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title>Atributos Protegidos</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>LineStyle mLineStyle</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QCPScatterStyle mScatterStyle</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>int mScatterSkip</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPointer&lt; QCPGraph &gt; mChannelFillGraph</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool mAdaptiveSampling</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QSharedPointer&lt; QCPDataContainer&lt; QCPGraphData &gt; &gt; mDataContainer</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QString mName</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool mAntialiasedFill</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool mAntialiasedScatters</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPen mPen</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QBrush mBrush</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPointer&lt; QCPAxis &gt; mKeyAxis</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPointer&lt; QCPAxis &gt; mValueAxis</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QCP::SelectionType mSelectable</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QCPDataSelection mSelection</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QCPSelectionDecorator * mSelectionDecorator</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool mVisible</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QCustomPlot * mParentPlot</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPointer&lt; QCPLayerable &gt; mParentLayerable</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QCPLayer * mLayer</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool mAntialiased</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="classQCPGraph_1a0393a38cf7183cbf46348eb6cf9a5a6c">QCPGraph</link> (
+<link linkend="classQCPAxis">QCPAxis</link> * keyAxis, <link linkend="classQCPAxis">QCPAxis</link> * valueAxis)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual <link linkend="classQCPGraph_1ae9998cfb9d379ac0ef3fbd6995cfbd76">~QCPGraph</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QSharedPointer&lt; <link linkend="qcustomplot_8h_1a2e5583d1ae212f0deb10537cf975a15a">QCPGraphDataContainer</link> &gt; <link linkend="classQCPGraph_1a141aa31a1f19bbd0ce60f55eaeb9ea60">data</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="classQCPGraph_1ad60175cd9b5cac937c5ee685c32c0859">LineStyle</link> <link linkend="classQCPGraph_1ac3e6f4b3387338df45992b47691b2551">lineStyle</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="classQCPScatterStyle">QCPScatterStyle</link> <link linkend="classQCPGraph_1a36d5b641db08e27527827c212542bbbd">scatterStyle</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>int <link linkend="classQCPGraph_1a44487a3a706605bb9fc97ad5e05d347e">scatterSkip</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="classQCPGraph">QCPGraph</link> * <link linkend="classQCPGraph_1a84277b1655474453a5c83318053414d5">channelFillGraph</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="classQCPGraph_1a1ba934b9621270b9a40fcdd2d9ba2adb">adaptiveSampling</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPGraph_1a1eae9429a316b008e2d99b2d65a54395">setData</link> (
+QSharedPointer&lt; <link linkend="qcustomplot_8h_1a2e5583d1ae212f0deb10537cf975a15a">QCPGraphDataContainer</link> &gt; data)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPGraph_1a73578d786532132310a926c3cd529b29">setData</link> (
+const QVector&lt; double &gt; &amp; keys, const QVector&lt; double &gt; &amp; values, bool alreadySorted)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPGraph_1a513fecccff5b2a50ce53f665338c60ff">setLineStyle</link> (
+<link linkend="classQCPGraph_1ad60175cd9b5cac937c5ee685c32c0859">LineStyle</link> ls)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPGraph_1a12bd17a8ba21983163ec5d8f42a9fea5">setScatterStyle</link> (
+const <link linkend="classQCPScatterStyle">QCPScatterStyle</link> &amp; style)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPGraph_1a17cebd3196f434258abb82ba6dc443f2">setScatterSkip</link> (
+int skip)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPGraph_1a2d03156df1b64037a2e36cfa50351ca3">setChannelFillGraph</link> (
+<link linkend="classQCPGraph">QCPGraph</link> * targetGraph)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPGraph_1ab468cd600160f327836aa0644291e64c">setAdaptiveSampling</link> (
+bool enabled)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPGraph_1ae0555c0d3fe0fa7cb8628f88158d420f">addData</link> (
+const QVector&lt; double &gt; &amp; keys, const QVector&lt; double &gt; &amp; values, bool alreadySorted)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPGraph_1a0bf98b1972286cfb7b1c4b7dd6ae2012">addData</link> (
+double key, double value)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual double <link linkend="classQCPGraph_1a6d669d04462d272c6aa0e5f85846d673">selectTest</link> (
+const QPointF &amp; pos, bool onlySelectable, QVariant * details)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual <link linkend="classQCPRange">QCPRange</link> <link linkend="classQCPGraph_1aac47c6189e3aea46ea46939e5d14796c">getKeyRange</link> (
+bool &amp; foundRange, <link linkend="namespaceQCP_1afd50e7cf431af385614987d8553ff8a9">QCP::SignDomain</link> inSignDomain)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual <link linkend="classQCPRange">QCPRange</link> <link linkend="classQCPGraph_1a8f773e56f191a61c06e129e90a604d77">getValueRange</link> (
+bool &amp; foundRange, <link linkend="namespaceQCP_1afd50e7cf431af385614987d8553ff8a9">QCP::SignDomain</link> inSignDomain, const <link linkend="classQCPRange">QCPRange</link> &amp; inKeyRange)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual int <link linkend="classQCPAbstractPlottable1D_1ab5dd99e4f1621e7dbd63438e0b02984e">dataCount</link> (
+)<para><emphasis>\copybrief QCPPlottableInterface1D::dataCount</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual double <link linkend="classQCPAbstractPlottable1D_1aeb156ebf5d3c8de906b428be30733ad8">dataMainKey</link> (
+int index)<para><emphasis>\copybrief QCPPlottableInterface1D::dataMainKey</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual double <link linkend="classQCPAbstractPlottable1D_1aa8277da921b009bce474437d50b4a2d8">dataSortKey</link> (
+int index)<para><emphasis>\copybrief QCPPlottableInterface1D::dataSortKey</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual double <link linkend="classQCPAbstractPlottable1D_1a6be0f657ba85a1688336d76ad649ecf2">dataMainValue</link> (
+int index)<para><emphasis>\copybrief QCPPlottableInterface1D::dataMainValue</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual <link linkend="classQCPRange">QCPRange</link> <link linkend="classQCPAbstractPlottable1D_1a55f937ba6a63e56e57f0b1a6e85a333a">dataValueRange</link> (
+int index)<para><emphasis>\copybrief QCPPlottableInterface1D::dataValueRange</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual QPointF <link linkend="classQCPAbstractPlottable1D_1a6ca0699a6af5f25a7565de7c50ce13b2">dataPixelPosition</link> (
+int index)<para><emphasis>\copybrief QCPPlottableInterface1D::dataPixelPosition</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual bool <link linkend="classQCPAbstractPlottable1D_1afe0d56e39cc076032922f059b304c092">sortKeyIsMainKey</link> (
+)<para><emphasis>\copybrief QCPPlottableInterface1D::sortKeyIsMainKey</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual <link linkend="classQCPDataSelection">QCPDataSelection</link> <link linkend="classQCPAbstractPlottable1D_1a22377bf6e57ab7eedbc9e489250c6ded">selectTestRect</link> (
+const QRectF &amp; rect, bool onlySelectable)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual int <link linkend="classQCPAbstractPlottable1D_1ad0b46d25cde3d035b180fb8f10c056e6">findBegin</link> (
+double sortKey, bool expandedRange)<para><emphasis>\copybrief QCPPlottableInterface1D::findBegin</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual int <link linkend="classQCPAbstractPlottable1D_1a6e3ba20c9160d7361e58070390d10b1a">findEnd</link> (
+double sortKey, bool expandedRange)<para><emphasis>\copybrief QCPPlottableInterface1D::findEnd</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual <link linkend="classQCPPlottableInterface1D">QCPPlottableInterface1D</link> * <link linkend="classQCPAbstractPlottable1D_1ac58fb47bfe330f6931ed8e64326387d7">interface1D</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QString <link linkend="classQCPAbstractPlottable_1a52c226eefcb1920240eeabae574d28c0">name</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="classQCPAbstractPlottable_1a022717896dc57b638a7b5a7be7212ba9">antialiasedFill</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="classQCPAbstractPlottable_1a795370db6b1309de0ab60b633efb5ec2">antialiasedScatters</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPen <link linkend="classQCPAbstractPlottable_1ad5972efc31344e5a7a78ab4f8864b2d3">pen</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QBrush <link linkend="classQCPAbstractPlottable_1a893b4896dfd92b68b05b2600b80f5826">brush</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="classQCPAxis">QCPAxis</link> * <link linkend="classQCPAbstractPlottable_1a2cdd6f0dd5e9a979037f86b4000d9cfe">keyAxis</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="classQCPAxis">QCPAxis</link> * <link linkend="classQCPAbstractPlottable_1af47809a644a68ffd955fb30b01fb4f2f">valueAxis</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="namespaceQCP_1ac6cb9db26a564b27feda362a438db038">QCP::SelectionType</link> <link linkend="classQCPAbstractPlottable_1a016653741033bd332d1d4c3c725cc284">selectable</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="classQCPAbstractPlottable_1a0b3b514474fe93354fc74cfc144184b4">selected</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="classQCPDataSelection">QCPDataSelection</link> <link linkend="classQCPAbstractPlottable_1a040bf09f41d456284cfd39cc37aa068f">selection</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="classQCPSelectionDecorator">QCPSelectionDecorator</link> * <link linkend="classQCPAbstractPlottable_1a7861518e47ca0c6a0c386032c2db075e">selectionDecorator</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPAbstractPlottable_1ab79c7ba76bc7fa89a4b3580e12149f1f">setName</link> (
+const QString &amp; name)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPAbstractPlottable_1a089d6b5577120239b55c39ed27c39536">setAntialiasedFill</link> (
+bool enabled)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPAbstractPlottable_1a2f03f067ede2ed4da6f7d0e4777a3f02">setAntialiasedScatters</link> (
+bool enabled)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPAbstractPlottable_1ab74b09ae4c0e7e13142fe4b5bf46cac7">setPen</link> (
+const QPen &amp; pen)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPAbstractPlottable_1a7a4b92144dca6453a1f0f210e27edc74">setBrush</link> (
+const QBrush &amp; brush)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPAbstractPlottable_1a8524fa2994c63c0913ebd9bb2ffa3920">setKeyAxis</link> (
+<link linkend="classQCPAxis">QCPAxis</link> * axis)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPAbstractPlottable_1a71626a07367e241ec62ad2c34baf21cb">setValueAxis</link> (
+<link linkend="classQCPAxis">QCPAxis</link> * axis)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>Q_SLOT void <link linkend="classQCPAbstractPlottable_1ac238d6e910f976f1f30d41c2bca44ac3">setSelectable</link> (
+<link linkend="namespaceQCP_1ac6cb9db26a564b27feda362a438db038">QCP::SelectionType</link> selectable)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>Q_SLOT void <link linkend="classQCPAbstractPlottable_1a219bc5403a9d85d3129165ec3f5ae436">setSelection</link> (
+<link linkend="classQCPDataSelection">QCPDataSelection</link> selection)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPAbstractPlottable_1a20e266ad646f8c4a7e4631040510e5d9">setSelectionDecorator</link> (
+<link linkend="classQCPSelectionDecorator">QCPSelectionDecorator</link> * decorator)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPAbstractPlottable_1a7ad84a36472441cf1f555c5683d0da93">coordsToPixels</link> (
+double key, double value, double &amp; x, double &amp; y)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const QPointF <link linkend="classQCPAbstractPlottable_1a5acb50ae984eef09a7ab92315d2ad708">coordsToPixels</link> (
+double key, double value)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPAbstractPlottable_1a3903c1120ab5c27e7fa46b597ef267bd">pixelsToCoords</link> (
+double x, double y, double &amp; key, double &amp; value)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPAbstractPlottable_1a28d32c0062b9450847851ffdee1c5f69">pixelsToCoords</link> (
+const QPointF &amp; pixelPos, double &amp; key, double &amp; value)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPAbstractPlottable_1a1491c4a606bccd2d09e65e11b79eb882">rescaleAxes</link> (
+bool onlyEnlarge)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPAbstractPlottable_1ae96b83c961e257da116c6acf9c7da308">rescaleKeyAxis</link> (
+bool onlyEnlarge)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPAbstractPlottable_1a714eaf36b12434cd71846215504db82e">rescaleValueAxis</link> (
+bool onlyEnlarge, bool inKeyRange)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="classQCPAbstractPlottable_1aa64e93cb5b606d8110d2cc0a349bb30f">addToLegend</link> (
+<link linkend="classQCPLegend">QCPLegend</link> * legend)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="classQCPAbstractPlottable_1a70f8cabfd808f7d5204b9f18c45c13f5">addToLegend</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="classQCPAbstractPlottable_1a3cc235007e2343a65ad4f463767e0e20">removeFromLegend</link> (
+<link linkend="classQCPLegend">QCPLegend</link> * legend)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="classQCPAbstractPlottable_1ac95fb2604d9106d0852ad9ceb326fe8c">removeFromLegend</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="classQCPLayerable_1af0297b944b6192b6d67d00bff41b6b70">visible</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="classQCustomPlot">QCustomPlot</link> * <link linkend="classQCPLayerable_1a473edb813a4c1929d6b6a8fe3ff3faf7">parentPlot</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="classQCPLayerable">QCPLayerable</link> * <link linkend="classQCPLayerable_1aa78b7e644d2c519e1a9a6f2ac5fcd858">parentLayerable</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="classQCPLayer">QCPLayer</link> * <link linkend="classQCPLayerable_1a5ff4862e8c784c9f5986dbc1533ba2a4">layer</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="classQCPLayerable_1a71cbd212fde2703cee076e204a475709">antialiased</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPLayerable_1a3bed99ddc396b48ce3ebfdc0418744f8">setVisible</link> (
+bool on)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>Q_SLOT bool <link linkend="classQCPLayerable_1ab0d0da6d2de45a118886d2c8e16d5a54">setLayer</link> (
+<link linkend="classQCPLayer">QCPLayer</link> * layer)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="classQCPLayerable_1ab25a0e7b897993b44447caee0f142083">setLayer</link> (
+const QString &amp; layerName)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPLayerable_1a4fd43e89be4a553ead41652565ff0581">setAntialiased</link> (
+bool enabled)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="classQCPLayerable_1ab054e88f15d485defcb95e7376f119e7">realVisibility</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="classQCPGraph_1a2b0849598f06e834b43ce18cd13bcdc3">draw</link> (
+<link linkend="classQCPPainter">QCPPainter</link> * painter)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="classQCPGraph_1a6efbab06c400bdb15e28b2d0a4ecc18a">drawLegendIcon</link> (
+<link linkend="classQCPPainter">QCPPainter</link> * painter, const QRectF &amp; rect)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="classQCPGraph_1a67c5ea573f604efd8bf121a0b7a380d1">drawFill</link> (
+<link linkend="classQCPPainter">QCPPainter</link> * painter, QVector&lt; QPointF &gt; * lines)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="classQCPGraph_1abeb0bbe81026c024bf3d508d13cf5e0e">drawScatterPlot</link> (
+<link linkend="classQCPPainter">QCPPainter</link> * painter, const QVector&lt; QPointF &gt; &amp; scatters, const <link linkend="classQCPScatterStyle">QCPScatterStyle</link> &amp; style)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="classQCPGraph_1a4c3edacb2a11064bf2e16b322156aeda">drawLinePlot</link> (
+<link linkend="classQCPPainter">QCPPainter</link> * painter, const QVector&lt; QPointF &gt; &amp; lines)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="classQCPGraph_1a217ef6bf6c5689eb1dcbe02187d2cc61">drawImpulsePlot</link> (
+<link linkend="classQCPPainter">QCPPainter</link> * painter, const QVector&lt; QPointF &gt; &amp; lines)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="classQCPGraph_1a1fed1c9d627d9d3b49a6206cc2e60fe1">getOptimizedLineData</link> (
+QVector&lt; <link linkend="classQCPGraphData">QCPGraphData</link> &gt; * lineData, const <link linkend="classQCPDataContainer_1ae40a91f5cb0bcac61d727427449b7d15">QCPGraphDataContainer::const_iterator</link> &amp; begin, const <link linkend="classQCPDataContainer_1ae40a91f5cb0bcac61d727427449b7d15">QCPGraphDataContainer::const_iterator</link> &amp; end)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="classQCPGraph_1a5423245898537e375b9364cf26e89aea">getOptimizedScatterData</link> (
+QVector&lt; <link linkend="classQCPGraphData">QCPGraphData</link> &gt; * scatterData, <link linkend="classQCPDataContainer_1ae40a91f5cb0bcac61d727427449b7d15">QCPGraphDataContainer::const_iterator</link> begin, <link linkend="classQCPDataContainer_1ae40a91f5cb0bcac61d727427449b7d15">QCPGraphDataContainer::const_iterator</link> end)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPGraph_1a8599447a7f8cbbdcf0b94edcc11df560">getVisibleDataBounds</link> (
+<link linkend="classQCPDataContainer_1ae40a91f5cb0bcac61d727427449b7d15">QCPGraphDataContainer::const_iterator</link> &amp; begin, <link linkend="classQCPDataContainer_1ae40a91f5cb0bcac61d727427449b7d15">QCPGraphDataContainer::const_iterator</link> &amp; end, const <link linkend="classQCPDataRange">QCPDataRange</link> &amp; rangeRestriction)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPGraph_1a563c6da2126300a4d9d2bdee30dad040">getLines</link> (
+QVector&lt; QPointF &gt; * lines, const <link linkend="classQCPDataRange">QCPDataRange</link> &amp; dataRange)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPGraph_1a9d7ba5904fdcaca413222335d4b283c3">getScatters</link> (
+QVector&lt; QPointF &gt; * scatters, const <link linkend="classQCPDataRange">QCPDataRange</link> &amp; dataRange)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QVector&lt; QPointF &gt; <link linkend="classQCPGraph_1a0085ee728fdd72a827c1e6ced4476363">dataToLines</link> (
+const QVector&lt; <link linkend="classQCPGraphData">QCPGraphData</link> &gt; &amp; data)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QVector&lt; QPointF &gt; <link linkend="classQCPGraph_1a1f3e9e41fc67538c4940c74665840474">dataToStepLeftLines</link> (
+const QVector&lt; <link linkend="classQCPGraphData">QCPGraphData</link> &gt; &amp; data)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QVector&lt; QPointF &gt; <link linkend="classQCPGraph_1ab1fb6cb91d24a854f85bf54200f6d101">dataToStepRightLines</link> (
+const QVector&lt; <link linkend="classQCPGraphData">QCPGraphData</link> &gt; &amp; data)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QVector&lt; QPointF &gt; <link linkend="classQCPGraph_1a238116f1898c49cb8209d61707b5b367">dataToStepCenterLines</link> (
+const QVector&lt; <link linkend="classQCPGraphData">QCPGraphData</link> &gt; &amp; data)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QVector&lt; QPointF &gt; <link linkend="classQCPGraph_1a2a958a5c6a6e1e4a03556be88b6fe37e">dataToImpulseLines</link> (
+const QVector&lt; <link linkend="classQCPGraphData">QCPGraphData</link> &gt; &amp; data)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QVector&lt; <link linkend="classQCPDataRange">QCPDataRange</link> &gt; <link linkend="classQCPGraph_1a0e0886b9ec7731d8993bbb104465f3b9">getNonNanSegments</link> (
+const QVector&lt; QPointF &gt; * lineData, Qt::Orientation keyOrientation)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QVector&lt; QPair&lt; <link linkend="classQCPDataRange">QCPDataRange</link>, <link linkend="classQCPDataRange">QCPDataRange</link> &gt; &gt; <link linkend="classQCPGraph_1a334b15c43ee1855bf724daf886e8530e">getOverlappingSegments</link> (
+QVector&lt; <link linkend="classQCPDataRange">QCPDataRange</link> &gt; thisSegments, const QVector&lt; QPointF &gt; * thisData, QVector&lt; <link linkend="classQCPDataRange">QCPDataRange</link> &gt; otherSegments, const QVector&lt; QPointF &gt; * otherData)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="classQCPGraph_1abb9c674b207a1f6df5e083aa9f3e071a">segmentsIntersect</link> (
+double aLower, double aUpper, double bLower, double bUpper, int &amp; bPrecedence)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPointF <link linkend="classQCPGraph_1a13f2c756f3114703159c2e604783e208">getFillBasePoint</link> (
+QPointF matchingDataPoint)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const QPolygonF <link linkend="classQCPGraph_1af73d5fe97cde966785bfd67201e44391">getFillPolygon</link> (
+const QVector&lt; QPointF &gt; * lineData, <link linkend="classQCPDataRange">QCPDataRange</link> segment)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const QPolygonF <link linkend="classQCPGraph_1a9a5bdd5cb695d95d3eea80cfe96c5118">getChannelFillPolygon</link> (
+const QVector&lt; QPointF &gt; * lineData, <link linkend="classQCPDataRange">QCPDataRange</link> thisSegment, const QVector&lt; QPointF &gt; * otherData, <link linkend="classQCPDataRange">QCPDataRange</link> otherSegment)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>int <link linkend="classQCPGraph_1a8c3f15dd5a06633011a6ef36016d308b">findIndexBelowX</link> (
+const QVector&lt; QPointF &gt; * data, double x)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>int <link linkend="classQCPGraph_1aaabd6c6a7200a2672c44e62bd2a1cafa">findIndexAboveX</link> (
+const QVector&lt; QPointF &gt; * data, double x)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>int <link linkend="classQCPGraph_1a5b0291f248e8ca8eaa82833ab420dcd0">findIndexBelowY</link> (
+const QVector&lt; QPointF &gt; * data, double y)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>int <link linkend="classQCPGraph_1a8b952a5f937840dc242489585cc8000d">findIndexAboveY</link> (
+const QVector&lt; QPointF &gt; * data, double y)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double <link linkend="classQCPGraph_1a89acf99c0b52b8eecb2438adf7ec0170">pointDistance</link> (
+const QPointF &amp; pixelPoint, <link linkend="classQCPDataContainer_1ae40a91f5cb0bcac61d727427449b7d15">QCPGraphDataContainer::const_iterator</link> &amp; closestData)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPAbstractPlottable1D_1ae890e62ce403c54f575c73b9529f1af8">getDataSegments</link> (
+QList&lt; <link linkend="classQCPDataRange">QCPDataRange</link> &gt; &amp; selectedSegments, QList&lt; <link linkend="classQCPDataRange">QCPDataRange</link> &gt; &amp; unselectedSegments)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPAbstractPlottable1D_1a7adc6c3cccebb5341f11e0c2b7d54206">drawPolyline</link> (
+<link linkend="classQCPPainter">QCPPainter</link> * painter, const QVector&lt; QPointF &gt; &amp; lineData)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual QRect <link linkend="classQCPAbstractPlottable_1a635cee3effc07ad421414c76fd83548c">clipRect</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual <link linkend="namespaceQCP_1a2ad6bb6281c7c2d593d4277b44c2b037">QCP::Interaction</link> <link linkend="classQCPAbstractPlottable_1af80ad8531642e786b6f4fad551c203c4">selectionCategory</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPAbstractPlottable_1ac032077fb0db93d6faa3273d02363398">applyDefaultAntialiasingHint</link> (
+<link linkend="classQCPPainter">QCPPainter</link> * painter)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="classQCPAbstractPlottable_1a2d488568cf16600dd81fa23d7d439829">selectEvent</link> (
+QMouseEvent * event, bool additive, const QVariant &amp; details, bool * selectionStateChanged)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="classQCPAbstractPlottable_1a9b104d9da4f38f934363945c313bf82e">deselectEvent</link> (
+bool * selectionStateChanged)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPAbstractPlottable_1a8d06a59ea23324cce6330ebf2262c0ed">applyFillAntialiasingHint</link> (
+<link linkend="classQCPPainter">QCPPainter</link> * painter)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPAbstractPlottable_1ac95f26b15a1e5d9c7bd2c0a46d760fc9">applyScattersAntialiasingHint</link> (
+<link linkend="classQCPPainter">QCPPainter</link> * painter)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="classQCPLayerable_1ab20b7dbd8e0249ed61adb9622c427382">parentPlotInitialized</link> (
+<link linkend="classQCustomPlot">QCustomPlot</link> * parentPlot)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="classQCPLayerable_1af6567604818db90f4fd52822f8bc8376">mousePressEvent</link> (
+QMouseEvent * event, const QVariant &amp; details)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="classQCPLayerable_1a9eee1ba47fd69be111059ca3881933e4">mouseMoveEvent</link> (
+QMouseEvent * event, const QPointF &amp; startPos)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="classQCPLayerable_1aa0d79b005686f668622bbe66ac03ba2c">mouseReleaseEvent</link> (
+QMouseEvent * event, const QPointF &amp; startPos)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="classQCPLayerable_1a4171e2e823aca242dd0279f00ed2de81">mouseDoubleClickEvent</link> (
+QMouseEvent * event, const QVariant &amp; details)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="classQCPLayerable_1a47dfd7b8fd99c08ca54e09c362b6f022">wheelEvent</link> (
+QWheelEvent * event)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPLayerable_1a8cbe5a0c9a5674249982f5ca5f8e02bc">initializeParentPlot</link> (
+<link linkend="classQCustomPlot">QCustomPlot</link> * parentPlot)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPLayerable_1aa23c893671f1f6744ac235cf2204cf3a">setParentLayerable</link> (
+<link linkend="classQCPLayerable">QCPLayerable</link> * parentLayerable)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="classQCPLayerable_1af94484cfb7cbbddb7de522e9be71d9a4">moveToLayer</link> (
+<link linkend="classQCPLayer">QCPLayer</link> * layer, bool prepend)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPLayerable_1acb663e375d2d36dc5c55021ee5a2119b">applyAntialiasingHint</link> (
+<link linkend="classQCPPainter">QCPPainter</link> * painter, bool localAntialiased, <link linkend="namespaceQCP_1ae55dbe315d41fe80f29ba88100843a0c">QCP::AntialiasedElement</link> overrideElement)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+    <simplesect>
+
+<para>A plottable representing a graph in a plot. </para>
+    </simplesect>
+        <simplesect>
+            <title>Descrição detalhada</title>
+
+<para></para>
+
+<para>Usually you create new graphs by calling <link linkend="classQCustomPlot_1a6fb2873d35a8a8089842d81a70a54167">QCustomPlot::addGraph</link>. The resulting instance can be accessed via <link linkend="classQCustomPlot_1a6ecae130f684b25276fb47bd3a5875c6">QCustomPlot::graph</link>.</para>
+
+<para>To plot data, assign it with the <link linkend="classQCPGraph_1a1eae9429a316b008e2d99b2d65a54395">setData</link> or <link linkend="classQCPGraph_1ae0555c0d3fe0fa7cb8628f88158d420f">addData</link> functions. Alternatively, you can also access and modify the data via the <link linkend="classQCPGraph_1a141aa31a1f19bbd0ce60f55eaeb9ea60">data</link> method, which returns a pointer to the internal <link linkend="qcustomplot_8h_1a2e5583d1ae212f0deb10537cf975a15a">QCPGraphDataContainer</link>.</para>
+
+<para>Graphs are used to display single-valued data. Single-valued means that there should only be one data point per unique key coordinate. In other words, the graph can&apos;t have <emphasis>loops</emphasis>. If you do want to plot non-single-valued curves, rather use the <link linkend="classQCPCurve">QCPCurve</link> plottable.</para>
+
+<para>Gaps in the graph line can be created by adding data points with NaN as value (<computeroutput>qQNaN()</computeroutput> or <computeroutput>std::numeric_limits&lt;double&gt;::quiet_NaN()</computeroutput>) in between the two data points that shall be separated.</para>
+<section xml:id="classQCPGraph_1qcpgraph-appearance">
+<title>Changing the appearance</title>
+
+<para>The appearance of the graph is mainly determined by the line style, scatter style, brush and pen of the graph (<link linkend="classQCPGraph_1a513fecccff5b2a50ce53f665338c60ff">setLineStyle</link>, <link linkend="classQCPGraph_1a12bd17a8ba21983163ec5d8f42a9fea5">setScatterStyle</link>, <link linkend="classQCPAbstractPlottable_1a7a4b92144dca6453a1f0f210e27edc74">setBrush</link>, <link linkend="classQCPAbstractPlottable_1ab74b09ae4c0e7e13142fe4b5bf46cac7">setPen</link>).</para>
+<section xml:id="classQCPGraph_1filling">
+<title>Filling under or between graphs</title>
+
+<para><link linkend="classQCPGraph">QCPGraph</link> knows two types of fills: Normal graph fills towards the zero-value-line parallel to the key axis of the graph, and fills between two graphs, called channel fills. To enable a fill, just set a brush with <link linkend="classQCPAbstractPlottable_1a7a4b92144dca6453a1f0f210e27edc74">setBrush</link> which is neither Qt::NoBrush nor fully transparent.</para>
+
+<para>By default, a normal fill towards the zero-value-line will be drawn. To set up a channel fill between this graph and another one, call <link linkend="classQCPGraph_1a2d03156df1b64037a2e36cfa50351ca3">setChannelFillGraph</link> with the other graph as parameter.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCustomPlot_1a6fb2873d35a8a8089842d81a70a54167">QCustomPlot::addGraph</link>, <link linkend="classQCustomPlot_1a6ecae130f684b25276fb47bd3a5875c6">QCustomPlot::graph</link> </para>
+</formalpara>
+</para>
+</section>
+</section>
+                <para>Definition at line 5153 of file qcustomplot.h</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>qcustomplot.h</para></listitem></itemizedlist></para>
+        </simplesect>
+            <section xml:id="classQCPGraph_1ad60175cd9b5cac937c5ee685c32c0859">
+               <title>enum LineStyle </title>
+               
+<para>Defines how the graph&apos;s line is represented visually in the plot. The line is drawn with the current pen of the graph (<link linkend="classQCPAbstractPlottable_1ab74b09ae4c0e7e13142fe4b5bf46cac7">setPen</link>). <formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPGraph_1a513fecccff5b2a50ce53f665338c60ff">setLineStyle</link> </para>
+</formalpara>
+</para>
+
+               <formalpara>
+                    <title>Enumeradores:</title>
+                    <variablelist>
+                        <varlistentry xml:id="classQCPGraph_1ad60175cd9b5cac937c5ee685c32c0859aea9591b933733cc7b20786b71e60fa04">
+                            <term>lsNone</term>
+                            <listitem>
+                                <para></para>
+                            </listitem>
+                        </varlistentry>
+                        <varlistentry xml:id="classQCPGraph_1ad60175cd9b5cac937c5ee685c32c0859a3c42a27b15aa3c92d399082fad8b7515">
+                            <term>lsLine</term>
+                            <listitem>
+                                <para>data points are connected by a straight line</para>
+                            </listitem>
+                        </varlistentry>
+                        <varlistentry xml:id="classQCPGraph_1ad60175cd9b5cac937c5ee685c32c0859ae10568bda57836487d9dec5eba1d6c6e">
+                            <term>lsStepLeft</term>
+                            <listitem>
+                                <para>line is drawn as steps where the step height is the value of the left data point</para>
+                            </listitem>
+                        </varlistentry>
+                        <varlistentry xml:id="classQCPGraph_1ad60175cd9b5cac937c5ee685c32c0859a9c37951f7d11aa070100fd16f2935c9e">
+                            <term>lsStepRight</term>
+                            <listitem>
+                                <para>line is drawn as steps where the step height is the value of the right data point</para>
+                            </listitem>
+                        </varlistentry>
+                        <varlistentry xml:id="classQCPGraph_1ad60175cd9b5cac937c5ee685c32c0859a5adf7b04da215a40a764c21294ea7366">
+                            <term>lsStepCenter</term>
+                            <listitem>
+                                <para>line is drawn as steps where the step is in between two data points</para>
+                            </listitem>
+                        </varlistentry>
+                        <varlistentry xml:id="classQCPGraph_1ad60175cd9b5cac937c5ee685c32c0859aa3b358b4ae7cca94aceeb8e529c12ebb">
+                            <term>lsImpulse</term>
+                            <listitem>
+                                <para>each data point is represented by a line parallel to the value axis, which reaches from the data point to the zero-value-line</para>
+                            </listitem>
+                        </varlistentry>
+                     </variablelist>
+                </formalpara>
+                <para>Definition at line 5168 of file qcustomplot.h
+                    <computeroutput><literallayout>
+{
+lsNone, 
+lsLine, 
+lsStepLeft, 
+lsStepRight, 
+lsStepCenter, 
+lsImpulse, 
+}LineStyle;
+                    </literallayout></computeroutput>
+                </para>
+            </section>
+        <section>
+            <title>Atributos</title>
+        </section>
+            <section xml:id="classQCPGraph_1a0393a38cf7183cbf46348eb6cf9a5a6c">
+                <title>QCPGraph::QCPGraph (QCPAxis *keyAxis, QCPAxis *valueAxis)</title> <emphasis></emphasis>
+                
+<para>Constructs a graph which uses <emphasis>keyAxis</emphasis> as its key axis (&quot;x&quot;) and <emphasis>valueAxis</emphasis> as its value axis (&quot;y&quot;). <emphasis>keyAxis</emphasis> and <emphasis>valueAxis</emphasis> must reside in the same <link linkend="classQCustomPlot">QCustomPlot</link> instance and not have the same orientation. If either of these restrictions is violated, a corresponding message is printed to the debug output (qDebug), the construction is not aborted, though.</para>
+
+<para>The created <link linkend="classQCPGraph">QCPGraph</link> is automatically registered with the <link linkend="classQCustomPlot">QCustomPlot</link> instance inferred from <emphasis>keyAxis</emphasis>. This <link linkend="classQCustomPlot">QCustomPlot</link> instance takes ownership of the <link linkend="classQCPGraph">QCPGraph</link>, so do not delete it manually but use <link linkend="classQCustomPlot_1af3dafd56884208474f311d6226513ab2">QCustomPlot::removePlottable()</link> instead.</para>
+
+<para>To directly create a graph inside a plot, you can also use the simpler <link linkend="classQCustomPlot_1a6fb2873d35a8a8089842d81a70a54167">QCustomPlot::addGraph</link> function. </para>
+
+            </section>
+            <section xml:id="classQCPGraph_1ae9998cfb9d379ac0ef3fbd6995cfbd76">
+                <title>QCPGraph::~QCPGraph ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPGraph_1a141aa31a1f19bbd0ce60f55eaeb9ea60">
+                <title>QSharedPointer&lt; QCPGraphDataContainer &gt; QCPGraph::data () const</title> <emphasis></emphasis>
+                
+<para>Returns a shared pointer to the internal data storage of type <link linkend="qcustomplot_8h_1a2e5583d1ae212f0deb10537cf975a15a">QCPGraphDataContainer</link>. You may use it to directly manipulate the data, which may be more convenient and faster than using the regular <link linkend="classQCPGraph_1a1eae9429a316b008e2d99b2d65a54395">setData</link> or <link linkend="classQCPGraph_1ae0555c0d3fe0fa7cb8628f88158d420f">addData</link> methods. </para>
+
+            </section>
+            <section xml:id="classQCPGraph_1ac3e6f4b3387338df45992b47691b2551">
+                <title>LineStyle QCPGraph::lineStyle () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPGraph_1a36d5b641db08e27527827c212542bbbd">
+                <title>QCPScatterStyle QCPGraph::scatterStyle () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPGraph_1a44487a3a706605bb9fc97ad5e05d347e">
+                <title>int QCPGraph::scatterSkip () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPGraph_1a84277b1655474453a5c83318053414d5">
+                <title>QCPGraph* QCPGraph::channelFillGraph () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPGraph_1a1ba934b9621270b9a40fcdd2d9ba2adb">
+                <title>bool QCPGraph::adaptiveSampling () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPGraph_1a1eae9429a316b008e2d99b2d65a54395">
+                <title>void QCPGraph::setData (QSharedPointer&lt; QCPGraphDataContainer &gt; data)</title> <emphasis></emphasis>
+                
+<para>Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.</para>
+
+<para>Replaces the current data container with the provided <emphasis>data</emphasis> container.</para>
+
+<para>Since a QSharedPointer is used, multiple QCPGraphs may share the same data container safely. Modifying the data in the container will then affect all graphs that share the container. Sharing can be achieved by simply exchanging the data containers wrapped in shared pointers: <literallayout><computeroutput></computeroutput></literallayout> If you do not wish to share containers, but create a copy from an existing container, rather use the <link linkend="classQCPDataContainer_1ae7042bd534fc3ce7befa2ce3f790b5bf">QCPDataContainer&lt;DataType&gt;::set</link> method on the graph&apos;s data container directly: <literallayout><computeroutput></computeroutput></literallayout> <formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPGraph_1ae0555c0d3fe0fa7cb8628f88158d420f">addData</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPGraph_1a73578d786532132310a926c3cd529b29">
+                <title>void QCPGraph::setData (const QVector&lt; double &gt; &amp;keys, const QVector&lt; double &gt; &amp;values, bool alreadySorted=false)</title> <emphasis></emphasis>
+                
+<para>Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.</para>
+
+<para>Replaces the current data with the provided points in <emphasis>keys</emphasis> and <emphasis>values</emphasis>. The provided vectors should have equal length. Else, the number of added points will be the size of the smallest vector.</para>
+
+<para>If you can guarantee that the passed data points are sorted by <emphasis>keys</emphasis> in ascending order, you can set <emphasis>alreadySorted</emphasis> to true, to improve performance by saving a sorting run.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPGraph_1ae0555c0d3fe0fa7cb8628f88158d420f">addData</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPGraph_1a513fecccff5b2a50ce53f665338c60ff">
+                <title>void QCPGraph::setLineStyle (LineStyle ls)</title> <emphasis></emphasis>
+                
+<para>Sets how the single data points are connected in the plot. For scatter-only plots, set <emphasis>ls</emphasis> to <link linkend="classQCPGraph_1ad60175cd9b5cac937c5ee685c32c0859aea9591b933733cc7b20786b71e60fa04">lsNone</link> and <link linkend="classQCPGraph_1a12bd17a8ba21983163ec5d8f42a9fea5">setScatterStyle</link> to the desired scatter style.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPGraph_1a12bd17a8ba21983163ec5d8f42a9fea5">setScatterStyle</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPGraph_1a12bd17a8ba21983163ec5d8f42a9fea5">
+                <title>void QCPGraph::setScatterStyle (const QCPScatterStyle &amp;style)</title> <emphasis></emphasis>
+                
+<para>Sets the visual appearance of single data points in the plot. If set to <link linkend="classQCPScatterStyle_1adb31525af6b680e6f1b7472e43859349abd144c291ca274f77053ec68cab6c022">QCPScatterStyle::ssNone</link>, no scatter points are drawn (e.g. for line-only-plots with appropriate line style).</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPScatterStyle">QCPScatterStyle</link>, <link linkend="classQCPGraph_1a513fecccff5b2a50ce53f665338c60ff">setLineStyle</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPGraph_1a17cebd3196f434258abb82ba6dc443f2">
+                <title>void QCPGraph::setScatterSkip (int skip)</title> <emphasis></emphasis>
+                
+<para>If scatters are displayed (scatter style not <link linkend="classQCPScatterStyle_1adb31525af6b680e6f1b7472e43859349abd144c291ca274f77053ec68cab6c022">QCPScatterStyle::ssNone</link>), <emphasis>skip</emphasis> number of scatter points are skipped/not drawn after every drawn scatter point.</para>
+
+<para>This can be used to make the data appear sparser while for example still having a smooth line, and to improve performance for very high density plots.</para>
+
+<para>If <emphasis>skip</emphasis> is set to 0 (default), all scatter points are drawn.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPGraph_1a12bd17a8ba21983163ec5d8f42a9fea5">setScatterStyle</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPGraph_1a2d03156df1b64037a2e36cfa50351ca3">
+                <title>void QCPGraph::setChannelFillGraph (QCPGraph *targetGraph)</title> <emphasis></emphasis>
+                
+<para>Sets the target graph for filling the area between this graph and <emphasis>targetGraph</emphasis> with the current brush (<link linkend="classQCPAbstractPlottable_1a7a4b92144dca6453a1f0f210e27edc74">setBrush</link>).</para>
+
+<para>When <emphasis>targetGraph</emphasis> is set to 0, a normal graph fill to the zero-value-line will be shown. To disable any filling, set the brush to Qt::NoBrush.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPAbstractPlottable_1a7a4b92144dca6453a1f0f210e27edc74">setBrush</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPGraph_1ab468cd600160f327836aa0644291e64c">
+                <title>void QCPGraph::setAdaptiveSampling (bool enabled)</title> <emphasis></emphasis>
+                
+<para>Sets whether adaptive sampling shall be used when plotting this graph. <link linkend="classQCustomPlot">QCustomPlot</link>&apos;s adaptive sampling technique can drastically improve the replot performance for graphs with a larger number of points (e.g. above 10,000), without notably changing the appearance of the graph.</para>
+
+<para>By default, adaptive sampling is enabled. Even if enabled, <link linkend="classQCustomPlot">QCustomPlot</link> decides whether adaptive sampling shall actually be used on a per-graph basis. So leaving adaptive sampling enabled has no disadvantage in almost all cases.</para>
+
+<para> As can be seen, line plots experience no visual degradation from adaptive sampling. Outliers are reproduced reliably, as well as the overall shape of the data set. The replot time reduces dramatically though. This allows <link linkend="classQCustomPlot">QCustomPlot</link> to display large amounts of data in realtime.</para>
+
+<para> Care must be taken when using high-density scatter plots in combination with adaptive sampling. The adaptive sampling algorithm treats scatter plots more carefully than line plots which still gives a significant reduction of replot times, but not quite as much as for line plots. This is because scatter plots inherently need more data points to be preserved in order to still resemble the original, non-adaptive-sampling plot. As shown above, the results still aren&apos;t quite identical, as banding occurs for the outer data points. This is in fact intentional, such that the boundaries of the data cloud stay visible to the viewer. How strong the banding appears, depends on the point density, i.e. the number of points in the plot.</para>
+
+<para>For some situations with scatter plots it might thus be desirable to manually turn adaptive sampling off. For example, when saving the plot to disk. This can be achieved by setting <emphasis>enabled</emphasis> to false before issuing a command like <link linkend="classQCustomPlot_1ac92cc9256d12f354b40a4be4600b5fb9">QCustomPlot::savePng</link>, and setting <emphasis>enabled</emphasis> back to true afterwards. </para>
+
+            </section>
+            <section xml:id="classQCPGraph_1ae0555c0d3fe0fa7cb8628f88158d420f">
+                <title>void QCPGraph::addData (const QVector&lt; double &gt; &amp;keys, const QVector&lt; double &gt; &amp;values, bool alreadySorted=false)</title> <emphasis></emphasis>
+                
+<para>Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.</para>
+
+<para>Adds the provided points in <emphasis>keys</emphasis> and <emphasis>values</emphasis> to the current data. The provided vectors should have equal length. Else, the number of added points will be the size of the smallest vector.</para>
+
+<para>If you can guarantee that the passed data points are sorted by <emphasis>keys</emphasis> in ascending order, you can set <emphasis>alreadySorted</emphasis> to true, to improve performance by saving a sorting run.</para>
+
+<para>Alternatively, you can also access and modify the data directly via the <link linkend="classQCPGraph_1a141aa31a1f19bbd0ce60f55eaeb9ea60">data</link> method, which returns a pointer to the internal data container. </para>
+
+            </section>
+            <section xml:id="classQCPGraph_1a0bf98b1972286cfb7b1c4b7dd6ae2012">
+                <title>void QCPGraph::addData (double key, double value)</title> <emphasis></emphasis>
+                
+<para>Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.</para>
+
+<para>Adds the provided data point as <emphasis>key</emphasis> and <emphasis>value</emphasis> to the current data.</para>
+
+<para>Alternatively, you can also access and modify the data directly via the <link linkend="classQCPGraph_1a141aa31a1f19bbd0ce60f55eaeb9ea60">data</link> method, which returns a pointer to the internal data container. </para>
+
+            </section>
+            <section xml:id="classQCPGraph_1a6d669d04462d272c6aa0e5f85846d673">
+                <title>double QCPGraph::selectTest (const QPointF &amp;pos, bool onlySelectable, QVariant *details=0) const Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+<para>Implements a point-selection algorithm assuming the data (accessed via the 1D data interface) is point-like. Most subclasses will want to reimplement this method again, to provide a more accurate hit test based on the true data visualization geometry.</para>
+
+            </section>
+            <section xml:id="classQCPGraph_1aac47c6189e3aea46ea46939e5d14796c">
+                <title>QCPRange QCPGraph::getKeyRange (bool &amp;foundRange, QCP::SignDomain inSignDomain=QCP::sdBoth) const Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+<para>Returns the coordinate range that all data in this plottable span in the key axis dimension. For logarithmic plots, one can set <emphasis>inSignDomain</emphasis> to either <link linkend="namespaceQCP_1afd50e7cf431af385614987d8553ff8a9a2d18af0bc58f6528d1e82ce699fe4829">QCP::sdNegative</link> or <link linkend="namespaceQCP_1afd50e7cf431af385614987d8553ff8a9a584784b75fb816abcc627cf743bb699f">QCP::sdPositive</link> in order to restrict the returned range to that sign domain. E.g. when only negative range is wanted, set <emphasis>inSignDomain</emphasis> to <link linkend="namespaceQCP_1afd50e7cf431af385614987d8553ff8a9a2d18af0bc58f6528d1e82ce699fe4829">QCP::sdNegative</link> and all positive points will be ignored for range calculation. For no restriction, just set <emphasis>inSignDomain</emphasis> to <link linkend="namespaceQCP_1afd50e7cf431af385614987d8553ff8a9aa38352ef02d51ddfa4399d9551566e24">QCP::sdBoth</link> (default). <emphasis>foundRange</emphasis> is an output parameter that indicates whether a range could be found or not. If this is false, you shouldn&apos;t use the returned range (e.g. no points in data).</para>
+
+<para>Note that <emphasis>foundRange</emphasis> is not the same as <link linkend="classQCPRange_1ab38bd4841c77c7bb86c9eea0f142dcc0">QCPRange::validRange</link>, since the range returned by this function may have size zero (e.g. when there is only one data point). In this case <emphasis>foundRange</emphasis> would return true, but the returned range is not a valid range in terms of <link linkend="classQCPRange_1ab38bd4841c77c7bb86c9eea0f142dcc0">QCPRange::validRange</link>.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPAbstractPlottable_1a1491c4a606bccd2d09e65e11b79eb882">rescaleAxes</link>, <link linkend="classQCPGraph_1a8f773e56f191a61c06e129e90a604d77">getValueRange</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPGraph_1a8f773e56f191a61c06e129e90a604d77">
+                <title>QCPRange QCPGraph::getValueRange (bool &amp;foundRange, QCP::SignDomain inSignDomain=QCP::sdBoth, const QCPRange &amp;inKeyRange=QCPRange()) const Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+<para>Returns the coordinate range that the data points in the specified key range (<emphasis>inKeyRange</emphasis>) span in the value axis dimension. For logarithmic plots, one can set <emphasis>inSignDomain</emphasis> to either <link linkend="namespaceQCP_1afd50e7cf431af385614987d8553ff8a9a2d18af0bc58f6528d1e82ce699fe4829">QCP::sdNegative</link> or <link linkend="namespaceQCP_1afd50e7cf431af385614987d8553ff8a9a584784b75fb816abcc627cf743bb699f">QCP::sdPositive</link> in order to restrict the returned range to that sign domain. E.g. when only negative range is wanted, set <emphasis>inSignDomain</emphasis> to <link linkend="namespaceQCP_1afd50e7cf431af385614987d8553ff8a9a2d18af0bc58f6528d1e82ce699fe4829">QCP::sdNegative</link> and all positive points will be ignored for range calculation. For no restriction, just set <emphasis>inSignDomain</emphasis> to <link linkend="namespaceQCP_1afd50e7cf431af385614987d8553ff8a9aa38352ef02d51ddfa4399d9551566e24">QCP::sdBoth</link> (default). <emphasis>foundRange</emphasis> is an output parameter that indicates whether a range could be found or not. If this is false, you shouldn&apos;t use the returned range (e.g. no points in data).</para>
+
+<para>If <emphasis>inKeyRange</emphasis> has both lower and upper bound set to zero (is equal to <computeroutput><link linkend="classQCPRange">QCPRange()</link></computeroutput>), all data points are considered, without any restriction on the keys.</para>
+
+<para>Note that <emphasis>foundRange</emphasis> is not the same as <link linkend="classQCPRange_1ab38bd4841c77c7bb86c9eea0f142dcc0">QCPRange::validRange</link>, since the range returned by this function may have size zero (e.g. when there is only one data point). In this case <emphasis>foundRange</emphasis> would return true, but the returned range is not a valid range in terms of <link linkend="classQCPRange_1ab38bd4841c77c7bb86c9eea0f142dcc0">QCPRange::validRange</link>.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPAbstractPlottable_1a1491c4a606bccd2d09e65e11b79eb882">rescaleAxes</link>, <link linkend="classQCPGraph_1aac47c6189e3aea46ea46939e5d14796c">getKeyRange</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPAbstractPlottable1D_1ab5dd99e4f1621e7dbd63438e0b02984e">
+                <title>int QCPAbstractPlottable1D&lt; QCPGraphData  &gt;::dataCount () const Q_DECL_OVERRIDE</title> <emphasis>\copybrief QCPPlottableInterface1D::dataCount</emphasis>
+                
+<para>Returns the number of data points of the plottable. </para>
+
+            </section>
+            <section xml:id="classQCPAbstractPlottable1D_1aeb156ebf5d3c8de906b428be30733ad8">
+                <title>double QCPAbstractPlottable1D&lt; QCPGraphData  &gt;::dataMainKey (int index) const Q_DECL_OVERRIDE</title> <emphasis>\copybrief QCPPlottableInterface1D::dataMainKey</emphasis>
+                
+<para>Returns the main key of the data point at the given <emphasis>index</emphasis>.</para>
+
+<para>What the main key is, is defined by the plottable&apos;s data type. See the <link linkend="classQCPDataContainer_1qcpdatacontainer-datatype">QCPDataContainer DataType</link> documentation for details about this naming convention. </para>
+
+            </section>
+            <section xml:id="classQCPAbstractPlottable1D_1aa8277da921b009bce474437d50b4a2d8">
+                <title>double QCPAbstractPlottable1D&lt; QCPGraphData  &gt;::dataSortKey (int index) const Q_DECL_OVERRIDE</title> <emphasis>\copybrief QCPPlottableInterface1D::dataSortKey</emphasis>
+                
+<para>Returns the sort key of the data point at the given <emphasis>index</emphasis>.</para>
+
+<para>What the sort key is, is defined by the plottable&apos;s data type. See the <link linkend="classQCPDataContainer_1qcpdatacontainer-datatype">QCPDataContainer DataType</link> documentation for details about this naming convention. </para>
+
+            </section>
+            <section xml:id="classQCPAbstractPlottable1D_1a6be0f657ba85a1688336d76ad649ecf2">
+                <title>double QCPAbstractPlottable1D&lt; QCPGraphData  &gt;::dataMainValue (int index) const Q_DECL_OVERRIDE</title> <emphasis>\copybrief QCPPlottableInterface1D::dataMainValue</emphasis>
+                
+<para>Returns the main value of the data point at the given <emphasis>index</emphasis>.</para>
+
+<para>What the main value is, is defined by the plottable&apos;s data type. See the <link linkend="classQCPDataContainer_1qcpdatacontainer-datatype">QCPDataContainer DataType</link> documentation for details about this naming convention. </para>
+
+            </section>
+            <section xml:id="classQCPAbstractPlottable1D_1a55f937ba6a63e56e57f0b1a6e85a333a">
+                <title>QCPRange QCPAbstractPlottable1D&lt; QCPGraphData  &gt;::dataValueRange (int index) const Q_DECL_OVERRIDE</title> <emphasis>\copybrief QCPPlottableInterface1D::dataValueRange</emphasis>
+                
+<para>Returns the value range of the data point at the given <emphasis>index</emphasis>.</para>
+
+<para>What the value range is, is defined by the plottable&apos;s data type. See the <link linkend="classQCPDataContainer_1qcpdatacontainer-datatype">QCPDataContainer DataType</link> documentation for details about this naming convention. </para>
+
+            </section>
+            <section xml:id="classQCPAbstractPlottable1D_1a6ca0699a6af5f25a7565de7c50ce13b2">
+                <title>QPointF QCPAbstractPlottable1D&lt; QCPGraphData  &gt;::dataPixelPosition (int index) const Q_DECL_OVERRIDE</title> <emphasis>\copybrief QCPPlottableInterface1D::dataPixelPosition</emphasis>
+                
+<para>Returns the pixel position on the widget surface at which the data point at the given <emphasis>index</emphasis> appears.</para>
+
+<para>Usually this corresponds to the point of <link linkend="classQCPAbstractPlottable1D_1aeb156ebf5d3c8de906b428be30733ad8">dataMainKey</link>/<link linkend="classQCPAbstractPlottable1D_1a6be0f657ba85a1688336d76ad649ecf2">dataMainValue</link>, in pixel coordinates. However, depending on the plottable, this might be a different apparent position than just a coord-to-pixel transform of those values. For example, <link linkend="classQCPBars">QCPBars</link> apparent data values can be shifted depending on their stacking, bar grouping or configured base value. </para>
+
+            </section>
+            <section xml:id="classQCPAbstractPlottable1D_1afe0d56e39cc076032922f059b304c092">
+                <title>bool QCPAbstractPlottable1D&lt; QCPGraphData  &gt;::sortKeyIsMainKey () const Q_DECL_OVERRIDE</title> <emphasis>\copybrief QCPPlottableInterface1D::sortKeyIsMainKey</emphasis>
+                
+<para>Returns whether the sort key (<link linkend="classQCPAbstractPlottable1D_1aa8277da921b009bce474437d50b4a2d8">dataSortKey</link>) is identical to the main key (<link linkend="classQCPAbstractPlottable1D_1aeb156ebf5d3c8de906b428be30733ad8">dataMainKey</link>).</para>
+
+<para>What the sort and main keys are, is defined by the plottable&apos;s data type. See the <link linkend="classQCPDataContainer_1qcpdatacontainer-datatype">QCPDataContainer DataType</link> documentation for details about this naming convention. </para>
+
+            </section>
+            <section xml:id="classQCPAbstractPlottable1D_1a22377bf6e57ab7eedbc9e489250c6ded">
+                <title>QCPDataSelection QCPAbstractPlottable1D&lt; QCPGraphData  &gt;::selectTestRect (const QRectF &amp;rect, bool onlySelectable) const Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+<para>Implements a rect-selection algorithm assuming the data (accessed via the 1D data interface) is point-like. Most subclasses will want to reimplement this method again, to provide a more accurate hit test based on the true data visualization geometry.</para>
+
+            </section>
+            <section xml:id="classQCPAbstractPlottable1D_1ad0b46d25cde3d035b180fb8f10c056e6">
+                <title>int QCPAbstractPlottable1D&lt; QCPGraphData  &gt;::findBegin (double sortKey, bool expandedRange=true) const Q_DECL_OVERRIDE</title> <emphasis>\copybrief QCPPlottableInterface1D::findBegin</emphasis>
+                
+<para>Returns the index of the data point with a (sort-)key that is equal to, just below, or just above <emphasis>sortKey</emphasis>. If <emphasis>expandedRange</emphasis> is true, the data point just below <emphasis>sortKey</emphasis> will be considered, otherwise the one just above.</para>
+
+<para>This can be used in conjunction with <link linkend="classQCPAbstractPlottable1D_1a6e3ba20c9160d7361e58070390d10b1a">findEnd</link> to iterate over data points within a given key range, including or excluding the bounding data points that are just beyond the specified range.</para>
+
+<para>If <emphasis>expandedRange</emphasis> is true but there are no data points below <emphasis>sortKey</emphasis>, 0 is returned.</para>
+
+<para>If the container is empty, returns 0 (in that case, <link linkend="classQCPAbstractPlottable1D_1a6e3ba20c9160d7361e58070390d10b1a">findEnd</link> will also return 0, so a loop using these methods will not iterate over the index 0).</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPAbstractPlottable1D_1a6e3ba20c9160d7361e58070390d10b1a">findEnd</link>, <link linkend="classQCPDataContainer_1a2ad8a5399072d99a242d3a6d2d7e278a">QCPDataContainer::findBegin</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPAbstractPlottable1D_1a6e3ba20c9160d7361e58070390d10b1a">
+                <title>int QCPAbstractPlottable1D&lt; QCPGraphData  &gt;::findEnd (double sortKey, bool expandedRange=true) const Q_DECL_OVERRIDE</title> <emphasis>\copybrief QCPPlottableInterface1D::findEnd</emphasis>
+                
+<para>Returns the index one after the data point with a (sort-)key that is equal to, just above, or just below <emphasis>sortKey</emphasis>. If <emphasis>expandedRange</emphasis> is true, the data point just above <emphasis>sortKey</emphasis> will be considered, otherwise the one just below.</para>
+
+<para>This can be used in conjunction with <link linkend="classQCPAbstractPlottable1D_1ad0b46d25cde3d035b180fb8f10c056e6">findBegin</link> to iterate over data points within a given key range, including the bounding data points that are just below and above the specified range.</para>
+
+<para>If <emphasis>expandedRange</emphasis> is true but there are no data points above <emphasis>sortKey</emphasis>, the index just above the highest data point is returned.</para>
+
+<para>If the container is empty, returns 0.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPAbstractPlottable1D_1ad0b46d25cde3d035b180fb8f10c056e6">findBegin</link>, <link linkend="classQCPDataContainer_1afb8b8f23cc2b7234a793a25ce79fe48f">QCPDataContainer::findEnd</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPAbstractPlottable1D_1ac58fb47bfe330f6931ed8e64326387d7">
+                <title>QCPPlottableInterface1D * QCPAbstractPlottable1D&lt; QCPGraphData  &gt;::interface1D () Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+<para>Returns a <link linkend="classQCPPlottableInterface1D">QCPPlottableInterface1D</link> pointer to this plottable, providing access to its 1D interface.</para>
+
+            </section>
+            <section xml:id="classQCPAbstractPlottable_1a52c226eefcb1920240eeabae574d28c0">
+                <title>QString QCPAbstractPlottable::name () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAbstractPlottable_1a022717896dc57b638a7b5a7be7212ba9">
+                <title>bool QCPAbstractPlottable::antialiasedFill () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAbstractPlottable_1a795370db6b1309de0ab60b633efb5ec2">
+                <title>bool QCPAbstractPlottable::antialiasedScatters () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAbstractPlottable_1ad5972efc31344e5a7a78ab4f8864b2d3">
+                <title>QPen QCPAbstractPlottable::pen () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAbstractPlottable_1a893b4896dfd92b68b05b2600b80f5826">
+                <title>QBrush QCPAbstractPlottable::brush () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAbstractPlottable_1a2cdd6f0dd5e9a979037f86b4000d9cfe">
+                <title>QCPAxis* QCPAbstractPlottable::keyAxis () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAbstractPlottable_1af47809a644a68ffd955fb30b01fb4f2f">
+                <title>QCPAxis* QCPAbstractPlottable::valueAxis () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAbstractPlottable_1a016653741033bd332d1d4c3c725cc284">
+                <title>QCP::SelectionType QCPAbstractPlottable::selectable () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAbstractPlottable_1a0b3b514474fe93354fc74cfc144184b4">
+                <title>bool QCPAbstractPlottable::selected () const</title> <emphasis></emphasis>
+                
+<para>Returns true if there are any data points of the plottable currently selected. Use <link linkend="classQCPAbstractPlottable_1a040bf09f41d456284cfd39cc37aa068f">selection</link> to retrieve the current <link linkend="classQCPDataSelection">QCPDataSelection</link>. </para>
+
+            </section>
+            <section xml:id="classQCPAbstractPlottable_1a040bf09f41d456284cfd39cc37aa068f">
+                <title>QCPDataSelection QCPAbstractPlottable::selection () const</title> <emphasis></emphasis>
+                
+<para>Returns a <link linkend="classQCPDataSelection">QCPDataSelection</link> encompassing all the data points that are currently selected on this plottable.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPAbstractPlottable_1a0b3b514474fe93354fc74cfc144184b4">selected</link>, <link linkend="classQCPAbstractPlottable_1a219bc5403a9d85d3129165ec3f5ae436">setSelection</link>, <link linkend="classQCPAbstractPlottable_1ac238d6e910f976f1f30d41c2bca44ac3">setSelectable</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPAbstractPlottable_1a7861518e47ca0c6a0c386032c2db075e">
+                <title>QCPSelectionDecorator * QCPAbstractPlottable::selectionDecorator () const</title> <emphasis></emphasis>
+                
+<para>Provides access to the selection decorator of this plottable. The selection decorator controls how selected data ranges are drawn (e.g. their pen color and fill), see <link linkend="classQCPSelectionDecorator">QCPSelectionDecorator</link> for details.</para>
+
+<para>If you wish to use an own <link linkend="classQCPSelectionDecorator">QCPSelectionDecorator</link> subclass, pass an instance of it to <link linkend="classQCPAbstractPlottable_1a20e266ad646f8c4a7e4631040510e5d9">setSelectionDecorator</link>. </para>
+
+            </section>
+            <section xml:id="classQCPAbstractPlottable_1ab79c7ba76bc7fa89a4b3580e12149f1f">
+                <title>void QCPAbstractPlottable::setName (const QString &amp;name)</title> <emphasis></emphasis>
+                
+<para>The name is the textual representation of this plottable as it is displayed in the legend (<link linkend="classQCPLegend">QCPLegend</link>). It may contain any UTF-8 characters, including newlines. </para>
+
+            </section>
+            <section xml:id="classQCPAbstractPlottable_1a089d6b5577120239b55c39ed27c39536">
+                <title>void QCPAbstractPlottable::setAntialiasedFill (bool enabled)</title> <emphasis></emphasis>
+                
+<para>Sets whether fills of this plottable are drawn antialiased or not.</para>
+
+<para>Note that this setting may be overridden by <link linkend="classQCustomPlot_1af6f91e5eab1be85f67c556e98c3745e8">QCustomPlot::setAntialiasedElements</link> and <link linkend="classQCustomPlot_1ae10d685b5eabea2999fb8775ca173c24">QCustomPlot::setNotAntialiasedElements</link>. </para>
+
+            </section>
+            <section xml:id="classQCPAbstractPlottable_1a2f03f067ede2ed4da6f7d0e4777a3f02">
+                <title>void QCPAbstractPlottable::setAntialiasedScatters (bool enabled)</title> <emphasis></emphasis>
+                
+<para>Sets whether the scatter symbols of this plottable are drawn antialiased or not.</para>
+
+<para>Note that this setting may be overridden by <link linkend="classQCustomPlot_1af6f91e5eab1be85f67c556e98c3745e8">QCustomPlot::setAntialiasedElements</link> and <link linkend="classQCustomPlot_1ae10d685b5eabea2999fb8775ca173c24">QCustomPlot::setNotAntialiasedElements</link>. </para>
+
+            </section>
+            <section xml:id="classQCPAbstractPlottable_1ab74b09ae4c0e7e13142fe4b5bf46cac7">
+                <title>void QCPAbstractPlottable::setPen (const QPen &amp;pen)</title> <emphasis></emphasis>
+                
+<para>The pen is used to draw basic lines that make up the plottable representation in the plot.</para>
+
+<para>For example, the <link linkend="classQCPGraph">QCPGraph</link> subclass draws its graph lines with this pen.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPAbstractPlottable_1a7a4b92144dca6453a1f0f210e27edc74">setBrush</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPAbstractPlottable_1a7a4b92144dca6453a1f0f210e27edc74">
+                <title>void QCPAbstractPlottable::setBrush (const QBrush &amp;brush)</title> <emphasis></emphasis>
+                
+<para>The brush is used to draw basic fills of the plottable representation in the plot. The Fill can be a color, gradient or texture, see the usage of QBrush.</para>
+
+<para>For example, the <link linkend="classQCPGraph">QCPGraph</link> subclass draws the fill under the graph with this brush, when it&apos;s not set to Qt::NoBrush.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPAbstractPlottable_1ab74b09ae4c0e7e13142fe4b5bf46cac7">setPen</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPAbstractPlottable_1a8524fa2994c63c0913ebd9bb2ffa3920">
+                <title>void QCPAbstractPlottable::setKeyAxis (QCPAxis *axis)</title> <emphasis></emphasis>
+                
+<para>The key axis of a plottable can be set to any axis of a <link linkend="classQCustomPlot">QCustomPlot</link>, as long as it is orthogonal to the plottable&apos;s value axis. This function performs no checks to make sure this is the case. The typical mathematical choice is to use the x-axis (<link linkend="classQCustomPlot_1a9a79cd0158a4c7f30cbc702f0fd800e4">QCustomPlot::xAxis</link>) as key axis and the y-axis (<link linkend="classQCustomPlot_1af6fea5679725b152c14facd920b19367">QCustomPlot::yAxis</link>) as value axis.</para>
+
+<para>Normally, the key and value axes are set in the constructor of the plottable (or <link linkend="classQCustomPlot_1a6fb2873d35a8a8089842d81a70a54167">QCustomPlot::addGraph</link> when working with QCPGraphs through the dedicated graph interface).</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPAbstractPlottable_1a71626a07367e241ec62ad2c34baf21cb">setValueAxis</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPAbstractPlottable_1a71626a07367e241ec62ad2c34baf21cb">
+                <title>void QCPAbstractPlottable::setValueAxis (QCPAxis *axis)</title> <emphasis></emphasis>
+                
+<para>The value axis of a plottable can be set to any axis of a <link linkend="classQCustomPlot">QCustomPlot</link>, as long as it is orthogonal to the plottable&apos;s key axis. This function performs no checks to make sure this is the case. The typical mathematical choice is to use the x-axis (<link linkend="classQCustomPlot_1a9a79cd0158a4c7f30cbc702f0fd800e4">QCustomPlot::xAxis</link>) as key axis and the y-axis (<link linkend="classQCustomPlot_1af6fea5679725b152c14facd920b19367">QCustomPlot::yAxis</link>) as value axis.</para>
+
+<para>Normally, the key and value axes are set in the constructor of the plottable (or <link linkend="classQCustomPlot_1a6fb2873d35a8a8089842d81a70a54167">QCustomPlot::addGraph</link> when working with QCPGraphs through the dedicated graph interface).</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPAbstractPlottable_1a8524fa2994c63c0913ebd9bb2ffa3920">setKeyAxis</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPAbstractPlottable_1ac238d6e910f976f1f30d41c2bca44ac3">
+                <title>void QCPAbstractPlottable::setSelectable (QCP::SelectionType selectable)</title> <emphasis></emphasis>
+                
+<para>Sets whether and to which granularity this plottable can be selected.</para>
+
+<para>A selection can happen by clicking on the <link linkend="classQCustomPlot">QCustomPlot</link> surface (When <link linkend="classQCustomPlot_1a5ee1e2f6ae27419deca53e75907c27e5">QCustomPlot::setInteractions</link> contains <link linkend="namespaceQCP_1a2ad6bb6281c7c2d593d4277b44c2b037a67148c8227b4155eca49135fc274c7ec">QCP::iSelectPlottables</link>), by dragging a selection rect (When <link linkend="classQCustomPlot_1a810ef958ebe84db661c7288b526c0deb">QCustomPlot::setSelectionRectMode</link> is <link linkend="namespaceQCP_1ac9aa4d6d81ac76b094f9af9ad2d3aacfa62c286e8da283a0cbb88ecac2f3f7506">QCP::srmSelect</link>), or programmatically by calling <link linkend="classQCPAbstractPlottable_1a219bc5403a9d85d3129165ec3f5ae436">setSelection</link>.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPAbstractPlottable_1a219bc5403a9d85d3129165ec3f5ae436">setSelection</link>, <link linkend="namespaceQCP_1ac6cb9db26a564b27feda362a438db038">QCP::SelectionType</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPAbstractPlottable_1a219bc5403a9d85d3129165ec3f5ae436">
+                <title>void QCPAbstractPlottable::setSelection (QCPDataSelection selection)</title> <emphasis></emphasis>
+                
+<para>Sets which data ranges of this plottable are selected. Selected data ranges are drawn differently (e.g. color) in the plot. This can be controlled via the selection decorator (see <link linkend="classQCPAbstractPlottable_1a7861518e47ca0c6a0c386032c2db075e">selectionDecorator</link>).</para>
+
+<para>The entire selection mechanism for plottables is handled automatically when <link linkend="classQCustomPlot_1a5ee1e2f6ae27419deca53e75907c27e5">QCustomPlot::setInteractions</link> contains iSelectPlottables. You only need to call this function when you wish to change the selection state programmatically.</para>
+
+<para>Using <link linkend="classQCPAbstractPlottable_1ac238d6e910f976f1f30d41c2bca44ac3">setSelectable</link> you can further specify for each plottable whether and to which granularity it is selectable. If <emphasis>selection</emphasis> is not compatible with the current <link linkend="namespaceQCP_1ac6cb9db26a564b27feda362a438db038">QCP::SelectionType</link> set via <link linkend="classQCPAbstractPlottable_1ac238d6e910f976f1f30d41c2bca44ac3">setSelectable</link>, the resulting selection will be adjusted accordingly (see <link linkend="classQCPDataSelection_1a17b84d852911531d229f4a76aa239a75">QCPDataSelection::enforceType</link>).</para>
+
+<para>emits the <link linkend="classQCPAbstractPlottable_1a3af66432b1dca93b28e00e78a8c7c1d9">selectionChanged</link> signal when <emphasis>selected</emphasis> is different from the previous selection state.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPAbstractPlottable_1ac238d6e910f976f1f30d41c2bca44ac3">setSelectable</link>, <link linkend="classQCPAbstractPlottable_1a38efe9641d972992a3d44204bc80ec1d">selectTest</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPAbstractPlottable_1a20e266ad646f8c4a7e4631040510e5d9">
+                <title>void QCPAbstractPlottable::setSelectionDecorator (QCPSelectionDecorator *decorator)</title> <emphasis></emphasis>
+                
+<para>Use this method to set an own <link linkend="classQCPSelectionDecorator">QCPSelectionDecorator</link> (subclass) instance. This allows you to customize the visual representation of selected data ranges further than by using the default <link linkend="classQCPSelectionDecorator">QCPSelectionDecorator</link>.</para>
+
+<para>The plottable takes ownership of the <emphasis>decorator</emphasis>.</para>
+
+<para>The currently set decorator can be accessed via <link linkend="classQCPAbstractPlottable_1a7861518e47ca0c6a0c386032c2db075e">selectionDecorator</link>. </para>
+
+            </section>
+            <section xml:id="classQCPAbstractPlottable_1a7ad84a36472441cf1f555c5683d0da93">
+                <title>void QCPAbstractPlottable::coordsToPixels (double key, double value, double &amp;x, double &amp;y) const</title> <emphasis></emphasis>
+                
+<para>Convenience function for transforming a key/value pair to pixels on the <link linkend="classQCustomPlot">QCustomPlot</link> surface, taking the orientations of the axes associated with this plottable into account (e.g. whether key represents x or y).</para>
+
+<para><emphasis>key</emphasis> and <emphasis>value</emphasis> are transformed to the coodinates in pixels and are written to <emphasis>x</emphasis> and <emphasis>y</emphasis>.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPAbstractPlottable_1a3903c1120ab5c27e7fa46b597ef267bd">pixelsToCoords</link>, <link linkend="classQCPAxis_1af15d1b3a7f7e9b53d759d3ccff1fe4b4">QCPAxis::coordToPixel</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPAbstractPlottable_1a5acb50ae984eef09a7ab92315d2ad708">
+                <title>const QPointF QCPAbstractPlottable::coordsToPixels (double key, double value) const</title> <emphasis></emphasis>
+                
+<para>Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.</para>
+
+<para>Transforms the given <emphasis>key</emphasis> and <emphasis>value</emphasis> to pixel coordinates and returns them in a QPointF. </para>
+
+            </section>
+            <section xml:id="classQCPAbstractPlottable_1a3903c1120ab5c27e7fa46b597ef267bd">
+                <title>void QCPAbstractPlottable::pixelsToCoords (double x, double y, double &amp;key, double &amp;value) const</title> <emphasis></emphasis>
+                
+<para>Convenience function for transforming a x/y pixel pair on the <link linkend="classQCustomPlot">QCustomPlot</link> surface to plot coordinates, taking the orientations of the axes associated with this plottable into account (e.g. whether key represents x or y).</para>
+
+<para><emphasis>x</emphasis> and <emphasis>y</emphasis> are transformed to the plot coodinates and are written to <emphasis>key</emphasis> and <emphasis>value</emphasis>.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPAbstractPlottable_1a7ad84a36472441cf1f555c5683d0da93">coordsToPixels</link>, <link linkend="classQCPAxis_1af15d1b3a7f7e9b53d759d3ccff1fe4b4">QCPAxis::coordToPixel</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPAbstractPlottable_1a28d32c0062b9450847851ffdee1c5f69">
+                <title>void QCPAbstractPlottable::pixelsToCoords (const QPointF &amp;pixelPos, double &amp;key, double &amp;value) const</title> <emphasis></emphasis>
+                
+<para>Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.</para>
+
+<para>Returns the pixel input <emphasis>pixelPos</emphasis> as plot coordinates <emphasis>key</emphasis> and <emphasis>value</emphasis>. </para>
+
+            </section>
+            <section xml:id="classQCPAbstractPlottable_1a1491c4a606bccd2d09e65e11b79eb882">
+                <title>void QCPAbstractPlottable::rescaleAxes (bool onlyEnlarge=false) const</title> <emphasis></emphasis>
+                
+<para>Rescales the key and value axes associated with this plottable to contain all displayed data, so the whole plottable is visible. If the scaling of an axis is logarithmic, rescaleAxes will make sure not to rescale to an illegal range i.e. a range containing different signs and/or zero. Instead it will stay in the current sign domain and ignore all parts of the plottable that lie outside of that domain.</para>
+
+<para><emphasis>onlyEnlarge</emphasis> makes sure the ranges are only expanded, never reduced. So it&apos;s possible to show multiple plottables in their entirety by multiple calls to rescaleAxes where the first call has <emphasis>onlyEnlarge</emphasis> set to false (the default), and all subsequent set to true.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPAbstractPlottable_1ae96b83c961e257da116c6acf9c7da308">rescaleKeyAxis</link>, <link linkend="classQCPAbstractPlottable_1a714eaf36b12434cd71846215504db82e">rescaleValueAxis</link>, <link linkend="classQCustomPlot_1ad86528f2cee6c7e446dea4a6e8839935">QCustomPlot::rescaleAxes</link>, <link linkend="classQCPAxis_1a499345f02ebce4b23d8ccec96e58daa9">QCPAxis::rescale</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPAbstractPlottable_1ae96b83c961e257da116c6acf9c7da308">
+                <title>void QCPAbstractPlottable::rescaleKeyAxis (bool onlyEnlarge=false) const</title> <emphasis></emphasis>
+                
+<para>Rescales the key axis of the plottable so the whole plottable is visible.</para>
+
+<para>See <link linkend="classQCPAbstractPlottable_1a1491c4a606bccd2d09e65e11b79eb882">rescaleAxes</link> for detailed behaviour. </para>
+
+            </section>
+            <section xml:id="classQCPAbstractPlottable_1a714eaf36b12434cd71846215504db82e">
+                <title>void QCPAbstractPlottable::rescaleValueAxis (bool onlyEnlarge=false, bool inKeyRange=false) const</title> <emphasis></emphasis>
+                
+<para>Rescales the value axis of the plottable so the whole plottable is visible. If <emphasis>inKeyRange</emphasis> is set to true, only the data points which are in the currently visible key axis range are considered.</para>
+
+<para>Returns true if the axis was actually scaled. This might not be the case if this plottable has an invalid range, e.g. because it has no data points.</para>
+
+<para>See <link linkend="classQCPAbstractPlottable_1a1491c4a606bccd2d09e65e11b79eb882">rescaleAxes</link> for detailed behaviour. </para>
+
+            </section>
+            <section xml:id="classQCPAbstractPlottable_1aa64e93cb5b606d8110d2cc0a349bb30f">
+                <title>bool QCPAbstractPlottable::addToLegend (QCPLegend *legend)</title> <emphasis></emphasis>
+                
+<para>Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.</para>
+
+<para>Adds this plottable to the specified <emphasis>legend</emphasis>.</para>
+
+<para>Creates a <link linkend="classQCPPlottableLegendItem">QCPPlottableLegendItem</link> which is inserted into the legend. Returns true on success, i.e. when the legend exists and a legend item associated with this plottable isn&apos;t already in the legend.</para>
+
+<para>If the plottable needs a more specialized representation in the legend, you can create a corresponding subclass of <link linkend="classQCPPlottableLegendItem">QCPPlottableLegendItem</link> and add it to the legend manually instead of calling this method.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPAbstractPlottable_1a3cc235007e2343a65ad4f463767e0e20">removeFromLegend</link>, <link linkend="classQCPLegend_1a3ab274de52d2951faea45a6d975e6b3f">QCPLegend::addItem</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPAbstractPlottable_1a70f8cabfd808f7d5204b9f18c45c13f5">
+                <title>bool QCPAbstractPlottable::addToLegend ()</title> <emphasis></emphasis>
+                
+<para>Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.</para>
+
+<para>Adds this plottable to the legend of the parent <link linkend="classQCustomPlot">QCustomPlot</link> (<link linkend="classQCustomPlot_1a4eadcd237dc6a09938b68b16877fa6af">QCustomPlot::legend</link>).</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPAbstractPlottable_1a3cc235007e2343a65ad4f463767e0e20">removeFromLegend</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPAbstractPlottable_1a3cc235007e2343a65ad4f463767e0e20">
+                <title>bool QCPAbstractPlottable::removeFromLegend (QCPLegend *legend) const</title> <emphasis></emphasis>
+                
+<para>Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.</para>
+
+<para>Removes the plottable from the specifed <emphasis>legend</emphasis>. This means the <link linkend="classQCPPlottableLegendItem">QCPPlottableLegendItem</link> that is associated with this plottable is removed.</para>
+
+<para>Returns true on success, i.e. if the legend exists and a legend item associated with this plottable was found and removed.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPAbstractPlottable_1aa64e93cb5b606d8110d2cc0a349bb30f">addToLegend</link>, <link linkend="classQCPLegend_1ac91595c3eaa746fe6321d2eb952c63bb">QCPLegend::removeItem</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPAbstractPlottable_1ac95fb2604d9106d0852ad9ceb326fe8c">
+                <title>bool QCPAbstractPlottable::removeFromLegend () const</title> <emphasis></emphasis>
+                
+<para>Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.</para>
+
+<para>Removes the plottable from the legend of the parent <link linkend="classQCustomPlot">QCustomPlot</link>.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPAbstractPlottable_1aa64e93cb5b606d8110d2cc0a349bb30f">addToLegend</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPLayerable_1af0297b944b6192b6d67d00bff41b6b70">
+                <title>bool QCPLayerable::visible () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPLayerable_1a473edb813a4c1929d6b6a8fe3ff3faf7">
+                <title>QCustomPlot* QCPLayerable::parentPlot () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPLayerable_1aa78b7e644d2c519e1a9a6f2ac5fcd858">
+                <title>QCPLayerable * QCPLayerable::parentLayerable () const</title> <emphasis></emphasis>
+                
+<para>Returns the parent layerable of this layerable. The parent layerable is used to provide visibility hierarchies in conjunction with the method <link linkend="classQCPLayerable_1ab054e88f15d485defcb95e7376f119e7">realVisibility</link>. This way, layerables only get drawn if their parent layerables are visible, too.</para>
+
+<para>Note that a parent layerable is not necessarily also the QObject parent for memory management. Further, a layerable doesn&apos;t always have a parent layerable, so this function may return 0.</para>
+
+<para>A parent layerable is set implicitly when placed inside layout elements and doesn&apos;t need to be set manually by the user. </para>
+
+            </section>
+            <section xml:id="classQCPLayerable_1a5ff4862e8c784c9f5986dbc1533ba2a4">
+                <title>QCPLayer* QCPLayerable::layer () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPLayerable_1a71cbd212fde2703cee076e204a475709">
+                <title>bool QCPLayerable::antialiased () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPLayerable_1a3bed99ddc396b48ce3ebfdc0418744f8">
+                <title>void QCPLayerable::setVisible (bool on)</title> <emphasis></emphasis>
+                
+<para>Sets the visibility of this layerable object. If an object is not visible, it will not be drawn on the <link linkend="classQCustomPlot">QCustomPlot</link> surface, and user interaction with it (e.g. click and selection) is not possible. </para>
+
+            </section>
+            <section xml:id="classQCPLayerable_1ab0d0da6d2de45a118886d2c8e16d5a54">
+                <title>bool QCPLayerable::setLayer (QCPLayer *layer)</title> <emphasis></emphasis>
+                
+<para>Sets the <emphasis>layer</emphasis> of this layerable object. The object will be placed on top of the other objects already on <emphasis>layer</emphasis>.</para>
+
+<para>If <emphasis>layer</emphasis> is 0, this layerable will not be on any layer and thus not appear in the plot (or interact/receive events).</para>
+
+<para>Returns true if the layer of this layerable was successfully changed to <emphasis>layer</emphasis>. </para>
+
+            </section>
+            <section xml:id="classQCPLayerable_1ab25a0e7b897993b44447caee0f142083">
+                <title>bool QCPLayerable::setLayer (const QString &amp;layerName)</title> <emphasis></emphasis>
+                
+<para>Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados. Sets the layer of this layerable object by name</para>
+
+<para>Returns true on success, i.e. if <emphasis>layerName</emphasis> is a valid layer name. </para>
+
+            </section>
+            <section xml:id="classQCPLayerable_1a4fd43e89be4a553ead41652565ff0581">
+                <title>void QCPLayerable::setAntialiased (bool enabled)</title> <emphasis></emphasis>
+                
+<para>Sets whether this object will be drawn antialiased or not.</para>
+
+<para>Note that antialiasing settings may be overridden by <link linkend="classQCustomPlot_1af6f91e5eab1be85f67c556e98c3745e8">QCustomPlot::setAntialiasedElements</link> and <link linkend="classQCustomPlot_1ae10d685b5eabea2999fb8775ca173c24">QCustomPlot::setNotAntialiasedElements</link>. </para>
+
+            </section>
+            <section xml:id="classQCPLayerable_1ab054e88f15d485defcb95e7376f119e7">
+                <title>bool QCPLayerable::realVisibility () const</title> <emphasis></emphasis>
+                
+<para>Returns whether this layerable is visible, taking the visibility of the layerable parent and the visibility of this layerable&apos;s layer into account. This is the method that is consulted to decide whether a layerable shall be drawn or not.</para>
+
+<para>If this layerable has a direct layerable parent (usually set via hierarchies implemented in subclasses, like in the case of <link linkend="classQCPLayoutElement">QCPLayoutElement</link>), this function returns true only if this layerable has its visibility set to true and the parent layerable&apos;s <link linkend="classQCPLayerable_1ab054e88f15d485defcb95e7376f119e7">realVisibility</link> returns true. </para>
+
+            </section>
+            <section xml:id="classQCPGraph_1a2b0849598f06e834b43ce18cd13bcdc3">
+                <title>void QCPGraph::draw (QCPPainter *painter) Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPGraph_1a6efbab06c400bdb15e28b2d0a4ecc18a">
+                <title>void QCPGraph::drawLegendIcon (QCPPainter *painter, const QRectF &amp;rect) const Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPGraph_1a67c5ea573f604efd8bf121a0b7a380d1">
+                <title>void QCPGraph::drawFill (QCPPainter *painter, QVector&lt; QPointF &gt; *lines) const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPGraph_1abeb0bbe81026c024bf3d508d13cf5e0e">
+                <title>void QCPGraph::drawScatterPlot (QCPPainter *painter, const QVector&lt; QPointF &gt; &amp;scatters, const QCPScatterStyle &amp;style) const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPGraph_1a4c3edacb2a11064bf2e16b322156aeda">
+                <title>void QCPGraph::drawLinePlot (QCPPainter *painter, const QVector&lt; QPointF &gt; &amp;lines) const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPGraph_1a217ef6bf6c5689eb1dcbe02187d2cc61">
+                <title>void QCPGraph::drawImpulsePlot (QCPPainter *painter, const QVector&lt; QPointF &gt; &amp;lines) const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPGraph_1a1fed1c9d627d9d3b49a6206cc2e60fe1">
+                <title>void QCPGraph::getOptimizedLineData (QVector&lt; QCPGraphData &gt; *lineData, const QCPGraphDataContainer::const_iterator &amp;begin, const QCPGraphDataContainer::const_iterator &amp;end) const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPGraph_1a5423245898537e375b9364cf26e89aea">
+                <title>void QCPGraph::getOptimizedScatterData (QVector&lt; QCPGraphData &gt; *scatterData, QCPGraphDataContainer::const_iterator begin, QCPGraphDataContainer::const_iterator end) const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPGraph_1a8599447a7f8cbbdcf0b94edcc11df560">
+                <title>void QCPGraph::getVisibleDataBounds (QCPGraphDataContainer::const_iterator &amp;begin, QCPGraphDataContainer::const_iterator &amp;end, const QCPDataRange &amp;rangeRestriction) const</title> <emphasis></emphasis>
+                
+<para>This method outputs the currently visible data range via <emphasis>begin</emphasis> and <emphasis>end</emphasis>. The returned range will also never exceed <emphasis>rangeRestriction</emphasis>.</para>
+
+<para>This method takes into account that the drawing of data lines at the axis rect border always requires the points just outside the visible axis range. So <emphasis>begin</emphasis> and <emphasis>end</emphasis> may actually indicate a range that contains one additional data point to the left and right of the visible axis range. </para>
+
+            </section>
+            <section xml:id="classQCPGraph_1a563c6da2126300a4d9d2bdee30dad040">
+                <title>void QCPGraph::getLines (QVector&lt; QPointF &gt; *lines, const QCPDataRange &amp;dataRange) const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPGraph_1a9d7ba5904fdcaca413222335d4b283c3">
+                <title>void QCPGraph::getScatters (QVector&lt; QPointF &gt; *scatters, const QCPDataRange &amp;dataRange) const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPGraph_1a0085ee728fdd72a827c1e6ced4476363">
+                <title>QVector&lt; QPointF &gt; QCPGraph::dataToLines (const QVector&lt; QCPGraphData &gt; &amp;data) const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPGraph_1a1f3e9e41fc67538c4940c74665840474">
+                <title>QVector&lt; QPointF &gt; QCPGraph::dataToStepLeftLines (const QVector&lt; QCPGraphData &gt; &amp;data) const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPGraph_1ab1fb6cb91d24a854f85bf54200f6d101">
+                <title>QVector&lt; QPointF &gt; QCPGraph::dataToStepRightLines (const QVector&lt; QCPGraphData &gt; &amp;data) const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPGraph_1a238116f1898c49cb8209d61707b5b367">
+                <title>QVector&lt; QPointF &gt; QCPGraph::dataToStepCenterLines (const QVector&lt; QCPGraphData &gt; &amp;data) const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPGraph_1a2a958a5c6a6e1e4a03556be88b6fe37e">
+                <title>QVector&lt; QPointF &gt; QCPGraph::dataToImpulseLines (const QVector&lt; QCPGraphData &gt; &amp;data) const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPGraph_1a0e0886b9ec7731d8993bbb104465f3b9">
+                <title>QVector&lt; QCPDataRange &gt; QCPGraph::getNonNanSegments (const QVector&lt; QPointF &gt; *lineData, Qt::Orientation keyOrientation) const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPGraph_1a334b15c43ee1855bf724daf886e8530e">
+                <title>QVector&lt; QPair&lt; QCPDataRange, QCPDataRange &gt; &gt; QCPGraph::getOverlappingSegments (QVector&lt; QCPDataRange &gt; thisSegments, const QVector&lt; QPointF &gt; *thisData, QVector&lt; QCPDataRange &gt; otherSegments, const QVector&lt; QPointF &gt; *otherData) const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPGraph_1abb9c674b207a1f6df5e083aa9f3e071a">
+                <title>bool QCPGraph::segmentsIntersect (double aLower, double aUpper, double bLower, double bUpper, int &amp;bPrecedence) const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPGraph_1a13f2c756f3114703159c2e604783e208">
+                <title>QPointF QCPGraph::getFillBasePoint (QPointF matchingDataPoint) const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPGraph_1af73d5fe97cde966785bfd67201e44391">
+                <title>const QPolygonF QCPGraph::getFillPolygon (const QVector&lt; QPointF &gt; *lineData, QCPDataRange segment) const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPGraph_1a9a5bdd5cb695d95d3eea80cfe96c5118">
+                <title>const QPolygonF QCPGraph::getChannelFillPolygon (const QVector&lt; QPointF &gt; *lineData, QCPDataRange thisSegment, const QVector&lt; QPointF &gt; *otherData, QCPDataRange otherSegment) const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPGraph_1a8c3f15dd5a06633011a6ef36016d308b">
+                <title>int QCPGraph::findIndexBelowX (const QVector&lt; QPointF &gt; *data, double x) const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPGraph_1aaabd6c6a7200a2672c44e62bd2a1cafa">
+                <title>int QCPGraph::findIndexAboveX (const QVector&lt; QPointF &gt; *data, double x) const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPGraph_1a5b0291f248e8ca8eaa82833ab420dcd0">
+                <title>int QCPGraph::findIndexBelowY (const QVector&lt; QPointF &gt; *data, double y) const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPGraph_1a8b952a5f937840dc242489585cc8000d">
+                <title>int QCPGraph::findIndexAboveY (const QVector&lt; QPointF &gt; *data, double y) const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPGraph_1a89acf99c0b52b8eecb2438adf7ec0170">
+                <title>double QCPGraph::pointDistance (const QPointF &amp;pixelPoint, QCPGraphDataContainer::const_iterator &amp;closestData) const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAbstractPlottable1D_1ae890e62ce403c54f575c73b9529f1af8">
+                <title>void QCPAbstractPlottable1D&lt; QCPGraphData  &gt;::getDataSegments (QList&lt; QCPDataRange &gt; &amp;selectedSegments, QList&lt; QCPDataRange &gt; &amp;unselectedSegments) const</title> <emphasis></emphasis>
+                
+<para>Splits all data into selected and unselected segments and outputs them via <emphasis>selectedSegments</emphasis> and <emphasis>unselectedSegments</emphasis>, respectively.</para>
+
+<para>This is useful when subclasses implement their <link linkend="classQCPAbstractPlottable_1a453f676a5cee7bf846c5f0fa05ea84b3">draw</link> method and need to draw selected segments with a different pen/brush than unselected segments (also see <link linkend="classQCPSelectionDecorator">QCPSelectionDecorator</link>).</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPAbstractPlottable_1a219bc5403a9d85d3129165ec3f5ae436">setSelection</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPAbstractPlottable1D_1a7adc6c3cccebb5341f11e0c2b7d54206">
+                <title>void QCPAbstractPlottable1D&lt; QCPGraphData  &gt;::drawPolyline (QCPPainter *painter, const QVector&lt; QPointF &gt; &amp;lineData) const</title> <emphasis></emphasis>
+                
+<para>A helper method which draws a line with the passed <emphasis>painter</emphasis>, according to the pixel data in <emphasis>lineData</emphasis>. NaN points create gaps in the line, as expected from <link linkend="classQCustomPlot">QCustomPlot</link>&apos;s plottables (this is the main difference to QPainter&apos;s regular drawPolyline, which handles NaNs by lagging or crashing).</para>
+
+<para>Further it uses a faster line drawing technique based on <link linkend="classQCPPainter_1a0b4b1b9bd495e182c731774dc800e6e0">QCPPainter::drawLine</link> rather than <computeroutput>QPainter::drawPolyline</computeroutput> if the configured <link linkend="classQCustomPlot_1a94a33cbdadbbac5934843508bcfc210d">QCustomPlot::setPlottingHints()</link> and <emphasis>painter</emphasis> style allows. </para>
+
+            </section>
+            <section xml:id="classQCPAbstractPlottable_1a635cee3effc07ad421414c76fd83548c">
+                <title>QRect QCPAbstractPlottable::clipRect () const Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAbstractPlottable_1af80ad8531642e786b6f4fad551c203c4">
+                <title>QCP::Interaction QCPAbstractPlottable::selectionCategory () const Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAbstractPlottable_1ac032077fb0db93d6faa3273d02363398">
+                <title>void QCPAbstractPlottable::applyDefaultAntialiasingHint (QCPPainter *painter) const Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAbstractPlottable_1a2d488568cf16600dd81fa23d7d439829">
+                <title>void QCPAbstractPlottable::selectEvent (QMouseEvent *event, bool additive, const QVariant &amp;details, bool *selectionStateChanged) Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAbstractPlottable_1a9b104d9da4f38f934363945c313bf82e">
+                <title>void QCPAbstractPlottable::deselectEvent (bool *selectionStateChanged) Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAbstractPlottable_1a8d06a59ea23324cce6330ebf2262c0ed">
+                <title>void QCPAbstractPlottable::applyFillAntialiasingHint (QCPPainter *painter) const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAbstractPlottable_1ac95f26b15a1e5d9c7bd2c0a46d760fc9">
+                <title>void QCPAbstractPlottable::applyScattersAntialiasingHint (QCPPainter *painter) const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPLayerable_1ab20b7dbd8e0249ed61adb9622c427382">
+                <title>void QCPLayerable::parentPlotInitialized (QCustomPlot *parentPlot)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPLayerable_1af6567604818db90f4fd52822f8bc8376">
+                <title>void QCPLayerable::mousePressEvent (QMouseEvent *event, const QVariant &amp;details)</title> <emphasis></emphasis>
+                
+<para>This event gets called when the user presses a mouse button while the cursor is over the layerable. Whether a cursor is over the layerable is decided by a preceding call to <link linkend="classQCPLayerable_1a04db8351fefd44cfdb77958e75c6288e">selectTest</link>.</para>
+
+<para>The current pixel position of the cursor on the <link linkend="classQCustomPlot">QCustomPlot</link> widget is accessible via <computeroutput>event-&gt;pos()</computeroutput>. The parameter <emphasis>details</emphasis> contains layerable-specific details about the hit, which were generated in the previous call to <link linkend="classQCPLayerable_1a04db8351fefd44cfdb77958e75c6288e">selectTest</link>. For example, One-dimensional plottables like <link linkend="classQCPGraph">QCPGraph</link> or <link linkend="classQCPBars">QCPBars</link> convey the clicked data point in the <emphasis>details</emphasis> parameter, as <link linkend="classQCPDataSelection">QCPDataSelection</link> packed as QVariant. Multi-part objects convey the specific <computeroutput>SelectablePart</computeroutput> that was hit (e.g. <link linkend="classQCPAxis_1abee4c7a54c468b1385dfce2c898b115f">QCPAxis::SelectablePart</link> in the case of axes).</para>
+
+<para><link linkend="classQCustomPlot">QCustomPlot</link> uses an event propagation system that works the same as Qt&apos;s system. If your layerable doesn&apos;t reimplement the <link linkend="classQCPLayerable_1af6567604818db90f4fd52822f8bc8376">mousePressEvent</link> or explicitly calls <computeroutput>event-&gt;ignore()</computeroutput> in its reimplementation, the event will be propagated to the next layerable in the stacking order.</para>
+
+<para>Once a layerable has accepted the <link linkend="classQCPLayerable_1af6567604818db90f4fd52822f8bc8376">mousePressEvent</link>, it is considered the mouse grabber and will receive all following calls to <link linkend="classQCPLayerable_1a9eee1ba47fd69be111059ca3881933e4">mouseMoveEvent</link> or <link linkend="classQCPLayerable_1aa0d79b005686f668622bbe66ac03ba2c">mouseReleaseEvent</link> for this mouse interaction (a &quot;mouse interaction&quot; in this context ends with the release).</para>
+
+<para>The default implementation does nothing except explicitly ignoring the event with <computeroutput>event-&gt;ignore()</computeroutput>.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPLayerable_1a9eee1ba47fd69be111059ca3881933e4">mouseMoveEvent</link>, <link linkend="classQCPLayerable_1aa0d79b005686f668622bbe66ac03ba2c">mouseReleaseEvent</link>, <link linkend="classQCPLayerable_1a4171e2e823aca242dd0279f00ed2de81">mouseDoubleClickEvent</link>, <link linkend="classQCPLayerable_1a47dfd7b8fd99c08ca54e09c362b6f022">wheelEvent</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPLayerable_1a9eee1ba47fd69be111059ca3881933e4">
+                <title>void QCPLayerable::mouseMoveEvent (QMouseEvent *event, const QPointF &amp;startPos)</title> <emphasis></emphasis>
+                
+<para>This event gets called when the user moves the mouse while holding a mouse button, after this layerable has become the mouse grabber by accepting the preceding <link linkend="classQCPLayerable_1af6567604818db90f4fd52822f8bc8376">mousePressEvent</link>.</para>
+
+<para>The current pixel position of the cursor on the <link linkend="classQCustomPlot">QCustomPlot</link> widget is accessible via <computeroutput>event-&gt;pos()</computeroutput>. The parameter <emphasis>startPos</emphasis> indicates the position where the initial <link linkend="classQCPLayerable_1af6567604818db90f4fd52822f8bc8376">mousePressEvent</link> occured, that started the mouse interaction.</para>
+
+<para>The default implementation does nothing.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPLayerable_1af6567604818db90f4fd52822f8bc8376">mousePressEvent</link>, <link linkend="classQCPLayerable_1aa0d79b005686f668622bbe66ac03ba2c">mouseReleaseEvent</link>, <link linkend="classQCPLayerable_1a4171e2e823aca242dd0279f00ed2de81">mouseDoubleClickEvent</link>, <link linkend="classQCPLayerable_1a47dfd7b8fd99c08ca54e09c362b6f022">wheelEvent</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPLayerable_1aa0d79b005686f668622bbe66ac03ba2c">
+                <title>void QCPLayerable::mouseReleaseEvent (QMouseEvent *event, const QPointF &amp;startPos)</title> <emphasis></emphasis>
+                
+<para>This event gets called when the user releases the mouse button, after this layerable has become the mouse grabber by accepting the preceding <link linkend="classQCPLayerable_1af6567604818db90f4fd52822f8bc8376">mousePressEvent</link>.</para>
+
+<para>The current pixel position of the cursor on the <link linkend="classQCustomPlot">QCustomPlot</link> widget is accessible via <computeroutput>event-&gt;pos()</computeroutput>. The parameter <emphasis>startPos</emphasis> indicates the position where the initial <link linkend="classQCPLayerable_1af6567604818db90f4fd52822f8bc8376">mousePressEvent</link> occured, that started the mouse interaction.</para>
+
+<para>The default implementation does nothing.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPLayerable_1af6567604818db90f4fd52822f8bc8376">mousePressEvent</link>, <link linkend="classQCPLayerable_1a9eee1ba47fd69be111059ca3881933e4">mouseMoveEvent</link>, <link linkend="classQCPLayerable_1a4171e2e823aca242dd0279f00ed2de81">mouseDoubleClickEvent</link>, <link linkend="classQCPLayerable_1a47dfd7b8fd99c08ca54e09c362b6f022">wheelEvent</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPLayerable_1a4171e2e823aca242dd0279f00ed2de81">
+                <title>void QCPLayerable::mouseDoubleClickEvent (QMouseEvent *event, const QVariant &amp;details)</title> <emphasis></emphasis>
+                
+<para>This event gets called when the user presses the mouse button a second time in a double-click, while the cursor is over the layerable. Whether a cursor is over the layerable is decided by a preceding call to <link linkend="classQCPLayerable_1a04db8351fefd44cfdb77958e75c6288e">selectTest</link>.</para>
+
+<para>The <link linkend="classQCPLayerable_1a4171e2e823aca242dd0279f00ed2de81">mouseDoubleClickEvent</link> is called instead of the second <link linkend="classQCPLayerable_1af6567604818db90f4fd52822f8bc8376">mousePressEvent</link>. So in the case of a double-click, the event succession is <emphasis>pressEvent &#8211; releaseEvent &#8211; doubleClickEvent &#8211; releaseEvent</emphasis>.</para>
+
+<para>The current pixel position of the cursor on the <link linkend="classQCustomPlot">QCustomPlot</link> widget is accessible via <computeroutput>event-&gt;pos()</computeroutput>. The parameter <emphasis>details</emphasis> contains layerable-specific details about the hit, which were generated in the previous call to <link linkend="classQCPLayerable_1a04db8351fefd44cfdb77958e75c6288e">selectTest</link>. For example, One-dimensional plottables like <link linkend="classQCPGraph">QCPGraph</link> or <link linkend="classQCPBars">QCPBars</link> convey the clicked data point in the <emphasis>details</emphasis> parameter, as <link linkend="classQCPDataSelection">QCPDataSelection</link> packed as QVariant. Multi-part objects convey the specific <computeroutput>SelectablePart</computeroutput> that was hit (e.g. <link linkend="classQCPAxis_1abee4c7a54c468b1385dfce2c898b115f">QCPAxis::SelectablePart</link> in the case of axes).</para>
+
+<para>Similarly to <link linkend="classQCPLayerable_1af6567604818db90f4fd52822f8bc8376">mousePressEvent</link>, once a layerable has accepted the <link linkend="classQCPLayerable_1a4171e2e823aca242dd0279f00ed2de81">mouseDoubleClickEvent</link>, it is considered the mouse grabber and will receive all following calls to <link linkend="classQCPLayerable_1a9eee1ba47fd69be111059ca3881933e4">mouseMoveEvent</link> and <link linkend="classQCPLayerable_1aa0d79b005686f668622bbe66ac03ba2c">mouseReleaseEvent</link> for this mouse interaction (a &quot;mouse interaction&quot; in this context ends with the release).</para>
+
+<para>The default implementation does nothing except explicitly ignoring the event with <computeroutput>event-&gt;ignore()</computeroutput>.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPLayerable_1af6567604818db90f4fd52822f8bc8376">mousePressEvent</link>, <link linkend="classQCPLayerable_1a9eee1ba47fd69be111059ca3881933e4">mouseMoveEvent</link>, <link linkend="classQCPLayerable_1aa0d79b005686f668622bbe66ac03ba2c">mouseReleaseEvent</link>, <link linkend="classQCPLayerable_1a47dfd7b8fd99c08ca54e09c362b6f022">wheelEvent</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPLayerable_1a47dfd7b8fd99c08ca54e09c362b6f022">
+                <title>void QCPLayerable::wheelEvent (QWheelEvent *event)</title> <emphasis></emphasis>
+                
+<para>This event gets called when the user turns the mouse scroll wheel while the cursor is over the layerable. Whether a cursor is over the layerable is decided by a preceding call to <link linkend="classQCPLayerable_1a04db8351fefd44cfdb77958e75c6288e">selectTest</link>.</para>
+
+<para>The current pixel position of the cursor on the <link linkend="classQCustomPlot">QCustomPlot</link> widget is accessible via <computeroutput>event-&gt;pos()</computeroutput>.</para>
+
+<para>The <computeroutput>event-&gt;delta()</computeroutput> indicates how far the mouse wheel was turned, which is usually +/- 120 for single rotation steps. However, if the mouse wheel is turned rapidly, multiple steps may accumulate to one event, making <computeroutput>event-&gt;delta()</computeroutput> larger. On the other hand, if the wheel has very smooth steps or none at all, the delta may be smaller.</para>
+
+<para>The default implementation does nothing.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPLayerable_1af6567604818db90f4fd52822f8bc8376">mousePressEvent</link>, <link linkend="classQCPLayerable_1a9eee1ba47fd69be111059ca3881933e4">mouseMoveEvent</link>, <link linkend="classQCPLayerable_1aa0d79b005686f668622bbe66ac03ba2c">mouseReleaseEvent</link>, <link linkend="classQCPLayerable_1a4171e2e823aca242dd0279f00ed2de81">mouseDoubleClickEvent</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPLayerable_1a8cbe5a0c9a5674249982f5ca5f8e02bc">
+                <title>void QCPLayerable::initializeParentPlot (QCustomPlot *parentPlot)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPLayerable_1aa23c893671f1f6744ac235cf2204cf3a">
+                <title>void QCPLayerable::setParentLayerable (QCPLayerable *parentLayerable)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPLayerable_1af94484cfb7cbbddb7de522e9be71d9a4">
+                <title>bool QCPLayerable::moveToLayer (QCPLayer *layer, bool prepend)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPLayerable_1acb663e375d2d36dc5c55021ee5a2119b">
+                <title>void QCPLayerable::applyAntialiasingHint (QCPPainter *painter, bool localAntialiased, QCP::AntialiasedElement overrideElement) const</title> <emphasis></emphasis>
+                
+            </section>
+</section>

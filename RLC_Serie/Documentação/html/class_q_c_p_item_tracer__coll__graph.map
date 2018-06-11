@@ -21,7 +21,7 @@
 <area shape="rect" id="node21" href="$class_q_c_p_abstract_plottable1_d.html" title="{QCPAbstractPlottable1D\l\&lt; QCPGraphData \&gt;\n|# mDataContainer\l|+ QCPAbstractPlottable1D()\l+ ~QCPAbstractPlottable1D()\l+ dataCount()\l+ dataMainKey()\l+ dataSortKey()\l+ dataMainValue()\l+ dataValueRange()\l+ dataPixelPosition()\l+ sortKeyIsMainKey()\l+ selectTestRect()\l+ findBegin()\l+ findEnd()\l+ selectTest()\l+ interface1D()\l# getDataSegments()\l# drawPolyline()\l}" alt="" coords="103,5459,297,5771"/>
 <area shape="rect" id="node24" href="$class_q_c_p_selection_decorator.html" title="Controls how a plottable&#39;s data selection is drawn. " alt="" coords="422,4857,613,5184"/>
 <area shape="rect" id="node27" href="$class_q_c_p_abstract_plottable1_d.html" title="A template base class for plottables with one&#45;dimensional data. " alt="" coords="203,4865,397,5177"/>
-<area shape="rect" id="node23" href="$class_q_c_p_data_selection.html" title="Describes a data set by holding multiple QCPDataRange instances. " alt="" coords="263,3382,414,3767"/>
+<area shape="rect" id="node23" href="$class_q_c_p_data_selection.html" title="Describes a data set by holding multiple QCPDataRange instances. " alt="" coords="245,3375,432,3775"/>
 <area shape="rect" id="node25" href="$class_q_c_p_scatter_style.html" title="Represents the visual appearance of scatter points. " alt="" coords="579,4057,722,4589"/>
 <area shape="rect" id="node26" href="$class_q_c_p_plottable_interface1_d.html" title="Defines an abstract interface for one&#45;dimensional plottables. " alt="" coords="5,4211,200,4435"/>
 <area shape="rect" id="node28" href="$class_q_c_p_item_position.html" title="Manages the position of an item. " alt="" coords="873,5342,1025,5889"/>

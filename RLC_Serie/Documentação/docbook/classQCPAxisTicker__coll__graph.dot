@@ -1,0 +1,6 @@
+digraph "QCPAxisTicker"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node212 [label="{QCPAxisTicker\n|# mTickStepStrategy\l# mTickCount\l# mTickOrigin\l|+ QCPAxisTicker()\l+ ~QCPAxisTicker()\l+ tickStepStrategy()\l+ tickCount()\l+ tickOrigin()\l+ setTickStepStrategy()\l+ setTickCount()\l+ setTickOrigin()\l+ generate()\l# getTickStep()\l# getSubTickCount()\l# getTickLabel()\l# createTickVector()\l# createSubTickVector()\l# createLabelVector()\l# trimTicks()\l# pickClosest()\l# getMantissa()\l# cleanMantissa()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

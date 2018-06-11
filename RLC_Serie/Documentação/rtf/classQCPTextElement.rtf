@@ -1,0 +1,2482 @@
+{\rtf1\ansi\ansicpg1252\uc1 \deff0\deflang1033\deflangfe1033
+{\fonttbl {\f0\froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}
+{\f1\fswiss\fcharset0\fprq2{\*\panose 020b0604020202020204}Arial;}
+{\f2\fmodern\fcharset0\fprq1{\*\panose 02070309020205020404}Courier New;}
+{\f3\froman\fcharset2\fprq2{\*\panose 05050102010706020507}Symbol;}
+}
+{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;}
+{\stylesheet
+{\widctlpar\adjustright \fs20\cgrid \snext0 Normal;}
+{\paperw11900\paperh16840\margl1800\margr1800\margt1440\margb1440\gutter0\ltrsect}
+{\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid \sbasedon0 \snext0 heading 1;}
+{\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid \sbasedon0 \snext0 heading 2;}
+{\s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid \sbasedon0 \snext0 heading 3;}
+{\s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext0 heading 4;}{\*\cs10 \additive Default Paragraph Font;}
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext0 heading 5;}{\*\cs10 \additive Default Paragraph Font;}
+{\s15\qc\sb240\sa60\widctlpar\outlinelevel0\adjustright \b\f1\fs32\kerning28\cgrid \sbasedon0 \snext15 Title;}
+{\s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid \sbasedon0 \snext16 Subtitle;}
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid \sbasedon0 \snext17 BodyText;}
+{\s18\widctlpar\fs22\cgrid \sbasedon0 \snext18 DenseText;}
+{\s28\widctlpar\tqc\tx4320\tqr\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext28 header;}
+{\s29\widctlpar\tqc\tx4320\tqr\tx8640\qr\adjustright \fs20\cgrid \sbasedon0 \snext29 footer;}
+{\s30\li360\sa60\sb120\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext30 GroupHeader;}
+{\s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext41 Code Example 0;}
+{\s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext42 Code Example 1;}
+{\s42\li720\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext43 Code Example 2;}
+{\s43\li1080\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext44 Code Example 3;}
+{\s44\li1440\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext45 Code Example 4;}
+{\s45\li1800\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext46 Code Example 5;}
+{\s46\li2160\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext47 Code Example 6;}
+{\s47\li2520\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext48 Code Example 7;}
+{\s48\li2880\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext49 Code Example 8;}
+{\s49\li3240\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext49 Code Example 9;}
+{\s50\li0\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext51 List Continue 0;}
+{\s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext52 List Continue 1;}
+{\s52\li720\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext53 List Continue 2;}
+{\s53\li1080\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext54 List Continue 3;}
+{\s54\li1440\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext55 List Continue 4;}
+{\s55\li1800\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext56 List Continue 5;}
+{\s56\li2160\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext57 List Continue 6;}
+{\s57\li2520\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext58 List Continue 7;}
+{\s58\li2880\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext59 List Continue 8;}
+{\s59\li3240\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext59 List Continue 9;}
+{\s60\li0\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext61 DescContinue 0;}
+{\s61\li360\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext62 DescContinue 1;}
+{\s62\li720\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext63 DescContinue 2;}
+{\s63\li1080\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext64 DescContinue 3;}
+{\s64\li1440\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext65 DescContinue 4;}
+{\s65\li1800\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext66 DescContinue 5;}
+{\s66\li2160\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext67 DescContinue 6;}
+{\s67\li2520\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext68 DescContinue 7;}
+{\s68\li2880\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext69 DescContinue 8;}
+{\s69\li3240\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext69 DescContinue 9;}
+{\s70\li0\sa30\sb30\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext81 LatexTOC 0;}
+{\s71\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext82 LatexTOC 1;}
+{\s72\li720\sa24\sb24\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext83 LatexTOC 2;}
+{\s73\li1080\sa21\sb21\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext84 LatexTOC 3;}
+{\s74\li1440\sa18\sb18\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext85 LatexTOC 4;}
+{\s75\li1800\sa15\sb15\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext86 LatexTOC 5;}
+{\s76\li2160\sa12\sb12\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext87 LatexTOC 6;}
+{\s77\li2520\sa9\sb9\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext88 LatexTOC 7;}
+{\s78\li2880\sa6\sb6\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext89 LatexTOC 8;}
+{\s79\li3240\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext89 LatexTOC 9;}
+{\s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext81 \sautoupd List Bullet 0;}
+{\s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid \sbasedon0 \snext82 \sautoupd List Bullet 1;}
+{\s82\fi-360\li1080\widctlpar\jclisttab\tx1080{\*\pn \pnlvlbody\ilvl0\ls3\pnrnot0\pndec }\ls3\adjustright \fs20\cgrid \sbasedon0 \snext83 \sautoupd List Bullet 2;}
+{\s83\fi-360\li1440\widctlpar\jclisttab\tx1440{\*\pn \pnlvlbody\ilvl0\ls4\pnrnot0\pndec }\ls4\adjustright \fs20\cgrid \sbasedon0 \snext84 \sautoupd List Bullet 3;}
+{\s84\fi-360\li1800\widctlpar\jclisttab\tx1800{\*\pn \pnlvlbody\ilvl0\ls5\pnrnot0\pndec }\ls5\adjustright \fs20\cgrid \sbasedon0 \snext85 \sautoupd List Bullet 4;}
+{\s85\fi-360\li2160\widctlpar\jclisttab\tx2160{\*\pn \pnlvlbody\ilvl0\ls6\pnrnot0\pndec }\ls6\adjustright \fs20\cgrid \sbasedon0 \snext86 \sautoupd List Bullet 5;}
+{\s86\fi-360\li2520\widctlpar\jclisttab\tx2520{\*\pn \pnlvlbody\ilvl0\ls7\pnrnot0\pndec }\ls7\adjustright \fs20\cgrid \sbasedon0 \snext87 \sautoupd List Bullet 6;}
+{\s87\fi-360\li2880\widctlpar\jclisttab\tx2880{\*\pn \pnlvlbody\ilvl0\ls8\pnrnot0\pndec }\ls8\adjustright \fs20\cgrid \sbasedon0 \snext88 \sautoupd List Bullet 7;}
+{\s88\fi-360\li3240\widctlpar\jclisttab\tx3240{\*\pn \pnlvlbody\ilvl0\ls9\pnrnot0\pndec }\ls9\adjustright \fs20\cgrid \sbasedon0 \snext89 \sautoupd List Bullet 8;}
+{\s89\fi-360\li3600\widctlpar\jclisttab\tx3600{\*\pn \pnlvlbody\ilvl0\ls10\pnrnot0\pndec }\ls10\adjustright \fs20\cgrid \sbasedon0 \snext89 \sautoupd List Bullet 9;}
+{\s90\fi-360\li360\widctlpar\fs20\cgrid \sbasedon0 \snext91 \sautoupd List Enum 0;}
+{\s91\fi-360\li720\widctlpar\fs20\cgrid \sbasedon0 \snext92 \sautoupd List Enum 1;}
+{\s92\fi-360\li1080\widctlpar\fs20\cgrid \sbasedon0 \snext93 \sautoupd List Enum 2;}
+{\s93\fi-360\li1440\widctlpar\fs20\cgrid \sbasedon0 \snext94 \sautoupd List Enum 3;}
+{\s94\fi-360\li1800\widctlpar\fs20\cgrid \sbasedon0 \snext95 \sautoupd List Enum 4;}
+{\s95\fi-360\li2160\widctlpar\fs20\cgrid \sbasedon0 \snext96 \sautoupd List Enum 5;}
+{\s96\fi-360\li2520\widctlpar\fs20\cgrid \sbasedon0 \snext96 \sautoupd List Enum 5;}
+{\s97\fi-360\li2880\widctlpar\fs20\cgrid \sbasedon0 \snext98 \sautoupd List Enum 7;}
+{\s98\fi-360\li3240\widctlpar\fs20\cgrid \sbasedon0 \snext99 \sautoupd List Enum 8;}
+{\s99\fi-360\li3600\widctlpar\fs20\cgrid \sbasedon0 \snext99 \sautoupd List Enum 9;}
+}
+{\comment begin body}
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Referência da Classe QCPTextElement\par \pard\plain 
+{\tc\tcl2 \v QCPTextElement}
+{\xe \v QCPTextElement}
+{\bkmkstart AAAAAAADPZ}
+{\bkmkend AAAAAAADPZ}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+A layout element displaying a text. }}\par
+{
+{\f2 #include <qcustomplot.h>}}\par
+Diagrama de hierarquia para QCPTextElement:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "classQCPTextElement__inherit__graph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+Diagrama de colaboração para QCPTextElement:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "classQCPTextElement__coll__graph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Tipos Públicos\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+enum {\b UpdatePhase} \{ {\b upPreparation}, 
+{\b upMargins}, 
+{\b upLayout}
+ \}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+enum {\b SizeConstraintRect} \{ {\b scrInnerRect}, 
+{\b scrOuterRect}
+ \}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Sinais\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b selectionChanged} (bool {\b selected})\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b selectableChanged} (bool {\b selectable})\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b clicked} (QMouseEvent *event)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b doubleClicked} (QMouseEvent *event)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b layerChanged} ({\b QCPLayer} *newLayer)\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Membros Públicos\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b QCPTextElement} ({\b QCustomPlot} *{\b parentPlot})\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b QCPTextElement} ({\b QCustomPlot} *{\b parentPlot}, const QString &{\b text})\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b QCPTextElement} ({\b QCustomPlot} *{\b parentPlot}, const QString &{\b text}, double pointSize)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b QCPTextElement} ({\b QCustomPlot} *{\b parentPlot}, const QString &{\b text}, const QString &fontFamily, double pointSize)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b QCPTextElement} ({\b QCustomPlot} *{\b parentPlot}, const QString &{\b text}, const QFont &{\b font})\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+QString {\b text} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b textFlags} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+QFont {\b font} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+QColor {\b textColor} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+QFont {\b selectedFont} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+QColor {\b selectedTextColor} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b selectable} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b selected} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setText} (const QString &{\b text})\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setTextFlags} (int flags)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setFont} (const QFont &{\b font})\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setTextColor} (const QColor &color)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setSelectedFont} (const QFont &{\b font})\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setSelectedTextColor} (const QColor &color)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+Q_SLOT void {\b setSelectable} (bool {\b selectable})\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+Q_SLOT void {\b setSelected} (bool {\b selected})\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual double {\b selectTest} (const QPointF &pos, bool onlySelectable, QVariant *details=0) const {\b Q_DECL_OVERRIDE}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual void {\b mousePressEvent} (QMouseEvent *event, const QVariant &details) {\b Q_DECL_OVERRIDE}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual void {\b mouseReleaseEvent} (QMouseEvent *event, const QPointF &startPos) {\b Q_DECL_OVERRIDE}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual void {\b mouseDoubleClickEvent} (QMouseEvent *event, const QVariant &details) {\b Q_DECL_OVERRIDE}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b QCPLayout} * {\b layout} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+QRect {\b rect} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+QRect {\b outerRect} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+QMargins {\b margins} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+QMargins {\b minimumMargins} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+QCP::MarginSides {\b autoMargins} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+QSize {\b minimumSize} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+QSize {\b maximumSize} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b SizeConstraintRect} {\b sizeConstraintRect} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b QCPMarginGroup} * {\b marginGroup} ({\b QCP::MarginSide} side) const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+QHash< {\b QCP::MarginSide}, {\b QCPMarginGroup} * > {\b marginGroups} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setOuterRect} (const QRect &{\b rect})\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setMargins} (const QMargins &{\b margins})\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setMinimumMargins} (const QMargins &{\b margins})\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setAutoMargins} (QCP::MarginSides sides)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setMinimumSize} (const QSize &size)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setMinimumSize} (int width, int height)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setMaximumSize} (const QSize &size)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setMaximumSize} (int width, int height)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setSizeConstraintRect} ({\b SizeConstraintRect} constraintRect)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setMarginGroup} (QCP::MarginSides sides, {\b QCPMarginGroup} *group)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual void {\b update} ({\b UpdatePhase} phase)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual QList< {\b QCPLayoutElement} * > {\b elements} (bool recursive) const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b visible} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b QCustomPlot} * {\b parentPlot} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b QCPLayerable} * {\b parentLayerable} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b QCPLayer} * {\b layer} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b antialiased} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setVisible} (bool on)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+Q_SLOT bool {\b setLayer} ({\b QCPLayer} *{\b layer})\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b setLayer} (const QString &layerName)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setAntialiased} (bool enabled)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b realVisibility} () const\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Membros Protegidos\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual void {\b applyDefaultAntialiasingHint} ({\b QCPPainter} *painter) const {\b Q_DECL_OVERRIDE}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual void {\b draw} ({\b QCPPainter} *painter) {\b Q_DECL_OVERRIDE}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual QSize {\b minimumOuterSizeHint} () const {\b Q_DECL_OVERRIDE}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual QSize {\b maximumOuterSizeHint} () const {\b Q_DECL_OVERRIDE}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual void {\b selectEvent} (QMouseEvent *event, bool additive, const QVariant &details, bool *selectionStateChanged) {\b Q_DECL_OVERRIDE}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual void {\b deselectEvent} (bool *selectionStateChanged) {\b Q_DECL_OVERRIDE}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+QFont {\b mainFont} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+QColor {\b mainTextColor} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual int {\b calculateAutoMargin} ({\b QCP::MarginSide} side)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual void {\b layoutChanged} ()\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual void {\b parentPlotInitialized} ({\b QCustomPlot} *{\b parentPlot}) {\b Q_DECL_OVERRIDE}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual {\b QCP::Interaction} {\b selectionCategory} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual QRect {\b clipRect} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual void {\b mouseMoveEvent} (QMouseEvent *event, const QPointF &startPos)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual void {\b wheelEvent} (QWheelEvent *event)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b initializeParentPlot} ({\b QCustomPlot} *{\b parentPlot})\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setParentLayerable} ({\b QCPLayerable} *{\b parentLayerable})\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b moveToLayer} ({\b QCPLayer} *{\b layer}, bool prepend)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b applyAntialiasingHint} ({\b QCPPainter} *painter, bool localAntialiased, {\b QCP::AntialiasedElement} overrideElement) const\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Atributos Protegidos\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+QString {\b mText}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b mTextFlags}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+QFont {\b mFont}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+QColor {\b mTextColor}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+QFont {\b mSelectedFont}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+QColor {\b mSelectedTextColor}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+QRect {\b mTextBoundingRect}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b mSelectable}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b mSelected}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b QCPLayout} * {\b mParentLayout}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+QSize {\b mMinimumSize}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+QSize {\b mMaximumSize}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b SizeConstraintRect} {\b mSizeConstraintRect}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+QRect {\b mRect}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+QRect {\b mOuterRect}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+QMargins {\b mMargins}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+QMargins {\b mMinimumMargins}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+QCP::MarginSides {\b mAutoMargins}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+QHash< {\b QCP::MarginSide}, {\b QCPMarginGroup} * > {\b mMarginGroups}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b mVisible}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b QCustomPlot} * {\b mParentPlot}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+QPointer< {\b QCPLayerable} > {\b mParentLayerable}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b QCPLayer} * {\b mLayer}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b mAntialiased}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Descrição detalhada\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+A layout element displaying a text. \par
+}
+
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+The text may be specified with {\b setText}, the formatting can be controlled with {\b setFont}, {\b setTextColor}, and {\b setTextFlags}.\par
+A text element can be added as follows: {
+\par
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid }}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Enumerações\par
+\pard\plain 
+{\xe \v SizeConstraintRect\:QCPTextElement}
+{\xe \v QCPTextElement\:SizeConstraintRect}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+enum {\b QCPLayoutElement::SizeConstraintRect}{\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAJC}
+{\bkmkend AAAAAAAAJC}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Defines to which rect of a layout element the size constraints that can be set via {\b setMinimumSize} and {\b setMaximumSize} apply. The outer rect ({\b outerRect}) includes the margins (e.g. in the case of a {\b QCPAxisRect} the axis labels), whereas the inner rect ({\b rect}) does not.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b setSizeConstraintRect} \par
+}}{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Enumeradores:\par}
+\pard\plain \s61\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{\xe \v scrInnerRect\:QCPTextElement}
+{\xe \v QCPTextElement\:scrInnerRect}
+{\qr scrInnerRect{\bkmkstart AAAAAAAAJD}
+{\bkmkend AAAAAAAAJD}
+\cell }{{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Minimum/Maximum size constraints apply to inner rect. \par
+}\cell }{\row }
+{\xe \v scrOuterRect\:QCPTextElement}
+{\xe \v QCPTextElement\:scrOuterRect}
+{\qr scrOuterRect{\bkmkstart AAAAAAAAJE}
+{\bkmkend AAAAAAAAJE}
+\cell }{{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Minimum/Maximum size constraints apply to outer rect, thus include layout element margins. \par
+}\cell }{\row }
+}
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1211                           \{ scrInnerRect \par
+ 1212                             , scrOuterRect \par
+ 1213                           \};\par
+}
+}
+{\xe \v UpdatePhase\:QCPTextElement}
+{\xe \v QCPTextElement\:UpdatePhase}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+enum {\b QCPLayoutElement::UpdatePhase}{\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAJF}
+{\bkmkend AAAAAAAAJF}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Defines the phases of the update process, that happens just before a replot. At each phase, {\b update} is called with the according UpdatePhase value. \par
+}{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Enumeradores:\par}
+\pard\plain \s61\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{\xe \v upPreparation\:QCPTextElement}
+{\xe \v QCPTextElement\:upPreparation}
+{\qr upPreparation{\bkmkstart AAAAAAAAJG}
+{\bkmkend AAAAAAAAJG}
+\cell }{{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Phase used for any type of preparation that needs to be done before margin calculation and layout. \par
+}\cell }{\row }
+{\xe \v upMargins\:QCPTextElement}
+{\xe \v QCPTextElement\:upMargins}
+{\qr upMargins{\bkmkstart AAAAAAAAJH}
+{\bkmkend AAAAAAAAJH}
+\cell }{{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Phase in which the margins are calculated and set. \par
+}\cell }{\row }
+{\xe \v upLayout\:QCPTextElement}
+{\xe \v QCPTextElement\:upLayout}
+{\qr upLayout{\bkmkstart AAAAAAAAJI}
+{\bkmkend AAAAAAAAJI}
+\cell }{{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Final phase in which the layout system places the rects of the elements. \par
+}\cell }{\row }
+}
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1197                    \{ upPreparation \par
+ 1198                      ,upMargins    \par
+ 1199                      ,upLayout     \par
+ 1200                    \};\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Construtores e Destrutores\par
+\pard\plain 
+{\xe \v QCPTextElement\:QCPTextElement}
+{\xe \v QCPTextElement\:QCPTextElement}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QCPTextElement::QCPTextElement ({\b QCustomPlot} *  {\i parentPlot}){\f2 [explicit]}}}
+\par
+{\bkmkstart AAAAAAADQA}
+{\bkmkend AAAAAAADQA}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.\par
+Creates a new {\b QCPTextElement} instance and sets default values. The initial text is empty ({\b setText}). \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 18886                                                       :\par
+18887   QCPLayoutElement(parentPlot),\par
+18888   mText(),\par
+18889   mTextFlags(Qt::AlignCenter|Qt::TextWordWrap),\par
+18890   mFont(QFont(QLatin1String("sans serif"), 12)), // will be taken from parentPlot if available, see below\par
+18891   mTextColor(Qt::black),\par
+18892   mSelectedFont(QFont(QLatin1String("sans serif"), 12)), // will be taken from parentPlot if available, see below\par
+18893   mSelectedTextColor(Qt::blue),\par
+18894   mSelectable(false),\par
+18895   mSelected(false)\par
+18896 \{\par
+18897   if (parentPlot)\par
+18898   \{\par
+18899     mFont = parentPlot->font();\par
+18900     mSelectedFont = parentPlot->font();\par
+18901   \}\par
+18902   setMargins(QMargins(2, 2, 2, 2));\par
+18903 \}\par
+}
+}
+{\xe \v QCPTextElement\:QCPTextElement}
+{\xe \v QCPTextElement\:QCPTextElement}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QCPTextElement::QCPTextElement ({\b QCustomPlot} *  {\i parentPlot}, const QString &  {\i text})}}
+\par
+{\bkmkstart AAAAAAADQB}
+{\bkmkend AAAAAAADQB}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.\par
+Creates a new {\b QCPTextElement} instance and sets default values.\par
+The initial text is set to {\i text} . \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 18911                                                                            :\par
+18912   QCPLayoutElement(parentPlot),\par
+18913   mText(text),\par
+18914   mTextFlags(Qt::AlignCenter|Qt::TextWordWrap),\par
+18915   mFont(QFont(QLatin1String("sans serif"), 12)), // will be taken from parentPlot if available, see below\par
+18916   mTextColor(Qt::black),\par
+18917   mSelectedFont(QFont(QLatin1String("sans serif"), 12)), // will be taken from parentPlot if available, see below\par
+18918   mSelectedTextColor(Qt::blue),\par
+18919   mSelectable(false),\par
+18920   mSelected(false)\par
+18921 \{\par
+18922   if (parentPlot)\par
+18923   \{\par
+18924     mFont = parentPlot->font();\par
+18925     mSelectedFont = parentPlot->font();\par
+18926   \}\par
+18927   setMargins(QMargins(2, 2, 2, 2));\par
+18928 \}\par
+}
+}
+{\xe \v QCPTextElement\:QCPTextElement}
+{\xe \v QCPTextElement\:QCPTextElement}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QCPTextElement::QCPTextElement ({\b QCustomPlot} *  {\i parentPlot}, const QString &  {\i text}, double  {\i pointSize})}}
+\par
+{\bkmkstart AAAAAAADQC}
+{\bkmkend AAAAAAADQC}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.\par
+Creates a new {\b QCPTextElement} instance and sets default values.\par
+The initial text is set to {\i text}  with {\i pointSize} . \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 18936                                                                                              :\par
+18937   QCPLayoutElement(parentPlot),\par
+18938   mText(text),\par
+18939   mTextFlags(Qt::AlignCenter|Qt::TextWordWrap),\par
+18940   mFont(QFont(QLatin1String("sans serif"), pointSize)), // will be taken from parentPlot if available, see below\par
+18941   mTextColor(Qt::black),\par
+18942   mSelectedFont(QFont(QLatin1String("sans serif"), pointSize)), // will be taken from parentPlot if available, see below\par
+18943   mSelectedTextColor(Qt::blue),\par
+18944   mSelectable(false),\par
+18945   mSelected(false)\par
+18946 \{\par
+18947   if (parentPlot)\par
+18948   \{\par
+18949     mFont = parentPlot->font();\par
+18950     mFont.setPointSizeF(pointSize);\par
+18951     mSelectedFont = parentPlot->font();\par
+18952     mSelectedFont.setPointSizeF(pointSize);\par
+18953   \}\par
+18954   setMargins(QMargins(2, 2, 2, 2));\par
+18955 \}\par
+}
+}
+{\xe \v QCPTextElement\:QCPTextElement}
+{\xe \v QCPTextElement\:QCPTextElement}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QCPTextElement::QCPTextElement ({\b QCustomPlot} *  {\i parentPlot}, const QString &  {\i text}, const QString &  {\i fontFamily}, double  {\i pointSize})}}
+\par
+{\bkmkstart AAAAAAADQD}
+{\bkmkend AAAAAAADQD}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.\par
+Creates a new {\b QCPTextElement} instance and sets default values.\par
+The initial text is set to {\i text}  with {\i pointSize}  and the specified {\i fontFamily} . \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 18963                                                                                                                         :\par
+18964   QCPLayoutElement(parentPlot),\par
+18965   mText(text),\par
+18966   mTextFlags(Qt::AlignCenter|Qt::TextWordWrap),\par
+18967   mFont(QFont(fontFamily, pointSize)),\par
+18968   mTextColor(Qt::black),\par
+18969   mSelectedFont(QFont(fontFamily, pointSize)),\par
+18970   mSelectedTextColor(Qt::blue),\par
+18971   mSelectable(false),\par
+18972   mSelected(false)\par
+18973 \{\par
+18974   setMargins(QMargins(2, 2, 2, 2));\par
+18975 \}\par
+}
+}
+{\xe \v QCPTextElement\:QCPTextElement}
+{\xe \v QCPTextElement\:QCPTextElement}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QCPTextElement::QCPTextElement ({\b QCustomPlot} *  {\i parentPlot}, const QString &  {\i text}, const QFont &  {\i font})}}
+\par
+{\bkmkstart AAAAAAADQE}
+{\bkmkend AAAAAAADQE}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.\par
+Creates a new {\b QCPTextElement} instance and sets default values.\par
+The initial text is set to {\i text}  with the specified {\i font} . \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 18983                                                                                               :\par
+18984   QCPLayoutElement(parentPlot),\par
+18985   mText(text),\par
+18986   mTextFlags(Qt::AlignCenter|Qt::TextWordWrap),\par
+18987   mFont(font),\par
+18988   mTextColor(Qt::black),\par
+18989   mSelectedFont(font),\par
+18990   mSelectedTextColor(Qt::blue),\par
+18991   mSelectable(false),\par
+18992   mSelected(false)\par
+18993 \{\par
+18994   setMargins(QMargins(2, 2, 2, 2));\par
+18995 \}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Funções membros\par
+\pard\plain 
+{\xe \v antialiased\:QCPTextElement}
+{\xe \v QCPTextElement\:antialiased}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool QCPLayerable::antialiased () const{\f2 [inline]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAFG}
+{\bkmkend AAAAAAAAFG}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid   711 \{ return mAntialiased; \}\par
+}
+}
+{\xe \v applyAntialiasingHint\:QCPTextElement}
+{\xe \v QCPTextElement\:applyAntialiasingHint}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPLayerable::applyAntialiasingHint ({\b QCPPainter} *  {\i painter}, bool  {\i localAntialiased}, {\b QCP::AntialiasedElement}  {\i overrideElement}) const{\f2 [protected]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAFH}
+{\bkmkend AAAAAAAAFH}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1567 \{\par
+ 1568   if (mParentPlot && mParentPlot->notAntialiasedElements().testFlag(overrideElement))\par
+ 1569     painter->setAntialiasing(false);\par
+ 1570   else if (mParentPlot && mParentPlot->antialiasedElements().testFlag(overrideElement))\par
+ 1571     painter->setAntialiasing(true);\par
+ 1572   else\par
+ 1573     painter->setAntialiasing(localAntialiased);\par
+ 1574 \}\par
+}
+}
+{\xe \v applyDefaultAntialiasingHint\:QCPTextElement}
+{\xe \v QCPTextElement\:applyDefaultAntialiasingHint}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPTextElement::applyDefaultAntialiasingHint ({\b QCPPainter} *  {\i painter}) const{\f2 [protected]}, {\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAACXP}
+{\bkmkend AAAAAAACXP}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Reimplementa {\b QCPLayoutElement} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAJL \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 19105 \{\par
+19106   applyAntialiasingHint(painter, mAntialiased, QCP::aeOther);\par
+19107 \}\par
+}
+}
+{\xe \v autoMargins\:QCPTextElement}
+{\xe \v QCPTextElement\:autoMargins}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QCP::MarginSides QCPLayoutElement::autoMargins () const{\f2 [inline]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAJM}
+{\bkmkend AAAAAAAAJM}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1225 \{ return mAutoMargins; \}\par
+}
+}
+{\xe \v calculateAutoMargin\:QCPTextElement}
+{\xe \v QCPTextElement\:calculateAutoMargin}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int QCPLayoutElement::calculateAutoMargin ({\b QCP::MarginSide}  {\i side}){\f2 [protected]}, {\f2 [virtual]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAJN}
+{\bkmkend AAAAAAAAJN}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Reimplementado por {\b QCPAxisRect} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAJO \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  3538 \{\par
+ 3539   return qMax(QCP::getMarginValue(mMargins, side), QCP::getMarginValue(mMinimumMargins, side));\par
+ 3540 \}\par
+}
+}
+{\xe \v clicked\:QCPTextElement}
+{\xe \v QCPTextElement\:clicked}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPTextElement::clicked (QMouseEvent *  {\i event}){\f2 [signal]}}}
+\par
+{\bkmkstart AAAAAAADQF}
+{\bkmkend AAAAAAADQF}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+This signal is emitted when the text element is clicked.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b doubleClicked}, {\b selectTest} \par
+}}}
+{\xe \v clipRect\:QCPTextElement}
+{\xe \v QCPTextElement\:clipRect}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QRect QCPLayerable::clipRect () const{\f2 [protected]}, {\f2 [virtual]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAFM}
+{\bkmkend AAAAAAAAFM}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Reimplementado por {\b QCPAbstractLegendItem} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAJP \\*MERGEFORMAT}{\fldrslt pagenum}}}), {\b QCPAbstractItem} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAFL \\*MERGEFORMAT}{\fldrslt pagenum}}}) e {\b QCPAbstractPlottable} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAANX \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1623 \{\par
+ 1624   if (mParentPlot)\par
+ 1625     return mParentPlot->viewport();\par
+ 1626   else\par
+ 1627     return QRect();\par
+ 1628 \}\par
+}
+}
+{\xe \v deselectEvent\:QCPTextElement}
+{\xe \v QCPTextElement\:deselectEvent}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPTextElement::deselectEvent (bool *  {\i selectionStateChanged}){\f2 [protected]}, {\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAABCX}
+{\bkmkend AAAAAAABCX}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Reimplementa {\b QCPLayerable} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAFR \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 19153 \{\par
+19154   if (mSelectable)\par
+19155   \{\par
+19156     bool selBefore = mSelected;\par
+19157     setSelected(false);\par
+19158     if (selectionStateChanged)\par
+19159       *selectionStateChanged = mSelected != selBefore;\par
+19160   \}\par
+19161 \}\par
+}
+}
+{\xe \v doubleClicked\:QCPTextElement}
+{\xe \v QCPTextElement\:doubleClicked}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPTextElement::doubleClicked (QMouseEvent *  {\i event}){\f2 [signal]}}}
+\par
+{\bkmkstart AAAAAAADQG}
+{\bkmkend AAAAAAADQG}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+This signal is emitted when the text element is double clicked.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b clicked}, {\b selectTest} \par
+}}}
+{\xe \v draw\:QCPTextElement}
+{\xe \v QCPTextElement\:draw}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPTextElement::draw ({\b QCPPainter} *  {\i painter}){\f2 [protected]}, {\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAABTL}
+{\bkmkend AAAAAAABTL}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Reimplementa {\b QCPLayoutElement} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAJS \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 19111 \{\par
+19112   painter->setFont(mainFont());\par
+19113   painter->setPen(QPen(mainTextColor()));\par
+19114   painter->drawText(mRect, Qt::AlignCenter, mText, &mTextBoundingRect);\par
+19115 \}\par
+}
+}
+{\xe \v elements\:QCPTextElement}
+{\xe \v QCPTextElement\:elements}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QList< {\b QCPLayoutElement} * > QCPLayoutElement::elements (bool  {\i recursive}) const{\f2 [virtual]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAJU}
+{\bkmkend AAAAAAAAJU}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Returns a list of all child elements in this layout element. If {\i recursive}  is true, all sub-child elements are included in the list, too.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Aviso:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid There may be entries with value 0 in the returned list. (For example, {\b QCPLayoutGrid} may have empty cells which yield 0 at the respective index.) \par
+}}{
+Reimplementado por {\b QCPAxisRect} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAJV \\*MERGEFORMAT}{\fldrslt pagenum}}}), {\b QCPLayoutGrid} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAJW \\*MERGEFORMAT}{\fldrslt pagenum}}}) e {\b QCPLayout} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAJX \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  3478 \{\par
+ 3479   Q_UNUSED(recursive)\par
+ 3480   return QList<QCPLayoutElement*>();\par
+ 3481 \}\par
+}
+}
+{\xe \v font\:QCPTextElement}
+{\xe \v QCPTextElement\:font}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QFont QCPTextElement::font () const{\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAADQH}
+{\bkmkend AAAAAAADQH}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  4948 \{ return mFont; \}\par
+}
+}
+{\xe \v initializeParentPlot\:QCPTextElement}
+{\xe \v QCPTextElement\:initializeParentPlot}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPLayerable::initializeParentPlot ({\b QCustomPlot} *  {\i parentPlot}){\f2 [protected]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAGE}
+{\bkmkend AAAAAAAAGE}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1497 \{\par
+ 1498   if (mParentPlot)\par
+ 1499   \{\par
+ 1500     qDebug() << Q_FUNC_INFO << "called with mParentPlot already initialized";\par
+ 1501     return;\par
+ 1502   \}\par
+ 1503   \par
+ 1504   if (!parentPlot)\par
+ 1505     qDebug() << Q_FUNC_INFO << "called with parentPlot zero";\par
+ 1506   \par
+ 1507   mParentPlot = parentPlot;\par
+ 1508   parentPlotInitialized(mParentPlot);\par
+ 1509 \}\par
+}
+}
+{\xe \v layer\:QCPTextElement}
+{\xe \v QCPTextElement\:layer}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b QCPLayer}* QCPLayerable::layer () const{\f2 [inline]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAGF}
+{\bkmkend AAAAAAAAGF}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid   710 \{ return mLayer; \}\par
+}
+}
+{\xe \v layerChanged\:QCPTextElement}
+{\xe \v QCPTextElement\:layerChanged}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPLayerable::layerChanged ({\b QCPLayer} *  {\i newLayer}){\f2 [signal]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAGG}
+{\bkmkend AAAAAAAAGG}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+This signal is emitted when the layer of this layerable changes, i.e. this layerable is moved to a different layer.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b setLayer} \par
+}}}
+{\xe \v layout\:QCPTextElement}
+{\xe \v QCPTextElement\:layout}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b QCPLayout} * QCPLayoutElement::layout () const{\f2 [inline]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAJZ}
+{\bkmkend AAAAAAAAJZ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Returns the parent layout of this layout element. \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1220 \{ return mParentLayout; \}\par
+}
+}
+{\xe \v layoutChanged\:QCPTextElement}
+{\xe \v QCPTextElement\:layoutChanged}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPLayoutElement::layoutChanged (){\f2 [protected]}, {\f2 [virtual]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAKA}
+{\bkmkend AAAAAAAAKA}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Reimplementado por {\b QCPAxisRect} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAKB \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  3554 \{\par
+ 3555 \}\par
+}
+}
+{\xe \v mainFont\:QCPTextElement}
+{\xe \v QCPTextElement\:mainFont}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QFont QCPTextElement::mainFont () const{\f2 [protected]}}}
+\par
+{\bkmkstart AAAAAAADQI}
+{\bkmkend AAAAAAADQI}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 19226 \{\par
+19227   return mSelected ? mSelectedFont : mFont;\par
+19228 \}\par
+}
+}
+{\xe \v mainTextColor\:QCPTextElement}
+{\xe \v QCPTextElement\:mainTextColor}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QColor QCPTextElement::mainTextColor () const{\f2 [protected]}}}
+\par
+{\bkmkstart AAAAAAADQJ}
+{\bkmkend AAAAAAADQJ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 19236 \{\par
+19237   return mSelected ? mSelectedTextColor : mTextColor;\par
+19238 \}\par
+}
+}
+{\xe \v marginGroup\:QCPTextElement}
+{\xe \v QCPTextElement\:marginGroup}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b QCPMarginGroup}* QCPLayoutElement::marginGroup ({\b QCP::MarginSide}  {\i side}) const{\f2 [inline]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAKC}
+{\bkmkend AAAAAAAAKC}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1229 \{ return mMarginGroups.value(side, (QCPMarginGroup*)0); \}\par
+}
+}
+{\xe \v marginGroups\:QCPTextElement}
+{\xe \v QCPTextElement\:marginGroups}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QHash<{\b QCP::MarginSide}, {\b QCPMarginGroup}*> QCPLayoutElement::marginGroups () const{\f2 [inline]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAKD}
+{\bkmkend AAAAAAAAKD}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1230 \{ return mMarginGroups; \}\par
+}
+}
+{\xe \v margins\:QCPTextElement}
+{\xe \v QCPTextElement\:margins}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QMargins QCPLayoutElement::margins () const{\f2 [inline]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAKE}
+{\bkmkend AAAAAAAAKE}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1223 \{ return mMargins; \}\par
+}
+}
+{\xe \v maximumOuterSizeHint\:QCPTextElement}
+{\xe \v QCPTextElement\:maximumOuterSizeHint}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QSize QCPTextElement::maximumOuterSizeHint () const{\f2 [protected]}, {\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAAAKG}
+{\bkmkend AAAAAAAAKG}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Returns the suggested maximum size this layout element (the {\b outerRect}) may be expanded to, if no manual maximum size is set.\par
+if a maximum size ({\b setMaximumSize}) was not set manually, parent layouts use the returned size (usually indirectly through {\b QCPLayout::getFinalMaximumOuterSize}) to determine the maximum allowed size of this layout element.\par
+A manual maximum size is considered set if it is smaller than Qt's {\f2 QWIDGETSIZE_MAX} .\par
+The default implementation simply returns {\f2 QWIDGETSIZE_MAX}  for both width and height, implying no suggested maximum size. Reimplementations may use their detailed knowledge about the layout element's content to provide size hints. \par
+}{
+Reimplementa {\b QCPLayoutElement} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAKF \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 19129 \{\par
+19130   QFontMetrics metrics(mFont);\par
+19131   QSize result(metrics.boundingRect(0, 0, 0, 0, Qt::AlignCenter, mText).size());\par
+19132   result.setWidth(QWIDGETSIZE_MAX);\par
+19133   result.rheight() += mMargins.top()+mMargins.bottom();\par
+19134   return result;\par
+19135 \}\par
+}
+}
+{\xe \v maximumSize\:QCPTextElement}
+{\xe \v QCPTextElement\:maximumSize}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QSize QCPLayoutElement::maximumSize () const{\f2 [inline]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAKI}
+{\bkmkend AAAAAAAAKI}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1227 \{ return mMaximumSize; \}\par
+}
+}
+{\xe \v minimumMargins\:QCPTextElement}
+{\xe \v QCPTextElement\:minimumMargins}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QMargins QCPLayoutElement::minimumMargins () const{\f2 [inline]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAKJ}
+{\bkmkend AAAAAAAAKJ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1224 \{ return mMinimumMargins; \}\par
+}
+}
+{\xe \v minimumOuterSizeHint\:QCPTextElement}
+{\xe \v QCPTextElement\:minimumOuterSizeHint}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QSize QCPTextElement::minimumOuterSizeHint () const{\f2 [protected]}, {\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAAAKL}
+{\bkmkend AAAAAAAAKL}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Returns the suggested minimum size this layout element (the {\b outerRect}) may be compressed to, if no manual minimum size is set.\par
+if a minimum size ({\b setMinimumSize}) was not set manually, parent layouts use the returned size (usually indirectly through {\b QCPLayout::getFinalMinimumOuterSize}) to determine the minimum allowed size of this layout element.\par
+A manual minimum size is considered set if it is non-zero.\par
+The default implementation simply returns the sum of the horizontal margins for the width and the sum of the vertical margins for the height. Reimplementations may use their detailed knowledge about the layout element's content to provide size hints. \par
+}{
+Reimplementa {\b QCPLayoutElement} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAKK \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 19119 \{\par
+19120   QFontMetrics metrics(mFont);\par
+19121   QSize result(metrics.boundingRect(0, 0, 0, 0, Qt::AlignCenter, mText).size());\par
+19122   result.rwidth() += mMargins.left()+mMargins.right();\par
+19123   result.rheight() += mMargins.top()+mMargins.bottom();\par
+19124   return result;\par
+19125 \}\par
+}
+}
+{\xe \v minimumSize\:QCPTextElement}
+{\xe \v QCPTextElement\:minimumSize}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QSize QCPLayoutElement::minimumSize () const{\f2 [inline]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAKO}
+{\bkmkend AAAAAAAAKO}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1226 \{ return mMinimumSize; \}\par
+}
+}
+{\xe \v mouseDoubleClickEvent\:QCPTextElement}
+{\xe \v QCPTextElement\:mouseDoubleClickEvent}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPTextElement::mouseDoubleClickEvent (QMouseEvent *  {\i event}, const QVariant &  {\i details}){\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAAAGI}
+{\bkmkend AAAAAAAAGI}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Emits the {\b doubleClicked} signal.\par
+}{
+Reimplementa {\b QCPLayerable} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAGH \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 19215 \{\par
+19216   Q_UNUSED(details)\par
+19217   emit doubleClicked(event);\par
+19218 \}\par
+}
+}
+{\xe \v mouseMoveEvent\:QCPTextElement}
+{\xe \v QCPTextElement\:mouseMoveEvent}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPLayerable::mouseMoveEvent (QMouseEvent *  {\i event}, const QPointF &  {\i startPos}){\f2 [protected]}, {\f2 [virtual]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAGJ}
+{\bkmkend AAAAAAAAGJ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+This event gets called when the user moves the mouse while holding a mouse button, after this layerable has become the mouse grabber by accepting the preceding {\b mousePressEvent}.\par
+The current pixel position of the cursor on the {\b QCustomPlot} widget is accessible via {\f2 event->pos()} . The parameter {\i startPos}  indicates the position where the initial {\b mousePressEvent} occured, that started the mouse interaction.\par
+The default implementation does nothing.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b mousePressEvent}, {\b mouseReleaseEvent}, {\b mouseDoubleClickEvent}, {\b wheelEvent} \par
+}}{
+Reimplementado por {\b QCPColorScale} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAGK \\*MERGEFORMAT}{\fldrslt pagenum}}}), {\b QCPAxisRect} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAGL \\*MERGEFORMAT}{\fldrslt pagenum}}}) e {\b QCPAxis} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAGM \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1727 \{\par
+ 1728   Q_UNUSED(startPos)\par
+ 1729   event->ignore();\par
+ 1730 \}\par
+}
+}
+{\xe \v mousePressEvent\:QCPTextElement}
+{\xe \v QCPTextElement\:mousePressEvent}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPTextElement::mousePressEvent (QMouseEvent *  {\i event}, const QVariant &  {\i details}){\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAAAGP}
+{\bkmkend AAAAAAAAGP}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Accepts the mouse event in order to emit the according click signal in the {\b mouseReleaseEvent}.\par
+}{
+Reimplementa {\b QCPLayerable} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAGN \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 19192 \{\par
+19193   Q_UNUSED(details)\par
+19194   event->accept();\par
+19195 \}\par
+}
+}
+{\xe \v mouseReleaseEvent\:QCPTextElement}
+{\xe \v QCPTextElement\:mouseReleaseEvent}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPTextElement::mouseReleaseEvent (QMouseEvent *  {\i event}, const QPointF &  {\i startPos}){\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAAAGU}
+{\bkmkend AAAAAAAAGU}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Emits the {\b clicked} signal if the cursor hasn't moved by more than a few pixels since the {\b mousePressEvent}.\par
+}{
+Reimplementa {\b QCPLayerable} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAGS \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 19204 \{\par
+19205   if ((QPointF(event->pos())-startPos).manhattanLength() <= 3)\par
+19206     emit clicked(event);\par
+19207 \}\par
+}
+}
+{\xe \v moveToLayer\:QCPTextElement}
+{\xe \v QCPTextElement\:moveToLayer}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool QCPLayerable::moveToLayer ({\b QCPLayer} *  {\i layer}, bool  {\i prepend}){\f2 [protected]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAGX}
+{\bkmkend AAAAAAAAGX}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1536 \{\par
+ 1537   if (layer && !mParentPlot)\par
+ 1538   \{\par
+ 1539     qDebug() << Q_FUNC_INFO << "no parent QCustomPlot set";\par
+ 1540     return false;\par
+ 1541   \}\par
+ 1542   if (layer && layer->parentPlot() != mParentPlot)\par
+ 1543   \{\par
+ 1544     qDebug() << Q_FUNC_INFO << "layer" << layer->name() << "is not in same QCustomPlot as this layerable";\par
+ 1545     return false;\par
+ 1546   \}\par
+ 1547   \par
+ 1548   QCPLayer *oldLayer = mLayer;\par
+ 1549   if (mLayer)\par
+ 1550     mLayer->removeChild(this);\par
+ 1551   mLayer = layer;\par
+ 1552   if (mLayer)\par
+ 1553     mLayer->addChild(this, prepend);\par
+ 1554   if (mLayer != oldLayer)\par
+ 1555     emit layerChanged(mLayer);\par
+ 1556   return true;\par
+ 1557 \}\par
+}
+}
+{\xe \v outerRect\:QCPTextElement}
+{\xe \v QCPTextElement\:outerRect}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QRect QCPLayoutElement::outerRect () const{\f2 [inline]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAKP}
+{\bkmkend AAAAAAAAKP}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Returns the outer rect of this layout element. The outer rect is the inner rect expanded by the margins ({\b setMargins}, {\b setAutoMargins}). The outer rect is used (and set via {\b setOuterRect}) by the parent {\b QCPLayout} to control the size of this layout element.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b rect} \par
+}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1222 \{ return mOuterRect; \}\par
+}
+}
+{\xe \v parentLayerable\:QCPTextElement}
+{\xe \v QCPTextElement\:parentLayerable}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b QCPLayerable} * QCPLayerable::parentLayerable () const{\f2 [inline]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAGY}
+{\bkmkend AAAAAAAAGY}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Returns the parent layerable of this layerable. The parent layerable is used to provide visibility hierarchies in conjunction with the method {\b realVisibility}. This way, layerables only get drawn if their parent layerables are visible, too.\par
+Note that a parent layerable is not necessarily also the QObject parent for memory management. Further, a layerable doesn't always have a parent layerable, so this function may return 0.\par
+A parent layerable is set implicitly when placed inside layout elements and doesn't need to be set manually by the user. \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid   709 \{ return mParentLayerable.data(); \}\par
+}
+}
+{\xe \v parentPlot\:QCPTextElement}
+{\xe \v QCPTextElement\:parentPlot}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b QCustomPlot}* QCPLayerable::parentPlot () const{\f2 [inline]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAGZ}
+{\bkmkend AAAAAAAAGZ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid   708 \{ return mParentPlot; \}\par
+}
+}
+{\xe \v parentPlotInitialized\:QCPTextElement}
+{\xe \v QCPTextElement\:parentPlotInitialized}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPLayoutElement::parentPlotInitialized ({\b QCustomPlot} *  {\i parentPlot}){\f2 [protected]}, {\f2 [virtual]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAHC}
+{\bkmkend AAAAAAAAHC}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Reimplementa {\b QCPLayerable} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAHA \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+{
+Reimplementado por {\b QCPLegend} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAHB \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  3520 \{\par
+ 3521   foreach (QCPLayoutElement* el, elements(false))\par
+ 3522   \{\par
+ 3523     if (!el->parentPlot())\par
+ 3524       el->initializeParentPlot(parentPlot);\par
+ 3525   \}\par
+ 3526 \}\par
+}
+}
+{\xe \v realVisibility\:QCPTextElement}
+{\xe \v QCPTextElement\:realVisibility}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool QCPLayerable::realVisibility () const{\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAHF}
+{\bkmkend AAAAAAAAHF}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Returns whether this layerable is visible, taking the visibility of the layerable parent and the visibility of this layerable's layer into account. This is the method that is consulted to decide whether a layerable shall be drawn or not.\par
+If this layerable has a direct layerable parent (usually set via hierarchies implemented in subclasses, like in the case of {\b QCPLayoutElement}), this function returns true only if this layerable has its visibility set to true and the parent layerable's {\b realVisibility} returns true. \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1433 \{\par
+ 1434   return mVisible && (!mLayer || mLayer->visible()) && (!mParentLayerable || mParentLayerable.data()->realVisibility());\par
+ 1435 \}\par
+}
+}
+{\xe \v rect\:QCPTextElement}
+{\xe \v QCPTextElement\:rect}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QRect QCPLayoutElement::rect () const{\f2 [inline]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAKR}
+{\bkmkend AAAAAAAAKR}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Returns the inner rect of this layout element. The inner rect is the outer rect ({\b outerRect}, {\b setOuterRect}) shrinked by the margins ({\b setMargins}, {\b setAutoMargins}).\par
+In some cases, the area between outer and inner rect is left blank. In other cases the margin area is used to display peripheral graphics while the main content is in the inner rect. This is where automatic margin calculation becomes interesting because it allows the layout element to adapt the margins to the peripheral graphics it wants to draw. For example, {\b QCPAxisRect} draws the axis labels and tick labels in the margin area, thus needs to adjust the margins (if {\b setAutoMargins} is enabled) according to the space required by the labels of the axes.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b outerRect} \par
+}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1221 \{ return mRect; \}\par
+}
+}
+{\xe \v selectable\:QCPTextElement}
+{\xe \v QCPTextElement\:selectable}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool QCPTextElement::selectable () const{\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAADQK}
+{\bkmkend AAAAAAADQK}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  4952 \{ return mSelectable; \}\par
+}
+}
+{\xe \v selectableChanged\:QCPTextElement}
+{\xe \v QCPTextElement\:selectableChanged}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPTextElement::selectableChanged (bool  {\i selectable}){\f2 [signal]}}}
+\par
+{\bkmkstart AAAAAAADQL}
+{\bkmkend AAAAAAADQL}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v selected\:QCPTextElement}
+{\xe \v QCPTextElement\:selected}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool QCPTextElement::selected () const{\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAADQM}
+{\bkmkend AAAAAAADQM}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  4953 \{ return mSelected; \}\par
+}
+}
+{\xe \v selectedFont\:QCPTextElement}
+{\xe \v QCPTextElement\:selectedFont}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QFont QCPTextElement::selectedFont () const{\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAADQN}
+{\bkmkend AAAAAAADQN}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  4950 \{ return mSelectedFont; \}\par
+}
+}
+{\xe \v selectedTextColor\:QCPTextElement}
+{\xe \v QCPTextElement\:selectedTextColor}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QColor QCPTextElement::selectedTextColor () const{\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAADQO}
+{\bkmkend AAAAAAADQO}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  4951 \{ return mSelectedTextColor; \}\par
+}
+}
+{\xe \v selectEvent\:QCPTextElement}
+{\xe \v QCPTextElement\:selectEvent}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPTextElement::selectEvent (QMouseEvent *  {\i event}, bool  {\i additive}, const QVariant &  {\i details}, bool *  {\i selectionStateChanged}){\f2 [protected]}, {\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAABDR}
+{\bkmkend AAAAAAABDR}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Reimplementa {\b QCPLayerable} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAHL \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 19139 \{\par
+19140   Q_UNUSED(event)\par
+19141   Q_UNUSED(details)\par
+19142   if (mSelectable)\par
+19143   \{\par
+19144     bool selBefore = mSelected;\par
+19145     setSelected(additive ? !mSelected : true);\par
+19146     if (selectionStateChanged)\par
+19147       *selectionStateChanged = mSelected != selBefore;\par
+19148   \}\par
+19149 \}\par
+}
+}
+{\xe \v selectionCategory\:QCPTextElement}
+{\xe \v QCPTextElement\:selectionCategory}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b QCP::Interaction} QCPLayerable::selectionCategory () const{\f2 [protected]}, {\f2 [virtual]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAHN}
+{\bkmkend AAAAAAAAHN}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Reimplementado por {\b QCPLegend} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAABDT \\*MERGEFORMAT}{\fldrslt pagenum}}}), {\b QCPAbstractLegendItem} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAKY \\*MERGEFORMAT}{\fldrslt pagenum}}}), {\b QCPAbstractItem} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAHM \\*MERGEFORMAT}{\fldrslt pagenum}}}), {\b QCPAbstractPlottable} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAPZ \\*MERGEFORMAT}{\fldrslt pagenum}}}) e {\b QCPAxis} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAVL \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1609 \{\par
+ 1610   return QCP::iSelectOther;\par
+ 1611 \}\par
+}
+}
+{\xe \v selectionChanged\:QCPTextElement}
+{\xe \v QCPTextElement\:selectionChanged}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPTextElement::selectionChanged (bool  {\i selected}){\f2 [signal]}}}
+\par
+{\bkmkstart AAAAAAADQP}
+{\bkmkend AAAAAAADQP}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+This signal is emitted when the selection state has changed to {\i selected} , either by user interaction or by a direct call to {\b setSelected}.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b setSelected}, {\b setSelectable} \par
+}}}
+{\xe \v selectTest\:QCPTextElement}
+{\xe \v QCPTextElement\:selectTest}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+double QCPTextElement::selectTest (const QPointF &  {\i pos}, bool  {\i onlySelectable}, QVariant *  {\i details} = {\f2 0}) const{\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAABDU}
+{\bkmkend AAAAAAABDU}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Returns 0.99*selectionTolerance (see {\b QCustomPlot::setSelectionTolerance}) when {\i pos}  is within the bounding box of the text element's text. Note that this bounding box is updated in the draw call.\par
+If {\i pos}  is outside the text's bounding box or if {\i onlySelectable}  is true and this text element is not selectable ({\b setSelectable}), returns -1.\par
+}{
+Reimplementa {\b QCPLayoutElement} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAALB \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 19174 \{\par
+19175   Q_UNUSED(details)\par
+19176   if (onlySelectable && !mSelectable)\par
+19177     return -1;\par
+19178   \par
+19179   if (mTextBoundingRect.contains(pos.toPoint()))\par
+19180     return mParentPlot->selectionTolerance()*0.99;\par
+19181   else\par
+19182     return -1;\par
+19183 \}\par
+}
+}
+{\xe \v setAntialiased\:QCPTextElement}
+{\xe \v QCPTextElement\:setAntialiased}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPLayerable::setAntialiased (bool  {\i enabled}){\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAIA}
+{\bkmkend AAAAAAAAIA}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Sets whether this object will be drawn antialiased or not.\par
+Note that antialiasing settings may be overridden by {\b QCustomPlot::setAntialiasedElements} and {\b QCustomPlot::setNotAntialiasedElements}. \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1418 \{\par
+ 1419   mAntialiased = enabled;\par
+ 1420 \}\par
+}
+}
+{\xe \v setAutoMargins\:QCPTextElement}
+{\xe \v QCPTextElement\:setAutoMargins}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPLayoutElement::setAutoMargins (QCP::MarginSides  {\i sides}){\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAALC}
+{\bkmkend AAAAAAAALC}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Sets on which sides the margin shall be calculated automatically. If a side is calculated automatically, a minimum margin value may be provided with {\b setMinimumMargins}. If a side is set to be controlled manually, the value may be specified with {\b setMargins}.\par
+Margin sides that are under automatic control may participate in a {\b QCPMarginGroup} (see {\b setMarginGroup}), to synchronize (align) it with other layout elements in the plot.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b setMinimumMargins}, {\b setMargins}, {\b QCP::MarginSide} \par
+}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  3265 \{\par
+ 3266   mAutoMargins = sides;\par
+ 3267 \}\par
+}
+}
+{\xe \v setFont\:QCPTextElement}
+{\xe \v QCPTextElement\:setFont}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPTextElement::setFont (const QFont &  {\i font})}}
+\par
+{\bkmkstart AAAAAAADQQ}
+{\bkmkend AAAAAAADQQ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Sets the {\i font}  of the text.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b setTextColor}, {\b setSelectedFont} \par
+}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 19038 \{\par
+19039   mFont = font;\par
+19040 \}\par
+}
+}
+{\xe \v setLayer\:QCPTextElement}
+{\xe \v QCPTextElement\:setLayer}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool QCPLayerable::setLayer ({\b QCPLayer} *  {\i layer}){\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAID}
+{\bkmkend AAAAAAAAID}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Sets the {\i layer}  of this layerable object. The object will be placed on top of the other objects already on {\i layer} .\par
+If {\i layer}  is 0, this layerable will not be on any layer and thus not appear in the plot (or interact/receive events).\par
+Returns true if the layer of this layerable was successfully changed to {\i layer} . \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1385 \{\par
+ 1386   return moveToLayer(layer, false);\par
+ 1387 \}\par
+}
+}
+{\xe \v setLayer\:QCPTextElement}
+{\xe \v QCPTextElement\:setLayer}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool QCPLayerable::setLayer (const QString &  {\i layerName}){\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAIE}
+{\bkmkend AAAAAAAAIE}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados. Sets the layer of this layerable object by name\par
+Returns true on success, i.e. if {\i layerName}  is a valid layer name. \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1395 \{\par
+ 1396   if (!mParentPlot)\par
+ 1397   \{\par
+ 1398     qDebug() << Q_FUNC_INFO << "no parent QCustomPlot set";\par
+ 1399     return false;\par
+ 1400   \}\par
+ 1401   if (QCPLayer *layer = mParentPlot->layer(layerName))\par
+ 1402   \{\par
+ 1403     return setLayer(layer);\par
+ 1404   \} else\par
+ 1405   \{\par
+ 1406     qDebug() << Q_FUNC_INFO << "there is no layer with name" << layerName;\par
+ 1407     return false;\par
+ 1408   \}\par
+ 1409 \}\par
+}
+}
+{\xe \v setMarginGroup\:QCPTextElement}
+{\xe \v QCPTextElement\:setMarginGroup}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPLayoutElement::setMarginGroup (QCP::MarginSides  {\i sides}, {\b QCPMarginGroup} *  {\i group}){\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAALE}
+{\bkmkend AAAAAAAALE}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Sets the margin {\i group}  of the specified margin {\i sides} .\par
+Margin groups allow synchronizing specified margins across layout elements, see the documentation of {\b QCPMarginGroup}.\par
+To unset the margin group of {\i sides} , set {\i group}  to 0.\par
+Note that margin groups only work for margin sides that are set to automatic ({\b setAutoMargins}).\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b QCP::MarginSide} \par
+}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  3365 \{\par
+ 3366   QVector<QCP::MarginSide> sideVector;\par
+ 3367   if (sides.testFlag(QCP::msLeft)) sideVector.append(QCP::msLeft);\par
+ 3368   if (sides.testFlag(QCP::msRight)) sideVector.append(QCP::msRight);\par
+ 3369   if (sides.testFlag(QCP::msTop)) sideVector.append(QCP::msTop);\par
+ 3370   if (sides.testFlag(QCP::msBottom)) sideVector.append(QCP::msBottom);\par
+ 3371   \par
+ 3372   for (int i=0; i<sideVector.size(); ++i)\par
+ 3373   \{\par
+ 3374     QCP::MarginSide side = sideVector.at(i);\par
+ 3375     if (marginGroup(side) != group)\par
+ 3376     \{\par
+ 3377       QCPMarginGroup *oldGroup = marginGroup(side);\par
+ 3378       if (oldGroup) // unregister at old group\par
+ 3379         oldGroup->removeChild(side, this);\par
+ 3380       \par
+ 3381       if (!group) // if setting to 0, remove hash entry. Else set hash entry to new group and register there\par
+ 3382       \{\par
+ 3383         mMarginGroups.remove(side);\par
+ 3384       \} else // setting to a new group\par
+ 3385       \{\par
+ 3386         mMarginGroups[side] = group;\par
+ 3387         group->addChild(side, this);\par
+ 3388       \}\par
+ 3389     \}\par
+ 3390   \}\par
+ 3391 \}\par
+}
+}
+{\xe \v setMargins\:QCPTextElement}
+{\xe \v QCPTextElement\:setMargins}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPLayoutElement::setMargins (const QMargins &  {\i margins}){\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAALF}
+{\bkmkend AAAAAAAALF}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Sets the margins of this layout element. If {\b setAutoMargins} is disabled for some or all sides, this function is used to manually set the margin on those sides. Sides that are still set to be handled automatically are ignored and may have any value in {\i margins} .\par
+The margin is the distance between the outer rect (controlled by the parent layout via {\b setOuterRect}) and the inner {\b rect} (which usually contains the main content of this layout element).\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b setAutoMargins} \par
+}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  3229 \{\par
+ 3230   if (mMargins != margins)\par
+ 3231   \{\par
+ 3232     mMargins = margins;\par
+ 3233     mRect = mOuterRect.adjusted(mMargins.left(), mMargins.top(), -mMargins.right(), -mMargins.bottom());\par
+ 3234   \}\par
+ 3235 \}\par
+}
+}
+{\xe \v setMaximumSize\:QCPTextElement}
+{\xe \v QCPTextElement\:setMaximumSize}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPLayoutElement::setMaximumSize (const QSize &  {\i size}){\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAALG}
+{\bkmkend AAAAAAAALG}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Sets the maximum size of this layout element. A parent layout tries to respect the {\i size}  here by changing row/column sizes in the layout accordingly.\par
+Whether this constraint applies to the inner or the outer rect can be specified with {\b setSizeConstraintRect} (see {\b rect} and {\b outerRect}). \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  3311 \{\par
+ 3312   if (mMaximumSize != size)\par
+ 3313   \{\par
+ 3314     mMaximumSize = size;\par
+ 3315     if (mParentLayout)\par
+ 3316       mParentLayout->sizeConstraintsChanged();\par
+ 3317   \}\par
+ 3318 \}\par
+}
+}
+{\xe \v setMaximumSize\:QCPTextElement}
+{\xe \v QCPTextElement\:setMaximumSize}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPLayoutElement::setMaximumSize (int  {\i width}, int  {\i height}){\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAALH}
+{\bkmkend AAAAAAAALH}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.\par
+Sets the maximum size of this layout element.\par
+Whether this constraint applies to the inner or the outer rect can be specified with {\b setSizeConstraintRect} (see {\b rect} and {\b outerRect}). \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  3328 \{\par
+ 3329   setMaximumSize(QSize(width, height));\par
+ 3330 \}\par
+}
+}
+{\xe \v setMinimumMargins\:QCPTextElement}
+{\xe \v QCPTextElement\:setMinimumMargins}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPLayoutElement::setMinimumMargins (const QMargins &  {\i margins}){\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAALI}
+{\bkmkend AAAAAAAALI}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+If {\b setAutoMargins} is enabled on some or all margins, this function is used to provide minimum values for those margins.\par
+The minimum values are not enforced on margin sides that were set to be under manual control via {\b setAutoMargins}.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b setAutoMargins} \par
+}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  3247 \{\par
+ 3248   if (mMinimumMargins != margins)\par
+ 3249   \{\par
+ 3250     mMinimumMargins = margins;\par
+ 3251   \}\par
+ 3252 \}\par
+}
+}
+{\xe \v setMinimumSize\:QCPTextElement}
+{\xe \v QCPTextElement\:setMinimumSize}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPLayoutElement::setMinimumSize (const QSize &  {\i size}){\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAALJ}
+{\bkmkend AAAAAAAALJ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Sets the minimum size of this layout element. A parent layout tries to respect the {\i size}  here by changing row/column sizes in the layout accordingly.\par
+If the parent layout size is not sufficient to satisfy all minimum size constraints of its child layout elements, the layout may set a size that is actually smaller than {\i size} . {\b QCustomPlot} propagates the layout's size constraints to the outside by setting its own minimum QWidget size accordingly, so violations of {\i size}  should be exceptions.\par
+Whether this constraint applies to the inner or the outer rect can be specified with {\b setSizeConstraintRect} (see {\b rect} and {\b outerRect}). \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  3282 \{\par
+ 3283   if (mMinimumSize != size)\par
+ 3284   \{\par
+ 3285     mMinimumSize = size;\par
+ 3286     if (mParentLayout)\par
+ 3287       mParentLayout->sizeConstraintsChanged();\par
+ 3288   \}\par
+ 3289 \}\par
+}
+}
+{\xe \v setMinimumSize\:QCPTextElement}
+{\xe \v QCPTextElement\:setMinimumSize}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPLayoutElement::setMinimumSize (int  {\i width}, int  {\i height}){\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAALK}
+{\bkmkend AAAAAAAALK}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.\par
+Sets the minimum size of this layout element.\par
+Whether this constraint applies to the inner or the outer rect can be specified with {\b setSizeConstraintRect} (see {\b rect} and {\b outerRect}). \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  3299 \{\par
+ 3300   setMinimumSize(QSize(width, height));\par
+ 3301 \}\par
+}
+}
+{\xe \v setOuterRect\:QCPTextElement}
+{\xe \v QCPTextElement\:setOuterRect}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPLayoutElement::setOuterRect (const QRect &  {\i rect}){\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAALL}
+{\bkmkend AAAAAAAALL}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Sets the outer rect of this layout element. If the layout element is inside a layout, the layout sets the position and size of this layout element using this function.\par
+Calling this function externally has no effect, since the layout will overwrite any changes to the outer rect upon the next replot.\par
+The layout element will adapt its inner {\b rect} by applying the margins inward to the outer rect.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b rect} \par
+}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  3209 \{\par
+ 3210   if (mOuterRect != rect)\par
+ 3211   \{\par
+ 3212     mOuterRect = rect;\par
+ 3213     mRect = mOuterRect.adjusted(mMargins.left(), mMargins.top(), -mMargins.right(), -mMargins.bottom());\par
+ 3214   \}\par
+ 3215 \}\par
+}
+}
+{\xe \v setParentLayerable\:QCPTextElement}
+{\xe \v QCPTextElement\:setParentLayerable}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPLayerable::setParentLayerable ({\b QCPLayerable} *  {\i parentLayerable}){\f2 [protected]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAIF}
+{\bkmkend AAAAAAAAIF}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1523 \{\par
+ 1524   mParentLayerable = parentLayerable;\par
+ 1525 \}\par
+}
+}
+{\xe \v setSelectable\:QCPTextElement}
+{\xe \v QCPTextElement\:setSelectable}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPTextElement::setSelectable (bool  {\i selectable})}}
+\par
+{\bkmkstart AAAAAAADQR}
+{\bkmkend AAAAAAADQR}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Sets whether the user may select this text element.\par
+Note that even when {\i selectable}  is set to {\f2 false} , the selection state may be changed programmatically via {\b setSelected}. \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 19079 \{\par
+19080   if (mSelectable != selectable)\par
+19081   \{\par
+19082     mSelectable = selectable;\par
+19083     emit selectableChanged(mSelectable);\par
+19084   \}\par
+19085 \}\par
+}
+}
+{\xe \v setSelected\:QCPTextElement}
+{\xe \v QCPTextElement\:setSelected}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPTextElement::setSelected (bool  {\i selected})}}
+\par
+{\bkmkstart AAAAAAADQS}
+{\bkmkend AAAAAAADQS}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Sets the selection state of this text element to {\i selected} . If the selection has changed, {\b selectionChanged} is emitted.\par
+Note that this function can change the selection state independently of the current {\b setSelectable} state. \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 19095 \{\par
+19096   if (mSelected != selected)\par
+19097   \{\par
+19098     mSelected = selected;\par
+19099     emit selectionChanged(mSelected);\par
+19100   \}\par
+19101 \}\par
+}
+}
+{\xe \v setSelectedFont\:QCPTextElement}
+{\xe \v QCPTextElement\:setSelectedFont}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPTextElement::setSelectedFont (const QFont &  {\i font})}}
+\par
+{\bkmkstart AAAAAAADQT}
+{\bkmkend AAAAAAADQT}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Sets the {\i font}  of the text that will be used if the text element is selected ({\b setSelected}).\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b setFont} \par
+}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 19058 \{\par
+19059   mSelectedFont = font;\par
+19060 \}\par
+}
+}
+{\xe \v setSelectedTextColor\:QCPTextElement}
+{\xe \v QCPTextElement\:setSelectedTextColor}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPTextElement::setSelectedTextColor (const QColor &  {\i color})}}
+\par
+{\bkmkstart AAAAAAADQU}
+{\bkmkend AAAAAAADQU}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Sets the {\i color}  of the text that will be used if the text element is selected ({\b setSelected}).\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b setTextColor} \par
+}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 19068 \{\par
+19069   mSelectedTextColor = color;\par
+19070 \}\par
+}
+}
+{\xe \v setSizeConstraintRect\:QCPTextElement}
+{\xe \v QCPTextElement\:setSizeConstraintRect}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPLayoutElement::setSizeConstraintRect ({\b SizeConstraintRect}  {\i constraintRect}){\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAALQ}
+{\bkmkend AAAAAAAALQ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Sets to which rect of a layout element the size constraints apply. Size constraints can be set via {\b setMinimumSize} and {\b setMaximumSize}.\par
+The outer rect ({\b outerRect}) includes the margins (e.g. in the case of a {\b QCPAxisRect} the axis labels), whereas the inner rect ({\b rect}) does not.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b setMinimumSize}, {\b setMaximumSize} \par
+}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  3342 \{\par
+ 3343   if (mSizeConstraintRect != constraintRect)\par
+ 3344   \{\par
+ 3345     mSizeConstraintRect = constraintRect;\par
+ 3346     if (mParentLayout)\par
+ 3347       mParentLayout->sizeConstraintsChanged();\par
+ 3348   \}\par
+ 3349 \}\par
+}
+}
+{\xe \v setText\:QCPTextElement}
+{\xe \v QCPTextElement\:setText}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPTextElement::setText (const QString &  {\i text})}}
+\par
+{\bkmkstart AAAAAAADQV}
+{\bkmkend AAAAAAADQV}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Sets the text that will be displayed to {\i text} . Multiple lines can be created by insertion of "\\n".\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b setFont}, {\b setTextColor}, {\b setTextFlags} \par
+}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 19003 \{\par
+19004   mText = text;\par
+19005 \}\par
+}
+}
+{\xe \v setTextColor\:QCPTextElement}
+{\xe \v QCPTextElement\:setTextColor}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPTextElement::setTextColor (const QColor &  {\i color})}}
+\par
+{\bkmkstart AAAAAAADQW}
+{\bkmkend AAAAAAADQW}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Sets the {\i color}  of the text.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b setFont}, {\b setSelectedTextColor} \par
+}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 19048 \{\par
+19049   mTextColor = color;\par
+19050 \}\par
+}
+}
+{\xe \v setTextFlags\:QCPTextElement}
+{\xe \v QCPTextElement\:setTextFlags}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPTextElement::setTextFlags (int  {\i flags})}}
+\par
+{\bkmkstart AAAAAAADQX}
+{\bkmkend AAAAAAADQX}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Sets options for text alignment and wrapping behaviour. {\i flags}  is a bitwise OR-combination of {\f2 Qt::AlignmentFlag}  and {\f2 Qt::TextFlag}  enums.\par
+Possible enums are:{
+\par
+\pard\plain \s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid 
+Qt::AlignLeft\par
+\pard\plain \s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid 
+Qt::AlignRight\par
+\pard\plain \s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid 
+Qt::AlignHCenter\par
+\pard\plain \s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid 
+Qt::AlignJustify\par
+\pard\plain \s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid 
+Qt::AlignTop\par
+\pard\plain \s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid 
+Qt::AlignBottom\par
+\pard\plain \s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid 
+Qt::AlignVCenter\par
+\pard\plain \s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid 
+Qt::AlignCenter\par
+\pard\plain \s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid 
+Qt::TextDontClip\par
+\pard\plain \s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid 
+Qt::TextSingleLine\par
+\pard\plain \s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid 
+Qt::TextExpandTabs\par
+\pard\plain \s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid 
+Qt::TextShowMnemonic\par
+\pard\plain \s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid 
+Qt::TextWordWrap\par
+\pard\plain \s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid 
+Qt::TextIncludeTrailingSpaces \par}
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 19028 \{\par
+19029   mTextFlags = flags;\par
+19030 \}\par
+}
+}
+{\xe \v setVisible\:QCPTextElement}
+{\xe \v QCPTextElement\:setVisible}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPLayerable::setVisible (bool  {\i on}){\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAII}
+{\bkmkend AAAAAAAAII}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Sets the visibility of this layerable object. If an object is not visible, it will not be drawn on the {\b QCustomPlot} surface, and user interaction with it (e.g. click and selection) is not possible. \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1371 \{\par
+ 1372   mVisible = on;\par
+ 1373 \}\par
+}
+}
+{\xe \v sizeConstraintRect\:QCPTextElement}
+{\xe \v QCPTextElement\:sizeConstraintRect}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b SizeConstraintRect} QCPLayoutElement::sizeConstraintRect () const{\f2 [inline]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAALS}
+{\bkmkend AAAAAAAALS}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1228 \{ return mSizeConstraintRect; \}\par
+}
+}
+{\xe \v text\:QCPTextElement}
+{\xe \v QCPTextElement\:text}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QString QCPTextElement::text () const{\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAADQY}
+{\bkmkend AAAAAAADQY}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  4946 \{ return mText; \}\par
+}
+}
+{\xe \v textColor\:QCPTextElement}
+{\xe \v QCPTextElement\:textColor}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QColor QCPTextElement::textColor () const{\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAADQZ}
+{\bkmkend AAAAAAADQZ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  4949 \{ return mTextColor; \}\par
+}
+}
+{\xe \v textFlags\:QCPTextElement}
+{\xe \v QCPTextElement\:textFlags}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int QCPTextElement::textFlags () const{\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAADRA}
+{\bkmkend AAAAAAADRA}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  4947 \{ return mTextFlags; \}\par
+}
+}
+{\xe \v update\:QCPTextElement}
+{\xe \v QCPTextElement\:update}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPLayoutElement::update ({\b UpdatePhase}  {\i phase}){\f2 [virtual]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAALU}
+{\bkmkend AAAAAAAALU}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Updates the layout element and sub-elements. This function is automatically called before every replot by the parent layout element. It is called multiple times, once for every {\b UpdatePhase}. The phases are run through in the order of the enum values. For details about what happens at the different phases, see the documentation of {\b UpdatePhase}.\par
+Layout elements that have child elements should call the {\b update} method of their child elements, and pass the current {\i phase}  unchanged.\par
+The default implementation executes the automatic margin mechanism in the {\b upMargins} phase. Subclasses should make sure to call the base class implementation. \par
+}{
+Reimplementado por {\b QCPColorScale} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAALV \\*MERGEFORMAT}{\fldrslt pagenum}}}), {\b QCPAxisRect} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAALW \\*MERGEFORMAT}{\fldrslt pagenum}}}) e {\b QCPLayout} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAALX \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  3406 \{\par
+ 3407   if (phase == upMargins)\par
+ 3408   \{\par
+ 3409     if (mAutoMargins != QCP::msNone)\par
+ 3410     \{\par
+ 3411       // set the margins of this layout element according to automatic margin calculation, either directly or via a margin group:\par
+ 3412       QMargins newMargins = mMargins;\par
+ 3413       QList<QCP::MarginSide> allMarginSides = QList<QCP::MarginSide>() << QCP::msLeft << QCP::msRight << QCP::msTop << QCP::msBottom;\par
+ 3414       foreach (QCP::MarginSide side, allMarginSides)\par
+ 3415       \{\par
+ 3416         if (mAutoMargins.testFlag(side)) // this side's margin shall be calculated automatically\par
+ 3417         \{\par
+ 3418           if (mMarginGroups.contains(side))\par
+ 3419             QCP::setMarginValue(newMargins, side, mMarginGroups[side]->commonMargin(side)); // this side is part of a margin group, so get the margin value from that group\par
+ 3420           else\par
+ 3421             QCP::setMarginValue(newMargins, side, calculateAutoMargin(side)); // this side is not part of a group, so calculate the value directly\par
+ 3422           // apply minimum margin restrictions:\par
+ 3423           if (QCP::getMarginValue(newMargins, side) < QCP::getMarginValue(mMinimumMargins, side))\par
+ 3424             QCP::setMarginValue(newMargins, side, QCP::getMarginValue(mMinimumMargins, side));\par
+ 3425         \}\par
+ 3426       \}\par
+ 3427       setMargins(newMargins);\par
+ 3428     \}\par
+ 3429   \}\par
+ 3430 \}\par
+}
+}
+{\xe \v visible\:QCPTextElement}
+{\xe \v QCPTextElement\:visible}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool QCPLayerable::visible () const{\f2 [inline]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAIJ}
+{\bkmkend AAAAAAAAIJ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid   707 \{ return mVisible; \}\par
+}
+}
+{\xe \v wheelEvent\:QCPTextElement}
+{\xe \v QCPTextElement\:wheelEvent}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPLayerable::wheelEvent (QWheelEvent *  {\i event}){\f2 [protected]}, {\f2 [virtual]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAIK}
+{\bkmkend AAAAAAAAIK}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+This event gets called when the user turns the mouse scroll wheel while the cursor is over the layerable. Whether a cursor is over the layerable is decided by a preceding call to {\b selectTest}.\par
+The current pixel position of the cursor on the {\b QCustomPlot} widget is accessible via {\f2 event->pos()} .\par
+The {\f2 event->delta()}  indicates how far the mouse wheel was turned, which is usually +/- 120 for single rotation steps. However, if the mouse wheel is turned rapidly, multiple steps may accumulate to one event, making {\f2 event->delta()}  larger. On the other hand, if the wheel has very smooth steps or none at all, the delta may be smaller.\par
+The default implementation does nothing.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b mousePressEvent}, {\b mouseMoveEvent}, {\b mouseReleaseEvent}, {\b mouseDoubleClickEvent} \par
+}}{
+Reimplementado por {\b QCPColorScale} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAIL \\*MERGEFORMAT}{\fldrslt pagenum}}}), {\b QCPAxisRect} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAIM \\*MERGEFORMAT}{\fldrslt pagenum}}}) e {\b QCPAxis} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAIN \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1800 \{\par
+ 1801   event->ignore();\par
+ 1802 \}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Atributos\par
+\pard\plain 
+{\xe \v mAntialiased\:QCPTextElement}
+{\xe \v QCPTextElement\:mAntialiased}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool QCPLayerable::mAntialiased{\f2 [protected]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAIR}
+{\bkmkend AAAAAAAAIR}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v mAutoMargins\:QCPTextElement}
+{\xe \v QCPTextElement\:mAutoMargins}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QCP::MarginSides QCPLayoutElement::mAutoMargins{\f2 [protected]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAALZ}
+{\bkmkend AAAAAAAALZ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v mFont\:QCPTextElement}
+{\xe \v QCPTextElement\:mFont}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QFont QCPTextElement::mFont{\f2 [protected]}}}
+\par
+{\bkmkstart AAAAAAADRB}
+{\bkmkend AAAAAAADRB}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v mLayer\:QCPTextElement}
+{\xe \v QCPTextElement\:mLayer}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b QCPLayer}* QCPLayerable::mLayer{\f2 [protected]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAIU}
+{\bkmkend AAAAAAAAIU}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v mMarginGroups\:QCPTextElement}
+{\xe \v QCPTextElement\:mMarginGroups}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QHash<{\b QCP::MarginSide}, {\b QCPMarginGroup}*> QCPLayoutElement::mMarginGroups{\f2 [protected]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAMB}
+{\bkmkend AAAAAAAAMB}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v mMargins\:QCPTextElement}
+{\xe \v QCPTextElement\:mMargins}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QMargins QCPLayoutElement::mMargins{\f2 [protected]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAMC}
+{\bkmkend AAAAAAAAMC}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v mMaximumSize\:QCPTextElement}
+{\xe \v QCPTextElement\:mMaximumSize}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QSize QCPLayoutElement::mMaximumSize{\f2 [protected]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAMD}
+{\bkmkend AAAAAAAAMD}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v mMinimumMargins\:QCPTextElement}
+{\xe \v QCPTextElement\:mMinimumMargins}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QMargins QCPLayoutElement::mMinimumMargins{\f2 [protected]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAME}
+{\bkmkend AAAAAAAAME}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v mMinimumSize\:QCPTextElement}
+{\xe \v QCPTextElement\:mMinimumSize}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QSize QCPLayoutElement::mMinimumSize{\f2 [protected]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAMF}
+{\bkmkend AAAAAAAAMF}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v mOuterRect\:QCPTextElement}
+{\xe \v QCPTextElement\:mOuterRect}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QRect QCPLayoutElement::mOuterRect{\f2 [protected]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAMG}
+{\bkmkend AAAAAAAAMG}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v mParentLayerable\:QCPTextElement}
+{\xe \v QCPTextElement\:mParentLayerable}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QPointer<{\b QCPLayerable}> QCPLayerable::mParentLayerable{\f2 [protected]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAIV}
+{\bkmkend AAAAAAAAIV}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v mParentLayout\:QCPTextElement}
+{\xe \v QCPTextElement\:mParentLayout}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b QCPLayout}* QCPLayoutElement::mParentLayout{\f2 [protected]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAMH}
+{\bkmkend AAAAAAAAMH}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v mParentPlot\:QCPTextElement}
+{\xe \v QCPTextElement\:mParentPlot}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b QCustomPlot}* QCPLayerable::mParentPlot{\f2 [protected]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAIW}
+{\bkmkend AAAAAAAAIW}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v mRect\:QCPTextElement}
+{\xe \v QCPTextElement\:mRect}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QRect QCPLayoutElement::mRect{\f2 [protected]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAMJ}
+{\bkmkend AAAAAAAAMJ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v mSelectable\:QCPTextElement}
+{\xe \v QCPTextElement\:mSelectable}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool QCPTextElement::mSelectable{\f2 [protected]}}}
+\par
+{\bkmkstart AAAAAAADRC}
+{\bkmkend AAAAAAADRC}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v mSelected\:QCPTextElement}
+{\xe \v QCPTextElement\:mSelected}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool QCPTextElement::mSelected{\f2 [protected]}}}
+\par
+{\bkmkstart AAAAAAADRD}
+{\bkmkend AAAAAAADRD}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v mSelectedFont\:QCPTextElement}
+{\xe \v QCPTextElement\:mSelectedFont}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QFont QCPTextElement::mSelectedFont{\f2 [protected]}}}
+\par
+{\bkmkstart AAAAAAADRE}
+{\bkmkend AAAAAAADRE}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v mSelectedTextColor\:QCPTextElement}
+{\xe \v QCPTextElement\:mSelectedTextColor}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QColor QCPTextElement::mSelectedTextColor{\f2 [protected]}}}
+\par
+{\bkmkstart AAAAAAADRF}
+{\bkmkend AAAAAAADRF}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v mSizeConstraintRect\:QCPTextElement}
+{\xe \v QCPTextElement\:mSizeConstraintRect}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b SizeConstraintRect} QCPLayoutElement::mSizeConstraintRect{\f2 [protected]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAMO}
+{\bkmkend AAAAAAAAMO}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v mText\:QCPTextElement}
+{\xe \v QCPTextElement\:mText}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QString QCPTextElement::mText{\f2 [protected]}}}
+\par
+{\bkmkstart AAAAAAADRG}
+{\bkmkend AAAAAAADRG}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v mTextBoundingRect\:QCPTextElement}
+{\xe \v QCPTextElement\:mTextBoundingRect}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QRect QCPTextElement::mTextBoundingRect{\f2 [protected]}}}
+\par
+{\bkmkstart AAAAAAADRH}
+{\bkmkend AAAAAAADRH}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v mTextColor\:QCPTextElement}
+{\xe \v QCPTextElement\:mTextColor}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QColor QCPTextElement::mTextColor{\f2 [protected]}}}
+\par
+{\bkmkstart AAAAAAADRI}
+{\bkmkend AAAAAAADRI}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v mTextFlags\:QCPTextElement}
+{\xe \v QCPTextElement\:mTextFlags}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int QCPTextElement::mTextFlags{\f2 [protected]}}}
+\par
+{\bkmkstart AAAAAAADRJ}
+{\bkmkend AAAAAAADRJ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v mVisible\:QCPTextElement}
+{\xe \v QCPTextElement\:mVisible}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool QCPLayerable::mVisible{\f2 [protected]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAJA}
+{\bkmkend AAAAAAAAJA}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+A documentação para essa classe foi gerada a partir dos seguintes arquivos:{\par
+\pard\plain \s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid 
+{\b qcustomplot.h}\par
+\pard\plain \s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid 
+{\b qcustomplot.cpp}\par
+}}

@@ -27,7 +27,7 @@
     </figure>
 </para>
         <section>
-            <title>Public Attributes</title>
+            <title>Atributos Públicos</title>
             <para>
                 <itemizedlist>
                     <listitem>
@@ -153,7 +153,7 @@ double sortKey)</para>
 <para>Holds the data of one single data point for <link linkend="class_q_c_p_statistical_box">QCPStatisticalBox</link>. </para>
     </simplesect>
         <simplesect>
-            <title>Detailed Description</title>
+            <title>Descrição detalhada</title>
 
 <para>The stored data is:</para>
 
@@ -194,7 +194,7 @@ double sortKey)</para>
 </itemizedlist>
 The container for storing multiple data points is <link linkend="qcustomplot_8h_1a8b773c0c35f8f924701ced6e9915e4c7">QCPStatisticalBoxDataContainer</link>. It is a typedef for <link linkend="class_q_c_p_data_container">QCPDataContainer</link> with <link linkend="class_q_c_p_statistical_box_data">QCPStatisticalBoxData</link> as the DataType template parameter. See the documentation there for an explanation regarding the data type&apos;s generic methods.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="qcustomplot_8h_1a8b773c0c35f8f924701ced6e9915e4c7">QCPStatisticalBoxDataContainer</link> </para>
 </formalpara>
@@ -204,7 +204,7 @@ The container for storing multiple data points is <link linkend="qcustomplot_8h_
                 <para><itemizedlist><listitem><para>qcustomplot.h</para></listitem></itemizedlist></para>
         </simplesect>
         <section>
-            <title>Member Data Documentation</title>
+            <title>Atributos</title>
         </section>
             <section xml:id="class_q_c_p_statistical_box_data_1ab96c4b93670a8dcac8a3d4080fd722ee">
                 <title>QCPStatisticalBoxData::QCPStatisticalBoxData ()</title> <emphasis></emphasis>

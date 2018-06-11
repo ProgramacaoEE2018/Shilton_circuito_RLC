@@ -62,7 +62,7 @@
             </para>
         </section>
         <section>
-            <title>Protected Attributes</title>
+            <title>Atributos Protegidos</title>
             <para>
                 <itemizedlist>
                     <listitem>
@@ -285,7 +285,7 @@ double position, const <link linkend="class_q_c_p_range">QCPRange</link> &amp; r
 <para>Defines a color gradient for use with e.g. <link linkend="class_q_c_p_color_map">QCPColorMap</link>. </para>
     </simplesect>
         <simplesect>
-            <title>Detailed Description</title>
+            <title>Descrição detalhada</title>
 
 <para>This class describes a color gradient which can be used to encode data with color. For example, <link linkend="class_q_c_p_color_map">QCPColorMap</link> and <link linkend="class_q_c_p_color_scale">QCPColorScale</link> have <link linkend="class_q_c_p_color_map_1a7313c78360471cead3576341a2c50377">setGradient</link> methods which take an instance of this class. Colors are set with <link linkend="class_q_c_p_color_gradient_1a3b48be5e78079db1bb2a1188a4c3390e">setColorStopAt(double position, const QColor &amp;color)</link> with a <emphasis>position</emphasis> from 0 to 1. In between these defined color positions, the color will be interpolated linearly either in RGB or HSV space, see <link linkend="class_q_c_p_color_gradient_1aa13fda86406e1d896a465a409ae63b38">setColorInterpolation</link>.</para>
 
@@ -305,14 +305,14 @@ double position, const <link linkend="class_q_c_p_range">QCPRange</link> &amp; r
                
 <para>Defines the color spaces in which color interpolation between gradient stops can be performed.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_c_p_color_gradient_1aa13fda86406e1d896a465a409ae63b38">setColorInterpolation</link> </para>
 </formalpara>
 </para>
 
                <formalpara>
-                    <title>Enumerator:</title>
+                    <title>Enumeradores:</title>
                     <variablelist>
                         <varlistentry xml:id="class_q_c_p_color_gradient_1ac5dca17cc24336e6ca176610e7f77fc1a5e30f725c9cfe93999e268a9f92afbe7">
                             <term>ciRGB</term>
@@ -343,7 +343,7 @@ ciHSV,
 <para>Defines the available presets that can be loaded with <link linkend="class_q_c_p_color_gradient_1aa0aeec1528241728b9671bf8e60b1622">loadPreset</link>. See the documentation there for an image of the presets. </para>
 
                <formalpara>
-                    <title>Enumerator:</title>
+                    <title>Enumeradores:</title>
                     <variablelist>
                         <varlistentry xml:id="class_q_c_p_color_gradient_1aed6569828fee337023670272910c9072add11ae369a86f3b1b6205ec72e5021fb">
                             <term>gpGrayscale</term>
@@ -439,7 +439,7 @@ gpHues,
                 </para>
             </section>
         <section>
-            <title>Member Data Documentation</title>
+            <title>Atributos</title>
         </section>
             <section xml:id="class_q_c_p_color_gradient_1a96bcc490ff9dc32b22941ce00800bce0">
                 <title>QCPColorGradient::QCPColorGradient ()</title> <emphasis></emphasis>
@@ -496,7 +496,7 @@ gpHues,
 
 <para>A more convenient way to create a custom gradient may be to clear all color stops with <link linkend="class_q_c_p_color_gradient_1a939213e85f0d1279519d555c5fcfb6ad">clearColorStops</link> (or creating a new, empty <link linkend="class_q_c_p_color_gradient">QCPColorGradient</link>) and then adding them one by one with <link linkend="class_q_c_p_color_gradient_1a3b48be5e78079db1bb2a1188a4c3390e">setColorStopAt</link>.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_c_p_color_gradient_1a939213e85f0d1279519d555c5fcfb6ad">clearColorStops</link> </para>
 </formalpara>
@@ -508,7 +508,7 @@ gpHues,
                 
 <para>Sets the <emphasis>color</emphasis> the gradient will have at the specified <emphasis>position</emphasis> (from 0 to 1). In between these color stops, the color is interpolated according to <link linkend="class_q_c_p_color_gradient_1aa13fda86406e1d896a465a409ae63b38">setColorInterpolation</link>.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_c_p_color_gradient_1a724e828aa6f0ba5011a9392477c35d3a">setColorStops</link>, <link linkend="class_q_c_p_color_gradient_1a939213e85f0d1279519d555c5fcfb6ad">clearColorStops</link> </para>
 </formalpara>
@@ -538,7 +538,7 @@ gpHues,
             <section xml:id="class_q_c_p_color_gradient_1aaf423ceb943e177b0ed2c48c811d83dc">
                 <title>void QCPColorGradient::colorize (const double *data, const QCPRange &amp;range, QRgb *scanLine, int n, int dataIndexFactor=1, bool logarithmic=false)</title> <emphasis></emphasis>
                 
-<para>This is an overloaded member function, provided for convenience. It differs from the above function only in what argument(s) it accepts.</para>
+<para>Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.</para>
 
 <para>This method is used to quickly convert a <emphasis>data</emphasis> array to colors. The colors will be output in the array <emphasis>scanLine</emphasis>. Both <emphasis>data</emphasis> and <emphasis>scanLine</emphasis> must have the length <emphasis>n</emphasis> when passed to this function. The data range that shall be used for mapping the data value to the gradient is passed in <emphasis>range</emphasis>. <emphasis>logarithmic</emphasis> indicates whether the data values shall be mapped to colors logarithmically.</para>
 
@@ -552,7 +552,7 @@ gpHues,
             <section xml:id="class_q_c_p_color_gradient_1acf0cc7fba83ef21f7b8d5d5258519db3">
                 <title>void QCPColorGradient::colorize (const double *data, const unsigned char *alpha, const QCPRange &amp;range, QRgb *scanLine, int n, int dataIndexFactor=1, bool logarithmic=false)</title> <emphasis></emphasis>
                 
-<para>This is an overloaded member function, provided for convenience. It differs from the above function only in what argument(s) it accepts.</para>
+<para>Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.</para>
 
 <para>Additionally to the other overload of <link linkend="class_q_c_p_color_gradient_1aaf423ceb943e177b0ed2c48c811d83dc">colorize</link>, this method takes the array <emphasis>alpha</emphasis>, which has the same size and structure as <emphasis>data</emphasis> and encodes the alpha information per data point.</para>
 
@@ -576,7 +576,7 @@ gpHues,
                 
 <para>Clears all color stops.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_c_p_color_gradient_1a724e828aa6f0ba5011a9392477c35d3a">setColorStops</link>, <link linkend="class_q_c_p_color_gradient_1a3b48be5e78079db1bb2a1188a4c3390e">setColorStopAt</link> </para>
 </formalpara>
@@ -588,7 +588,7 @@ gpHues,
                 
 <para>Returns an inverted gradient. The inverted gradient has all properties as this <link linkend="class_q_c_p_color_gradient">QCPColorGradient</link>, but the order of the color stops is inverted.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_c_p_color_gradient_1a724e828aa6f0ba5011a9392477c35d3a">setColorStops</link>, <link linkend="class_q_c_p_color_gradient_1a3b48be5e78079db1bb2a1188a4c3390e">setColorStopAt</link> </para>
 </formalpara>

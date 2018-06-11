@@ -1,11 +1,11 @@
 var indexSectionsWithContent =
 {
   0: "abcdefghiklmnopqrstuvwxyz~",
-  1: "cimqrt",
+  1: "cdimqrt",
   2: "qu",
-  3: "cmqr",
+  3: "cdmqr",
   4: "abcdefghiklmnopqrstuvwxyz~",
-  5: "abcehklmnoprstuvxy",
+  5: "abcefhiklmnoprstuvwxy",
   6: "ciq",
   7: "abcdefgilmprstuw",
   8: "abcdefgilmprstuw",
@@ -32,17 +32,17 @@ var indexSectionNames =
 
 var indexSectionLabels =
 {
-  0: "All",
+  0: "Todos",
   1: "Classes",
   2: "Namespaces",
-  3: "Files",
-  4: "Functions",
-  5: "Variables",
-  6: "Typedefs",
-  7: "Enumerations",
-  8: "Enumerator",
-  9: "Friends",
-  10: "Macros",
-  11: "Pages"
+  3: "Arquivos",
+  4: "Funções",
+  5: "Variáveis",
+  6: "Definições de Tipos",
+  7: "Enumerações",
+  8: "Enumeradores",
+  9: "Amigas",
+  10: "Definições e Macros",
+  11: "Páginas"
 };
 

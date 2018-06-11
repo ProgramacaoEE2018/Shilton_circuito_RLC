@@ -1,0 +1,3415 @@
+{\rtf1\ansi\ansicpg1252\uc1 \deff0\deflang1033\deflangfe1033
+{\fonttbl {\f0\froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}
+{\f1\fswiss\fcharset0\fprq2{\*\panose 020b0604020202020204}Arial;}
+{\f2\fmodern\fcharset0\fprq1{\*\panose 02070309020205020404}Courier New;}
+{\f3\froman\fcharset2\fprq2{\*\panose 05050102010706020507}Symbol;}
+}
+{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;}
+{\stylesheet
+{\widctlpar\adjustright \fs20\cgrid \snext0 Normal;}
+{\paperw11900\paperh16840\margl1800\margr1800\margt1440\margb1440\gutter0\ltrsect}
+{\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid \sbasedon0 \snext0 heading 1;}
+{\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid \sbasedon0 \snext0 heading 2;}
+{\s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid \sbasedon0 \snext0 heading 3;}
+{\s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext0 heading 4;}{\*\cs10 \additive Default Paragraph Font;}
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext0 heading 5;}{\*\cs10 \additive Default Paragraph Font;}
+{\s15\qc\sb240\sa60\widctlpar\outlinelevel0\adjustright \b\f1\fs32\kerning28\cgrid \sbasedon0 \snext15 Title;}
+{\s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid \sbasedon0 \snext16 Subtitle;}
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid \sbasedon0 \snext17 BodyText;}
+{\s18\widctlpar\fs22\cgrid \sbasedon0 \snext18 DenseText;}
+{\s28\widctlpar\tqc\tx4320\tqr\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext28 header;}
+{\s29\widctlpar\tqc\tx4320\tqr\tx8640\qr\adjustright \fs20\cgrid \sbasedon0 \snext29 footer;}
+{\s30\li360\sa60\sb120\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext30 GroupHeader;}
+{\s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext41 Code Example 0;}
+{\s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext42 Code Example 1;}
+{\s42\li720\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext43 Code Example 2;}
+{\s43\li1080\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext44 Code Example 3;}
+{\s44\li1440\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext45 Code Example 4;}
+{\s45\li1800\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext46 Code Example 5;}
+{\s46\li2160\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext47 Code Example 6;}
+{\s47\li2520\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext48 Code Example 7;}
+{\s48\li2880\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext49 Code Example 8;}
+{\s49\li3240\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext49 Code Example 9;}
+{\s50\li0\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext51 List Continue 0;}
+{\s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext52 List Continue 1;}
+{\s52\li720\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext53 List Continue 2;}
+{\s53\li1080\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext54 List Continue 3;}
+{\s54\li1440\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext55 List Continue 4;}
+{\s55\li1800\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext56 List Continue 5;}
+{\s56\li2160\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext57 List Continue 6;}
+{\s57\li2520\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext58 List Continue 7;}
+{\s58\li2880\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext59 List Continue 8;}
+{\s59\li3240\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext59 List Continue 9;}
+{\s60\li0\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext61 DescContinue 0;}
+{\s61\li360\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext62 DescContinue 1;}
+{\s62\li720\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext63 DescContinue 2;}
+{\s63\li1080\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext64 DescContinue 3;}
+{\s64\li1440\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext65 DescContinue 4;}
+{\s65\li1800\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext66 DescContinue 5;}
+{\s66\li2160\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext67 DescContinue 6;}
+{\s67\li2520\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext68 DescContinue 7;}
+{\s68\li2880\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext69 DescContinue 8;}
+{\s69\li3240\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext69 DescContinue 9;}
+{\s70\li0\sa30\sb30\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext81 LatexTOC 0;}
+{\s71\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext82 LatexTOC 1;}
+{\s72\li720\sa24\sb24\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext83 LatexTOC 2;}
+{\s73\li1080\sa21\sb21\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext84 LatexTOC 3;}
+{\s74\li1440\sa18\sb18\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext85 LatexTOC 4;}
+{\s75\li1800\sa15\sb15\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext86 LatexTOC 5;}
+{\s76\li2160\sa12\sb12\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext87 LatexTOC 6;}
+{\s77\li2520\sa9\sb9\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext88 LatexTOC 7;}
+{\s78\li2880\sa6\sb6\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext89 LatexTOC 8;}
+{\s79\li3240\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext89 LatexTOC 9;}
+{\s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext81 \sautoupd List Bullet 0;}
+{\s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid \sbasedon0 \snext82 \sautoupd List Bullet 1;}
+{\s82\fi-360\li1080\widctlpar\jclisttab\tx1080{\*\pn \pnlvlbody\ilvl0\ls3\pnrnot0\pndec }\ls3\adjustright \fs20\cgrid \sbasedon0 \snext83 \sautoupd List Bullet 2;}
+{\s83\fi-360\li1440\widctlpar\jclisttab\tx1440{\*\pn \pnlvlbody\ilvl0\ls4\pnrnot0\pndec }\ls4\adjustright \fs20\cgrid \sbasedon0 \snext84 \sautoupd List Bullet 3;}
+{\s84\fi-360\li1800\widctlpar\jclisttab\tx1800{\*\pn \pnlvlbody\ilvl0\ls5\pnrnot0\pndec }\ls5\adjustright \fs20\cgrid \sbasedon0 \snext85 \sautoupd List Bullet 4;}
+{\s85\fi-360\li2160\widctlpar\jclisttab\tx2160{\*\pn \pnlvlbody\ilvl0\ls6\pnrnot0\pndec }\ls6\adjustright \fs20\cgrid \sbasedon0 \snext86 \sautoupd List Bullet 5;}
+{\s86\fi-360\li2520\widctlpar\jclisttab\tx2520{\*\pn \pnlvlbody\ilvl0\ls7\pnrnot0\pndec }\ls7\adjustright \fs20\cgrid \sbasedon0 \snext87 \sautoupd List Bullet 6;}
+{\s87\fi-360\li2880\widctlpar\jclisttab\tx2880{\*\pn \pnlvlbody\ilvl0\ls8\pnrnot0\pndec }\ls8\adjustright \fs20\cgrid \sbasedon0 \snext88 \sautoupd List Bullet 7;}
+{\s88\fi-360\li3240\widctlpar\jclisttab\tx3240{\*\pn \pnlvlbody\ilvl0\ls9\pnrnot0\pndec }\ls9\adjustright \fs20\cgrid \sbasedon0 \snext89 \sautoupd List Bullet 8;}
+{\s89\fi-360\li3600\widctlpar\jclisttab\tx3600{\*\pn \pnlvlbody\ilvl0\ls10\pnrnot0\pndec }\ls10\adjustright \fs20\cgrid \sbasedon0 \snext89 \sautoupd List Bullet 9;}
+{\s90\fi-360\li360\widctlpar\fs20\cgrid \sbasedon0 \snext91 \sautoupd List Enum 0;}
+{\s91\fi-360\li720\widctlpar\fs20\cgrid \sbasedon0 \snext92 \sautoupd List Enum 1;}
+{\s92\fi-360\li1080\widctlpar\fs20\cgrid \sbasedon0 \snext93 \sautoupd List Enum 2;}
+{\s93\fi-360\li1440\widctlpar\fs20\cgrid \sbasedon0 \snext94 \sautoupd List Enum 3;}
+{\s94\fi-360\li1800\widctlpar\fs20\cgrid \sbasedon0 \snext95 \sautoupd List Enum 4;}
+{\s95\fi-360\li2160\widctlpar\fs20\cgrid \sbasedon0 \snext96 \sautoupd List Enum 5;}
+{\s96\fi-360\li2520\widctlpar\fs20\cgrid \sbasedon0 \snext96 \sautoupd List Enum 5;}
+{\s97\fi-360\li2880\widctlpar\fs20\cgrid \sbasedon0 \snext98 \sautoupd List Enum 7;}
+{\s98\fi-360\li3240\widctlpar\fs20\cgrid \sbasedon0 \snext99 \sautoupd List Enum 8;}
+{\s99\fi-360\li3600\widctlpar\fs20\cgrid \sbasedon0 \snext99 \sautoupd List Enum 9;}
+}
+{\comment begin body}
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Referência da Classe QCPErrorBars\par \pard\plain 
+{\tc\tcl2 \v QCPErrorBars}
+{\xe \v QCPErrorBars}
+{\bkmkstart AAAAAAACAP}
+{\bkmkend AAAAAAACAP}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+A plottable that adds a set of error bars to other plottables. }}\par
+{
+{\f2 #include <qcustomplot.h>}}\par
+Diagrama de hierarquia para QCPErrorBars:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "classQCPErrorBars__inherit__graph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+Diagrama de colaboração para QCPErrorBars:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "classQCPErrorBars__coll__graph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Tipos Públicos\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+enum {\b ErrorType} \{ {\b etKeyError}, 
+{\b etValueError}
+ \}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Sinais\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b selectionChanged} (bool {\b selected})\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b selectionChanged} (const {\b QCPDataSelection} &{\b selection})\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b selectableChanged} ({\b QCP::SelectionType} {\b selectable})\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b layerChanged} ({\b QCPLayer} *newLayer)\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Membros Públicos\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b QCPErrorBars} ({\b QCPAxis} *{\b keyAxis}, {\b QCPAxis} *{\b valueAxis})\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual {\b ~QCPErrorBars} ()\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+QSharedPointer< {\b QCPErrorBarsDataContainer} > {\b data} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b QCPAbstractPlottable} * {\b dataPlottable} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b ErrorType} {\b errorType} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+double {\b whiskerWidth} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+double {\b symbolGap} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setData} (QSharedPointer< {\b QCPErrorBarsDataContainer} > {\b data})\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setData} (const QVector< double > &error)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setData} (const QVector< double > &errorMinus, const QVector< double > &errorPlus)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setDataPlottable} ({\b QCPAbstractPlottable} *plottable)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setErrorType} ({\b ErrorType} type)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setWhiskerWidth} (double pixels)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setSymbolGap} (double pixels)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b addData} (const QVector< double > &error)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b addData} (const QVector< double > &errorMinus, const QVector< double > &errorPlus)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b addData} (double error)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b addData} (double errorMinus, double errorPlus)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual int {\b dataCount} () const {\b Q_DECL_OVERRIDE}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual double {\b dataMainKey} (int index) const {\b Q_DECL_OVERRIDE}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual double {\b dataSortKey} (int index) const {\b Q_DECL_OVERRIDE}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual double {\b dataMainValue} (int index) const {\b Q_DECL_OVERRIDE}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual {\b QCPRange} {\b dataValueRange} (int index) const {\b Q_DECL_OVERRIDE}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual QPointF {\b dataPixelPosition} (int index) const {\b Q_DECL_OVERRIDE}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual bool {\b sortKeyIsMainKey} () const {\b Q_DECL_OVERRIDE}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual {\b QCPDataSelection} {\b selectTestRect} (const QRectF &rect, bool onlySelectable) const {\b Q_DECL_OVERRIDE}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual int {\b findBegin} (double sortKey, bool expandedRange=true) const {\b Q_DECL_OVERRIDE}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual int {\b findEnd} (double sortKey, bool expandedRange=true) const {\b Q_DECL_OVERRIDE}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual double {\b selectTest} (const QPointF &pos, bool onlySelectable, QVariant *details=0) const {\b Q_DECL_OVERRIDE}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual {\b QCPPlottableInterface1D} * {\b interface1D} () {\b Q_DECL_OVERRIDE}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+QString {\b name} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b antialiasedFill} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b antialiasedScatters} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+QPen {\b pen} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+QBrush {\b brush} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b QCPAxis} * {\b keyAxis} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b QCPAxis} * {\b valueAxis} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b QCP::SelectionType} {\b selectable} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b selected} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b QCPDataSelection} {\b selection} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b QCPSelectionDecorator} * {\b selectionDecorator} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setName} (const QString &{\b name})\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setAntialiasedFill} (bool enabled)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setAntialiasedScatters} (bool enabled)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setPen} (const QPen &{\b pen})\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setBrush} (const QBrush &{\b brush})\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setKeyAxis} ({\b QCPAxis} *axis)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setValueAxis} ({\b QCPAxis} *axis)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+Q_SLOT void {\b setSelectable} ({\b QCP::SelectionType} {\b selectable})\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+Q_SLOT void {\b setSelection} ({\b QCPDataSelection} {\b selection})\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setSelectionDecorator} ({\b QCPSelectionDecorator} *decorator)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b coordsToPixels} (double key, double value, double &x, double &y) const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+const QPointF {\b coordsToPixels} (double key, double value) const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b pixelsToCoords} (double x, double y, double &key, double &value) const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b pixelsToCoords} (const QPointF &pixelPos, double &key, double &value) const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b rescaleAxes} (bool onlyEnlarge=false) const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b rescaleKeyAxis} (bool onlyEnlarge=false) const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b rescaleValueAxis} (bool onlyEnlarge=false, bool inKeyRange=false) const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b addToLegend} ({\b QCPLegend} *legend)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b addToLegend} ()\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b removeFromLegend} ({\b QCPLegend} *legend) const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b removeFromLegend} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b visible} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b QCustomPlot} * {\b parentPlot} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b QCPLayerable} * {\b parentLayerable} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b QCPLayer} * {\b layer} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b antialiased} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setVisible} (bool on)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+Q_SLOT bool {\b setLayer} ({\b QCPLayer} *{\b layer})\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b setLayer} (const QString &layerName)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setAntialiased} (bool enabled)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b realVisibility} () const\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Membros Protegidos\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual void {\b draw} ({\b QCPPainter} *painter) {\b Q_DECL_OVERRIDE}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual void {\b drawLegendIcon} ({\b QCPPainter} *painter, const QRectF &rect) const {\b Q_DECL_OVERRIDE}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual {\b QCPRange} {\b getKeyRange} (bool &foundRange, {\b QCP::SignDomain} inSignDomain={\b QCP::sdBoth}) const {\b Q_DECL_OVERRIDE}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual {\b QCPRange} {\b getValueRange} (bool &foundRange, {\b QCP::SignDomain} inSignDomain={\b QCP::sdBoth}, const {\b QCPRange} &inKeyRange={\b QCPRange}()) const {\b Q_DECL_OVERRIDE}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b getErrorBarLines} (QCPErrorBarsDataContainer::const_iterator it, QVector< QLineF > &backbones, QVector< QLineF > &whiskers) const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b getVisibleDataBounds} (QCPErrorBarsDataContainer::const_iterator &begin, QCPErrorBarsDataContainer::const_iterator &end, const {\b QCPDataRange} &rangeRestriction) const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+double {\b pointDistance} (const QPointF &pixelPoint, QCPErrorBarsDataContainer::const_iterator &closestData) const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b getDataSegments} (QList< {\b QCPDataRange} > &selectedSegments, QList< {\b QCPDataRange} > &unselectedSegments) const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b errorBarVisible} (int index) const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b rectIntersectsLine} (const QRectF &pixelRect, const QLineF &line) const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual QRect {\b clipRect} () const {\b Q_DECL_OVERRIDE}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual {\b QCP::Interaction} {\b selectionCategory} () const {\b Q_DECL_OVERRIDE}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b applyDefaultAntialiasingHint} ({\b QCPPainter} *painter) const {\b Q_DECL_OVERRIDE}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual void {\b selectEvent} (QMouseEvent *event, bool additive, const QVariant &details, bool *selectionStateChanged) {\b Q_DECL_OVERRIDE}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual void {\b deselectEvent} (bool *selectionStateChanged) {\b Q_DECL_OVERRIDE}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b applyFillAntialiasingHint} ({\b QCPPainter} *painter) const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b applyScattersAntialiasingHint} ({\b QCPPainter} *painter) const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual void {\b parentPlotInitialized} ({\b QCustomPlot} *{\b parentPlot})\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual void {\b mousePressEvent} (QMouseEvent *event, const QVariant &details)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual void {\b mouseMoveEvent} (QMouseEvent *event, const QPointF &startPos)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual void {\b mouseReleaseEvent} (QMouseEvent *event, const QPointF &startPos)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual void {\b mouseDoubleClickEvent} (QMouseEvent *event, const QVariant &details)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual void {\b wheelEvent} (QWheelEvent *event)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b initializeParentPlot} ({\b QCustomPlot} *{\b parentPlot})\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setParentLayerable} ({\b QCPLayerable} *{\b parentLayerable})\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b moveToLayer} ({\b QCPLayer} *{\b layer}, bool prepend)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b applyAntialiasingHint} ({\b QCPPainter} *painter, bool localAntialiased, {\b QCP::AntialiasedElement} overrideElement) const\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Atributos Protegidos\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+QSharedPointer< {\b QCPErrorBarsDataContainer} > {\b mDataContainer}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+QPointer< {\b QCPAbstractPlottable} > {\b mDataPlottable}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b ErrorType} {\b mErrorType}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+double {\b mWhiskerWidth}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+double {\b mSymbolGap}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+QString {\b mName}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b mAntialiasedFill}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b mAntialiasedScatters}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+QPen {\b mPen}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+QBrush {\b mBrush}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+QPointer< {\b QCPAxis} > {\b mKeyAxis}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+QPointer< {\b QCPAxis} > {\b mValueAxis}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b QCP::SelectionType} {\b mSelectable}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b QCPDataSelection} {\b mSelection}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b QCPSelectionDecorator} * {\b mSelectionDecorator}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b mVisible}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b QCustomPlot} * {\b mParentPlot}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+QPointer< {\b QCPLayerable} > {\b mParentLayerable}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b QCPLayer} * {\b mLayer}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b mAntialiased}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Amigas\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b QCustomPlot}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b QCPLegend}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Descrição detalhada\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+A plottable that adds a set of error bars to other plottables. \par
+}
+
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+The {\b QCPErrorBars} plottable can be attached to other one-dimensional plottables (e.g. {\b QCPGraph}, {\b QCPCurve}, {\b QCPBars}, etc.) and equips them with error bars.\par
+Use {\b setDataPlottable} to define for which plottable the {\b QCPErrorBars} shall display the error bars. The orientation of the error bars can be controlled with {\b setErrorType}.\par
+By using {\b setData}, you can supply the actual error data, either as symmetric error or plus/minus asymmetric errors. {\b QCPErrorBars} only stores the error data. The absolute key/value position of each error bar will be adopted from the configured data plottable. The error data of the {\b QCPErrorBars} are associated one-to-one via their index to the data points of the data plottable. You can directly access and manipulate the error bar data via {\b data}.\par
+Set either of the plus/minus errors to NaN ({\f2 qQNaN()}  or {\f2 std::numeric_limits<double>::quiet_NaN()} ) to not show the respective error bar on the data point at that index.\par
+{\bkmkstart AAAAAAACAQ}
+{\bkmkend AAAAAAACAQ}
+{{\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Changing the appearance
+\par}
+{\tc\tcl2 \v Changing the appearance}
+The appearance of the error bars is defined by the pen ({\b setPen}), and the width of the whiskers ({\b setWhiskerWidth}). Further, the error bar backbones may leave a gap around the data point center to prevent that error bars are drawn too close to or even through scatter points. This gap size can be controlled via {\b setSymbolGap}. \par}
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Enumerações\par
+\pard\plain 
+{\xe \v ErrorType\:QCPErrorBars}
+{\xe \v QCPErrorBars\:ErrorType}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+enum {\b QCPErrorBars::ErrorType}}}
+\par
+{\bkmkstart AAAAAAACAR}
+{\bkmkend AAAAAAACAR}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Defines in which orientation the error bars shall appear. If your data needs both error dimensions, create two {\b QCPErrorBars} with different {\b ErrorType}.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b setErrorType} \par
+}}{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Enumeradores:\par}
+\pard\plain \s61\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{\xe \v etKeyError\:QCPErrorBars}
+{\xe \v QCPErrorBars\:etKeyError}
+{\qr etKeyError{\bkmkstart AAAAAAACAS}
+{\bkmkend AAAAAAACAS}
+\cell }{{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+The errors are for the key dimension (bars appear parallel to the key axis) \par
+}\cell }{\row }
+{\xe \v etValueError\:QCPErrorBars}
+{\xe \v QCPErrorBars\:etValueError}
+{\qr etValueError{\bkmkstart AAAAAAACAT}
+{\bkmkend AAAAAAACAT}
+\cell }{{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+The errors are for the value dimension (bars appear parallel to the value axis) \par
+}\cell }{\row }
+}
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  6002                  \{ etKeyError    \par
+ 6003                    ,etValueError \par
+ 6004   \};\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Construtores e Destrutores\par
+\pard\plain 
+{\xe \v QCPErrorBars\:QCPErrorBars}
+{\xe \v QCPErrorBars\:QCPErrorBars}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QCPErrorBars::QCPErrorBars ({\b QCPAxis} *  {\i keyAxis}, {\b QCPAxis} *  {\i valueAxis}){\f2 [explicit]}}}
+\par
+{\bkmkstart AAAAAAACAU}
+{\bkmkend AAAAAAACAU}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Constructs an error bars plottable which uses {\i keyAxis}  as its key axis ("x") and {\i valueAxis}  as its value axis ("y"). {\i keyAxis}  and {\i valueAxis}  must reside in the same {\b QCustomPlot} instance and not have the same orientation. If either of these restrictions is violated, a corresponding message is printed to the debug output (qDebug), the construction is not aborted, though.\par
+It is also important that the {\i keyAxis}  and {\i valueAxis}  are the same for the error bars plottable and the data plottable that the error bars shall be drawn on ({\b setDataPlottable}).\par
+The created {\b QCPErrorBars} is automatically registered with the {\b QCustomPlot} instance inferred from {\i keyAxis} . This {\b QCustomPlot} instance takes ownership of the {\b QCPErrorBars}, so do not delete it manually but use {\b QCustomPlot::removePlottable()} instead. \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 27119                                                                :\par
+27120   QCPAbstractPlottable(keyAxis, valueAxis),\par
+27121   mDataContainer(new QVector<QCPErrorBarsData>),\par
+27122   mErrorType(etValueError),\par
+27123   mWhiskerWidth(9),\par
+27124   mSymbolGap(10)\par
+27125 \{\par
+27126   setPen(QPen(Qt::black, 0));\par
+27127   setBrush(Qt::NoBrush);\par
+27128 \}\par
+}
+}
+{\xe \v ~QCPErrorBars\:QCPErrorBars}
+{\xe \v QCPErrorBars\:~QCPErrorBars}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QCPErrorBars::~QCPErrorBars (){\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAACAV}
+{\bkmkend AAAAAAACAV}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 27131 \{\par
+27132 \}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Funções membros\par
+\pard\plain 
+{\xe \v addData\:QCPErrorBars}
+{\xe \v QCPErrorBars\:addData}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPErrorBars::addData (const QVector< double > &  {\i error})}}
+\par
+{\bkmkstart AAAAAAACAW}
+{\bkmkend AAAAAAACAW}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.\par
+Adds symmetrical error values as specified in {\i error} . The errors will be associated one-to-one by the data point index to the associated data plottable ({\b setDataPlottable}).\par
+You can directly access and manipulate the error bar data via {\b data}.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b setData} \par
+}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 27258 \{\par
+27259   addData(error, error);\par
+27260 \}\par
+}
+}
+{\xe \v addData\:QCPErrorBars}
+{\xe \v QCPErrorBars\:addData}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPErrorBars::addData (const QVector< double > &  {\i errorMinus}, const QVector< double > &  {\i errorPlus})}}
+\par
+{\bkmkstart AAAAAAACAX}
+{\bkmkend AAAAAAACAX}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.\par
+Adds asymmetrical errors as specified in {\i errorMinus}  and {\i errorPlus} . The errors will be associated one-to-one by the data point index to the associated data plottable ({\b setDataPlottable}).\par
+You can directly access and manipulate the error bar data via {\b data}.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b setData} \par
+}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 27273 \{\par
+27274   if (errorMinus.size() != errorPlus.size())\par
+27275     qDebug() << Q_FUNC_INFO << "minus and plus error vectors have different sizes:" << errorMinus.size() << errorPlus.size();\par
+27276   const int n = qMin(errorMinus.size(), errorPlus.size());\par
+27277   mDataContainer->reserve(n);\par
+27278   for (int i=0; i<n; ++i)\par
+27279     mDataContainer->append(QCPErrorBarsData(errorMinus.at(i), errorPlus.at(i)));\par
+27280 \}\par
+}
+}
+{\xe \v addData\:QCPErrorBars}
+{\xe \v QCPErrorBars\:addData}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPErrorBars::addData (double  {\i error})}}
+\par
+{\bkmkstart AAAAAAACAY}
+{\bkmkend AAAAAAACAY}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.\par
+Adds a single symmetrical error bar as specified in {\i error} . The errors will be associated one-to-one by the data point index to the associated data plottable ({\b setDataPlottable}).\par
+You can directly access and manipulate the error bar data via {\b data}.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b setData} \par
+}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 27292 \{\par
+27293   mDataContainer->append(QCPErrorBarsData(error));\par
+27294 \}\par
+}
+}
+{\xe \v addData\:QCPErrorBars}
+{\xe \v QCPErrorBars\:addData}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPErrorBars::addData (double  {\i errorMinus}, double  {\i errorPlus})}}
+\par
+{\bkmkstart AAAAAAACAZ}
+{\bkmkend AAAAAAACAZ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.\par
+Adds a single asymmetrical error bar as specified in {\i errorMinus}  and {\i errorPlus} . The errors will be associated one-to-one by the data point index to the associated data plottable ({\b setDataPlottable}).\par
+You can directly access and manipulate the error bar data via {\b data}.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b setData} \par
+}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 27307 \{\par
+27308   mDataContainer->append(QCPErrorBarsData(errorMinus, errorPlus));\par
+27309 \}\par
+}
+}
+{\xe \v addToLegend\:QCPErrorBars}
+{\xe \v QCPErrorBars\:addToLegend}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool QCPAbstractPlottable::addToLegend ({\b QCPLegend} *  {\i legend}){\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAANP}
+{\bkmkend AAAAAAAANP}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.\par
+Adds this plottable to the specified {\i legend} .\par
+Creates a {\b QCPPlottableLegendItem} which is inserted into the legend. Returns true on success, i.e. when the legend exists and a legend item associated with this plottable isn't already in the legend.\par
+If the plottable needs a more specialized representation in the legend, you can create a corresponding subclass of {\b QCPPlottableLegendItem} and add it to the legend manually instead of calling this method.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b removeFromLegend}, {\b QCPLegend::addItem} \par
+}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 11084 \{\par
+11085   if (!legend)\par
+11086   \{\par
+11087     qDebug() << Q_FUNC_INFO << "passed legend is null";\par
+11088     return false;\par
+11089   \}\par
+11090   if (legend->parentPlot() != mParentPlot)\par
+11091   \{\par
+11092     qDebug() << Q_FUNC_INFO << "passed legend isn't in the same QCustomPlot as this plottable";\par
+11093     return false;\par
+11094   \}\par
+11095   \par
+11096   if (!legend->hasItemWithPlottable(this))\par
+11097   \{\par
+11098     legend->addItem(new QCPPlottableLegendItem(legend, this));\par
+11099     return true;\par
+11100   \} else\par
+11101     return false;\par
+11102 \}\par
+}
+}
+{\xe \v addToLegend\:QCPErrorBars}
+{\xe \v QCPErrorBars\:addToLegend}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool QCPAbstractPlottable::addToLegend (){\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAANQ}
+{\bkmkend AAAAAAAANQ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.\par
+Adds this plottable to the legend of the parent {\b QCustomPlot} ({\b QCustomPlot::legend}).\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b removeFromLegend} \par
+}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 11111 \{\par
+11112   if (!mParentPlot || !mParentPlot->legend)\par
+11113     return false;\par
+11114   else\par
+11115     return addToLegend(mParentPlot->legend);\par
+11116 \}\par
+}
+}
+{\xe \v antialiased\:QCPErrorBars}
+{\xe \v QCPErrorBars\:antialiased}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool QCPLayerable::antialiased () const{\f2 [inline]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAFG}
+{\bkmkend AAAAAAAAFG}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid   711 \{ return mAntialiased; \}\par
+}
+}
+{\xe \v antialiasedFill\:QCPErrorBars}
+{\xe \v QCPErrorBars\:antialiasedFill}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool QCPAbstractPlottable::antialiasedFill () const{\f2 [inline]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAANR}
+{\bkmkend AAAAAAAANR}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  3308 \{ return mAntialiasedFill; \}\par
+}
+}
+{\xe \v antialiasedScatters\:QCPErrorBars}
+{\xe \v QCPErrorBars\:antialiasedScatters}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool QCPAbstractPlottable::antialiasedScatters () const{\f2 [inline]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAANS}
+{\bkmkend AAAAAAAANS}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  3309 \{ return mAntialiasedScatters; \}\par
+}
+}
+{\xe \v applyAntialiasingHint\:QCPErrorBars}
+{\xe \v QCPErrorBars\:applyAntialiasingHint}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPLayerable::applyAntialiasingHint ({\b QCPPainter} *  {\i painter}, bool  {\i localAntialiased}, {\b QCP::AntialiasedElement}  {\i overrideElement}) const{\f2 [protected]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAFH}
+{\bkmkend AAAAAAAAFH}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1567 \{\par
+ 1568   if (mParentPlot && mParentPlot->notAntialiasedElements().testFlag(overrideElement))\par
+ 1569     painter->setAntialiasing(false);\par
+ 1570   else if (mParentPlot && mParentPlot->antialiasedElements().testFlag(overrideElement))\par
+ 1571     painter->setAntialiasing(true);\par
+ 1572   else\par
+ 1573     painter->setAntialiasing(localAntialiased);\par
+ 1574 \}\par
+}
+}
+{\xe \v applyDefaultAntialiasingHint\:QCPErrorBars}
+{\xe \v QCPErrorBars\:applyDefaultAntialiasingHint}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPAbstractPlottable::applyDefaultAntialiasingHint ({\b QCPPainter} *  {\i painter}) const{\f2 [protected]}, {\f2 [virtual]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAANT}
+{\bkmkend AAAAAAAANT}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Implementa {\b QCPLayerable} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAFJ \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 11187 \{\par
+11188   applyAntialiasingHint(painter, mAntialiased, QCP::aePlottables);\par
+11189 \}\par
+}
+}
+{\xe \v applyFillAntialiasingHint\:QCPErrorBars}
+{\xe \v QCPErrorBars\:applyFillAntialiasingHint}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPAbstractPlottable::applyFillAntialiasingHint ({\b QCPPainter} *  {\i painter}) const{\f2 [protected]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAANU}
+{\bkmkend AAAAAAAANU}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 11203 \{\par
+11204   applyAntialiasingHint(painter, mAntialiasedFill, QCP::aeFills);\par
+11205 \}\par
+}
+}
+{\xe \v applyScattersAntialiasingHint\:QCPErrorBars}
+{\xe \v QCPErrorBars\:applyScattersAntialiasingHint}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPAbstractPlottable::applyScattersAntialiasingHint ({\b QCPPainter} *  {\i painter}) const{\f2 [protected]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAANV}
+{\bkmkend AAAAAAAANV}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 11219 \{\par
+11220   applyAntialiasingHint(painter, mAntialiasedScatters, QCP::aeScatters);\par
+11221 \}\par
+}
+}
+{\xe \v brush\:QCPErrorBars}
+{\xe \v QCPErrorBars\:brush}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QBrush QCPAbstractPlottable::brush () const{\f2 [inline]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAANW}
+{\bkmkend AAAAAAAANW}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  3311 \{ return mBrush; \}\par
+}
+}
+{\xe \v clipRect\:QCPErrorBars}
+{\xe \v QCPErrorBars\:clipRect}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QRect QCPAbstractPlottable::clipRect () const{\f2 [protected]}, {\f2 [virtual]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAANX}
+{\bkmkend AAAAAAAANX}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Reimplementa {\b QCPLayerable} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAFM \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 11158 \{\par
+11159   if (mKeyAxis && mValueAxis)\par
+11160     return mKeyAxis.data()->axisRect()->rect() & mValueAxis.data()->axisRect()->rect();\par
+11161   else\par
+11162     return QRect();\par
+11163 \}\par
+}
+}
+{\xe \v coordsToPixels\:QCPErrorBars}
+{\xe \v QCPErrorBars\:coordsToPixels}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPAbstractPlottable::coordsToPixels (double  {\i key}, double  {\i value}, double &  {\i x}, double &  {\i y}) const{\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAANY}
+{\bkmkend AAAAAAAANY}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Convenience function for transforming a key/value pair to pixels on the {\b QCustomPlot} surface, taking the orientations of the axes associated with this plottable into account (e.g. whether key represents x or y).\par
+{\i key}  and {\i value}  are transformed to the coodinates in pixels and are written to {\i x}  and {\i y} .\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b pixelsToCoords}, {\b QCPAxis::coordToPixel} \par
+}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 10903 \{\par
+10904   QCPAxis *keyAxis = mKeyAxis.data();\par
+10905   QCPAxis *valueAxis = mValueAxis.data();\par
+10906   if (!keyAxis || !valueAxis) \{ qDebug() << Q_FUNC_INFO << "invalid key or value axis"; return; \}\par
+10907   \par
+10908   if (keyAxis->orientation() == Qt::Horizontal)\par
+10909   \{\par
+10910     x = keyAxis->coordToPixel(key);\par
+10911     y = valueAxis->coordToPixel(value);\par
+10912   \} else\par
+10913   \{\par
+10914     y = keyAxis->coordToPixel(key);\par
+10915     x = valueAxis->coordToPixel(value);\par
+10916   \}\par
+10917 \}\par
+}
+}
+{\xe \v coordsToPixels\:QCPErrorBars}
+{\xe \v QCPErrorBars\:coordsToPixels}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+const QPointF QCPAbstractPlottable::coordsToPixels (double  {\i key}, double  {\i value}) const{\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAANZ}
+{\bkmkend AAAAAAAANZ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.\par
+Transforms the given {\i key}  and {\i value}  to pixel coordinates and returns them in a QPointF. \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 10924 \{\par
+10925   QCPAxis *keyAxis = mKeyAxis.data();\par
+10926   QCPAxis *valueAxis = mValueAxis.data();\par
+10927   if (!keyAxis || !valueAxis) \{ qDebug() << Q_FUNC_INFO << "invalid key or value axis"; return QPointF(); \}\par
+10928   \par
+10929   if (keyAxis->orientation() == Qt::Horizontal)\par
+10930     return QPointF(keyAxis->coordToPixel(key), valueAxis->coordToPixel(value));\par
+10931   else\par
+10932     return QPointF(valueAxis->coordToPixel(value), keyAxis->coordToPixel(key));\par
+10933 \}\par
+}
+}
+{\xe \v data\:QCPErrorBars}
+{\xe \v QCPErrorBars\:data}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QSharedPointer< {\b QCPErrorBarsDataContainer} > QCPErrorBars::data () const{\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAACBA}
+{\bkmkend AAAAAAACBA}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Returns a shared pointer to the internal data storage of type {\b QCPErrorBarsDataContainer}. You may use it to directly manipulate the error values, which may be more convenient and faster than using the regular {\b setData} methods. \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  6010 \{ return mDataContainer; \}\par
+}
+}
+{\xe \v dataCount\:QCPErrorBars}
+{\xe \v QCPErrorBars\:dataCount}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int QCPErrorBars::dataCount () const{\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAACBB}
+{\bkmkend AAAAAAACBB}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Returns the number of data points of the plottable. \par
+}{
+Implementa {\b QCPPlottableInterface1D} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAARO \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 27313 \{\par
+27314   return mDataContainer->size();\par
+27315 \}\par
+}
+}
+{\xe \v dataMainKey\:QCPErrorBars}
+{\xe \v QCPErrorBars\:dataMainKey}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+double QCPErrorBars::dataMainKey (int  {\i index}) const{\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAACBC}
+{\bkmkend AAAAAAACBC}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Returns the main key of the data point at the given {\i index} .\par
+What the main key is, is defined by the plottable's data type. See the {\b QCPDataContainer DataType} documentation for details about this naming convention. \par
+}{
+Implementa {\b QCPPlottableInterface1D} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAARQ \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 27319 \{\par
+27320   if (mDataPlottable)\par
+27321     return mDataPlottable->interface1D()->dataMainKey(index);\par
+27322   else\par
+27323     qDebug() << Q_FUNC_INFO << "no data plottable set";\par
+27324   return 0;\par
+27325 \}\par
+}
+}
+{\xe \v dataMainValue\:QCPErrorBars}
+{\xe \v QCPErrorBars\:dataMainValue}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+double QCPErrorBars::dataMainValue (int  {\i index}) const{\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAACBD}
+{\bkmkend AAAAAAACBD}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Returns the main value of the data point at the given {\i index} .\par
+What the main value is, is defined by the plottable's data type. See the {\b QCPDataContainer DataType} documentation for details about this naming convention. \par
+}{
+Implementa {\b QCPPlottableInterface1D} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAARS \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 27339 \{\par
+27340   if (mDataPlottable)\par
+27341     return mDataPlottable->interface1D()->dataMainValue(index);\par
+27342   else\par
+27343     qDebug() << Q_FUNC_INFO << "no data plottable set";\par
+27344   return 0;\par
+27345 \}\par
+}
+}
+{\xe \v dataPixelPosition\:QCPErrorBars}
+{\xe \v QCPErrorBars\:dataPixelPosition}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QPointF QCPErrorBars::dataPixelPosition (int  {\i index}) const{\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAACBE}
+{\bkmkend AAAAAAACBE}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Returns the pixel position on the widget surface at which the data point at the given {\i index}  appears.\par
+Usually this corresponds to the point of {\b dataMainKey}/{\b dataMainValue}, in pixel coordinates. However, depending on the plottable, this might be a different apparent position than just a coord-to-pixel transform of those values. For example, {\b QCPBars} apparent data values can be shifted depending on their stacking, bar grouping or configured base value. \par
+}{
+Implementa {\b QCPPlottableInterface1D} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAARU \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 27366 \{\par
+27367   if (mDataPlottable)\par
+27368     return mDataPlottable->interface1D()->dataPixelPosition(index);\par
+27369   else\par
+27370     qDebug() << Q_FUNC_INFO << "no data plottable set";\par
+27371   return QPointF();\par
+27372 \}\par
+}
+}
+{\xe \v dataPlottable\:QCPErrorBars}
+{\xe \v QCPErrorBars\:dataPlottable}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b QCPAbstractPlottable}* QCPErrorBars::dataPlottable () const{\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAACBF}
+{\bkmkend AAAAAAACBF}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  6011 \{ return mDataPlottable.data(); \}\par
+}
+}
+{\xe \v dataSortKey\:QCPErrorBars}
+{\xe \v QCPErrorBars\:dataSortKey}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+double QCPErrorBars::dataSortKey (int  {\i index}) const{\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAACBG}
+{\bkmkend AAAAAAACBG}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Returns the sort key of the data point at the given {\i index} .\par
+What the sort key is, is defined by the plottable's data type. See the {\b QCPDataContainer DataType} documentation for details about this naming convention. \par
+}{
+Implementa {\b QCPPlottableInterface1D} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAARX \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 27329 \{\par
+27330   if (mDataPlottable)\par
+27331     return mDataPlottable->interface1D()->dataSortKey(index);\par
+27332   else\par
+27333     qDebug() << Q_FUNC_INFO << "no data plottable set";\par
+27334   return 0;\par
+27335 \}\par
+}
+}
+{\xe \v dataValueRange\:QCPErrorBars}
+{\xe \v QCPErrorBars\:dataValueRange}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b QCPRange} QCPErrorBars::dataValueRange (int  {\i index}) const{\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAACBH}
+{\bkmkend AAAAAAACBH}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Returns the value range of the data point at the given {\i index} .\par
+What the value range is, is defined by the plottable's data type. See the {\b QCPDataContainer DataType} documentation for details about this naming convention. \par
+}{
+Implementa {\b QCPPlottableInterface1D} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAARZ \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 27349 \{\par
+27350   if (mDataPlottable)\par
+27351   \{\par
+27352     const double value = mDataPlottable->interface1D()->dataMainValue(index);\par
+27353     if (index >= 0 && index < mDataContainer->size() && mErrorType == etValueError)\par
+27354       return QCPRange(value-mDataContainer->at(index).errorMinus, value+mDataContainer->at(index).errorPlus);\par
+27355     else\par
+27356       return QCPRange(value, value);\par
+27357   \} else\par
+27358   \{\par
+27359     qDebug() << Q_FUNC_INFO << "no data plottable set";\par
+27360     return QCPRange();\par
+27361   \}\par
+27362 \}\par
+}
+}
+{\xe \v deselectEvent\:QCPErrorBars}
+{\xe \v QCPErrorBars\:deselectEvent}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPAbstractPlottable::deselectEvent (bool *  {\i selectionStateChanged}){\f2 [protected]}, {\f2 [virtual]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAOA}
+{\bkmkend AAAAAAAAOA}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Reimplementa {\b QCPLayerable} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAFR \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 11256 \{\par
+11257   if (mSelectable != QCP::stNone)\par
+11258   \{\par
+11259     QCPDataSelection selectionBefore = mSelection;\par
+11260     setSelection(QCPDataSelection());\par
+11261     if (selectionStateChanged)\par
+11262       *selectionStateChanged = mSelection != selectionBefore;\par
+11263   \}\par
+11264 \}\par
+}
+}
+{\xe \v draw\:QCPErrorBars}
+{\xe \v QCPErrorBars\:draw}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPErrorBars::draw ({\b QCPPainter} *  {\i painter}){\f2 [protected]}, {\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAAAOC}
+{\bkmkend AAAAAAAAOC}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Implementa {\b QCPAbstractPlottable} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAOB \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 27480 \{\par
+27481   if (!mDataPlottable) return;\par
+27482   if (!mKeyAxis || !mValueAxis) \{ qDebug() << Q_FUNC_INFO << "invalid key or value axis"; return; \}\par
+27483   if (mKeyAxis.data()->range().size() <= 0 || mDataContainer->isEmpty()) return;\par
+27484   \par
+27485   // if the sort key isn't the main key, we must check the visibility for each data point/error bar individually\par
+27486   // (getVisibleDataBounds applies range restriction, but otherwise can only return full data range):\par
+27487   bool checkPointVisibility = !mDataPlottable->interface1D()->sortKeyIsMainKey();\par
+27488       \par
+27489     // check data validity if flag set:\par
+27490 #ifdef QCUSTOMPLOT_CHECK_DATA\par
+27491   QCPErrorBarsDataContainer::const_iterator it;\par
+27492   for (it = mDataContainer->constBegin(); it != mDataContainer->constEnd(); ++it)\par
+27493   \{\par
+27494     if (QCP::isInvalidData(it->errorMinus, it->errorPlus))\par
+27495       qDebug() << Q_FUNC_INFO << "Data point at index" << it-mDataContainer->constBegin() << "invalid." << "Plottable name:" << name();\par
+27496   \}\par
+27497 #endif\par
+27498   \par
+27499   applyDefaultAntialiasingHint(painter);\par
+27500   painter->setBrush(Qt::NoBrush);\par
+27501   // loop over and draw segments of unselected/selected data:\par
+27502   QList<QCPDataRange> selectedSegments, unselectedSegments, allSegments;\par
+27503   getDataSegments(selectedSegments, unselectedSegments);\par
+27504   allSegments << unselectedSegments << selectedSegments;\par
+27505   QVector<QLineF> backbones, whiskers;\par
+27506   for (int i=0; i<allSegments.size(); ++i)\par
+27507   \{\par
+27508     QCPErrorBarsDataContainer::const_iterator begin, end;\par
+27509     getVisibleDataBounds(begin, end, allSegments.at(i));\par
+27510     if (begin == end)\par
+27511       continue;\par
+27512     \par
+27513     bool isSelectedSegment = i >= unselectedSegments.size();\par
+27514     if (isSelectedSegment && mSelectionDecorator)\par
+27515       mSelectionDecorator->applyPen(painter);\par
+27516     else\par
+27517       painter->setPen(mPen);\par
+27518     if (painter->pen().capStyle() == Qt::SquareCap)\par
+27519     \{\par
+27520       QPen capFixPen(painter->pen());\par
+27521       capFixPen.setCapStyle(Qt::FlatCap);\par
+27522       painter->setPen(capFixPen);\par
+27523     \}\par
+27524     backbones.clear();\par
+27525     whiskers.clear();\par
+27526     for (QCPErrorBarsDataContainer::const_iterator it=begin; it!=end; ++it)\par
+27527     \{\par
+27528       if (!checkPointVisibility || errorBarVisible(it-mDataContainer->constBegin()))\par
+27529         getErrorBarLines(it, backbones, whiskers);\par
+27530     \}\par
+27531     painter->drawLines(backbones);\par
+27532     painter->drawLines(whiskers);\par
+27533   \}\par
+27534   \par
+27535   // draw other selection decoration that isn't just line/scatter pens and brushes:\par
+27536   if (mSelectionDecorator)\par
+27537     mSelectionDecorator->drawDecoration(painter, selection());\par
+27538 \}\par
+}
+}
+{\xe \v drawLegendIcon\:QCPErrorBars}
+{\xe \v QCPErrorBars\:drawLegendIcon}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPErrorBars::drawLegendIcon ({\b QCPPainter} *  {\i painter}, const QRectF &  {\i rect}) const{\f2 [protected]}, {\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAAAOK}
+{\bkmkend AAAAAAAAOK}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Implementa {\b QCPAbstractPlottable} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAOJ \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 27542 \{\par
+27543   applyDefaultAntialiasingHint(painter);\par
+27544   painter->setPen(mPen);\par
+27545   if (mErrorType == etValueError && mValueAxis && mValueAxis->orientation() == Qt::Vertical)\par
+27546   \{\par
+27547     painter->drawLine(QLineF(rect.center().x(), rect.top()+2, rect.center().x(), rect.bottom()-1));\par
+27548     painter->drawLine(QLineF(rect.center().x()-4, rect.top()+2, rect.center().x()+4, rect.top()+2));\par
+27549     painter->drawLine(QLineF(rect.center().x()-4, rect.bottom()-1, rect.center().x()+4, rect.bottom()-1));\par
+27550   \} else\par
+27551   \{\par
+27552     painter->drawLine(QLineF(rect.left()+2, rect.center().y(), rect.right()-2, rect.center().y()));\par
+27553     painter->drawLine(QLineF(rect.left()+2, rect.center().y()-4, rect.left()+2, rect.center().y()+4));\par
+27554     painter->drawLine(QLineF(rect.right()-2, rect.center().y()-4, rect.right()-2, rect.center().y()+4));\par
+27555   \}\par
+27556 \}\par
+}
+}
+{\xe \v errorBarVisible\:QCPErrorBars}
+{\xe \v QCPErrorBars\:errorBarVisible}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool QCPErrorBars::errorBarVisible (int  {\i index}) const{\f2 [protected]}}}
+\par
+{\bkmkstart AAAAAAACBI}
+{\bkmkend AAAAAAACBI}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 27927 \{\par
+27928   QPointF centerPixel = mDataPlottable->interface1D()->dataPixelPosition(index);\par
+27929   const double centerKeyPixel = mKeyAxis->orientation() == Qt::Horizontal ? centerPixel.x() : centerPixel.y();\par
+27930   if (qIsNaN(centerKeyPixel))\par
+27931     return false;\par
+27932   \par
+27933   double keyMin, keyMax;\par
+27934   if (mErrorType == etKeyError)\par
+27935   \{\par
+27936     const double centerKey = mKeyAxis->pixelToCoord(centerKeyPixel);\par
+27937     const double errorPlus = mDataContainer->at(index).errorPlus;\par
+27938     const double errorMinus = mDataContainer->at(index).errorMinus;\par
+27939     keyMax = centerKey+(qIsNaN(errorPlus) ? 0 : errorPlus);\par
+27940     keyMin = centerKey-(qIsNaN(errorMinus) ? 0 : errorMinus);\par
+27941   \} else // mErrorType == etValueError\par
+27942   \{\par
+27943     keyMax = mKeyAxis->pixelToCoord(centerKeyPixel+mWhiskerWidth*0.5*mKeyAxis->pixelOrientation());\par
+27944     keyMin = mKeyAxis->pixelToCoord(centerKeyPixel-mWhiskerWidth*0.5*mKeyAxis->pixelOrientation());\par
+27945   \}\par
+27946   return ((keyMax > mKeyAxis->range().lower) && (keyMin < mKeyAxis->range().upper));\par
+27947 \}\par
+}
+}
+{\xe \v errorType\:QCPErrorBars}
+{\xe \v QCPErrorBars\:errorType}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b ErrorType} QCPErrorBars::errorType () const{\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAACBJ}
+{\bkmkend AAAAAAACBJ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  6012 \{ return mErrorType; \}\par
+}
+}
+{\xe \v findBegin\:QCPErrorBars}
+{\xe \v QCPErrorBars\:findBegin}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int QCPErrorBars::findBegin (double  {\i sortKey}, bool  {\i expandedRange} = {\f2 true}) const{\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAACBK}
+{\bkmkend AAAAAAACBK}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Returns the index of the data point with a (sort-)key that is equal to, just below, or just above {\i sortKey} . If {\i expandedRange}  is true, the data point just below {\i sortKey}  will be considered, otherwise the one just above.\par
+This can be used in conjunction with {\b findEnd} to iterate over data points within a given key range, including or excluding the bounding data points that are just beyond the specified range.\par
+If {\i expandedRange}  is true but there are no data points below {\i sortKey} , 0 is returned.\par
+If the container is empty, returns 0 (in that case, {\b findEnd} will also return 0, so a loop using these methods will not iterate over the index 0).\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b findEnd}, {\b QCPDataContainer::findBegin} \par
+}}{
+Implementa {\b QCPPlottableInterface1D} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAASC \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 27424 \{\par
+27425   if (mDataPlottable)\par
+27426   \{\par
+27427     if (mDataContainer->isEmpty())\par
+27428       return 0;\par
+27429     int beginIndex = mDataPlottable->interface1D()->findBegin(sortKey, expandedRange);\par
+27430     if (beginIndex >= mDataContainer->size())\par
+27431       beginIndex = mDataContainer->size()-1;\par
+27432     return beginIndex;\par
+27433   \} else\par
+27434     qDebug() << Q_FUNC_INFO << "no data plottable set";\par
+27435   return 0;\par
+27436 \}\par
+}
+}
+{\xe \v findEnd\:QCPErrorBars}
+{\xe \v QCPErrorBars\:findEnd}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int QCPErrorBars::findEnd (double  {\i sortKey}, bool  {\i expandedRange} = {\f2 true}) const{\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAACBL}
+{\bkmkend AAAAAAACBL}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Returns the index one after the data point with a (sort-)key that is equal to, just above, or just below {\i sortKey} . If {\i expandedRange}  is true, the data point just above {\i sortKey}  will be considered, otherwise the one just below.\par
+This can be used in conjunction with {\b findBegin} to iterate over data points within a given key range, including the bounding data points that are just below and above the specified range.\par
+If {\i expandedRange}  is true but there are no data points above {\i sortKey} , the index just above the highest data point is returned.\par
+If the container is empty, returns 0.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b findBegin}, {\b QCPDataContainer::findEnd} \par
+}}{
+Implementa {\b QCPPlottableInterface1D} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAASE \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 27440 \{\par
+27441   if (mDataPlottable)\par
+27442   \{\par
+27443     if (mDataContainer->isEmpty())\par
+27444       return 0;\par
+27445     int endIndex = mDataPlottable->interface1D()->findEnd(sortKey, expandedRange);\par
+27446     if (endIndex > mDataContainer->size())\par
+27447       endIndex = mDataContainer->size();\par
+27448     return endIndex;\par
+27449   \} else\par
+27450     qDebug() << Q_FUNC_INFO << "no data plottable set";\par
+27451   return 0;\par
+27452 \}\par
+}
+}
+{\xe \v getDataSegments\:QCPErrorBars}
+{\xe \v QCPErrorBars\:getDataSegments}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPErrorBars::getDataSegments (QList< {\b QCPDataRange} > &  {\i selectedSegments}, QList< {\b QCPDataRange} > &  {\i unselectedSegments}) const{\f2 [protected]}}}
+\par
+{\bkmkstart AAAAAAACBM}
+{\bkmkend AAAAAAACBM}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 27899 \{\par
+27900   selectedSegments.clear();\par
+27901   unselectedSegments.clear();\par
+27902   if (mSelectable == QCP::stWhole) // stWhole selection type draws the entire plottable with selected style if mSelection isn't empty\par
+27903   \{\par
+27904     if (selected())\par
+27905       selectedSegments << QCPDataRange(0, dataCount());\par
+27906     else\par
+27907       unselectedSegments << QCPDataRange(0, dataCount());\par
+27908   \} else\par
+27909   \{\par
+27910     QCPDataSelection sel(selection());\par
+27911     sel.simplify();\par
+27912     selectedSegments = sel.dataRanges();\par
+27913     unselectedSegments = sel.inverse(QCPDataRange(0, dataCount())).dataRanges();\par
+27914   \}\par
+27915 \}\par
+}
+}
+{\xe \v getErrorBarLines\:QCPErrorBars}
+{\xe \v QCPErrorBars\:getErrorBarLines}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPErrorBars::getErrorBarLines (QCPErrorBarsDataContainer::const_iterator  {\i it}, QVector< QLineF > &  {\i backbones}, QVector< QLineF > &  {\i whiskers}) const{\f2 [protected]}}}
+\par
+{\bkmkstart AAAAAAACBN}
+{\bkmkend AAAAAAACBN}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 27731 \{\par
+27732   if (!mDataPlottable) return;\par
+27733   \par
+27734   int index = it-mDataContainer->constBegin();\par
+27735   QPointF centerPixel = mDataPlottable->interface1D()->dataPixelPosition(index);\par
+27736   if (qIsNaN(centerPixel.x()) || qIsNaN(centerPixel.y()))\par
+27737     return;\par
+27738   QCPAxis *errorAxis = mErrorType == etValueError ? mValueAxis.data() : mKeyAxis.data();\par
+27739   QCPAxis *orthoAxis = mErrorType == etValueError ? mKeyAxis.data() : mValueAxis.data();\par
+27740   const double centerErrorAxisPixel = errorAxis->orientation() == Qt::Horizontal ? centerPixel.x() : centerPixel.y();\par
+27741   const double centerOrthoAxisPixel = orthoAxis->orientation() == Qt::Horizontal ? centerPixel.x() : centerPixel.y();\par
+27742   const double centerErrorAxisCoord = errorAxis->pixelToCoord(centerErrorAxisPixel); // depending on plottable, this might be different from just mDataPlottable->interface1D()->dataMainKey/Value\par
+27743   const double symbolGap = mSymbolGap*0.5*errorAxis->pixelOrientation();\par
+27744   // plus error:\par
+27745   double errorStart, errorEnd;\par
+27746   if (!qIsNaN(it->errorPlus))\par
+27747   \{\par
+27748     errorStart = centerErrorAxisPixel+symbolGap;\par
+27749     errorEnd = errorAxis->coordToPixel(centerErrorAxisCoord+it->errorPlus);\par
+27750     if (errorAxis->orientation() == Qt::Vertical)\par
+27751     \{\par
+27752       if ((errorStart > errorEnd) != errorAxis->rangeReversed())\par
+27753         backbones.append(QLineF(centerOrthoAxisPixel, errorStart, centerOrthoAxisPixel, errorEnd));\par
+27754       whiskers.append(QLineF(centerOrthoAxisPixel-mWhiskerWidth*0.5, errorEnd, centerOrthoAxisPixel+mWhiskerWidth*0.5, errorEnd));\par
+27755     \} else\par
+27756     \{\par
+27757       if ((errorStart < errorEnd) != errorAxis->rangeReversed())\par
+27758         backbones.append(QLineF(errorStart, centerOrthoAxisPixel, errorEnd, centerOrthoAxisPixel));\par
+27759       whiskers.append(QLineF(errorEnd, centerOrthoAxisPixel-mWhiskerWidth*0.5, errorEnd, centerOrthoAxisPixel+mWhiskerWidth*0.5));\par
+27760     \}\par
+27761   \}\par
+27762   // minus error:\par
+27763   if (!qIsNaN(it->errorMinus))\par
+27764   \{\par
+27765     errorStart = centerErrorAxisPixel-symbolGap;\par
+27766     errorEnd = errorAxis->coordToPixel(centerErrorAxisCoord-it->errorMinus);\par
+27767     if (errorAxis->orientation() == Qt::Vertical)\par
+27768     \{\par
+27769       if ((errorStart < errorEnd) != errorAxis->rangeReversed())\par
+27770         backbones.append(QLineF(centerOrthoAxisPixel, errorStart, centerOrthoAxisPixel, errorEnd));\par
+27771       whiskers.append(QLineF(centerOrthoAxisPixel-mWhiskerWidth*0.5, errorEnd, centerOrthoAxisPixel+mWhiskerWidth*0.5, errorEnd));\par
+27772     \} else\par
+27773     \{\par
+27774       if ((errorStart > errorEnd) != errorAxis->rangeReversed())\par
+27775         backbones.append(QLineF(errorStart, centerOrthoAxisPixel, errorEnd, centerOrthoAxisPixel));\par
+27776       whiskers.append(QLineF(errorEnd, centerOrthoAxisPixel-mWhiskerWidth*0.5, errorEnd, centerOrthoAxisPixel+mWhiskerWidth*0.5));\par
+27777     \}\par
+27778   \}\par
+27779 \}\par
+}
+}
+{\xe \v getKeyRange\:QCPErrorBars}
+{\xe \v QCPErrorBars\:getKeyRange}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b QCPRange} QCPErrorBars::getKeyRange (bool &  {\i foundRange}, {\b QCP::SignDomain}  {\i inSignDomain} = {\f2 {\b QCP::sdBoth}}) const{\f2 [protected]}, {\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAAAOS}
+{\bkmkend AAAAAAAAOS}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Returns the coordinate range that all data in this plottable span in the key axis dimension. For logarithmic plots, one can set {\i inSignDomain}  to either {\b QCP::sdNegative} or {\b QCP::sdPositive} in order to restrict the returned range to that sign domain. E.g. when only negative range is wanted, set {\i inSignDomain}  to {\b QCP::sdNegative} and all positive points will be ignored for range calculation. For no restriction, just set {\i inSignDomain}  to {\b QCP::sdBoth} (default). {\i foundRange}  is an output parameter that indicates whether a range could be found or not. If this is false, you shouldn't use the returned range (e.g. no points in data).\par
+Note that {\i foundRange}  is not the same as {\b QCPRange::validRange}, since the range returned by this function may have size zero (e.g. when there is only one data point). In this case {\i foundRange}  would return true, but the returned range is not a valid range in terms of {\b QCPRange::validRange}.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b rescaleAxes}, {\b getValueRange} \par
+}}{
+Implementa {\b QCPAbstractPlottable} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAOR \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 27560 \{\par
+27561   if (!mDataPlottable)\par
+27562   \{\par
+27563     foundRange = false;\par
+27564     return QCPRange();\par
+27565   \}\par
+27566   \par
+27567   QCPRange range;\par
+27568   bool haveLower = false;\par
+27569   bool haveUpper = false;\par
+27570   QCPErrorBarsDataContainer::const_iterator it;\par
+27571   for (it = mDataContainer->constBegin(); it != mDataContainer->constEnd(); ++it)\par
+27572   \{\par
+27573     if (mErrorType == etValueError)\par
+27574     \{\par
+27575       // error bar doesn't extend in key dimension (except whisker but we ignore that here), so only use data point center\par
+27576       const double current = mDataPlottable->interface1D()->dataMainKey(it-mDataContainer->constBegin());\par
+27577       if (qIsNaN(current)) continue;\par
+27578       if (inSignDomain == QCP::sdBoth || (inSignDomain == QCP::sdNegative && current < 0) || (inSignDomain == QCP::sdPositive && current > 0))\par
+27579       \{\par
+27580         if (current < range.lower || !haveLower)\par
+27581         \{\par
+27582           range.lower = current;\par
+27583           haveLower = true;\par
+27584         \}\par
+27585         if (current > range.upper || !haveUpper)\par
+27586         \{\par
+27587           range.upper = current;\par
+27588           haveUpper = true;\par
+27589         \}\par
+27590       \}\par
+27591     \} else // mErrorType == etKeyError\par
+27592     \{\par
+27593       const double dataKey = mDataPlottable->interface1D()->dataMainKey(it-mDataContainer->constBegin());\par
+27594       if (qIsNaN(dataKey)) continue;\par
+27595       // plus error:\par
+27596       double current = dataKey + (qIsNaN(it->errorPlus) ? 0 : it->errorPlus);\par
+27597       if (inSignDomain == QCP::sdBoth || (inSignDomain == QCP::sdNegative && current < 0) || (inSignDomain == QCP::sdPositive && current > 0))\par
+27598       \{\par
+27599         if (current > range.upper || !haveUpper)\par
+27600         \{\par
+27601           range.upper = current;\par
+27602           haveUpper = true;\par
+27603         \}\par
+27604       \}\par
+27605       // minus error:\par
+27606       current = dataKey - (qIsNaN(it->errorMinus) ? 0 : it->errorMinus);\par
+27607       if (inSignDomain == QCP::sdBoth || (inSignDomain == QCP::sdNegative && current < 0) || (inSignDomain == QCP::sdPositive && current > 0))\par
+27608       \{\par
+27609         if (current < range.lower || !haveLower)\par
+27610         \{\par
+27611           range.lower = current;\par
+27612           haveLower = true;\par
+27613         \}\par
+27614       \}\par
+27615     \}\par
+27616   \}\par
+27617   \par
+27618   if (haveUpper && !haveLower)\par
+27619   \{\par
+27620     range.lower = range.upper;\par
+27621     haveLower = true;\par
+27622   \} else if (haveLower && !haveUpper)\par
+27623   \{\par
+27624     range.upper = range.lower;\par
+27625     haveUpper = true;\par
+27626   \}\par
+27627   \par
+27628   foundRange = haveLower && haveUpper;\par
+27629   return range;\par
+27630 \}\par
+}
+}
+{\xe \v getValueRange\:QCPErrorBars}
+{\xe \v QCPErrorBars\:getValueRange}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b QCPRange} QCPErrorBars::getValueRange (bool &  {\i foundRange}, {\b QCP::SignDomain}  {\i inSignDomain} = {\f2 {\b QCP::sdBoth}}, const {\b QCPRange} &  {\i inKeyRange} = {\f2 {\b QCPRange}()}) const{\f2 [protected]}, {\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAAAPA}
+{\bkmkend AAAAAAAAPA}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Returns the coordinate range that the data points in the specified key range ({\i inKeyRange} ) span in the value axis dimension. For logarithmic plots, one can set {\i inSignDomain}  to either {\b QCP::sdNegative} or {\b QCP::sdPositive} in order to restrict the returned range to that sign domain. E.g. when only negative range is wanted, set {\i inSignDomain}  to {\b QCP::sdNegative} and all positive points will be ignored for range calculation. For no restriction, just set {\i inSignDomain}  to {\b QCP::sdBoth} (default). {\i foundRange}  is an output parameter that indicates whether a range could be found or not. If this is false, you shouldn't use the returned range (e.g. no points in data).\par
+If {\i inKeyRange}  has both lower and upper bound set to zero (is equal to {\f2 {\b QCPRange()}} ), all data points are considered, without any restriction on the keys.\par
+Note that {\i foundRange}  is not the same as {\b QCPRange::validRange}, since the range returned by this function may have size zero (e.g. when there is only one data point). In this case {\i foundRange}  would return true, but the returned range is not a valid range in terms of {\b QCPRange::validRange}.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b rescaleAxes}, {\b getKeyRange} \par
+}}{
+Implementa {\b QCPAbstractPlottable} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAOZ \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 27634 \{\par
+27635   if (!mDataPlottable)\par
+27636   \{\par
+27637     foundRange = false;\par
+27638     return QCPRange();\par
+27639   \}\par
+27640   \par
+27641   QCPRange range;\par
+27642   const bool restrictKeyRange = inKeyRange != QCPRange();\par
+27643   bool haveLower = false;\par
+27644   bool haveUpper = false;\par
+27645   QCPErrorBarsDataContainer::const_iterator itBegin = mDataContainer->constBegin();\par
+27646   QCPErrorBarsDataContainer::const_iterator itEnd = mDataContainer->constEnd();\par
+27647   if (mDataPlottable->interface1D()->sortKeyIsMainKey() && restrictKeyRange)\par
+27648   \{\par
+27649     itBegin = mDataContainer->constBegin()+findBegin(inKeyRange.lower);\par
+27650     itEnd = mDataContainer->constBegin()+findEnd(inKeyRange.upper);\par
+27651   \}\par
+27652   for (QCPErrorBarsDataContainer::const_iterator it = itBegin; it != itEnd; ++it)\par
+27653   \{\par
+27654     if (restrictKeyRange)\par
+27655     \{\par
+27656       const double dataKey = mDataPlottable->interface1D()->dataMainKey(it-mDataContainer->constBegin());\par
+27657       if (dataKey < inKeyRange.lower || dataKey > inKeyRange.upper)\par
+27658         continue;\par
+27659     \}\par
+27660     if (mErrorType == etValueError)\par
+27661     \{\par
+27662       const double dataValue = mDataPlottable->interface1D()->dataMainValue(it-mDataContainer->constBegin());\par
+27663       if (qIsNaN(dataValue)) continue;\par
+27664       // plus error:\par
+27665       double current = dataValue + (qIsNaN(it->errorPlus) ? 0 : it->errorPlus);\par
+27666       if (inSignDomain == QCP::sdBoth || (inSignDomain == QCP::sdNegative && current < 0) || (inSignDomain == QCP::sdPositive && current > 0))\par
+27667       \{\par
+27668         if (current > range.upper || !haveUpper)\par
+27669         \{\par
+27670           range.upper = current;\par
+27671           haveUpper = true;\par
+27672         \}\par
+27673       \}\par
+27674       // minus error:\par
+27675       current = dataValue - (qIsNaN(it->errorMinus) ? 0 : it->errorMinus);\par
+27676       if (inSignDomain == QCP::sdBoth || (inSignDomain == QCP::sdNegative && current < 0) || (inSignDomain == QCP::sdPositive && current > 0))\par
+27677       \{\par
+27678         if (current < range.lower || !haveLower)\par
+27679         \{\par
+27680           range.lower = current;\par
+27681           haveLower = true;\par
+27682         \}\par
+27683       \}\par
+27684     \} else // mErrorType == etKeyError\par
+27685     \{\par
+27686       // error bar doesn't extend in value dimension (except whisker but we ignore that here), so only use data point center\par
+27687       const double current = mDataPlottable->interface1D()->dataMainValue(it-mDataContainer->constBegin());\par
+27688       if (qIsNaN(current)) continue;\par
+27689       if (inSignDomain == QCP::sdBoth || (inSignDomain == QCP::sdNegative && current < 0) || (inSignDomain == QCP::sdPositive && current > 0))\par
+27690       \{\par
+27691         if (current < range.lower || !haveLower)\par
+27692         \{\par
+27693           range.lower = current;\par
+27694           haveLower = true;\par
+27695         \}\par
+27696         if (current > range.upper || !haveUpper)\par
+27697         \{\par
+27698           range.upper = current;\par
+27699           haveUpper = true;\par
+27700         \}\par
+27701       \}\par
+27702     \}\par
+27703   \}\par
+27704   \par
+27705   if (haveUpper && !haveLower)\par
+27706   \{\par
+27707     range.lower = range.upper;\par
+27708     haveLower = true;\par
+27709   \} else if (haveLower && !haveUpper)\par
+27710   \{\par
+27711     range.upper = range.lower;\par
+27712     haveUpper = true;\par
+27713   \}\par
+27714   \par
+27715   foundRange = haveLower && haveUpper;\par
+27716   return range;\par
+27717 \}\par
+}
+}
+{\xe \v getVisibleDataBounds\:QCPErrorBars}
+{\xe \v QCPErrorBars\:getVisibleDataBounds}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPErrorBars::getVisibleDataBounds (QCPErrorBarsDataContainer::const_iterator &  {\i begin}, QCPErrorBarsDataContainer::const_iterator &  {\i end}, const {\b QCPDataRange} &  {\i rangeRestriction}) const{\f2 [protected]}}}
+\par
+{\bkmkstart AAAAAAACBO}
+{\bkmkend AAAAAAACBO}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 27800 \{\par
+27801   QCPAxis *keyAxis = mKeyAxis.data();\par
+27802   QCPAxis *valueAxis = mValueAxis.data();\par
+27803   if (!keyAxis || !valueAxis)\par
+27804   \{\par
+27805     qDebug() << Q_FUNC_INFO << "invalid key or value axis";\par
+27806     end = mDataContainer->constEnd();\par
+27807     begin = end;\par
+27808     return;\par
+27809   \}\par
+27810   if (!mDataPlottable || rangeRestriction.isEmpty())\par
+27811   \{\par
+27812     end = mDataContainer->constEnd();\par
+27813     begin = end;\par
+27814     return;\par
+27815   \}\par
+27816   if (!mDataPlottable->interface1D()->sortKeyIsMainKey())\par
+27817   \{\par
+27818     // if the sort key isn't the main key, it's not possible to find a contiguous range of visible\par
+27819     // data points, so this method then only applies the range restriction and otherwise returns\par
+27820     // the full data range. Visibility checks must be done on a per-datapoin-basis during drawing\par
+27821     QCPDataRange dataRange(0, mDataContainer->size());\par
+27822     dataRange = dataRange.bounded(rangeRestriction);\par
+27823     begin = mDataContainer->constBegin()+dataRange.begin();\par
+27824     end = mDataContainer->constBegin()+dataRange.end();\par
+27825     return;\par
+27826   \}\par
+27827   \par
+27828   // get visible data range via interface from data plottable, and then restrict to available error data points:\par
+27829   const int n = qMin(mDataContainer->size(), mDataPlottable->interface1D()->dataCount());\par
+27830   int beginIndex = mDataPlottable->interface1D()->findBegin(keyAxis->range().lower);\par
+27831   int endIndex = mDataPlottable->interface1D()->findEnd(keyAxis->range().upper);\par
+27832   int i = beginIndex;\par
+27833   while (i > 0 && i < n && i > rangeRestriction.begin())\par
+27834   \{\par
+27835     if (errorBarVisible(i))\par
+27836       beginIndex = i;\par
+27837     --i;\par
+27838   \}\par
+27839   i = endIndex;\par
+27840   while (i >= 0 && i < n && i < rangeRestriction.end())\par
+27841   \{\par
+27842     if (errorBarVisible(i))\par
+27843       endIndex = i+1;\par
+27844     ++i;\par
+27845   \}\par
+27846   QCPDataRange dataRange(beginIndex, endIndex);\par
+27847   dataRange = dataRange.bounded(rangeRestriction.bounded(QCPDataRange(0, mDataContainer->size())));\par
+27848   begin = mDataContainer->constBegin()+dataRange.begin();\par
+27849   end = mDataContainer->constBegin()+dataRange.end();\par
+27850 \}\par
+}
+}
+{\xe \v initializeParentPlot\:QCPErrorBars}
+{\xe \v QCPErrorBars\:initializeParentPlot}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPLayerable::initializeParentPlot ({\b QCustomPlot} *  {\i parentPlot}){\f2 [protected]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAGE}
+{\bkmkend AAAAAAAAGE}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1497 \{\par
+ 1498   if (mParentPlot)\par
+ 1499   \{\par
+ 1500     qDebug() << Q_FUNC_INFO << "called with mParentPlot already initialized";\par
+ 1501     return;\par
+ 1502   \}\par
+ 1503   \par
+ 1504   if (!parentPlot)\par
+ 1505     qDebug() << Q_FUNC_INFO << "called with parentPlot zero";\par
+ 1506   \par
+ 1507   mParentPlot = parentPlot;\par
+ 1508   parentPlotInitialized(mParentPlot);\par
+ 1509 \}\par
+}
+}
+{\xe \v interface1D\:QCPErrorBars}
+{\xe \v QCPErrorBars\:interface1D}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+virtual {\b QCPPlottableInterface1D}* QCPErrorBars::interface1D (){\f2 [inline]}, {\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAAAPI}
+{\bkmkend AAAAAAAAPI}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+If this plottable is a one-dimensional plottable, i.e. it implements the {\b QCPPlottableInterface1D}, returns the {\i this}  pointer with that type. Otherwise (e.g. in the case of a {\b QCPColorMap}) returns zero.\par
+You can use this method to gain read access to data coordinates while holding a pointer to the abstract base class only. \par
+}{
+Reimplementa {\b QCPAbstractPlottable} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAPH \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  6045 \{ return this; \}\par
+}
+}
+{\xe \v keyAxis\:QCPErrorBars}
+{\xe \v QCPErrorBars\:keyAxis}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b QCPAxis}* QCPAbstractPlottable::keyAxis () const{\f2 [inline]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAPK}
+{\bkmkend AAAAAAAAPK}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  3312 \{ return mKeyAxis.data(); \}\par
+}
+}
+{\xe \v layer\:QCPErrorBars}
+{\xe \v QCPErrorBars\:layer}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b QCPLayer}* QCPLayerable::layer () const{\f2 [inline]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAGF}
+{\bkmkend AAAAAAAAGF}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid   710 \{ return mLayer; \}\par
+}
+}
+{\xe \v layerChanged\:QCPErrorBars}
+{\xe \v QCPErrorBars\:layerChanged}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPLayerable::layerChanged ({\b QCPLayer} *  {\i newLayer}){\f2 [signal]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAGG}
+{\bkmkend AAAAAAAAGG}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+This signal is emitted when the layer of this layerable changes, i.e. this layerable is moved to a different layer.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b setLayer} \par
+}}}
+{\xe \v mouseDoubleClickEvent\:QCPErrorBars}
+{\xe \v QCPErrorBars\:mouseDoubleClickEvent}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPLayerable::mouseDoubleClickEvent (QMouseEvent *  {\i event}, const QVariant &  {\i details}){\f2 [protected]}, {\f2 [virtual]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAGH}
+{\bkmkend AAAAAAAAGH}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+This event gets called when the user presses the mouse button a second time in a double-click, while the cursor is over the layerable. Whether a cursor is over the layerable is decided by a preceding call to {\b selectTest}.\par
+The {\b mouseDoubleClickEvent} is called instead of the second {\b mousePressEvent}. So in the case of a double-click, the event succession is {\i pressEvent \'96 releaseEvent \'96 doubleClickEvent \'96 releaseEvent} .\par
+The current pixel position of the cursor on the {\b QCustomPlot} widget is accessible via {\f2 event->pos()} . The parameter {\i details}  contains layerable-specific details about the hit, which were generated in the previous call to {\b selectTest}. For example, One-dimensional plottables like {\b QCPGraph} or {\b QCPBars} convey the clicked data point in the {\i details}  parameter, as {\b QCPDataSelection} packed as QVariant. Multi-part objects convey the specific {\f2 SelectablePart}  that was hit (e.g. {\b QCPAxis::SelectablePart} in the case of axes).\par
+Similarly to {\b mousePressEvent}, once a layerable has accepted the {\b mouseDoubleClickEvent}, it is considered the mouse grabber and will receive all following calls to {\b mouseMoveEvent} and {\b mouseReleaseEvent} for this mouse interaction (a "mouse interaction" in this context ends with the release).\par
+The default implementation does nothing except explicitly ignoring the event with {\f2 event->ignore()} .\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b mousePressEvent}, {\b mouseMoveEvent}, {\b mouseReleaseEvent}, {\b wheelEvent} \par
+}}{
+Reimplementado por {\b QCPTextElement} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAGI \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1777 \{\par
+ 1778   Q_UNUSED(details)\par
+ 1779   event->ignore();\par
+ 1780 \}\par
+}
+}
+{\xe \v mouseMoveEvent\:QCPErrorBars}
+{\xe \v QCPErrorBars\:mouseMoveEvent}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPLayerable::mouseMoveEvent (QMouseEvent *  {\i event}, const QPointF &  {\i startPos}){\f2 [protected]}, {\f2 [virtual]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAGJ}
+{\bkmkend AAAAAAAAGJ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+This event gets called when the user moves the mouse while holding a mouse button, after this layerable has become the mouse grabber by accepting the preceding {\b mousePressEvent}.\par
+The current pixel position of the cursor on the {\b QCustomPlot} widget is accessible via {\f2 event->pos()} . The parameter {\i startPos}  indicates the position where the initial {\b mousePressEvent} occured, that started the mouse interaction.\par
+The default implementation does nothing.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b mousePressEvent}, {\b mouseReleaseEvent}, {\b mouseDoubleClickEvent}, {\b wheelEvent} \par
+}}{
+Reimplementado por {\b QCPColorScale} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAGK \\*MERGEFORMAT}{\fldrslt pagenum}}}), {\b QCPAxisRect} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAGL \\*MERGEFORMAT}{\fldrslt pagenum}}}) e {\b QCPAxis} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAGM \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1727 \{\par
+ 1728   Q_UNUSED(startPos)\par
+ 1729   event->ignore();\par
+ 1730 \}\par
+}
+}
+{\xe \v mousePressEvent\:QCPErrorBars}
+{\xe \v QCPErrorBars\:mousePressEvent}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPLayerable::mousePressEvent (QMouseEvent *  {\i event}, const QVariant &  {\i details}){\f2 [protected]}, {\f2 [virtual]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAGN}
+{\bkmkend AAAAAAAAGN}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+This event gets called when the user presses a mouse button while the cursor is over the layerable. Whether a cursor is over the layerable is decided by a preceding call to {\b selectTest}.\par
+The current pixel position of the cursor on the {\b QCustomPlot} widget is accessible via {\f2 event->pos()} . The parameter {\i details}  contains layerable-specific details about the hit, which were generated in the previous call to {\b selectTest}. For example, One-dimensional plottables like {\b QCPGraph} or {\b QCPBars} convey the clicked data point in the {\i details}  parameter, as {\b QCPDataSelection} packed as QVariant. Multi-part objects convey the specific {\f2 SelectablePart}  that was hit (e.g. {\b QCPAxis::SelectablePart} in the case of axes).\par
+{\b QCustomPlot} uses an event propagation system that works the same as Qt's system. If your layerable doesn't reimplement the {\b mousePressEvent} or explicitly calls {\f2 event->ignore()}  in its reimplementation, the event will be propagated to the next layerable in the stacking order.\par
+Once a layerable has accepted the {\b mousePressEvent}, it is considered the mouse grabber and will receive all following calls to {\b mouseMoveEvent} or {\b mouseReleaseEvent} for this mouse interaction (a "mouse interaction" in this context ends with the release).\par
+The default implementation does nothing except explicitly ignoring the event with {\f2 event->ignore()} .\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b mouseMoveEvent}, {\b mouseReleaseEvent}, {\b mouseDoubleClickEvent}, {\b wheelEvent} \par
+}}{
+Reimplementado por {\b QCPColorScale} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAGO \\*MERGEFORMAT}{\fldrslt pagenum}}}), {\b QCPTextElement} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAGP \\*MERGEFORMAT}{\fldrslt pagenum}}}), {\b QCPAxisRect} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAGQ \\*MERGEFORMAT}{\fldrslt pagenum}}}) e {\b QCPAxis} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAGR \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1709 \{\par
+ 1710   Q_UNUSED(details)\par
+ 1711   event->ignore();\par
+ 1712 \}\par
+}
+}
+{\xe \v mouseReleaseEvent\:QCPErrorBars}
+{\xe \v QCPErrorBars\:mouseReleaseEvent}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPLayerable::mouseReleaseEvent (QMouseEvent *  {\i event}, const QPointF &  {\i startPos}){\f2 [protected]}, {\f2 [virtual]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAGS}
+{\bkmkend AAAAAAAAGS}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+This event gets called when the user releases the mouse button, after this layerable has become the mouse grabber by accepting the preceding {\b mousePressEvent}.\par
+The current pixel position of the cursor on the {\b QCustomPlot} widget is accessible via {\f2 event->pos()} . The parameter {\i startPos}  indicates the position where the initial {\b mousePressEvent} occured, that started the mouse interaction.\par
+The default implementation does nothing.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b mousePressEvent}, {\b mouseMoveEvent}, {\b mouseDoubleClickEvent}, {\b wheelEvent} \par
+}}{
+Reimplementado por {\b QCPColorScale} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAGT \\*MERGEFORMAT}{\fldrslt pagenum}}}), {\b QCPTextElement} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAGU \\*MERGEFORMAT}{\fldrslt pagenum}}}), {\b QCPAxisRect} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAGV \\*MERGEFORMAT}{\fldrslt pagenum}}}) e {\b QCPAxis} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAGW \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1745 \{\par
+ 1746   Q_UNUSED(startPos)\par
+ 1747   event->ignore();\par
+ 1748 \}\par
+}
+}
+{\xe \v moveToLayer\:QCPErrorBars}
+{\xe \v QCPErrorBars\:moveToLayer}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool QCPLayerable::moveToLayer ({\b QCPLayer} *  {\i layer}, bool  {\i prepend}){\f2 [protected]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAGX}
+{\bkmkend AAAAAAAAGX}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1536 \{\par
+ 1537   if (layer && !mParentPlot)\par
+ 1538   \{\par
+ 1539     qDebug() << Q_FUNC_INFO << "no parent QCustomPlot set";\par
+ 1540     return false;\par
+ 1541   \}\par
+ 1542   if (layer && layer->parentPlot() != mParentPlot)\par
+ 1543   \{\par
+ 1544     qDebug() << Q_FUNC_INFO << "layer" << layer->name() << "is not in same QCustomPlot as this layerable";\par
+ 1545     return false;\par
+ 1546   \}\par
+ 1547   \par
+ 1548   QCPLayer *oldLayer = mLayer;\par
+ 1549   if (mLayer)\par
+ 1550     mLayer->removeChild(this);\par
+ 1551   mLayer = layer;\par
+ 1552   if (mLayer)\par
+ 1553     mLayer->addChild(this, prepend);\par
+ 1554   if (mLayer != oldLayer)\par
+ 1555     emit layerChanged(mLayer);\par
+ 1556   return true;\par
+ 1557 \}\par
+}
+}
+{\xe \v name\:QCPErrorBars}
+{\xe \v QCPErrorBars\:name}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QString QCPAbstractPlottable::name () const{\f2 [inline]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAPL}
+{\bkmkend AAAAAAAAPL}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  3307 \{ return mName; \}\par
+}
+}
+{\xe \v parentLayerable\:QCPErrorBars}
+{\xe \v QCPErrorBars\:parentLayerable}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b QCPLayerable} * QCPLayerable::parentLayerable () const{\f2 [inline]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAGY}
+{\bkmkend AAAAAAAAGY}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Returns the parent layerable of this layerable. The parent layerable is used to provide visibility hierarchies in conjunction with the method {\b realVisibility}. This way, layerables only get drawn if their parent layerables are visible, too.\par
+Note that a parent layerable is not necessarily also the QObject parent for memory management. Further, a layerable doesn't always have a parent layerable, so this function may return 0.\par
+A parent layerable is set implicitly when placed inside layout elements and doesn't need to be set manually by the user. \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid   709 \{ return mParentLayerable.data(); \}\par
+}
+}
+{\xe \v parentPlot\:QCPErrorBars}
+{\xe \v QCPErrorBars\:parentPlot}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b QCustomPlot}* QCPLayerable::parentPlot () const{\f2 [inline]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAGZ}
+{\bkmkend AAAAAAAAGZ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid   708 \{ return mParentPlot; \}\par
+}
+}
+{\xe \v parentPlotInitialized\:QCPErrorBars}
+{\xe \v QCPErrorBars\:parentPlotInitialized}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPLayerable::parentPlotInitialized ({\b QCustomPlot} *  {\i parentPlot}){\f2 [protected]}, {\f2 [virtual]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAHA}
+{\bkmkend AAAAAAAAHA}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Reimplementado por {\b QCPLegend} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAHB \\*MERGEFORMAT}{\fldrslt pagenum}}}) e {\b QCPLayoutElement} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAHC \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1593 \{\par
+ 1594    Q_UNUSED(parentPlot)\par
+ 1595 \}\par
+}
+}
+{\xe \v pen\:QCPErrorBars}
+{\xe \v QCPErrorBars\:pen}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QPen QCPAbstractPlottable::pen () const{\f2 [inline]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAPM}
+{\bkmkend AAAAAAAAPM}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  3310 \{ return mPen; \}\par
+}
+}
+{\xe \v pixelsToCoords\:QCPErrorBars}
+{\xe \v QCPErrorBars\:pixelsToCoords}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPAbstractPlottable::pixelsToCoords (double  {\i x}, double  {\i y}, double &  {\i key}, double &  {\i value}) const{\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAPN}
+{\bkmkend AAAAAAAAPN}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Convenience function for transforming a x/y pixel pair on the {\b QCustomPlot} surface to plot coordinates, taking the orientations of the axes associated with this plottable into account (e.g. whether key represents x or y).\par
+{\i x}  and {\i y}  are transformed to the plot coodinates and are written to {\i key}  and {\i value} .\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b coordsToPixels}, {\b QCPAxis::coordToPixel} \par
+}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 10945 \{\par
+10946   QCPAxis *keyAxis = mKeyAxis.data();\par
+10947   QCPAxis *valueAxis = mValueAxis.data();\par
+10948   if (!keyAxis || !valueAxis) \{ qDebug() << Q_FUNC_INFO << "invalid key or value axis"; return; \}\par
+10949   \par
+10950   if (keyAxis->orientation() == Qt::Horizontal)\par
+10951   \{\par
+10952     key = keyAxis->pixelToCoord(x);\par
+10953     value = valueAxis->pixelToCoord(y);\par
+10954   \} else\par
+10955   \{\par
+10956     key = keyAxis->pixelToCoord(y);\par
+10957     value = valueAxis->pixelToCoord(x);\par
+10958   \}\par
+10959 \}\par
+}
+}
+{\xe \v pixelsToCoords\:QCPErrorBars}
+{\xe \v QCPErrorBars\:pixelsToCoords}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPAbstractPlottable::pixelsToCoords (const QPointF &  {\i pixelPos}, double &  {\i key}, double &  {\i value}) const{\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAPO}
+{\bkmkend AAAAAAAAPO}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.\par
+Returns the pixel input {\i pixelPos}  as plot coordinates {\i key}  and {\i value} . \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 10966 \{\par
+10967   pixelsToCoords(pixelPos.x(), pixelPos.y(), key, value);\par
+10968 \}\par
+}
+}
+{\xe \v pointDistance\:QCPErrorBars}
+{\xe \v QCPErrorBars\:pointDistance}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+double QCPErrorBars::pointDistance (const QPointF &  {\i pixelPoint}, QCPErrorBarsDataContainer::const_iterator &  {\i closestData}) const{\f2 [protected]}}}
+\par
+{\bkmkstart AAAAAAACBP}
+{\bkmkend AAAAAAACBP}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 27859 \{\par
+27860   closestData = mDataContainer->constEnd();\par
+27861   if (!mDataPlottable || mDataContainer->isEmpty())\par
+27862     return -1.0;\par
+27863   if (!mKeyAxis || !mValueAxis)\par
+27864   \{\par
+27865     qDebug() << Q_FUNC_INFO << "invalid key or value axis";\par
+27866     return -1.0;\par
+27867   \}\par
+27868   \par
+27869   QCPErrorBarsDataContainer::const_iterator begin, end;\par
+27870   getVisibleDataBounds(begin, end, QCPDataRange(0, dataCount()));\par
+27871   \par
+27872   // calculate minimum distances to error backbones (whiskers are ignored for speed) and find closestData iterator:\par
+27873   double minDistSqr = std::numeric_limits<double>::max();\par
+27874   QVector<QLineF> backbones, whiskers;\par
+27875   for (QCPErrorBarsDataContainer::const_iterator it=begin; it!=end; ++it)\par
+27876   \{\par
+27877     getErrorBarLines(it, backbones, whiskers);\par
+27878     for (int i=0; i<backbones.size(); ++i)\par
+27879     \{\par
+27880       const double currentDistSqr = QCPVector2D(pixelPoint).distanceSquaredToLine(backbones.at(i));\par
+27881       if (currentDistSqr < minDistSqr)\par
+27882       \{\par
+27883         minDistSqr = currentDistSqr;\par
+27884         closestData = it;\par
+27885       \}\par
+27886     \}\par
+27887   \}\par
+27888   return qSqrt(minDistSqr);\par
+27889 \}\par
+}
+}
+{\xe \v realVisibility\:QCPErrorBars}
+{\xe \v QCPErrorBars\:realVisibility}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool QCPLayerable::realVisibility () const{\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAHF}
+{\bkmkend AAAAAAAAHF}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Returns whether this layerable is visible, taking the visibility of the layerable parent and the visibility of this layerable's layer into account. This is the method that is consulted to decide whether a layerable shall be drawn or not.\par
+If this layerable has a direct layerable parent (usually set via hierarchies implemented in subclasses, like in the case of {\b QCPLayoutElement}), this function returns true only if this layerable has its visibility set to true and the parent layerable's {\b realVisibility} returns true. \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1433 \{\par
+ 1434   return mVisible && (!mLayer || mLayer->visible()) && (!mParentLayerable || mParentLayerable.data()->realVisibility());\par
+ 1435 \}\par
+}
+}
+{\xe \v rectIntersectsLine\:QCPErrorBars}
+{\xe \v QCPErrorBars\:rectIntersectsLine}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool QCPErrorBars::rectIntersectsLine (const QRectF &  {\i pixelRect}, const QLineF &  {\i line}) const{\f2 [protected]}}}
+\par
+{\bkmkstart AAAAAAACBQ}
+{\bkmkend AAAAAAACBQ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 27957 \{\par
+27958   if (pixelRect.left() > line.x1() && pixelRect.left() > line.x2())\par
+27959     return false;\par
+27960   else if (pixelRect.right() < line.x1() && pixelRect.right() < line.x2())\par
+27961     return false;\par
+27962   else if (pixelRect.top() > line.y1() && pixelRect.top() > line.y2())\par
+27963     return false;\par
+27964   else if (pixelRect.bottom() < line.y1() && pixelRect.bottom() < line.y2())\par
+27965     return false;\par
+27966   else\par
+27967     return true;\par
+27968 \}\par
+}
+}
+{\xe \v removeFromLegend\:QCPErrorBars}
+{\xe \v QCPErrorBars\:removeFromLegend}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool QCPAbstractPlottable::removeFromLegend ({\b QCPLegend} *  {\i legend}) const{\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAPP}
+{\bkmkend AAAAAAAAPP}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.\par
+Removes the plottable from the specifed {\i legend} . This means the {\b QCPPlottableLegendItem} that is associated with this plottable is removed.\par
+Returns true on success, i.e. if the legend exists and a legend item associated with this plottable was found and removed.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b addToLegend}, {\b QCPLegend::removeItem} \par
+}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 11129 \{\par
+11130   if (!legend)\par
+11131   \{\par
+11132     qDebug() << Q_FUNC_INFO << "passed legend is null";\par
+11133     return false;\par
+11134   \}\par
+11135   \par
+11136   if (QCPPlottableLegendItem *lip = legend->itemWithPlottable(this))\par
+11137     return legend->removeItem(lip);\par
+11138   else\par
+11139     return false;\par
+11140 \}\par
+}
+}
+{\xe \v removeFromLegend\:QCPErrorBars}
+{\xe \v QCPErrorBars\:removeFromLegend}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool QCPAbstractPlottable::removeFromLegend () const{\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAPQ}
+{\bkmkend AAAAAAAAPQ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.\par
+Removes the plottable from the legend of the parent {\b QCustomPlot}.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b addToLegend} \par
+}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 11149 \{\par
+11150   if (!mParentPlot || !mParentPlot->legend)\par
+11151     return false;\par
+11152   else\par
+11153     return removeFromLegend(mParentPlot->legend);\par
+11154 \}\par
+}
+}
+{\xe \v rescaleAxes\:QCPErrorBars}
+{\xe \v QCPErrorBars\:rescaleAxes}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPAbstractPlottable::rescaleAxes (bool  {\i onlyEnlarge} = {\f2 false}) const{\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAPR}
+{\bkmkend AAAAAAAAPR}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Rescales the key and value axes associated with this plottable to contain all displayed data, so the whole plottable is visible. If the scaling of an axis is logarithmic, rescaleAxes will make sure not to rescale to an illegal range i.e. a range containing different signs and/or zero. Instead it will stay in the current sign domain and ignore all parts of the plottable that lie outside of that domain.\par
+{\i onlyEnlarge}  makes sure the ranges are only expanded, never reduced. So it's possible to show multiple plottables in their entirety by multiple calls to rescaleAxes where the first call has {\i onlyEnlarge}  set to false (the default), and all subsequent set to true.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b rescaleKeyAxis}, {\b rescaleValueAxis}, {\b QCustomPlot::rescaleAxes}, {\b QCPAxis::rescale} \par
+}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 10984 \{\par
+10985   rescaleKeyAxis(onlyEnlarge);\par
+10986   rescaleValueAxis(onlyEnlarge);\par
+10987 \}\par
+}
+}
+{\xe \v rescaleKeyAxis\:QCPErrorBars}
+{\xe \v QCPErrorBars\:rescaleKeyAxis}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPAbstractPlottable::rescaleKeyAxis (bool  {\i onlyEnlarge} = {\f2 false}) const{\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAPS}
+{\bkmkend AAAAAAAAPS}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Rescales the key axis of the plottable so the whole plottable is visible.\par
+See {\b rescaleAxes} for detailed behaviour. \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 10995 \{\par
+10996   QCPAxis *keyAxis = mKeyAxis.data();\par
+10997   if (!keyAxis) \{ qDebug() << Q_FUNC_INFO << "invalid key axis"; return; \}\par
+10998   \par
+10999   QCP::SignDomain signDomain = QCP::sdBoth;\par
+11000   if (keyAxis->scaleType() == QCPAxis::stLogarithmic)\par
+11001     signDomain = (keyAxis->range().upper < 0 ? QCP::sdNegative : QCP::sdPositive);\par
+11002   \par
+11003   bool foundRange;\par
+11004   QCPRange newRange = getKeyRange(foundRange, signDomain);\par
+11005   if (foundRange)\par
+11006   \{\par
+11007     if (onlyEnlarge)\par
+11008       newRange.expand(keyAxis->range());\par
+11009     if (!QCPRange::validRange(newRange)) // likely due to range being zero (plottable has only constant data in this axis dimension), shift current range to at least center the plottable\par
+11010     \{\par
+11011       double center = (newRange.lower+newRange.upper)*0.5; // upper and lower should be equal anyway, but just to make sure, incase validRange returned false for other reason\par
+11012       if (keyAxis->scaleType() == QCPAxis::stLinear)\par
+11013       \{\par
+11014         newRange.lower = center-keyAxis->range().size()/2.0;\par
+11015         newRange.upper = center+keyAxis->range().size()/2.0;\par
+11016       \} else // scaleType() == stLogarithmic\par
+11017       \{\par
+11018         newRange.lower = center/qSqrt(keyAxis->range().upper/keyAxis->range().lower);\par
+11019         newRange.upper = center*qSqrt(keyAxis->range().upper/keyAxis->range().lower);\par
+11020       \}\par
+11021     \}\par
+11022     keyAxis->setRange(newRange);\par
+11023   \}\par
+11024 \}\par
+}
+}
+{\xe \v rescaleValueAxis\:QCPErrorBars}
+{\xe \v QCPErrorBars\:rescaleValueAxis}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPAbstractPlottable::rescaleValueAxis (bool  {\i onlyEnlarge} = {\f2 false}, bool  {\i inKeyRange} = {\f2 false}) const{\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAPT}
+{\bkmkend AAAAAAAAPT}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Rescales the value axis of the plottable so the whole plottable is visible. If {\i inKeyRange}  is set to true, only the data points which are in the currently visible key axis range are considered.\par
+Returns true if the axis was actually scaled. This might not be the case if this plottable has an invalid range, e.g. because it has no data points.\par
+See {\b rescaleAxes} for detailed behaviour. \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 11037 \{\par
+11038   QCPAxis *keyAxis = mKeyAxis.data();\par
+11039   QCPAxis *valueAxis = mValueAxis.data();\par
+11040   if (!keyAxis || !valueAxis) \{ qDebug() << Q_FUNC_INFO << "invalid key or value axis"; return; \}\par
+11041   \par
+11042   QCP::SignDomain signDomain = QCP::sdBoth;\par
+11043   if (valueAxis->scaleType() == QCPAxis::stLogarithmic)\par
+11044     signDomain = (valueAxis->range().upper < 0 ? QCP::sdNegative : QCP::sdPositive);\par
+11045   \par
+11046   bool foundRange;\par
+11047   QCPRange newRange = getValueRange(foundRange, signDomain, inKeyRange ? keyAxis->range() : QCPRange());\par
+11048   if (foundRange)\par
+11049   \{\par
+11050     if (onlyEnlarge)\par
+11051       newRange.expand(valueAxis->range());\par
+11052     if (!QCPRange::validRange(newRange)) // likely due to range being zero (plottable has only constant data in this axis dimension), shift current range to at least center the plottable\par
+11053     \{\par
+11054       double center = (newRange.lower+newRange.upper)*0.5; // upper and lower should be equal anyway, but just to make sure, incase validRange returned false for other reason\par
+11055       if (valueAxis->scaleType() == QCPAxis::stLinear)\par
+11056       \{\par
+11057         newRange.lower = center-valueAxis->range().size()/2.0;\par
+11058         newRange.upper = center+valueAxis->range().size()/2.0;\par
+11059       \} else // scaleType() == stLogarithmic\par
+11060       \{\par
+11061         newRange.lower = center/qSqrt(valueAxis->range().upper/valueAxis->range().lower);\par
+11062         newRange.upper = center*qSqrt(valueAxis->range().upper/valueAxis->range().lower);\par
+11063       \}\par
+11064     \}\par
+11065     valueAxis->setRange(newRange);\par
+11066   \}\par
+11067 \}\par
+}
+}
+{\xe \v selectable\:QCPErrorBars}
+{\xe \v QCPErrorBars\:selectable}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b QCP::SelectionType} QCPAbstractPlottable::selectable () const{\f2 [inline]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAPU}
+{\bkmkend AAAAAAAAPU}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  3314 \{ return mSelectable; \}\par
+}
+}
+{\xe \v selectableChanged\:QCPErrorBars}
+{\xe \v QCPErrorBars\:selectableChanged}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPAbstractPlottable::selectableChanged ({\b QCP::SelectionType}  {\i selectable}){\f2 [signal]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAPV}
+{\bkmkend AAAAAAAAPV}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+This signal is emitted when the selectability of this plottable has changed.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b setSelectable} \par
+}}}
+{\xe \v selected\:QCPErrorBars}
+{\xe \v QCPErrorBars\:selected}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool QCPAbstractPlottable::selected () const{\f2 [inline]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAPW}
+{\bkmkend AAAAAAAAPW}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Returns true if there are any data points of the plottable currently selected. Use {\b selection} to retrieve the current {\b QCPDataSelection}. \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  3315 \{ return !mSelection.isEmpty(); \}\par
+}
+}
+{\xe \v selectEvent\:QCPErrorBars}
+{\xe \v QCPErrorBars\:selectEvent}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPAbstractPlottable::selectEvent (QMouseEvent *  {\i event}, bool  {\i additive}, const QVariant &  {\i details}, bool *  {\i selectionStateChanged}){\f2 [protected]}, {\f2 [virtual]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAPX}
+{\bkmkend AAAAAAAAPX}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Reimplementa {\b QCPLayerable} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAHL \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 11225 \{\par
+11226   Q_UNUSED(event)\par
+11227   \par
+11228   if (mSelectable != QCP::stNone)\par
+11229   \{\par
+11230     QCPDataSelection newSelection = details.value<QCPDataSelection>();\par
+11231     QCPDataSelection selectionBefore = mSelection;\par
+11232     if (additive)\par
+11233     \{\par
+11234       if (mSelectable == QCP::stWhole) // in whole selection mode, we toggle to no selection even if currently unselected point was hit\par
+11235       \{\par
+11236         if (selected())\par
+11237           setSelection(QCPDataSelection());\par
+11238         else\par
+11239           setSelection(newSelection);\par
+11240       \} else // in all other selection modes we toggle selections of homogeneously selected/unselected segments\par
+11241       \{\par
+11242         if (mSelection.contains(newSelection)) // if entire newSelection is already selected, toggle selection\par
+11243           setSelection(mSelection-newSelection);\par
+11244         else\par
+11245           setSelection(mSelection+newSelection);\par
+11246       \}\par
+11247     \} else\par
+11248       setSelection(newSelection);\par
+11249     if (selectionStateChanged)\par
+11250       *selectionStateChanged = mSelection != selectionBefore;\par
+11251   \}\par
+11252 \}\par
+}
+}
+{\xe \v selection\:QCPErrorBars}
+{\xe \v QCPErrorBars\:selection}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b QCPDataSelection} QCPAbstractPlottable::selection () const{\f2 [inline]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAPY}
+{\bkmkend AAAAAAAAPY}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Returns a {\b QCPDataSelection} encompassing all the data points that are currently selected on this plottable.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b selected}, {\b setSelection}, {\b setSelectable} \par
+}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  3316 \{ return mSelection; \}\par
+}
+}
+{\xe \v selectionCategory\:QCPErrorBars}
+{\xe \v QCPErrorBars\:selectionCategory}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b QCP::Interaction} QCPAbstractPlottable::selectionCategory () const{\f2 [protected]}, {\f2 [virtual]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAPZ}
+{\bkmkend AAAAAAAAPZ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Reimplementa {\b QCPLayerable} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAHN \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 11167 \{\par
+11168   return QCP::iSelectPlottables;\par
+11169 \}\par
+}
+}
+{\xe \v selectionChanged\:QCPErrorBars}
+{\xe \v QCPErrorBars\:selectionChanged}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPAbstractPlottable::selectionChanged (bool  {\i selected}){\f2 [signal]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAQA}
+{\bkmkend AAAAAAAAQA}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+This signal is emitted when the selection state of this plottable has changed, either by user interaction or by a direct call to {\b setSelection}. The parameter {\i selected}  indicates whether there are any points selected or not.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b selectionChanged(const QCPDataSelection &selection)} \par
+}}}
+{\xe \v selectionChanged\:QCPErrorBars}
+{\xe \v QCPErrorBars\:selectionChanged}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPAbstractPlottable::selectionChanged (const {\b QCPDataSelection} &  {\i selection}){\f2 [signal]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAQB}
+{\bkmkend AAAAAAAAQB}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+This signal is emitted when the selection state of this plottable has changed, either by user interaction or by a direct call to {\b setSelection}. The parameter {\i selection}  holds the currently selected data ranges.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b selectionChanged(bool selected)} \par
+}}}
+{\xe \v selectionDecorator\:QCPErrorBars}
+{\xe \v QCPErrorBars\:selectionDecorator}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b QCPSelectionDecorator} * QCPAbstractPlottable::selectionDecorator () const{\f2 [inline]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAQC}
+{\bkmkend AAAAAAAAQC}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Provides access to the selection decorator of this plottable. The selection decorator controls how selected data ranges are drawn (e.g. their pen color and fill), see {\b QCPSelectionDecorator} for details.\par
+If you wish to use an own {\b QCPSelectionDecorator} subclass, pass an instance of it to {\b setSelectionDecorator}. \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  3317 \{ return mSelectionDecorator; \}\par
+}
+}
+{\xe \v selectTest\:QCPErrorBars}
+{\xe \v QCPErrorBars\:selectTest}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+double QCPErrorBars::selectTest (const QPointF &  {\i pos}, bool  {\i onlySelectable}, QVariant *  {\i details} = {\f2 0}) const{\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAAAQE}
+{\bkmkend AAAAAAAAQE}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+This function is used to decide whether a click hits a layerable object or not.\par
+{\i pos}  is a point in pixel coordinates on the {\b QCustomPlot} surface. This function returns the shortest pixel distance of this point to the object. If the object is either invisible or the distance couldn't be determined, -1.0 is returned. Further, if {\i onlySelectable}  is true and the object is not selectable, -1.0 is returned, too.\par
+If the object is represented not by single lines but by an area like a {\b QCPItemText} or the bars of a {\b QCPBars} plottable, a click inside the area should also be considered a hit. In these cases this function thus returns a constant value greater zero but still below the parent plot's selection tolerance. (typically the selectionTolerance multiplied by 0.99).\par
+Providing a constant value for area objects allows selecting line objects even when they are obscured by such area objects, by clicking close to the lines (i.e. closer than 0.99*selectionTolerance).\par
+The actual setting of the selection state is not done by this function. This is handled by the parent {\b QCustomPlot} when the mouseReleaseEvent occurs, and the finally selected object is notified via the {\b selectEvent}/{\b deselectEvent} methods.\par
+{\i details}  is an optional output parameter. Every layerable subclass may place any information in {\i details} . This information will be passed to {\b selectEvent} when the parent {\b QCustomPlot} decides on the basis of this selectTest call, that the object was successfully selected. The subsequent call to {\b selectEvent} will carry the {\i details} . This is useful for multi-part objects (like {\b QCPAxis}). This way, a possibly complex calculation to decide which part was clicked is only done once in {\b selectTest}. The result (i.e. the actually clicked part) can then be placed in {\i details} . So in the subsequent {\b selectEvent}, the decision which part was selected doesn't have to be done a second time for a single selection operation.\par
+You may pass 0 as {\i details}  to indicate that you are not interested in those selection details.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b selectEvent}, {\b deselectEvent}, {\b mousePressEvent}, {\b wheelEvent}, {\b QCustomPlot::setInteractions} \par
+}}{
+Implementa {\b QCPAbstractPlottable} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAQD \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 27456 \{\par
+27457   if (!mDataPlottable) return -1;\par
+27458   \par
+27459   if ((onlySelectable && mSelectable == QCP::stNone) || mDataContainer->isEmpty())\par
+27460     return -1;\par
+27461   if (!mKeyAxis || !mValueAxis)\par
+27462     return -1;\par
+27463   \par
+27464   if (mKeyAxis.data()->axisRect()->rect().contains(pos.toPoint()))\par
+27465   \{\par
+27466     QCPErrorBarsDataContainer::const_iterator closestDataPoint = mDataContainer->constEnd();\par
+27467     double result = pointDistance(pos, closestDataPoint);\par
+27468     if (details)\par
+27469     \{\par
+27470       int pointIndex = closestDataPoint-mDataContainer->constBegin();\par
+27471       details->setValue(QCPDataSelection(QCPDataRange(pointIndex, pointIndex+1)));\par
+27472     \}\par
+27473     return result;\par
+27474   \} else\par
+27475     return -1;\par
+27476 \}\par
+}
+}
+{\xe \v selectTestRect\:QCPErrorBars}
+{\xe \v QCPErrorBars\:selectTestRect}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b QCPDataSelection} QCPErrorBars::selectTestRect (const QRectF &  {\i rect}, bool  {\i onlySelectable}) const{\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAACBR}
+{\bkmkend AAAAAAACBR}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+}}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Returns a data selection containing all the data points of this plottable which are contained (or hit by) {\i rect} . This is used mainly in the selection rect interaction for data selection (data selection mechanism).\par
+If {\i onlySelectable}  is true, an empty {\b QCPDataSelection} is returned if this plottable is not selectable (i.e. if {\b QCPAbstractPlottable::setSelectable} is {\b QCP::stNone}).\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Observação:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\i rect}  must be a normalized rect (positive or zero width and height). This is especially important when using the rect of {\b QCPSelectionRect::accepted}, which is not necessarily normalized. Use {\f2 QRect::normalized()}  when passing a rect which might not be normalized. \par
+}}{
+Implementa {\b QCPPlottableInterface1D} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAASH \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 27391 \{\par
+27392   QCPDataSelection result;\par
+27393   if (!mDataPlottable)\par
+27394     return result;\par
+27395   if ((onlySelectable && mSelectable == QCP::stNone) || mDataContainer->isEmpty())\par
+27396     return result;\par
+27397   if (!mKeyAxis || !mValueAxis)\par
+27398     return result;\par
+27399   \par
+27400   QCPErrorBarsDataContainer::const_iterator visibleBegin, visibleEnd;\par
+27401   getVisibleDataBounds(visibleBegin, visibleEnd, QCPDataRange(0, dataCount()));\par
+27402   \par
+27403   QVector<QLineF> backbones, whiskers;\par
+27404   for (QCPErrorBarsDataContainer::const_iterator it=visibleBegin; it!=visibleEnd; ++it)\par
+27405   \{\par
+27406     backbones.clear();\par
+27407     whiskers.clear();\par
+27408     getErrorBarLines(it, backbones, whiskers);\par
+27409     for (int i=0; i<backbones.size(); ++i)\par
+27410     \{\par
+27411       if (rectIntersectsLine(rect, backbones.at(i)))\par
+27412       \{\par
+27413         result.addDataRange(QCPDataRange(it-mDataContainer->constBegin(), it-mDataContainer->constBegin()+1), false);\par
+27414         break;\par
+27415       \}\par
+27416     \}\par
+27417   \}\par
+27418   result.simplify();\par
+27419   return result;\par
+27420 \}\par
+}
+}
+{\xe \v setAntialiased\:QCPErrorBars}
+{\xe \v QCPErrorBars\:setAntialiased}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPLayerable::setAntialiased (bool  {\i enabled}){\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAIA}
+{\bkmkend AAAAAAAAIA}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Sets whether this object will be drawn antialiased or not.\par
+Note that antialiasing settings may be overridden by {\b QCustomPlot::setAntialiasedElements} and {\b QCustomPlot::setNotAntialiasedElements}. \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1418 \{\par
+ 1419   mAntialiased = enabled;\par
+ 1420 \}\par
+}
+}
+{\xe \v setAntialiasedFill\:QCPErrorBars}
+{\xe \v QCPErrorBars\:setAntialiasedFill}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPAbstractPlottable::setAntialiasedFill (bool  {\i enabled}){\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAQM}
+{\bkmkend AAAAAAAAQM}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Sets whether fills of this plottable are drawn antialiased or not.\par
+Note that this setting may be overridden by {\b QCustomPlot::setAntialiasedElements} and {\b QCustomPlot::setNotAntialiasedElements}. \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 10736 \{\par
+10737   mAntialiasedFill = enabled;\par
+10738 \}\par
+}
+}
+{\xe \v setAntialiasedScatters\:QCPErrorBars}
+{\xe \v QCPErrorBars\:setAntialiasedScatters}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPAbstractPlottable::setAntialiasedScatters (bool  {\i enabled}){\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAQN}
+{\bkmkend AAAAAAAAQN}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Sets whether the scatter symbols of this plottable are drawn antialiased or not.\par
+Note that this setting may be overridden by {\b QCustomPlot::setAntialiasedElements} and {\b QCustomPlot::setNotAntialiasedElements}. \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 10747 \{\par
+10748   mAntialiasedScatters = enabled;\par
+10749 \}\par
+}
+}
+{\xe \v setBrush\:QCPErrorBars}
+{\xe \v QCPErrorBars\:setBrush}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPAbstractPlottable::setBrush (const QBrush &  {\i brush}){\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAQO}
+{\bkmkend AAAAAAAAQO}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+The brush is used to draw basic fills of the plottable representation in the plot. The Fill can be a color, gradient or texture, see the usage of QBrush.\par
+For example, the {\b QCPGraph} subclass draws the fill under the graph with this brush, when it's not set to Qt::NoBrush.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b setPen} \par
+}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 10774 \{\par
+10775   mBrush = brush;\par
+10776 \}\par
+}
+}
+{\xe \v setData\:QCPErrorBars}
+{\xe \v QCPErrorBars\:setData}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPErrorBars::setData (QSharedPointer< {\b QCPErrorBarsDataContainer} >  {\i data})}}
+\par
+{\bkmkstart AAAAAAACBS}
+{\bkmkend AAAAAAACBS}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.\par
+Replaces the current data container with the provided {\i data}  container.\par
+Since a QSharedPointer is used, multiple {\b QCPErrorBars} instances may share the same data container safely. Modifying the data in the container will then affect all {\b QCPErrorBars} instances that share the container. Sharing can be achieved by simply exchanging the data containers wrapped in shared pointers: {
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid } If you do not wish to share containers, but create a copy from an existing container, assign the data containers directly: {
+\par
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid }(This uses different notation compared with other plottables, because the {\b QCPErrorBars} uses a {\f2 QVector<QCPErrorBarsData>}  as its data container, instead of a {\b QCPDataContainer}.)\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b addData} \par
+}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 27153 \{\par
+27154   mDataContainer = data;\par
+27155 \}\par
+}
+}
+{\xe \v setData\:QCPErrorBars}
+{\xe \v QCPErrorBars\:setData}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPErrorBars::setData (const QVector< double > &  {\i error})}}
+\par
+{\bkmkstart AAAAAAACBT}
+{\bkmkend AAAAAAACBT}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.\par
+Sets symmetrical error values as specified in {\i error} . The errors will be associated one-to-one by the data point index to the associated data plottable ({\b setDataPlottable}).\par
+You can directly access and manipulate the error bar data via {\b data}.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b addData} \par
+}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 27167 \{\par
+27168   mDataContainer->clear();\par
+27169   addData(error);\par
+27170 \}\par
+}
+}
+{\xe \v setData\:QCPErrorBars}
+{\xe \v QCPErrorBars\:setData}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPErrorBars::setData (const QVector< double > &  {\i errorMinus}, const QVector< double > &  {\i errorPlus})}}
+\par
+{\bkmkstart AAAAAAACBU}
+{\bkmkend AAAAAAACBU}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.\par
+Sets asymmetrical errors as specified in {\i errorMinus}  and {\i errorPlus} . The errors will be associated one-to-one by the data point index to the associated data plottable ({\b setDataPlottable}).\par
+You can directly access and manipulate the error bar data via {\b data}.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b addData} \par
+}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 27183 \{\par
+27184   mDataContainer->clear();\par
+27185   addData(errorMinus, errorPlus);\par
+27186 \}\par
+}
+}
+{\xe \v setDataPlottable\:QCPErrorBars}
+{\xe \v QCPErrorBars\:setDataPlottable}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPErrorBars::setDataPlottable ({\b QCPAbstractPlottable} *  {\i plottable})}}
+\par
+{\bkmkstart AAAAAAACBV}
+{\bkmkend AAAAAAACBV}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Sets the data plottable to which the error bars will be applied. The error values specified e.g. via {\b setData} will be associated one-to-one by the data point index to the data points of {\i plottable} . This means that the error bars will adopt the key/value coordinates of the data point with the same index.\par
+The passed {\i plottable}  must be a one-dimensional plottable, i.e. it must implement the {\b QCPPlottableInterface1D}. Further, it must not be a {\b QCPErrorBars} instance itself. If either of these restrictions is violated, a corresponding qDebug output is generated, and the data plottable of this {\b QCPErrorBars} instance is set to zero.\par
+For proper display, care must also be taken that the key and value axes of the {\i plottable}  match those configured for this {\b QCPErrorBars} instance. \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 27203 \{\par
+27204   if (plottable && qobject_cast<QCPErrorBars*>(plottable))\par
+27205   \{\par
+27206     mDataPlottable = 0;\par
+27207     qDebug() << Q_FUNC_INFO << "can't set another QCPErrorBars instance as data plottable";\par
+27208     return;\par
+27209   \}\par
+27210   if (plottable && !plottable->interface1D())\par
+27211   \{\par
+27212     mDataPlottable = 0;\par
+27213     qDebug() << Q_FUNC_INFO << "passed plottable doesn't implement 1d interface, can't associate with QCPErrorBars";\par
+27214     return;\par
+27215   \}\par
+27216   \par
+27217   mDataPlottable = plottable;\par
+27218 \}\par
+}
+}
+{\xe \v setErrorType\:QCPErrorBars}
+{\xe \v QCPErrorBars\:setErrorType}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPErrorBars::setErrorType ({\b ErrorType}  {\i type})}}
+\par
+{\bkmkstart AAAAAAACBW}
+{\bkmkend AAAAAAACBW}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Sets in which orientation the error bars shall appear on the data points. If your data needs both error dimensions, create two {\b QCPErrorBars} with different {\i type} . \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 27225 \{\par
+27226   mErrorType = type;\par
+27227 \}\par
+}
+}
+{\xe \v setKeyAxis\:QCPErrorBars}
+{\xe \v QCPErrorBars\:setKeyAxis}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPAbstractPlottable::setKeyAxis ({\b QCPAxis} *  {\i axis}){\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAQP}
+{\bkmkend AAAAAAAAQP}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+The key axis of a plottable can be set to any axis of a {\b QCustomPlot}, as long as it is orthogonal to the plottable's value axis. This function performs no checks to make sure this is the case. The typical mathematical choice is to use the x-axis ({\b QCustomPlot::xAxis}) as key axis and the y-axis ({\b QCustomPlot::yAxis}) as value axis.\par
+Normally, the key and value axes are set in the constructor of the plottable (or {\b QCustomPlot::addGraph} when working with QCPGraphs through the dedicated graph interface).\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b setValueAxis} \par
+}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 10790 \{\par
+10791   mKeyAxis = axis;\par
+10792 \}\par
+}
+}
+{\xe \v setLayer\:QCPErrorBars}
+{\xe \v QCPErrorBars\:setLayer}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool QCPLayerable::setLayer ({\b QCPLayer} *  {\i layer}){\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAID}
+{\bkmkend AAAAAAAAID}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Sets the {\i layer}  of this layerable object. The object will be placed on top of the other objects already on {\i layer} .\par
+If {\i layer}  is 0, this layerable will not be on any layer and thus not appear in the plot (or interact/receive events).\par
+Returns true if the layer of this layerable was successfully changed to {\i layer} . \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1385 \{\par
+ 1386   return moveToLayer(layer, false);\par
+ 1387 \}\par
+}
+}
+{\xe \v setLayer\:QCPErrorBars}
+{\xe \v QCPErrorBars\:setLayer}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool QCPLayerable::setLayer (const QString &  {\i layerName}){\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAIE}
+{\bkmkend AAAAAAAAIE}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados. Sets the layer of this layerable object by name\par
+Returns true on success, i.e. if {\i layerName}  is a valid layer name. \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1395 \{\par
+ 1396   if (!mParentPlot)\par
+ 1397   \{\par
+ 1398     qDebug() << Q_FUNC_INFO << "no parent QCustomPlot set";\par
+ 1399     return false;\par
+ 1400   \}\par
+ 1401   if (QCPLayer *layer = mParentPlot->layer(layerName))\par
+ 1402   \{\par
+ 1403     return setLayer(layer);\par
+ 1404   \} else\par
+ 1405   \{\par
+ 1406     qDebug() << Q_FUNC_INFO << "there is no layer with name" << layerName;\par
+ 1407     return false;\par
+ 1408   \}\par
+ 1409 \}\par
+}
+}
+{\xe \v setName\:QCPErrorBars}
+{\xe \v QCPErrorBars\:setName}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPAbstractPlottable::setName (const QString &  {\i name}){\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAQQ}
+{\bkmkend AAAAAAAAQQ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+The name is the textual representation of this plottable as it is displayed in the legend ({\b QCPLegend}). It may contain any UTF-8 characters, including newlines. \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 10725 \{\par
+10726   mName = name;\par
+10727 \}\par
+}
+}
+{\xe \v setParentLayerable\:QCPErrorBars}
+{\xe \v QCPErrorBars\:setParentLayerable}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPLayerable::setParentLayerable ({\b QCPLayerable} *  {\i parentLayerable}){\f2 [protected]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAIF}
+{\bkmkend AAAAAAAAIF}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1523 \{\par
+ 1524   mParentLayerable = parentLayerable;\par
+ 1525 \}\par
+}
+}
+{\xe \v setPen\:QCPErrorBars}
+{\xe \v QCPErrorBars\:setPen}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPAbstractPlottable::setPen (const QPen &  {\i pen}){\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAQR}
+{\bkmkend AAAAAAAAQR}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+The pen is used to draw basic lines that make up the plottable representation in the plot.\par
+For example, the {\b QCPGraph} subclass draws its graph lines with this pen.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b setBrush} \par
+}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 10760 \{\par
+10761   mPen = pen;\par
+10762 \}\par
+}
+}
+{\xe \v setSelectable\:QCPErrorBars}
+{\xe \v QCPErrorBars\:setSelectable}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPAbstractPlottable::setSelectable ({\b QCP::SelectionType}  {\i selectable}){\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAQS}
+{\bkmkend AAAAAAAAQS}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Sets whether and to which granularity this plottable can be selected.\par
+A selection can happen by clicking on the {\b QCustomPlot} surface (When {\b QCustomPlot::setInteractions} contains {\b QCP::iSelectPlottables}), by dragging a selection rect (When {\b QCustomPlot::setSelectionRectMode} is {\b QCP::srmSelect}), or programmatically by calling {\b setSelection}.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b setSelection}, {\b QCP::SelectionType} \par
+}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 10877 \{\par
+10878   if (mSelectable != selectable)\par
+10879   \{\par
+10880     mSelectable = selectable;\par
+10881     QCPDataSelection oldSelection = mSelection;\par
+10882     mSelection.enforceType(mSelectable);\par
+10883     emit selectableChanged(mSelectable);\par
+10884     if (mSelection != oldSelection)\par
+10885     \{\par
+10886       emit selectionChanged(selected());\par
+10887       emit selectionChanged(mSelection);\par
+10888     \}\par
+10889   \}\par
+10890 \}\par
+}
+}
+{\xe \v setSelection\:QCPErrorBars}
+{\xe \v QCPErrorBars\:setSelection}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPAbstractPlottable::setSelection ({\b QCPDataSelection}  {\i selection}){\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAQT}
+{\bkmkend AAAAAAAAQT}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Sets which data ranges of this plottable are selected. Selected data ranges are drawn differently (e.g. color) in the plot. This can be controlled via the selection decorator (see {\b selectionDecorator}).\par
+The entire selection mechanism for plottables is handled automatically when {\b QCustomPlot::setInteractions} contains iSelectPlottables. You only need to call this function when you wish to change the selection state programmatically.\par
+Using {\b setSelectable} you can further specify for each plottable whether and to which granularity it is selectable. If {\i selection}  is not compatible with the current {\b QCP::SelectionType} set via {\b setSelectable}, the resulting selection will be adjusted accordingly (see {\b QCPDataSelection::enforceType}).\par
+emits the {\b selectionChanged} signal when {\i selected}  is different from the previous selection state.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b setSelectable}, {\b selectTest} \par
+}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 10830 \{\par
+10831   selection.enforceType(mSelectable);\par
+10832   if (mSelection != selection)\par
+10833   \{\par
+10834     mSelection = selection;\par
+10835     emit selectionChanged(selected());\par
+10836     emit selectionChanged(mSelection);\par
+10837   \}\par
+10838 \}\par
+}
+}
+{\xe \v setSelectionDecorator\:QCPErrorBars}
+{\xe \v QCPErrorBars\:setSelectionDecorator}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPAbstractPlottable::setSelectionDecorator ({\b QCPSelectionDecorator} *  {\i decorator}){\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAQU}
+{\bkmkend AAAAAAAAQU}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Use this method to set an own {\b QCPSelectionDecorator} (subclass) instance. This allows you to customize the visual representation of selected data ranges further than by using the default {\b QCPSelectionDecorator}.\par
+The plottable takes ownership of the {\i decorator} .\par
+The currently set decorator can be accessed via {\b selectionDecorator}. \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 10850 \{\par
+10851   if (decorator)\par
+10852   \{\par
+10853     if (decorator->registerWithPlottable(this))\par
+10854     \{\par
+10855       if (mSelectionDecorator) // delete old decorator if necessary\par
+10856         delete mSelectionDecorator;\par
+10857       mSelectionDecorator = decorator;\par
+10858     \}\par
+10859   \} else if (mSelectionDecorator) // just clear decorator\par
+10860   \{\par
+10861     delete mSelectionDecorator;\par
+10862     mSelectionDecorator = 0;\par
+10863   \}\par
+10864 \}\par
+}
+}
+{\xe \v setSymbolGap\:QCPErrorBars}
+{\xe \v QCPErrorBars\:setSymbolGap}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPErrorBars::setSymbolGap (double  {\i pixels})}}
+\par
+{\bkmkstart AAAAAAACBX}
+{\bkmkend AAAAAAACBX}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Sets the gap diameter around the data points that will be left out when drawing the error bar backbones. This gap prevents that error bars are drawn too close to or even through scatter points. \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 27244 \{\par
+27245   mSymbolGap = pixels;\par
+27246 \}\par
+}
+}
+{\xe \v setValueAxis\:QCPErrorBars}
+{\xe \v QCPErrorBars\:setValueAxis}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPAbstractPlottable::setValueAxis ({\b QCPAxis} *  {\i axis}){\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAQV}
+{\bkmkend AAAAAAAAQV}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+The value axis of a plottable can be set to any axis of a {\b QCustomPlot}, as long as it is orthogonal to the plottable's key axis. This function performs no checks to make sure this is the case. The typical mathematical choice is to use the x-axis ({\b QCustomPlot::xAxis}) as key axis and the y-axis ({\b QCustomPlot::yAxis}) as value axis.\par
+Normally, the key and value axes are set in the constructor of the plottable (or {\b QCustomPlot::addGraph} when working with QCPGraphs through the dedicated graph interface).\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b setKeyAxis} \par
+}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 10806 \{\par
+10807   mValueAxis = axis;\par
+10808 \}\par
+}
+}
+{\xe \v setVisible\:QCPErrorBars}
+{\xe \v QCPErrorBars\:setVisible}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPLayerable::setVisible (bool  {\i on}){\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAII}
+{\bkmkend AAAAAAAAII}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Sets the visibility of this layerable object. If an object is not visible, it will not be drawn on the {\b QCustomPlot} surface, and user interaction with it (e.g. click and selection) is not possible. \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1371 \{\par
+ 1372   mVisible = on;\par
+ 1373 \}\par
+}
+}
+{\xe \v setWhiskerWidth\:QCPErrorBars}
+{\xe \v QCPErrorBars\:setWhiskerWidth}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPErrorBars::setWhiskerWidth (double  {\i pixels})}}
+\par
+{\bkmkstart AAAAAAACBY}
+{\bkmkend AAAAAAACBY}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Sets the width of the whiskers (the short bars at the end of the actual error bar backbones) to {\i pixels} . \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 27234 \{\par
+27235   mWhiskerWidth = pixels;\par
+27236 \}\par
+}
+}
+{\xe \v sortKeyIsMainKey\:QCPErrorBars}
+{\xe \v QCPErrorBars\:sortKeyIsMainKey}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool QCPErrorBars::sortKeyIsMainKey () const{\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAACBZ}
+{\bkmkend AAAAAAACBZ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Returns whether the sort key ({\b dataSortKey}) is identical to the main key ({\b dataMainKey}).\par
+What the sort and main keys are, is defined by the plottable's data type. See the {\b QCPDataContainer DataType} documentation for details about this naming convention. \par
+}{
+Implementa {\b QCPPlottableInterface1D} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAASM \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 27376 \{\par
+27377   if (mDataPlottable)\par
+27378   \{\par
+27379     return mDataPlottable->interface1D()->sortKeyIsMainKey();\par
+27380   \} else\par
+27381   \{\par
+27382     qDebug() << Q_FUNC_INFO << "no data plottable set";\par
+27383     return true;\par
+27384   \}\par
+27385 \}\par
+}
+}
+{\xe \v symbolGap\:QCPErrorBars}
+{\xe \v QCPErrorBars\:symbolGap}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+double QCPErrorBars::symbolGap () const{\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAACCA}
+{\bkmkend AAAAAAACCA}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  6014 \{ return mSymbolGap; \}\par
+}
+}
+{\xe \v valueAxis\:QCPErrorBars}
+{\xe \v QCPErrorBars\:valueAxis}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b QCPAxis}* QCPAbstractPlottable::valueAxis () const{\f2 [inline]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAQW}
+{\bkmkend AAAAAAAAQW}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  3313 \{ return mValueAxis.data(); \}\par
+}
+}
+{\xe \v visible\:QCPErrorBars}
+{\xe \v QCPErrorBars\:visible}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool QCPLayerable::visible () const{\f2 [inline]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAIJ}
+{\bkmkend AAAAAAAAIJ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid   707 \{ return mVisible; \}\par
+}
+}
+{\xe \v wheelEvent\:QCPErrorBars}
+{\xe \v QCPErrorBars\:wheelEvent}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPLayerable::wheelEvent (QWheelEvent *  {\i event}){\f2 [protected]}, {\f2 [virtual]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAIK}
+{\bkmkend AAAAAAAAIK}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+This event gets called when the user turns the mouse scroll wheel while the cursor is over the layerable. Whether a cursor is over the layerable is decided by a preceding call to {\b selectTest}.\par
+The current pixel position of the cursor on the {\b QCustomPlot} widget is accessible via {\f2 event->pos()} .\par
+The {\f2 event->delta()}  indicates how far the mouse wheel was turned, which is usually +/- 120 for single rotation steps. However, if the mouse wheel is turned rapidly, multiple steps may accumulate to one event, making {\f2 event->delta()}  larger. On the other hand, if the wheel has very smooth steps or none at all, the delta may be smaller.\par
+The default implementation does nothing.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b mousePressEvent}, {\b mouseMoveEvent}, {\b mouseReleaseEvent}, {\b mouseDoubleClickEvent} \par
+}}{
+Reimplementado por {\b QCPColorScale} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAIL \\*MERGEFORMAT}{\fldrslt pagenum}}}), {\b QCPAxisRect} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAIM \\*MERGEFORMAT}{\fldrslt pagenum}}}) e {\b QCPAxis} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAIN \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1800 \{\par
+ 1801   event->ignore();\par
+ 1802 \}\par
+}
+}
+{\xe \v whiskerWidth\:QCPErrorBars}
+{\xe \v QCPErrorBars\:whiskerWidth}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+double QCPErrorBars::whiskerWidth () const{\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAACCB}
+{\bkmkend AAAAAAACCB}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  6013 \{ return mWhiskerWidth; \}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Amigas e Funções Relacionadas\par
+\pard\plain 
+{\xe \v QCPLegend\:QCPErrorBars}
+{\xe \v QCPErrorBars\:QCPLegend}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+friend class {\b QCPLegend}{\f2 [friend]}}}
+\par
+{\bkmkstart AAAAAAACCC}
+{\bkmkend AAAAAAACCC}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v QCustomPlot\:QCPErrorBars}
+{\xe \v QCPErrorBars\:QCustomPlot}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+friend class {\b QCustomPlot}{\f2 [friend]}}}
+\par
+{\bkmkstart AAAAAAACCD}
+{\bkmkend AAAAAAACCD}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Atributos\par
+\pard\plain 
+{\xe \v mAntialiased\:QCPErrorBars}
+{\xe \v QCPErrorBars\:mAntialiased}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool QCPLayerable::mAntialiased{\f2 [protected]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAIR}
+{\bkmkend AAAAAAAAIR}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v mAntialiasedFill\:QCPErrorBars}
+{\xe \v QCPErrorBars\:mAntialiasedFill}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool QCPAbstractPlottable::mAntialiasedFill{\f2 [protected]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAARA}
+{\bkmkend AAAAAAAARA}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v mAntialiasedScatters\:QCPErrorBars}
+{\xe \v QCPErrorBars\:mAntialiasedScatters}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool QCPAbstractPlottable::mAntialiasedScatters{\f2 [protected]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAARB}
+{\bkmkend AAAAAAAARB}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v mBrush\:QCPErrorBars}
+{\xe \v QCPErrorBars\:mBrush}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QBrush QCPAbstractPlottable::mBrush{\f2 [protected]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAARC}
+{\bkmkend AAAAAAAARC}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v mDataContainer\:QCPErrorBars}
+{\xe \v QCPErrorBars\:mDataContainer}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QSharedPointer<{\b QCPErrorBarsDataContainer}> QCPErrorBars::mDataContainer{\f2 [protected]}}}
+\par
+{\bkmkstart AAAAAAACCE}
+{\bkmkend AAAAAAACCE}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v mDataPlottable\:QCPErrorBars}
+{\xe \v QCPErrorBars\:mDataPlottable}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QPointer<{\b QCPAbstractPlottable}> QCPErrorBars::mDataPlottable{\f2 [protected]}}}
+\par
+{\bkmkstart AAAAAAACCF}
+{\bkmkend AAAAAAACCF}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v mErrorType\:QCPErrorBars}
+{\xe \v QCPErrorBars\:mErrorType}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b ErrorType} QCPErrorBars::mErrorType{\f2 [protected]}}}
+\par
+{\bkmkstart AAAAAAACCG}
+{\bkmkend AAAAAAACCG}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v mKeyAxis\:QCPErrorBars}
+{\xe \v QCPErrorBars\:mKeyAxis}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QPointer<{\b QCPAxis}> QCPAbstractPlottable::mKeyAxis{\f2 [protected]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAARD}
+{\bkmkend AAAAAAAARD}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v mLayer\:QCPErrorBars}
+{\xe \v QCPErrorBars\:mLayer}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b QCPLayer}* QCPLayerable::mLayer{\f2 [protected]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAIU}
+{\bkmkend AAAAAAAAIU}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v mName\:QCPErrorBars}
+{\xe \v QCPErrorBars\:mName}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QString QCPAbstractPlottable::mName{\f2 [protected]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAARE}
+{\bkmkend AAAAAAAARE}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v mParentLayerable\:QCPErrorBars}
+{\xe \v QCPErrorBars\:mParentLayerable}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QPointer<{\b QCPLayerable}> QCPLayerable::mParentLayerable{\f2 [protected]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAIV}
+{\bkmkend AAAAAAAAIV}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v mParentPlot\:QCPErrorBars}
+{\xe \v QCPErrorBars\:mParentPlot}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b QCustomPlot}* QCPLayerable::mParentPlot{\f2 [protected]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAIW}
+{\bkmkend AAAAAAAAIW}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v mPen\:QCPErrorBars}
+{\xe \v QCPErrorBars\:mPen}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QPen QCPAbstractPlottable::mPen{\f2 [protected]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAARF}
+{\bkmkend AAAAAAAARF}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v mSelectable\:QCPErrorBars}
+{\xe \v QCPErrorBars\:mSelectable}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b QCP::SelectionType} QCPAbstractPlottable::mSelectable{\f2 [protected]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAARG}
+{\bkmkend AAAAAAAARG}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v mSelection\:QCPErrorBars}
+{\xe \v QCPErrorBars\:mSelection}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b QCPDataSelection} QCPAbstractPlottable::mSelection{\f2 [protected]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAARH}
+{\bkmkend AAAAAAAARH}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v mSelectionDecorator\:QCPErrorBars}
+{\xe \v QCPErrorBars\:mSelectionDecorator}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b QCPSelectionDecorator}* QCPAbstractPlottable::mSelectionDecorator{\f2 [protected]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAARI}
+{\bkmkend AAAAAAAARI}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v mSymbolGap\:QCPErrorBars}
+{\xe \v QCPErrorBars\:mSymbolGap}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+double QCPErrorBars::mSymbolGap{\f2 [protected]}}}
+\par
+{\bkmkstart AAAAAAACCH}
+{\bkmkend AAAAAAACCH}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v mValueAxis\:QCPErrorBars}
+{\xe \v QCPErrorBars\:mValueAxis}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QPointer<{\b QCPAxis}> QCPAbstractPlottable::mValueAxis{\f2 [protected]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAARJ}
+{\bkmkend AAAAAAAARJ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v mVisible\:QCPErrorBars}
+{\xe \v QCPErrorBars\:mVisible}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool QCPLayerable::mVisible{\f2 [protected]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAJA}
+{\bkmkend AAAAAAAAJA}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v mWhiskerWidth\:QCPErrorBars}
+{\xe \v QCPErrorBars\:mWhiskerWidth}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+double QCPErrorBars::mWhiskerWidth{\f2 [protected]}}}
+\par
+{\bkmkstart AAAAAAACCI}
+{\bkmkend AAAAAAACCI}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+A documentação para essa classe foi gerada a partir dos seguintes arquivos:{\par
+\pard\plain \s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid 
+{\b qcustomplot.h}\par
+\pard\plain \s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid 
+{\b qcustomplot.cpp}\par
+}}

@@ -27,7 +27,7 @@
     </figure>
 </para>
         <section>
-            <title>Public Attributes</title>
+            <title>Atributos Públicos</title>
             <para>
                 <itemizedlist>
                     <listitem>
@@ -100,6 +100,6 @@
             </para>
         </section>
         <section>
-            <title>Member Data Documentation</title>
+            <title>Atributos</title>
         </section>
 </section>

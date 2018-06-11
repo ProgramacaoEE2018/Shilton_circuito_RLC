@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['cachedlabel',['CachedLabel',['../struct_q_c_p_axis_painter_private_1_1_cached_label.html',1,'QCPAxisPainterPrivate']]],
-  ['capacitor',['Capacitor',['../class_capacitor.html',1,'']]]
+  ['cachedlabel',['CachedLabel',['../structQCPAxisPainterPrivate_1_1CachedLabel.html',1,'QCPAxisPainterPrivate']]],
+  ['capacitor',['Capacitor',['../classCapacitor.html',1,'']]]
 ];

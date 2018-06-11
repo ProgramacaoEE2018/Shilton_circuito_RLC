@@ -27,7 +27,7 @@
     </figure>
 </para>
         <section>
-            <title>Private Attributes</title>
+            <title>Atributos Privados</title>
             <para>
                 <itemizedlist>
                     <listitem>
@@ -56,7 +56,7 @@ complex&lt; double &gt; corrente, complex&lt; double &gt; impedance)</para>
             </para>
         </section>
         <section>
-            <title>Member Data Documentation</title>
+            <title>Atributos</title>
         </section>
             <section xml:id="class_tensao_1a7bc4c08aa28bfa2190c3acdf574cdced">
                 <title>Tensao::Tensao (complex&lt; double &gt; corrente, complex&lt; double &gt; impedance)</title> <emphasis></emphasis>

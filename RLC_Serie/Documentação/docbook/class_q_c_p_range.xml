@@ -27,7 +27,7 @@
     </figure>
 </para>
         <section>
-            <title>Public Attributes</title>
+            <title>Atributos Públicos</title>
             <para>
                 <itemizedlist>
                     <listitem>
@@ -289,11 +289,11 @@ QDebug d, const <link linkend="class_q_c_p_range">QCPRange</link> &amp; range)</
 <para>Represents the range an axis is encompassing. </para>
     </simplesect>
         <simplesect>
-            <title>Detailed Description</title>
+            <title>Descrição detalhada</title>
 
 <para>contains a <emphasis>lower</emphasis> and <emphasis>upper</emphasis> double value and provides convenience input, output and modification functions.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_c_p_axis_1aebdfea5d44c3a0ad2b4700cd4d25b641">QCPAxis::setRange</link> </para>
 </formalpara>
@@ -303,17 +303,17 @@ QDebug d, const <link linkend="class_q_c_p_range">QCPRange</link> &amp; range)</
                 <para><itemizedlist><listitem><para>qcustomplot.h</para></listitem></itemizedlist></para>
         </simplesect>
         <section>
-            <title>Member Data Documentation</title>
+            <title>Atributos</title>
         </section>
             <simplesect>
                 <title>const double QCPRange::minRange</title>                
 <para>Minimum range size (<emphasis>upper</emphasis> - <emphasis>lower</emphasis>) the range changing functions will accept. Smaller intervals would cause errors due to the 11-bit exponent of double precision numbers, corresponding to a minimum magnitude of roughly 1e-308.</para>
 
-<para><formalpara><title>Warning: </title>
+<para><formalpara><title>Aviso: </title>
 
 <para>Do not use this constant to indicate &quot;arbitrarily small&quot; values in plotting logic (as values that will appear in the plot)! It is intended only as a bound to compare against, e.g. to prevent axis ranges from obtaining underflowing ranges.</para>
 </formalpara>
-<formalpara><title>See also: </title>
+<formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_c_p_range_1ab38bd4841c77c7bb86c9eea0f142dcc0">validRange</link>, <link linkend="class_q_c_p_range_1a5ca51e7a2dc5dc0d49527ab171fe1f4f">maxRange</link> </para>
 </formalpara>
@@ -327,11 +327,11 @@ QDebug d, const <link linkend="class_q_c_p_range">QCPRange</link> &amp; range)</
                 <title>const double QCPRange::maxRange</title>                
 <para>Maximum values (negative and positive) the range will accept in range-changing functions. Larger absolute values would cause errors due to the 11-bit exponent of double precision numbers, corresponding to a maximum magnitude of roughly 1e308.</para>
 
-<para><formalpara><title>Warning: </title>
+<para><formalpara><title>Aviso: </title>
 
 <para>Do not use this constant to indicate &quot;arbitrarily large&quot; values in plotting logic (as values that will appear in the plot)! It is intended only as a bound to compare against, e.g. to prevent axis ranges from obtaining overflowing ranges.</para>
 </formalpara>
-<formalpara><title>See also: </title>
+<formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_c_p_range_1ab38bd4841c77c7bb86c9eea0f142dcc0">validRange</link>, <link linkend="class_q_c_p_range_1ab46d3bc95030ee25efda41b89e2b616b">minRange</link> </para>
 </formalpara>
@@ -350,7 +350,7 @@ QDebug d, const <link linkend="class_q_c_p_range">QCPRange</link> &amp; range)</
             <section xml:id="class_q_c_p_range_1a1d9d84d084c8f368fdedd42e0978d405">
                 <title>QCPRange::QCPRange (double lower, double upper)</title> <emphasis></emphasis>
                 
-<para>This is an overloaded member function, provided for convenience. It differs from the above function only in what argument(s) it accepts.</para>
+<para>Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.</para>
 
 <para>Constructs a range with the specified <emphasis>lower</emphasis> and <emphasis>upper</emphasis> values.</para>
 
@@ -410,7 +410,7 @@ QDebug d, const <link linkend="class_q_c_p_range">QCPRange</link> &amp; range)</
             <section xml:id="class_q_c_p_range_1a0fa1bc8048be50d52bea93a8caf08305">
                 <title>void QCPRange::expand (const QCPRange &amp;otherRange)</title> <emphasis></emphasis>
                 
-<para>This is an overloaded member function, provided for convenience. It differs from the above function only in what argument(s) it accepts.</para>
+<para>Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.</para>
 
 <para>Expands this range such that <emphasis>otherRange</emphasis> is contained in the new range. It is assumed that both this range and <emphasis>otherRange</emphasis> are normalized (see <link linkend="class_q_c_p_range_1af914a7740269b0604d0827c634a878a9">normalize</link>).</para>
 
@@ -418,7 +418,7 @@ QDebug d, const <link linkend="class_q_c_p_range">QCPRange</link> &amp; range)</
 
 <para>If <emphasis>otherRange</emphasis> is already inside the current range, this function does nothing.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_c_p_range_1a9cbfb7cd06eac1839cae981e05c19633">expanded</link> </para>
 </formalpara>
@@ -428,7 +428,7 @@ QDebug d, const <link linkend="class_q_c_p_range">QCPRange</link> &amp; range)</
             <section xml:id="class_q_c_p_range_1a5fa977db0a4b7800075c629c62cf5e80">
                 <title>void QCPRange::expand (double includeCoord)</title> <emphasis></emphasis>
                 
-<para>This is an overloaded member function, provided for convenience. It differs from the above function only in what argument(s) it accepts.</para>
+<para>Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.</para>
 
 <para>Expands this range such that <emphasis>includeCoord</emphasis> is contained in the new range. It is assumed that this range is normalized (see <link linkend="class_q_c_p_range_1af914a7740269b0604d0827c634a878a9">normalize</link>).</para>
 
@@ -436,7 +436,7 @@ QDebug d, const <link linkend="class_q_c_p_range">QCPRange</link> &amp; range)</
 
 <para>If <emphasis>includeCoord</emphasis> is already inside the current range, this function does nothing.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_c_p_range_1a0fa1bc8048be50d52bea93a8caf08305">expand</link> </para>
 </formalpara>
@@ -446,13 +446,13 @@ QDebug d, const <link linkend="class_q_c_p_range">QCPRange</link> &amp; range)</
             <section xml:id="class_q_c_p_range_1a9cbfb7cd06eac1839cae981e05c19633">
                 <title>QCPRange QCPRange::expanded (const QCPRange &amp;otherRange) const</title> <emphasis></emphasis>
                 
-<para>This is an overloaded member function, provided for convenience. It differs from the above function only in what argument(s) it accepts.</para>
+<para>Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.</para>
 
 <para>Returns an expanded range that contains this and <emphasis>otherRange</emphasis>. It is assumed that both this range and <emphasis>otherRange</emphasis> are normalized (see <link linkend="class_q_c_p_range_1af914a7740269b0604d0827c634a878a9">normalize</link>).</para>
 
 <para>If this range contains NaN as lower or upper bound, the returned range&apos;s bound will be taken from <emphasis>otherRange</emphasis>.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_c_p_range_1a0fa1bc8048be50d52bea93a8caf08305">expand</link> </para>
 </formalpara>
@@ -462,13 +462,13 @@ QDebug d, const <link linkend="class_q_c_p_range">QCPRange</link> &amp; range)</
             <section xml:id="class_q_c_p_range_1af81d70f1add7233d73a19dcbe5decb2e">
                 <title>QCPRange QCPRange::expanded (double includeCoord) const</title> <emphasis></emphasis>
                 
-<para>This is an overloaded member function, provided for convenience. It differs from the above function only in what argument(s) it accepts.</para>
+<para>Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.</para>
 
 <para>Returns an expanded range that includes the specified <emphasis>includeCoord</emphasis>. It is assumed that this range is normalized (see <link linkend="class_q_c_p_range_1af914a7740269b0604d0827c634a878a9">normalize</link>).</para>
 
 <para>If this range contains NaN as lower or upper bound, the returned range&apos;s bound will be set to <emphasis>includeCoord</emphasis>.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_c_p_range_1a0fa1bc8048be50d52bea93a8caf08305">expand</link> </para>
 </formalpara>
@@ -523,7 +523,7 @@ QDebug d, const <link linkend="class_q_c_p_range">QCPRange</link> &amp; range)</
             <section xml:id="class_q_c_p_range_1a801b964752eaad6219be9d8a651ec2b3">
                 <title>bool QCPRange::validRange (const QCPRange &amp;range)</title> <emphasis></emphasis>
                 
-<para>This is an overloaded member function, provided for convenience. It differs from the above function only in what argument(s) it accepts. Checks, whether the specified range is within valid bounds, which are defined as <link linkend="class_q_c_p_range_1a5ca51e7a2dc5dc0d49527ab171fe1f4f">QCPRange::maxRange</link> and <link linkend="class_q_c_p_range_1ab46d3bc95030ee25efda41b89e2b616b">QCPRange::minRange</link>. A valid range means: <itemizedlist>
+<para>Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados. Checks, whether the specified range is within valid bounds, which are defined as <link linkend="class_q_c_p_range_1a5ca51e7a2dc5dc0d49527ab171fe1f4f">QCPRange::maxRange</link> and <link linkend="class_q_c_p_range_1ab46d3bc95030ee25efda41b89e2b616b">QCPRange::minRange</link>. A valid range means: <itemizedlist>
 <listitem>
 <para>range bounds within -maxRange and maxRange </para>
 </listitem>

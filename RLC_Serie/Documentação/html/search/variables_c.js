@@ -1,13 +1,9 @@
 var searchData=
 [
-  ['start',['start',['../class_q_c_p_item_line.html#a602da607a09498b0f152ada1d6851bc5',1,'QCPItemLine::start()'],['../class_q_c_p_item_curve.html#a20c3b5ea31c33764f4f30c2ec7ae518b',1,'QCPItemCurve::start()']]],
-  ['startdir',['startDir',['../class_q_c_p_item_curve.html#aa124bf66c09cc51c627fb49db8bf8a7b',1,'QCPItemCurve']]],
-  ['staticmetaobject',['staticMetaObject',['../namespace_q_c_p.html#a07ffa1eb1537a3b1f218ff2a442b2017',1,'QCP']]],
-  ['substituteexponent',['substituteExponent',['../class_q_c_p_axis_painter_private.html#a546d22b10ddb5ca8582b7deb90223a91',1,'QCPAxisPainterPrivate']]],
-  ['subticklengthin',['subTickLengthIn',['../class_q_c_p_axis_painter_private.html#af11f7d83021c9cb3b0e76fe7814c6110',1,'QCPAxisPainterPrivate']]],
-  ['subticklengthout',['subTickLengthOut',['../class_q_c_p_axis_painter_private.html#a5f1afddc3dc7ccc4d5adcbcd8f0c2218',1,'QCPAxisPainterPrivate']]],
-  ['subtickpen',['subTickPen',['../class_q_c_p_axis_painter_private.html#a9b9cf594cd16575f52ecda9abef4e412',1,'QCPAxisPainterPrivate']]],
-  ['subtickpositions',['subTickPositions',['../class_q_c_p_axis_painter_private.html#afcde7484bbcc1004b8f59ab984ada6f9',1,'QCPAxisPainterPrivate']]],
-  ['suffixbounds',['suffixBounds',['../struct_q_c_p_axis_painter_private_1_1_tick_label_data.html#aa286a44422223bd4f0b044cc822079f6',1,'QCPAxisPainterPrivate::TickLabelData']]],
-  ['suffixpart',['suffixPart',['../struct_q_c_p_axis_painter_private_1_1_tick_label_data.html#a3cbf21c6411730a318f8d2287b77d840',1,'QCPAxisPainterPrivate::TickLabelData']]]
+  ['periodo',['periodo',['../mainwindow_8cpp.html#aa216ae6715ac4feb0bb757fc71b68085',1,'mainwindow.cpp']]],
+  ['pi',['pi',['../mainwindow_8cpp.html#a31c17cc321db72d5ab448b71ea92792f',1,'mainwindow.cpp']]],
+  ['pixmap',['pixmap',['../structQCPAxisPainterPrivate_1_1CachedLabel.html#a461597cbd470914a9d24b64d16037a88',1,'QCPAxisPainterPrivate::CachedLabel']]],
+  ['point1',['point1',['../classQCPItemStraightLine.html#ac131a6ffe456f2cc7364dce541fe0120',1,'QCPItemStraightLine']]],
+  ['point2',['point2',['../classQCPItemStraightLine.html#ad26c0a732e471f63f75d481dcd48cfc9',1,'QCPItemStraightLine']]],
+  ['position',['position',['../classQCPItemText.html#a0d228a00e819022b5690c65762721129',1,'QCPItemText::position()'],['../classQCPItemTracer.html#a69917e2fdb2b3a929c196958feee7cbe',1,'QCPItemTracer::position()']]]
 ];

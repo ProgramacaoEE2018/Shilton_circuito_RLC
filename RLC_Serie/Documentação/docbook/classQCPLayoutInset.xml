@@ -1,0 +1,1655 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="classQCPLayoutInset">
+<title>QCPLayoutInset class Reference</title>
+<para>
+    <programlisting>#include <link linkend="qcustomplot_8h">&lt;qcustomplot.h&gt;</link></programlisting>
+</para>
+<para>Inheritance diagram for QCPLayoutInset</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="classQCPLayoutInset__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for QCPLayoutInset</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="classQCPLayoutInset__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                            <para><literallayout>enum <link linkend="classQCPLayoutInset_1a8b9e17d9a2768293d2a7d72f5e298192">InsetPlacement</link> {
+<link linkend="classQCPLayoutInset_1a8b9e17d9a2768293d2a7d72f5e298192aa4802986ea2cea457f932b115acba59e">ipFree</link>,
+<link linkend="classQCPLayoutInset_1a8b9e17d9a2768293d2a7d72f5e298192aa81e7df4a785ddee2229a8f47c46e817">ipBorderAligned</link>
+}</literallayout>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                            <para><literallayout>enum <link linkend="classQCPLayoutElement_1a0d83360e05735735aaf6d7983c56374d">UpdatePhase</link> {
+<link linkend="classQCPLayoutElement_1a0d83360e05735735aaf6d7983c56374dad6119882eba136357c2f627992e527d3">upPreparation</link>,
+<link linkend="classQCPLayoutElement_1a0d83360e05735735aaf6d7983c56374da288cb59a92280e47261a341f2813e676">upMargins</link>,
+<link linkend="classQCPLayoutElement_1a0d83360e05735735aaf6d7983c56374da5d1ccf5d79967c232c3c511796860045">upLayout</link>
+}</literallayout>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                            <para><literallayout>enum <link linkend="classQCPLayoutElement_1a0afb3e5773529e4bd20e448f81be4d2a">SizeConstraintRect</link> {
+<link linkend="classQCPLayoutElement_1a0afb3e5773529e4bd20e448f81be4d2aa7fa7e25cd23758b9915c64ed9f1be26c">scrInnerRect</link>,
+<link linkend="classQCPLayoutElement_1a0afb3e5773529e4bd20e448f81be4d2aabe2745b41a6131ed194e13591b08e04d">scrOuterRect</link>
+}</literallayout>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title>Atributos Protegidos</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QList&lt; QCPLayoutElement * &gt; mElements</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QList&lt; InsetPlacement &gt; mInsetPlacement</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QList&lt; Qt::Alignment &gt; mInsetAlignment</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QList&lt; QRectF &gt; mInsetRect</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QCPLayout * mParentLayout</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QSize mMinimumSize</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QSize mMaximumSize</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>SizeConstraintRect mSizeConstraintRect</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QRect mRect</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QRect mOuterRect</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QMargins mMargins</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QMargins mMinimumMargins</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QCP::MarginSides mAutoMargins</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QHash&lt; QCP::MarginSide, QCPMarginGroup * &gt; mMarginGroups</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool mVisible</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QCustomPlot * mParentPlot</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPointer&lt; QCPLayerable &gt; mParentLayerable</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QCPLayer * mLayer</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool mAntialiased</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="classQCPLayoutInset_1a3ad984f3221735374cc5dee14356a7dd">QCPLayoutInset</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual <link linkend="classQCPLayoutInset_1a7d0e5647b2e92df92abab532441db112">~QCPLayoutInset</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="classQCPLayoutInset_1a8b9e17d9a2768293d2a7d72f5e298192">InsetPlacement</link> <link linkend="classQCPLayoutInset_1a6fcbd74ebbc45bfe64c604b2791aa57f">insetPlacement</link> (
+int index)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>Qt::Alignment <link linkend="classQCPLayoutInset_1a5b33b66f0abbb4a7cc2f8aa6c94cf7f8">insetAlignment</link> (
+int index)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QRectF <link linkend="classQCPLayoutInset_1ab23099a46af17c31f4c40668f13c9de1">insetRect</link> (
+int index)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPLayoutInset_1a63298830744d5d8c5345511c00fd2144">setInsetPlacement</link> (
+int index, <link linkend="classQCPLayoutInset_1a8b9e17d9a2768293d2a7d72f5e298192">InsetPlacement</link> placement)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPLayoutInset_1a62882a4f9ad58bb0f53da12fde022abe">setInsetAlignment</link> (
+int index, Qt::Alignment alignment)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPLayoutInset_1aa487c8378a6f9533567a2e6430099dc3">setInsetRect</link> (
+int index, const QRectF &amp; rect)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="classQCPLayoutInset_1a493526b922ea66a75c45ef1842446988">updateLayout</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual int <link linkend="classQCPLayoutInset_1a7f5aa4d48a2e844cfe6dd7ed8f0861df">elementCount</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual <link linkend="classQCPLayoutElement">QCPLayoutElement</link> * <link linkend="classQCPLayoutInset_1a881ca205605bae9c034733b808f93a02">elementAt</link> (
+int index)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual <link linkend="classQCPLayoutElement">QCPLayoutElement</link> * <link linkend="classQCPLayoutInset_1abf2e8233f5b7051220907e62ded490a2">takeAt</link> (
+int index)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual bool <link linkend="classQCPLayoutInset_1af7f13cc369f8190b5e7e17d5f39dfe1c">take</link> (
+<link linkend="classQCPLayoutElement">QCPLayoutElement</link> * element)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="classQCPLayoutInset_1a18b7d508f0baa60cc5dcb1343cf7f32a">simplify</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual double <link linkend="classQCPLayoutInset_1a2eeef7ea1b8340e7c7c2e2fc229df5ea">selectTest</link> (
+const QPointF &amp; pos, bool onlySelectable, QVariant * details)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPLayoutInset_1ad61529eb576af7f04dff94abb10c745a">addElement</link> (
+<link linkend="classQCPLayoutElement">QCPLayoutElement</link> * element, Qt::Alignment alignment)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPLayoutInset_1a8ff61fbee4a1f0ff45c398009d9f1e56">addElement</link> (
+<link linkend="classQCPLayoutElement">QCPLayoutElement</link> * element, const QRectF &amp; rect)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="classQCPLayout_1a48ecc9c98ea90b547c3e27a931a8f7bd">update</link> (
+<link linkend="classQCPLayoutElement_1a0d83360e05735735aaf6d7983c56374d">UpdatePhase</link> phase)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual QList&lt; <link linkend="classQCPLayoutElement">QCPLayoutElement</link> * &gt; <link linkend="classQCPLayout_1aca129722c019f91d3367046f80abfa77">elements</link> (
+bool recursive)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="classQCPLayout_1a2403f684fee3ce47132faaeed00bb066">removeAt</link> (
+int index)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="classQCPLayout_1a6c58f537d8086f352576ab7c5b15d0bc">remove</link> (
+<link linkend="classQCPLayoutElement">QCPLayoutElement</link> * element)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPLayout_1a02883bdf2769b5b227f0232dba1ac4ee">clear</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="classQCPLayout">QCPLayout</link> * <link linkend="classQCPLayoutElement_1a4efdcbde9d28f410e5ef166c9d691deb">layout</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QRect <link linkend="classQCPLayoutElement_1a208effccfe2cca4a0eaf9393e60f2dd4">rect</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QRect <link linkend="classQCPLayoutElement_1a2a32a12a6161c9dffbadeb9cc585510c">outerRect</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QMargins <link linkend="classQCPLayoutElement_1af4ac9450aa2d60863bf3a8ea0c940c9d">margins</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QMargins <link linkend="classQCPLayoutElement_1a5eae30e28f28d73fd1c56409c011393e">minimumMargins</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QCP::MarginSides <link linkend="classQCPLayoutElement_1a2585bc8c5cc70ee712909751a2fc8909">autoMargins</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QSize <link linkend="classQCPLayoutElement_1a60d4295468a2b57fe91f6f68e20c3993">minimumSize</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QSize <link linkend="classQCPLayoutElement_1afb9503858d4aa0f3b9f1794b084fb40a">maximumSize</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="classQCPLayoutElement_1a0afb3e5773529e4bd20e448f81be4d2a">SizeConstraintRect</link> <link linkend="classQCPLayoutElement_1a66136f121ee3e1c933b748761203cab4">sizeConstraintRect</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="classQCPMarginGroup">QCPMarginGroup</link> * <link linkend="classQCPLayoutElement_1a8af6bcf81e12fe1d6f44490f34522b90">marginGroup</link> (
+<link linkend="namespaceQCP_1a7e487e3e2ccb62ab7771065bab7cae54">QCP::MarginSide</link> side)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QHash&lt; <link linkend="namespaceQCP_1a7e487e3e2ccb62ab7771065bab7cae54">QCP::MarginSide</link>, <link linkend="classQCPMarginGroup">QCPMarginGroup</link> * &gt; <link linkend="classQCPLayoutElement_1ac8d1139a81a1625860647e307ae2b733">marginGroups</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPLayoutElement_1a38975ea13e36de8e53391ce41d94bc0f">setOuterRect</link> (
+const QRect &amp; rect)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPLayoutElement_1a8f450b1f3f992ad576fce2c63d8b79cf">setMargins</link> (
+const QMargins &amp; margins)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPLayoutElement_1a0a8a17abc16b7923159fcc7608f94673">setMinimumMargins</link> (
+const QMargins &amp; margins)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPLayoutElement_1accfda49994e3e6d51ed14504abf9d27d">setAutoMargins</link> (
+QCP::MarginSides sides)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPLayoutElement_1a5dd29a3c8bc88440c97c06b67be7886b">setMinimumSize</link> (
+const QSize &amp; size)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPLayoutElement_1a8e0447614a0bf92de9a7304588c6b96e">setMinimumSize</link> (
+int width, int height)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPLayoutElement_1a74eb5280a737ab44833d506db65efd95">setMaximumSize</link> (
+const QSize &amp; size)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPLayoutElement_1a03e0e9c48f230217c529b0819f832d84">setMaximumSize</link> (
+int width, int height)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPLayoutElement_1a361666cdcc6fbfd37344cc44be746b0f">setSizeConstraintRect</link> (
+<link linkend="classQCPLayoutElement_1a0afb3e5773529e4bd20e448f81be4d2a">SizeConstraintRect</link> constraintRect)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPLayoutElement_1a516e56f76b6bc100e8e71d329866847d">setMarginGroup</link> (
+QCP::MarginSides sides, <link linkend="classQCPMarginGroup">QCPMarginGroup</link> * group)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual QSize <link linkend="classQCPLayoutElement_1a46789036c4fcb190fa374f91321d7c09">minimumOuterSizeHint</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual QSize <link linkend="classQCPLayoutElement_1ad96efb977a26e360e8a64a4c1e56456d">maximumOuterSizeHint</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="classQCPLayerable_1af0297b944b6192b6d67d00bff41b6b70">visible</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="classQCustomPlot">QCustomPlot</link> * <link linkend="classQCPLayerable_1a473edb813a4c1929d6b6a8fe3ff3faf7">parentPlot</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="classQCPLayerable">QCPLayerable</link> * <link linkend="classQCPLayerable_1aa78b7e644d2c519e1a9a6f2ac5fcd858">parentLayerable</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="classQCPLayer">QCPLayer</link> * <link linkend="classQCPLayerable_1a5ff4862e8c784c9f5986dbc1533ba2a4">layer</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="classQCPLayerable_1a71cbd212fde2703cee076e204a475709">antialiased</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPLayerable_1a3bed99ddc396b48ce3ebfdc0418744f8">setVisible</link> (
+bool on)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>Q_SLOT bool <link linkend="classQCPLayerable_1ab0d0da6d2de45a118886d2c8e16d5a54">setLayer</link> (
+<link linkend="classQCPLayer">QCPLayer</link> * layer)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="classQCPLayerable_1ab25a0e7b897993b44447caee0f142083">setLayer</link> (
+const QString &amp; layerName)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPLayerable_1a4fd43e89be4a553ead41652565ff0581">setAntialiased</link> (
+bool enabled)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="classQCPLayerable_1ab054e88f15d485defcb95e7376f119e7">realVisibility</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPLayout_1aeac66a292f65cf7f8adf94eb92345b3e">sizeConstraintsChanged</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPLayout_1af6dbbc24156a808da29cd1ec031729a3">adoptElement</link> (
+<link linkend="classQCPLayoutElement">QCPLayoutElement</link> * el)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPLayout_1a4afbb4bef0071f72f91afdac4433a18e">releaseElement</link> (
+<link linkend="classQCPLayoutElement">QCPLayoutElement</link> * el)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QVector&lt; int &gt; <link linkend="classQCPLayout_1a3e77be8006d39f2aafc1313d6e8fc3fd">getSectionSizes</link> (
+QVector&lt; int &gt; maxSizes, QVector&lt; int &gt; minSizes, QVector&lt; double &gt; stretchFactors, int totalSize)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual int <link linkend="classQCPLayoutElement_1a005c9f0fe84bc1591a2cf2c46fd477b4">calculateAutoMargin</link> (
+<link linkend="namespaceQCP_1a7e487e3e2ccb62ab7771065bab7cae54">QCP::MarginSide</link> side)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="classQCPLayoutElement_1a765f041a73af0c2de41b41a5a03e31a4">layoutChanged</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="classQCPLayoutElement_1a0a8f18141bcf46cf40ad4c13324ff346">applyDefaultAntialiasingHint</link> (
+<link linkend="classQCPPainter">QCPPainter</link> * painter)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="classQCPLayoutElement_1ad1c597b1d608cfdd86e7b76819a94cfb">draw</link> (
+<link linkend="classQCPPainter">QCPPainter</link> * painter)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="classQCPLayoutElement_1ab4bb5c5a958451f5f153fdce350f13cf">parentPlotInitialized</link> (
+<link linkend="classQCustomPlot">QCustomPlot</link> * parentPlot)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual <link linkend="namespaceQCP_1a2ad6bb6281c7c2d593d4277b44c2b037">QCP::Interaction</link> <link linkend="classQCPLayerable_1a908c9edda761886f33893be326dab77d">selectionCategory</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual QRect <link linkend="classQCPLayerable_1acbcfc9ecc75433747b1978a77b1864b3">clipRect</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="classQCPLayerable_1a7498c2d0d081cf7cad0fb3bb93aa0e91">selectEvent</link> (
+QMouseEvent * event, bool additive, const QVariant &amp; details, bool * selectionStateChanged)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="classQCPLayerable_1ae546370644a5551c76af739afc008bee">deselectEvent</link> (
+bool * selectionStateChanged)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="classQCPLayerable_1af6567604818db90f4fd52822f8bc8376">mousePressEvent</link> (
+QMouseEvent * event, const QVariant &amp; details)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="classQCPLayerable_1a9eee1ba47fd69be111059ca3881933e4">mouseMoveEvent</link> (
+QMouseEvent * event, const QPointF &amp; startPos)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="classQCPLayerable_1aa0d79b005686f668622bbe66ac03ba2c">mouseReleaseEvent</link> (
+QMouseEvent * event, const QPointF &amp; startPos)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="classQCPLayerable_1a4171e2e823aca242dd0279f00ed2de81">mouseDoubleClickEvent</link> (
+QMouseEvent * event, const QVariant &amp; details)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="classQCPLayerable_1a47dfd7b8fd99c08ca54e09c362b6f022">wheelEvent</link> (
+QWheelEvent * event)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPLayerable_1a8cbe5a0c9a5674249982f5ca5f8e02bc">initializeParentPlot</link> (
+<link linkend="classQCustomPlot">QCustomPlot</link> * parentPlot)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPLayerable_1aa23c893671f1f6744ac235cf2204cf3a">setParentLayerable</link> (
+<link linkend="classQCPLayerable">QCPLayerable</link> * parentLayerable)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="classQCPLayerable_1af94484cfb7cbbddb7de522e9be71d9a4">moveToLayer</link> (
+<link linkend="classQCPLayer">QCPLayer</link> * layer, bool prepend)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPLayerable_1acb663e375d2d36dc5c55021ee5a2119b">applyAntialiasingHint</link> (
+<link linkend="classQCPPainter">QCPPainter</link> * painter, bool localAntialiased, <link linkend="namespaceQCP_1ae55dbe315d41fe80f29ba88100843a0c">QCP::AntialiasedElement</link> overrideElement)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static QSize <link linkend="classQCPLayout_1a864fddc84721f186663faf3683f1fa70">getFinalMinimumOuterSize</link> (
+const <link linkend="classQCPLayoutElement">QCPLayoutElement</link> * el)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static QSize <link linkend="classQCPLayout_1add49fd6843821a6126914b837ed52e22">getFinalMaximumOuterSize</link> (
+const <link linkend="classQCPLayoutElement">QCPLayoutElement</link> * el)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+    <simplesect>
+
+<para>A layout that places child elements aligned to the border or arbitrarily positioned. </para>
+    </simplesect>
+        <simplesect>
+            <title>Descrição detalhada</title>
+
+<para>Elements are placed either aligned to the border or at arbitrary position in the area of the layout. Which placement applies is controlled with the <link linkend="classQCPLayoutInset_1a8b9e17d9a2768293d2a7d72f5e298192">InsetPlacement</link> (<link linkend="classQCPLayoutInset_1a63298830744d5d8c5345511c00fd2144">setInsetPlacement</link>).</para>
+
+<para>Elements are added via <link linkend="classQCPLayoutInset_1ad61529eb576af7f04dff94abb10c745a">addElement(QCPLayoutElement *element, Qt::Alignment alignment)</link> or <link linkend="classQCPLayoutInset_1a8ff61fbee4a1f0ff45c398009d9f1e56">addElement(QCPLayoutElement *element, const QRectF &amp;rect)</link>. If the first method is used, the inset placement will default to <link linkend="classQCPLayoutInset_1a8b9e17d9a2768293d2a7d72f5e298192aa81e7df4a785ddee2229a8f47c46e817">ipBorderAligned</link> and the element will be aligned according to the <emphasis>alignment</emphasis> parameter. The second method defaults to <link linkend="classQCPLayoutInset_1a8b9e17d9a2768293d2a7d72f5e298192aa4802986ea2cea457f932b115acba59e">ipFree</link> and allows placing elements at arbitrary position and size, defined by <emphasis>rect</emphasis>.</para>
+
+<para>The alignment or rect can be set via <link linkend="classQCPLayoutInset_1a62882a4f9ad58bb0f53da12fde022abe">setInsetAlignment</link> or <link linkend="classQCPLayoutInset_1aa487c8378a6f9533567a2e6430099dc3">setInsetRect</link>, respectively.</para>
+
+<para>This is the layout that every <link linkend="classQCPAxisRect">QCPAxisRect</link> has as <link linkend="classQCPAxisRect_1a949f803466619924c7018df4b511ae10">QCPAxisRect::insetLayout</link>. </para>
+                <para>Definition at line 1414 of file qcustomplot.h</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>qcustomplot.h</para></listitem></itemizedlist></para>
+        </simplesect>
+            <section xml:id="classQCPLayoutInset_1a8b9e17d9a2768293d2a7d72f5e298192">
+               <title>enum InsetPlacement </title>
+               
+<para>Defines how the placement and sizing is handled for a certain element in a <link linkend="classQCPLayoutInset">QCPLayoutInset</link>. </para>
+
+               <formalpara>
+                    <title>Enumeradores:</title>
+                    <variablelist>
+                        <varlistentry xml:id="classQCPLayoutInset_1a8b9e17d9a2768293d2a7d72f5e298192aa4802986ea2cea457f932b115acba59e">
+                            <term>ipFree</term>
+                            <listitem>
+                                <para>The element may be positioned/sized arbitrarily, see \ref setInsetRect.</para>
+                            </listitem>
+                        </varlistentry>
+                        <varlistentry xml:id="classQCPLayoutInset_1a8b9e17d9a2768293d2a7d72f5e298192aa81e7df4a785ddee2229a8f47c46e817">
+                            <term>ipBorderAligned</term>
+                            <listitem>
+                                <para>The element is aligned to one of the layout sides, see \ref setInsetAlignment.</para>
+                            </listitem>
+                        </varlistentry>
+                     </variablelist>
+                </formalpara>
+                <para>Definition at line 1420 of file qcustomplot.h
+                    <computeroutput><literallayout>
+{
+ipFree, 
+ipBorderAligned, 
+}InsetPlacement;
+                    </literallayout></computeroutput>
+                </para>
+            </section>
+            <section xml:id="classQCPLayoutElement_1a0d83360e05735735aaf6d7983c56374d">
+               <title>enum UpdatePhase </title>
+               
+<para>Defines the phases of the update process, that happens just before a replot. At each phase, <link linkend="classQCPLayoutElement_1a929c2ec62e0e0e1d8418eaa802e2af9b">update</link> is called with the according UpdatePhase value. </para>
+
+               <formalpara>
+                    <title>Enumeradores:</title>
+                    <variablelist>
+                        <varlistentry xml:id="classQCPLayoutElement_1a0d83360e05735735aaf6d7983c56374dad6119882eba136357c2f627992e527d3">
+                            <term>upPreparation</term>
+                            <listitem>
+                                <para>Phase used for any type of preparation that needs to be done before margin calculation and layout.</para>
+                            </listitem>
+                        </varlistentry>
+                        <varlistentry xml:id="classQCPLayoutElement_1a0d83360e05735735aaf6d7983c56374da288cb59a92280e47261a341f2813e676">
+                            <term>upMargins</term>
+                            <listitem>
+                                <para>Phase in which the margins are calculated and set.</para>
+                            </listitem>
+                        </varlistentry>
+                        <varlistentry xml:id="classQCPLayoutElement_1a0d83360e05735735aaf6d7983c56374da5d1ccf5d79967c232c3c511796860045">
+                            <term>upLayout</term>
+                            <listitem>
+                                <para>Final phase in which the layout system places the rects of the elements.</para>
+                            </listitem>
+                        </varlistentry>
+                     </variablelist>
+                </formalpara>
+                <para>Definition at line 1197 of file qcustomplot.h
+                    <computeroutput><literallayout>
+{
+upPreparation, 
+upMargins, 
+upLayout, 
+}UpdatePhase;
+                    </literallayout></computeroutput>
+                </para>
+            </section>
+            <section xml:id="classQCPLayoutElement_1a0afb3e5773529e4bd20e448f81be4d2a">
+               <title>enum SizeConstraintRect </title>
+               
+<para>Defines to which rect of a layout element the size constraints that can be set via <link linkend="classQCPLayoutElement_1a5dd29a3c8bc88440c97c06b67be7886b">setMinimumSize</link> and <link linkend="classQCPLayoutElement_1a74eb5280a737ab44833d506db65efd95">setMaximumSize</link> apply. The outer rect (<link linkend="classQCPLayoutElement_1a2a32a12a6161c9dffbadeb9cc585510c">outerRect</link>) includes the margins (e.g. in the case of a <link linkend="classQCPAxisRect">QCPAxisRect</link> the axis labels), whereas the inner rect (<link linkend="classQCPLayoutElement_1a208effccfe2cca4a0eaf9393e60f2dd4">rect</link>) does not.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPLayoutElement_1a361666cdcc6fbfd37344cc44be746b0f">setSizeConstraintRect</link> </para>
+</formalpara>
+</para>
+
+               <formalpara>
+                    <title>Enumeradores:</title>
+                    <variablelist>
+                        <varlistentry xml:id="classQCPLayoutElement_1a0afb3e5773529e4bd20e448f81be4d2aa7fa7e25cd23758b9915c64ed9f1be26c">
+                            <term>scrInnerRect</term>
+                            <listitem>
+                                <para>Minimum/Maximum size constraints apply to inner rect.</para>
+                            </listitem>
+                        </varlistentry>
+                        <varlistentry xml:id="classQCPLayoutElement_1a0afb3e5773529e4bd20e448f81be4d2aabe2745b41a6131ed194e13591b08e04d">
+                            <term>scrOuterRect</term>
+                            <listitem>
+                                <para>Minimum/Maximum size constraints apply to outer rect, thus include layout element margins.</para>
+                            </listitem>
+                        </varlistentry>
+                     </variablelist>
+                </formalpara>
+                <para>Definition at line 1211 of file qcustomplot.h
+                    <computeroutput><literallayout>
+{
+scrInnerRect, 
+scrOuterRect, 
+}SizeConstraintRect;
+                    </literallayout></computeroutput>
+                </para>
+            </section>
+        <section>
+            <title>Atributos</title>
+        </section>
+            <section xml:id="classQCPLayoutInset_1a3ad984f3221735374cc5dee14356a7dd">
+                <title>QCPLayoutInset::QCPLayoutInset ()</title> <emphasis></emphasis>
+                
+<para>Creates an instance of <link linkend="classQCPLayoutInset">QCPLayoutInset</link> and sets default values. </para>
+
+            </section>
+            <section xml:id="classQCPLayoutInset_1a7d0e5647b2e92df92abab532441db112">
+                <title>QCPLayoutInset::~QCPLayoutInset ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPLayoutInset_1a6fcbd74ebbc45bfe64c604b2791aa57f">
+                <title>QCPLayoutInset::InsetPlacement QCPLayoutInset::insetPlacement (int index) const</title> <emphasis></emphasis>
+                
+<para>Returns the placement type of the element with the specified <emphasis>index</emphasis>. </para>
+
+            </section>
+            <section xml:id="classQCPLayoutInset_1a5b33b66f0abbb4a7cc2f8aa6c94cf7f8">
+                <title>Qt::Alignment QCPLayoutInset::insetAlignment (int index) const</title> <emphasis></emphasis>
+                
+<para>Returns the alignment of the element with the specified <emphasis>index</emphasis>. The alignment only has a meaning, if the inset placement (<link linkend="classQCPLayoutInset_1a63298830744d5d8c5345511c00fd2144">setInsetPlacement</link>) is <link linkend="classQCPLayoutInset_1a8b9e17d9a2768293d2a7d72f5e298192aa81e7df4a785ddee2229a8f47c46e817">ipBorderAligned</link>. </para>
+
+            </section>
+            <section xml:id="classQCPLayoutInset_1ab23099a46af17c31f4c40668f13c9de1">
+                <title>QRectF QCPLayoutInset::insetRect (int index) const</title> <emphasis></emphasis>
+                
+<para>Returns the rect of the element with the specified <emphasis>index</emphasis>. The rect only has a meaning, if the inset placement (<link linkend="classQCPLayoutInset_1a63298830744d5d8c5345511c00fd2144">setInsetPlacement</link>) is <link linkend="classQCPLayoutInset_1a8b9e17d9a2768293d2a7d72f5e298192aa4802986ea2cea457f932b115acba59e">ipFree</link>. </para>
+
+            </section>
+            <section xml:id="classQCPLayoutInset_1a63298830744d5d8c5345511c00fd2144">
+                <title>void QCPLayoutInset::setInsetPlacement (int index, InsetPlacement placement)</title> <emphasis></emphasis>
+                
+<para>Sets the inset placement type of the element with the specified <emphasis>index</emphasis> to <emphasis>placement</emphasis>.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPLayoutInset_1a8b9e17d9a2768293d2a7d72f5e298192">InsetPlacement</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPLayoutInset_1a62882a4f9ad58bb0f53da12fde022abe">
+                <title>void QCPLayoutInset::setInsetAlignment (int index, Qt::Alignment alignment)</title> <emphasis></emphasis>
+                
+<para>If the inset placement (<link linkend="classQCPLayoutInset_1a63298830744d5d8c5345511c00fd2144">setInsetPlacement</link>) is <link linkend="classQCPLayoutInset_1a8b9e17d9a2768293d2a7d72f5e298192aa81e7df4a785ddee2229a8f47c46e817">ipBorderAligned</link>, this function is used to set the alignment of the element with the specified <emphasis>index</emphasis> to <emphasis>alignment</emphasis>.</para>
+
+<para><emphasis>alignment</emphasis> is an or combination of the following alignment flags: Qt::AlignLeft, Qt::AlignHCenter, Qt::AlighRight, Qt::AlignTop, Qt::AlignVCenter, Qt::AlignBottom. Any other alignment flags will be ignored. </para>
+
+            </section>
+            <section xml:id="classQCPLayoutInset_1aa487c8378a6f9533567a2e6430099dc3">
+                <title>void QCPLayoutInset::setInsetRect (int index, const QRectF &amp;rect)</title> <emphasis></emphasis>
+                
+<para>If the inset placement (<link linkend="classQCPLayoutInset_1a63298830744d5d8c5345511c00fd2144">setInsetPlacement</link>) is <link linkend="classQCPLayoutInset_1a8b9e17d9a2768293d2a7d72f5e298192aa4802986ea2cea457f932b115acba59e">ipFree</link>, this function is used to set the position and size of the element with the specified <emphasis>index</emphasis> to <emphasis>rect</emphasis>.</para>
+
+<para><emphasis>rect</emphasis> is given in fractions of the whole inset layout rect. So an inset with rect (0, 0, 1, 1) will span the entire layout. An inset with rect (0.6, 0.1, 0.35, 0.35) will be in the top right corner of the layout, with 35% width and height of the parent layout.</para>
+
+<para>Note that the minimum and maximum sizes of the embedded element (<link linkend="classQCPLayoutElement_1a5dd29a3c8bc88440c97c06b67be7886b">QCPLayoutElement::setMinimumSize</link>, <link linkend="classQCPLayoutElement_1a74eb5280a737ab44833d506db65efd95">QCPLayoutElement::setMaximumSize</link>) are enforced. </para>
+
+            </section>
+            <section xml:id="classQCPLayoutInset_1a493526b922ea66a75c45ef1842446988">
+                <title>void QCPLayoutInset::updateLayout () Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPLayoutInset_1a7f5aa4d48a2e844cfe6dd7ed8f0861df">
+                <title>int QCPLayoutInset::elementCount () const Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+<para>Returns the number of elements/cells in the layout.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPLayout_1aca129722c019f91d3367046f80abfa77">elements</link>, <link linkend="classQCPLayoutInset_1a881ca205605bae9c034733b808f93a02">elementAt</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPLayoutInset_1a881ca205605bae9c034733b808f93a02">
+                <title>QCPLayoutElement * QCPLayoutInset::elementAt (int index) const Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+<para>Returns the element in the cell with the given <emphasis>index</emphasis>. If <emphasis>index</emphasis> is invalid, returns 0.</para>
+
+<para>Note that even if <emphasis>index</emphasis> is valid, the respective cell may be empty in some layouts (e.g. <link linkend="classQCPLayoutGrid">QCPLayoutGrid</link>), so this function may return 0 in those cases. You may use this function to check whether a cell is empty or not.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPLayout_1aca129722c019f91d3367046f80abfa77">elements</link>, <link linkend="classQCPLayoutInset_1a7f5aa4d48a2e844cfe6dd7ed8f0861df">elementCount</link>, <link linkend="classQCPLayoutInset_1abf2e8233f5b7051220907e62ded490a2">takeAt</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPLayoutInset_1abf2e8233f5b7051220907e62ded490a2">
+                <title>QCPLayoutElement * QCPLayoutInset::takeAt (int index) Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+<para>Removes the element with the given <emphasis>index</emphasis> from the layout and returns it.</para>
+
+<para>If the <emphasis>index</emphasis> is invalid or the cell with that index is empty, returns 0.</para>
+
+<para>Note that some layouts don&apos;t remove the respective cell right away but leave an empty cell after successful removal of the layout element. To collapse empty cells, use <link linkend="classQCPLayoutInset_1a18b7d508f0baa60cc5dcb1343cf7f32a">simplify</link>.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPLayoutInset_1a881ca205605bae9c034733b808f93a02">elementAt</link>, <link linkend="classQCPLayoutInset_1af7f13cc369f8190b5e7e17d5f39dfe1c">take</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPLayoutInset_1af7f13cc369f8190b5e7e17d5f39dfe1c">
+                <title>bool QCPLayoutInset::take (QCPLayoutElement *element) Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+<para>Removes the specified <emphasis>element</emphasis> from the layout and returns true on success.</para>
+
+<para>If the <emphasis>element</emphasis> isn&apos;t in this layout, returns false.</para>
+
+<para>Note that some layouts don&apos;t remove the respective cell right away but leave an empty cell after successful removal of the layout element. To collapse empty cells, use <link linkend="classQCPLayoutInset_1a18b7d508f0baa60cc5dcb1343cf7f32a">simplify</link>.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPLayoutInset_1abf2e8233f5b7051220907e62ded490a2">takeAt</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPLayoutInset_1a18b7d508f0baa60cc5dcb1343cf7f32a">
+                <title>void QCPLayoutInset::simplify () Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+<para>The QCPInsetLayout does not need simplification since it can never have empty cells due to its linear index structure. This method does nothing. </para>
+
+            </section>
+            <section xml:id="classQCPLayoutInset_1a2eeef7ea1b8340e7c7c2e2fc229df5ea">
+                <title>double QCPLayoutInset::selectTest (const QPointF &amp;pos, bool onlySelectable, QVariant *details=0) const Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+<para>The inset layout is sensitive to events only at areas where its (visible) child elements are sensitive. If the selectTest method of any of the child elements returns a positive number for <emphasis>pos</emphasis>, this method returns a value corresponding to 0.99 times the parent plot&apos;s selection tolerance. The inset layout is not selectable itself by default. So if <emphasis>onlySelectable</emphasis> is true, -1.0 is returned.</para>
+
+<para>See <link linkend="classQCPLayerable_1a04db8351fefd44cfdb77958e75c6288e">QCPLayerable::selectTest</link> for a general explanation of this virtual method. </para>
+
+            </section>
+            <section xml:id="classQCPLayoutInset_1ad61529eb576af7f04dff94abb10c745a">
+                <title>void QCPLayoutInset::addElement (QCPLayoutElement *element, Qt::Alignment alignment)</title> <emphasis></emphasis>
+                
+<para>Adds the specified <emphasis>element</emphasis> to the layout as an inset aligned at the border (<link linkend="classQCPLayoutInset_1a62882a4f9ad58bb0f53da12fde022abe">setInsetAlignment</link> is initialized with <link linkend="classQCPLayoutInset_1a8b9e17d9a2768293d2a7d72f5e298192aa81e7df4a785ddee2229a8f47c46e817">ipBorderAligned</link>). The alignment is set to <emphasis>alignment</emphasis>.</para>
+
+<para><emphasis>alignment</emphasis> is an or combination of the following alignment flags: Qt::AlignLeft, Qt::AlignHCenter, Qt::AlighRight, Qt::AlignTop, Qt::AlignVCenter, Qt::AlignBottom. Any other alignment flags will be ignored.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPLayoutInset_1a8ff61fbee4a1f0ff45c398009d9f1e56">addElement(QCPLayoutElement *element, const QRectF &amp;rect)</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPLayoutInset_1a8ff61fbee4a1f0ff45c398009d9f1e56">
+                <title>void QCPLayoutInset::addElement (QCPLayoutElement *element, const QRectF &amp;rect)</title> <emphasis></emphasis>
+                
+<para>Adds the specified <emphasis>element</emphasis> to the layout as an inset with free positioning/sizing (<link linkend="classQCPLayoutInset_1a62882a4f9ad58bb0f53da12fde022abe">setInsetAlignment</link> is initialized with <link linkend="classQCPLayoutInset_1a8b9e17d9a2768293d2a7d72f5e298192aa4802986ea2cea457f932b115acba59e">ipFree</link>). The position and size is set to <emphasis>rect</emphasis>.</para>
+
+<para><emphasis>rect</emphasis> is given in fractions of the whole inset layout rect. So an inset with rect (0, 0, 1, 1) will span the entire layout. An inset with rect (0.6, 0.1, 0.35, 0.35) will be in the top right corner of the layout, with 35% width and height of the parent layout.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPLayoutInset_1ad61529eb576af7f04dff94abb10c745a">addElement(QCPLayoutElement *element, Qt::Alignment alignment)</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPLayout_1a48ecc9c98ea90b547c3e27a931a8f7bd">
+                <title>void QCPLayout::update (UpdatePhase phase) Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+<para>If <emphasis>phase</emphasis> is <link linkend="classQCPLayoutElement_1a0d83360e05735735aaf6d7983c56374da5d1ccf5d79967c232c3c511796860045">upLayout</link>, calls <link linkend="classQCPLayout_1a165c77f6287ac92e8d03017ad913378b">updateLayout</link>, which subclasses may reimplement to reposition and resize their cells.</para>
+
+<para>Finally, the call is propagated down to all child <link linkend="classQCPLayoutElement">QCPLayoutElements</link>.</para>
+
+<para>For details about this method and the update phases, see the documentation of <link linkend="classQCPLayoutElement_1a929c2ec62e0e0e1d8418eaa802e2af9b">QCPLayoutElement::update</link>. </para>
+
+            </section>
+            <section xml:id="classQCPLayout_1aca129722c019f91d3367046f80abfa77">
+                <title>QList&lt; QCPLayoutElement * &gt; QCPLayout::elements (bool recursive) const Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+<para>Returns a list of all child elements in this layout element. If <emphasis>recursive</emphasis> is true, all sub-child elements are included in the list, too.</para>
+
+<para><formalpara><title>Aviso: </title>
+
+<para>There may be entries with value 0 in the returned list. (For example, <link linkend="classQCPLayoutGrid">QCPLayoutGrid</link> may have empty cells which yield 0 at the respective index.) </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPLayout_1a2403f684fee3ce47132faaeed00bb066">
+                <title>bool QCPLayout::removeAt (int index)</title> <emphasis></emphasis>
+                
+<para>Removes and deletes the element at the provided <emphasis>index</emphasis>. Returns true on success. If <emphasis>index</emphasis> is invalid or points to an empty cell, returns false.</para>
+
+<para>This function internally uses <link linkend="classQCPLayout_1a5a79621fa0a6eabb8b520cfc04fb601a">takeAt</link> to remove the element from the layout and then deletes the returned element. Note that some layouts don&apos;t remove the respective cell right away but leave an empty cell after successful removal of the layout element. To collapse empty cells, use <link linkend="classQCPLayout_1a41e6ac049143866e8f8b4964efab01b2">simplify</link>.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPLayout_1a6c58f537d8086f352576ab7c5b15d0bc">remove</link>, <link linkend="classQCPLayout_1a5a79621fa0a6eabb8b520cfc04fb601a">takeAt</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPLayout_1a6c58f537d8086f352576ab7c5b15d0bc">
+                <title>bool QCPLayout::remove (QCPLayoutElement *element)</title> <emphasis></emphasis>
+                
+<para>Removes and deletes the provided <emphasis>element</emphasis>. Returns true on success. If <emphasis>element</emphasis> is not in the layout, returns false.</para>
+
+<para>This function internally uses <link linkend="classQCPLayout_1a5a79621fa0a6eabb8b520cfc04fb601a">takeAt</link> to remove the element from the layout and then deletes the element. Note that some layouts don&apos;t remove the respective cell right away but leave an empty cell after successful removal of the layout element. To collapse empty cells, use <link linkend="classQCPLayout_1a41e6ac049143866e8f8b4964efab01b2">simplify</link>.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPLayout_1a2403f684fee3ce47132faaeed00bb066">removeAt</link>, <link linkend="classQCPLayout_1ada26cd17e56472b0b4d7fbbc96873e4c">take</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPLayout_1a02883bdf2769b5b227f0232dba1ac4ee">
+                <title>void QCPLayout::clear ()</title> <emphasis></emphasis>
+                
+<para>Removes and deletes all layout elements in this layout. Finally calls <link linkend="classQCPLayout_1a41e6ac049143866e8f8b4964efab01b2">simplify</link> to make sure all empty cells are collapsed.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPLayout_1a6c58f537d8086f352576ab7c5b15d0bc">remove</link>, <link linkend="classQCPLayout_1a2403f684fee3ce47132faaeed00bb066">removeAt</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPLayoutElement_1a4efdcbde9d28f410e5ef166c9d691deb">
+                <title>QCPLayout * QCPLayoutElement::layout () const</title> <emphasis></emphasis>
+                
+<para>Returns the parent layout of this layout element. </para>
+
+            </section>
+            <section xml:id="classQCPLayoutElement_1a208effccfe2cca4a0eaf9393e60f2dd4">
+                <title>QRect QCPLayoutElement::rect () const</title> <emphasis></emphasis>
+                
+<para>Returns the inner rect of this layout element. The inner rect is the outer rect (<link linkend="classQCPLayoutElement_1a2a32a12a6161c9dffbadeb9cc585510c">outerRect</link>, <link linkend="classQCPLayoutElement_1a38975ea13e36de8e53391ce41d94bc0f">setOuterRect</link>) shrinked by the margins (<link linkend="classQCPLayoutElement_1a8f450b1f3f992ad576fce2c63d8b79cf">setMargins</link>, <link linkend="classQCPLayoutElement_1accfda49994e3e6d51ed14504abf9d27d">setAutoMargins</link>).</para>
+
+<para>In some cases, the area between outer and inner rect is left blank. In other cases the margin area is used to display peripheral graphics while the main content is in the inner rect. This is where automatic margin calculation becomes interesting because it allows the layout element to adapt the margins to the peripheral graphics it wants to draw. For example, <link linkend="classQCPAxisRect">QCPAxisRect</link> draws the axis labels and tick labels in the margin area, thus needs to adjust the margins (if <link linkend="classQCPLayoutElement_1accfda49994e3e6d51ed14504abf9d27d">setAutoMargins</link> is enabled) according to the space required by the labels of the axes.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPLayoutElement_1a2a32a12a6161c9dffbadeb9cc585510c">outerRect</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPLayoutElement_1a2a32a12a6161c9dffbadeb9cc585510c">
+                <title>QRect QCPLayoutElement::outerRect () const</title> <emphasis></emphasis>
+                
+<para>Returns the outer rect of this layout element. The outer rect is the inner rect expanded by the margins (<link linkend="classQCPLayoutElement_1a8f450b1f3f992ad576fce2c63d8b79cf">setMargins</link>, <link linkend="classQCPLayoutElement_1accfda49994e3e6d51ed14504abf9d27d">setAutoMargins</link>). The outer rect is used (and set via <link linkend="classQCPLayoutElement_1a38975ea13e36de8e53391ce41d94bc0f">setOuterRect</link>) by the parent <link linkend="classQCPLayout">QCPLayout</link> to control the size of this layout element.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPLayoutElement_1a208effccfe2cca4a0eaf9393e60f2dd4">rect</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPLayoutElement_1af4ac9450aa2d60863bf3a8ea0c940c9d">
+                <title>QMargins QCPLayoutElement::margins () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPLayoutElement_1a5eae30e28f28d73fd1c56409c011393e">
+                <title>QMargins QCPLayoutElement::minimumMargins () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPLayoutElement_1a2585bc8c5cc70ee712909751a2fc8909">
+                <title>QCP::MarginSides QCPLayoutElement::autoMargins () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPLayoutElement_1a60d4295468a2b57fe91f6f68e20c3993">
+                <title>QSize QCPLayoutElement::minimumSize () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPLayoutElement_1afb9503858d4aa0f3b9f1794b084fb40a">
+                <title>QSize QCPLayoutElement::maximumSize () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPLayoutElement_1a66136f121ee3e1c933b748761203cab4">
+                <title>SizeConstraintRect QCPLayoutElement::sizeConstraintRect () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPLayoutElement_1a8af6bcf81e12fe1d6f44490f34522b90">
+                <title>QCPMarginGroup* QCPLayoutElement::marginGroup (QCP::MarginSide side) const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPLayoutElement_1ac8d1139a81a1625860647e307ae2b733">
+                <title>QHash&lt;QCP::MarginSide, QCPMarginGroup*&gt; QCPLayoutElement::marginGroups () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPLayoutElement_1a38975ea13e36de8e53391ce41d94bc0f">
+                <title>void QCPLayoutElement::setOuterRect (const QRect &amp;rect)</title> <emphasis></emphasis>
+                
+<para>Sets the outer rect of this layout element. If the layout element is inside a layout, the layout sets the position and size of this layout element using this function.</para>
+
+<para>Calling this function externally has no effect, since the layout will overwrite any changes to the outer rect upon the next replot.</para>
+
+<para>The layout element will adapt its inner <link linkend="classQCPLayoutElement_1a208effccfe2cca4a0eaf9393e60f2dd4">rect</link> by applying the margins inward to the outer rect.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPLayoutElement_1a208effccfe2cca4a0eaf9393e60f2dd4">rect</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPLayoutElement_1a8f450b1f3f992ad576fce2c63d8b79cf">
+                <title>void QCPLayoutElement::setMargins (const QMargins &amp;margins)</title> <emphasis></emphasis>
+                
+<para>Sets the margins of this layout element. If <link linkend="classQCPLayoutElement_1accfda49994e3e6d51ed14504abf9d27d">setAutoMargins</link> is disabled for some or all sides, this function is used to manually set the margin on those sides. Sides that are still set to be handled automatically are ignored and may have any value in <emphasis>margins</emphasis>.</para>
+
+<para>The margin is the distance between the outer rect (controlled by the parent layout via <link linkend="classQCPLayoutElement_1a38975ea13e36de8e53391ce41d94bc0f">setOuterRect</link>) and the inner <link linkend="classQCPLayoutElement_1a208effccfe2cca4a0eaf9393e60f2dd4">rect</link> (which usually contains the main content of this layout element).</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPLayoutElement_1accfda49994e3e6d51ed14504abf9d27d">setAutoMargins</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPLayoutElement_1a0a8a17abc16b7923159fcc7608f94673">
+                <title>void QCPLayoutElement::setMinimumMargins (const QMargins &amp;margins)</title> <emphasis></emphasis>
+                
+<para>If <link linkend="classQCPLayoutElement_1accfda49994e3e6d51ed14504abf9d27d">setAutoMargins</link> is enabled on some or all margins, this function is used to provide minimum values for those margins.</para>
+
+<para>The minimum values are not enforced on margin sides that were set to be under manual control via <link linkend="classQCPLayoutElement_1accfda49994e3e6d51ed14504abf9d27d">setAutoMargins</link>.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPLayoutElement_1accfda49994e3e6d51ed14504abf9d27d">setAutoMargins</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPLayoutElement_1accfda49994e3e6d51ed14504abf9d27d">
+                <title>void QCPLayoutElement::setAutoMargins (QCP::MarginSides sides)</title> <emphasis></emphasis>
+                
+<para>Sets on which sides the margin shall be calculated automatically. If a side is calculated automatically, a minimum margin value may be provided with <link linkend="classQCPLayoutElement_1a0a8a17abc16b7923159fcc7608f94673">setMinimumMargins</link>. If a side is set to be controlled manually, the value may be specified with <link linkend="classQCPLayoutElement_1a8f450b1f3f992ad576fce2c63d8b79cf">setMargins</link>.</para>
+
+<para>Margin sides that are under automatic control may participate in a <link linkend="classQCPMarginGroup">QCPMarginGroup</link> (see <link linkend="classQCPLayoutElement_1a516e56f76b6bc100e8e71d329866847d">setMarginGroup</link>), to synchronize (align) it with other layout elements in the plot.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPLayoutElement_1a0a8a17abc16b7923159fcc7608f94673">setMinimumMargins</link>, <link linkend="classQCPLayoutElement_1a8f450b1f3f992ad576fce2c63d8b79cf">setMargins</link>, <link linkend="namespaceQCP_1a7e487e3e2ccb62ab7771065bab7cae54">QCP::MarginSide</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPLayoutElement_1a5dd29a3c8bc88440c97c06b67be7886b">
+                <title>void QCPLayoutElement::setMinimumSize (const QSize &amp;size)</title> <emphasis></emphasis>
+                
+<para>Sets the minimum size of this layout element. A parent layout tries to respect the <emphasis>size</emphasis> here by changing row/column sizes in the layout accordingly.</para>
+
+<para>If the parent layout size is not sufficient to satisfy all minimum size constraints of its child layout elements, the layout may set a size that is actually smaller than <emphasis>size</emphasis>. <link linkend="classQCustomPlot">QCustomPlot</link> propagates the layout&apos;s size constraints to the outside by setting its own minimum QWidget size accordingly, so violations of <emphasis>size</emphasis> should be exceptions.</para>
+
+<para>Whether this constraint applies to the inner or the outer rect can be specified with <link linkend="classQCPLayoutElement_1a361666cdcc6fbfd37344cc44be746b0f">setSizeConstraintRect</link> (see <link linkend="classQCPLayoutElement_1a208effccfe2cca4a0eaf9393e60f2dd4">rect</link> and <link linkend="classQCPLayoutElement_1a2a32a12a6161c9dffbadeb9cc585510c">outerRect</link>). </para>
+
+            </section>
+            <section xml:id="classQCPLayoutElement_1a8e0447614a0bf92de9a7304588c6b96e">
+                <title>void QCPLayoutElement::setMinimumSize (int width, int height)</title> <emphasis></emphasis>
+                
+<para>Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.</para>
+
+<para>Sets the minimum size of this layout element.</para>
+
+<para>Whether this constraint applies to the inner or the outer rect can be specified with <link linkend="classQCPLayoutElement_1a361666cdcc6fbfd37344cc44be746b0f">setSizeConstraintRect</link> (see <link linkend="classQCPLayoutElement_1a208effccfe2cca4a0eaf9393e60f2dd4">rect</link> and <link linkend="classQCPLayoutElement_1a2a32a12a6161c9dffbadeb9cc585510c">outerRect</link>). </para>
+
+            </section>
+            <section xml:id="classQCPLayoutElement_1a74eb5280a737ab44833d506db65efd95">
+                <title>void QCPLayoutElement::setMaximumSize (const QSize &amp;size)</title> <emphasis></emphasis>
+                
+<para>Sets the maximum size of this layout element. A parent layout tries to respect the <emphasis>size</emphasis> here by changing row/column sizes in the layout accordingly.</para>
+
+<para>Whether this constraint applies to the inner or the outer rect can be specified with <link linkend="classQCPLayoutElement_1a361666cdcc6fbfd37344cc44be746b0f">setSizeConstraintRect</link> (see <link linkend="classQCPLayoutElement_1a208effccfe2cca4a0eaf9393e60f2dd4">rect</link> and <link linkend="classQCPLayoutElement_1a2a32a12a6161c9dffbadeb9cc585510c">outerRect</link>). </para>
+
+            </section>
+            <section xml:id="classQCPLayoutElement_1a03e0e9c48f230217c529b0819f832d84">
+                <title>void QCPLayoutElement::setMaximumSize (int width, int height)</title> <emphasis></emphasis>
+                
+<para>Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.</para>
+
+<para>Sets the maximum size of this layout element.</para>
+
+<para>Whether this constraint applies to the inner or the outer rect can be specified with <link linkend="classQCPLayoutElement_1a361666cdcc6fbfd37344cc44be746b0f">setSizeConstraintRect</link> (see <link linkend="classQCPLayoutElement_1a208effccfe2cca4a0eaf9393e60f2dd4">rect</link> and <link linkend="classQCPLayoutElement_1a2a32a12a6161c9dffbadeb9cc585510c">outerRect</link>). </para>
+
+            </section>
+            <section xml:id="classQCPLayoutElement_1a361666cdcc6fbfd37344cc44be746b0f">
+                <title>void QCPLayoutElement::setSizeConstraintRect (SizeConstraintRect constraintRect)</title> <emphasis></emphasis>
+                
+<para>Sets to which rect of a layout element the size constraints apply. Size constraints can be set via <link linkend="classQCPLayoutElement_1a5dd29a3c8bc88440c97c06b67be7886b">setMinimumSize</link> and <link linkend="classQCPLayoutElement_1a74eb5280a737ab44833d506db65efd95">setMaximumSize</link>.</para>
+
+<para>The outer rect (<link linkend="classQCPLayoutElement_1a2a32a12a6161c9dffbadeb9cc585510c">outerRect</link>) includes the margins (e.g. in the case of a <link linkend="classQCPAxisRect">QCPAxisRect</link> the axis labels), whereas the inner rect (<link linkend="classQCPLayoutElement_1a208effccfe2cca4a0eaf9393e60f2dd4">rect</link>) does not.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPLayoutElement_1a5dd29a3c8bc88440c97c06b67be7886b">setMinimumSize</link>, <link linkend="classQCPLayoutElement_1a74eb5280a737ab44833d506db65efd95">setMaximumSize</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPLayoutElement_1a516e56f76b6bc100e8e71d329866847d">
+                <title>void QCPLayoutElement::setMarginGroup (QCP::MarginSides sides, QCPMarginGroup *group)</title> <emphasis></emphasis>
+                
+<para>Sets the margin <emphasis>group</emphasis> of the specified margin <emphasis>sides</emphasis>.</para>
+
+<para>Margin groups allow synchronizing specified margins across layout elements, see the documentation of <link linkend="classQCPMarginGroup">QCPMarginGroup</link>.</para>
+
+<para>To unset the margin group of <emphasis>sides</emphasis>, set <emphasis>group</emphasis> to 0.</para>
+
+<para>Note that margin groups only work for margin sides that are set to automatic (<link linkend="classQCPLayoutElement_1accfda49994e3e6d51ed14504abf9d27d">setAutoMargins</link>).</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="namespaceQCP_1a7e487e3e2ccb62ab7771065bab7cae54">QCP::MarginSide</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPLayoutElement_1a46789036c4fcb190fa374f91321d7c09">
+                <title>QSize QCPLayoutElement::minimumOuterSizeHint () const</title> <emphasis></emphasis>
+                
+<para>Returns the suggested minimum size this layout element (the <link linkend="classQCPLayoutElement_1a2a32a12a6161c9dffbadeb9cc585510c">outerRect</link>) may be compressed to, if no manual minimum size is set.</para>
+
+<para>if a minimum size (<link linkend="classQCPLayoutElement_1a5dd29a3c8bc88440c97c06b67be7886b">setMinimumSize</link>) was not set manually, parent layouts use the returned size (usually indirectly through <link linkend="classQCPLayout_1a864fddc84721f186663faf3683f1fa70">QCPLayout::getFinalMinimumOuterSize</link>) to determine the minimum allowed size of this layout element.</para>
+
+<para>A manual minimum size is considered set if it is non-zero.</para>
+
+<para>The default implementation simply returns the sum of the horizontal margins for the width and the sum of the vertical margins for the height. Reimplementations may use their detailed knowledge about the layout element&apos;s content to provide size hints. </para>
+
+            </section>
+            <section xml:id="classQCPLayoutElement_1ad96efb977a26e360e8a64a4c1e56456d">
+                <title>QSize QCPLayoutElement::maximumOuterSizeHint () const</title> <emphasis></emphasis>
+                
+<para>Returns the suggested maximum size this layout element (the <link linkend="classQCPLayoutElement_1a2a32a12a6161c9dffbadeb9cc585510c">outerRect</link>) may be expanded to, if no manual maximum size is set.</para>
+
+<para>if a maximum size (<link linkend="classQCPLayoutElement_1a74eb5280a737ab44833d506db65efd95">setMaximumSize</link>) was not set manually, parent layouts use the returned size (usually indirectly through <link linkend="classQCPLayout_1add49fd6843821a6126914b837ed52e22">QCPLayout::getFinalMaximumOuterSize</link>) to determine the maximum allowed size of this layout element.</para>
+
+<para>A manual maximum size is considered set if it is smaller than Qt&apos;s <computeroutput>QWIDGETSIZE_MAX</computeroutput>.</para>
+
+<para>The default implementation simply returns <computeroutput>QWIDGETSIZE_MAX</computeroutput> for both width and height, implying no suggested maximum size. Reimplementations may use their detailed knowledge about the layout element&apos;s content to provide size hints. </para>
+
+            </section>
+            <section xml:id="classQCPLayerable_1af0297b944b6192b6d67d00bff41b6b70">
+                <title>bool QCPLayerable::visible () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPLayerable_1a473edb813a4c1929d6b6a8fe3ff3faf7">
+                <title>QCustomPlot* QCPLayerable::parentPlot () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPLayerable_1aa78b7e644d2c519e1a9a6f2ac5fcd858">
+                <title>QCPLayerable * QCPLayerable::parentLayerable () const</title> <emphasis></emphasis>
+                
+<para>Returns the parent layerable of this layerable. The parent layerable is used to provide visibility hierarchies in conjunction with the method <link linkend="classQCPLayerable_1ab054e88f15d485defcb95e7376f119e7">realVisibility</link>. This way, layerables only get drawn if their parent layerables are visible, too.</para>
+
+<para>Note that a parent layerable is not necessarily also the QObject parent for memory management. Further, a layerable doesn&apos;t always have a parent layerable, so this function may return 0.</para>
+
+<para>A parent layerable is set implicitly when placed inside layout elements and doesn&apos;t need to be set manually by the user. </para>
+
+            </section>
+            <section xml:id="classQCPLayerable_1a5ff4862e8c784c9f5986dbc1533ba2a4">
+                <title>QCPLayer* QCPLayerable::layer () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPLayerable_1a71cbd212fde2703cee076e204a475709">
+                <title>bool QCPLayerable::antialiased () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPLayerable_1a3bed99ddc396b48ce3ebfdc0418744f8">
+                <title>void QCPLayerable::setVisible (bool on)</title> <emphasis></emphasis>
+                
+<para>Sets the visibility of this layerable object. If an object is not visible, it will not be drawn on the <link linkend="classQCustomPlot">QCustomPlot</link> surface, and user interaction with it (e.g. click and selection) is not possible. </para>
+
+            </section>
+            <section xml:id="classQCPLayerable_1ab0d0da6d2de45a118886d2c8e16d5a54">
+                <title>bool QCPLayerable::setLayer (QCPLayer *layer)</title> <emphasis></emphasis>
+                
+<para>Sets the <emphasis>layer</emphasis> of this layerable object. The object will be placed on top of the other objects already on <emphasis>layer</emphasis>.</para>
+
+<para>If <emphasis>layer</emphasis> is 0, this layerable will not be on any layer and thus not appear in the plot (or interact/receive events).</para>
+
+<para>Returns true if the layer of this layerable was successfully changed to <emphasis>layer</emphasis>. </para>
+
+            </section>
+            <section xml:id="classQCPLayerable_1ab25a0e7b897993b44447caee0f142083">
+                <title>bool QCPLayerable::setLayer (const QString &amp;layerName)</title> <emphasis></emphasis>
+                
+<para>Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados. Sets the layer of this layerable object by name</para>
+
+<para>Returns true on success, i.e. if <emphasis>layerName</emphasis> is a valid layer name. </para>
+
+            </section>
+            <section xml:id="classQCPLayerable_1a4fd43e89be4a553ead41652565ff0581">
+                <title>void QCPLayerable::setAntialiased (bool enabled)</title> <emphasis></emphasis>
+                
+<para>Sets whether this object will be drawn antialiased or not.</para>
+
+<para>Note that antialiasing settings may be overridden by <link linkend="classQCustomPlot_1af6f91e5eab1be85f67c556e98c3745e8">QCustomPlot::setAntialiasedElements</link> and <link linkend="classQCustomPlot_1ae10d685b5eabea2999fb8775ca173c24">QCustomPlot::setNotAntialiasedElements</link>. </para>
+
+            </section>
+            <section xml:id="classQCPLayerable_1ab054e88f15d485defcb95e7376f119e7">
+                <title>bool QCPLayerable::realVisibility () const</title> <emphasis></emphasis>
+                
+<para>Returns whether this layerable is visible, taking the visibility of the layerable parent and the visibility of this layerable&apos;s layer into account. This is the method that is consulted to decide whether a layerable shall be drawn or not.</para>
+
+<para>If this layerable has a direct layerable parent (usually set via hierarchies implemented in subclasses, like in the case of <link linkend="classQCPLayoutElement">QCPLayoutElement</link>), this function returns true only if this layerable has its visibility set to true and the parent layerable&apos;s <link linkend="classQCPLayerable_1ab054e88f15d485defcb95e7376f119e7">realVisibility</link> returns true. </para>
+
+            </section>
+            <section xml:id="classQCPLayout_1aeac66a292f65cf7f8adf94eb92345b3e">
+                <title>void QCPLayout::sizeConstraintsChanged () const</title> <emphasis></emphasis>
+                
+<para>Subclasses call this method to report changed (minimum/maximum) size constraints.</para>
+
+<para>If the parent of this layout is again a <link linkend="classQCPLayout">QCPLayout</link>, forwards the call to the parent&apos;s <link linkend="classQCPLayout_1aeac66a292f65cf7f8adf94eb92345b3e">sizeConstraintsChanged</link>. If the parent is a QWidget (i.e. is the <link linkend="classQCustomPlot_1af1a1f1f571237deb7c2bd34a5e9f018f">QCustomPlot::plotLayout</link> of <link linkend="classQCustomPlot">QCustomPlot</link>), calls QWidget::updateGeometry, so if the <link linkend="classQCustomPlot">QCustomPlot</link> widget is inside a Qt QLayout, it may update itself and resize cells accordingly. </para>
+
+            </section>
+            <section xml:id="classQCPLayout_1af6dbbc24156a808da29cd1ec031729a3">
+                <title>void QCPLayout::adoptElement (QCPLayoutElement *el)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPLayout_1a4afbb4bef0071f72f91afdac4433a18e">
+                <title>void QCPLayout::releaseElement (QCPLayoutElement *el)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPLayout_1a3e77be8006d39f2aafc1313d6e8fc3fd">
+                <title>QVector&lt; int &gt; QCPLayout::getSectionSizes (QVector&lt; int &gt; maxSizes, QVector&lt; int &gt; minSizes, QVector&lt; double &gt; stretchFactors, int totalSize) const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPLayoutElement_1a005c9f0fe84bc1591a2cf2c46fd477b4">
+                <title>int QCPLayoutElement::calculateAutoMargin (QCP::MarginSide side)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPLayoutElement_1a765f041a73af0c2de41b41a5a03e31a4">
+                <title>void QCPLayoutElement::layoutChanged ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPLayoutElement_1a0a8f18141bcf46cf40ad4c13324ff346">
+                <title>virtual void QCPLayoutElement::applyDefaultAntialiasingHint (QCPPainter *painter) const Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPLayoutElement_1ad1c597b1d608cfdd86e7b76819a94cfb">
+                <title>virtual void QCPLayoutElement::draw (QCPPainter *painter) Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPLayoutElement_1ab4bb5c5a958451f5f153fdce350f13cf">
+                <title>void QCPLayoutElement::parentPlotInitialized (QCustomPlot *parentPlot) Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPLayerable_1a908c9edda761886f33893be326dab77d">
+                <title>QCP::Interaction QCPLayerable::selectionCategory () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPLayerable_1acbcfc9ecc75433747b1978a77b1864b3">
+                <title>QRect QCPLayerable::clipRect () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPLayerable_1a7498c2d0d081cf7cad0fb3bb93aa0e91">
+                <title>void QCPLayerable::selectEvent (QMouseEvent *event, bool additive, const QVariant &amp;details, bool *selectionStateChanged)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPLayerable_1ae546370644a5551c76af739afc008bee">
+                <title>void QCPLayerable::deselectEvent (bool *selectionStateChanged)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPLayerable_1af6567604818db90f4fd52822f8bc8376">
+                <title>void QCPLayerable::mousePressEvent (QMouseEvent *event, const QVariant &amp;details)</title> <emphasis></emphasis>
+                
+<para>This event gets called when the user presses a mouse button while the cursor is over the layerable. Whether a cursor is over the layerable is decided by a preceding call to <link linkend="classQCPLayerable_1a04db8351fefd44cfdb77958e75c6288e">selectTest</link>.</para>
+
+<para>The current pixel position of the cursor on the <link linkend="classQCustomPlot">QCustomPlot</link> widget is accessible via <computeroutput>event-&gt;pos()</computeroutput>. The parameter <emphasis>details</emphasis> contains layerable-specific details about the hit, which were generated in the previous call to <link linkend="classQCPLayerable_1a04db8351fefd44cfdb77958e75c6288e">selectTest</link>. For example, One-dimensional plottables like <link linkend="classQCPGraph">QCPGraph</link> or <link linkend="classQCPBars">QCPBars</link> convey the clicked data point in the <emphasis>details</emphasis> parameter, as <link linkend="classQCPDataSelection">QCPDataSelection</link> packed as QVariant. Multi-part objects convey the specific <computeroutput>SelectablePart</computeroutput> that was hit (e.g. <link linkend="classQCPAxis_1abee4c7a54c468b1385dfce2c898b115f">QCPAxis::SelectablePart</link> in the case of axes).</para>
+
+<para><link linkend="classQCustomPlot">QCustomPlot</link> uses an event propagation system that works the same as Qt&apos;s system. If your layerable doesn&apos;t reimplement the <link linkend="classQCPLayerable_1af6567604818db90f4fd52822f8bc8376">mousePressEvent</link> or explicitly calls <computeroutput>event-&gt;ignore()</computeroutput> in its reimplementation, the event will be propagated to the next layerable in the stacking order.</para>
+
+<para>Once a layerable has accepted the <link linkend="classQCPLayerable_1af6567604818db90f4fd52822f8bc8376">mousePressEvent</link>, it is considered the mouse grabber and will receive all following calls to <link linkend="classQCPLayerable_1a9eee1ba47fd69be111059ca3881933e4">mouseMoveEvent</link> or <link linkend="classQCPLayerable_1aa0d79b005686f668622bbe66ac03ba2c">mouseReleaseEvent</link> for this mouse interaction (a &quot;mouse interaction&quot; in this context ends with the release).</para>
+
+<para>The default implementation does nothing except explicitly ignoring the event with <computeroutput>event-&gt;ignore()</computeroutput>.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPLayerable_1a9eee1ba47fd69be111059ca3881933e4">mouseMoveEvent</link>, <link linkend="classQCPLayerable_1aa0d79b005686f668622bbe66ac03ba2c">mouseReleaseEvent</link>, <link linkend="classQCPLayerable_1a4171e2e823aca242dd0279f00ed2de81">mouseDoubleClickEvent</link>, <link linkend="classQCPLayerable_1a47dfd7b8fd99c08ca54e09c362b6f022">wheelEvent</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPLayerable_1a9eee1ba47fd69be111059ca3881933e4">
+                <title>void QCPLayerable::mouseMoveEvent (QMouseEvent *event, const QPointF &amp;startPos)</title> <emphasis></emphasis>
+                
+<para>This event gets called when the user moves the mouse while holding a mouse button, after this layerable has become the mouse grabber by accepting the preceding <link linkend="classQCPLayerable_1af6567604818db90f4fd52822f8bc8376">mousePressEvent</link>.</para>
+
+<para>The current pixel position of the cursor on the <link linkend="classQCustomPlot">QCustomPlot</link> widget is accessible via <computeroutput>event-&gt;pos()</computeroutput>. The parameter <emphasis>startPos</emphasis> indicates the position where the initial <link linkend="classQCPLayerable_1af6567604818db90f4fd52822f8bc8376">mousePressEvent</link> occured, that started the mouse interaction.</para>
+
+<para>The default implementation does nothing.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPLayerable_1af6567604818db90f4fd52822f8bc8376">mousePressEvent</link>, <link linkend="classQCPLayerable_1aa0d79b005686f668622bbe66ac03ba2c">mouseReleaseEvent</link>, <link linkend="classQCPLayerable_1a4171e2e823aca242dd0279f00ed2de81">mouseDoubleClickEvent</link>, <link linkend="classQCPLayerable_1a47dfd7b8fd99c08ca54e09c362b6f022">wheelEvent</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPLayerable_1aa0d79b005686f668622bbe66ac03ba2c">
+                <title>void QCPLayerable::mouseReleaseEvent (QMouseEvent *event, const QPointF &amp;startPos)</title> <emphasis></emphasis>
+                
+<para>This event gets called when the user releases the mouse button, after this layerable has become the mouse grabber by accepting the preceding <link linkend="classQCPLayerable_1af6567604818db90f4fd52822f8bc8376">mousePressEvent</link>.</para>
+
+<para>The current pixel position of the cursor on the <link linkend="classQCustomPlot">QCustomPlot</link> widget is accessible via <computeroutput>event-&gt;pos()</computeroutput>. The parameter <emphasis>startPos</emphasis> indicates the position where the initial <link linkend="classQCPLayerable_1af6567604818db90f4fd52822f8bc8376">mousePressEvent</link> occured, that started the mouse interaction.</para>
+
+<para>The default implementation does nothing.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPLayerable_1af6567604818db90f4fd52822f8bc8376">mousePressEvent</link>, <link linkend="classQCPLayerable_1a9eee1ba47fd69be111059ca3881933e4">mouseMoveEvent</link>, <link linkend="classQCPLayerable_1a4171e2e823aca242dd0279f00ed2de81">mouseDoubleClickEvent</link>, <link linkend="classQCPLayerable_1a47dfd7b8fd99c08ca54e09c362b6f022">wheelEvent</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPLayerable_1a4171e2e823aca242dd0279f00ed2de81">
+                <title>void QCPLayerable::mouseDoubleClickEvent (QMouseEvent *event, const QVariant &amp;details)</title> <emphasis></emphasis>
+                
+<para>This event gets called when the user presses the mouse button a second time in a double-click, while the cursor is over the layerable. Whether a cursor is over the layerable is decided by a preceding call to <link linkend="classQCPLayerable_1a04db8351fefd44cfdb77958e75c6288e">selectTest</link>.</para>
+
+<para>The <link linkend="classQCPLayerable_1a4171e2e823aca242dd0279f00ed2de81">mouseDoubleClickEvent</link> is called instead of the second <link linkend="classQCPLayerable_1af6567604818db90f4fd52822f8bc8376">mousePressEvent</link>. So in the case of a double-click, the event succession is <emphasis>pressEvent &#8211; releaseEvent &#8211; doubleClickEvent &#8211; releaseEvent</emphasis>.</para>
+
+<para>The current pixel position of the cursor on the <link linkend="classQCustomPlot">QCustomPlot</link> widget is accessible via <computeroutput>event-&gt;pos()</computeroutput>. The parameter <emphasis>details</emphasis> contains layerable-specific details about the hit, which were generated in the previous call to <link linkend="classQCPLayerable_1a04db8351fefd44cfdb77958e75c6288e">selectTest</link>. For example, One-dimensional plottables like <link linkend="classQCPGraph">QCPGraph</link> or <link linkend="classQCPBars">QCPBars</link> convey the clicked data point in the <emphasis>details</emphasis> parameter, as <link linkend="classQCPDataSelection">QCPDataSelection</link> packed as QVariant. Multi-part objects convey the specific <computeroutput>SelectablePart</computeroutput> that was hit (e.g. <link linkend="classQCPAxis_1abee4c7a54c468b1385dfce2c898b115f">QCPAxis::SelectablePart</link> in the case of axes).</para>
+
+<para>Similarly to <link linkend="classQCPLayerable_1af6567604818db90f4fd52822f8bc8376">mousePressEvent</link>, once a layerable has accepted the <link linkend="classQCPLayerable_1a4171e2e823aca242dd0279f00ed2de81">mouseDoubleClickEvent</link>, it is considered the mouse grabber and will receive all following calls to <link linkend="classQCPLayerable_1a9eee1ba47fd69be111059ca3881933e4">mouseMoveEvent</link> and <link linkend="classQCPLayerable_1aa0d79b005686f668622bbe66ac03ba2c">mouseReleaseEvent</link> for this mouse interaction (a &quot;mouse interaction&quot; in this context ends with the release).</para>
+
+<para>The default implementation does nothing except explicitly ignoring the event with <computeroutput>event-&gt;ignore()</computeroutput>.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPLayerable_1af6567604818db90f4fd52822f8bc8376">mousePressEvent</link>, <link linkend="classQCPLayerable_1a9eee1ba47fd69be111059ca3881933e4">mouseMoveEvent</link>, <link linkend="classQCPLayerable_1aa0d79b005686f668622bbe66ac03ba2c">mouseReleaseEvent</link>, <link linkend="classQCPLayerable_1a47dfd7b8fd99c08ca54e09c362b6f022">wheelEvent</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPLayerable_1a47dfd7b8fd99c08ca54e09c362b6f022">
+                <title>void QCPLayerable::wheelEvent (QWheelEvent *event)</title> <emphasis></emphasis>
+                
+<para>This event gets called when the user turns the mouse scroll wheel while the cursor is over the layerable. Whether a cursor is over the layerable is decided by a preceding call to <link linkend="classQCPLayerable_1a04db8351fefd44cfdb77958e75c6288e">selectTest</link>.</para>
+
+<para>The current pixel position of the cursor on the <link linkend="classQCustomPlot">QCustomPlot</link> widget is accessible via <computeroutput>event-&gt;pos()</computeroutput>.</para>
+
+<para>The <computeroutput>event-&gt;delta()</computeroutput> indicates how far the mouse wheel was turned, which is usually +/- 120 for single rotation steps. However, if the mouse wheel is turned rapidly, multiple steps may accumulate to one event, making <computeroutput>event-&gt;delta()</computeroutput> larger. On the other hand, if the wheel has very smooth steps or none at all, the delta may be smaller.</para>
+
+<para>The default implementation does nothing.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPLayerable_1af6567604818db90f4fd52822f8bc8376">mousePressEvent</link>, <link linkend="classQCPLayerable_1a9eee1ba47fd69be111059ca3881933e4">mouseMoveEvent</link>, <link linkend="classQCPLayerable_1aa0d79b005686f668622bbe66ac03ba2c">mouseReleaseEvent</link>, <link linkend="classQCPLayerable_1a4171e2e823aca242dd0279f00ed2de81">mouseDoubleClickEvent</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPLayerable_1a8cbe5a0c9a5674249982f5ca5f8e02bc">
+                <title>void QCPLayerable::initializeParentPlot (QCustomPlot *parentPlot)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPLayerable_1aa23c893671f1f6744ac235cf2204cf3a">
+                <title>void QCPLayerable::setParentLayerable (QCPLayerable *parentLayerable)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPLayerable_1af94484cfb7cbbddb7de522e9be71d9a4">
+                <title>bool QCPLayerable::moveToLayer (QCPLayer *layer, bool prepend)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPLayerable_1acb663e375d2d36dc5c55021ee5a2119b">
+                <title>void QCPLayerable::applyAntialiasingHint (QCPPainter *painter, bool localAntialiased, QCP::AntialiasedElement overrideElement) const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPLayout_1a864fddc84721f186663faf3683f1fa70">
+                <title>QSize QCPLayout::getFinalMinimumOuterSize (const QCPLayoutElement *el)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPLayout_1add49fd6843821a6126914b837ed52e22">
+                <title>QSize QCPLayout::getFinalMaximumOuterSize (const QCPLayoutElement *el)</title> <emphasis></emphasis>
+                
+            </section>
+</section>

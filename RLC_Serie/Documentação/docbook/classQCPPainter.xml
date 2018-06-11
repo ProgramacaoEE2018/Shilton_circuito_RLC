@@ -1,0 +1,418 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="classQCPPainter">
+<title>QCPPainter class Reference</title>
+<para>
+    <programlisting>#include <link linkend="qcustomplot_8h">&lt;qcustomplot.h&gt;</link></programlisting>
+</para>
+<para>Inheritance diagram for QCPPainter</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="classQCPPainter__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for QCPPainter</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="classQCPPainter__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                            <para><literallayout>enum <link linkend="classQCPPainter_1a156cf16444ff5e0d81a73c615fdb156d">PainterMode</link> {
+<link linkend="classQCPPainter_1a156cf16444ff5e0d81a73c615fdb156da3bac5e87e3d58553b297befb4eee2a45">pmDefault</link>= 0x00,
+<link linkend="classQCPPainter_1a156cf16444ff5e0d81a73c615fdb156daeda679cd55dcd468341d07d48a30b6ab">pmVectorized</link>= 0x01,
+<link linkend="classQCPPainter_1a156cf16444ff5e0d81a73c615fdb156dae78f9a4eb277a5f9207f50850a51a0b0">pmNoCaching</link>= 0x02,
+<link linkend="classQCPPainter_1a156cf16444ff5e0d81a73c615fdb156dac1e481bfaf408f2bd2eaad3ec341f36b">pmNonCosmetic</link>= 0x04
+}</literallayout>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title>Atributos Protegidos</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>PainterModes mModes</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool mIsAntialiasing</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QStack&lt; bool &gt; mAntialiasingStack</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="classQCPPainter_1a3c52cb0f43f34573d29bea487da28fe8">QCPPainter</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="classQCPPainter_1ae58dbb1795ddc4351ab324dc9898aa22">QCPPainter</link> (
+QPaintDevice * device)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="classQCPPainter_1a5aff96296e995f6f35b2596a482aae37">antialiasing</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>PainterModes <link linkend="classQCPPainter_1aef102658219b24165f7ee2aad1b9e48f">modes</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPPainter_1aaba1deb9188244d9ea65b035112b4d05">setAntialiasing</link> (
+bool enabled)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPPainter_1af6b1f7d2bbc548b10aa55d8b6ad49577">setMode</link> (
+<link linkend="classQCPPainter_1a156cf16444ff5e0d81a73c615fdb156d">PainterMode</link> mode, bool enabled)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPPainter_1a5fac93adc29c7c4dea9f3e171e9e635e">setModes</link> (
+PainterModes modes)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="classQCPPainter_1a0a41146ccd619dceab6e25ec7b46b044">begin</link> (
+QPaintDevice * device)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPPainter_1af9c7a4cd1791403901f8c5b82a150195">setPen</link> (
+const QPen &amp; pen)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPPainter_1a5c4d88f21564e156e88ef807f7cf0003">setPen</link> (
+const QColor &amp; color)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPPainter_1a25e76095aae41da0d08035060e5f81ca">setPen</link> (
+Qt::PenStyle penStyle)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPPainter_1a0b4b1b9bd495e182c731774dc800e6e0">drawLine</link> (
+const QLineF &amp; line)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPPainter_1ad1638db27929491b3f1beb74d6cbad5e">drawLine</link> (
+const QPointF &amp; p1, const QPointF &amp; p2)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPPainter_1a8fd6821ee6fecbfa04444c9062912abd">save</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPPainter_1a64908e6298d5bbd83457dc987cc3a022">restore</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPPainter_1a7e63fbcf47e35c6f2ecd11b8fef7c7d8">makeNonCosmetic</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+    <simplesect>
+
+<para>QPainter subclass used internally. </para>
+    </simplesect>
+        <simplesect>
+            <title>Descrição detalhada</title>
+
+<para>This QPainter subclass is used to provide some extended functionality e.g. for tweaking position consistency between antialiased and non-antialiased painting. Further it provides workarounds for QPainter quirks.</para>
+
+<para><formalpara><title>Aviso: </title>
+
+<para>This class intentionally hides non-virtual functions of QPainter, e.g. setPen, save and restore. So while it is possible to pass a <link linkend="classQCPPainter">QCPPainter</link> instance to a function that expects a QPainter pointer, some of the workarounds and tweaks will be unavailable to the function (because it will call the base class implementations of the functions actually hidden by <link linkend="classQCPPainter">QCPPainter</link>). </para>
+</formalpara>
+</para>
+                <para>Definition at line 457 of file qcustomplot.h</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>qcustomplot.h</para></listitem></itemizedlist></para>
+        </simplesect>
+            <section xml:id="classQCPPainter_1a156cf16444ff5e0d81a73c615fdb156d">
+               <title>enum PainterMode </title>
+               
+<para>Defines special modes the painter can operate in. They disable or enable certain subsets of features/fixes/workarounds, depending on whether they are wanted on the respective output device. </para>
+
+               <formalpara>
+                    <title>Enumeradores:</title>
+                    <variablelist>
+                        <varlistentry xml:id="classQCPPainter_1a156cf16444ff5e0d81a73c615fdb156da3bac5e87e3d58553b297befb4eee2a45">
+                            <term>pmDefault</term>
+                            <listitem>
+                                <para>&lt;tt&gt;0x00&lt;/tt&gt; Default mode for painting on screen devices</para>
+                            </listitem>
+                        </varlistentry>
+                        <varlistentry xml:id="classQCPPainter_1a156cf16444ff5e0d81a73c615fdb156daeda679cd55dcd468341d07d48a30b6ab">
+                            <term>pmVectorized</term>
+                            <listitem>
+                                <para>&lt;tt&gt;0x01&lt;/tt&gt; Mode for vectorized painting (e.g. PDF export). For example, this prevents some antialiasing fixes.</para>
+                            </listitem>
+                        </varlistentry>
+                        <varlistentry xml:id="classQCPPainter_1a156cf16444ff5e0d81a73c615fdb156dae78f9a4eb277a5f9207f50850a51a0b0">
+                            <term>pmNoCaching</term>
+                            <listitem>
+                                <para>&lt;tt&gt;0x02&lt;/tt&gt; Mode for all sorts of exports (e.g. PNG, PDF,...). For example, this prevents using cached pixmap labels</para>
+                            </listitem>
+                        </varlistentry>
+                        <varlistentry xml:id="classQCPPainter_1a156cf16444ff5e0d81a73c615fdb156dac1e481bfaf408f2bd2eaad3ec341f36b">
+                            <term>pmNonCosmetic</term>
+                            <listitem>
+                                <para>&lt;tt&gt;0x04&lt;/tt&gt; Turns pen widths 0 to 1, i.e. disables cosmetic pens. (A cosmetic pen is always drawn with width 1 pixel in the vector image/pdf viewer, independent of zoom.)</para>
+                            </listitem>
+                        </varlistentry>
+                     </variablelist>
+                </formalpara>
+                <para>Definition at line 464 of file qcustomplot.h
+                    <computeroutput><literallayout>
+{
+pmDefault= 0x00, 
+pmVectorized= 0x01, 
+pmNoCaching= 0x02, 
+pmNonCosmetic= 0x04, 
+}PainterMode;
+                    </literallayout></computeroutput>
+                </para>
+            </section>
+        <section>
+            <title>Atributos</title>
+        </section>
+            <section xml:id="classQCPPainter_1a3c52cb0f43f34573d29bea487da28fe8">
+                <title>QCPPainter::QCPPainter ()</title> <emphasis></emphasis>
+                
+<para>Creates a new <link linkend="classQCPPainter">QCPPainter</link> instance and sets default values </para>
+
+            </section>
+            <section xml:id="classQCPPainter_1ae58dbb1795ddc4351ab324dc9898aa22">
+                <title>QCPPainter::QCPPainter (QPaintDevice *device)</title> <emphasis></emphasis>
+                
+<para>Creates a new <link linkend="classQCPPainter">QCPPainter</link> instance on the specified paint <emphasis>device</emphasis> and sets default values. Just like the analogous QPainter constructor, begins painting on <emphasis>device</emphasis> immediately.</para>
+
+<para>Like <link linkend="classQCPPainter_1a0a41146ccd619dceab6e25ec7b46b044">begin</link>, this method sets QPainter::NonCosmeticDefaultPen in Qt versions before Qt5. </para>
+
+            </section>
+            <section xml:id="classQCPPainter_1a5aff96296e995f6f35b2596a482aae37">
+                <title>bool QCPPainter::antialiasing () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPPainter_1aef102658219b24165f7ee2aad1b9e48f">
+                <title>PainterModes QCPPainter::modes () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPPainter_1aaba1deb9188244d9ea65b035112b4d05">
+                <title>void QCPPainter::setAntialiasing (bool enabled)</title> <emphasis></emphasis>
+                
+<para>Sets whether painting uses antialiasing or not. Use this method instead of using setRenderHint with QPainter::Antialiasing directly, as it allows <link linkend="classQCPPainter">QCPPainter</link> to regain pixel exactness between antialiased and non-antialiased painting (Since Qt &lt; 5.0 uses slightly different coordinate systems for AA/Non-AA painting). </para>
+
+            </section>
+            <section xml:id="classQCPPainter_1af6b1f7d2bbc548b10aa55d8b6ad49577">
+                <title>void QCPPainter::setMode (PainterMode mode, bool enabled=true)</title> <emphasis></emphasis>
+                
+<para>Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.</para>
+
+<para>Sets the mode of the painter. This controls whether the painter shall adjust its fixes/workarounds optimized for certain output devices. </para>
+
+            </section>
+            <section xml:id="classQCPPainter_1a5fac93adc29c7c4dea9f3e171e9e635e">
+                <title>void QCPPainter::setModes (PainterModes modes)</title> <emphasis></emphasis>
+                
+<para>Sets the mode of the painter. This controls whether the painter shall adjust its fixes/workarounds optimized for certain output devices. </para>
+
+            </section>
+            <section xml:id="classQCPPainter_1a0a41146ccd619dceab6e25ec7b46b044">
+                <title>bool QCPPainter::begin (QPaintDevice *device)</title> <emphasis></emphasis>
+                
+<para>Sets the QPainter::NonCosmeticDefaultPen in Qt versions before Qt5 after beginning painting on <emphasis>device</emphasis>. This is necessary to get cosmetic pen consistency across Qt versions, because since Qt5, all pens are non-cosmetic by default, and in Qt4 this render hint must be set to get that behaviour.</para>
+
+<para>The Constructor <link linkend="classQCPPainter_1ae58dbb1795ddc4351ab324dc9898aa22">QCPPainter(QPaintDevice *device)</link> which directly starts painting also sets the render hint as appropriate.</para>
+
+<para><formalpara><title>Observação: </title>
+
+<para>this function hides the non-virtual base class implementation. </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPPainter_1af9c7a4cd1791403901f8c5b82a150195">
+                <title>void QCPPainter::setPen (const QPen &amp;pen)</title> <emphasis></emphasis>
+                
+<para>Sets the pen of the painter and applies certain fixes to it, depending on the mode of this <link linkend="classQCPPainter">QCPPainter</link>.</para>
+
+<para><formalpara><title>Observação: </title>
+
+<para>this function hides the non-virtual base class implementation. </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPPainter_1a5c4d88f21564e156e88ef807f7cf0003">
+                <title>void QCPPainter::setPen (const QColor &amp;color)</title> <emphasis></emphasis>
+                
+<para>Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.</para>
+
+<para>Sets the pen (by color) of the painter and applies certain fixes to it, depending on the mode of this <link linkend="classQCPPainter">QCPPainter</link>.</para>
+
+<para><formalpara><title>Observação: </title>
+
+<para>this function hides the non-virtual base class implementation. </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPPainter_1a25e76095aae41da0d08035060e5f81ca">
+                <title>void QCPPainter::setPen (Qt::PenStyle penStyle)</title> <emphasis></emphasis>
+                
+<para>Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.</para>
+
+<para>Sets the pen (by style) of the painter and applies certain fixes to it, depending on the mode of this <link linkend="classQCPPainter">QCPPainter</link>.</para>
+
+<para><formalpara><title>Observação: </title>
+
+<para>this function hides the non-virtual base class implementation. </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPPainter_1a0b4b1b9bd495e182c731774dc800e6e0">
+                <title>void QCPPainter::drawLine (const QLineF &amp;line)</title> <emphasis></emphasis>
+                
+<para>Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.</para>
+
+<para>Works around a Qt bug introduced with Qt 4.8 which makes drawing QLineF unpredictable when antialiasing is disabled. Thus when antialiasing is disabled, it rounds the <emphasis>line</emphasis> to integer coordinates and then passes it to the original drawLine.</para>
+
+<para><formalpara><title>Observação: </title>
+
+<para>this function hides the non-virtual base class implementation. </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPPainter_1ad1638db27929491b3f1beb74d6cbad5e">
+                <title>void QCPPainter::drawLine (const QPointF &amp;p1, const QPointF &amp;p2)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPPainter_1a8fd6821ee6fecbfa04444c9062912abd">
+                <title>void QCPPainter::save ()</title> <emphasis></emphasis>
+                
+<para>Saves the painter (see QPainter::save). Since <link linkend="classQCPPainter">QCPPainter</link> adds some new internal state to QPainter, the save/restore functions are reimplemented to also save/restore those members.</para>
+
+<para><formalpara><title>Observação: </title>
+
+<para>this function hides the non-virtual base class implementation.</para>
+</formalpara>
+<formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPPainter_1a64908e6298d5bbd83457dc987cc3a022">restore</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPPainter_1a64908e6298d5bbd83457dc987cc3a022">
+                <title>void QCPPainter::restore ()</title> <emphasis></emphasis>
+                
+<para>Restores the painter (see QPainter::restore). Since <link linkend="classQCPPainter">QCPPainter</link> adds some new internal state to QPainter, the save/restore functions are reimplemented to also save/restore those members.</para>
+
+<para><formalpara><title>Observação: </title>
+
+<para>this function hides the non-virtual base class implementation.</para>
+</formalpara>
+<formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPPainter_1a8fd6821ee6fecbfa04444c9062912abd">save</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPPainter_1a7e63fbcf47e35c6f2ecd11b8fef7c7d8">
+                <title>void QCPPainter::makeNonCosmetic ()</title> <emphasis></emphasis>
+                
+<para>Changes the pen width to 1 if it currently is 0. This function is called in the <link linkend="classQCPPainter_1af9c7a4cd1791403901f8c5b82a150195">setPen</link> overrides when the <link linkend="classQCPPainter_1a156cf16444ff5e0d81a73c615fdb156dac1e481bfaf408f2bd2eaad3ec341f36b">pmNonCosmetic</link> mode is set. </para>
+
+            </section>
+</section>

@@ -1,0 +1,228 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="classQCPItemAnchor">
+<title>QCPItemAnchor class Reference</title>
+<para>
+    <programlisting>#include <link linkend="qcustomplot_8h">&lt;qcustomplot.h&gt;</link></programlisting>
+</para>
+<para>Inheritance diagram for QCPItemAnchor</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="classQCPItemAnchor__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for QCPItemAnchor</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="classQCPItemAnchor__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title>Atributos Protegidos</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QString mName</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QCustomPlot * mParentPlot</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QCPAbstractItem * mParentItem</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>int mAnchorId</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QSet&lt; QCPItemPosition * &gt; mChildrenX</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QSet&lt; QCPItemPosition * &gt; mChildrenY</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="classQCPItemAnchor_1a32573023c6fa65b4496f1f995e5bfa5f">QCPItemAnchor</link> (
+<link linkend="classQCustomPlot">QCustomPlot</link> * parentPlot, <link linkend="classQCPAbstractItem">QCPAbstractItem</link> * parentItem, const QString &amp; name, int anchorId)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual <link linkend="classQCPItemAnchor_1a1868559407600688ee4d1a4621e81ceb">~QCPItemAnchor</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QString <link linkend="classQCPItemAnchor_1aad37cdf5a3f63428f61be739014e212e">name</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual QPointF <link linkend="classQCPItemAnchor_1a06dcfb7220d26eee93eef56ae66582cb">pixelPosition</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual <link linkend="classQCPItemPosition">QCPItemPosition</link> * <link linkend="classQCPItemAnchor_1ac54b20120669950255a63587193dbb86">toQCPItemPosition</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPItemAnchor_1aef15daa640debfb11b0aeaa2116c6fbc">addChildX</link> (
+<link linkend="classQCPItemPosition">QCPItemPosition</link> * pos)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPItemAnchor_1a230b1d494cda63458e289bbe1b642599">removeChildX</link> (
+<link linkend="classQCPItemPosition">QCPItemPosition</link> * pos)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPItemAnchor_1af05dc56f24536f0c7a9a0f57b58cea67">addChildY</link> (
+<link linkend="classQCPItemPosition">QCPItemPosition</link> * pos)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPItemAnchor_1aa2394911d8fff3bd958b9f4f1994b64d">removeChildY</link> (
+<link linkend="classQCPItemPosition">QCPItemPosition</link> * pos)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+    <simplesect>
+
+<para>An anchor of an item to which positions can be attached to. </para>
+    </simplesect>
+        <simplesect>
+            <title>Descrição detalhada</title>
+
+<para>An item (<link linkend="classQCPAbstractItem">QCPAbstractItem</link>) may have one or more anchors. Unlike <link linkend="classQCPItemPosition">QCPItemPosition</link>, an anchor doesn&apos;t control anything on its item, but provides a way to tie other items via their positions to the anchor.</para>
+
+<para>For example, a <link linkend="classQCPItemRect">QCPItemRect</link> is defined by its positions <emphasis>topLeft</emphasis> and <emphasis>bottomRight</emphasis>. Additionally it has various anchors like <emphasis>top</emphasis>, <emphasis>topRight</emphasis> or <emphasis>bottomLeft</emphasis> etc. So you can attach the <emphasis>start</emphasis> (which is a <link linkend="classQCPItemPosition">QCPItemPosition</link>) of a <link linkend="classQCPItemLine">QCPItemLine</link> to one of the anchors by calling <link linkend="classQCPItemPosition_1ac094d67a95d2dceafa0d50b9db3a7e51">QCPItemPosition::setParentAnchor</link> on <emphasis>start</emphasis>, passing the wanted anchor of the <link linkend="classQCPItemRect">QCPItemRect</link>. This way the start of the line will now always follow the respective anchor location on the rect item.</para>
+
+<para>Note that <link linkend="classQCPItemPosition">QCPItemPosition</link> derives from <link linkend="classQCPItemAnchor">QCPItemAnchor</link>, so every position can also serve as an anchor to other positions.</para>
+
+<para>To learn how to provide anchors in your own item subclasses, see the subclassing section of the <link linkend="classQCPAbstractItem">QCPAbstractItem</link> documentation. </para>
+                <para>Definition at line 3398 of file qcustomplot.h</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>qcustomplot.h</para></listitem></itemizedlist></para>
+        </simplesect>
+        <section>
+            <title>Atributos</title>
+        </section>
+            <section xml:id="classQCPItemAnchor_1a32573023c6fa65b4496f1f995e5bfa5f">
+                <title>QCPItemAnchor::QCPItemAnchor (QCustomPlot *parentPlot, QCPAbstractItem *parentItem, const QString &amp;name, int anchorId=-1)</title> <emphasis></emphasis>
+                
+<para>Creates a new <link linkend="classQCPItemAnchor">QCPItemAnchor</link>. You shouldn&apos;t create <link linkend="classQCPItemAnchor">QCPItemAnchor</link> instances directly, even if you want to make a new item subclass. Use <link linkend="classQCPAbstractItem_1af3fc92527802078ca395138748b629a7">QCPAbstractItem::createAnchor</link> instead, as explained in the subclassing section of the <link linkend="classQCPAbstractItem">QCPAbstractItem</link> documentation. </para>
+
+            </section>
+            <section xml:id="classQCPItemAnchor_1a1868559407600688ee4d1a4621e81ceb">
+                <title>QCPItemAnchor::~QCPItemAnchor ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPItemAnchor_1aad37cdf5a3f63428f61be739014e212e">
+                <title>QString QCPItemAnchor::name () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPItemAnchor_1a06dcfb7220d26eee93eef56ae66582cb">
+                <title>QPointF QCPItemAnchor::pixelPosition () const</title> <emphasis></emphasis>
+                
+<para>Returns the final absolute pixel position of the <link linkend="classQCPItemAnchor">QCPItemAnchor</link> on the <link linkend="classQCustomPlot">QCustomPlot</link> surface.</para>
+
+<para>The pixel information is internally retrieved via <link linkend="classQCPAbstractItem_1ada5bad4e1196c4fc0d0d12328e24b8f2">QCPAbstractItem::anchorPixelPosition</link> of the parent item, <link linkend="classQCPItemAnchor">QCPItemAnchor</link> is just an intermediary. </para>
+
+            </section>
+            <section xml:id="classQCPItemAnchor_1ac54b20120669950255a63587193dbb86">
+                <title>QCPItemPosition * QCPItemAnchor::toQCPItemPosition ()</title> <emphasis></emphasis>
+                
+<para>Returns 0 if this instance is merely a <link linkend="classQCPItemAnchor">QCPItemAnchor</link>, and a valid pointer of type QCPItemPosition* if it actually is a <link linkend="classQCPItemPosition">QCPItemPosition</link> (which is a subclass of <link linkend="classQCPItemAnchor">QCPItemAnchor</link>).</para>
+
+<para>This safe downcast functionality could also be achieved with a dynamic_cast. However, <link linkend="classQCustomPlot">QCustomPlot</link> avoids dynamic_cast to work with projects that don&apos;t have RTTI support enabled (e.g. -fno-rtti flag with gcc compiler). </para>
+
+            </section>
+            <section xml:id="classQCPItemAnchor_1aef15daa640debfb11b0aeaa2116c6fbc">
+                <title>void QCPItemAnchor::addChildX (QCPItemPosition *pos)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPItemAnchor_1a230b1d494cda63458e289bbe1b642599">
+                <title>void QCPItemAnchor::removeChildX (QCPItemPosition *pos)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPItemAnchor_1af05dc56f24536f0c7a9a0f57b58cea67">
+                <title>void QCPItemAnchor::addChildY (QCPItemPosition *pos)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPItemAnchor_1aa2394911d8fff3bd958b9f4f1994b64d">
+                <title>void QCPItemAnchor::removeChildY (QCPItemPosition *pos)</title> <emphasis></emphasis>
+                
+            </section>
+</section>

@@ -27,7 +27,7 @@
     </figure>
 </para>
         <section>
-            <title>Public Attributes</title>
+            <title>Atributos Públicos</title>
             <para>
                 <itemizedlist>
                     <listitem>
@@ -75,7 +75,7 @@ double errorMinus, double errorPlus)</para>
 <para>Holds the data of one single error bar for <link linkend="class_q_c_p_error_bars">QCPErrorBars</link>. </para>
     </simplesect>
         <simplesect>
-            <title>Detailed Description</title>
+            <title>Descrição detalhada</title>
 
 <para>The stored data is: <itemizedlist>
 <listitem>
@@ -87,7 +87,7 @@ double errorMinus, double errorPlus)</para>
 </itemizedlist>
 The container for storing the error bar information is <link linkend="qcustomplot_8h_1a8c4472a4da738e0ddbf6b03222c39906">QCPErrorBarsDataContainer</link>. It is a typedef for <computeroutput>QVector&lt;<link linkend="class_q_c_p_error_bars_data">QCPErrorBarsData</link>&gt;</computeroutput>.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="qcustomplot_8h_1a8c4472a4da738e0ddbf6b03222c39906">QCPErrorBarsDataContainer</link> </para>
 </formalpara>
@@ -97,7 +97,7 @@ The container for storing the error bar information is <link linkend="qcustomplo
                 <para><itemizedlist><listitem><para>qcustomplot.h</para></listitem></itemizedlist></para>
         </simplesect>
         <section>
-            <title>Member Data Documentation</title>
+            <title>Atributos</title>
         </section>
             <section xml:id="class_q_c_p_error_bars_data_1ac18bdb46dec56f8df7f3c99d058cc725">
                 <title>QCPErrorBarsData::QCPErrorBarsData ()</title> <emphasis></emphasis>

@@ -1,0 +1,1054 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="classQCPAbstractItem">
+<title>QCPAbstractItem class Reference</title>
+<para>
+    <programlisting>#include <link linkend="qcustomplot_8h">&lt;qcustomplot.h&gt;</link></programlisting>
+</para>
+<para>Inheritance diagram for QCPAbstractItem</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="classQCPAbstractItem__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for QCPAbstractItem</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="classQCPAbstractItem__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title>Atributos Protegidos</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool mClipToAxisRect</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPointer&lt; QCPAxisRect &gt; mClipAxisRect</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QList&lt; QCPItemPosition * &gt; mPositions</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QList&lt; QCPItemAnchor * &gt; mAnchors</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool mSelectable</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool mSelected</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool mVisible</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QCustomPlot * mParentPlot</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QPointer&lt; QCPLayerable &gt; mParentLayerable</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QCPLayer * mLayer</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool mAntialiased</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="classQCPAbstractItem_1a9922507d8b4503a1fe1ed0b1030e23b6">QCPAbstractItem</link> (
+<link linkend="classQCustomPlot">QCustomPlot</link> * parentPlot)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual <link linkend="classQCPAbstractItem_1a375bd1b7d3218b04a6ff7ff06fff917c">~QCPAbstractItem</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="classQCPAbstractItem_1a42715ad5f3d7fca6854025fa5636f436">clipToAxisRect</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="classQCPAxisRect">QCPAxisRect</link> * <link linkend="classQCPAbstractItem_1ae162314efd3fe1a6d4df11da1d275d52">clipAxisRect</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="classQCPAbstractItem_1ae29aa489767352b40c4aaa7ea50c5582">selectable</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="classQCPAbstractItem_1aa069fba320a13639f119f82ad29ead96">selected</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPAbstractItem_1a39e05b9d4176b9accafc746d16ca6a06">setClipToAxisRect</link> (
+bool clip)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPAbstractItem_1a7dc75fcbcd10206fe0b75d757ea7a347">setClipAxisRect</link> (
+<link linkend="classQCPAxisRect">QCPAxisRect</link> * rect)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>Q_SLOT void <link linkend="classQCPAbstractItem_1a8a8e32a55bc478b849756a78c2d87fd2">setSelectable</link> (
+bool selectable)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>Q_SLOT void <link linkend="classQCPAbstractItem_1a203de94ad586cc44d16c9565f49d3378">setSelected</link> (
+bool selected)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual double <link linkend="classQCPAbstractItem_1ae41d0349d68bb802c49104afd100ba2a">selectTest</link> (
+const QPointF &amp; pos, bool onlySelectable, QVariant * details)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QList&lt; <link linkend="classQCPItemPosition">QCPItemPosition</link> * &gt; <link linkend="classQCPAbstractItem_1a709f655ac3f7f22d452714134662b454">positions</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QList&lt; <link linkend="classQCPItemAnchor">QCPItemAnchor</link> * &gt; <link linkend="classQCPAbstractItem_1a81d1ecfea3368b836cf9675a0045e659">anchors</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="classQCPItemPosition">QCPItemPosition</link> * <link linkend="classQCPAbstractItem_1a2589c3d298f9a576d77d9addb440a18d">position</link> (
+const QString &amp; name)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="classQCPItemAnchor">QCPItemAnchor</link> * <link linkend="classQCPAbstractItem_1a139c255ea8831642fac91748e29a5adb">anchor</link> (
+const QString &amp; name)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="classQCPAbstractItem_1a84914f4516f9b38ef0bd89eafe3dbda7">hasAnchor</link> (
+const QString &amp; name)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="classQCPLayerable_1af0297b944b6192b6d67d00bff41b6b70">visible</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="classQCustomPlot">QCustomPlot</link> * <link linkend="classQCPLayerable_1a473edb813a4c1929d6b6a8fe3ff3faf7">parentPlot</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="classQCPLayerable">QCPLayerable</link> * <link linkend="classQCPLayerable_1aa78b7e644d2c519e1a9a6f2ac5fcd858">parentLayerable</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="classQCPLayer">QCPLayer</link> * <link linkend="classQCPLayerable_1a5ff4862e8c784c9f5986dbc1533ba2a4">layer</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="classQCPLayerable_1a71cbd212fde2703cee076e204a475709">antialiased</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPLayerable_1a3bed99ddc396b48ce3ebfdc0418744f8">setVisible</link> (
+bool on)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>Q_SLOT bool <link linkend="classQCPLayerable_1ab0d0da6d2de45a118886d2c8e16d5a54">setLayer</link> (
+<link linkend="classQCPLayer">QCPLayer</link> * layer)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="classQCPLayerable_1ab25a0e7b897993b44447caee0f142083">setLayer</link> (
+const QString &amp; layerName)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPLayerable_1a4fd43e89be4a553ead41652565ff0581">setAntialiased</link> (
+bool enabled)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="classQCPLayerable_1ab054e88f15d485defcb95e7376f119e7">realVisibility</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual <link linkend="namespaceQCP_1a2ad6bb6281c7c2d593d4277b44c2b037">QCP::Interaction</link> <link linkend="classQCPAbstractItem_1aceb5f99c361cf023c7cbe7339ea29571">selectionCategory</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual QRect <link linkend="classQCPAbstractItem_1a6ad60000f29afe11035e1f791dcbd45a">clipRect</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="classQCPAbstractItem_1a5579ce9ec7cad202499886b042448b10">applyDefaultAntialiasingHint</link> (
+<link linkend="classQCPPainter">QCPPainter</link> * painter)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="classQCPAbstractItem_1a007fdab79c935a5da5aa04a21d268c18">draw</link> (
+<link linkend="classQCPPainter">QCPPainter</link> * painter)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="classQCPAbstractItem_1aa4b969c58797f39c9c0b6c07c7869d17">selectEvent</link> (
+QMouseEvent * event, bool additive, const QVariant &amp; details, bool * selectionStateChanged)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="classQCPAbstractItem_1af9093798cb07a861dcc73f93ca16c0c1">deselectEvent</link> (
+bool * selectionStateChanged)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual QPointF <link linkend="classQCPAbstractItem_1ada5bad4e1196c4fc0d0d12328e24b8f2">anchorPixelPosition</link> (
+int anchorId)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double <link linkend="classQCPAbstractItem_1a7dfc2007e36d09b8b5c988a9f06d6a7e">rectDistance</link> (
+const QRectF &amp; rect, const QPointF &amp; pos, bool filledRect)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="classQCPItemPosition">QCPItemPosition</link> * <link linkend="classQCPAbstractItem_1a75036d39c4d4e2e1a7dd145fff915d32">createPosition</link> (
+const QString &amp; name)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="classQCPItemAnchor">QCPItemAnchor</link> * <link linkend="classQCPAbstractItem_1af3fc92527802078ca395138748b629a7">createAnchor</link> (
+const QString &amp; name, int anchorId)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="classQCPLayerable_1ab20b7dbd8e0249ed61adb9622c427382">parentPlotInitialized</link> (
+<link linkend="classQCustomPlot">QCustomPlot</link> * parentPlot)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="classQCPLayerable_1af6567604818db90f4fd52822f8bc8376">mousePressEvent</link> (
+QMouseEvent * event, const QVariant &amp; details)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="classQCPLayerable_1a9eee1ba47fd69be111059ca3881933e4">mouseMoveEvent</link> (
+QMouseEvent * event, const QPointF &amp; startPos)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="classQCPLayerable_1aa0d79b005686f668622bbe66ac03ba2c">mouseReleaseEvent</link> (
+QMouseEvent * event, const QPointF &amp; startPos)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="classQCPLayerable_1a4171e2e823aca242dd0279f00ed2de81">mouseDoubleClickEvent</link> (
+QMouseEvent * event, const QVariant &amp; details)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>virtual void <link linkend="classQCPLayerable_1a47dfd7b8fd99c08ca54e09c362b6f022">wheelEvent</link> (
+QWheelEvent * event)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPLayerable_1a8cbe5a0c9a5674249982f5ca5f8e02bc">initializeParentPlot</link> (
+<link linkend="classQCustomPlot">QCustomPlot</link> * parentPlot)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPLayerable_1aa23c893671f1f6744ac235cf2204cf3a">setParentLayerable</link> (
+<link linkend="classQCPLayerable">QCPLayerable</link> * parentLayerable)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="classQCPLayerable_1af94484cfb7cbbddb7de522e9be71d9a4">moveToLayer</link> (
+<link linkend="classQCPLayer">QCPLayer</link> * layer, bool prepend)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="classQCPLayerable_1acb663e375d2d36dc5c55021ee5a2119b">applyAntialiasingHint</link> (
+<link linkend="classQCPPainter">QCPPainter</link> * painter, bool localAntialiased, <link linkend="namespaceQCP_1ae55dbe315d41fe80f29ba88100843a0c">QCP::AntialiasedElement</link> overrideElement)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+    <simplesect>
+
+<para>The abstract base class for all items in a plot. </para>
+    </simplesect>
+        <simplesect>
+            <title>Descrição detalhada</title>
+
+<para>In <link linkend="classQCustomPlot">QCustomPlot</link>, items are supplemental graphical elements that are neither plottables (<link linkend="classQCPAbstractPlottable">QCPAbstractPlottable</link>) nor axes (<link linkend="classQCPAxis">QCPAxis</link>). While plottables are always tied to two axes and thus plot coordinates, items can also be placed in absolute coordinates independent of any axes. Each specific item has at least one <link linkend="classQCPItemPosition">QCPItemPosition</link> member which controls the positioning. Some items are defined by more than one coordinate and thus have two or more <link linkend="classQCPItemPosition">QCPItemPosition</link> members (For example, <link linkend="classQCPItemRect">QCPItemRect</link> has <emphasis>topLeft</emphasis> and <emphasis>bottomRight</emphasis>).</para>
+
+<para>This abstract base class defines a very basic interface like visibility and clipping. Since this class is abstract, it can&apos;t be instantiated. Use one of the subclasses or create a subclass yourself to create new items.</para>
+
+<para>The built-in items are: <table frame="all">
+    <title></title>
+    <tgroup cols="2" align="left" colsep="1" rowsep="1">
+    <tbody>
+<row>
+<entry>
+<para><link linkend="classQCPItemLine">QCPItemLine</link></para>
+</entry><entry>
+<para>A line defined by a start and an end point. May have different ending styles on each side (e.g. arrows). </para>
+</entry></row>
+<row>
+<entry>
+<para><link linkend="classQCPItemStraightLine">QCPItemStraightLine</link></para>
+</entry><entry>
+<para>A straight line defined by a start and a direction point. Unlike <link linkend="classQCPItemLine">QCPItemLine</link>, the straight line is infinitely long and has no endings. </para>
+</entry></row>
+<row>
+<entry>
+<para><link linkend="classQCPItemCurve">QCPItemCurve</link></para>
+</entry><entry>
+<para>A curve defined by start, end and two intermediate control points. May have different ending styles on each side (e.g. arrows). </para>
+</entry></row>
+<row>
+<entry>
+<para><link linkend="classQCPItemRect">QCPItemRect</link></para>
+</entry><entry>
+<para>A rectangle </para>
+</entry></row>
+<row>
+<entry>
+<para><link linkend="classQCPItemEllipse">QCPItemEllipse</link></para>
+</entry><entry>
+<para>An ellipse </para>
+</entry></row>
+<row>
+<entry>
+<para><link linkend="classQCPItemPixmap">QCPItemPixmap</link></para>
+</entry><entry>
+<para>An arbitrary pixmap </para>
+</entry></row>
+<row>
+<entry>
+<para><link linkend="classQCPItemText">QCPItemText</link></para>
+</entry><entry>
+<para>A text label </para>
+</entry></row>
+<row>
+<entry>
+<para><link linkend="classQCPItemBracket">QCPItemBracket</link></para>
+</entry><entry>
+<para>A bracket which may be used to reference/highlight certain parts in the plot. </para>
+</entry></row>
+<row>
+<entry>
+<para><link linkend="classQCPItemTracer">QCPItemTracer</link></para>
+</entry><entry>
+<para>An item that can be attached to a <link linkend="classQCPGraph">QCPGraph</link> and sticks to its data points, given a key coordinate. </para>
+</entry></row>
+    </tbody>
+    </tgroup>
+</table>
+</para>
+<section xml:id="classQCPAbstractItem_1items-clipping">
+<title>Clipping</title>
+
+<para>Items are by default clipped to the main axis rect (they are only visible inside the axis rect). To make an item visible outside that axis rect, disable clipping via <link linkend="classQCPAbstractItem_1a39e05b9d4176b9accafc746d16ca6a06">setClipToAxisRect(false)</link>.</para>
+
+<para>On the other hand if you want the item to be clipped to a different axis rect, specify it via <link linkend="classQCPAbstractItem_1a7dc75fcbcd10206fe0b75d757ea7a347">setClipAxisRect</link>. This clipAxisRect property of an item is only used for clipping behaviour, and in principle is independent of the coordinate axes the item might be tied to via its position members (<link linkend="classQCPItemPosition_1a2185f45c75ac8cb9be89daeaaad50e37">QCPItemPosition::setAxes</link>). However, it is common that the axis rect for clipping also contains the axes used for the item positions.</para>
+</section>
+<section xml:id="classQCPAbstractItem_1items-using">
+<title>Using items</title>
+
+<para>First you instantiate the item you want to use and add it to the plot: <literallayout><computeroutput></computeroutput></literallayout>by default, the positions of the item are bound to the x- and y-Axis of the plot. So we can just set the plot coordinates where the line should start/end: <literallayout><computeroutput></computeroutput></literallayout>If we don&apos;t want the line to be positioned in plot coordinates but a different coordinate system, e.g. absolute pixel positions on the <link linkend="classQCustomPlot">QCustomPlot</link> surface, we need to change the position type like this: <literallayout><computeroutput></computeroutput></literallayout>Then we can set the coordinates, this time in pixels: <literallayout><computeroutput></computeroutput></literallayout>and make the line visible on the entire <link linkend="classQCustomPlot">QCustomPlot</link>, by disabling clipping to the axis rect: <literallayout><computeroutput></computeroutput></literallayout> For more advanced plots, it is even possible to set different types and parent anchors per X/Y coordinate of an item position, using for example <link linkend="classQCPItemPosition_1a2113b2351d6d00457fb3559a4e20c3ea">QCPItemPosition::setTypeX</link> or <link linkend="classQCPItemPosition_1add71461a973927c74e42179480916d9c">QCPItemPosition::setParentAnchorX</link>. For details, see the documentation of <link linkend="classQCPItemPosition">QCPItemPosition</link>.</para>
+</section>
+<section xml:id="classQCPAbstractItem_1items-subclassing">
+<title>Creating own items</title>
+
+<para>To create an own item, you implement a subclass of <link linkend="classQCPAbstractItem">QCPAbstractItem</link>. These are the pure virtual functions, you must implement: <itemizedlist>
+<listitem>
+<para><link linkend="classQCPAbstractItem_1ae41d0349d68bb802c49104afd100ba2a">selectTest</link> </para>
+</listitem>
+<listitem>
+<para><link linkend="classQCPAbstractItem_1a007fdab79c935a5da5aa04a21d268c18">draw</link></para>
+</listitem>
+</itemizedlist>
+See the documentation of those functions for what they need to do.</para>
+<section xml:id="classQCPAbstractItem_1items-positioning">
+<title>Allowing the item to be positioned</title>
+
+<para>As mentioned, item positions are represented by <link linkend="classQCPItemPosition">QCPItemPosition</link> members. Let&apos;s assume the new item shall have only one point as its position (as opposed to two like a rect or multiple like a polygon). You then add a public member of type <link linkend="classQCPItemPosition">QCPItemPosition</link> like so:</para>
+
+<para><literallayout><computeroutput>QCPItemPosition&#32;*&#32;const&#32;myPosition;
+</computeroutput></literallayout></para>
+
+<para>the const makes sure the pointer itself can&apos;t be modified from the user of your new item (the <link linkend="classQCPItemPosition">QCPItemPosition</link> instance it points to, can be modified, of course). The initialization of this pointer is made easy with the <link linkend="classQCPAbstractItem_1a75036d39c4d4e2e1a7dd145fff915d32">createPosition</link> function. Just assign the return value of this function to each <link linkend="classQCPItemPosition">QCPItemPosition</link> in the constructor of your item. <link linkend="classQCPAbstractItem_1a75036d39c4d4e2e1a7dd145fff915d32">createPosition</link> takes a string which is the name of the position, typically this is identical to the variable name. For example, the constructor of QCPItemExample could look like this:</para>
+
+<para><literallayout><computeroutput>QCPItemExample::QCPItemExample(QCustomPlot&#32;*parentPlot)&#32;:
+&#32;&#32;QCPAbstractItem(parentPlot),
+&#32;&#32;myPosition(createPosition(&quot;myPosition&quot;))
+{
+&#32;&#32;//&#32;other&#32;constructor&#32;code
+}
+</computeroutput></literallayout></para>
+</section>
+<section xml:id="classQCPAbstractItem_1items-drawing">
+<title>The draw function</title>
+
+<para>To give your item a visual representation, reimplement the <link linkend="classQCPAbstractItem_1a007fdab79c935a5da5aa04a21d268c18">draw</link> function and use the passed <link linkend="classQCPPainter">QCPPainter</link> to draw the item. You can retrieve the item position in pixel coordinates from the position member(s) via <link linkend="classQCPItemPosition_1a8be9a4787635433edecc75164beb748d">QCPItemPosition::pixelPosition</link>.</para>
+
+<para>To optimize performance you should calculate a bounding rect first (don&apos;t forget to take the pen width into account), check whether it intersects the <link linkend="classQCPAbstractItem_1a6ad60000f29afe11035e1f791dcbd45a">clipRect</link>, and only draw the item at all if this is the case.</para>
+</section>
+<section xml:id="classQCPAbstractItem_1items-selection">
+<title>The selectTest function</title>
+
+<para>Your implementation of the <link linkend="classQCPAbstractItem_1ae41d0349d68bb802c49104afd100ba2a">selectTest</link> function may use the helpers <link linkend="classQCPVector2D_1a14840cd3da80cfee4eb3f8977cab89ab">QCPVector2D::distanceSquaredToLine</link> and <link linkend="classQCPAbstractItem_1a7dfc2007e36d09b8b5c988a9f06d6a7e">rectDistance</link>. With these, the implementation of the selection test becomes significantly simpler for most items. See the documentation of <link linkend="classQCPAbstractItem_1ae41d0349d68bb802c49104afd100ba2a">selectTest</link> for what the function parameters mean and what the function should return.</para>
+</section>
+<section xml:id="classQCPAbstractItem_1anchors">
+<title>Providing anchors</title>
+
+<para>Providing anchors (<link linkend="classQCPItemAnchor">QCPItemAnchor</link>) starts off like adding a position. First you create a public member, e.g.</para>
+
+<para><literallayout><computeroutput>QCPItemAnchor&#32;*&#32;const&#32;bottom;
+</computeroutput></literallayout></para>
+
+<para>and create it in the constructor with the <link linkend="classQCPAbstractItem_1af3fc92527802078ca395138748b629a7">createAnchor</link> function, assigning it a name and an anchor id (an integer enumerating all anchors on the item, you may create an own enum for this). Since anchors can be placed anywhere, relative to the item&apos;s position(s), your item needs to provide the position of every anchor with the reimplementation of the <link linkend="classQCPAbstractItem_1ada5bad4e1196c4fc0d0d12328e24b8f2">anchorPixelPosition</link>(int anchorId) function.</para>
+
+<para>In essence the <link linkend="classQCPItemAnchor">QCPItemAnchor</link> is merely an intermediary that itself asks your item for the pixel position when anything attached to the anchor needs to know the coordinates. </para>
+</section>
+</section>
+                <para>Definition at line 3506 of file qcustomplot.h</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>qcustomplot.h</para></listitem></itemizedlist></para>
+        </simplesect>
+        <section>
+            <title>Atributos</title>
+        </section>
+            <section xml:id="classQCPAbstractItem_1a9922507d8b4503a1fe1ed0b1030e23b6">
+                <title>QCPAbstractItem::QCPAbstractItem (QCustomPlot *parentPlot)</title> <emphasis></emphasis>
+                
+<para>Base class constructor which initializes base class members. </para>
+
+            </section>
+            <section xml:id="classQCPAbstractItem_1a375bd1b7d3218b04a6ff7ff06fff917c">
+                <title>QCPAbstractItem::~QCPAbstractItem ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAbstractItem_1a42715ad5f3d7fca6854025fa5636f436">
+                <title>bool QCPAbstractItem::clipToAxisRect () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAbstractItem_1ae162314efd3fe1a6d4df11da1d275d52">
+                <title>QCPAxisRect * QCPAbstractItem::clipAxisRect () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAbstractItem_1ae29aa489767352b40c4aaa7ea50c5582">
+                <title>bool QCPAbstractItem::selectable () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAbstractItem_1aa069fba320a13639f119f82ad29ead96">
+                <title>bool QCPAbstractItem::selected () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAbstractItem_1a39e05b9d4176b9accafc746d16ca6a06">
+                <title>void QCPAbstractItem::setClipToAxisRect (bool clip)</title> <emphasis></emphasis>
+                
+<para>Sets whether the item shall be clipped to an axis rect or whether it shall be visible on the entire <link linkend="classQCustomPlot">QCustomPlot</link>. The axis rect can be set with <link linkend="classQCPAbstractItem_1a7dc75fcbcd10206fe0b75d757ea7a347">setClipAxisRect</link>.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPAbstractItem_1a7dc75fcbcd10206fe0b75d757ea7a347">setClipAxisRect</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPAbstractItem_1a7dc75fcbcd10206fe0b75d757ea7a347">
+                <title>void QCPAbstractItem::setClipAxisRect (QCPAxisRect *rect)</title> <emphasis></emphasis>
+                
+<para>Sets the clip axis rect. It defines the rect that will be used to clip the item when <link linkend="classQCPAbstractItem_1a39e05b9d4176b9accafc746d16ca6a06">setClipToAxisRect</link> is set to true.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPAbstractItem_1a39e05b9d4176b9accafc746d16ca6a06">setClipToAxisRect</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPAbstractItem_1a8a8e32a55bc478b849756a78c2d87fd2">
+                <title>void QCPAbstractItem::setSelectable (bool selectable)</title> <emphasis></emphasis>
+                
+<para>Sets whether the user can (de-)select this item by clicking on the <link linkend="classQCustomPlot">QCustomPlot</link> surface. (When <link linkend="classQCustomPlot_1a5ee1e2f6ae27419deca53e75907c27e5">QCustomPlot::setInteractions</link> contains QCustomPlot::iSelectItems.)</para>
+
+<para>However, even when <emphasis>selectable</emphasis> was set to false, it is possible to set the selection manually, by calling <link linkend="classQCPAbstractItem_1a203de94ad586cc44d16c9565f49d3378">setSelected</link>.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCustomPlot_1a5ee1e2f6ae27419deca53e75907c27e5">QCustomPlot::setInteractions</link>, <link linkend="classQCPAbstractItem_1a203de94ad586cc44d16c9565f49d3378">setSelected</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPAbstractItem_1a203de94ad586cc44d16c9565f49d3378">
+                <title>void QCPAbstractItem::setSelected (bool selected)</title> <emphasis></emphasis>
+                
+<para>Sets whether this item is selected or not. When selected, it might use a different visual appearance (e.g. pen and brush), this depends on the specific item though.</para>
+
+<para>The entire selection mechanism for items is handled automatically when <link linkend="classQCustomPlot_1a5ee1e2f6ae27419deca53e75907c27e5">QCustomPlot::setInteractions</link> contains QCustomPlot::iSelectItems. You only need to call this function when you wish to change the selection state manually.</para>
+
+<para>This function can change the selection state even when <link linkend="classQCPAbstractItem_1a8a8e32a55bc478b849756a78c2d87fd2">setSelectable</link> was set to false.</para>
+
+<para>emits the <link linkend="classQCPAbstractItem_1aa5cffb034fc65dbb91c77e02c1c14251">selectionChanged</link> signal when <emphasis>selected</emphasis> is different from the previous selection state.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPAbstractItem_1a8a8e32a55bc478b849756a78c2d87fd2">setSelectable</link>, <link linkend="classQCPAbstractItem_1ae41d0349d68bb802c49104afd100ba2a">selectTest</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPAbstractItem_1ae41d0349d68bb802c49104afd100ba2a">
+                <title>virtual double QCPAbstractItem::selectTest (const QPointF &amp;pos, bool onlySelectable, QVariant *details=0) const Q_DECL_OVERRIDE=0</title> <emphasis></emphasis>
+                
+<para>This function is used to decide whether a click hits a layerable object or not.</para>
+
+<para><emphasis>pos</emphasis> is a point in pixel coordinates on the <link linkend="classQCustomPlot">QCustomPlot</link> surface. This function returns the shortest pixel distance of this point to the object. If the object is either invisible or the distance couldn&apos;t be determined, -1.0 is returned. Further, if <emphasis>onlySelectable</emphasis> is true and the object is not selectable, -1.0 is returned, too.</para>
+
+<para>If the object is represented not by single lines but by an area like a <link linkend="classQCPItemText">QCPItemText</link> or the bars of a <link linkend="classQCPBars">QCPBars</link> plottable, a click inside the area should also be considered a hit. In these cases this function thus returns a constant value greater zero but still below the parent plot&apos;s selection tolerance. (typically the selectionTolerance multiplied by 0.99).</para>
+
+<para>Providing a constant value for area objects allows selecting line objects even when they are obscured by such area objects, by clicking close to the lines (i.e. closer than 0.99*selectionTolerance).</para>
+
+<para>The actual setting of the selection state is not done by this function. This is handled by the parent <link linkend="classQCustomPlot">QCustomPlot</link> when the mouseReleaseEvent occurs, and the finally selected object is notified via the <link linkend="classQCPAbstractItem_1aa4b969c58797f39c9c0b6c07c7869d17">selectEvent</link>/<link linkend="classQCPAbstractItem_1af9093798cb07a861dcc73f93ca16c0c1">deselectEvent</link> methods.</para>
+
+<para><emphasis>details</emphasis> is an optional output parameter. Every layerable subclass may place any information in <emphasis>details</emphasis>. This information will be passed to <link linkend="classQCPAbstractItem_1aa4b969c58797f39c9c0b6c07c7869d17">selectEvent</link> when the parent <link linkend="classQCustomPlot">QCustomPlot</link> decides on the basis of this selectTest call, that the object was successfully selected. The subsequent call to <link linkend="classQCPAbstractItem_1aa4b969c58797f39c9c0b6c07c7869d17">selectEvent</link> will carry the <emphasis>details</emphasis>. This is useful for multi-part objects (like <link linkend="classQCPAxis">QCPAxis</link>). This way, a possibly complex calculation to decide which part was clicked is only done once in <link linkend="classQCPAbstractItem_1ae41d0349d68bb802c49104afd100ba2a">selectTest</link>. The result (i.e. the actually clicked part) can then be placed in <emphasis>details</emphasis>. So in the subsequent <link linkend="classQCPAbstractItem_1aa4b969c58797f39c9c0b6c07c7869d17">selectEvent</link>, the decision which part was selected doesn&apos;t have to be done a second time for a single selection operation.</para>
+
+<para>You may pass 0 as <emphasis>details</emphasis> to indicate that you are not interested in those selection details.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPAbstractItem_1aa4b969c58797f39c9c0b6c07c7869d17">selectEvent</link>, <link linkend="classQCPAbstractItem_1af9093798cb07a861dcc73f93ca16c0c1">deselectEvent</link>, <link linkend="classQCPLayerable_1af6567604818db90f4fd52822f8bc8376">mousePressEvent</link>, <link linkend="classQCPLayerable_1a47dfd7b8fd99c08ca54e09c362b6f022">wheelEvent</link>, <link linkend="classQCustomPlot_1a5ee1e2f6ae27419deca53e75907c27e5">QCustomPlot::setInteractions</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPAbstractItem_1a709f655ac3f7f22d452714134662b454">
+                <title>QList&lt; QCPItemPosition * &gt; QCPAbstractItem::positions () const</title> <emphasis></emphasis>
+                
+<para>Returns all positions of the item in a list.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPAbstractItem_1a81d1ecfea3368b836cf9675a0045e659">anchors</link>, <link linkend="classQCPAbstractItem_1a2589c3d298f9a576d77d9addb440a18d">position</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPAbstractItem_1a81d1ecfea3368b836cf9675a0045e659">
+                <title>QList&lt; QCPItemAnchor * &gt; QCPAbstractItem::anchors () const</title> <emphasis></emphasis>
+                
+<para>Returns all anchors of the item in a list. Note that since a position (<link linkend="classQCPItemPosition">QCPItemPosition</link>) is always also an anchor, the list will also contain the positions of this item.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPAbstractItem_1a709f655ac3f7f22d452714134662b454">positions</link>, <link linkend="classQCPAbstractItem_1a139c255ea8831642fac91748e29a5adb">anchor</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPAbstractItem_1a2589c3d298f9a576d77d9addb440a18d">
+                <title>QCPItemPosition * QCPAbstractItem::position (const QString &amp;name) const</title> <emphasis></emphasis>
+                
+<para>Returns the <link linkend="classQCPItemPosition">QCPItemPosition</link> with the specified <emphasis>name</emphasis>. If this item doesn&apos;t have a position by that name, returns 0.</para>
+
+<para>This function provides an alternative way to access item positions. Normally, you access positions direcly by their member pointers (which typically have the same variable name as <emphasis>name</emphasis>).</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPAbstractItem_1a709f655ac3f7f22d452714134662b454">positions</link>, <link linkend="classQCPAbstractItem_1a139c255ea8831642fac91748e29a5adb">anchor</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPAbstractItem_1a139c255ea8831642fac91748e29a5adb">
+                <title>QCPItemAnchor * QCPAbstractItem::anchor (const QString &amp;name) const</title> <emphasis></emphasis>
+                
+<para>Returns the <link linkend="classQCPItemAnchor">QCPItemAnchor</link> with the specified <emphasis>name</emphasis>. If this item doesn&apos;t have an anchor by that name, returns 0.</para>
+
+<para>This function provides an alternative way to access item anchors. Normally, you access anchors direcly by their member pointers (which typically have the same variable name as <emphasis>name</emphasis>).</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPAbstractItem_1a81d1ecfea3368b836cf9675a0045e659">anchors</link>, <link linkend="classQCPAbstractItem_1a2589c3d298f9a576d77d9addb440a18d">position</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPAbstractItem_1a84914f4516f9b38ef0bd89eafe3dbda7">
+                <title>bool QCPAbstractItem::hasAnchor (const QString &amp;name) const</title> <emphasis></emphasis>
+                
+<para>Returns whether this item has an anchor with the specified <emphasis>name</emphasis>.</para>
+
+<para>Note that you can check for positions with this function, too. This is because every position is also an anchor (<link linkend="classQCPItemPosition">QCPItemPosition</link> inherits from <link linkend="classQCPItemAnchor">QCPItemAnchor</link>).</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPAbstractItem_1a139c255ea8831642fac91748e29a5adb">anchor</link>, <link linkend="classQCPAbstractItem_1a2589c3d298f9a576d77d9addb440a18d">position</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPLayerable_1af0297b944b6192b6d67d00bff41b6b70">
+                <title>bool QCPLayerable::visible () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPLayerable_1a473edb813a4c1929d6b6a8fe3ff3faf7">
+                <title>QCustomPlot* QCPLayerable::parentPlot () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPLayerable_1aa78b7e644d2c519e1a9a6f2ac5fcd858">
+                <title>QCPLayerable * QCPLayerable::parentLayerable () const</title> <emphasis></emphasis>
+                
+<para>Returns the parent layerable of this layerable. The parent layerable is used to provide visibility hierarchies in conjunction with the method <link linkend="classQCPLayerable_1ab054e88f15d485defcb95e7376f119e7">realVisibility</link>. This way, layerables only get drawn if their parent layerables are visible, too.</para>
+
+<para>Note that a parent layerable is not necessarily also the QObject parent for memory management. Further, a layerable doesn&apos;t always have a parent layerable, so this function may return 0.</para>
+
+<para>A parent layerable is set implicitly when placed inside layout elements and doesn&apos;t need to be set manually by the user. </para>
+
+            </section>
+            <section xml:id="classQCPLayerable_1a5ff4862e8c784c9f5986dbc1533ba2a4">
+                <title>QCPLayer* QCPLayerable::layer () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPLayerable_1a71cbd212fde2703cee076e204a475709">
+                <title>bool QCPLayerable::antialiased () const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPLayerable_1a3bed99ddc396b48ce3ebfdc0418744f8">
+                <title>void QCPLayerable::setVisible (bool on)</title> <emphasis></emphasis>
+                
+<para>Sets the visibility of this layerable object. If an object is not visible, it will not be drawn on the <link linkend="classQCustomPlot">QCustomPlot</link> surface, and user interaction with it (e.g. click and selection) is not possible. </para>
+
+            </section>
+            <section xml:id="classQCPLayerable_1ab0d0da6d2de45a118886d2c8e16d5a54">
+                <title>bool QCPLayerable::setLayer (QCPLayer *layer)</title> <emphasis></emphasis>
+                
+<para>Sets the <emphasis>layer</emphasis> of this layerable object. The object will be placed on top of the other objects already on <emphasis>layer</emphasis>.</para>
+
+<para>If <emphasis>layer</emphasis> is 0, this layerable will not be on any layer and thus not appear in the plot (or interact/receive events).</para>
+
+<para>Returns true if the layer of this layerable was successfully changed to <emphasis>layer</emphasis>. </para>
+
+            </section>
+            <section xml:id="classQCPLayerable_1ab25a0e7b897993b44447caee0f142083">
+                <title>bool QCPLayerable::setLayer (const QString &amp;layerName)</title> <emphasis></emphasis>
+                
+<para>Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados. Sets the layer of this layerable object by name</para>
+
+<para>Returns true on success, i.e. if <emphasis>layerName</emphasis> is a valid layer name. </para>
+
+            </section>
+            <section xml:id="classQCPLayerable_1a4fd43e89be4a553ead41652565ff0581">
+                <title>void QCPLayerable::setAntialiased (bool enabled)</title> <emphasis></emphasis>
+                
+<para>Sets whether this object will be drawn antialiased or not.</para>
+
+<para>Note that antialiasing settings may be overridden by <link linkend="classQCustomPlot_1af6f91e5eab1be85f67c556e98c3745e8">QCustomPlot::setAntialiasedElements</link> and <link linkend="classQCustomPlot_1ae10d685b5eabea2999fb8775ca173c24">QCustomPlot::setNotAntialiasedElements</link>. </para>
+
+            </section>
+            <section xml:id="classQCPLayerable_1ab054e88f15d485defcb95e7376f119e7">
+                <title>bool QCPLayerable::realVisibility () const</title> <emphasis></emphasis>
+                
+<para>Returns whether this layerable is visible, taking the visibility of the layerable parent and the visibility of this layerable&apos;s layer into account. This is the method that is consulted to decide whether a layerable shall be drawn or not.</para>
+
+<para>If this layerable has a direct layerable parent (usually set via hierarchies implemented in subclasses, like in the case of <link linkend="classQCPLayoutElement">QCPLayoutElement</link>), this function returns true only if this layerable has its visibility set to true and the parent layerable&apos;s <link linkend="classQCPLayerable_1ab054e88f15d485defcb95e7376f119e7">realVisibility</link> returns true. </para>
+
+            </section>
+            <section xml:id="classQCPAbstractItem_1aceb5f99c361cf023c7cbe7339ea29571">
+                <title>QCP::Interaction QCPAbstractItem::selectionCategory () const Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAbstractItem_1a6ad60000f29afe11035e1f791dcbd45a">
+                <title>QRect QCPAbstractItem::clipRect () const Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAbstractItem_1a5579ce9ec7cad202499886b042448b10">
+                <title>void QCPAbstractItem::applyDefaultAntialiasingHint (QCPPainter *painter) const Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAbstractItem_1a007fdab79c935a5da5aa04a21d268c18">
+                <title>void QCPAbstractItem::draw (QCPPainter *painter) Q_DECL_OVERRIDE=0</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAbstractItem_1aa4b969c58797f39c9c0b6c07c7869d17">
+                <title>void QCPAbstractItem::selectEvent (QMouseEvent *event, bool additive, const QVariant &amp;details, bool *selectionStateChanged) Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAbstractItem_1af9093798cb07a861dcc73f93ca16c0c1">
+                <title>void QCPAbstractItem::deselectEvent (bool *selectionStateChanged) Q_DECL_OVERRIDE</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAbstractItem_1ada5bad4e1196c4fc0d0d12328e24b8f2">
+                <title>QPointF QCPAbstractItem::anchorPixelPosition (int anchorId) const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAbstractItem_1a7dfc2007e36d09b8b5c988a9f06d6a7e">
+                <title>double QCPAbstractItem::rectDistance (const QRectF &amp;rect, const QPointF &amp;pos, bool filledRect) const</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAbstractItem_1a75036d39c4d4e2e1a7dd145fff915d32">
+                <title>QCPItemPosition * QCPAbstractItem::createPosition (const QString &amp;name)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPAbstractItem_1af3fc92527802078ca395138748b629a7">
+                <title>QCPItemAnchor * QCPAbstractItem::createAnchor (const QString &amp;name, int anchorId)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPLayerable_1ab20b7dbd8e0249ed61adb9622c427382">
+                <title>void QCPLayerable::parentPlotInitialized (QCustomPlot *parentPlot)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPLayerable_1af6567604818db90f4fd52822f8bc8376">
+                <title>void QCPLayerable::mousePressEvent (QMouseEvent *event, const QVariant &amp;details)</title> <emphasis></emphasis>
+                
+<para>This event gets called when the user presses a mouse button while the cursor is over the layerable. Whether a cursor is over the layerable is decided by a preceding call to <link linkend="classQCPLayerable_1a04db8351fefd44cfdb77958e75c6288e">selectTest</link>.</para>
+
+<para>The current pixel position of the cursor on the <link linkend="classQCustomPlot">QCustomPlot</link> widget is accessible via <computeroutput>event-&gt;pos()</computeroutput>. The parameter <emphasis>details</emphasis> contains layerable-specific details about the hit, which were generated in the previous call to <link linkend="classQCPLayerable_1a04db8351fefd44cfdb77958e75c6288e">selectTest</link>. For example, One-dimensional plottables like <link linkend="classQCPGraph">QCPGraph</link> or <link linkend="classQCPBars">QCPBars</link> convey the clicked data point in the <emphasis>details</emphasis> parameter, as <link linkend="classQCPDataSelection">QCPDataSelection</link> packed as QVariant. Multi-part objects convey the specific <computeroutput>SelectablePart</computeroutput> that was hit (e.g. <link linkend="classQCPAxis_1abee4c7a54c468b1385dfce2c898b115f">QCPAxis::SelectablePart</link> in the case of axes).</para>
+
+<para><link linkend="classQCustomPlot">QCustomPlot</link> uses an event propagation system that works the same as Qt&apos;s system. If your layerable doesn&apos;t reimplement the <link linkend="classQCPLayerable_1af6567604818db90f4fd52822f8bc8376">mousePressEvent</link> or explicitly calls <computeroutput>event-&gt;ignore()</computeroutput> in its reimplementation, the event will be propagated to the next layerable in the stacking order.</para>
+
+<para>Once a layerable has accepted the <link linkend="classQCPLayerable_1af6567604818db90f4fd52822f8bc8376">mousePressEvent</link>, it is considered the mouse grabber and will receive all following calls to <link linkend="classQCPLayerable_1a9eee1ba47fd69be111059ca3881933e4">mouseMoveEvent</link> or <link linkend="classQCPLayerable_1aa0d79b005686f668622bbe66ac03ba2c">mouseReleaseEvent</link> for this mouse interaction (a &quot;mouse interaction&quot; in this context ends with the release).</para>
+
+<para>The default implementation does nothing except explicitly ignoring the event with <computeroutput>event-&gt;ignore()</computeroutput>.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPLayerable_1a9eee1ba47fd69be111059ca3881933e4">mouseMoveEvent</link>, <link linkend="classQCPLayerable_1aa0d79b005686f668622bbe66ac03ba2c">mouseReleaseEvent</link>, <link linkend="classQCPLayerable_1a4171e2e823aca242dd0279f00ed2de81">mouseDoubleClickEvent</link>, <link linkend="classQCPLayerable_1a47dfd7b8fd99c08ca54e09c362b6f022">wheelEvent</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPLayerable_1a9eee1ba47fd69be111059ca3881933e4">
+                <title>void QCPLayerable::mouseMoveEvent (QMouseEvent *event, const QPointF &amp;startPos)</title> <emphasis></emphasis>
+                
+<para>This event gets called when the user moves the mouse while holding a mouse button, after this layerable has become the mouse grabber by accepting the preceding <link linkend="classQCPLayerable_1af6567604818db90f4fd52822f8bc8376">mousePressEvent</link>.</para>
+
+<para>The current pixel position of the cursor on the <link linkend="classQCustomPlot">QCustomPlot</link> widget is accessible via <computeroutput>event-&gt;pos()</computeroutput>. The parameter <emphasis>startPos</emphasis> indicates the position where the initial <link linkend="classQCPLayerable_1af6567604818db90f4fd52822f8bc8376">mousePressEvent</link> occured, that started the mouse interaction.</para>
+
+<para>The default implementation does nothing.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPLayerable_1af6567604818db90f4fd52822f8bc8376">mousePressEvent</link>, <link linkend="classQCPLayerable_1aa0d79b005686f668622bbe66ac03ba2c">mouseReleaseEvent</link>, <link linkend="classQCPLayerable_1a4171e2e823aca242dd0279f00ed2de81">mouseDoubleClickEvent</link>, <link linkend="classQCPLayerable_1a47dfd7b8fd99c08ca54e09c362b6f022">wheelEvent</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPLayerable_1aa0d79b005686f668622bbe66ac03ba2c">
+                <title>void QCPLayerable::mouseReleaseEvent (QMouseEvent *event, const QPointF &amp;startPos)</title> <emphasis></emphasis>
+                
+<para>This event gets called when the user releases the mouse button, after this layerable has become the mouse grabber by accepting the preceding <link linkend="classQCPLayerable_1af6567604818db90f4fd52822f8bc8376">mousePressEvent</link>.</para>
+
+<para>The current pixel position of the cursor on the <link linkend="classQCustomPlot">QCustomPlot</link> widget is accessible via <computeroutput>event-&gt;pos()</computeroutput>. The parameter <emphasis>startPos</emphasis> indicates the position where the initial <link linkend="classQCPLayerable_1af6567604818db90f4fd52822f8bc8376">mousePressEvent</link> occured, that started the mouse interaction.</para>
+
+<para>The default implementation does nothing.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPLayerable_1af6567604818db90f4fd52822f8bc8376">mousePressEvent</link>, <link linkend="classQCPLayerable_1a9eee1ba47fd69be111059ca3881933e4">mouseMoveEvent</link>, <link linkend="classQCPLayerable_1a4171e2e823aca242dd0279f00ed2de81">mouseDoubleClickEvent</link>, <link linkend="classQCPLayerable_1a47dfd7b8fd99c08ca54e09c362b6f022">wheelEvent</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPLayerable_1a4171e2e823aca242dd0279f00ed2de81">
+                <title>void QCPLayerable::mouseDoubleClickEvent (QMouseEvent *event, const QVariant &amp;details)</title> <emphasis></emphasis>
+                
+<para>This event gets called when the user presses the mouse button a second time in a double-click, while the cursor is over the layerable. Whether a cursor is over the layerable is decided by a preceding call to <link linkend="classQCPLayerable_1a04db8351fefd44cfdb77958e75c6288e">selectTest</link>.</para>
+
+<para>The <link linkend="classQCPLayerable_1a4171e2e823aca242dd0279f00ed2de81">mouseDoubleClickEvent</link> is called instead of the second <link linkend="classQCPLayerable_1af6567604818db90f4fd52822f8bc8376">mousePressEvent</link>. So in the case of a double-click, the event succession is <emphasis>pressEvent &#8211; releaseEvent &#8211; doubleClickEvent &#8211; releaseEvent</emphasis>.</para>
+
+<para>The current pixel position of the cursor on the <link linkend="classQCustomPlot">QCustomPlot</link> widget is accessible via <computeroutput>event-&gt;pos()</computeroutput>. The parameter <emphasis>details</emphasis> contains layerable-specific details about the hit, which were generated in the previous call to <link linkend="classQCPLayerable_1a04db8351fefd44cfdb77958e75c6288e">selectTest</link>. For example, One-dimensional plottables like <link linkend="classQCPGraph">QCPGraph</link> or <link linkend="classQCPBars">QCPBars</link> convey the clicked data point in the <emphasis>details</emphasis> parameter, as <link linkend="classQCPDataSelection">QCPDataSelection</link> packed as QVariant. Multi-part objects convey the specific <computeroutput>SelectablePart</computeroutput> that was hit (e.g. <link linkend="classQCPAxis_1abee4c7a54c468b1385dfce2c898b115f">QCPAxis::SelectablePart</link> in the case of axes).</para>
+
+<para>Similarly to <link linkend="classQCPLayerable_1af6567604818db90f4fd52822f8bc8376">mousePressEvent</link>, once a layerable has accepted the <link linkend="classQCPLayerable_1a4171e2e823aca242dd0279f00ed2de81">mouseDoubleClickEvent</link>, it is considered the mouse grabber and will receive all following calls to <link linkend="classQCPLayerable_1a9eee1ba47fd69be111059ca3881933e4">mouseMoveEvent</link> and <link linkend="classQCPLayerable_1aa0d79b005686f668622bbe66ac03ba2c">mouseReleaseEvent</link> for this mouse interaction (a &quot;mouse interaction&quot; in this context ends with the release).</para>
+
+<para>The default implementation does nothing except explicitly ignoring the event with <computeroutput>event-&gt;ignore()</computeroutput>.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPLayerable_1af6567604818db90f4fd52822f8bc8376">mousePressEvent</link>, <link linkend="classQCPLayerable_1a9eee1ba47fd69be111059ca3881933e4">mouseMoveEvent</link>, <link linkend="classQCPLayerable_1aa0d79b005686f668622bbe66ac03ba2c">mouseReleaseEvent</link>, <link linkend="classQCPLayerable_1a47dfd7b8fd99c08ca54e09c362b6f022">wheelEvent</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPLayerable_1a47dfd7b8fd99c08ca54e09c362b6f022">
+                <title>void QCPLayerable::wheelEvent (QWheelEvent *event)</title> <emphasis></emphasis>
+                
+<para>This event gets called when the user turns the mouse scroll wheel while the cursor is over the layerable. Whether a cursor is over the layerable is decided by a preceding call to <link linkend="classQCPLayerable_1a04db8351fefd44cfdb77958e75c6288e">selectTest</link>.</para>
+
+<para>The current pixel position of the cursor on the <link linkend="classQCustomPlot">QCustomPlot</link> widget is accessible via <computeroutput>event-&gt;pos()</computeroutput>.</para>
+
+<para>The <computeroutput>event-&gt;delta()</computeroutput> indicates how far the mouse wheel was turned, which is usually +/- 120 for single rotation steps. However, if the mouse wheel is turned rapidly, multiple steps may accumulate to one event, making <computeroutput>event-&gt;delta()</computeroutput> larger. On the other hand, if the wheel has very smooth steps or none at all, the delta may be smaller.</para>
+
+<para>The default implementation does nothing.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="classQCPLayerable_1af6567604818db90f4fd52822f8bc8376">mousePressEvent</link>, <link linkend="classQCPLayerable_1a9eee1ba47fd69be111059ca3881933e4">mouseMoveEvent</link>, <link linkend="classQCPLayerable_1aa0d79b005686f668622bbe66ac03ba2c">mouseReleaseEvent</link>, <link linkend="classQCPLayerable_1a4171e2e823aca242dd0279f00ed2de81">mouseDoubleClickEvent</link> </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="classQCPLayerable_1a8cbe5a0c9a5674249982f5ca5f8e02bc">
+                <title>void QCPLayerable::initializeParentPlot (QCustomPlot *parentPlot)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPLayerable_1aa23c893671f1f6744ac235cf2204cf3a">
+                <title>void QCPLayerable::setParentLayerable (QCPLayerable *parentLayerable)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPLayerable_1af94484cfb7cbbddb7de522e9be71d9a4">
+                <title>bool QCPLayerable::moveToLayer (QCPLayer *layer, bool prepend)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="classQCPLayerable_1acb663e375d2d36dc5c55021ee5a2119b">
+                <title>void QCPLayerable::applyAntialiasingHint (QCPPainter *painter, bool localAntialiased, QCP::AntialiasedElement overrideElement) const</title> <emphasis></emphasis>
+                
+            </section>
+</section>

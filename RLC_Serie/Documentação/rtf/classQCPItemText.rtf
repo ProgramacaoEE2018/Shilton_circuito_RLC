@@ -1,0 +1,2492 @@
+{\rtf1\ansi\ansicpg1252\uc1 \deff0\deflang1033\deflangfe1033
+{\fonttbl {\f0\froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}
+{\f1\fswiss\fcharset0\fprq2{\*\panose 020b0604020202020204}Arial;}
+{\f2\fmodern\fcharset0\fprq1{\*\panose 02070309020205020404}Courier New;}
+{\f3\froman\fcharset2\fprq2{\*\panose 05050102010706020507}Symbol;}
+}
+{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;}
+{\stylesheet
+{\widctlpar\adjustright \fs20\cgrid \snext0 Normal;}
+{\paperw11900\paperh16840\margl1800\margr1800\margt1440\margb1440\gutter0\ltrsect}
+{\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid \sbasedon0 \snext0 heading 1;}
+{\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid \sbasedon0 \snext0 heading 2;}
+{\s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid \sbasedon0 \snext0 heading 3;}
+{\s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext0 heading 4;}{\*\cs10 \additive Default Paragraph Font;}
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext0 heading 5;}{\*\cs10 \additive Default Paragraph Font;}
+{\s15\qc\sb240\sa60\widctlpar\outlinelevel0\adjustright \b\f1\fs32\kerning28\cgrid \sbasedon0 \snext15 Title;}
+{\s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid \sbasedon0 \snext16 Subtitle;}
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid \sbasedon0 \snext17 BodyText;}
+{\s18\widctlpar\fs22\cgrid \sbasedon0 \snext18 DenseText;}
+{\s28\widctlpar\tqc\tx4320\tqr\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext28 header;}
+{\s29\widctlpar\tqc\tx4320\tqr\tx8640\qr\adjustright \fs20\cgrid \sbasedon0 \snext29 footer;}
+{\s30\li360\sa60\sb120\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext30 GroupHeader;}
+{\s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext41 Code Example 0;}
+{\s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext42 Code Example 1;}
+{\s42\li720\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext43 Code Example 2;}
+{\s43\li1080\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext44 Code Example 3;}
+{\s44\li1440\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext45 Code Example 4;}
+{\s45\li1800\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext46 Code Example 5;}
+{\s46\li2160\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext47 Code Example 6;}
+{\s47\li2520\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext48 Code Example 7;}
+{\s48\li2880\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext49 Code Example 8;}
+{\s49\li3240\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext49 Code Example 9;}
+{\s50\li0\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext51 List Continue 0;}
+{\s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext52 List Continue 1;}
+{\s52\li720\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext53 List Continue 2;}
+{\s53\li1080\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext54 List Continue 3;}
+{\s54\li1440\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext55 List Continue 4;}
+{\s55\li1800\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext56 List Continue 5;}
+{\s56\li2160\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext57 List Continue 6;}
+{\s57\li2520\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext58 List Continue 7;}
+{\s58\li2880\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext59 List Continue 8;}
+{\s59\li3240\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext59 List Continue 9;}
+{\s60\li0\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext61 DescContinue 0;}
+{\s61\li360\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext62 DescContinue 1;}
+{\s62\li720\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext63 DescContinue 2;}
+{\s63\li1080\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext64 DescContinue 3;}
+{\s64\li1440\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext65 DescContinue 4;}
+{\s65\li1800\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext66 DescContinue 5;}
+{\s66\li2160\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext67 DescContinue 6;}
+{\s67\li2520\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext68 DescContinue 7;}
+{\s68\li2880\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext69 DescContinue 8;}
+{\s69\li3240\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext69 DescContinue 9;}
+{\s70\li0\sa30\sb30\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext81 LatexTOC 0;}
+{\s71\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext82 LatexTOC 1;}
+{\s72\li720\sa24\sb24\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext83 LatexTOC 2;}
+{\s73\li1080\sa21\sb21\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext84 LatexTOC 3;}
+{\s74\li1440\sa18\sb18\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext85 LatexTOC 4;}
+{\s75\li1800\sa15\sb15\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext86 LatexTOC 5;}
+{\s76\li2160\sa12\sb12\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext87 LatexTOC 6;}
+{\s77\li2520\sa9\sb9\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext88 LatexTOC 7;}
+{\s78\li2880\sa6\sb6\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext89 LatexTOC 8;}
+{\s79\li3240\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext89 LatexTOC 9;}
+{\s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext81 \sautoupd List Bullet 0;}
+{\s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid \sbasedon0 \snext82 \sautoupd List Bullet 1;}
+{\s82\fi-360\li1080\widctlpar\jclisttab\tx1080{\*\pn \pnlvlbody\ilvl0\ls3\pnrnot0\pndec }\ls3\adjustright \fs20\cgrid \sbasedon0 \snext83 \sautoupd List Bullet 2;}
+{\s83\fi-360\li1440\widctlpar\jclisttab\tx1440{\*\pn \pnlvlbody\ilvl0\ls4\pnrnot0\pndec }\ls4\adjustright \fs20\cgrid \sbasedon0 \snext84 \sautoupd List Bullet 3;}
+{\s84\fi-360\li1800\widctlpar\jclisttab\tx1800{\*\pn \pnlvlbody\ilvl0\ls5\pnrnot0\pndec }\ls5\adjustright \fs20\cgrid \sbasedon0 \snext85 \sautoupd List Bullet 4;}
+{\s85\fi-360\li2160\widctlpar\jclisttab\tx2160{\*\pn \pnlvlbody\ilvl0\ls6\pnrnot0\pndec }\ls6\adjustright \fs20\cgrid \sbasedon0 \snext86 \sautoupd List Bullet 5;}
+{\s86\fi-360\li2520\widctlpar\jclisttab\tx2520{\*\pn \pnlvlbody\ilvl0\ls7\pnrnot0\pndec }\ls7\adjustright \fs20\cgrid \sbasedon0 \snext87 \sautoupd List Bullet 6;}
+{\s87\fi-360\li2880\widctlpar\jclisttab\tx2880{\*\pn \pnlvlbody\ilvl0\ls8\pnrnot0\pndec }\ls8\adjustright \fs20\cgrid \sbasedon0 \snext88 \sautoupd List Bullet 7;}
+{\s88\fi-360\li3240\widctlpar\jclisttab\tx3240{\*\pn \pnlvlbody\ilvl0\ls9\pnrnot0\pndec }\ls9\adjustright \fs20\cgrid \sbasedon0 \snext89 \sautoupd List Bullet 8;}
+{\s89\fi-360\li3600\widctlpar\jclisttab\tx3600{\*\pn \pnlvlbody\ilvl0\ls10\pnrnot0\pndec }\ls10\adjustright \fs20\cgrid \sbasedon0 \snext89 \sautoupd List Bullet 9;}
+{\s90\fi-360\li360\widctlpar\fs20\cgrid \sbasedon0 \snext91 \sautoupd List Enum 0;}
+{\s91\fi-360\li720\widctlpar\fs20\cgrid \sbasedon0 \snext92 \sautoupd List Enum 1;}
+{\s92\fi-360\li1080\widctlpar\fs20\cgrid \sbasedon0 \snext93 \sautoupd List Enum 2;}
+{\s93\fi-360\li1440\widctlpar\fs20\cgrid \sbasedon0 \snext94 \sautoupd List Enum 3;}
+{\s94\fi-360\li1800\widctlpar\fs20\cgrid \sbasedon0 \snext95 \sautoupd List Enum 4;}
+{\s95\fi-360\li2160\widctlpar\fs20\cgrid \sbasedon0 \snext96 \sautoupd List Enum 5;}
+{\s96\fi-360\li2520\widctlpar\fs20\cgrid \sbasedon0 \snext96 \sautoupd List Enum 5;}
+{\s97\fi-360\li2880\widctlpar\fs20\cgrid \sbasedon0 \snext98 \sautoupd List Enum 7;}
+{\s98\fi-360\li3240\widctlpar\fs20\cgrid \sbasedon0 \snext99 \sautoupd List Enum 8;}
+{\s99\fi-360\li3600\widctlpar\fs20\cgrid \sbasedon0 \snext99 \sautoupd List Enum 9;}
+}
+{\comment begin body}
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Referência da Classe QCPItemText\par \pard\plain 
+{\tc\tcl2 \v QCPItemText}
+{\xe \v QCPItemText}
+{\bkmkstart AAAAAAACSG}
+{\bkmkend AAAAAAACSG}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+A text label. }}\par
+{
+{\f2 #include <qcustomplot.h>}}\par
+Diagrama de hierarquia para QCPItemText:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "classQCPItemText__inherit__graph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+Diagrama de colaboração para QCPItemText:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "classQCPItemText__coll__graph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Sinais\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b selectionChanged} (bool {\b selected})\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b selectableChanged} (bool {\b selectable})\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b layerChanged} ({\b QCPLayer} *newLayer)\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Membros Públicos\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b QCPItemText} ({\b QCustomPlot} *{\b parentPlot})\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual {\b ~QCPItemText} ()\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+QColor {\b color} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+QColor {\b selectedColor} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+QPen {\b pen} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+QPen {\b selectedPen} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+QBrush {\b brush} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+QBrush {\b selectedBrush} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+QFont {\b font} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+QFont {\b selectedFont} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+QString {\b text} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+Qt::Alignment {\b positionAlignment} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+Qt::Alignment {\b textAlignment} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+double {\b rotation} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+QMargins {\b padding} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setColor} (const QColor &{\b color})\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setSelectedColor} (const QColor &{\b color})\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setPen} (const QPen &{\b pen})\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setSelectedPen} (const QPen &{\b pen})\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setBrush} (const QBrush &{\b brush})\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setSelectedBrush} (const QBrush &{\b brush})\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setFont} (const QFont &{\b font})\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setSelectedFont} (const QFont &{\b font})\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setText} (const QString &{\b text})\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setPositionAlignment} (Qt::Alignment alignment)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setTextAlignment} (Qt::Alignment alignment)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setRotation} (double degrees)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setPadding} (const QMargins &{\b padding})\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual double {\b selectTest} (const QPointF &pos, bool onlySelectable, QVariant *details=0) const {\b Q_DECL_OVERRIDE}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b clipToAxisRect} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b QCPAxisRect} * {\b clipAxisRect} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b selectable} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b selected} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setClipToAxisRect} (bool clip)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setClipAxisRect} ({\b QCPAxisRect} *rect)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+Q_SLOT void {\b setSelectable} (bool {\b selectable})\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+Q_SLOT void {\b setSelected} (bool {\b selected})\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+QList< {\b QCPItemPosition} * > {\b positions} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+QList< {\b QCPItemAnchor} * > {\b anchors} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b QCPItemPosition} * {\b position} (const QString &name) const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b QCPItemAnchor} * {\b anchor} (const QString &name) const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b hasAnchor} (const QString &name) const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b visible} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b QCustomPlot} * {\b parentPlot} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b QCPLayerable} * {\b parentLayerable} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b QCPLayer} * {\b layer} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b antialiased} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setVisible} (bool on)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+Q_SLOT bool {\b setLayer} ({\b QCPLayer} *{\b layer})\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b setLayer} (const QString &layerName)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setAntialiased} (bool enabled)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b realVisibility} () const\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Atributos Públicos\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b QCPItemPosition} *const {\b position}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b QCPItemAnchor} *const {\b topLeft}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b QCPItemAnchor} *const {\b top}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b QCPItemAnchor} *const {\b topRight}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b QCPItemAnchor} *const {\b right}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b QCPItemAnchor} *const {\b bottomRight}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b QCPItemAnchor} *const {\b bottom}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b QCPItemAnchor} *const {\b bottomLeft}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b QCPItemAnchor} *const {\b left}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Tipos Protegidos\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+enum {\b AnchorIndex} \{ {\b aiTopLeft}, 
+{\b aiTop}, 
+{\b aiTopRight}, 
+{\b aiRight}, 
+{\b aiBottomRight}, 
+{\b aiBottom}, 
+{\b aiBottomLeft}, 
+{\b aiLeft}
+ \}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Membros Protegidos\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual void {\b draw} ({\b QCPPainter} *painter) {\b Q_DECL_OVERRIDE}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual QPointF {\b anchorPixelPosition} (int anchorId) const {\b Q_DECL_OVERRIDE}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+QPointF {\b getTextDrawPoint} (const QPointF &pos, const QRectF &rect, Qt::Alignment {\b positionAlignment}) const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+QFont {\b mainFont} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+QColor {\b mainColor} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+QPen {\b mainPen} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+QBrush {\b mainBrush} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual {\b QCP::Interaction} {\b selectionCategory} () const {\b Q_DECL_OVERRIDE}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual QRect {\b clipRect} () const {\b Q_DECL_OVERRIDE}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual void {\b applyDefaultAntialiasingHint} ({\b QCPPainter} *painter) const {\b Q_DECL_OVERRIDE}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual void {\b selectEvent} (QMouseEvent *event, bool additive, const QVariant &details, bool *selectionStateChanged) {\b Q_DECL_OVERRIDE}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual void {\b deselectEvent} (bool *selectionStateChanged) {\b Q_DECL_OVERRIDE}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+double {\b rectDistance} (const QRectF &rect, const QPointF &pos, bool filledRect) const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b QCPItemPosition} * {\b createPosition} (const QString &name)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b QCPItemAnchor} * {\b createAnchor} (const QString &name, int anchorId)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual void {\b parentPlotInitialized} ({\b QCustomPlot} *{\b parentPlot})\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual void {\b mousePressEvent} (QMouseEvent *event, const QVariant &details)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual void {\b mouseMoveEvent} (QMouseEvent *event, const QPointF &startPos)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual void {\b mouseReleaseEvent} (QMouseEvent *event, const QPointF &startPos)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual void {\b mouseDoubleClickEvent} (QMouseEvent *event, const QVariant &details)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual void {\b wheelEvent} (QWheelEvent *event)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b initializeParentPlot} ({\b QCustomPlot} *{\b parentPlot})\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setParentLayerable} ({\b QCPLayerable} *{\b parentLayerable})\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b moveToLayer} ({\b QCPLayer} *{\b layer}, bool prepend)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b applyAntialiasingHint} ({\b QCPPainter} *painter, bool localAntialiased, {\b QCP::AntialiasedElement} overrideElement) const\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Atributos Protegidos\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+QColor {\b mColor}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+QColor {\b mSelectedColor}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+QPen {\b mPen}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+QPen {\b mSelectedPen}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+QBrush {\b mBrush}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+QBrush {\b mSelectedBrush}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+QFont {\b mFont}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+QFont {\b mSelectedFont}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+QString {\b mText}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+Qt::Alignment {\b mPositionAlignment}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+Qt::Alignment {\b mTextAlignment}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+double {\b mRotation}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+QMargins {\b mPadding}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b mClipToAxisRect}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+QPointer< {\b QCPAxisRect} > {\b mClipAxisRect}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+QList< {\b QCPItemPosition} * > {\b mPositions}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+QList< {\b QCPItemAnchor} * > {\b mAnchors}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b mSelectable}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b mSelected}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b mVisible}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b QCustomPlot} * {\b mParentPlot}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+QPointer< {\b QCPLayerable} > {\b mParentLayerable}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b QCPLayer} * {\b mLayer}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b mAntialiased}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Descrição detalhada\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+A text label. \par
+}
+
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+ Its position is defined by the member {\i position}  and the setting of {\b setPositionAlignment}. The latter controls which part of the text rect shall be aligned with {\i position} .\par
+The text alignment itself (i.e. left, center, right) can be controlled with {\b setTextAlignment}.\par
+The text may be rotated around the {\i position}  point with {\b setRotation}. \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Enumerações\par
+\pard\plain 
+{\xe \v AnchorIndex\:QCPItemText}
+{\xe \v QCPItemText\:AnchorIndex}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+enum {\b QCPItemText::AnchorIndex}{\f2 [protected]}}}
+\par
+{\bkmkstart AAAAAAACSH}
+{\bkmkend AAAAAAACSH}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Enumeradores:\par}
+\pard\plain \s61\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{\xe \v aiTopLeft\:QCPItemText}
+{\xe \v QCPItemText\:aiTopLeft}
+{\qr aiTopLeft{\bkmkstart AAAAAAACSI}
+{\bkmkend AAAAAAACSI}
+\cell }{\cell }{\row }
+{\xe \v aiTop\:QCPItemText}
+{\xe \v QCPItemText\:aiTop}
+{\qr aiTop{\bkmkstart AAAAAAACSJ}
+{\bkmkend AAAAAAACSJ}
+\cell }{\cell }{\row }
+{\xe \v aiTopRight\:QCPItemText}
+{\xe \v QCPItemText\:aiTopRight}
+{\qr aiTopRight{\bkmkstart AAAAAAACSK}
+{\bkmkend AAAAAAACSK}
+\cell }{\cell }{\row }
+{\xe \v aiRight\:QCPItemText}
+{\xe \v QCPItemText\:aiRight}
+{\qr aiRight{\bkmkstart AAAAAAACSL}
+{\bkmkend AAAAAAACSL}
+\cell }{\cell }{\row }
+{\xe \v aiBottomRight\:QCPItemText}
+{\xe \v QCPItemText\:aiBottomRight}
+{\qr aiBottomRight{\bkmkstart AAAAAAACSM}
+{\bkmkend AAAAAAACSM}
+\cell }{\cell }{\row }
+{\xe \v aiBottom\:QCPItemText}
+{\xe \v QCPItemText\:aiBottom}
+{\qr aiBottom{\bkmkstart AAAAAAACSN}
+{\bkmkend AAAAAAACSN}
+\cell }{\cell }{\row }
+{\xe \v aiBottomLeft\:QCPItemText}
+{\xe \v QCPItemText\:aiBottomLeft}
+{\qr aiBottomLeft{\bkmkstart AAAAAAACSO}
+{\bkmkend AAAAAAACSO}
+\cell }{\cell }{\row }
+{\xe \v aiLeft\:QCPItemText}
+{\xe \v QCPItemText\:aiLeft}
+{\qr aiLeft{\bkmkstart AAAAAAACSP}
+{\bkmkend AAAAAAACSP}
+\cell }{\cell }{\row }
+}
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  6349 \{aiTopLeft, aiTop, aiTopRight, aiRight, aiBottomRight, aiBottom, aiBottomLeft, aiLeft\};\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Construtores e Destrutores\par
+\pard\plain 
+{\xe \v QCPItemText\:QCPItemText}
+{\xe \v QCPItemText\:QCPItemText}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QCPItemText::QCPItemText ({\b QCustomPlot} *  {\i parentPlot}){\f2 [explicit]}}}
+\par
+{\bkmkstart AAAAAAACSQ}
+{\bkmkend AAAAAAACSQ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Creates a text item and sets default values.\par
+The created item is automatically registered with {\i parentPlot} . This {\b QCustomPlot} instance takes ownership of the item, so do not delete it manually but use {\b QCustomPlot::removeItem()} instead. \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 28733                                                 :\par
+28734   QCPAbstractItem(parentPlot),\par
+28735   position(createPosition(QLatin1String("position"))),\par
+28736   topLeft(createAnchor(QLatin1String("topLeft"), aiTopLeft)),\par
+28737   top(createAnchor(QLatin1String("top"), aiTop)),\par
+28738   topRight(createAnchor(QLatin1String("topRight"), aiTopRight)),\par
+28739   right(createAnchor(QLatin1String("right"), aiRight)),\par
+28740   bottomRight(createAnchor(QLatin1String("bottomRight"), aiBottomRight)),\par
+28741   bottom(createAnchor(QLatin1String("bottom"), aiBottom)),\par
+28742   bottomLeft(createAnchor(QLatin1String("bottomLeft"), aiBottomLeft)),\par
+28743   left(createAnchor(QLatin1String("left"), aiLeft)),\par
+28744   mText(QLatin1String("text")),\par
+28745   mPositionAlignment(Qt::AlignCenter),\par
+28746   mTextAlignment(Qt::AlignTop|Qt::AlignHCenter),\par
+28747   mRotation(0)\par
+28748 \{\par
+28749   position->setCoords(0, 0);\par
+28750   \par
+28751   setPen(Qt::NoPen);\par
+28752   setSelectedPen(Qt::NoPen);\par
+28753   setBrush(Qt::NoBrush);\par
+28754   setSelectedBrush(Qt::NoBrush);\par
+28755   setColor(Qt::black);\par
+28756   setSelectedColor(Qt::blue);\par
+28757 \}\par
+}
+}
+{\xe \v ~QCPItemText\:QCPItemText}
+{\xe \v QCPItemText\:~QCPItemText}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QCPItemText::~QCPItemText (){\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAACSR}
+{\bkmkend AAAAAAACSR}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 28760 \{\par
+28761 \}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Funções membros\par
+\pard\plain 
+{\xe \v anchor\:QCPItemText}
+{\xe \v QCPItemText\:anchor}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b QCPItemAnchor} * QCPAbstractItem::anchor (const QString &  {\i name}) const{\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAEY}
+{\bkmkend AAAAAAAAEY}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Returns the {\b QCPItemAnchor} with the specified {\i name} . If this item doesn't have an anchor by that name, returns 0.\par
+This function provides an alternative way to access item anchors. Normally, you access anchors direcly by their member pointers (which typically have the same variable name as {\i name} ).\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b anchors}, {\b position} \par
+}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 12330 \{\par
+12331   for (int i=0; i<mAnchors.size(); ++i)\par
+12332   \{\par
+12333     if (mAnchors.at(i)->name() == name)\par
+12334       return mAnchors.at(i);\par
+12335   \}\par
+12336   qDebug() << Q_FUNC_INFO << "anchor with name not found:" << name;\par
+12337   return 0;\par
+12338 \}\par
+}
+}
+{\xe \v anchorPixelPosition\:QCPItemText}
+{\xe \v QCPItemText\:anchorPixelPosition}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QPointF QCPItemText::anchorPixelPosition (int  {\i anchorId}) const{\f2 [protected]}, {\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAAAFD}
+{\bkmkend AAAAAAAAFD}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Reimplementa {\b QCPAbstractItem} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAEZ \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 28955 \{\par
+28956   // get actual rect points (pretty much copied from draw function):\par
+28957   QPointF pos(position->pixelPosition());\par
+28958   QTransform transform;\par
+28959   transform.translate(pos.x(), pos.y());\par
+28960   if (!qFuzzyIsNull(mRotation))\par
+28961     transform.rotate(mRotation);\par
+28962   QFontMetrics fontMetrics(mainFont());\par
+28963   QRect textRect = fontMetrics.boundingRect(0, 0, 0, 0, Qt::TextDontClip|mTextAlignment, mText);\par
+28964   QRectF textBoxRect = textRect.adjusted(-mPadding.left(), -mPadding.top(), mPadding.right(), mPadding.bottom());\par
+28965   QPointF textPos = getTextDrawPoint(QPointF(0, 0), textBoxRect, mPositionAlignment); // 0, 0 because the transform does the translation\par
+28966   textBoxRect.moveTopLeft(textPos.toPoint());\par
+28967   QPolygonF rectPoly = transform.map(QPolygonF(textBoxRect));\par
+28968   \par
+28969   switch (anchorId)\par
+28970   \{\par
+28971     case aiTopLeft:     return rectPoly.at(0);\par
+28972     case aiTop:         return (rectPoly.at(0)+rectPoly.at(1))*0.5;\par
+28973     case aiTopRight:    return rectPoly.at(1);\par
+28974     case aiRight:       return (rectPoly.at(1)+rectPoly.at(2))*0.5;\par
+28975     case aiBottomRight: return rectPoly.at(2);\par
+28976     case aiBottom:      return (rectPoly.at(2)+rectPoly.at(3))*0.5;\par
+28977     case aiBottomLeft:  return rectPoly.at(3);\par
+28978     case aiLeft:        return (rectPoly.at(3)+rectPoly.at(0))*0.5;\par
+28979   \}\par
+28980   \par
+28981   qDebug() << Q_FUNC_INFO << "invalid anchorId" << anchorId;\par
+28982   return QPointF();\par
+28983 \}\par
+}
+}
+{\xe \v anchors\:QCPItemText}
+{\xe \v QCPItemText\:anchors}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QList< {\b QCPItemAnchor} * > QCPAbstractItem::anchors () const{\f2 [inline]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAFF}
+{\bkmkend AAAAAAAAFF}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Returns all anchors of the item in a list. Note that since a position ({\b QCPItemPosition}) is always also an anchor, the list will also contain the positions of this item.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b positions}, {\b anchor} \par
+}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  3535 \{ return mAnchors; \}\par
+}
+}
+{\xe \v antialiased\:QCPItemText}
+{\xe \v QCPItemText\:antialiased}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool QCPLayerable::antialiased () const{\f2 [inline]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAFG}
+{\bkmkend AAAAAAAAFG}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid   711 \{ return mAntialiased; \}\par
+}
+}
+{\xe \v applyAntialiasingHint\:QCPItemText}
+{\xe \v QCPItemText\:applyAntialiasingHint}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPLayerable::applyAntialiasingHint ({\b QCPPainter} *  {\i painter}, bool  {\i localAntialiased}, {\b QCP::AntialiasedElement}  {\i overrideElement}) const{\f2 [protected]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAFH}
+{\bkmkend AAAAAAAAFH}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1567 \{\par
+ 1568   if (mParentPlot && mParentPlot->notAntialiasedElements().testFlag(overrideElement))\par
+ 1569     painter->setAntialiasing(false);\par
+ 1570   else if (mParentPlot && mParentPlot->antialiasedElements().testFlag(overrideElement))\par
+ 1571     painter->setAntialiasing(true);\par
+ 1572   else\par
+ 1573     painter->setAntialiasing(localAntialiased);\par
+ 1574 \}\par
+}
+}
+{\xe \v applyDefaultAntialiasingHint\:QCPItemText}
+{\xe \v QCPItemText\:applyDefaultAntialiasingHint}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPAbstractItem::applyDefaultAntialiasingHint ({\b QCPPainter} *  {\i painter}) const{\f2 [protected]}, {\f2 [virtual]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAFI}
+{\bkmkend AAAAAAAAFI}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Implementa {\b QCPLayerable} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAFJ \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 12389 \{\par
+12390   applyAntialiasingHint(painter, mAntialiased, QCP::aeItems);\par
+12391 \}\par
+}
+}
+{\xe \v brush\:QCPItemText}
+{\xe \v QCPItemText\:brush}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QBrush QCPItemText::brush () const{\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAACSS}
+{\bkmkend AAAAAAACSS}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  6310 \{ return mBrush; \}\par
+}
+}
+{\xe \v clipAxisRect\:QCPItemText}
+{\xe \v QCPItemText\:clipAxisRect}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b QCPAxisRect} * QCPAbstractItem::clipAxisRect () const{\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAFK}
+{\bkmkend AAAAAAAAFK}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 12227 \{\par
+12228   return mClipAxisRect.data();\par
+12229 \}\par
+}
+}
+{\xe \v clipRect\:QCPItemText}
+{\xe \v QCPItemText\:clipRect}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QRect QCPAbstractItem::clipRect () const{\f2 [protected]}, {\f2 [virtual]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAFL}
+{\bkmkend AAAAAAAAFL}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Reimplementa {\b QCPLayerable} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAFM \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 12368 \{\par
+12369   if (mClipToAxisRect && mClipAxisRect)\par
+12370     return mClipAxisRect.data()->rect();\par
+12371   else\par
+12372     return mParentPlot->viewport();\par
+12373 \}\par
+}
+}
+{\xe \v clipToAxisRect\:QCPItemText}
+{\xe \v QCPItemText\:clipToAxisRect}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool QCPAbstractItem::clipToAxisRect () const{\f2 [inline]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAFN}
+{\bkmkend AAAAAAAAFN}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  3519 \{ return mClipToAxisRect; \}\par
+}
+}
+{\xe \v color\:QCPItemText}
+{\xe \v QCPItemText\:color}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QColor QCPItemText::color () const{\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAACST}
+{\bkmkend AAAAAAACST}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  6306 \{ return mColor; \}\par
+}
+}
+{\xe \v createAnchor\:QCPItemText}
+{\xe \v QCPItemText\:createAnchor}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b QCPItemAnchor} * QCPAbstractItem::createAnchor (const QString &  {\i name}, int  {\i anchorId}){\f2 [protected]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAFO}
+{\bkmkend AAAAAAAAFO}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 12497 \{\par
+12498   if (hasAnchor(name))\par
+12499     qDebug() << Q_FUNC_INFO << "anchor/position with name exists already:" << name;\par
+12500   QCPItemAnchor *newAnchor = new QCPItemAnchor(mParentPlot, this, name, anchorId);\par
+12501   mAnchors.append(newAnchor);\par
+12502   return newAnchor;\par
+12503 \}\par
+}
+}
+{\xe \v createPosition\:QCPItemText}
+{\xe \v QCPItemText\:createPosition}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b QCPItemPosition} * QCPAbstractItem::createPosition (const QString &  {\i name}){\f2 [protected]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAFP}
+{\bkmkend AAAAAAAAFP}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 12463 \{\par
+12464   if (hasAnchor(name))\par
+12465     qDebug() << Q_FUNC_INFO << "anchor/position with name exists already:" << name;\par
+12466   QCPItemPosition *newPosition = new QCPItemPosition(mParentPlot, this, name);\par
+12467   mPositions.append(newPosition);\par
+12468   mAnchors.append(newPosition); // every position is also an anchor\par
+12469   newPosition->setAxes(mParentPlot->xAxis, mParentPlot->yAxis);\par
+12470   newPosition->setType(QCPItemPosition::ptPlotCoords);\par
+12471   if (mParentPlot->axisRect())\par
+12472     newPosition->setAxisRect(mParentPlot->axisRect());\par
+12473   newPosition->setCoords(0, 0);\par
+12474   return newPosition;\par
+12475 \}\par
+}
+}
+{\xe \v deselectEvent\:QCPItemText}
+{\xe \v QCPItemText\:deselectEvent}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPAbstractItem::deselectEvent (bool *  {\i selectionStateChanged}){\f2 [protected]}, {\f2 [virtual]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAFQ}
+{\bkmkend AAAAAAAAFQ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Reimplementa {\b QCPLayerable} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAFR \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 12521 \{\par
+12522   if (mSelectable)\par
+12523   \{\par
+12524     bool selBefore = mSelected;\par
+12525     setSelected(false);\par
+12526     if (selectionStateChanged)\par
+12527       *selectionStateChanged = mSelected != selBefore;\par
+12528   \}\par
+12529 \}\par
+}
+}
+{\xe \v draw\:QCPItemText}
+{\xe \v QCPItemText\:draw}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPItemText::draw ({\b QCPPainter} *  {\i painter}){\f2 [protected]}, {\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAAAFY}
+{\bkmkend AAAAAAAAFY}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Implementa {\b QCPAbstractItem} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAFS \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 28923 \{\par
+28924   QPointF pos(position->pixelPosition());\par
+28925   QTransform transform = painter->transform();\par
+28926   transform.translate(pos.x(), pos.y());\par
+28927   if (!qFuzzyIsNull(mRotation))\par
+28928     transform.rotate(mRotation);\par
+28929   painter->setFont(mainFont());\par
+28930   QRect textRect = painter->fontMetrics().boundingRect(0, 0, 0, 0, Qt::TextDontClip|mTextAlignment, mText);\par
+28931   QRect textBoxRect = textRect.adjusted(-mPadding.left(), -mPadding.top(), mPadding.right(), mPadding.bottom());\par
+28932   QPointF textPos = getTextDrawPoint(QPointF(0, 0), textBoxRect, mPositionAlignment); // 0, 0 because the transform does the translation\par
+28933   textRect.moveTopLeft(textPos.toPoint()+QPoint(mPadding.left(), mPadding.top()));\par
+28934   textBoxRect.moveTopLeft(textPos.toPoint());\par
+28935   double clipPad = mainPen().widthF();\par
+28936   QRect boundingRect = textBoxRect.adjusted(-clipPad, -clipPad, clipPad, clipPad);\par
+28937   if (transform.mapRect(boundingRect).intersects(painter->transform().mapRect(clipRect())))\par
+28938   \{\par
+28939     painter->setTransform(transform);\par
+28940     if ((mainBrush().style() != Qt::NoBrush && mainBrush().color().alpha() != 0) ||\par
+28941         (mainPen().style() != Qt::NoPen && mainPen().color().alpha() != 0))\par
+28942     \{\par
+28943       painter->setPen(mainPen());\par
+28944       painter->setBrush(mainBrush());\par
+28945       painter->drawRect(textBoxRect);\par
+28946     \}\par
+28947     painter->setBrush(Qt::NoBrush);\par
+28948     painter->setPen(QPen(mainColor()));\par
+28949     painter->drawText(textRect, Qt::TextDontClip|mTextAlignment, mText);\par
+28950   \}\par
+28951 \}\par
+}
+}
+{\xe \v font\:QCPItemText}
+{\xe \v QCPItemText\:font}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QFont QCPItemText::font () const{\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAACSU}
+{\bkmkend AAAAAAACSU}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  6312 \{ return mFont; \}\par
+}
+}
+{\xe \v getTextDrawPoint\:QCPItemText}
+{\xe \v QCPItemText\:getTextDrawPoint}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QPointF QCPItemText::getTextDrawPoint (const QPointF &  {\i pos}, const QRectF &  {\i rect}, Qt::Alignment  {\i positionAlignment}) const{\f2 [protected]}}}
+\par
+{\bkmkstart AAAAAAACSV}
+{\bkmkend AAAAAAACSV}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 28996 \{\par
+28997   if (positionAlignment == 0 || positionAlignment == (Qt::AlignLeft|Qt::AlignTop))\par
+28998     return pos;\par
+28999   \par
+29000   QPointF result = pos; // start at top left\par
+29001   if (positionAlignment.testFlag(Qt::AlignHCenter))\par
+29002     result.rx() -= rect.width()/2.0;\par
+29003   else if (positionAlignment.testFlag(Qt::AlignRight))\par
+29004     result.rx() -= rect.width();\par
+29005   if (positionAlignment.testFlag(Qt::AlignVCenter))\par
+29006     result.ry() -= rect.height()/2.0;\par
+29007   else if (positionAlignment.testFlag(Qt::AlignBottom))\par
+29008     result.ry() -= rect.height();\par
+29009   return result;\par
+29010 \}\par
+}
+}
+{\xe \v hasAnchor\:QCPItemText}
+{\xe \v QCPItemText\:hasAnchor}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool QCPAbstractItem::hasAnchor (const QString &  {\i name}) const{\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAGD}
+{\bkmkend AAAAAAAAGD}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Returns whether this item has an anchor with the specified {\i name} .\par
+Note that you can check for positions with this function, too. This is because every position is also an anchor ({\b QCPItemPosition} inherits from {\b QCPItemAnchor}).\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b anchor}, {\b position} \par
+}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 12349 \{\par
+12350   for (int i=0; i<mAnchors.size(); ++i)\par
+12351   \{\par
+12352     if (mAnchors.at(i)->name() == name)\par
+12353       return true;\par
+12354   \}\par
+12355   return false;\par
+12356 \}\par
+}
+}
+{\xe \v initializeParentPlot\:QCPItemText}
+{\xe \v QCPItemText\:initializeParentPlot}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPLayerable::initializeParentPlot ({\b QCustomPlot} *  {\i parentPlot}){\f2 [protected]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAGE}
+{\bkmkend AAAAAAAAGE}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1497 \{\par
+ 1498   if (mParentPlot)\par
+ 1499   \{\par
+ 1500     qDebug() << Q_FUNC_INFO << "called with mParentPlot already initialized";\par
+ 1501     return;\par
+ 1502   \}\par
+ 1503   \par
+ 1504   if (!parentPlot)\par
+ 1505     qDebug() << Q_FUNC_INFO << "called with parentPlot zero";\par
+ 1506   \par
+ 1507   mParentPlot = parentPlot;\par
+ 1508   parentPlotInitialized(mParentPlot);\par
+ 1509 \}\par
+}
+}
+{\xe \v layer\:QCPItemText}
+{\xe \v QCPItemText\:layer}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b QCPLayer}* QCPLayerable::layer () const{\f2 [inline]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAGF}
+{\bkmkend AAAAAAAAGF}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid   710 \{ return mLayer; \}\par
+}
+}
+{\xe \v layerChanged\:QCPItemText}
+{\xe \v QCPItemText\:layerChanged}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPLayerable::layerChanged ({\b QCPLayer} *  {\i newLayer}){\f2 [signal]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAGG}
+{\bkmkend AAAAAAAAGG}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+This signal is emitted when the layer of this layerable changes, i.e. this layerable is moved to a different layer.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b setLayer} \par
+}}}
+{\xe \v mainBrush\:QCPItemText}
+{\xe \v QCPItemText\:mainBrush}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QBrush QCPItemText::mainBrush () const{\f2 [protected]}}}
+\par
+{\bkmkstart AAAAAAACSW}
+{\bkmkend AAAAAAACSW}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 29048 \{\par
+29049   return mSelected ? mSelectedBrush : mBrush;\par
+29050 \}\par
+}
+}
+{\xe \v mainColor\:QCPItemText}
+{\xe \v QCPItemText\:mainColor}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QColor QCPItemText::mainColor () const{\f2 [protected]}}}
+\par
+{\bkmkstart AAAAAAACSX}
+{\bkmkend AAAAAAACSX}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 29028 \{\par
+29029   return mSelected ? mSelectedColor : mColor;\par
+29030 \}\par
+}
+}
+{\xe \v mainFont\:QCPItemText}
+{\xe \v QCPItemText\:mainFont}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QFont QCPItemText::mainFont () const{\f2 [protected]}}}
+\par
+{\bkmkstart AAAAAAACSY}
+{\bkmkend AAAAAAACSY}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 29018 \{\par
+29019   return mSelected ? mSelectedFont : mFont;\par
+29020 \}\par
+}
+}
+{\xe \v mainPen\:QCPItemText}
+{\xe \v QCPItemText\:mainPen}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QPen QCPItemText::mainPen () const{\f2 [protected]}}}
+\par
+{\bkmkstart AAAAAAACSZ}
+{\bkmkend AAAAAAACSZ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 29038 \{\par
+29039   return mSelected ? mSelectedPen : mPen;\par
+29040 \}\par
+}
+}
+{\xe \v mouseDoubleClickEvent\:QCPItemText}
+{\xe \v QCPItemText\:mouseDoubleClickEvent}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPLayerable::mouseDoubleClickEvent (QMouseEvent *  {\i event}, const QVariant &  {\i details}){\f2 [protected]}, {\f2 [virtual]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAGH}
+{\bkmkend AAAAAAAAGH}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+This event gets called when the user presses the mouse button a second time in a double-click, while the cursor is over the layerable. Whether a cursor is over the layerable is decided by a preceding call to {\b selectTest}.\par
+The {\b mouseDoubleClickEvent} is called instead of the second {\b mousePressEvent}. So in the case of a double-click, the event succession is {\i pressEvent \'96 releaseEvent \'96 doubleClickEvent \'96 releaseEvent} .\par
+The current pixel position of the cursor on the {\b QCustomPlot} widget is accessible via {\f2 event->pos()} . The parameter {\i details}  contains layerable-specific details about the hit, which were generated in the previous call to {\b selectTest}. For example, One-dimensional plottables like {\b QCPGraph} or {\b QCPBars} convey the clicked data point in the {\i details}  parameter, as {\b QCPDataSelection} packed as QVariant. Multi-part objects convey the specific {\f2 SelectablePart}  that was hit (e.g. {\b QCPAxis::SelectablePart} in the case of axes).\par
+Similarly to {\b mousePressEvent}, once a layerable has accepted the {\b mouseDoubleClickEvent}, it is considered the mouse grabber and will receive all following calls to {\b mouseMoveEvent} and {\b mouseReleaseEvent} for this mouse interaction (a "mouse interaction" in this context ends with the release).\par
+The default implementation does nothing except explicitly ignoring the event with {\f2 event->ignore()} .\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b mousePressEvent}, {\b mouseMoveEvent}, {\b mouseReleaseEvent}, {\b wheelEvent} \par
+}}{
+Reimplementado por {\b QCPTextElement} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAGI \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1777 \{\par
+ 1778   Q_UNUSED(details)\par
+ 1779   event->ignore();\par
+ 1780 \}\par
+}
+}
+{\xe \v mouseMoveEvent\:QCPItemText}
+{\xe \v QCPItemText\:mouseMoveEvent}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPLayerable::mouseMoveEvent (QMouseEvent *  {\i event}, const QPointF &  {\i startPos}){\f2 [protected]}, {\f2 [virtual]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAGJ}
+{\bkmkend AAAAAAAAGJ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+This event gets called when the user moves the mouse while holding a mouse button, after this layerable has become the mouse grabber by accepting the preceding {\b mousePressEvent}.\par
+The current pixel position of the cursor on the {\b QCustomPlot} widget is accessible via {\f2 event->pos()} . The parameter {\i startPos}  indicates the position where the initial {\b mousePressEvent} occured, that started the mouse interaction.\par
+The default implementation does nothing.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b mousePressEvent}, {\b mouseReleaseEvent}, {\b mouseDoubleClickEvent}, {\b wheelEvent} \par
+}}{
+Reimplementado por {\b QCPColorScale} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAGK \\*MERGEFORMAT}{\fldrslt pagenum}}}), {\b QCPAxisRect} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAGL \\*MERGEFORMAT}{\fldrslt pagenum}}}) e {\b QCPAxis} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAGM \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1727 \{\par
+ 1728   Q_UNUSED(startPos)\par
+ 1729   event->ignore();\par
+ 1730 \}\par
+}
+}
+{\xe \v mousePressEvent\:QCPItemText}
+{\xe \v QCPItemText\:mousePressEvent}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPLayerable::mousePressEvent (QMouseEvent *  {\i event}, const QVariant &  {\i details}){\f2 [protected]}, {\f2 [virtual]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAGN}
+{\bkmkend AAAAAAAAGN}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+This event gets called when the user presses a mouse button while the cursor is over the layerable. Whether a cursor is over the layerable is decided by a preceding call to {\b selectTest}.\par
+The current pixel position of the cursor on the {\b QCustomPlot} widget is accessible via {\f2 event->pos()} . The parameter {\i details}  contains layerable-specific details about the hit, which were generated in the previous call to {\b selectTest}. For example, One-dimensional plottables like {\b QCPGraph} or {\b QCPBars} convey the clicked data point in the {\i details}  parameter, as {\b QCPDataSelection} packed as QVariant. Multi-part objects convey the specific {\f2 SelectablePart}  that was hit (e.g. {\b QCPAxis::SelectablePart} in the case of axes).\par
+{\b QCustomPlot} uses an event propagation system that works the same as Qt's system. If your layerable doesn't reimplement the {\b mousePressEvent} or explicitly calls {\f2 event->ignore()}  in its reimplementation, the event will be propagated to the next layerable in the stacking order.\par
+Once a layerable has accepted the {\b mousePressEvent}, it is considered the mouse grabber and will receive all following calls to {\b mouseMoveEvent} or {\b mouseReleaseEvent} for this mouse interaction (a "mouse interaction" in this context ends with the release).\par
+The default implementation does nothing except explicitly ignoring the event with {\f2 event->ignore()} .\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b mouseMoveEvent}, {\b mouseReleaseEvent}, {\b mouseDoubleClickEvent}, {\b wheelEvent} \par
+}}{
+Reimplementado por {\b QCPColorScale} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAGO \\*MERGEFORMAT}{\fldrslt pagenum}}}), {\b QCPTextElement} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAGP \\*MERGEFORMAT}{\fldrslt pagenum}}}), {\b QCPAxisRect} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAGQ \\*MERGEFORMAT}{\fldrslt pagenum}}}) e {\b QCPAxis} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAGR \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1709 \{\par
+ 1710   Q_UNUSED(details)\par
+ 1711   event->ignore();\par
+ 1712 \}\par
+}
+}
+{\xe \v mouseReleaseEvent\:QCPItemText}
+{\xe \v QCPItemText\:mouseReleaseEvent}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPLayerable::mouseReleaseEvent (QMouseEvent *  {\i event}, const QPointF &  {\i startPos}){\f2 [protected]}, {\f2 [virtual]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAGS}
+{\bkmkend AAAAAAAAGS}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+This event gets called when the user releases the mouse button, after this layerable has become the mouse grabber by accepting the preceding {\b mousePressEvent}.\par
+The current pixel position of the cursor on the {\b QCustomPlot} widget is accessible via {\f2 event->pos()} . The parameter {\i startPos}  indicates the position where the initial {\b mousePressEvent} occured, that started the mouse interaction.\par
+The default implementation does nothing.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b mousePressEvent}, {\b mouseMoveEvent}, {\b mouseDoubleClickEvent}, {\b wheelEvent} \par
+}}{
+Reimplementado por {\b QCPColorScale} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAGT \\*MERGEFORMAT}{\fldrslt pagenum}}}), {\b QCPTextElement} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAGU \\*MERGEFORMAT}{\fldrslt pagenum}}}), {\b QCPAxisRect} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAGV \\*MERGEFORMAT}{\fldrslt pagenum}}}) e {\b QCPAxis} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAGW \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1745 \{\par
+ 1746   Q_UNUSED(startPos)\par
+ 1747   event->ignore();\par
+ 1748 \}\par
+}
+}
+{\xe \v moveToLayer\:QCPItemText}
+{\xe \v QCPItemText\:moveToLayer}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool QCPLayerable::moveToLayer ({\b QCPLayer} *  {\i layer}, bool  {\i prepend}){\f2 [protected]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAGX}
+{\bkmkend AAAAAAAAGX}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1536 \{\par
+ 1537   if (layer && !mParentPlot)\par
+ 1538   \{\par
+ 1539     qDebug() << Q_FUNC_INFO << "no parent QCustomPlot set";\par
+ 1540     return false;\par
+ 1541   \}\par
+ 1542   if (layer && layer->parentPlot() != mParentPlot)\par
+ 1543   \{\par
+ 1544     qDebug() << Q_FUNC_INFO << "layer" << layer->name() << "is not in same QCustomPlot as this layerable";\par
+ 1545     return false;\par
+ 1546   \}\par
+ 1547   \par
+ 1548   QCPLayer *oldLayer = mLayer;\par
+ 1549   if (mLayer)\par
+ 1550     mLayer->removeChild(this);\par
+ 1551   mLayer = layer;\par
+ 1552   if (mLayer)\par
+ 1553     mLayer->addChild(this, prepend);\par
+ 1554   if (mLayer != oldLayer)\par
+ 1555     emit layerChanged(mLayer);\par
+ 1556   return true;\par
+ 1557 \}\par
+}
+}
+{\xe \v padding\:QCPItemText}
+{\xe \v QCPItemText\:padding}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QMargins QCPItemText::padding () const{\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAACTA}
+{\bkmkend AAAAAAACTA}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  6318 \{ return mPadding; \}\par
+}
+}
+{\xe \v parentLayerable\:QCPItemText}
+{\xe \v QCPItemText\:parentLayerable}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b QCPLayerable} * QCPLayerable::parentLayerable () const{\f2 [inline]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAGY}
+{\bkmkend AAAAAAAAGY}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Returns the parent layerable of this layerable. The parent layerable is used to provide visibility hierarchies in conjunction with the method {\b realVisibility}. This way, layerables only get drawn if their parent layerables are visible, too.\par
+Note that a parent layerable is not necessarily also the QObject parent for memory management. Further, a layerable doesn't always have a parent layerable, so this function may return 0.\par
+A parent layerable is set implicitly when placed inside layout elements and doesn't need to be set manually by the user. \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid   709 \{ return mParentLayerable.data(); \}\par
+}
+}
+{\xe \v parentPlot\:QCPItemText}
+{\xe \v QCPItemText\:parentPlot}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b QCustomPlot}* QCPLayerable::parentPlot () const{\f2 [inline]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAGZ}
+{\bkmkend AAAAAAAAGZ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid   708 \{ return mParentPlot; \}\par
+}
+}
+{\xe \v parentPlotInitialized\:QCPItemText}
+{\xe \v QCPItemText\:parentPlotInitialized}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPLayerable::parentPlotInitialized ({\b QCustomPlot} *  {\i parentPlot}){\f2 [protected]}, {\f2 [virtual]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAHA}
+{\bkmkend AAAAAAAAHA}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Reimplementado por {\b QCPLegend} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAHB \\*MERGEFORMAT}{\fldrslt pagenum}}}) e {\b QCPLayoutElement} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAHC \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1593 \{\par
+ 1594    Q_UNUSED(parentPlot)\par
+ 1595 \}\par
+}
+}
+{\xe \v pen\:QCPItemText}
+{\xe \v QCPItemText\:pen}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QPen QCPItemText::pen () const{\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAACTB}
+{\bkmkend AAAAAAACTB}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  6308 \{ return mPen; \}\par
+}
+}
+{\xe \v position\:QCPItemText}
+{\xe \v QCPItemText\:position}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b QCPItemPosition} * QCPAbstractItem::position (const QString &  {\i name}) const{\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAHD}
+{\bkmkend AAAAAAAAHD}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Returns the {\b QCPItemPosition} with the specified {\i name} . If this item doesn't have a position by that name, returns 0.\par
+This function provides an alternative way to access item positions. Normally, you access positions direcly by their member pointers (which typically have the same variable name as {\i name} ).\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b positions}, {\b anchor} \par
+}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 12309 \{\par
+12310   for (int i=0; i<mPositions.size(); ++i)\par
+12311   \{\par
+12312     if (mPositions.at(i)->name() == name)\par
+12313       return mPositions.at(i);\par
+12314   \}\par
+12315   qDebug() << Q_FUNC_INFO << "position with name not found:" << name;\par
+12316   return 0;\par
+12317 \}\par
+}
+}
+{\xe \v positionAlignment\:QCPItemText}
+{\xe \v QCPItemText\:positionAlignment}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+Qt::Alignment QCPItemText::positionAlignment () const{\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAACTC}
+{\bkmkend AAAAAAACTC}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  6315 \{ return mPositionAlignment; \}\par
+}
+}
+{\xe \v positions\:QCPItemText}
+{\xe \v QCPItemText\:positions}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QList< {\b QCPItemPosition} * > QCPAbstractItem::positions () const{\f2 [inline]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAHE}
+{\bkmkend AAAAAAAAHE}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Returns all positions of the item in a list.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b anchors}, {\b position} \par
+}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  3534 \{ return mPositions; \}\par
+}
+}
+{\xe \v realVisibility\:QCPItemText}
+{\xe \v QCPItemText\:realVisibility}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool QCPLayerable::realVisibility () const{\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAHF}
+{\bkmkend AAAAAAAAHF}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Returns whether this layerable is visible, taking the visibility of the layerable parent and the visibility of this layerable's layer into account. This is the method that is consulted to decide whether a layerable shall be drawn or not.\par
+If this layerable has a direct layerable parent (usually set via hierarchies implemented in subclasses, like in the case of {\b QCPLayoutElement}), this function returns true only if this layerable has its visibility set to true and the parent layerable's {\b realVisibility} returns true. \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1433 \{\par
+ 1434   return mVisible && (!mLayer || mLayer->visible()) && (!mParentLayerable || mParentLayerable.data()->realVisibility());\par
+ 1435 \}\par
+}
+}
+{\xe \v rectDistance\:QCPItemText}
+{\xe \v QCPItemText\:rectDistance}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+double QCPAbstractItem::rectDistance (const QRectF &  {\i rect}, const QPointF &  {\i pos}, bool  {\i filledRect}) const{\f2 [protected]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAHG}
+{\bkmkend AAAAAAAAHG}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 12407 \{\par
+12408   double result = -1;\par
+12409 \par
+12410   // distance to border:\par
+12411   QList<QLineF> lines;\par
+12412   lines << QLineF(rect.topLeft(), rect.topRight()) << QLineF(rect.bottomLeft(), rect.bottomRight())\par
+12413         << QLineF(rect.topLeft(), rect.bottomLeft()) << QLineF(rect.topRight(), rect.bottomRight());\par
+12414   double minDistSqr = std::numeric_limits<double>::max();\par
+12415   for (int i=0; i<lines.size(); ++i)\par
+12416   \{\par
+12417     double distSqr = QCPVector2D(pos).distanceSquaredToLine(lines.at(i).p1(), lines.at(i).p2());\par
+12418     if (distSqr < minDistSqr)\par
+12419       minDistSqr = distSqr;\par
+12420   \}\par
+12421   result = qSqrt(minDistSqr);\par
+12422   \par
+12423   // filled rect, allow click inside to count as hit:\par
+12424   if (filledRect && result > mParentPlot->selectionTolerance()*0.99)\par
+12425   \{\par
+12426     if (rect.contains(pos))\par
+12427       result = mParentPlot->selectionTolerance()*0.99;\par
+12428   \}\par
+12429   return result;\par
+12430 \}\par
+}
+}
+{\xe \v rotation\:QCPItemText}
+{\xe \v QCPItemText\:rotation}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+double QCPItemText::rotation () const{\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAACTD}
+{\bkmkend AAAAAAACTD}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  6317 \{ return mRotation; \}\par
+}
+}
+{\xe \v selectable\:QCPItemText}
+{\xe \v QCPItemText\:selectable}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool QCPAbstractItem::selectable () const{\f2 [inline]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAHH}
+{\bkmkend AAAAAAAAHH}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  3521 \{ return mSelectable; \}\par
+}
+}
+{\xe \v selectableChanged\:QCPItemText}
+{\xe \v QCPItemText\:selectableChanged}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPAbstractItem::selectableChanged (bool  {\i selectable}){\f2 [signal]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAHI}
+{\bkmkend AAAAAAAAHI}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v selected\:QCPItemText}
+{\xe \v QCPItemText\:selected}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool QCPAbstractItem::selected () const{\f2 [inline]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAHJ}
+{\bkmkend AAAAAAAAHJ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  3522 \{ return mSelected; \}\par
+}
+}
+{\xe \v selectedBrush\:QCPItemText}
+{\xe \v QCPItemText\:selectedBrush}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QBrush QCPItemText::selectedBrush () const{\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAACTE}
+{\bkmkend AAAAAAACTE}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  6311 \{ return mSelectedBrush; \}\par
+}
+}
+{\xe \v selectedColor\:QCPItemText}
+{\xe \v QCPItemText\:selectedColor}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QColor QCPItemText::selectedColor () const{\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAACTF}
+{\bkmkend AAAAAAACTF}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  6307 \{ return mSelectedColor; \}\par
+}
+}
+{\xe \v selectedFont\:QCPItemText}
+{\xe \v QCPItemText\:selectedFont}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QFont QCPItemText::selectedFont () const{\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAACTG}
+{\bkmkend AAAAAAACTG}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  6313 \{ return mSelectedFont; \}\par
+}
+}
+{\xe \v selectedPen\:QCPItemText}
+{\xe \v QCPItemText\:selectedPen}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QPen QCPItemText::selectedPen () const{\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAACTH}
+{\bkmkend AAAAAAACTH}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  6309 \{ return mSelectedPen; \}\par
+}
+}
+{\xe \v selectEvent\:QCPItemText}
+{\xe \v QCPItemText\:selectEvent}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPAbstractItem::selectEvent (QMouseEvent *  {\i event}, bool  {\i additive}, const QVariant &  {\i details}, bool *  {\i selectionStateChanged}){\f2 [protected]}, {\f2 [virtual]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAHK}
+{\bkmkend AAAAAAAAHK}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Reimplementa {\b QCPLayerable} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAHL \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 12507 \{\par
+12508   Q_UNUSED(event)\par
+12509   Q_UNUSED(details)\par
+12510   if (mSelectable)\par
+12511   \{\par
+12512     bool selBefore = mSelected;\par
+12513     setSelected(additive ? !mSelected : true);\par
+12514     if (selectionStateChanged)\par
+12515       *selectionStateChanged = mSelected != selBefore;\par
+12516   \}\par
+12517 \}\par
+}
+}
+{\xe \v selectionCategory\:QCPItemText}
+{\xe \v QCPItemText\:selectionCategory}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b QCP::Interaction} QCPAbstractItem::selectionCategory () const{\f2 [protected]}, {\f2 [virtual]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAHM}
+{\bkmkend AAAAAAAAHM}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Reimplementa {\b QCPLayerable} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAHN \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 12533 \{\par
+12534   return QCP::iSelectItems;\par
+12535 \}\par
+}
+}
+{\xe \v selectionChanged\:QCPItemText}
+{\xe \v QCPItemText\:selectionChanged}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPAbstractItem::selectionChanged (bool  {\i selected}){\f2 [signal]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAHO}
+{\bkmkend AAAAAAAAHO}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+This signal is emitted when the selection state of this item has changed, either by user interaction or by a direct call to {\b setSelected}. \par
+}}
+{\xe \v selectTest\:QCPItemText}
+{\xe \v QCPItemText\:selectTest}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+double QCPItemText::selectTest (const QPointF &  {\i pos}, bool  {\i onlySelectable}, QVariant *  {\i details} = {\f2 0}) const{\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAAAHV}
+{\bkmkend AAAAAAAAHV}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+This function is used to decide whether a click hits a layerable object or not.\par
+{\i pos}  is a point in pixel coordinates on the {\b QCustomPlot} surface. This function returns the shortest pixel distance of this point to the object. If the object is either invisible or the distance couldn't be determined, -1.0 is returned. Further, if {\i onlySelectable}  is true and the object is not selectable, -1.0 is returned, too.\par
+If the object is represented not by single lines but by an area like a {\b QCPItemText} or the bars of a {\b QCPBars} plottable, a click inside the area should also be considered a hit. In these cases this function thus returns a constant value greater zero but still below the parent plot's selection tolerance. (typically the selectionTolerance multiplied by 0.99).\par
+Providing a constant value for area objects allows selecting line objects even when they are obscured by such area objects, by clicking close to the lines (i.e. closer than 0.99*selectionTolerance).\par
+The actual setting of the selection state is not done by this function. This is handled by the parent {\b QCustomPlot} when the mouseReleaseEvent occurs, and the finally selected object is notified via the {\b selectEvent}/{\b deselectEvent} methods.\par
+{\i details}  is an optional output parameter. Every layerable subclass may place any information in {\i details} . This information will be passed to {\b selectEvent} when the parent {\b QCustomPlot} decides on the basis of this selectTest call, that the object was successfully selected. The subsequent call to {\b selectEvent} will carry the {\i details} . This is useful for multi-part objects (like {\b QCPAxis}). This way, a possibly complex calculation to decide which part was clicked is only done once in {\b selectTest}. The result (i.e. the actually clicked part) can then be placed in {\i details} . So in the subsequent {\b selectEvent}, the decision which part was selected doesn't have to be done a second time for a single selection operation.\par
+You may pass 0 as {\i details}  to indicate that you are not interested in those selection details.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b selectEvent}, {\b deselectEvent}, {\b mousePressEvent}, {\b wheelEvent}, {\b QCustomPlot::setInteractions} \par
+}}{
+Implementa {\b QCPAbstractItem} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAHP \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 28899 \{\par
+28900   Q_UNUSED(details)\par
+28901   if (onlySelectable && !mSelectable)\par
+28902     return -1;\par
+28903   \par
+28904   // The rect may be rotated, so we transform the actual clicked pos to the rotated\par
+28905   // coordinate system, so we can use the normal rectDistance function for non-rotated rects:\par
+28906   QPointF positionPixels(position->pixelPosition());\par
+28907   QTransform inputTransform;\par
+28908   inputTransform.translate(positionPixels.x(), positionPixels.y());\par
+28909   inputTransform.rotate(-mRotation);\par
+28910   inputTransform.translate(-positionPixels.x(), -positionPixels.y());\par
+28911   QPointF rotatedPos = inputTransform.map(pos);\par
+28912   QFontMetrics fontMetrics(mFont);\par
+28913   QRect textRect = fontMetrics.boundingRect(0, 0, 0, 0, Qt::TextDontClip|mTextAlignment, mText);\par
+28914   QRect textBoxRect = textRect.adjusted(-mPadding.left(), -mPadding.top(), mPadding.right(), mPadding.bottom());\par
+28915   QPointF textPos = getTextDrawPoint(positionPixels, textBoxRect, mPositionAlignment);\par
+28916   textBoxRect.moveTopLeft(textPos.toPoint());\par
+28917 \par
+28918   return rectDistance(textBoxRect, rotatedPos, true);\par
+28919 \}\par
+}
+}
+{\xe \v setAntialiased\:QCPItemText}
+{\xe \v QCPItemText\:setAntialiased}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPLayerable::setAntialiased (bool  {\i enabled}){\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAIA}
+{\bkmkend AAAAAAAAIA}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Sets whether this object will be drawn antialiased or not.\par
+Note that antialiasing settings may be overridden by {\b QCustomPlot::setAntialiasedElements} and {\b QCustomPlot::setNotAntialiasedElements}. \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1418 \{\par
+ 1419   mAntialiased = enabled;\par
+ 1420 \}\par
+}
+}
+{\xe \v setBrush\:QCPItemText}
+{\xe \v QCPItemText\:setBrush}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPItemText::setBrush (const QBrush &  {\i brush})}}
+\par
+{\bkmkstart AAAAAAACTI}
+{\bkmkend AAAAAAACTI}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Sets the brush that will be used do fill the background of the text. To disable the background, set {\i brush}  to Qt::NoBrush.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b setSelectedBrush}, {\b setPen}, {\b setPadding} \par
+}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 28808 \{\par
+28809   mBrush = brush;\par
+28810 \}\par
+}
+}
+{\xe \v setClipAxisRect\:QCPItemText}
+{\xe \v QCPItemText\:setClipAxisRect}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPAbstractItem::setClipAxisRect ({\b QCPAxisRect} *  {\i rect}){\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAIB}
+{\bkmkend AAAAAAAAIB}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Sets the clip axis rect. It defines the rect that will be used to clip the item when {\b setClipToAxisRect} is set to true.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b setClipToAxisRect} \par
+}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 12251 \{\par
+12252   mClipAxisRect = rect;\par
+12253   if (mClipToAxisRect)\par
+12254     setParentLayerable(mClipAxisRect.data());\par
+12255 \}\par
+}
+}
+{\xe \v setClipToAxisRect\:QCPItemText}
+{\xe \v QCPItemText\:setClipToAxisRect}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPAbstractItem::setClipToAxisRect (bool  {\i clip}){\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAIC}
+{\bkmkend AAAAAAAAIC}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Sets whether the item shall be clipped to an axis rect or whether it shall be visible on the entire {\b QCustomPlot}. The axis rect can be set with {\b setClipAxisRect}.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b setClipAxisRect} \par
+}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 12238 \{\par
+12239   mClipToAxisRect = clip;\par
+12240   if (mClipToAxisRect)\par
+12241     setParentLayerable(mClipAxisRect.data());\par
+12242 \}\par
+}
+}
+{\xe \v setColor\:QCPItemText}
+{\xe \v QCPItemText\:setColor}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPItemText::setColor (const QColor &  {\i color})}}
+\par
+{\bkmkstart AAAAAAACTJ}
+{\bkmkend AAAAAAACTJ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Sets the color of the text. \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 28767 \{\par
+28768   mColor = color;\par
+28769 \}\par
+}
+}
+{\xe \v setFont\:QCPItemText}
+{\xe \v QCPItemText\:setFont}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPItemText::setFont (const QFont &  {\i font})}}
+\par
+{\bkmkstart AAAAAAACTK}
+{\bkmkend AAAAAAACTK}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Sets the font of the text.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b setSelectedFont}, {\b setColor} \par
+}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 28829 \{\par
+28830   mFont = font;\par
+28831 \}\par
+}
+}
+{\xe \v setLayer\:QCPItemText}
+{\xe \v QCPItemText\:setLayer}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool QCPLayerable::setLayer ({\b QCPLayer} *  {\i layer}){\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAID}
+{\bkmkend AAAAAAAAID}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Sets the {\i layer}  of this layerable object. The object will be placed on top of the other objects already on {\i layer} .\par
+If {\i layer}  is 0, this layerable will not be on any layer and thus not appear in the plot (or interact/receive events).\par
+Returns true if the layer of this layerable was successfully changed to {\i layer} . \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1385 \{\par
+ 1386   return moveToLayer(layer, false);\par
+ 1387 \}\par
+}
+}
+{\xe \v setLayer\:QCPItemText}
+{\xe \v QCPItemText\:setLayer}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool QCPLayerable::setLayer (const QString &  {\i layerName}){\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAIE}
+{\bkmkend AAAAAAAAIE}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados. Sets the layer of this layerable object by name\par
+Returns true on success, i.e. if {\i layerName}  is a valid layer name. \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1395 \{\par
+ 1396   if (!mParentPlot)\par
+ 1397   \{\par
+ 1398     qDebug() << Q_FUNC_INFO << "no parent QCustomPlot set";\par
+ 1399     return false;\par
+ 1400   \}\par
+ 1401   if (QCPLayer *layer = mParentPlot->layer(layerName))\par
+ 1402   \{\par
+ 1403     return setLayer(layer);\par
+ 1404   \} else\par
+ 1405   \{\par
+ 1406     qDebug() << Q_FUNC_INFO << "there is no layer with name" << layerName;\par
+ 1407     return false;\par
+ 1408   \}\par
+ 1409 \}\par
+}
+}
+{\xe \v setPadding\:QCPItemText}
+{\xe \v QCPItemText\:setPadding}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPItemText::setPadding (const QMargins &  {\i padding})}}
+\par
+{\bkmkstart AAAAAAACTL}
+{\bkmkend AAAAAAACTL}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Sets the distance between the border of the text rectangle and the text. The appearance (and visibility) of the text rectangle can be controlled with {\b setPen} and {\b setBrush}. \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 28893 \{\par
+28894   mPadding = padding;\par
+28895 \}\par
+}
+}
+{\xe \v setParentLayerable\:QCPItemText}
+{\xe \v QCPItemText\:setParentLayerable}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPLayerable::setParentLayerable ({\b QCPLayerable} *  {\i parentLayerable}){\f2 [protected]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAIF}
+{\bkmkend AAAAAAAAIF}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1523 \{\par
+ 1524   mParentLayerable = parentLayerable;\par
+ 1525 \}\par
+}
+}
+{\xe \v setPen\:QCPItemText}
+{\xe \v QCPItemText\:setPen}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPItemText::setPen (const QPen &  {\i pen})}}
+\par
+{\bkmkstart AAAAAAACTM}
+{\bkmkend AAAAAAACTM}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Sets the pen that will be used do draw a rectangular border around the text. To disable the border, set {\i pen}  to Qt::NoPen.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b setSelectedPen}, {\b setBrush}, {\b setPadding} \par
+}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 28786 \{\par
+28787   mPen = pen;\par
+28788 \}\par
+}
+}
+{\xe \v setPositionAlignment\:QCPItemText}
+{\xe \v QCPItemText\:setPositionAlignment}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPItemText::setPositionAlignment (Qt::Alignment  {\i alignment})}}
+\par
+{\bkmkstart AAAAAAACTN}
+{\bkmkend AAAAAAACTN}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Sets which point of the text rect shall be aligned with {\i position} .\par
+Examples: {
+\par\pard\plain \s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid 
+If {\i alignment}  is {\f2 Qt::AlignHCenter | Qt::AlignTop} , the text will be positioned such that the top of the text rect will be horizontally centered on {\i position} . \par\pard\plain \s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid 
+If {\i alignment}  is {\f2 Qt::AlignLeft | Qt::AlignBottom} , {\i position}  will indicate the bottom left corner of the text rect.\par
+}
+If you want to control the alignment of (multi-lined) text within the text rect, use {\b setTextAlignment}. \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 28867 \{\par
+28868   mPositionAlignment = alignment;\par
+28869 \}\par
+}
+}
+{\xe \v setRotation\:QCPItemText}
+{\xe \v QCPItemText\:setRotation}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPItemText::setRotation (double  {\i degrees})}}
+\par
+{\bkmkstart AAAAAAACTO}
+{\bkmkend AAAAAAACTO}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Sets the angle in degrees by which the text (and the text rectangle, if visible) will be rotated around {\i position} . \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 28884 \{\par
+28885   mRotation = degrees;\par
+28886 \}\par
+}
+}
+{\xe \v setSelectable\:QCPItemText}
+{\xe \v QCPItemText\:setSelectable}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPAbstractItem::setSelectable (bool  {\i selectable}){\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAIG}
+{\bkmkend AAAAAAAAIG}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Sets whether the user can (de-)select this item by clicking on the {\b QCustomPlot} surface. (When {\b QCustomPlot::setInteractions} contains QCustomPlot::iSelectItems.)\par
+However, even when {\i selectable}  was set to false, it is possible to set the selection manually, by calling {\b setSelected}.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b QCustomPlot::setInteractions}, {\b setSelected} \par
+}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 12267 \{\par
+12268   if (mSelectable != selectable)\par
+12269   \{\par
+12270     mSelectable = selectable;\par
+12271     emit selectableChanged(mSelectable);\par
+12272   \}\par
+12273 \}\par
+}
+}
+{\xe \v setSelected\:QCPItemText}
+{\xe \v QCPItemText\:setSelected}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPAbstractItem::setSelected (bool  {\i selected}){\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAIH}
+{\bkmkend AAAAAAAAIH}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Sets whether this item is selected or not. When selected, it might use a different visual appearance (e.g. pen and brush), this depends on the specific item though.\par
+The entire selection mechanism for items is handled automatically when {\b QCustomPlot::setInteractions} contains QCustomPlot::iSelectItems. You only need to call this function when you wish to change the selection state manually.\par
+This function can change the selection state even when {\b setSelectable} was set to false.\par
+emits the {\b selectionChanged} signal when {\i selected}  is different from the previous selection state.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b setSelectable}, {\b selectTest} \par
+}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 12290 \{\par
+12291   if (mSelected != selected)\par
+12292   \{\par
+12293     mSelected = selected;\par
+12294     emit selectionChanged(mSelected);\par
+12295   \}\par
+12296 \}\par
+}
+}
+{\xe \v setSelectedBrush\:QCPItemText}
+{\xe \v QCPItemText\:setSelectedBrush}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPItemText::setSelectedBrush (const QBrush &  {\i brush})}}
+\par
+{\bkmkstart AAAAAAACTP}
+{\bkmkend AAAAAAACTP}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Sets the brush that will be used do fill the background of the text, when the item is selected. To disable the background, set {\i brush}  to Qt::NoBrush.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b setBrush} \par
+}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 28819 \{\par
+28820   mSelectedBrush = brush;\par
+28821 \}\par
+}
+}
+{\xe \v setSelectedColor\:QCPItemText}
+{\xe \v QCPItemText\:setSelectedColor}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPItemText::setSelectedColor (const QColor &  {\i color})}}
+\par
+{\bkmkstart AAAAAAACTQ}
+{\bkmkend AAAAAAACTQ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Sets the color of the text that will be used when the item is selected. \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 28775 \{\par
+28776   mSelectedColor = color;\par
+28777 \}\par
+}
+}
+{\xe \v setSelectedFont\:QCPItemText}
+{\xe \v QCPItemText\:setSelectedFont}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPItemText::setSelectedFont (const QFont &  {\i font})}}
+\par
+{\bkmkstart AAAAAAACTR}
+{\bkmkend AAAAAAACTR}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Sets the font of the text that will be used when the item is selected.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b setFont} \par
+}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 28839 \{\par
+28840   mSelectedFont = font;\par
+28841 \}\par
+}
+}
+{\xe \v setSelectedPen\:QCPItemText}
+{\xe \v QCPItemText\:setSelectedPen}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPItemText::setSelectedPen (const QPen &  {\i pen})}}
+\par
+{\bkmkstart AAAAAAACTS}
+{\bkmkend AAAAAAACTS}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Sets the pen that will be used do draw a rectangular border around the text, when the item is selected. To disable the border, set {\i pen}  to Qt::NoPen.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b setPen} \par
+}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 28797 \{\par
+28798   mSelectedPen = pen;\par
+28799 \}\par
+}
+}
+{\xe \v setText\:QCPItemText}
+{\xe \v QCPItemText\:setText}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPItemText::setText (const QString &  {\i text})}}
+\par
+{\bkmkstart AAAAAAACTT}
+{\bkmkend AAAAAAACTT}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Sets the text that will be displayed. Multi-line texts are supported by inserting a line break character, e.g. '\par
+'.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b setFont}, {\b setColor}, {\b setTextAlignment} \par
+}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 28850 \{\par
+28851   mText = text;\par
+28852 \}\par
+}
+}
+{\xe \v setTextAlignment\:QCPItemText}
+{\xe \v QCPItemText\:setTextAlignment}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPItemText::setTextAlignment (Qt::Alignment  {\i alignment})}}
+\par
+{\bkmkstart AAAAAAACTU}
+{\bkmkend AAAAAAACTU}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Controls how (multi-lined) text is aligned inside the text rect (typically Qt::AlignLeft, Qt::AlignCenter or Qt::AlignRight). \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 28875 \{\par
+28876   mTextAlignment = alignment;\par
+28877 \}\par
+}
+}
+{\xe \v setVisible\:QCPItemText}
+{\xe \v QCPItemText\:setVisible}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPLayerable::setVisible (bool  {\i on}){\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAII}
+{\bkmkend AAAAAAAAII}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Sets the visibility of this layerable object. If an object is not visible, it will not be drawn on the {\b QCustomPlot} surface, and user interaction with it (e.g. click and selection) is not possible. \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1371 \{\par
+ 1372   mVisible = on;\par
+ 1373 \}\par
+}
+}
+{\xe \v text\:QCPItemText}
+{\xe \v QCPItemText\:text}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QString QCPItemText::text () const{\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAACTV}
+{\bkmkend AAAAAAACTV}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  6314 \{ return mText; \}\par
+}
+}
+{\xe \v textAlignment\:QCPItemText}
+{\xe \v QCPItemText\:textAlignment}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+Qt::Alignment QCPItemText::textAlignment () const{\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAACTW}
+{\bkmkend AAAAAAACTW}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  6316 \{ return mTextAlignment; \}\par
+}
+}
+{\xe \v visible\:QCPItemText}
+{\xe \v QCPItemText\:visible}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool QCPLayerable::visible () const{\f2 [inline]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAIJ}
+{\bkmkend AAAAAAAAIJ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid   707 \{ return mVisible; \}\par
+}
+}
+{\xe \v wheelEvent\:QCPItemText}
+{\xe \v QCPItemText\:wheelEvent}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPLayerable::wheelEvent (QWheelEvent *  {\i event}){\f2 [protected]}, {\f2 [virtual]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAIK}
+{\bkmkend AAAAAAAAIK}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+This event gets called when the user turns the mouse scroll wheel while the cursor is over the layerable. Whether a cursor is over the layerable is decided by a preceding call to {\b selectTest}.\par
+The current pixel position of the cursor on the {\b QCustomPlot} widget is accessible via {\f2 event->pos()} .\par
+The {\f2 event->delta()}  indicates how far the mouse wheel was turned, which is usually +/- 120 for single rotation steps. However, if the mouse wheel is turned rapidly, multiple steps may accumulate to one event, making {\f2 event->delta()}  larger. On the other hand, if the wheel has very smooth steps or none at all, the delta may be smaller.\par
+The default implementation does nothing.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b mousePressEvent}, {\b mouseMoveEvent}, {\b mouseReleaseEvent}, {\b mouseDoubleClickEvent} \par
+}}{
+Reimplementado por {\b QCPColorScale} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAIL \\*MERGEFORMAT}{\fldrslt pagenum}}}), {\b QCPAxisRect} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAIM \\*MERGEFORMAT}{\fldrslt pagenum}}}) e {\b QCPAxis} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAIN \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1800 \{\par
+ 1801   event->ignore();\par
+ 1802 \}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Atributos\par
+\pard\plain 
+{\xe \v bottom\:QCPItemText}
+{\xe \v QCPItemText\:bottom}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b QCPItemAnchor}* const QCPItemText::bottom}}
+\par
+{\bkmkstart AAAAAAACTX}
+{\bkmkend AAAAAAACTX}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v bottomLeft\:QCPItemText}
+{\xe \v QCPItemText\:bottomLeft}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b QCPItemAnchor}* const QCPItemText::bottomLeft}}
+\par
+{\bkmkstart AAAAAAACTY}
+{\bkmkend AAAAAAACTY}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v bottomRight\:QCPItemText}
+{\xe \v QCPItemText\:bottomRight}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b QCPItemAnchor}* const QCPItemText::bottomRight}}
+\par
+{\bkmkstart AAAAAAACTZ}
+{\bkmkend AAAAAAACTZ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v left\:QCPItemText}
+{\xe \v QCPItemText\:left}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b QCPItemAnchor}* const QCPItemText::left}}
+\par
+{\bkmkstart AAAAAAACUA}
+{\bkmkend AAAAAAACUA}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v mAnchors\:QCPItemText}
+{\xe \v QCPItemText\:mAnchors}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QList<{\b QCPItemAnchor}*> QCPAbstractItem::mAnchors{\f2 [protected]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAIQ}
+{\bkmkend AAAAAAAAIQ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v mAntialiased\:QCPItemText}
+{\xe \v QCPItemText\:mAntialiased}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool QCPLayerable::mAntialiased{\f2 [protected]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAIR}
+{\bkmkend AAAAAAAAIR}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v mBrush\:QCPItemText}
+{\xe \v QCPItemText\:mBrush}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QBrush QCPItemText::mBrush{\f2 [protected]}}}
+\par
+{\bkmkstart AAAAAAACUB}
+{\bkmkend AAAAAAACUB}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v mClipAxisRect\:QCPItemText}
+{\xe \v QCPItemText\:mClipAxisRect}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QPointer<{\b QCPAxisRect}> QCPAbstractItem::mClipAxisRect{\f2 [protected]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAIS}
+{\bkmkend AAAAAAAAIS}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v mClipToAxisRect\:QCPItemText}
+{\xe \v QCPItemText\:mClipToAxisRect}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool QCPAbstractItem::mClipToAxisRect{\f2 [protected]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAIT}
+{\bkmkend AAAAAAAAIT}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v mColor\:QCPItemText}
+{\xe \v QCPItemText\:mColor}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QColor QCPItemText::mColor{\f2 [protected]}}}
+\par
+{\bkmkstart AAAAAAACUC}
+{\bkmkend AAAAAAACUC}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v mFont\:QCPItemText}
+{\xe \v QCPItemText\:mFont}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QFont QCPItemText::mFont{\f2 [protected]}}}
+\par
+{\bkmkstart AAAAAAACUD}
+{\bkmkend AAAAAAACUD}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v mLayer\:QCPItemText}
+{\xe \v QCPItemText\:mLayer}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b QCPLayer}* QCPLayerable::mLayer{\f2 [protected]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAIU}
+{\bkmkend AAAAAAAAIU}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v mPadding\:QCPItemText}
+{\xe \v QCPItemText\:mPadding}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QMargins QCPItemText::mPadding{\f2 [protected]}}}
+\par
+{\bkmkstart AAAAAAACUE}
+{\bkmkend AAAAAAACUE}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v mParentLayerable\:QCPItemText}
+{\xe \v QCPItemText\:mParentLayerable}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QPointer<{\b QCPLayerable}> QCPLayerable::mParentLayerable{\f2 [protected]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAIV}
+{\bkmkend AAAAAAAAIV}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v mParentPlot\:QCPItemText}
+{\xe \v QCPItemText\:mParentPlot}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b QCustomPlot}* QCPLayerable::mParentPlot{\f2 [protected]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAIW}
+{\bkmkend AAAAAAAAIW}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v mPen\:QCPItemText}
+{\xe \v QCPItemText\:mPen}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QPen QCPItemText::mPen{\f2 [protected]}}}
+\par
+{\bkmkstart AAAAAAACUF}
+{\bkmkend AAAAAAACUF}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v mPositionAlignment\:QCPItemText}
+{\xe \v QCPItemText\:mPositionAlignment}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+Qt::Alignment QCPItemText::mPositionAlignment{\f2 [protected]}}}
+\par
+{\bkmkstart AAAAAAACUG}
+{\bkmkend AAAAAAACUG}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v mPositions\:QCPItemText}
+{\xe \v QCPItemText\:mPositions}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QList<{\b QCPItemPosition}*> QCPAbstractItem::mPositions{\f2 [protected]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAIX}
+{\bkmkend AAAAAAAAIX}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v mRotation\:QCPItemText}
+{\xe \v QCPItemText\:mRotation}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+double QCPItemText::mRotation{\f2 [protected]}}}
+\par
+{\bkmkstart AAAAAAACUH}
+{\bkmkend AAAAAAACUH}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v mSelectable\:QCPItemText}
+{\xe \v QCPItemText\:mSelectable}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool QCPAbstractItem::mSelectable{\f2 [protected]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAIY}
+{\bkmkend AAAAAAAAIY}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v mSelected\:QCPItemText}
+{\xe \v QCPItemText\:mSelected}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool QCPAbstractItem::mSelected{\f2 [protected]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAIZ}
+{\bkmkend AAAAAAAAIZ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v mSelectedBrush\:QCPItemText}
+{\xe \v QCPItemText\:mSelectedBrush}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QBrush QCPItemText::mSelectedBrush{\f2 [protected]}}}
+\par
+{\bkmkstart AAAAAAACUI}
+{\bkmkend AAAAAAACUI}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v mSelectedColor\:QCPItemText}
+{\xe \v QCPItemText\:mSelectedColor}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QColor QCPItemText::mSelectedColor{\f2 [protected]}}}
+\par
+{\bkmkstart AAAAAAACUJ}
+{\bkmkend AAAAAAACUJ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v mSelectedFont\:QCPItemText}
+{\xe \v QCPItemText\:mSelectedFont}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QFont QCPItemText::mSelectedFont{\f2 [protected]}}}
+\par
+{\bkmkstart AAAAAAACUK}
+{\bkmkend AAAAAAACUK}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v mSelectedPen\:QCPItemText}
+{\xe \v QCPItemText\:mSelectedPen}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QPen QCPItemText::mSelectedPen{\f2 [protected]}}}
+\par
+{\bkmkstart AAAAAAACUL}
+{\bkmkend AAAAAAACUL}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v mText\:QCPItemText}
+{\xe \v QCPItemText\:mText}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QString QCPItemText::mText{\f2 [protected]}}}
+\par
+{\bkmkstart AAAAAAACUM}
+{\bkmkend AAAAAAACUM}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v mTextAlignment\:QCPItemText}
+{\xe \v QCPItemText\:mTextAlignment}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+Qt::Alignment QCPItemText::mTextAlignment{\f2 [protected]}}}
+\par
+{\bkmkstart AAAAAAACUN}
+{\bkmkend AAAAAAACUN}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v mVisible\:QCPItemText}
+{\xe \v QCPItemText\:mVisible}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool QCPLayerable::mVisible{\f2 [protected]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAJA}
+{\bkmkend AAAAAAAAJA}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v position\:QCPItemText}
+{\xe \v QCPItemText\:position}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b QCPItemPosition}* const QCPItemText::position}}
+\par
+{\bkmkstart AAAAAAACUO}
+{\bkmkend AAAAAAACUO}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v right\:QCPItemText}
+{\xe \v QCPItemText\:right}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b QCPItemAnchor}* const QCPItemText::right}}
+\par
+{\bkmkstart AAAAAAACUP}
+{\bkmkend AAAAAAACUP}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v top\:QCPItemText}
+{\xe \v QCPItemText\:top}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b QCPItemAnchor}* const QCPItemText::top}}
+\par
+{\bkmkstart AAAAAAACUQ}
+{\bkmkend AAAAAAACUQ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v topLeft\:QCPItemText}
+{\xe \v QCPItemText\:topLeft}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b QCPItemAnchor}* const QCPItemText::topLeft}}
+\par
+{\bkmkstart AAAAAAACUR}
+{\bkmkend AAAAAAACUR}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v topRight\:QCPItemText}
+{\xe \v QCPItemText\:topRight}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b QCPItemAnchor}* const QCPItemText::topRight}}
+\par
+{\bkmkstart AAAAAAACUS}
+{\bkmkend AAAAAAACUS}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+A documentação para essa classe foi gerada a partir dos seguintes arquivos:{\par
+\pard\plain \s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid 
+{\b qcustomplot.h}\par
+\pard\plain \s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid 
+{\b qcustomplot.cpp}\par
+}}

@@ -54,7 +54,7 @@
             </para>
         </section>
         <section>
-            <title>Public Attributes</title>
+            <title>Atributos Públicos</title>
             <para>
                 <itemizedlist>
                     <listitem>
@@ -92,7 +92,7 @@
             </para>
         </section>
         <section>
-            <title>Protected Attributes</title>
+            <title>Atributos Protegidos</title>
             <para>
                 <itemizedlist>
                     <listitem>
@@ -1469,7 +1469,7 @@ const QPointF &amp; pos, bool onlySelectable, QList&lt; QVariant &gt; * selectio
 <para>The central class of the library. This is the QWidget which displays the plot and interacts with the user. </para>
     </simplesect>
         <simplesect>
-            <title>Detailed Description</title>
+            <title>Descrição detalhada</title>
 
 <para>For tutorials on how to use <link linkend="class_q_custom_plot">QCustomPlot</link>, see the website
 <literallayout>
@@ -1484,14 +1484,14 @@ const QPointF &amp; pos, bool onlySelectable, QList&lt; QVariant &gt; * selectio
                
 <para>Defines how a layer should be inserted relative to an other layer.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_custom_plot_1ad5255393df078448bb6ac83fa5db5f52">addLayer</link>, <link linkend="class_q_custom_plot_1ae896140beff19424e9e9e02d6e331104">moveLayer</link> </para>
 </formalpara>
 </para>
 
                <formalpara>
-                    <title>Enumerator:</title>
+                    <title>Enumeradores:</title>
                     <variablelist>
                         <varlistentry xml:id="class_q_custom_plot_1a75a8afbe6ef333b1f3d47abb25b9add7aee39cf650cd24e68552da0b697ce4a93">
                             <term>limBelow</term>
@@ -1521,14 +1521,14 @@ limAbove,
                
 <para>Defines with what timing the <link linkend="class_q_custom_plot">QCustomPlot</link> surface is refreshed after a replot.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_custom_plot_1aa4bfe7d70dbe67e81d877819b75ab9af">replot</link> </para>
 </formalpara>
 </para>
 
                <formalpara>
-                    <title>Enumerator:</title>
+                    <title>Enumeradores:</title>
                     <variablelist>
                         <varlistentry xml:id="class_q_custom_plot_1a45d61392d13042e712a956d27762aa39aa6eda645ccf1a60635df3e8b71ea6ae2">
                             <term>rpImmediateRefresh</term>
@@ -1568,7 +1568,7 @@ rpQueuedReplot,
                 </para>
             </section>
         <section>
-            <title>Member Data Documentation</title>
+            <title>Atributos</title>
             <simplesect>
                 <title>QCPAxis * QCustomPlot::xAxis</title>                
 <para>A pointer to the primary x Axis (bottom) of the main axis rect of the plot.</para>
@@ -1631,7 +1631,7 @@ rpQueuedReplot,
             </simplesect>
         </section>
         <section>
-            <title>Member Data Documentation</title>
+            <title>Atributos</title>
         </section>
             <section xml:id="class_q_custom_plot_1a45b99626558651a6428b83972b0b34b8">
                 <title>QCustomPlot::QCustomPlot (QWidget *parent=0)</title> <emphasis></emphasis>
@@ -1710,7 +1710,7 @@ rpQueuedReplot,
                 
 <para>Allows access to the currently used <link linkend="class_q_c_p_selection_rect">QCPSelectionRect</link> instance (or subclass thereof), that is used to handle and draw selection rect interactions (see <link linkend="class_q_custom_plot_1a810ef958ebe84db661c7288b526c0deb">setSelectionRectMode</link>).</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_custom_plot_1a0c09f96df15faa4799ad7051bb16cf33">setSelectionRect</link> </para>
 </formalpara>
@@ -1752,7 +1752,7 @@ rpQueuedReplot,
 
 <para>If a background brush was set with <link linkend="class_q_custom_plot_1a8ed256cf467bfa7ba1f9feaae62c3bd0">setBackground(const QBrush &amp;brush)</link>, the viewport will first be filled with that brush, before drawing the background pixmap. This can be useful for background pixmaps with translucent areas.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_custom_plot_1a36f0fa1317325dc7b7efea615ee2de1f">setBackgroundScaled</link>, <link linkend="class_q_custom_plot_1a4c0eb4865b7949f62e1cb97db04a3de0">setBackgroundScaledMode</link> </para>
 </formalpara>
@@ -1762,11 +1762,11 @@ rpQueuedReplot,
             <section xml:id="class_q_custom_plot_1a8513971d6aa24d8b0d6a68d45b542130">
                 <title>void QCustomPlot::setBackground (const QPixmap &amp;pm, bool scaled, Qt::AspectRatioMode mode=Qt::KeepAspectRatioByExpanding)</title> <emphasis></emphasis>
                 
-<para>This is an overloaded member function, provided for convenience. It differs from the above function only in what argument(s) it accepts.</para>
+<para>Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.</para>
 
 <para>Allows setting the background pixmap of the viewport, whether it shall be scaled and how it shall be scaled in one call.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_custom_plot_1a130358592cfca353ff3cf5571b49fb00">setBackground(const QPixmap &amp;pm)</link>, <link linkend="class_q_custom_plot_1a36f0fa1317325dc7b7efea615ee2de1f">setBackgroundScaled</link>, <link linkend="class_q_custom_plot_1a4c0eb4865b7949f62e1cb97db04a3de0">setBackgroundScaledMode</link> </para>
 </formalpara>
@@ -1782,7 +1782,7 @@ rpQueuedReplot,
 
 <para>Set <emphasis>brush</emphasis> to Qt::NoBrush or Qt::Transparent to leave background transparent. This can be useful for exporting to image formats which support transparency, e.g. <link linkend="class_q_custom_plot_1ac92cc9256d12f354b40a4be4600b5fb9">savePng</link>.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_custom_plot_1a36f0fa1317325dc7b7efea615ee2de1f">setBackgroundScaled</link>, <link linkend="class_q_custom_plot_1a4c0eb4865b7949f62e1cb97db04a3de0">setBackgroundScaledMode</link> </para>
 </formalpara>
@@ -1796,7 +1796,7 @@ rpQueuedReplot,
 
 <para>Note that the scaled version of the original pixmap is buffered, so there is no performance penalty on replots. (Except when the viewport dimensions are changed continuously.)</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_custom_plot_1a130358592cfca353ff3cf5571b49fb00">setBackground</link>, <link linkend="class_q_custom_plot_1a4c0eb4865b7949f62e1cb97db04a3de0">setBackgroundScaledMode</link> </para>
 </formalpara>
@@ -1808,7 +1808,7 @@ rpQueuedReplot,
                 
 <para>If scaling of the viewport background pixmap is enabled (<link linkend="class_q_custom_plot_1a36f0fa1317325dc7b7efea615ee2de1f">setBackgroundScaled</link>), use this function to define whether and how the aspect ratio of the original pixmap is preserved.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_custom_plot_1a130358592cfca353ff3cf5571b49fb00">setBackground</link>, <link linkend="class_q_custom_plot_1a36f0fa1317325dc7b7efea615ee2de1f">setBackgroundScaled</link> </para>
 </formalpara>
@@ -1826,7 +1826,7 @@ rpQueuedReplot,
 
 <para>if an element in <emphasis>antialiasedElements</emphasis> is already set in <link linkend="class_q_custom_plot_1ae10d685b5eabea2999fb8775ca173c24">setNotAntialiasedElements</link>, it is removed from there.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_custom_plot_1ae10d685b5eabea2999fb8775ca173c24">setNotAntialiasedElements</link> </para>
 </formalpara>
@@ -1840,7 +1840,7 @@ rpQueuedReplot,
 
 <para>See <link linkend="class_q_custom_plot_1af6f91e5eab1be85f67c556e98c3745e8">setAntialiasedElements</link> for details.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_custom_plot_1afc657938a707c890e449ae89203a076d">setNotAntialiasedElement</link> </para>
 </formalpara>
@@ -1858,7 +1858,7 @@ rpQueuedReplot,
 
 <para>if an element in <emphasis>notAntialiasedElements</emphasis> is already set in <link linkend="class_q_custom_plot_1af6f91e5eab1be85f67c556e98c3745e8">setAntialiasedElements</link>, it is removed from there.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_custom_plot_1af6f91e5eab1be85f67c556e98c3745e8">setAntialiasedElements</link> </para>
 </formalpara>
@@ -1872,7 +1872,7 @@ rpQueuedReplot,
 
 <para>See <link linkend="class_q_custom_plot_1ae10d685b5eabea2999fb8775ca173c24">setNotAntialiasedElements</link> for details.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_custom_plot_1aeef813bcf7efab8e765f9f87ec454691">setAntialiasedElement</link> </para>
 </formalpara>
@@ -1884,7 +1884,7 @@ rpQueuedReplot,
                 
 <para>If set to true, adding a plottable (e.g. a graph) to the <link linkend="class_q_custom_plot">QCustomPlot</link> automatically also adds the plottable to the legend (<link linkend="class_q_custom_plot_1a4eadcd237dc6a09938b68b16877fa6af">QCustomPlot::legend</link>).</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_custom_plot_1a6fb2873d35a8a8089842d81a70a54167">addGraph</link>, <link linkend="class_q_c_p_legend_1a3ab274de52d2951faea45a6d975e6b3f">QCPLegend::addItem</link> </para>
 </formalpara>
@@ -1912,11 +1912,11 @@ rpQueuedReplot,
 
 <para>To allow multiple objects to be selected by holding the selection modifier (<link linkend="class_q_custom_plot_1a8fc96e3b5138a06759a2a90c166df516">setMultiSelectModifier</link>), set the flag <link linkend="namespace_q_c_p_1a2ad6bb6281c7c2d593d4277b44c2b037aef673112c5067c3cf4cfddb62da7265d">QCP::iMultiSelect</link>.</para>
 
-<para><formalpara><title>Note: </title>
+<para><formalpara><title>Observação: </title>
 
 <para>In addition to the selection mechanism presented here, <link linkend="class_q_custom_plot">QCustomPlot</link> always emits corresponding signals, when an object is clicked or double clicked. see <link linkend="class_q_custom_plot_1af5fe78b8bc9e4e96df921612837fd4fd">plottableClick</link> and <link linkend="class_q_custom_plot_1a86a3ab7263c9c4e008e70d6c5fce9fbd">plottableDoubleClick</link> for example.</para>
 </formalpara>
-<formalpara><title>See also: </title>
+<formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_custom_plot_1a422bf1bc6d56dac75a3d805d9a65902c">setInteraction</link>, <link linkend="class_q_custom_plot_1a4dc31241d7b09680950e19e5f971ed93">setSelectionTolerance</link> </para>
 </formalpara>
@@ -1930,7 +1930,7 @@ rpQueuedReplot,
 
 <para>For details about the interaction system, see <link linkend="class_q_custom_plot_1a5ee1e2f6ae27419deca53e75907c27e5">setInteractions</link>.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_custom_plot_1a5ee1e2f6ae27419deca53e75907c27e5">setInteractions</link> </para>
 </formalpara>
@@ -1944,7 +1944,7 @@ rpQueuedReplot,
 
 <para>If the user clicks in the vicinity of the line of e.g. a <link linkend="class_q_c_p_graph">QCPGraph</link>, it&apos;s only regarded as a potential selection when the minimum distance between the click position and the graph line is smaller than <emphasis>pixels</emphasis>. Objects that are defined by an area (e.g. <link linkend="class_q_c_p_bars">QCPBars</link>) only react to clicks directly inside the area and ignore this selection tolerance. In other words, it only has meaning for parts of objects that are too thin to exactly hit with a click and thus need such a tolerance.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_custom_plot_1a5ee1e2f6ae27419deca53e75907c27e5">setInteractions</link>, <link linkend="class_q_c_p_layerable_1a04db8351fefd44cfdb77958e75c6288e">QCPLayerable::selectTest</link> </para>
 </formalpara>
@@ -1956,7 +1956,7 @@ rpQueuedReplot,
                 
 <para>Sets whether antialiasing is disabled for this <link linkend="class_q_custom_plot">QCustomPlot</link> while the user is dragging axes ranges. If many objects, especially plottables, are drawn antialiased, this greatly improves performance during dragging. Thus it creates a more responsive user experience. As soon as the user stops dragging, the last replot is done with normal antialiasing, to restore high image quality.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_custom_plot_1af6f91e5eab1be85f67c556e98c3745e8">setAntialiasedElements</link>, <link linkend="class_q_custom_plot_1ae10d685b5eabea2999fb8775ca173c24">setNotAntialiasedElements</link> </para>
 </formalpara>
@@ -1968,7 +1968,7 @@ rpQueuedReplot,
                 
 <para>Sets the plotting hints for this <link linkend="class_q_custom_plot">QCustomPlot</link> instance as an <emphasis>or</emphasis> combination of <link linkend="namespace_q_c_p_1a5400e5fcb9528d92002ddb938c1f4ef4">QCP::PlottingHint</link>.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_custom_plot_1a3b7c97bb6c16464e9e15190c07abe9a9">setPlottingHint</link> </para>
 </formalpara>
@@ -1980,7 +1980,7 @@ rpQueuedReplot,
                 
 <para>Sets the specified plotting <emphasis>hint</emphasis> to <emphasis>enabled</emphasis>.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_custom_plot_1a94a33cbdadbbac5934843508bcfc210d">setPlottingHints</link> </para>
 </formalpara>
@@ -1996,7 +1996,7 @@ rpQueuedReplot,
 
 <para>By default the multi-select-modifier is set to Qt::ControlModifier.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_custom_plot_1a5ee1e2f6ae27419deca53e75907c27e5">setInteractions</link> </para>
 </formalpara>
@@ -2014,7 +2014,7 @@ rpQueuedReplot,
 
 <para>If a selection rect interaction is currently active, and <emphasis>mode</emphasis> is set to <link linkend="namespace_q_c_p_1ac9aa4d6d81ac76b094f9af9ad2d3aacfa9032f170490d67240a6c68c2638ffab1">QCP::srmNone</link>, the interaction is canceled (<link linkend="class_q_c_p_selection_rect_1af67bc58f4f5ce9a4dc420b9c42de235a">QCPSelectionRect::cancel</link>). Switching between any of the other modes will keep the selection rect active. Upon completion of the interaction, the behaviour is as defined by the currently set <emphasis>mode</emphasis>, not the mode that was set when the interaction started.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_custom_plot_1a5ee1e2f6ae27419deca53e75907c27e5">setInteractions</link>, <link linkend="class_q_custom_plot_1a0c09f96df15faa4799ad7051bb16cf33">setSelectionRect</link>, <link linkend="class_q_c_p_selection_rect">QCPSelectionRect</link> </para>
 </formalpara>
@@ -2028,7 +2028,7 @@ rpQueuedReplot,
 
 <para>This method is useful if you wish to replace the default <link linkend="class_q_c_p_selection_rect">QCPSelectionRect</link> instance with an instance of a <link linkend="class_q_c_p_selection_rect">QCPSelectionRect</link> subclass, to introduce custom behaviour of the selection rect.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_custom_plot_1a810ef958ebe84db661c7288b526c0deb">setSelectionRectMode</link> </para>
 </formalpara>
@@ -2038,7 +2038,7 @@ rpQueuedReplot,
             <section xml:id="class_q_custom_plot_1a7db1adc09016329f3aef7c60da935789">
                 <title>void QCustomPlot::setOpenGl (bool enabled, int multisampling=16)</title> <emphasis></emphasis>
                 
-<para><formalpara><title>Warning: </title>
+<para><formalpara><title>Aviso: </title>
 
 <para>This is still an experimental feature and its performance depends on the system that it runs on. Having multiple <link linkend="class_q_custom_plot">QCustomPlot</link> widgets in one application with enabled OpenGL rendering might cause context conflicts on some systems.</para>
 </formalpara>
@@ -2050,7 +2050,7 @@ This method allows to enable OpenGL plot rendering, for increased plotting perfo
 
 <para>If switching to OpenGL was successful, this method disables label caching (<link linkend="class_q_custom_plot_1a3b7c97bb6c16464e9e15190c07abe9a9">setPlottingHint(QCP::phCacheLabels, false)</link>) and turns on <link linkend="class_q_custom_plot">QCustomPlot</link>&apos;s antialiasing override for all elements (<link linkend="class_q_custom_plot_1af6f91e5eab1be85f67c556e98c3745e8">setAntialiasedElements(QCP::aeAll)</link>), leading to a higher quality output. The antialiasing override allows for pixel-grid aligned drawing in the OpenGL paint device. As stated before, in OpenGL rendering the actual antialiasing of the plot is controlled with <emphasis>multisampling</emphasis>. If <emphasis>enabled</emphasis> is set to false, the antialiasing/label caching settings are restored to what they were before OpenGL was enabled, if they weren&apos;t altered in the meantime.</para>
 
-<para><formalpara><title>Note: </title>
+<para><formalpara><title>Observação: </title>
 
 <para>OpenGL support is only enabled if <link linkend="class_q_custom_plot">QCustomPlot</link> is compiled with the macro <computeroutput>QCUSTOMPLOT_USE_OPENGL</computeroutput> defined. This define must be set before including the <link linkend="class_q_custom_plot">QCustomPlot</link> header both during compilation of the <link linkend="class_q_custom_plot">QCustomPlot</link> library as well as when compiling your application. It is best to just include the line <computeroutput>DEFINES += QCUSTOMPLOT_USE_OPENGL</computeroutput> in the respective qmake project files. </para>
 <simplesect/>
@@ -2066,7 +2066,7 @@ This method allows to enable OpenGL plot rendering, for increased plotting perfo
 
 <para>There is an overloaded version of this function with no parameter which returns the last added plottable, see <link linkend="class_q_custom_plot_1adea38bdc660da9412ba69fb939031567">QCustomPlot::plottable()</link></para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_custom_plot_1a5f4f15991c14bf9ad659bb2a19dfbed4">plottableCount</link> </para>
 </formalpara>
@@ -2076,11 +2076,11 @@ This method allows to enable OpenGL plot rendering, for increased plotting perfo
             <section xml:id="class_q_custom_plot_1adea38bdc660da9412ba69fb939031567">
                 <title>QCPAbstractPlottable * QCustomPlot::plottable ()</title> <emphasis></emphasis>
                 
-<para>This is an overloaded member function, provided for convenience. It differs from the above function only in what argument(s) it accepts.</para>
+<para>Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.</para>
 
 <para>Returns the last plottable that was added to the plot. If there are no plottables in the plot, returns 0.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_custom_plot_1a5f4f15991c14bf9ad659bb2a19dfbed4">plottableCount</link> </para>
 </formalpara>
@@ -2094,7 +2094,7 @@ This method allows to enable OpenGL plot rendering, for increased plotting perfo
 
 <para>Returns true on success.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_custom_plot_1a9a409bb3201878adb7ffba1c89c4e004">clearPlottables</link> </para>
 </formalpara>
@@ -2104,7 +2104,7 @@ This method allows to enable OpenGL plot rendering, for increased plotting perfo
             <section xml:id="class_q_custom_plot_1afc210e0021480f8119bccf37839dbcc8">
                 <title>bool QCustomPlot::removePlottable (int index)</title> <emphasis></emphasis>
                 
-<para>This is an overloaded member function, provided for convenience. It differs from the above function only in what argument(s) it accepts.</para>
+<para>Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.</para>
 
 <para>Removes and deletes the plottable by its <emphasis>index</emphasis>. </para>
 
@@ -2116,7 +2116,7 @@ This method allows to enable OpenGL plot rendering, for increased plotting perfo
 
 <para>Returns the number of plottables removed.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_custom_plot_1af3dafd56884208474f311d6226513ab2">removePlottable</link> </para>
 </formalpara>
@@ -2128,7 +2128,7 @@ This method allows to enable OpenGL plot rendering, for increased plotting perfo
                 
 <para>Returns the number of currently existing plottables in the plot</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_custom_plot_1a32de81ff53e263e785b83b52ecd99d6f">plottable</link> </para>
 </formalpara>
@@ -2142,7 +2142,7 @@ This method allows to enable OpenGL plot rendering, for increased plotting perfo
 
 <para>There is a convenience function if you&apos;re only interested in selected graphs, see <link linkend="class_q_custom_plot_1ad3547aded026d8a9ae6ef13a69080d06">selectedGraphs</link>.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_custom_plot_1a5ee1e2f6ae27419deca53e75907c27e5">setInteractions</link>, <link linkend="class_q_c_p_abstract_plottable_1ac238d6e910f976f1f30d41c2bca44ac3">QCPAbstractPlottable::setSelectable</link>, <link linkend="class_q_c_p_abstract_plottable_1a219bc5403a9d85d3129165ec3f5ae436">QCPAbstractPlottable::setSelection</link> </para>
 </formalpara>
@@ -2158,7 +2158,7 @@ This method allows to enable OpenGL plot rendering, for increased plotting perfo
 
 <para>If there is no plottable at <emphasis>pos</emphasis>, the return value is 0.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_custom_plot_1ac08578e0e6c059c83a8d340ba0038e8e">itemAt</link>, <link linkend="class_q_custom_plot_1afaa1d304e0287d140fd238e90889ef3c">layoutElementAt</link> </para>
 </formalpara>
@@ -2178,7 +2178,7 @@ This method allows to enable OpenGL plot rendering, for increased plotting perfo
 
 <para>There is an overloaded version of this function with no parameter which returns the last created graph, see <link linkend="class_q_custom_plot_1a6ecae130f684b25276fb47bd3a5875c6">QCustomPlot::graph()</link></para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_custom_plot_1a5e1787cdde868c4d3790f9ebc8207d90">graphCount</link>, <link linkend="class_q_custom_plot_1a6fb2873d35a8a8089842d81a70a54167">addGraph</link> </para>
 </formalpara>
@@ -2188,11 +2188,11 @@ This method allows to enable OpenGL plot rendering, for increased plotting perfo
             <section xml:id="class_q_custom_plot_1aac190865a67f19af3fdf2136774997af">
                 <title>QCPGraph * QCustomPlot::graph () const</title> <emphasis></emphasis>
                 
-<para>This is an overloaded member function, provided for convenience. It differs from the above function only in what argument(s) it accepts.</para>
+<para>Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.</para>
 
 <para>Returns the last graph, that was created with <link linkend="class_q_custom_plot_1a6fb2873d35a8a8089842d81a70a54167">addGraph</link>. If there are no graphs in the plot, returns 0.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_custom_plot_1a5e1787cdde868c4d3790f9ebc8207d90">graphCount</link>, <link linkend="class_q_custom_plot_1a6fb2873d35a8a8089842d81a70a54167">addGraph</link> </para>
 </formalpara>
@@ -2208,7 +2208,7 @@ This method allows to enable OpenGL plot rendering, for increased plotting perfo
 
 <para>Returns a pointer to the newly created graph, or 0 if adding the graph failed.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_custom_plot_1a6ecae130f684b25276fb47bd3a5875c6">graph</link>, <link linkend="class_q_custom_plot_1a5e1787cdde868c4d3790f9ebc8207d90">graphCount</link>, <link linkend="class_q_custom_plot_1a903561be895fb6528a770d66ac5e6713">removeGraph</link>, <link linkend="class_q_custom_plot_1ab0f3abff2d2f7df3668b5836f39207fa">clearGraphs</link> </para>
 </formalpara>
@@ -2222,7 +2222,7 @@ This method allows to enable OpenGL plot rendering, for increased plotting perfo
 
 <para>Returns true on success.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_custom_plot_1ab0f3abff2d2f7df3668b5836f39207fa">clearGraphs</link> </para>
 </formalpara>
@@ -2232,7 +2232,7 @@ This method allows to enable OpenGL plot rendering, for increased plotting perfo
             <section xml:id="class_q_custom_plot_1a9554b3d2d5b10c0f884bd4010b6c192c">
                 <title>bool QCustomPlot::removeGraph (int index)</title> <emphasis></emphasis>
                 
-<para>This is an overloaded member function, provided for convenience. It differs from the above function only in what argument(s) it accepts.</para>
+<para>Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.</para>
 
 <para>Removes and deletes the graph by its <emphasis>index</emphasis>. </para>
 
@@ -2244,7 +2244,7 @@ This method allows to enable OpenGL plot rendering, for increased plotting perfo
 
 <para>Returns the number of graphs removed.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_custom_plot_1a903561be895fb6528a770d66ac5e6713">removeGraph</link> </para>
 </formalpara>
@@ -2256,7 +2256,7 @@ This method allows to enable OpenGL plot rendering, for increased plotting perfo
                 
 <para>Returns the number of currently existing graphs in the plot</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_custom_plot_1a6ecae130f684b25276fb47bd3a5875c6">graph</link>, <link linkend="class_q_custom_plot_1a6fb2873d35a8a8089842d81a70a54167">addGraph</link> </para>
 </formalpara>
@@ -2270,7 +2270,7 @@ This method allows to enable OpenGL plot rendering, for increased plotting perfo
 
 <para>If you are not only interested in selected graphs but other plottables like <link linkend="class_q_c_p_curve">QCPCurve</link>, <link linkend="class_q_c_p_bars">QCPBars</link>, etc., use <link linkend="class_q_custom_plot_1a747faaab57c56891e901a1e97fa4359a">selectedPlottables</link>.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_custom_plot_1a5ee1e2f6ae27419deca53e75907c27e5">setInteractions</link>, <link linkend="class_q_custom_plot_1a747faaab57c56891e901a1e97fa4359a">selectedPlottables</link>, <link linkend="class_q_c_p_abstract_plottable_1ac238d6e910f976f1f30d41c2bca44ac3">QCPAbstractPlottable::setSelectable</link>, <link linkend="class_q_c_p_abstract_plottable_1a219bc5403a9d85d3129165ec3f5ae436">QCPAbstractPlottable::setSelection</link> </para>
 </formalpara>
@@ -2284,7 +2284,7 @@ This method allows to enable OpenGL plot rendering, for increased plotting perfo
 
 <para>There is an overloaded version of this function with no parameter which returns the last added item, see <link linkend="class_q_custom_plot_1ac042f2e78edd228ccf2f26b7fe215239">QCustomPlot::item()</link></para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_custom_plot_1a16025daf0341f9362be3080e404424c2">itemCount</link> </para>
 </formalpara>
@@ -2294,11 +2294,11 @@ This method allows to enable OpenGL plot rendering, for increased plotting perfo
             <section xml:id="class_q_custom_plot_1a12eb2a283cf10a8a9176c01c0443e83e">
                 <title>QCPAbstractItem * QCustomPlot::item () const</title> <emphasis></emphasis>
                 
-<para>This is an overloaded member function, provided for convenience. It differs from the above function only in what argument(s) it accepts.</para>
+<para>Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.</para>
 
 <para>Returns the last item that was added to this plot. If there are no items in the plot, returns 0.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_custom_plot_1a16025daf0341f9362be3080e404424c2">itemCount</link> </para>
 </formalpara>
@@ -2312,7 +2312,7 @@ This method allows to enable OpenGL plot rendering, for increased plotting perfo
 
 <para>Returns true on success.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_custom_plot_1abdfd07d4f0591d0cf967f85013fd3645">clearItems</link> </para>
 </formalpara>
@@ -2322,7 +2322,7 @@ This method allows to enable OpenGL plot rendering, for increased plotting perfo
             <section xml:id="class_q_custom_plot_1abcfdda3d601c0441cab136137d715dea">
                 <title>bool QCustomPlot::removeItem (int index)</title> <emphasis></emphasis>
                 
-<para>This is an overloaded member function, provided for convenience. It differs from the above function only in what argument(s) it accepts.</para>
+<para>Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.</para>
 
 <para>Removes and deletes the item by its <emphasis>index</emphasis>. </para>
 
@@ -2334,7 +2334,7 @@ This method allows to enable OpenGL plot rendering, for increased plotting perfo
 
 <para>Returns the number of items removed.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_custom_plot_1ae04446557292551e8fb6e2c106e1848d">removeItem</link> </para>
 </formalpara>
@@ -2346,7 +2346,7 @@ This method allows to enable OpenGL plot rendering, for increased plotting perfo
                 
 <para>Returns the number of currently existing items in the plot</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_custom_plot_1ac042f2e78edd228ccf2f26b7fe215239">item</link> </para>
 </formalpara>
@@ -2358,7 +2358,7 @@ This method allows to enable OpenGL plot rendering, for increased plotting perfo
                 
 <para>Returns a list of the selected items. If no items are currently selected, the list is empty.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_custom_plot_1a5ee1e2f6ae27419deca53e75907c27e5">setInteractions</link>, <link linkend="class_q_c_p_abstract_item_1a8a8e32a55bc478b849756a78c2d87fd2">QCPAbstractItem::setSelectable</link>, <link linkend="class_q_c_p_abstract_item_1a203de94ad586cc44d16c9565f49d3378">QCPAbstractItem::setSelected</link> </para>
 </formalpara>
@@ -2374,7 +2374,7 @@ This method allows to enable OpenGL plot rendering, for increased plotting perfo
 
 <para>If there is no item at <emphasis>pos</emphasis>, the return value is 0.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_custom_plot_1acddbbd8b16dd633f0d94e5a736fbd8cf">plottableAt</link>, <link linkend="class_q_custom_plot_1afaa1d304e0287d140fd238e90889ef3c">layoutElementAt</link> </para>
 </formalpara>
@@ -2386,7 +2386,7 @@ This method allows to enable OpenGL plot rendering, for increased plotting perfo
                 
 <para>Returns whether this <link linkend="class_q_custom_plot">QCustomPlot</link> contains the <emphasis>item</emphasis>.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_custom_plot_1ac042f2e78edd228ccf2f26b7fe215239">item</link> </para>
 </formalpara>
@@ -2400,7 +2400,7 @@ This method allows to enable OpenGL plot rendering, for increased plotting perfo
 
 <para>Layer names are case-sensitive.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_custom_plot_1ad5255393df078448bb6ac83fa5db5f52">addLayer</link>, <link linkend="class_q_custom_plot_1ae896140beff19424e9e9e02d6e331104">moveLayer</link>, <link linkend="class_q_custom_plot_1a40f75e342c5eaab6a86066a42a0e2a94">removeLayer</link> </para>
 </formalpara>
@@ -2410,11 +2410,11 @@ This method allows to enable OpenGL plot rendering, for increased plotting perfo
             <section xml:id="class_q_custom_plot_1acbb570f4c24306e7c2324d40bfe157c2">
                 <title>QCPLayer * QCustomPlot::layer (int index) const</title> <emphasis></emphasis>
                 
-<para>This is an overloaded member function, provided for convenience. It differs from the above function only in what argument(s) it accepts.</para>
+<para>Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.</para>
 
 <para>Returns the layer by <emphasis>index</emphasis>. If the index is invalid, 0 is returned.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_custom_plot_1ad5255393df078448bb6ac83fa5db5f52">addLayer</link>, <link linkend="class_q_custom_plot_1ae896140beff19424e9e9e02d6e331104">moveLayer</link>, <link linkend="class_q_custom_plot_1a40f75e342c5eaab6a86066a42a0e2a94">removeLayer</link> </para>
 </formalpara>
@@ -2436,7 +2436,7 @@ This method allows to enable OpenGL plot rendering, for increased plotting perfo
 
 <para>Layer names are case-sensitive.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_custom_plot_1ad5255393df078448bb6ac83fa5db5f52">addLayer</link>, <link linkend="class_q_custom_plot_1ae896140beff19424e9e9e02d6e331104">moveLayer</link>, <link linkend="class_q_custom_plot_1a40f75e342c5eaab6a86066a42a0e2a94">removeLayer</link>, <link linkend="class_q_c_p_layerable_1ab0d0da6d2de45a118886d2c8e16d5a54">QCPLayerable::setLayer</link> </para>
 </formalpara>
@@ -2446,13 +2446,13 @@ This method allows to enable OpenGL plot rendering, for increased plotting perfo
             <section xml:id="class_q_custom_plot_1a23a4d3cadad1a0063c5fe19aac5659e6">
                 <title>bool QCustomPlot::setCurrentLayer (QCPLayer *layer)</title> <emphasis></emphasis>
                 
-<para>This is an overloaded member function, provided for convenience. It differs from the above function only in what argument(s) it accepts.</para>
+<para>Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.</para>
 
 <para>Sets the provided <emphasis>layer</emphasis> to be the current layer.</para>
 
 <para>Returns true on success, i.e. when <emphasis>layer</emphasis> is a valid layer in the <link linkend="class_q_custom_plot">QCustomPlot</link>.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_custom_plot_1ad5255393df078448bb6ac83fa5db5f52">addLayer</link>, <link linkend="class_q_custom_plot_1ae896140beff19424e9e9e02d6e331104">moveLayer</link>, <link linkend="class_q_custom_plot_1a40f75e342c5eaab6a86066a42a0e2a94">removeLayer</link> </para>
 </formalpara>
@@ -2464,7 +2464,7 @@ This method allows to enable OpenGL plot rendering, for increased plotting perfo
                 
 <para>Returns the number of currently existing layers in the plot</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_custom_plot_1a0a96244e7773b242ef23c32b7bdfb159">layer</link>, <link linkend="class_q_custom_plot_1ad5255393df078448bb6ac83fa5db5f52">addLayer</link> </para>
 </formalpara>
@@ -2482,7 +2482,7 @@ This method allows to enable OpenGL plot rendering, for increased plotting perfo
 
 <para>For an explanation of what layers are in <link linkend="class_q_custom_plot">QCustomPlot</link>, see the documentation of <link linkend="class_q_c_p_layer">QCPLayer</link>.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_custom_plot_1a0a96244e7773b242ef23c32b7bdfb159">layer</link>, <link linkend="class_q_custom_plot_1ae896140beff19424e9e9e02d6e331104">moveLayer</link>, <link linkend="class_q_custom_plot_1a40f75e342c5eaab6a86066a42a0e2a94">removeLayer</link> </para>
 </formalpara>
@@ -2500,7 +2500,7 @@ This method allows to enable OpenGL plot rendering, for increased plotting perfo
 
 <para>It is not possible to remove the last layer of the plot.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_custom_plot_1a0a96244e7773b242ef23c32b7bdfb159">layer</link>, <link linkend="class_q_custom_plot_1ad5255393df078448bb6ac83fa5db5f52">addLayer</link>, <link linkend="class_q_custom_plot_1ae896140beff19424e9e9e02d6e331104">moveLayer</link> </para>
 </formalpara>
@@ -2514,7 +2514,7 @@ This method allows to enable OpenGL plot rendering, for increased plotting perfo
 
 <para>Returns true on success, i.e. when both <emphasis>layer</emphasis> and <emphasis>otherLayer</emphasis> are valid layers in the <link linkend="class_q_custom_plot">QCustomPlot</link>.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_custom_plot_1a0a96244e7773b242ef23c32b7bdfb159">layer</link>, <link linkend="class_q_custom_plot_1ad5255393df078448bb6ac83fa5db5f52">addLayer</link>, <link linkend="class_q_custom_plot_1ae896140beff19424e9e9e02d6e331104">moveLayer</link> </para>
 </formalpara>
@@ -2530,7 +2530,7 @@ This method allows to enable OpenGL plot rendering, for increased plotting perfo
 
 <para>Initially, only one axis rect exists in the plot.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_custom_plot_1ae5eefcb5f6ca26689b1fd4f6e25b42f9">axisRect</link>, <link linkend="class_q_custom_plot_1a12af771429e2d7e313c8c5d5fca068fe">axisRects</link> </para>
 </formalpara>
@@ -2544,7 +2544,7 @@ This method allows to enable OpenGL plot rendering, for increased plotting perfo
 
 <para>Initially, only one axis rect (with index 0) exists in the plot. If multiple axis rects were added, all of them may be accessed with this function in a linear fashion (even when they are nested in a layout hierarchy or inside other axis rects via <link linkend="class_q_c_p_axis_rect_1a949f803466619924c7018df4b511ae10">QCPAxisRect::insetLayout</link>).</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_custom_plot_1a8f85940aaac50efb466287d9d2d04ec6">axisRectCount</link>, <link linkend="class_q_custom_plot_1a12af771429e2d7e313c8c5d5fca068fe">axisRects</link> </para>
 </formalpara>
@@ -2556,7 +2556,7 @@ This method allows to enable OpenGL plot rendering, for increased plotting perfo
                 
 <para>Returns all axis rects in the plot.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_custom_plot_1a8f85940aaac50efb466287d9d2d04ec6">axisRectCount</link>, <link linkend="class_q_custom_plot_1ae5eefcb5f6ca26689b1fd4f6e25b42f9">axisRect</link> </para>
 </formalpara>
@@ -2570,7 +2570,7 @@ This method allows to enable OpenGL plot rendering, for increased plotting perfo
 
 <para>Only visible elements are used. If <link linkend="class_q_c_p_layerable_1a3bed99ddc396b48ce3ebfdc0418744f8">QCPLayoutElement::setVisible</link> on the element itself or on any of its parent elements is set to false, it will not be considered.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_custom_plot_1ac08578e0e6c059c83a8d340ba0038e8e">itemAt</link>, <link linkend="class_q_custom_plot_1acddbbd8b16dd633f0d94e5a736fbd8cf">plottableAt</link> </para>
 </formalpara>
@@ -2584,7 +2584,7 @@ This method allows to enable OpenGL plot rendering, for increased plotting perfo
 
 <para>Only visible axis rects are used. If <link linkend="class_q_c_p_layerable_1a3bed99ddc396b48ce3ebfdc0418744f8">QCPLayoutElement::setVisible</link> on the axis rect itself or on any of its parent elements is set to false, it will not be considered.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_custom_plot_1afaa1d304e0287d140fd238e90889ef3c">layoutElementAt</link> </para>
 </formalpara>
@@ -2598,7 +2598,7 @@ This method allows to enable OpenGL plot rendering, for increased plotting perfo
 
 <para>if <emphasis>onlyVisiblePlottables</emphasis> is set to true, only the plottables that have their visibility set to true (<link linkend="class_q_c_p_layerable_1a3bed99ddc396b48ce3ebfdc0418744f8">QCPLayerable::setVisible</link>), will be used to rescale the axes.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_c_p_abstract_plottable_1a1491c4a606bccd2d09e65e11b79eb882">QCPAbstractPlottable::rescaleAxes</link>, <link linkend="class_q_c_p_axis_1a499345f02ebce4b23d8ccec96e58daa9">QCPAxis::rescale</link> </para>
 </formalpara>
@@ -2610,7 +2610,7 @@ This method allows to enable OpenGL plot rendering, for increased plotting perfo
                 
 <para>Returns the axes that currently have selected parts, i.e. whose selection state is not <link linkend="class_q_c_p_axis_1abee4c7a54c468b1385dfce2c898b115fae0df8123a5528d5ccf87cb7794f971ea">QCPAxis::spNone</link>.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_custom_plot_1a747faaab57c56891e901a1e97fa4359a">selectedPlottables</link>, <link linkend="class_q_custom_plot_1ac87624ddff1cbf4064781a8e8ae321c4">selectedLegends</link>, <link linkend="class_q_custom_plot_1a5ee1e2f6ae27419deca53e75907c27e5">setInteractions</link>, <link linkend="class_q_c_p_axis_1ab9d7a69277dcbed9119b3c1f25ca19c3">QCPAxis::setSelectedParts</link>, <link linkend="class_q_c_p_axis_1a513f9b9e326c505d9bec54880031b085">QCPAxis::setSelectableParts</link> </para>
 </formalpara>
@@ -2622,7 +2622,7 @@ This method allows to enable OpenGL plot rendering, for increased plotting perfo
                 
 <para>Returns the legends that currently have selected parts, i.e. whose selection state is not <link linkend="class_q_c_p_legend_1a5404de8bc1e4a994ca4ae69e2c7072f1a378201c07d500af7126e3ec91652eed7">QCPLegend::spNone</link>.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_custom_plot_1a747faaab57c56891e901a1e97fa4359a">selectedPlottables</link>, <link linkend="class_q_custom_plot_1a7e6b07792b1cb2c31681596582d14dbe">selectedAxes</link>, <link linkend="class_q_custom_plot_1a5ee1e2f6ae27419deca53e75907c27e5">setInteractions</link>, <link linkend="class_q_c_p_legend_1a2aee309bb5c2a794b1987f3fc97f8ad8">QCPLegend::setSelectedParts</link>, <link linkend="class_q_c_p_legend_1a9ce60aa8bbd89f62ae4fa83ac6c60110">QCPLegend::setSelectableParts</link>, <link linkend="class_q_c_p_legend_1ac7d9e567d5c551e09cd9bcc4306c5532">QCPLegend::selectedItems</link> </para>
 </formalpara>
@@ -2636,7 +2636,7 @@ This method allows to enable OpenGL plot rendering, for increased plotting perfo
 
 <para>Since calling this function is not a user interaction, this does not emit the <link linkend="class_q_custom_plot_1a500c64a109bc773c973ad274f2fa4190">selectionChangedByUser</link> signal. The individual selectionChanged signals are emitted though, if the objects were previously selected.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_custom_plot_1a5ee1e2f6ae27419deca53e75907c27e5">setInteractions</link>, <link linkend="class_q_custom_plot_1a747faaab57c56891e901a1e97fa4359a">selectedPlottables</link>, <link linkend="class_q_custom_plot_1afda487bcf2d6cf1a57173d82495e29ba">selectedItems</link>, <link linkend="class_q_custom_plot_1a7e6b07792b1cb2c31681596582d14dbe">selectedAxes</link>, <link linkend="class_q_custom_plot_1ac87624ddff1cbf4064781a8e8ae321c4">selectedLegends</link> </para>
 </formalpara>
@@ -2654,7 +2654,7 @@ This method allows to enable OpenGL plot rendering, for increased plotting perfo
 
 <para>Returns true on success.</para>
 
-<para><formalpara><title>Warning: </title>
+<para><formalpara><title>Aviso: </title>
 
 <para><itemizedlist>
 <listitem>
@@ -2666,11 +2666,11 @@ This method allows to enable OpenGL plot rendering, for increased plotting perfo
 </itemizedlist>
 <emphasis>pdfCreator</emphasis> and <emphasis>pdfTitle</emphasis> may be used to set the according metadata fields in the resulting PDF file.</para>
 </formalpara>
-<formalpara><title>Note: </title>
+<formalpara><title>Observação: </title>
 
 <para>On Android systems, this method does nothing and issues an according qDebug warning message. This is also the case if for other reasons the define flag <computeroutput>QT_NO_PRINTER</computeroutput> is set.</para>
 </formalpara>
-<formalpara><title>See also: </title>
+<formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_custom_plot_1ac92cc9256d12f354b40a4be4600b5fb9">savePng</link>, <link linkend="class_q_custom_plot_1ae3a86ed0795670e50afa21759d4fa13d">saveBmp</link>, <link linkend="class_q_custom_plot_1a76f0d278e630a711fa6f48048cfd83e4">saveJpg</link>, <link linkend="class_q_custom_plot_1ad7723ce2edfa270632ef42b03a444352">saveRastered</link> </para>
 </formalpara>
@@ -2696,11 +2696,11 @@ This method allows to enable OpenGL plot rendering, for increased plotting perfo
 
 <para>If you want the PNG to have a transparent background, call <link linkend="class_q_custom_plot_1a8ed256cf467bfa7ba1f9feaae62c3bd0">setBackground(const QBrush &amp;brush)</link> with no brush (Qt::NoBrush) or a transparent color (Qt::transparent), before saving.</para>
 
-<para><formalpara><title>Warning: </title>
+<para><formalpara><title>Aviso: </title>
 
 <para>If calling this function inside the constructor of the parent of the <link linkend="class_q_custom_plot">QCustomPlot</link> widget (i.e. the <link linkend="class_main_window">MainWindow</link> constructor, if <link linkend="class_q_custom_plot">QCustomPlot</link> is inside the <link linkend="class_main_window">MainWindow</link>), always provide explicit non-zero widths and heights. If you leave <emphasis>width</emphasis> or <emphasis>height</emphasis> as 0 (default), this function uses the current width and height of the <link linkend="class_q_custom_plot">QCustomPlot</link> widget. However, in Qt, these aren&apos;t defined yet inside the constructor, so you would get an image that has strange widths/heights.</para>
 </formalpara>
-<formalpara><title>See also: </title>
+<formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_custom_plot_1ad5acd34f6b39c3516887d7e54fec2412">savePdf</link>, <link linkend="class_q_custom_plot_1ae3a86ed0795670e50afa21759d4fa13d">saveBmp</link>, <link linkend="class_q_custom_plot_1a76f0d278e630a711fa6f48048cfd83e4">saveJpg</link>, <link linkend="class_q_custom_plot_1ad7723ce2edfa270632ef42b03a444352">saveRastered</link> </para>
 </formalpara>
@@ -2724,11 +2724,11 @@ This method allows to enable OpenGL plot rendering, for increased plotting perfo
 
 <para>The objects of the plot will appear in the current selection state. If you don&apos;t want any selected objects to be painted in their selected look, deselect everything with <link linkend="class_q_custom_plot_1a9d4808ab925b003054085246c92a257c">deselectAll</link> before calling this function.</para>
 
-<para><formalpara><title>Warning: </title>
+<para><formalpara><title>Aviso: </title>
 
 <para>If calling this function inside the constructor of the parent of the <link linkend="class_q_custom_plot">QCustomPlot</link> widget (i.e. the <link linkend="class_main_window">MainWindow</link> constructor, if <link linkend="class_q_custom_plot">QCustomPlot</link> is inside the <link linkend="class_main_window">MainWindow</link>), always provide explicit non-zero widths and heights. If you leave <emphasis>width</emphasis> or <emphasis>height</emphasis> as 0 (default), this function uses the current width and height of the <link linkend="class_q_custom_plot">QCustomPlot</link> widget. However, in Qt, these aren&apos;t defined yet inside the constructor, so you would get an image that has strange widths/heights.</para>
 </formalpara>
-<formalpara><title>See also: </title>
+<formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_custom_plot_1ad5acd34f6b39c3516887d7e54fec2412">savePdf</link>, <link linkend="class_q_custom_plot_1ac92cc9256d12f354b40a4be4600b5fb9">savePng</link>, <link linkend="class_q_custom_plot_1ae3a86ed0795670e50afa21759d4fa13d">saveBmp</link>, <link linkend="class_q_custom_plot_1ad7723ce2edfa270632ef42b03a444352">saveRastered</link> </para>
 </formalpara>
@@ -2750,11 +2750,11 @@ This method allows to enable OpenGL plot rendering, for increased plotting perfo
 
 <para>The objects of the plot will appear in the current selection state. If you don&apos;t want any selected objects to be painted in their selected look, deselect everything with <link linkend="class_q_custom_plot_1a9d4808ab925b003054085246c92a257c">deselectAll</link> before calling this function.</para>
 
-<para><formalpara><title>Warning: </title>
+<para><formalpara><title>Aviso: </title>
 
 <para>If calling this function inside the constructor of the parent of the <link linkend="class_q_custom_plot">QCustomPlot</link> widget (i.e. the <link linkend="class_main_window">MainWindow</link> constructor, if <link linkend="class_q_custom_plot">QCustomPlot</link> is inside the <link linkend="class_main_window">MainWindow</link>), always provide explicit non-zero widths and heights. If you leave <emphasis>width</emphasis> or <emphasis>height</emphasis> as 0 (default), this function uses the current width and height of the <link linkend="class_q_custom_plot">QCustomPlot</link> widget. However, in Qt, these aren&apos;t defined yet inside the constructor, so you would get an image that has strange widths/heights.</para>
 </formalpara>
-<formalpara><title>See also: </title>
+<formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_custom_plot_1ad5acd34f6b39c3516887d7e54fec2412">savePdf</link>, <link linkend="class_q_custom_plot_1ac92cc9256d12f354b40a4be4600b5fb9">savePng</link>, <link linkend="class_q_custom_plot_1a76f0d278e630a711fa6f48048cfd83e4">saveJpg</link>, <link linkend="class_q_custom_plot_1ad7723ce2edfa270632ef42b03a444352">saveRastered</link> </para>
 </formalpara>
@@ -2770,7 +2770,7 @@ This method allows to enable OpenGL plot rendering, for increased plotting perfo
 
 <para>The <emphasis>resolution</emphasis> will be written to the image file header (if the file format supports this) and has no direct consequence for the quality or the pixel size. However, if opening the image with a tool which respects the metadata, it will be able to scale the image to match either a given size in real units of length (inch, centimeters, etc.), or the target display DPI. You can specify in which units <emphasis>resolution</emphasis> is given, by setting <emphasis>resolutionUnit</emphasis>. The <emphasis>resolution</emphasis> is converted to the format&apos;s expected resolution unit internally.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_custom_plot_1ae3a86ed0795670e50afa21759d4fa13d">saveBmp</link>, <link linkend="class_q_custom_plot_1a76f0d278e630a711fa6f48048cfd83e4">saveJpg</link>, <link linkend="class_q_custom_plot_1ac92cc9256d12f354b40a4be4600b5fb9">savePng</link>, <link linkend="class_q_custom_plot_1ad5acd34f6b39c3516887d7e54fec2412">savePdf</link> </para>
 </formalpara>
@@ -2784,7 +2784,7 @@ This method allows to enable OpenGL plot rendering, for increased plotting perfo
 
 <para>The plot is sized to <emphasis>width</emphasis> and <emphasis>height</emphasis> in pixels and scaled with <emphasis>scale</emphasis>. (width 100 and scale 2.0 lead to a full resolution pixmap with width 200.)</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_custom_plot_1a1be68d5c0f1e086d6374d1340a193fb9">toPainter</link>, <link linkend="class_q_custom_plot_1ad7723ce2edfa270632ef42b03a444352">saveRastered</link>, <link linkend="class_q_custom_plot_1ae3a86ed0795670e50afa21759d4fa13d">saveBmp</link>, <link linkend="class_q_custom_plot_1ac92cc9256d12f354b40a4be4600b5fb9">savePng</link>, <link linkend="class_q_custom_plot_1a76f0d278e630a711fa6f48048cfd83e4">saveJpg</link>, <link linkend="class_q_custom_plot_1ad5acd34f6b39c3516887d7e54fec2412">savePdf</link> </para>
 </formalpara>
@@ -2798,11 +2798,11 @@ This method allows to enable OpenGL plot rendering, for increased plotting perfo
 
 <para>The plot is sized to <emphasis>width</emphasis> and <emphasis>height</emphasis> in pixels. If the <emphasis>painter&apos;s</emphasis> scale is not 1.0, the resulting plot will appear scaled accordingly.</para>
 
-<para><formalpara><title>Note: </title>
+<para><formalpara><title>Observação: </title>
 
 <para>If you are restricted to using a QPainter (instead of <link linkend="class_q_c_p_painter">QCPPainter</link>), create a temporary QPicture and open a <link linkend="class_q_c_p_painter">QCPPainter</link> on it. Then call <link linkend="class_q_custom_plot_1a1be68d5c0f1e086d6374d1340a193fb9">toPainter</link> with this <link linkend="class_q_c_p_painter">QCPPainter</link>. After ending the paint operation on the picture, draw it with the QPainter. This will reproduce the painter actions the <link linkend="class_q_c_p_painter">QCPPainter</link> took, with a QPainter.</para>
 </formalpara>
-<formalpara><title>See also: </title>
+<formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_custom_plot_1aabb974d71ce96c137dc04eb6eab844fe">toPixmap</link> </para>
 </formalpara>
@@ -2930,7 +2930,7 @@ This method allows to enable OpenGL plot rendering, for increased plotting perfo
 
 <para>If any buffer is invalidated, a partial replot (<link linkend="class_q_c_p_layer_1adefd53b6db02f470151c416f42e37180">QCPLayer::replot</link>) is not allowed and always causes a full replot (<link linkend="class_q_custom_plot_1aa4bfe7d70dbe67e81d877819b75ab9af">QCustomPlot::replot</link>) of all layers. This is the case when for example the layer order has changed, new layers were added, layers were removed, or layer modes were changed (<link linkend="class_q_c_p_layer_1a938d57b04f4e4c23cedf1711f983919b">QCPLayer::setMode</link>).</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_c_p_abstract_paint_buffer_1ae4c7dc70dfc66be2879ce297b2b3d67f">QCPAbstractPaintBuffer::setInvalidated</link> </para>
 </formalpara>

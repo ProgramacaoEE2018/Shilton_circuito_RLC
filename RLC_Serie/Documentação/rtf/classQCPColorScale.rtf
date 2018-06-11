@@ -1,0 +1,2535 @@
+{\rtf1\ansi\ansicpg1252\uc1 \deff0\deflang1033\deflangfe1033
+{\fonttbl {\f0\froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}
+{\f1\fswiss\fcharset0\fprq2{\*\panose 020b0604020202020204}Arial;}
+{\f2\fmodern\fcharset0\fprq1{\*\panose 02070309020205020404}Courier New;}
+{\f3\froman\fcharset2\fprq2{\*\panose 05050102010706020507}Symbol;}
+}
+{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;}
+{\stylesheet
+{\widctlpar\adjustright \fs20\cgrid \snext0 Normal;}
+{\paperw11900\paperh16840\margl1800\margr1800\margt1440\margb1440\gutter0\ltrsect}
+{\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid \sbasedon0 \snext0 heading 1;}
+{\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid \sbasedon0 \snext0 heading 2;}
+{\s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid \sbasedon0 \snext0 heading 3;}
+{\s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext0 heading 4;}{\*\cs10 \additive Default Paragraph Font;}
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext0 heading 5;}{\*\cs10 \additive Default Paragraph Font;}
+{\s15\qc\sb240\sa60\widctlpar\outlinelevel0\adjustright \b\f1\fs32\kerning28\cgrid \sbasedon0 \snext15 Title;}
+{\s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid \sbasedon0 \snext16 Subtitle;}
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid \sbasedon0 \snext17 BodyText;}
+{\s18\widctlpar\fs22\cgrid \sbasedon0 \snext18 DenseText;}
+{\s28\widctlpar\tqc\tx4320\tqr\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext28 header;}
+{\s29\widctlpar\tqc\tx4320\tqr\tx8640\qr\adjustright \fs20\cgrid \sbasedon0 \snext29 footer;}
+{\s30\li360\sa60\sb120\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext30 GroupHeader;}
+{\s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext41 Code Example 0;}
+{\s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext42 Code Example 1;}
+{\s42\li720\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext43 Code Example 2;}
+{\s43\li1080\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext44 Code Example 3;}
+{\s44\li1440\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext45 Code Example 4;}
+{\s45\li1800\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext46 Code Example 5;}
+{\s46\li2160\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext47 Code Example 6;}
+{\s47\li2520\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext48 Code Example 7;}
+{\s48\li2880\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext49 Code Example 8;}
+{\s49\li3240\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext49 Code Example 9;}
+{\s50\li0\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext51 List Continue 0;}
+{\s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext52 List Continue 1;}
+{\s52\li720\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext53 List Continue 2;}
+{\s53\li1080\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext54 List Continue 3;}
+{\s54\li1440\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext55 List Continue 4;}
+{\s55\li1800\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext56 List Continue 5;}
+{\s56\li2160\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext57 List Continue 6;}
+{\s57\li2520\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext58 List Continue 7;}
+{\s58\li2880\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext59 List Continue 8;}
+{\s59\li3240\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext59 List Continue 9;}
+{\s60\li0\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext61 DescContinue 0;}
+{\s61\li360\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext62 DescContinue 1;}
+{\s62\li720\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext63 DescContinue 2;}
+{\s63\li1080\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext64 DescContinue 3;}
+{\s64\li1440\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext65 DescContinue 4;}
+{\s65\li1800\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext66 DescContinue 5;}
+{\s66\li2160\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext67 DescContinue 6;}
+{\s67\li2520\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext68 DescContinue 7;}
+{\s68\li2880\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext69 DescContinue 8;}
+{\s69\li3240\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext69 DescContinue 9;}
+{\s70\li0\sa30\sb30\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext81 LatexTOC 0;}
+{\s71\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext82 LatexTOC 1;}
+{\s72\li720\sa24\sb24\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext83 LatexTOC 2;}
+{\s73\li1080\sa21\sb21\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext84 LatexTOC 3;}
+{\s74\li1440\sa18\sb18\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext85 LatexTOC 4;}
+{\s75\li1800\sa15\sb15\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext86 LatexTOC 5;}
+{\s76\li2160\sa12\sb12\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext87 LatexTOC 6;}
+{\s77\li2520\sa9\sb9\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext88 LatexTOC 7;}
+{\s78\li2880\sa6\sb6\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext89 LatexTOC 8;}
+{\s79\li3240\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext89 LatexTOC 9;}
+{\s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext81 \sautoupd List Bullet 0;}
+{\s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid \sbasedon0 \snext82 \sautoupd List Bullet 1;}
+{\s82\fi-360\li1080\widctlpar\jclisttab\tx1080{\*\pn \pnlvlbody\ilvl0\ls3\pnrnot0\pndec }\ls3\adjustright \fs20\cgrid \sbasedon0 \snext83 \sautoupd List Bullet 2;}
+{\s83\fi-360\li1440\widctlpar\jclisttab\tx1440{\*\pn \pnlvlbody\ilvl0\ls4\pnrnot0\pndec }\ls4\adjustright \fs20\cgrid \sbasedon0 \snext84 \sautoupd List Bullet 3;}
+{\s84\fi-360\li1800\widctlpar\jclisttab\tx1800{\*\pn \pnlvlbody\ilvl0\ls5\pnrnot0\pndec }\ls5\adjustright \fs20\cgrid \sbasedon0 \snext85 \sautoupd List Bullet 4;}
+{\s85\fi-360\li2160\widctlpar\jclisttab\tx2160{\*\pn \pnlvlbody\ilvl0\ls6\pnrnot0\pndec }\ls6\adjustright \fs20\cgrid \sbasedon0 \snext86 \sautoupd List Bullet 5;}
+{\s86\fi-360\li2520\widctlpar\jclisttab\tx2520{\*\pn \pnlvlbody\ilvl0\ls7\pnrnot0\pndec }\ls7\adjustright \fs20\cgrid \sbasedon0 \snext87 \sautoupd List Bullet 6;}
+{\s87\fi-360\li2880\widctlpar\jclisttab\tx2880{\*\pn \pnlvlbody\ilvl0\ls8\pnrnot0\pndec }\ls8\adjustright \fs20\cgrid \sbasedon0 \snext88 \sautoupd List Bullet 7;}
+{\s88\fi-360\li3240\widctlpar\jclisttab\tx3240{\*\pn \pnlvlbody\ilvl0\ls9\pnrnot0\pndec }\ls9\adjustright \fs20\cgrid \sbasedon0 \snext89 \sautoupd List Bullet 8;}
+{\s89\fi-360\li3600\widctlpar\jclisttab\tx3600{\*\pn \pnlvlbody\ilvl0\ls10\pnrnot0\pndec }\ls10\adjustright \fs20\cgrid \sbasedon0 \snext89 \sautoupd List Bullet 9;}
+{\s90\fi-360\li360\widctlpar\fs20\cgrid \sbasedon0 \snext91 \sautoupd List Enum 0;}
+{\s91\fi-360\li720\widctlpar\fs20\cgrid \sbasedon0 \snext92 \sautoupd List Enum 1;}
+{\s92\fi-360\li1080\widctlpar\fs20\cgrid \sbasedon0 \snext93 \sautoupd List Enum 2;}
+{\s93\fi-360\li1440\widctlpar\fs20\cgrid \sbasedon0 \snext94 \sautoupd List Enum 3;}
+{\s94\fi-360\li1800\widctlpar\fs20\cgrid \sbasedon0 \snext95 \sautoupd List Enum 4;}
+{\s95\fi-360\li2160\widctlpar\fs20\cgrid \sbasedon0 \snext96 \sautoupd List Enum 5;}
+{\s96\fi-360\li2520\widctlpar\fs20\cgrid \sbasedon0 \snext96 \sautoupd List Enum 5;}
+{\s97\fi-360\li2880\widctlpar\fs20\cgrid \sbasedon0 \snext98 \sautoupd List Enum 7;}
+{\s98\fi-360\li3240\widctlpar\fs20\cgrid \sbasedon0 \snext99 \sautoupd List Enum 8;}
+{\s99\fi-360\li3600\widctlpar\fs20\cgrid \sbasedon0 \snext99 \sautoupd List Enum 9;}
+}
+{\comment begin body}
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Referência da Classe QCPColorScale\par \pard\plain 
+{\tc\tcl2 \v QCPColorScale}
+{\xe \v QCPColorScale}
+{\bkmkstart AAAAAAABTA}
+{\bkmkend AAAAAAABTA}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+A color scale for use with color coding data such as {\b QCPColorMap}. }}\par
+{
+{\f2 #include <qcustomplot.h>}}\par
+Diagrama de hierarquia para QCPColorScale:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "classQCPColorScale__inherit__graph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+Diagrama de colaboração para QCPColorScale:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "classQCPColorScale__coll__graph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Tipos Públicos\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+enum {\b UpdatePhase} \{ {\b upPreparation}, 
+{\b upMargins}, 
+{\b upLayout}
+ \}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+enum {\b SizeConstraintRect} \{ {\b scrInnerRect}, 
+{\b scrOuterRect}
+ \}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Sinais\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b dataRangeChanged} (const {\b QCPRange} &newRange)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b dataScaleTypeChanged} ({\b QCPAxis::ScaleType} scaleType)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b gradientChanged} (const {\b QCPColorGradient} &newGradient)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b layerChanged} ({\b QCPLayer} *newLayer)\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Membros Públicos\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b QCPColorScale} ({\b QCustomPlot} *{\b parentPlot})\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual {\b ~QCPColorScale} ()\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b QCPAxis} * {\b axis} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b QCPAxis::AxisType} {\b type} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b QCPRange} {\b dataRange} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b QCPAxis::ScaleType} {\b dataScaleType} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b QCPColorGradient} {\b gradient} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+QString {\b label} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b barWidth} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b rangeDrag} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b rangeZoom} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setType} ({\b QCPAxis::AxisType} {\b type})\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+Q_SLOT void {\b setDataRange} (const {\b QCPRange} &{\b dataRange})\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+Q_SLOT void {\b setDataScaleType} ({\b QCPAxis::ScaleType} scaleType)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+Q_SLOT void {\b setGradient} (const {\b QCPColorGradient} &{\b gradient})\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setLabel} (const QString &str)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setBarWidth} (int width)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setRangeDrag} (bool enabled)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setRangeZoom} (bool enabled)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+QList< {\b QCPColorMap} * > {\b colorMaps} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b rescaleDataRange} (bool onlyVisibleMaps)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual void {\b update} ({\b UpdatePhase} phase) {\b Q_DECL_OVERRIDE}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b QCPLayout} * {\b layout} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+QRect {\b rect} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+QRect {\b outerRect} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+QMargins {\b margins} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+QMargins {\b minimumMargins} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+QCP::MarginSides {\b autoMargins} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+QSize {\b minimumSize} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+QSize {\b maximumSize} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b SizeConstraintRect} {\b sizeConstraintRect} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b QCPMarginGroup} * {\b marginGroup} ({\b QCP::MarginSide} side) const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+QHash< {\b QCP::MarginSide}, {\b QCPMarginGroup} * > {\b marginGroups} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setOuterRect} (const QRect &{\b rect})\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setMargins} (const QMargins &{\b margins})\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setMinimumMargins} (const QMargins &{\b margins})\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setAutoMargins} (QCP::MarginSides sides)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setMinimumSize} (const QSize &size)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setMinimumSize} (int width, int height)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setMaximumSize} (const QSize &size)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setMaximumSize} (int width, int height)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setSizeConstraintRect} ({\b SizeConstraintRect} constraintRect)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setMarginGroup} (QCP::MarginSides sides, {\b QCPMarginGroup} *group)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual QSize {\b minimumOuterSizeHint} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual QSize {\b maximumOuterSizeHint} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual QList< {\b QCPLayoutElement} * > {\b elements} (bool recursive) const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual double {\b selectTest} (const QPointF &pos, bool onlySelectable, QVariant *details=0) const {\b Q_DECL_OVERRIDE}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b visible} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b QCustomPlot} * {\b parentPlot} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b QCPLayerable} * {\b parentLayerable} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b QCPLayer} * {\b layer} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b antialiased} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setVisible} (bool on)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+Q_SLOT bool {\b setLayer} ({\b QCPLayer} *{\b layer})\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b setLayer} (const QString &layerName)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setAntialiased} (bool enabled)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b realVisibility} () const\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Membros Protegidos\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual void {\b applyDefaultAntialiasingHint} ({\b QCPPainter} *painter) const {\b Q_DECL_OVERRIDE}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual void {\b mousePressEvent} (QMouseEvent *event, const QVariant &details) {\b Q_DECL_OVERRIDE}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual void {\b mouseMoveEvent} (QMouseEvent *event, const QPointF &startPos) {\b Q_DECL_OVERRIDE}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual void {\b mouseReleaseEvent} (QMouseEvent *event, const QPointF &startPos) {\b Q_DECL_OVERRIDE}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual void {\b wheelEvent} (QWheelEvent *event) {\b Q_DECL_OVERRIDE}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual int {\b calculateAutoMargin} ({\b QCP::MarginSide} side)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual void {\b layoutChanged} ()\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual void {\b draw} ({\b QCPPainter} *painter) {\b Q_DECL_OVERRIDE}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual void {\b parentPlotInitialized} ({\b QCustomPlot} *{\b parentPlot}) {\b Q_DECL_OVERRIDE}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual {\b QCP::Interaction} {\b selectionCategory} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual QRect {\b clipRect} () const\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual void {\b selectEvent} (QMouseEvent *event, bool additive, const QVariant &details, bool *selectionStateChanged)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual void {\b deselectEvent} (bool *selectionStateChanged)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual void {\b mouseDoubleClickEvent} (QMouseEvent *event, const QVariant &details)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b initializeParentPlot} ({\b QCustomPlot} *{\b parentPlot})\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setParentLayerable} ({\b QCPLayerable} *{\b parentLayerable})\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b moveToLayer} ({\b QCPLayer} *{\b layer}, bool prepend)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b applyAntialiasingHint} ({\b QCPPainter} *painter, bool localAntialiased, {\b QCP::AntialiasedElement} overrideElement) const\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Atributos Protegidos\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b QCPAxis::AxisType} {\b mType}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b QCPRange} {\b mDataRange}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b QCPAxis::ScaleType} {\b mDataScaleType}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b QCPColorGradient} {\b mGradient}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b mBarWidth}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+QPointer< {\b QCPColorScaleAxisRectPrivate} > {\b mAxisRect}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+QPointer< {\b QCPAxis} > {\b mColorAxis}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b QCPLayout} * {\b mParentLayout}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+QSize {\b mMinimumSize}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+QSize {\b mMaximumSize}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b SizeConstraintRect} {\b mSizeConstraintRect}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+QRect {\b mRect}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+QRect {\b mOuterRect}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+QMargins {\b mMargins}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+QMargins {\b mMinimumMargins}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+QCP::MarginSides {\b mAutoMargins}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+QHash< {\b QCP::MarginSide}, {\b QCPMarginGroup} * > {\b mMarginGroups}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b mVisible}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b QCustomPlot} * {\b mParentPlot}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+QPointer< {\b QCPLayerable} > {\b mParentLayerable}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b QCPLayer} * {\b mLayer}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b mAntialiased}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Amigas\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b QCPColorScaleAxisRectPrivate}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Descrição detalhada\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+A color scale for use with color coding data such as {\b QCPColorMap}. \par
+}
+
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+This layout element can be placed on the plot to correlate a color gradient with data values. It is usually used in combination with one or multiple {\b QCPColorMaps}.\par
+The color scale can be either horizontal or vertical, as shown in the image above. The orientation and the side where the numbers appear is controlled with {\b setType}.\par
+Use {\b QCPColorMap::setColorScale} to connect a color map with a color scale. Once they are connected, they share their gradient, data range and data scale type ({\b setGradient}, {\b setDataRange}, {\b setDataScaleType}). Multiple color maps may be associated with a single color scale, to make them all synchronize these properties.\par
+To have finer control over the number display and axis behaviour, you can directly access the {\b axis}. See the documentation of {\b QCPAxis} for details about configuring axes. For example, if you want to change the number of automatically generated ticks, call {
+\par
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid } Placing a color scale next to the main axis rect works like with any other layout element: {
+\par
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid }In this case we have placed it to the right of the default axis rect, so it wasn't necessary to call {\b setType}, since {\b QCPAxis::atRight} is already the default. The text next to the color scale can be set with {\b setLabel}.\par
+For optimum appearance (like in the image above), it may be desirable to line up the axis rect and the borders of the color scale. Use a {\b QCPMarginGroup} to achieve this: {
+\par
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid } Color scales are initialized with a non-zero minimum top and bottom margin ({\b setMinimumMargins}), because vertical color scales are most common and the minimum top/bottom margin makes sure it keeps some distance to the top/bottom widget border. So if you change to a horizontal color scale by setting {\b setType} to {\b QCPAxis::atBottom} or {\b QCPAxis::atTop}, you might want to also change the minimum margins accordingly, e.g. {\f2 setMinimumMargins(QMargins(6, 0, 6, 0))} . \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Enumerações\par
+\pard\plain 
+{\xe \v SizeConstraintRect\:QCPColorScale}
+{\xe \v QCPColorScale\:SizeConstraintRect}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+enum {\b QCPLayoutElement::SizeConstraintRect}{\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAJC}
+{\bkmkend AAAAAAAAJC}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Defines to which rect of a layout element the size constraints that can be set via {\b setMinimumSize} and {\b setMaximumSize} apply. The outer rect ({\b outerRect}) includes the margins (e.g. in the case of a {\b QCPAxisRect} the axis labels), whereas the inner rect ({\b rect}) does not.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b setSizeConstraintRect} \par
+}}{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Enumeradores:\par}
+\pard\plain \s61\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{\xe \v scrInnerRect\:QCPColorScale}
+{\xe \v QCPColorScale\:scrInnerRect}
+{\qr scrInnerRect{\bkmkstart AAAAAAAAJD}
+{\bkmkend AAAAAAAAJD}
+\cell }{{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Minimum/Maximum size constraints apply to inner rect. \par
+}\cell }{\row }
+{\xe \v scrOuterRect\:QCPColorScale}
+{\xe \v QCPColorScale\:scrOuterRect}
+{\qr scrOuterRect{\bkmkstart AAAAAAAAJE}
+{\bkmkend AAAAAAAAJE}
+\cell }{{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Minimum/Maximum size constraints apply to outer rect, thus include layout element margins. \par
+}\cell }{\row }
+}
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1211                           \{ scrInnerRect \par
+ 1212                             , scrOuterRect \par
+ 1213                           \};\par
+}
+}
+{\xe \v UpdatePhase\:QCPColorScale}
+{\xe \v QCPColorScale\:UpdatePhase}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+enum {\b QCPLayoutElement::UpdatePhase}{\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAJF}
+{\bkmkend AAAAAAAAJF}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Defines the phases of the update process, that happens just before a replot. At each phase, {\b update} is called with the according UpdatePhase value. \par
+}{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Enumeradores:\par}
+\pard\plain \s61\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{\xe \v upPreparation\:QCPColorScale}
+{\xe \v QCPColorScale\:upPreparation}
+{\qr upPreparation{\bkmkstart AAAAAAAAJG}
+{\bkmkend AAAAAAAAJG}
+\cell }{{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Phase used for any type of preparation that needs to be done before margin calculation and layout. \par
+}\cell }{\row }
+{\xe \v upMargins\:QCPColorScale}
+{\xe \v QCPColorScale\:upMargins}
+{\qr upMargins{\bkmkstart AAAAAAAAJH}
+{\bkmkend AAAAAAAAJH}
+\cell }{{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Phase in which the margins are calculated and set. \par
+}\cell }{\row }
+{\xe \v upLayout\:QCPColorScale}
+{\xe \v QCPColorScale\:upLayout}
+{\qr upLayout{\bkmkstart AAAAAAAAJI}
+{\bkmkend AAAAAAAAJI}
+\cell }{{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Final phase in which the layout system places the rects of the elements. \par
+}\cell }{\row }
+}
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1197                    \{ upPreparation \par
+ 1198                      ,upMargins    \par
+ 1199                      ,upLayout     \par
+ 1200                    \};\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Construtores e Destrutores\par
+\pard\plain 
+{\xe \v QCPColorScale\:QCPColorScale}
+{\xe \v QCPColorScale\:QCPColorScale}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QCPColorScale::QCPColorScale ({\b QCustomPlot} *  {\i parentPlot}){\f2 [explicit]}}}
+\par
+{\bkmkstart AAAAAAABTB}
+{\bkmkend AAAAAAABTB}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Constructs a new {\b QCPColorScale}. \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 19332                                                     :\par
+19333   QCPLayoutElement(parentPlot),\par
+19334   mType(QCPAxis::atTop), // set to atTop such that setType(QCPAxis::atRight) below doesn't skip work because it thinks it's already atRight\par
+19335   mDataScaleType(QCPAxis::stLinear),\par
+19336   mBarWidth(20),\par
+19337   mAxisRect(new QCPColorScaleAxisRectPrivate(this))\par
+19338 \{\par
+19339   setMinimumMargins(QMargins(0, 6, 0, 6)); // for default right color scale types, keep some room at bottom and top (important if no margin group is used)\par
+19340   setType(QCPAxis::atRight);\par
+19341   setDataRange(QCPRange(0, 6));\par
+19342 \}\par
+}
+}
+{\xe \v ~QCPColorScale\:QCPColorScale}
+{\xe \v QCPColorScale\:~QCPColorScale}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QCPColorScale::~QCPColorScale (){\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAABTC}
+{\bkmkend AAAAAAABTC}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 19345 \{\par
+19346   delete mAxisRect;\par
+19347 \}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Funções membros\par
+\pard\plain 
+{\xe \v antialiased\:QCPColorScale}
+{\xe \v QCPColorScale\:antialiased}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool QCPLayerable::antialiased () const{\f2 [inline]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAFG}
+{\bkmkend AAAAAAAAFG}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid   711 \{ return mAntialiased; \}\par
+}
+}
+{\xe \v applyAntialiasingHint\:QCPColorScale}
+{\xe \v QCPColorScale\:applyAntialiasingHint}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPLayerable::applyAntialiasingHint ({\b QCPPainter} *  {\i painter}, bool  {\i localAntialiased}, {\b QCP::AntialiasedElement}  {\i overrideElement}) const{\f2 [protected]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAFH}
+{\bkmkend AAAAAAAAFH}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1567 \{\par
+ 1568   if (mParentPlot && mParentPlot->notAntialiasedElements().testFlag(overrideElement))\par
+ 1569     painter->setAntialiasing(false);\par
+ 1570   else if (mParentPlot && mParentPlot->antialiasedElements().testFlag(overrideElement))\par
+ 1571     painter->setAntialiasing(true);\par
+ 1572   else\par
+ 1573     painter->setAntialiasing(localAntialiased);\par
+ 1574 \}\par
+}
+}
+{\xe \v applyDefaultAntialiasingHint\:QCPColorScale}
+{\xe \v QCPColorScale\:applyDefaultAntialiasingHint}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPColorScale::applyDefaultAntialiasingHint ({\b QCPPainter} *  {\i painter}) const{\f2 [protected]}, {\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAABTD}
+{\bkmkend AAAAAAABTD}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Reimplementa {\b QCPLayoutElement} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAJL \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 19684 \{\par
+19685   painter->setAntialiasing(false);\par
+19686 \}\par
+}
+}
+{\xe \v autoMargins\:QCPColorScale}
+{\xe \v QCPColorScale\:autoMargins}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QCP::MarginSides QCPLayoutElement::autoMargins () const{\f2 [inline]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAJM}
+{\bkmkend AAAAAAAAJM}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1225 \{ return mAutoMargins; \}\par
+}
+}
+{\xe \v axis\:QCPColorScale}
+{\xe \v QCPColorScale\:axis}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b QCPAxis} * QCPColorScale::axis () const{\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAABTE}
+{\bkmkend AAAAAAABTE}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Returns the internal {\b QCPAxis} instance of this color scale. You can access it to alter the appearance and behaviour of the axis. {\b QCPColorScale} duplicates some properties in its interface for convenience. Those are {\b setDataRange} ({\b QCPAxis::setRange}), {\b setDataScaleType} ({\b QCPAxis::setScaleType}), and the method {\b setLabel} ({\b QCPAxis::setLabel}). As they each are connected, it does not matter whether you use the method on the {\b QCPColorScale} or on its {\b QCPAxis}.\par
+If the type of the color scale is changed with {\b setType}, the axis returned by this method will change, too, to either the left, right, bottom or top axis, depending on which type was set. \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  5056 \{ return mColorAxis.data(); \}\par
+}
+}
+{\xe \v barWidth\:QCPColorScale}
+{\xe \v QCPColorScale\:barWidth}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int QCPColorScale::barWidth () const{\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAABTF}
+{\bkmkend AAAAAAABTF}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  5062 \{ return mBarWidth; \}\par
+}
+}
+{\xe \v calculateAutoMargin\:QCPColorScale}
+{\xe \v QCPColorScale\:calculateAutoMargin}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int QCPLayoutElement::calculateAutoMargin ({\b QCP::MarginSide}  {\i side}){\f2 [protected]}, {\f2 [virtual]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAJN}
+{\bkmkend AAAAAAAAJN}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Reimplementado por {\b QCPAxisRect} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAJO \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  3538 \{\par
+ 3539   return qMax(QCP::getMarginValue(mMargins, side), QCP::getMarginValue(mMinimumMargins, side));\par
+ 3540 \}\par
+}
+}
+{\xe \v clipRect\:QCPColorScale}
+{\xe \v QCPColorScale\:clipRect}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QRect QCPLayerable::clipRect () const{\f2 [protected]}, {\f2 [virtual]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAFM}
+{\bkmkend AAAAAAAAFM}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Reimplementado por {\b QCPAbstractLegendItem} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAJP \\*MERGEFORMAT}{\fldrslt pagenum}}}), {\b QCPAbstractItem} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAFL \\*MERGEFORMAT}{\fldrslt pagenum}}}) e {\b QCPAbstractPlottable} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAANX \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1623 \{\par
+ 1624   if (mParentPlot)\par
+ 1625     return mParentPlot->viewport();\par
+ 1626   else\par
+ 1627     return QRect();\par
+ 1628 \}\par
+}
+}
+{\xe \v colorMaps\:QCPColorScale}
+{\xe \v QCPColorScale\:colorMaps}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QList< {\b QCPColorMap} * > QCPColorScale::colorMaps () const}}
+\par
+{\bkmkstart AAAAAAABTG}
+{\bkmkend AAAAAAABTG}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Returns a list of all the color maps associated with this color scale. \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 19570 \{\par
+19571   QList<QCPColorMap*> result;\par
+19572   for (int i=0; i<mParentPlot->plottableCount(); ++i)\par
+19573   \{\par
+19574     if (QCPColorMap *cm = qobject_cast<QCPColorMap*>(mParentPlot->plottable(i)))\par
+19575       if (cm->colorScale() == this)\par
+19576         result.append(cm);\par
+19577   \}\par
+19578   return result;\par
+19579 \}\par
+}
+}
+{\xe \v dataRange\:QCPColorScale}
+{\xe \v QCPColorScale\:dataRange}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b QCPRange} QCPColorScale::dataRange () const{\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAABTH}
+{\bkmkend AAAAAAABTH}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  5058 \{ return mDataRange; \}\par
+}
+}
+{\xe \v dataRangeChanged\:QCPColorScale}
+{\xe \v QCPColorScale\:dataRangeChanged}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPColorScale::dataRangeChanged (const {\b QCPRange} &  {\i newRange}){\f2 [signal]}}}
+\par
+{\bkmkstart AAAAAAABTI}
+{\bkmkend AAAAAAABTI}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+This signal is emitted when the data range changes.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b setDataRange} \par
+}}}
+{\xe \v dataScaleType\:QCPColorScale}
+{\xe \v QCPColorScale\:dataScaleType}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b QCPAxis::ScaleType} QCPColorScale::dataScaleType () const{\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAABTJ}
+{\bkmkend AAAAAAABTJ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  5059 \{ return mDataScaleType; \}\par
+}
+}
+{\xe \v dataScaleTypeChanged\:QCPColorScale}
+{\xe \v QCPColorScale\:dataScaleTypeChanged}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPColorScale::dataScaleTypeChanged ({\b QCPAxis::ScaleType}  {\i scaleType}){\f2 [signal]}}}
+\par
+{\bkmkstart AAAAAAABTK}
+{\bkmkend AAAAAAABTK}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+This signal is emitted when the data scale type changes.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b setDataScaleType} \par
+}}}
+{\xe \v deselectEvent\:QCPColorScale}
+{\xe \v QCPColorScale\:deselectEvent}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPLayerable::deselectEvent (bool *  {\i selectionStateChanged}){\f2 [protected]}, {\f2 [virtual]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAFR}
+{\bkmkend AAAAAAAAFR}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Reimplementado por {\b QCPTextElement} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAABCX \\*MERGEFORMAT}{\fldrslt pagenum}}}), {\b QCPLegend} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAABCY \\*MERGEFORMAT}{\fldrslt pagenum}}}), {\b QCPAbstractLegendItem} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAJQ \\*MERGEFORMAT}{\fldrslt pagenum}}}), {\b QCPAbstractItem} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAFQ \\*MERGEFORMAT}{\fldrslt pagenum}}}), {\b QCPAbstractPlottable} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAOA \\*MERGEFORMAT}{\fldrslt pagenum}}}) e {\b QCPAxis} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAATN \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1679 \{\par
+ 1680   Q_UNUSED(selectionStateChanged)\par
+ 1681 \}\par
+}
+}
+{\xe \v draw\:QCPColorScale}
+{\xe \v QCPColorScale\:draw}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+virtual void QCPLayoutElement::draw ({\b QCPPainter} *  {\i painter}){\f2 [inline]}, {\f2 [protected]}, {\f2 [virtual]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAJS}
+{\bkmkend AAAAAAAAJS}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Implementa {\b QCPLayerable} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAFT \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+{
+Reimplementado por {\b QCPColorScaleAxisRectPrivate} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAABDA \\*MERGEFORMAT}{\fldrslt pagenum}}}), {\b QCPTextElement} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAABTL \\*MERGEFORMAT}{\fldrslt pagenum}}}), {\b QCPLegend} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAABTM \\*MERGEFORMAT}{\fldrslt pagenum}}}), {\b QCPPlottableLegendItem} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAJT \\*MERGEFORMAT}{\fldrslt pagenum}}}), {\b QCPAbstractLegendItem} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAJR \\*MERGEFORMAT}{\fldrslt pagenum}}}) e {\b QCPAxisRect} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAABCZ \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1269 \{ Q_UNUSED(painter) \}\par
+}
+}
+{\xe \v elements\:QCPColorScale}
+{\xe \v QCPColorScale\:elements}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QList< {\b QCPLayoutElement} * > QCPLayoutElement::elements (bool  {\i recursive}) const{\f2 [virtual]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAJU}
+{\bkmkend AAAAAAAAJU}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Returns a list of all child elements in this layout element. If {\i recursive}  is true, all sub-child elements are included in the list, too.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Aviso:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid There may be entries with value 0 in the returned list. (For example, {\b QCPLayoutGrid} may have empty cells which yield 0 at the respective index.) \par
+}}{
+Reimplementado por {\b QCPAxisRect} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAJV \\*MERGEFORMAT}{\fldrslt pagenum}}}), {\b QCPLayoutGrid} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAJW \\*MERGEFORMAT}{\fldrslt pagenum}}}) e {\b QCPLayout} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAJX \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  3478 \{\par
+ 3479   Q_UNUSED(recursive)\par
+ 3480   return QList<QCPLayoutElement*>();\par
+ 3481 \}\par
+}
+}
+{\xe \v gradient\:QCPColorScale}
+{\xe \v QCPColorScale\:gradient}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b QCPColorGradient} QCPColorScale::gradient () const{\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAABTN}
+{\bkmkend AAAAAAABTN}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  5060 \{ return mGradient; \}\par
+}
+}
+{\xe \v gradientChanged\:QCPColorScale}
+{\xe \v QCPColorScale\:gradientChanged}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPColorScale::gradientChanged (const {\b QCPColorGradient} &  {\i newGradient}){\f2 [signal]}}}
+\par
+{\bkmkstart AAAAAAABTO}
+{\bkmkend AAAAAAABTO}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+This signal is emitted when the gradient changes.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b setGradient} \par
+}}}
+{\xe \v initializeParentPlot\:QCPColorScale}
+{\xe \v QCPColorScale\:initializeParentPlot}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPLayerable::initializeParentPlot ({\b QCustomPlot} *  {\i parentPlot}){\f2 [protected]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAGE}
+{\bkmkend AAAAAAAAGE}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1497 \{\par
+ 1498   if (mParentPlot)\par
+ 1499   \{\par
+ 1500     qDebug() << Q_FUNC_INFO << "called with mParentPlot already initialized";\par
+ 1501     return;\par
+ 1502   \}\par
+ 1503   \par
+ 1504   if (!parentPlot)\par
+ 1505     qDebug() << Q_FUNC_INFO << "called with parentPlot zero";\par
+ 1506   \par
+ 1507   mParentPlot = parentPlot;\par
+ 1508   parentPlotInitialized(mParentPlot);\par
+ 1509 \}\par
+}
+}
+{\xe \v label\:QCPColorScale}
+{\xe \v QCPColorScale\:label}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QString QCPColorScale::label () const}}
+\par
+{\bkmkstart AAAAAAABTP}
+{\bkmkend AAAAAAABTP}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 19351 \{\par
+19352   if (!mColorAxis)\par
+19353   \{\par
+19354     qDebug() << Q_FUNC_INFO << "internal color axis undefined";\par
+19355     return QString();\par
+19356   \}\par
+19357   \par
+19358   return mColorAxis.data()->label();\par
+19359 \}\par
+}
+}
+{\xe \v layer\:QCPColorScale}
+{\xe \v QCPColorScale\:layer}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b QCPLayer}* QCPLayerable::layer () const{\f2 [inline]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAGF}
+{\bkmkend AAAAAAAAGF}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid   710 \{ return mLayer; \}\par
+}
+}
+{\xe \v layerChanged\:QCPColorScale}
+{\xe \v QCPColorScale\:layerChanged}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPLayerable::layerChanged ({\b QCPLayer} *  {\i newLayer}){\f2 [signal]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAGG}
+{\bkmkend AAAAAAAAGG}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+This signal is emitted when the layer of this layerable changes, i.e. this layerable is moved to a different layer.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b setLayer} \par
+}}}
+{\xe \v layout\:QCPColorScale}
+{\xe \v QCPColorScale\:layout}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b QCPLayout} * QCPLayoutElement::layout () const{\f2 [inline]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAJZ}
+{\bkmkend AAAAAAAAJZ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Returns the parent layout of this layout element. \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1220 \{ return mParentLayout; \}\par
+}
+}
+{\xe \v layoutChanged\:QCPColorScale}
+{\xe \v QCPColorScale\:layoutChanged}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPLayoutElement::layoutChanged (){\f2 [protected]}, {\f2 [virtual]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAKA}
+{\bkmkend AAAAAAAAKA}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Reimplementado por {\b QCPAxisRect} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAKB \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  3554 \{\par
+ 3555 \}\par
+}
+}
+{\xe \v marginGroup\:QCPColorScale}
+{\xe \v QCPColorScale\:marginGroup}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b QCPMarginGroup}* QCPLayoutElement::marginGroup ({\b QCP::MarginSide}  {\i side}) const{\f2 [inline]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAKC}
+{\bkmkend AAAAAAAAKC}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1229 \{ return mMarginGroups.value(side, (QCPMarginGroup*)0); \}\par
+}
+}
+{\xe \v marginGroups\:QCPColorScale}
+{\xe \v QCPColorScale\:marginGroups}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QHash<{\b QCP::MarginSide}, {\b QCPMarginGroup}*> QCPLayoutElement::marginGroups () const{\f2 [inline]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAKD}
+{\bkmkend AAAAAAAAKD}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1230 \{ return mMarginGroups; \}\par
+}
+}
+{\xe \v margins\:QCPColorScale}
+{\xe \v QCPColorScale\:margins}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QMargins QCPLayoutElement::margins () const{\f2 [inline]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAKE}
+{\bkmkend AAAAAAAAKE}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1223 \{ return mMargins; \}\par
+}
+}
+{\xe \v maximumOuterSizeHint\:QCPColorScale}
+{\xe \v QCPColorScale\:maximumOuterSizeHint}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QSize QCPLayoutElement::maximumOuterSizeHint () const{\f2 [virtual]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAKF}
+{\bkmkend AAAAAAAAKF}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Returns the suggested maximum size this layout element (the {\b outerRect}) may be expanded to, if no manual maximum size is set.\par
+if a maximum size ({\b setMaximumSize}) was not set manually, parent layouts use the returned size (usually indirectly through {\b QCPLayout::getFinalMaximumOuterSize}) to determine the maximum allowed size of this layout element.\par
+A manual maximum size is considered set if it is smaller than Qt's {\f2 QWIDGETSIZE_MAX} .\par
+The default implementation simply returns {\f2 QWIDGETSIZE_MAX}  for both width and height, implying no suggested maximum size. Reimplementations may use their detailed knowledge about the layout element's content to provide size hints. \par
+}{
+Reimplementado por {\b QCPTextElement} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAKG \\*MERGEFORMAT}{\fldrslt pagenum}}}) e {\b QCPLayoutGrid} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAKH \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  3466 \{\par
+ 3467   return QSize(QWIDGETSIZE_MAX, QWIDGETSIZE_MAX);\par
+ 3468 \}\par
+}
+}
+{\xe \v maximumSize\:QCPColorScale}
+{\xe \v QCPColorScale\:maximumSize}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QSize QCPLayoutElement::maximumSize () const{\f2 [inline]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAKI}
+{\bkmkend AAAAAAAAKI}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1227 \{ return mMaximumSize; \}\par
+}
+}
+{\xe \v minimumMargins\:QCPColorScale}
+{\xe \v QCPColorScale\:minimumMargins}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QMargins QCPLayoutElement::minimumMargins () const{\f2 [inline]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAKJ}
+{\bkmkend AAAAAAAAKJ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1224 \{ return mMinimumMargins; \}\par
+}
+}
+{\xe \v minimumOuterSizeHint\:QCPColorScale}
+{\xe \v QCPColorScale\:minimumOuterSizeHint}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QSize QCPLayoutElement::minimumOuterSizeHint () const{\f2 [virtual]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAKK}
+{\bkmkend AAAAAAAAKK}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Returns the suggested minimum size this layout element (the {\b outerRect}) may be compressed to, if no manual minimum size is set.\par
+if a minimum size ({\b setMinimumSize}) was not set manually, parent layouts use the returned size (usually indirectly through {\b QCPLayout::getFinalMinimumOuterSize}) to determine the minimum allowed size of this layout element.\par
+A manual minimum size is considered set if it is non-zero.\par
+The default implementation simply returns the sum of the horizontal margins for the width and the sum of the vertical margins for the height. Reimplementations may use their detailed knowledge about the layout element's content to provide size hints. \par
+}{
+Reimplementado por {\b QCPTextElement} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAKL \\*MERGEFORMAT}{\fldrslt pagenum}}}), {\b QCPPlottableLegendItem} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAKM \\*MERGEFORMAT}{\fldrslt pagenum}}}) e {\b QCPLayoutGrid} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAKN \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  3447 \{\par
+ 3448   return QSize(mMargins.left()+mMargins.right(), mMargins.top()+mMargins.bottom());\par
+ 3449 \}\par
+}
+}
+{\xe \v minimumSize\:QCPColorScale}
+{\xe \v QCPColorScale\:minimumSize}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QSize QCPLayoutElement::minimumSize () const{\f2 [inline]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAKO}
+{\bkmkend AAAAAAAAKO}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1226 \{ return mMinimumSize; \}\par
+}
+}
+{\xe \v mouseDoubleClickEvent\:QCPColorScale}
+{\xe \v QCPColorScale\:mouseDoubleClickEvent}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPLayerable::mouseDoubleClickEvent (QMouseEvent *  {\i event}, const QVariant &  {\i details}){\f2 [protected]}, {\f2 [virtual]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAGH}
+{\bkmkend AAAAAAAAGH}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+This event gets called when the user presses the mouse button a second time in a double-click, while the cursor is over the layerable. Whether a cursor is over the layerable is decided by a preceding call to {\b selectTest}.\par
+The {\b mouseDoubleClickEvent} is called instead of the second {\b mousePressEvent}. So in the case of a double-click, the event succession is {\i pressEvent \'96 releaseEvent \'96 doubleClickEvent \'96 releaseEvent} .\par
+The current pixel position of the cursor on the {\b QCustomPlot} widget is accessible via {\f2 event->pos()} . The parameter {\i details}  contains layerable-specific details about the hit, which were generated in the previous call to {\b selectTest}. For example, One-dimensional plottables like {\b QCPGraph} or {\b QCPBars} convey the clicked data point in the {\i details}  parameter, as {\b QCPDataSelection} packed as QVariant. Multi-part objects convey the specific {\f2 SelectablePart}  that was hit (e.g. {\b QCPAxis::SelectablePart} in the case of axes).\par
+Similarly to {\b mousePressEvent}, once a layerable has accepted the {\b mouseDoubleClickEvent}, it is considered the mouse grabber and will receive all following calls to {\b mouseMoveEvent} and {\b mouseReleaseEvent} for this mouse interaction (a "mouse interaction" in this context ends with the release).\par
+The default implementation does nothing except explicitly ignoring the event with {\f2 event->ignore()} .\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b mousePressEvent}, {\b mouseMoveEvent}, {\b mouseReleaseEvent}, {\b wheelEvent} \par
+}}{
+Reimplementado por {\b QCPTextElement} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAGI \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1777 \{\par
+ 1778   Q_UNUSED(details)\par
+ 1779   event->ignore();\par
+ 1780 \}\par
+}
+}
+{\xe \v mouseMoveEvent\:QCPColorScale}
+{\xe \v QCPColorScale\:mouseMoveEvent}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPColorScale::mouseMoveEvent (QMouseEvent *  {\i event}, const QPointF &  {\i startPos}){\f2 [protected]}, {\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAAAGK}
+{\bkmkend AAAAAAAAGK}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+This event gets called when the user moves the mouse while holding a mouse button, after this layerable has become the mouse grabber by accepting the preceding {\b mousePressEvent}.\par
+The current pixel position of the cursor on the {\b QCustomPlot} widget is accessible via {\f2 event->pos()} . The parameter {\i startPos}  indicates the position where the initial {\b mousePressEvent} occured, that started the mouse interaction.\par
+The default implementation does nothing.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b mousePressEvent}, {\b mouseReleaseEvent}, {\b mouseDoubleClickEvent}, {\b wheelEvent} \par
+}}{
+Reimplementa {\b QCPLayerable} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAGJ \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 19701 \{\par
+19702   if (!mAxisRect)\par
+19703   \{\par
+19704     qDebug() << Q_FUNC_INFO << "internal axis rect was deleted";\par
+19705     return;\par
+19706   \}\par
+19707   mAxisRect.data()->mouseMoveEvent(event, startPos);\par
+19708 \}\par
+}
+}
+{\xe \v mousePressEvent\:QCPColorScale}
+{\xe \v QCPColorScale\:mousePressEvent}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPColorScale::mousePressEvent (QMouseEvent *  {\i event}, const QVariant &  {\i details}){\f2 [protected]}, {\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAAAGO}
+{\bkmkend AAAAAAAAGO}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+This event gets called when the user presses a mouse button while the cursor is over the layerable. Whether a cursor is over the layerable is decided by a preceding call to {\b selectTest}.\par
+The current pixel position of the cursor on the {\b QCustomPlot} widget is accessible via {\f2 event->pos()} . The parameter {\i details}  contains layerable-specific details about the hit, which were generated in the previous call to {\b selectTest}. For example, One-dimensional plottables like {\b QCPGraph} or {\b QCPBars} convey the clicked data point in the {\i details}  parameter, as {\b QCPDataSelection} packed as QVariant. Multi-part objects convey the specific {\f2 SelectablePart}  that was hit (e.g. {\b QCPAxis::SelectablePart} in the case of axes).\par
+{\b QCustomPlot} uses an event propagation system that works the same as Qt's system. If your layerable doesn't reimplement the {\b mousePressEvent} or explicitly calls {\f2 event->ignore()}  in its reimplementation, the event will be propagated to the next layerable in the stacking order.\par
+Once a layerable has accepted the {\b mousePressEvent}, it is considered the mouse grabber and will receive all following calls to {\b mouseMoveEvent} or {\b mouseReleaseEvent} for this mouse interaction (a "mouse interaction" in this context ends with the release).\par
+The default implementation does nothing except explicitly ignoring the event with {\f2 event->ignore()} .\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b mouseMoveEvent}, {\b mouseReleaseEvent}, {\b mouseDoubleClickEvent}, {\b wheelEvent} \par
+}}{
+Reimplementa {\b QCPLayerable} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAGN \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 19690 \{\par
+19691   if (!mAxisRect)\par
+19692   \{\par
+19693     qDebug() << Q_FUNC_INFO << "internal axis rect was deleted";\par
+19694     return;\par
+19695   \}\par
+19696   mAxisRect.data()->mousePressEvent(event, details);\par
+19697 \}\par
+}
+}
+{\xe \v mouseReleaseEvent\:QCPColorScale}
+{\xe \v QCPColorScale\:mouseReleaseEvent}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPColorScale::mouseReleaseEvent (QMouseEvent *  {\i event}, const QPointF &  {\i startPos}){\f2 [protected]}, {\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAAAGT}
+{\bkmkend AAAAAAAAGT}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+This event gets called when the user releases the mouse button, after this layerable has become the mouse grabber by accepting the preceding {\b mousePressEvent}.\par
+The current pixel position of the cursor on the {\b QCustomPlot} widget is accessible via {\f2 event->pos()} . The parameter {\i startPos}  indicates the position where the initial {\b mousePressEvent} occured, that started the mouse interaction.\par
+The default implementation does nothing.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b mousePressEvent}, {\b mouseMoveEvent}, {\b mouseDoubleClickEvent}, {\b wheelEvent} \par
+}}{
+Reimplementa {\b QCPLayerable} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAGS \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 19712 \{\par
+19713   if (!mAxisRect)\par
+19714   \{\par
+19715     qDebug() << Q_FUNC_INFO << "internal axis rect was deleted";\par
+19716     return;\par
+19717   \}\par
+19718   mAxisRect.data()->mouseReleaseEvent(event, startPos);\par
+19719 \}\par
+}
+}
+{\xe \v moveToLayer\:QCPColorScale}
+{\xe \v QCPColorScale\:moveToLayer}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool QCPLayerable::moveToLayer ({\b QCPLayer} *  {\i layer}, bool  {\i prepend}){\f2 [protected]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAGX}
+{\bkmkend AAAAAAAAGX}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1536 \{\par
+ 1537   if (layer && !mParentPlot)\par
+ 1538   \{\par
+ 1539     qDebug() << Q_FUNC_INFO << "no parent QCustomPlot set";\par
+ 1540     return false;\par
+ 1541   \}\par
+ 1542   if (layer && layer->parentPlot() != mParentPlot)\par
+ 1543   \{\par
+ 1544     qDebug() << Q_FUNC_INFO << "layer" << layer->name() << "is not in same QCustomPlot as this layerable";\par
+ 1545     return false;\par
+ 1546   \}\par
+ 1547   \par
+ 1548   QCPLayer *oldLayer = mLayer;\par
+ 1549   if (mLayer)\par
+ 1550     mLayer->removeChild(this);\par
+ 1551   mLayer = layer;\par
+ 1552   if (mLayer)\par
+ 1553     mLayer->addChild(this, prepend);\par
+ 1554   if (mLayer != oldLayer)\par
+ 1555     emit layerChanged(mLayer);\par
+ 1556   return true;\par
+ 1557 \}\par
+}
+}
+{\xe \v outerRect\:QCPColorScale}
+{\xe \v QCPColorScale\:outerRect}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QRect QCPLayoutElement::outerRect () const{\f2 [inline]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAKP}
+{\bkmkend AAAAAAAAKP}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Returns the outer rect of this layout element. The outer rect is the inner rect expanded by the margins ({\b setMargins}, {\b setAutoMargins}). The outer rect is used (and set via {\b setOuterRect}) by the parent {\b QCPLayout} to control the size of this layout element.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b rect} \par
+}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1222 \{ return mOuterRect; \}\par
+}
+}
+{\xe \v parentLayerable\:QCPColorScale}
+{\xe \v QCPColorScale\:parentLayerable}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b QCPLayerable} * QCPLayerable::parentLayerable () const{\f2 [inline]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAGY}
+{\bkmkend AAAAAAAAGY}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Returns the parent layerable of this layerable. The parent layerable is used to provide visibility hierarchies in conjunction with the method {\b realVisibility}. This way, layerables only get drawn if their parent layerables are visible, too.\par
+Note that a parent layerable is not necessarily also the QObject parent for memory management. Further, a layerable doesn't always have a parent layerable, so this function may return 0.\par
+A parent layerable is set implicitly when placed inside layout elements and doesn't need to be set manually by the user. \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid   709 \{ return mParentLayerable.data(); \}\par
+}
+}
+{\xe \v parentPlot\:QCPColorScale}
+{\xe \v QCPColorScale\:parentPlot}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b QCustomPlot}* QCPLayerable::parentPlot () const{\f2 [inline]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAGZ}
+{\bkmkend AAAAAAAAGZ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid   708 \{ return mParentPlot; \}\par
+}
+}
+{\xe \v parentPlotInitialized\:QCPColorScale}
+{\xe \v QCPColorScale\:parentPlotInitialized}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPLayoutElement::parentPlotInitialized ({\b QCustomPlot} *  {\i parentPlot}){\f2 [protected]}, {\f2 [virtual]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAHC}
+{\bkmkend AAAAAAAAHC}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Reimplementa {\b QCPLayerable} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAHA \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+{
+Reimplementado por {\b QCPLegend} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAHB \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  3520 \{\par
+ 3521   foreach (QCPLayoutElement* el, elements(false))\par
+ 3522   \{\par
+ 3523     if (!el->parentPlot())\par
+ 3524       el->initializeParentPlot(parentPlot);\par
+ 3525   \}\par
+ 3526 \}\par
+}
+}
+{\xe \v rangeDrag\:QCPColorScale}
+{\xe \v QCPColorScale\:rangeDrag}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool QCPColorScale::rangeDrag () const}}
+\par
+{\bkmkstart AAAAAAABTQ}
+{\bkmkend AAAAAAABTQ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 19363 \{\par
+19364   if (!mAxisRect)\par
+19365   \{\par
+19366     qDebug() << Q_FUNC_INFO << "internal axis rect was deleted";\par
+19367     return false;\par
+19368   \}\par
+19369   \par
+19370   return mAxisRect.data()->rangeDrag().testFlag(QCPAxis::orientation(mType)) &&\par
+19371       mAxisRect.data()->rangeDragAxis(QCPAxis::orientation(mType)) &&\par
+19372       mAxisRect.data()->rangeDragAxis(QCPAxis::orientation(mType))->orientation() == QCPAxis::orientation(mType);\par
+19373 \}\par
+}
+}
+{\xe \v rangeZoom\:QCPColorScale}
+{\xe \v QCPColorScale\:rangeZoom}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool QCPColorScale::rangeZoom () const}}
+\par
+{\bkmkstart AAAAAAABTR}
+{\bkmkend AAAAAAABTR}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 19377 \{\par
+19378   if (!mAxisRect)\par
+19379   \{\par
+19380     qDebug() << Q_FUNC_INFO << "internal axis rect was deleted";\par
+19381     return false;\par
+19382   \}\par
+19383   \par
+19384   return mAxisRect.data()->rangeZoom().testFlag(QCPAxis::orientation(mType)) &&\par
+19385       mAxisRect.data()->rangeZoomAxis(QCPAxis::orientation(mType)) &&\par
+19386       mAxisRect.data()->rangeZoomAxis(QCPAxis::orientation(mType))->orientation() == QCPAxis::orientation(mType);\par
+19387 \}\par
+}
+}
+{\xe \v realVisibility\:QCPColorScale}
+{\xe \v QCPColorScale\:realVisibility}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool QCPLayerable::realVisibility () const{\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAHF}
+{\bkmkend AAAAAAAAHF}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Returns whether this layerable is visible, taking the visibility of the layerable parent and the visibility of this layerable's layer into account. This is the method that is consulted to decide whether a layerable shall be drawn or not.\par
+If this layerable has a direct layerable parent (usually set via hierarchies implemented in subclasses, like in the case of {\b QCPLayoutElement}), this function returns true only if this layerable has its visibility set to true and the parent layerable's {\b realVisibility} returns true. \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1433 \{\par
+ 1434   return mVisible && (!mLayer || mLayer->visible()) && (!mParentLayerable || mParentLayerable.data()->realVisibility());\par
+ 1435 \}\par
+}
+}
+{\xe \v rect\:QCPColorScale}
+{\xe \v QCPColorScale\:rect}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QRect QCPLayoutElement::rect () const{\f2 [inline]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAKR}
+{\bkmkend AAAAAAAAKR}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Returns the inner rect of this layout element. The inner rect is the outer rect ({\b outerRect}, {\b setOuterRect}) shrinked by the margins ({\b setMargins}, {\b setAutoMargins}).\par
+In some cases, the area between outer and inner rect is left blank. In other cases the margin area is used to display peripheral graphics while the main content is in the inner rect. This is where automatic margin calculation becomes interesting because it allows the layout element to adapt the margins to the peripheral graphics it wants to draw. For example, {\b QCPAxisRect} draws the axis labels and tick labels in the margin area, thus needs to adjust the margins (if {\b setAutoMargins} is enabled) according to the space required by the labels of the axes.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b outerRect} \par
+}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1221 \{ return mRect; \}\par
+}
+}
+{\xe \v rescaleDataRange\:QCPColorScale}
+{\xe \v QCPColorScale\:rescaleDataRange}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPColorScale::rescaleDataRange (bool  {\i onlyVisibleMaps})}}
+\par
+{\bkmkstart AAAAAAABTS}
+{\bkmkend AAAAAAABTS}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Changes the data range such that all color maps associated with this color scale are fully mapped to the gradient in the data dimension.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b setDataRange} \par
+}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 19588 \{\par
+19589   QList<QCPColorMap*> maps = colorMaps();\par
+19590   QCPRange newRange;\par
+19591   bool haveRange = false;\par
+19592   QCP::SignDomain sign = QCP::sdBoth;\par
+19593   if (mDataScaleType == QCPAxis::stLogarithmic)\par
+19594     sign = (mDataRange.upper < 0 ? QCP::sdNegative : QCP::sdPositive);\par
+19595   for (int i=0; i<maps.size(); ++i)\par
+19596   \{\par
+19597     if (!maps.at(i)->realVisibility() && onlyVisibleMaps)\par
+19598       continue;\par
+19599     QCPRange mapRange;\par
+19600     if (maps.at(i)->colorScale() == this)\par
+19601     \{\par
+19602       bool currentFoundRange = true;\par
+19603       mapRange = maps.at(i)->data()->dataBounds();\par
+19604       if (sign == QCP::sdPositive)\par
+19605       \{\par
+19606         if (mapRange.lower <= 0 && mapRange.upper > 0)\par
+19607           mapRange.lower = mapRange.upper*1e-3;\par
+19608         else if (mapRange.lower <= 0 && mapRange.upper <= 0)\par
+19609           currentFoundRange = false;\par
+19610       \} else if (sign == QCP::sdNegative)\par
+19611       \{\par
+19612         if (mapRange.upper >= 0 && mapRange.lower < 0)\par
+19613           mapRange.upper = mapRange.lower*1e-3;\par
+19614         else if (mapRange.upper >= 0 && mapRange.lower >= 0)\par
+19615           currentFoundRange = false;\par
+19616       \}\par
+19617       if (currentFoundRange)\par
+19618       \{\par
+19619         if (!haveRange)\par
+19620           newRange = mapRange;\par
+19621         else\par
+19622           newRange.expand(mapRange);\par
+19623         haveRange = true;\par
+19624       \}\par
+19625     \}\par
+19626   \}\par
+19627   if (haveRange)\par
+19628   \{\par
+19629     if (!QCPRange::validRange(newRange)) // likely due to range being zero (plottable has only constant data in this dimension), shift current range to at least center the data\par
+19630     \{\par
+19631       double center = (newRange.lower+newRange.upper)*0.5; // upper and lower should be equal anyway, but just to make sure, incase validRange returned false for other reason\par
+19632       if (mDataScaleType == QCPAxis::stLinear)\par
+19633       \{\par
+19634         newRange.lower = center-mDataRange.size()/2.0;\par
+19635         newRange.upper = center+mDataRange.size()/2.0;\par
+19636       \} else // mScaleType == stLogarithmic\par
+19637       \{\par
+19638         newRange.lower = center/qSqrt(mDataRange.upper/mDataRange.lower);\par
+19639         newRange.upper = center*qSqrt(mDataRange.upper/mDataRange.lower);\par
+19640       \}\par
+19641     \}\par
+19642     setDataRange(newRange);\par
+19643   \}\par
+19644 \}\par
+}
+}
+{\xe \v selectEvent\:QCPColorScale}
+{\xe \v QCPColorScale\:selectEvent}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPLayerable::selectEvent (QMouseEvent *  {\i event}, bool  {\i additive}, const QVariant &  {\i details}, bool *  {\i selectionStateChanged}){\f2 [protected]}, {\f2 [virtual]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAHL}
+{\bkmkend AAAAAAAAHL}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Reimplementado por {\b QCPTextElement} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAABDR \\*MERGEFORMAT}{\fldrslt pagenum}}}), {\b QCPLegend} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAABDS \\*MERGEFORMAT}{\fldrslt pagenum}}}), {\b QCPAbstractLegendItem} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAKX \\*MERGEFORMAT}{\fldrslt pagenum}}}), {\b QCPAbstractItem} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAHK \\*MERGEFORMAT}{\fldrslt pagenum}}}), {\b QCPAbstractPlottable} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAPX \\*MERGEFORMAT}{\fldrslt pagenum}}}) e {\b QCPAxis} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAVK \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1659 \{\par
+ 1660   Q_UNUSED(event)\par
+ 1661   Q_UNUSED(additive)\par
+ 1662   Q_UNUSED(details)\par
+ 1663   Q_UNUSED(selectionStateChanged)\par
+ 1664 \}\par
+}
+}
+{\xe \v selectionCategory\:QCPColorScale}
+{\xe \v QCPColorScale\:selectionCategory}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b QCP::Interaction} QCPLayerable::selectionCategory () const{\f2 [protected]}, {\f2 [virtual]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAHN}
+{\bkmkend AAAAAAAAHN}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Reimplementado por {\b QCPLegend} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAABDT \\*MERGEFORMAT}{\fldrslt pagenum}}}), {\b QCPAbstractLegendItem} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAKY \\*MERGEFORMAT}{\fldrslt pagenum}}}), {\b QCPAbstractItem} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAHM \\*MERGEFORMAT}{\fldrslt pagenum}}}), {\b QCPAbstractPlottable} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAPZ \\*MERGEFORMAT}{\fldrslt pagenum}}}) e {\b QCPAxis} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAVL \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1609 \{\par
+ 1610   return QCP::iSelectOther;\par
+ 1611 \}\par
+}
+}
+{\xe \v selectTest\:QCPColorScale}
+{\xe \v QCPColorScale\:selectTest}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+double QCPLayoutElement::selectTest (const QPointF &  {\i pos}, bool  {\i onlySelectable}, QVariant *  {\i details} = {\f2 0}) const{\f2 [virtual]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAALB}
+{\bkmkend AAAAAAAALB}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Layout elements are sensitive to events inside their outer rect. If {\i pos}  is within the outer rect, this method returns a value corresponding to 0.99 times the parent plot's selection tolerance. However, layout elements are not selectable by default. So if {\i onlySelectable}  is true, -1.0 is returned.\par
+See {\b QCPLayerable::selectTest} for a general explanation of this virtual method.\par
+{\b QCPLayoutElement} subclasses may reimplement this method to provide more specific selection test behaviour. \par
+}{
+Reimplementa {\b QCPLayerable} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAHQ \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+{
+Reimplementado por {\b QCPTextElement} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAABDU \\*MERGEFORMAT}{\fldrslt pagenum}}}), {\b QCPLegend} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAABDV \\*MERGEFORMAT}{\fldrslt pagenum}}}), {\b QCPAbstractLegendItem} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAALA \\*MERGEFORMAT}{\fldrslt pagenum}}}) e {\b QCPLayoutInset} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAABDW \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  3495 \{\par
+ 3496   Q_UNUSED(details)\par
+ 3497   \par
+ 3498   if (onlySelectable)\par
+ 3499     return -1;\par
+ 3500   \par
+ 3501   if (QRectF(mOuterRect).contains(pos))\par
+ 3502   \{\par
+ 3503     if (mParentPlot)\par
+ 3504       return mParentPlot->selectionTolerance()*0.99;\par
+ 3505     else\par
+ 3506     \{\par
+ 3507       qDebug() << Q_FUNC_INFO << "parent plot not defined";\par
+ 3508       return -1;\par
+ 3509     \}\par
+ 3510   \} else\par
+ 3511     return -1;\par
+ 3512 \}\par
+}
+}
+{\xe \v setAntialiased\:QCPColorScale}
+{\xe \v QCPColorScale\:setAntialiased}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPLayerable::setAntialiased (bool  {\i enabled}){\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAIA}
+{\bkmkend AAAAAAAAIA}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Sets whether this object will be drawn antialiased or not.\par
+Note that antialiasing settings may be overridden by {\b QCustomPlot::setAntialiasedElements} and {\b QCustomPlot::setNotAntialiasedElements}. \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1418 \{\par
+ 1419   mAntialiased = enabled;\par
+ 1420 \}\par
+}
+}
+{\xe \v setAutoMargins\:QCPColorScale}
+{\xe \v QCPColorScale\:setAutoMargins}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPLayoutElement::setAutoMargins (QCP::MarginSides  {\i sides}){\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAALC}
+{\bkmkend AAAAAAAALC}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Sets on which sides the margin shall be calculated automatically. If a side is calculated automatically, a minimum margin value may be provided with {\b setMinimumMargins}. If a side is set to be controlled manually, the value may be specified with {\b setMargins}.\par
+Margin sides that are under automatic control may participate in a {\b QCPMarginGroup} (see {\b setMarginGroup}), to synchronize (align) it with other layout elements in the plot.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b setMinimumMargins}, {\b setMargins}, {\b QCP::MarginSide} \par
+}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  3265 \{\par
+ 3266   mAutoMargins = sides;\par
+ 3267 \}\par
+}
+}
+{\xe \v setBarWidth\:QCPColorScale}
+{\xe \v QCPColorScale\:setBarWidth}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPColorScale::setBarWidth (int  {\i width})}}
+\par
+{\bkmkstart AAAAAAABTT}
+{\bkmkend AAAAAAABTT}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Sets the width (or height, for horizontal color scales) the bar where the gradient is displayed will have. \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 19522 \{\par
+19523   mBarWidth = width;\par
+19524 \}\par
+}
+}
+{\xe \v setDataRange\:QCPColorScale}
+{\xe \v QCPColorScale\:setDataRange}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPColorScale::setDataRange (const {\b QCPRange} &  {\i dataRange})}}
+\par
+{\bkmkstart AAAAAAABTU}
+{\bkmkend AAAAAAABTU}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Sets the range spanned by the color gradient and that is shown by the axis in the color scale.\par
+It is equivalent to calling {\b QCPColorMap::setDataRange} on any of the connected color maps. It is also equivalent to directly accessing the {\b axis} and setting its range with {\b QCPAxis::setRange}.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b setDataScaleType}, {\b setGradient}, {\b rescaleDataRange} \par
+}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 19451 \{\par
+19452   if (mDataRange.lower != dataRange.lower || mDataRange.upper != dataRange.upper)\par
+19453   \{\par
+19454     mDataRange = dataRange;\par
+19455     if (mColorAxis)\par
+19456       mColorAxis.data()->setRange(mDataRange);\par
+19457     emit dataRangeChanged(mDataRange);\par
+19458   \}\par
+19459 \}\par
+}
+}
+{\xe \v setDataScaleType\:QCPColorScale}
+{\xe \v QCPColorScale\:setDataScaleType}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPColorScale::setDataScaleType ({\b QCPAxis::ScaleType}  {\i scaleType})}}
+\par
+{\bkmkstart AAAAAAABTV}
+{\bkmkend AAAAAAABTV}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Sets the scale type of the color scale, i.e. whether values are linearly associated with colors or logarithmically.\par
+It is equivalent to calling {\b QCPColorMap::setDataScaleType} on any of the connected color maps. It is also equivalent to directly accessing the {\b axis} and setting its scale type with {\b QCPAxis::setScaleType}.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b setDataRange}, {\b setGradient} \par
+}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 19472 \{\par
+19473   if (mDataScaleType != scaleType)\par
+19474   \{\par
+19475     mDataScaleType = scaleType;\par
+19476     if (mColorAxis)\par
+19477       mColorAxis.data()->setScaleType(mDataScaleType);\par
+19478     if (mDataScaleType == QCPAxis::stLogarithmic)\par
+19479       setDataRange(mDataRange.sanitizedForLogScale());\par
+19480     emit dataScaleTypeChanged(mDataScaleType);\par
+19481   \}\par
+19482 \}\par
+}
+}
+{\xe \v setGradient\:QCPColorScale}
+{\xe \v QCPColorScale\:setGradient}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPColorScale::setGradient (const {\b QCPColorGradient} &  {\i gradient})}}
+\par
+{\bkmkstart AAAAAAABTW}
+{\bkmkend AAAAAAABTW}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Sets the color gradient that will be used to represent data values.\par
+It is equivalent to calling {\b QCPColorMap::setGradient} on any of the connected color maps.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b setDataRange}, {\b setDataScaleType} \par
+}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 19492 \{\par
+19493   if (mGradient != gradient)\par
+19494   \{\par
+19495     mGradient = gradient;\par
+19496     if (mAxisRect)\par
+19497       mAxisRect.data()->mGradientImageInvalidated = true;\par
+19498     emit gradientChanged(mGradient);\par
+19499   \}\par
+19500 \}\par
+}
+}
+{\xe \v setLabel\:QCPColorScale}
+{\xe \v QCPColorScale\:setLabel}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPColorScale::setLabel (const QString &  {\i str})}}
+\par
+{\bkmkstart AAAAAAABTX}
+{\bkmkend AAAAAAABTX}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Sets the axis label of the color scale. This is equivalent to calling {\b QCPAxis::setLabel} on the internal {\b axis}. \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 19507 \{\par
+19508   if (!mColorAxis)\par
+19509   \{\par
+19510     qDebug() << Q_FUNC_INFO << "internal color axis undefined";\par
+19511     return;\par
+19512   \}\par
+19513   \par
+19514   mColorAxis.data()->setLabel(str);\par
+19515 \}\par
+}
+}
+{\xe \v setLayer\:QCPColorScale}
+{\xe \v QCPColorScale\:setLayer}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool QCPLayerable::setLayer ({\b QCPLayer} *  {\i layer}){\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAID}
+{\bkmkend AAAAAAAAID}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Sets the {\i layer}  of this layerable object. The object will be placed on top of the other objects already on {\i layer} .\par
+If {\i layer}  is 0, this layerable will not be on any layer and thus not appear in the plot (or interact/receive events).\par
+Returns true if the layer of this layerable was successfully changed to {\i layer} . \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1385 \{\par
+ 1386   return moveToLayer(layer, false);\par
+ 1387 \}\par
+}
+}
+{\xe \v setLayer\:QCPColorScale}
+{\xe \v QCPColorScale\:setLayer}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool QCPLayerable::setLayer (const QString &  {\i layerName}){\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAIE}
+{\bkmkend AAAAAAAAIE}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados. Sets the layer of this layerable object by name\par
+Returns true on success, i.e. if {\i layerName}  is a valid layer name. \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1395 \{\par
+ 1396   if (!mParentPlot)\par
+ 1397   \{\par
+ 1398     qDebug() << Q_FUNC_INFO << "no parent QCustomPlot set";\par
+ 1399     return false;\par
+ 1400   \}\par
+ 1401   if (QCPLayer *layer = mParentPlot->layer(layerName))\par
+ 1402   \{\par
+ 1403     return setLayer(layer);\par
+ 1404   \} else\par
+ 1405   \{\par
+ 1406     qDebug() << Q_FUNC_INFO << "there is no layer with name" << layerName;\par
+ 1407     return false;\par
+ 1408   \}\par
+ 1409 \}\par
+}
+}
+{\xe \v setMarginGroup\:QCPColorScale}
+{\xe \v QCPColorScale\:setMarginGroup}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPLayoutElement::setMarginGroup (QCP::MarginSides  {\i sides}, {\b QCPMarginGroup} *  {\i group}){\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAALE}
+{\bkmkend AAAAAAAALE}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Sets the margin {\i group}  of the specified margin {\i sides} .\par
+Margin groups allow synchronizing specified margins across layout elements, see the documentation of {\b QCPMarginGroup}.\par
+To unset the margin group of {\i sides} , set {\i group}  to 0.\par
+Note that margin groups only work for margin sides that are set to automatic ({\b setAutoMargins}).\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b QCP::MarginSide} \par
+}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  3365 \{\par
+ 3366   QVector<QCP::MarginSide> sideVector;\par
+ 3367   if (sides.testFlag(QCP::msLeft)) sideVector.append(QCP::msLeft);\par
+ 3368   if (sides.testFlag(QCP::msRight)) sideVector.append(QCP::msRight);\par
+ 3369   if (sides.testFlag(QCP::msTop)) sideVector.append(QCP::msTop);\par
+ 3370   if (sides.testFlag(QCP::msBottom)) sideVector.append(QCP::msBottom);\par
+ 3371   \par
+ 3372   for (int i=0; i<sideVector.size(); ++i)\par
+ 3373   \{\par
+ 3374     QCP::MarginSide side = sideVector.at(i);\par
+ 3375     if (marginGroup(side) != group)\par
+ 3376     \{\par
+ 3377       QCPMarginGroup *oldGroup = marginGroup(side);\par
+ 3378       if (oldGroup) // unregister at old group\par
+ 3379         oldGroup->removeChild(side, this);\par
+ 3380       \par
+ 3381       if (!group) // if setting to 0, remove hash entry. Else set hash entry to new group and register there\par
+ 3382       \{\par
+ 3383         mMarginGroups.remove(side);\par
+ 3384       \} else // setting to a new group\par
+ 3385       \{\par
+ 3386         mMarginGroups[side] = group;\par
+ 3387         group->addChild(side, this);\par
+ 3388       \}\par
+ 3389     \}\par
+ 3390   \}\par
+ 3391 \}\par
+}
+}
+{\xe \v setMargins\:QCPColorScale}
+{\xe \v QCPColorScale\:setMargins}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPLayoutElement::setMargins (const QMargins &  {\i margins}){\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAALF}
+{\bkmkend AAAAAAAALF}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Sets the margins of this layout element. If {\b setAutoMargins} is disabled for some or all sides, this function is used to manually set the margin on those sides. Sides that are still set to be handled automatically are ignored and may have any value in {\i margins} .\par
+The margin is the distance between the outer rect (controlled by the parent layout via {\b setOuterRect}) and the inner {\b rect} (which usually contains the main content of this layout element).\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b setAutoMargins} \par
+}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  3229 \{\par
+ 3230   if (mMargins != margins)\par
+ 3231   \{\par
+ 3232     mMargins = margins;\par
+ 3233     mRect = mOuterRect.adjusted(mMargins.left(), mMargins.top(), -mMargins.right(), -mMargins.bottom());\par
+ 3234   \}\par
+ 3235 \}\par
+}
+}
+{\xe \v setMaximumSize\:QCPColorScale}
+{\xe \v QCPColorScale\:setMaximumSize}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPLayoutElement::setMaximumSize (const QSize &  {\i size}){\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAALG}
+{\bkmkend AAAAAAAALG}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Sets the maximum size of this layout element. A parent layout tries to respect the {\i size}  here by changing row/column sizes in the layout accordingly.\par
+Whether this constraint applies to the inner or the outer rect can be specified with {\b setSizeConstraintRect} (see {\b rect} and {\b outerRect}). \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  3311 \{\par
+ 3312   if (mMaximumSize != size)\par
+ 3313   \{\par
+ 3314     mMaximumSize = size;\par
+ 3315     if (mParentLayout)\par
+ 3316       mParentLayout->sizeConstraintsChanged();\par
+ 3317   \}\par
+ 3318 \}\par
+}
+}
+{\xe \v setMaximumSize\:QCPColorScale}
+{\xe \v QCPColorScale\:setMaximumSize}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPLayoutElement::setMaximumSize (int  {\i width}, int  {\i height}){\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAALH}
+{\bkmkend AAAAAAAALH}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.\par
+Sets the maximum size of this layout element.\par
+Whether this constraint applies to the inner or the outer rect can be specified with {\b setSizeConstraintRect} (see {\b rect} and {\b outerRect}). \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  3328 \{\par
+ 3329   setMaximumSize(QSize(width, height));\par
+ 3330 \}\par
+}
+}
+{\xe \v setMinimumMargins\:QCPColorScale}
+{\xe \v QCPColorScale\:setMinimumMargins}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPLayoutElement::setMinimumMargins (const QMargins &  {\i margins}){\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAALI}
+{\bkmkend AAAAAAAALI}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+If {\b setAutoMargins} is enabled on some or all margins, this function is used to provide minimum values for those margins.\par
+The minimum values are not enforced on margin sides that were set to be under manual control via {\b setAutoMargins}.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b setAutoMargins} \par
+}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  3247 \{\par
+ 3248   if (mMinimumMargins != margins)\par
+ 3249   \{\par
+ 3250     mMinimumMargins = margins;\par
+ 3251   \}\par
+ 3252 \}\par
+}
+}
+{\xe \v setMinimumSize\:QCPColorScale}
+{\xe \v QCPColorScale\:setMinimumSize}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPLayoutElement::setMinimumSize (const QSize &  {\i size}){\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAALJ}
+{\bkmkend AAAAAAAALJ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Sets the minimum size of this layout element. A parent layout tries to respect the {\i size}  here by changing row/column sizes in the layout accordingly.\par
+If the parent layout size is not sufficient to satisfy all minimum size constraints of its child layout elements, the layout may set a size that is actually smaller than {\i size} . {\b QCustomPlot} propagates the layout's size constraints to the outside by setting its own minimum QWidget size accordingly, so violations of {\i size}  should be exceptions.\par
+Whether this constraint applies to the inner or the outer rect can be specified with {\b setSizeConstraintRect} (see {\b rect} and {\b outerRect}). \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  3282 \{\par
+ 3283   if (mMinimumSize != size)\par
+ 3284   \{\par
+ 3285     mMinimumSize = size;\par
+ 3286     if (mParentLayout)\par
+ 3287       mParentLayout->sizeConstraintsChanged();\par
+ 3288   \}\par
+ 3289 \}\par
+}
+}
+{\xe \v setMinimumSize\:QCPColorScale}
+{\xe \v QCPColorScale\:setMinimumSize}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPLayoutElement::setMinimumSize (int  {\i width}, int  {\i height}){\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAALK}
+{\bkmkend AAAAAAAALK}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.\par
+Sets the minimum size of this layout element.\par
+Whether this constraint applies to the inner or the outer rect can be specified with {\b setSizeConstraintRect} (see {\b rect} and {\b outerRect}). \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  3299 \{\par
+ 3300   setMinimumSize(QSize(width, height));\par
+ 3301 \}\par
+}
+}
+{\xe \v setOuterRect\:QCPColorScale}
+{\xe \v QCPColorScale\:setOuterRect}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPLayoutElement::setOuterRect (const QRect &  {\i rect}){\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAALL}
+{\bkmkend AAAAAAAALL}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Sets the outer rect of this layout element. If the layout element is inside a layout, the layout sets the position and size of this layout element using this function.\par
+Calling this function externally has no effect, since the layout will overwrite any changes to the outer rect upon the next replot.\par
+The layout element will adapt its inner {\b rect} by applying the margins inward to the outer rect.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b rect} \par
+}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  3209 \{\par
+ 3210   if (mOuterRect != rect)\par
+ 3211   \{\par
+ 3212     mOuterRect = rect;\par
+ 3213     mRect = mOuterRect.adjusted(mMargins.left(), mMargins.top(), -mMargins.right(), -mMargins.bottom());\par
+ 3214   \}\par
+ 3215 \}\par
+}
+}
+{\xe \v setParentLayerable\:QCPColorScale}
+{\xe \v QCPColorScale\:setParentLayerable}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPLayerable::setParentLayerable ({\b QCPLayerable} *  {\i parentLayerable}){\f2 [protected]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAIF}
+{\bkmkend AAAAAAAAIF}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1523 \{\par
+ 1524   mParentLayerable = parentLayerable;\par
+ 1525 \}\par
+}
+}
+{\xe \v setRangeDrag\:QCPColorScale}
+{\xe \v QCPColorScale\:setRangeDrag}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPColorScale::setRangeDrag (bool  {\i enabled})}}
+\par
+{\bkmkstart AAAAAAABTY}
+{\bkmkend AAAAAAABTY}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Sets whether the user can drag the data range ({\b setDataRange}).\par
+Note that {\b QCP::iRangeDrag} must be in the {\b QCustomPlot}'s interactions ({\b QCustomPlot::setInteractions}) to allow range dragging. \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 19533 \{\par
+19534   if (!mAxisRect)\par
+19535   \{\par
+19536     qDebug() << Q_FUNC_INFO << "internal axis rect was deleted";\par
+19537     return;\par
+19538   \}\par
+19539   \par
+19540   if (enabled)\par
+19541     mAxisRect.data()->setRangeDrag(QCPAxis::orientation(mType));\par
+19542   else\par
+19543     mAxisRect.data()->setRangeDrag(0);\par
+19544 \}\par
+}
+}
+{\xe \v setRangeZoom\:QCPColorScale}
+{\xe \v QCPColorScale\:setRangeZoom}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPColorScale::setRangeZoom (bool  {\i enabled})}}
+\par
+{\bkmkstart AAAAAAABTZ}
+{\bkmkend AAAAAAABTZ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Sets whether the user can zoom the data range ({\b setDataRange}) by scrolling the mouse wheel.\par
+Note that {\b QCP::iRangeZoom} must be in the {\b QCustomPlot}'s interactions ({\b QCustomPlot::setInteractions}) to allow range dragging. \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 19553 \{\par
+19554   if (!mAxisRect)\par
+19555   \{\par
+19556     qDebug() << Q_FUNC_INFO << "internal axis rect was deleted";\par
+19557     return;\par
+19558   \}\par
+19559   \par
+19560   if (enabled)\par
+19561     mAxisRect.data()->setRangeZoom(QCPAxis::orientation(mType));\par
+19562   else\par
+19563     mAxisRect.data()->setRangeZoom(0);\par
+19564 \}\par
+}
+}
+{\xe \v setSizeConstraintRect\:QCPColorScale}
+{\xe \v QCPColorScale\:setSizeConstraintRect}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPLayoutElement::setSizeConstraintRect ({\b SizeConstraintRect}  {\i constraintRect}){\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAALQ}
+{\bkmkend AAAAAAAALQ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Sets to which rect of a layout element the size constraints apply. Size constraints can be set via {\b setMinimumSize} and {\b setMaximumSize}.\par
+The outer rect ({\b outerRect}) includes the margins (e.g. in the case of a {\b QCPAxisRect} the axis labels), whereas the inner rect ({\b rect}) does not.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b setMinimumSize}, {\b setMaximumSize} \par
+}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  3342 \{\par
+ 3343   if (mSizeConstraintRect != constraintRect)\par
+ 3344   \{\par
+ 3345     mSizeConstraintRect = constraintRect;\par
+ 3346     if (mParentLayout)\par
+ 3347       mParentLayout->sizeConstraintsChanged();\par
+ 3348   \}\par
+ 3349 \}\par
+}
+}
+{\xe \v setType\:QCPColorScale}
+{\xe \v QCPColorScale\:setType}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPColorScale::setType ({\b QCPAxis::AxisType}  {\i type})}}
+\par
+{\bkmkstart AAAAAAABUA}
+{\bkmkend AAAAAAABUA}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Sets at which side of the color scale the axis is placed, and thus also its orientation.\par
+Note that after setting {\i type}  to a different value, the axis returned by {\b axis()} will be a different one. The new axis will adopt the following properties from the previous axis: The range, scale type, label and ticker (the latter will be shared and not copied). \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 19397 \{\par
+19398   if (!mAxisRect)\par
+19399   \{\par
+19400     qDebug() << Q_FUNC_INFO << "internal axis rect was deleted";\par
+19401     return;\par
+19402   \}\par
+19403   if (mType != type)\par
+19404   \{\par
+19405     mType = type;\par
+19406     QCPRange rangeTransfer(0, 6);\par
+19407     QString labelTransfer;\par
+19408     QSharedPointer<QCPAxisTicker> tickerTransfer;\par
+19409     // transfer/revert some settings on old axis if it exists:\par
+19410     bool doTransfer = (bool)mColorAxis;\par
+19411     if (doTransfer)\par
+19412     \{\par
+19413       rangeTransfer = mColorAxis.data()->range();\par
+19414       labelTransfer = mColorAxis.data()->label();\par
+19415       tickerTransfer = mColorAxis.data()->ticker();\par
+19416       mColorAxis.data()->setLabel(QString());\par
+19417       disconnect(mColorAxis.data(), SIGNAL(rangeChanged(QCPRange)), this, SLOT(setDataRange(QCPRange)));\par
+19418       disconnect(mColorAxis.data(), SIGNAL(scaleTypeChanged(QCPAxis::ScaleType)), this, SLOT(setDataScaleType(QCPAxis::ScaleType)));\par
+19419     \}\par
+19420     QList<QCPAxis::AxisType> allAxisTypes = QList<QCPAxis::AxisType>() << QCPAxis::atLeft << QCPAxis::atRight << QCPAxis::atBottom << QCPAxis::atTop;\par
+19421     foreach (QCPAxis::AxisType atype, allAxisTypes)\par
+19422     \{\par
+19423       mAxisRect.data()->axis(atype)->setTicks(atype == mType);\par
+19424       mAxisRect.data()->axis(atype)->setTickLabels(atype== mType);\par
+19425     \}\par
+19426     // set new mColorAxis pointer:\par
+19427     mColorAxis = mAxisRect.data()->axis(mType);\par
+19428     // transfer settings to new axis:\par
+19429     if (doTransfer)\par
+19430     \{\par
+19431       mColorAxis.data()->setRange(rangeTransfer); // range transfer necessary if axis changes from vertical to horizontal or vice versa (axes with same orientation are synchronized via signals)\par
+19432       mColorAxis.data()->setLabel(labelTransfer);\par
+19433       mColorAxis.data()->setTicker(tickerTransfer);\par
+19434     \}\par
+19435     connect(mColorAxis.data(), SIGNAL(rangeChanged(QCPRange)), this, SLOT(setDataRange(QCPRange)));\par
+19436     connect(mColorAxis.data(), SIGNAL(scaleTypeChanged(QCPAxis::ScaleType)), this, SLOT(setDataScaleType(QCPAxis::ScaleType)));\par
+19437     mAxisRect.data()->setRangeDragAxes(QList<QCPAxis*>() << mColorAxis.data());\par
+19438   \}\par
+19439 \}\par
+}
+}
+{\xe \v setVisible\:QCPColorScale}
+{\xe \v QCPColorScale\:setVisible}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPLayerable::setVisible (bool  {\i on}){\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAII}
+{\bkmkend AAAAAAAAII}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Sets the visibility of this layerable object. If an object is not visible, it will not be drawn on the {\b QCustomPlot} surface, and user interaction with it (e.g. click and selection) is not possible. \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1371 \{\par
+ 1372   mVisible = on;\par
+ 1373 \}\par
+}
+}
+{\xe \v sizeConstraintRect\:QCPColorScale}
+{\xe \v QCPColorScale\:sizeConstraintRect}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b SizeConstraintRect} QCPLayoutElement::sizeConstraintRect () const{\f2 [inline]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAALS}
+{\bkmkend AAAAAAAALS}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  1228 \{ return mSizeConstraintRect; \}\par
+}
+}
+{\xe \v type\:QCPColorScale}
+{\xe \v QCPColorScale\:type}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b QCPAxis::AxisType} QCPColorScale::type () const{\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAABUB}
+{\bkmkend AAAAAAABUB}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid  5057 \{ return mType; \}\par
+}
+}
+{\xe \v update\:QCPColorScale}
+{\xe \v QCPColorScale\:update}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPColorScale::update ({\b UpdatePhase}  {\i phase}){\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAAALV}
+{\bkmkend AAAAAAAALV}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Updates the layout element and sub-elements. This function is automatically called before every replot by the parent layout element. It is called multiple times, once for every {\b UpdatePhase}. The phases are run through in the order of the enum values. For details about what happens at the different phases, see the documentation of {\b UpdatePhase}.\par
+Layout elements that have child elements should call the {\b update} method of their child elements, and pass the current {\i phase}  unchanged.\par
+The default implementation executes the automatic margin mechanism in the {\b upMargins} phase. Subclasses should make sure to call the base class implementation. \par
+}{
+Reimplementa {\b QCPLayoutElement} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAALU \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 19648 \{\par
+19649   QCPLayoutElement::update(phase);\par
+19650   if (!mAxisRect)\par
+19651   \{\par
+19652     qDebug() << Q_FUNC_INFO << "internal axis rect was deleted";\par
+19653     return;\par
+19654   \}\par
+19655   \par
+19656   mAxisRect.data()->update(phase);\par
+19657   \par
+19658   switch (phase)\par
+19659   \{\par
+19660     case upMargins:\par
+19661     \{\par
+19662       if (mType == QCPAxis::atBottom || mType == QCPAxis::atTop)\par
+19663       \{\par
+19664         setMaximumSize(QWIDGETSIZE_MAX, mBarWidth+mAxisRect.data()->margins().top()+mAxisRect.data()->margins().bottom());\par
+19665         setMinimumSize(0,               mBarWidth+mAxisRect.data()->margins().top()+mAxisRect.data()->margins().bottom());\par
+19666       \} else\par
+19667       \{\par
+19668         setMaximumSize(mBarWidth+mAxisRect.data()->margins().left()+mAxisRect.data()->margins().right(), QWIDGETSIZE_MAX);\par
+19669         setMinimumSize(mBarWidth+mAxisRect.data()->margins().left()+mAxisRect.data()->margins().right(), 0);\par
+19670       \}\par
+19671       break;\par
+19672     \}\par
+19673     case upLayout:\par
+19674     \{\par
+19675       mAxisRect.data()->setOuterRect(rect());\par
+19676       break;\par
+19677     \}\par
+19678     default: break;\par
+19679   \}\par
+19680 \}\par
+}
+}
+{\xe \v visible\:QCPColorScale}
+{\xe \v QCPColorScale\:visible}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool QCPLayerable::visible () const{\f2 [inline]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAIJ}
+{\bkmkend AAAAAAAAIJ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid   707 \{ return mVisible; \}\par
+}
+}
+{\xe \v wheelEvent\:QCPColorScale}
+{\xe \v QCPColorScale\:wheelEvent}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QCPColorScale::wheelEvent (QWheelEvent *  {\i event}){\f2 [protected]}, {\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAAAIL}
+{\bkmkend AAAAAAAAIL}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+This event gets called when the user turns the mouse scroll wheel while the cursor is over the layerable. Whether a cursor is over the layerable is decided by a preceding call to {\b selectTest}.\par
+The current pixel position of the cursor on the {\b QCustomPlot} widget is accessible via {\f2 event->pos()} .\par
+The {\f2 event->delta()}  indicates how far the mouse wheel was turned, which is usually +/- 120 for single rotation steps. However, if the mouse wheel is turned rapidly, multiple steps may accumulate to one event, making {\f2 event->delta()}  larger. On the other hand, if the wheel has very smooth steps or none at all, the delta may be smaller.\par
+The default implementation does nothing.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Veja também:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\b mousePressEvent}, {\b mouseMoveEvent}, {\b mouseReleaseEvent}, {\b mouseDoubleClickEvent} \par
+}}{
+Reimplementa {\b QCPLayerable} ({\i p.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAIK \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 19723 \{\par
+19724   if (!mAxisRect)\par
+19725   \{\par
+19726     qDebug() << Q_FUNC_INFO << "internal axis rect was deleted";\par
+19727     return;\par
+19728   \}\par
+19729   mAxisRect.data()->wheelEvent(event);\par
+19730 \}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Amigas e Funções Relacionadas\par
+\pard\plain 
+{\xe \v QCPColorScaleAxisRectPrivate\:QCPColorScale}
+{\xe \v QCPColorScale\:QCPColorScaleAxisRectPrivate}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+friend class {\b QCPColorScaleAxisRectPrivate}{\f2 [friend]}}}
+\par
+{\bkmkstart AAAAAAABUC}
+{\bkmkend AAAAAAABUC}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Atributos\par
+\pard\plain 
+{\xe \v mAntialiased\:QCPColorScale}
+{\xe \v QCPColorScale\:mAntialiased}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool QCPLayerable::mAntialiased{\f2 [protected]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAIR}
+{\bkmkend AAAAAAAAIR}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v mAutoMargins\:QCPColorScale}
+{\xe \v QCPColorScale\:mAutoMargins}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QCP::MarginSides QCPLayoutElement::mAutoMargins{\f2 [protected]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAALZ}
+{\bkmkend AAAAAAAALZ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v mAxisRect\:QCPColorScale}
+{\xe \v QCPColorScale\:mAxisRect}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QPointer<{\b QCPColorScaleAxisRectPrivate}> QCPColorScale::mAxisRect{\f2 [protected]}}}
+\par
+{\bkmkstart AAAAAAABUD}
+{\bkmkend AAAAAAABUD}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v mBarWidth\:QCPColorScale}
+{\xe \v QCPColorScale\:mBarWidth}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int QCPColorScale::mBarWidth{\f2 [protected]}}}
+\par
+{\bkmkstart AAAAAAABUE}
+{\bkmkend AAAAAAABUE}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v mColorAxis\:QCPColorScale}
+{\xe \v QCPColorScale\:mColorAxis}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QPointer<{\b QCPAxis}> QCPColorScale::mColorAxis{\f2 [protected]}}}
+\par
+{\bkmkstart AAAAAAABUF}
+{\bkmkend AAAAAAABUF}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v mDataRange\:QCPColorScale}
+{\xe \v QCPColorScale\:mDataRange}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b QCPRange} QCPColorScale::mDataRange{\f2 [protected]}}}
+\par
+{\bkmkstart AAAAAAABUG}
+{\bkmkend AAAAAAABUG}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v mDataScaleType\:QCPColorScale}
+{\xe \v QCPColorScale\:mDataScaleType}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b QCPAxis::ScaleType} QCPColorScale::mDataScaleType{\f2 [protected]}}}
+\par
+{\bkmkstart AAAAAAABUH}
+{\bkmkend AAAAAAABUH}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v mGradient\:QCPColorScale}
+{\xe \v QCPColorScale\:mGradient}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b QCPColorGradient} QCPColorScale::mGradient{\f2 [protected]}}}
+\par
+{\bkmkstart AAAAAAABUI}
+{\bkmkend AAAAAAABUI}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v mLayer\:QCPColorScale}
+{\xe \v QCPColorScale\:mLayer}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b QCPLayer}* QCPLayerable::mLayer{\f2 [protected]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAIU}
+{\bkmkend AAAAAAAAIU}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v mMarginGroups\:QCPColorScale}
+{\xe \v QCPColorScale\:mMarginGroups}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QHash<{\b QCP::MarginSide}, {\b QCPMarginGroup}*> QCPLayoutElement::mMarginGroups{\f2 [protected]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAMB}
+{\bkmkend AAAAAAAAMB}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v mMargins\:QCPColorScale}
+{\xe \v QCPColorScale\:mMargins}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QMargins QCPLayoutElement::mMargins{\f2 [protected]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAMC}
+{\bkmkend AAAAAAAAMC}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v mMaximumSize\:QCPColorScale}
+{\xe \v QCPColorScale\:mMaximumSize}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QSize QCPLayoutElement::mMaximumSize{\f2 [protected]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAMD}
+{\bkmkend AAAAAAAAMD}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v mMinimumMargins\:QCPColorScale}
+{\xe \v QCPColorScale\:mMinimumMargins}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QMargins QCPLayoutElement::mMinimumMargins{\f2 [protected]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAME}
+{\bkmkend AAAAAAAAME}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v mMinimumSize\:QCPColorScale}
+{\xe \v QCPColorScale\:mMinimumSize}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QSize QCPLayoutElement::mMinimumSize{\f2 [protected]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAMF}
+{\bkmkend AAAAAAAAMF}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v mOuterRect\:QCPColorScale}
+{\xe \v QCPColorScale\:mOuterRect}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QRect QCPLayoutElement::mOuterRect{\f2 [protected]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAMG}
+{\bkmkend AAAAAAAAMG}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v mParentLayerable\:QCPColorScale}
+{\xe \v QCPColorScale\:mParentLayerable}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QPointer<{\b QCPLayerable}> QCPLayerable::mParentLayerable{\f2 [protected]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAIV}
+{\bkmkend AAAAAAAAIV}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v mParentLayout\:QCPColorScale}
+{\xe \v QCPColorScale\:mParentLayout}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b QCPLayout}* QCPLayoutElement::mParentLayout{\f2 [protected]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAMH}
+{\bkmkend AAAAAAAAMH}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v mParentPlot\:QCPColorScale}
+{\xe \v QCPColorScale\:mParentPlot}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b QCustomPlot}* QCPLayerable::mParentPlot{\f2 [protected]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAIW}
+{\bkmkend AAAAAAAAIW}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v mRect\:QCPColorScale}
+{\xe \v QCPColorScale\:mRect}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QRect QCPLayoutElement::mRect{\f2 [protected]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAMJ}
+{\bkmkend AAAAAAAAMJ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v mSizeConstraintRect\:QCPColorScale}
+{\xe \v QCPColorScale\:mSizeConstraintRect}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b SizeConstraintRect} QCPLayoutElement::mSizeConstraintRect{\f2 [protected]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAMO}
+{\bkmkend AAAAAAAAMO}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v mType\:QCPColorScale}
+{\xe \v QCPColorScale\:mType}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b QCPAxis::AxisType} QCPColorScale::mType{\f2 [protected]}}}
+\par
+{\bkmkstart AAAAAAABUJ}
+{\bkmkend AAAAAAABUJ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v mVisible\:QCPColorScale}
+{\xe \v QCPColorScale\:mVisible}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool QCPLayerable::mVisible{\f2 [protected]}, {\f2 [inherited]}}}
+\par
+{\bkmkstart AAAAAAAAJA}
+{\bkmkend AAAAAAAAJA}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+A documentação para essa classe foi gerada a partir dos seguintes arquivos:{\par
+\pard\plain \s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid 
+{\b qcustomplot.h}\par
+\pard\plain \s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid 
+{\b qcustomplot.cpp}\par
+}}

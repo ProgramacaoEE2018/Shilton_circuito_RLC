@@ -44,7 +44,7 @@
             </para>
         </section>
         <section>
-            <title>Public Attributes</title>
+            <title>Atributos Públicos</title>
             <para>
                 <itemizedlist>
                     <listitem>
@@ -250,7 +250,7 @@
             </para>
         </section>
         <section>
-            <title>Protected Attributes</title>
+            <title>Atributos Protegidos</title>
             <para>
                 <itemizedlist>
                     <listitem>
@@ -413,10 +413,10 @@ const QFont &amp; font, const QString &amp; text, QSize * tickLabelsSize)</para>
             </para>
         </section>
         <section>
-            <title>Member Data Documentation</title>
+            <title>Atributos</title>
         </section>
         <section>
-            <title>Member Data Documentation</title>
+            <title>Atributos</title>
         </section>
             <section xml:id="class_q_c_p_axis_painter_private_1a0f14aa5c4aa83dbcd68984a7c73bf94f">
                 <title>QCPAxisPainterPrivate::QCPAxisPainterPrivate (QCustomPlot *parentPlot)</title> <emphasis></emphasis>

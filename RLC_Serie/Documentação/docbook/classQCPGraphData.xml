@@ -1,0 +1,205 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="classQCPGraphData">
+<title>QCPGraphData class Reference</title>
+<para>
+    <programlisting>#include <link linkend="qcustomplot_8h">&lt;qcustomplot.h&gt;</link></programlisting>
+</para>
+<para>Inheritance diagram for QCPGraphData</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="classQCPGraphData__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for QCPGraphData</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="classQCPGraphData__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title>Atributos Públicos</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double key</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double value</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="classQCPGraphData_1ac43f7499383d2fa2ffb7a4ad43f76c7c">QCPGraphData</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="classQCPGraphData_1a2c32177f12f902f4e05f712837082bd6">QCPGraphData</link> (
+double key, double value)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double <link linkend="classQCPGraphData_1a5e0f37ea101eeec245d8c32a2206b204">sortKey</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double <link linkend="classQCPGraphData_1a72fdaf738f679ef93bea3d552ba42d1b">mainKey</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double <link linkend="classQCPGraphData_1a1b1e440a430a4a83d9a3f6f247510f27">mainValue</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="classQCPRange">QCPRange</link> <link linkend="classQCPGraphData_1a2f8dd30360356f66cc418a170a9f3792">valueRange</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="classQCPGraphData">QCPGraphData</link> <link linkend="classQCPGraphData_1a4646eac7f7a48970ea0fc5153aab0e77">fromSortKey</link> (
+double sortKey)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static bool <link linkend="classQCPGraphData_1a1c98dfd21b82321a173db4ff860dfd21">sortKeyIsMainKey</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+    <simplesect>
+
+<para>Holds the data of one single data point for <link linkend="classQCPGraph">QCPGraph</link>. </para>
+    </simplesect>
+        <simplesect>
+            <title>Descrição detalhada</title>
+
+<para>The stored data is: <itemizedlist>
+<listitem>
+<para><emphasis>key:</emphasis> coordinate on the key axis of this data point (this is the <emphasis>mainKey</emphasis> and the <emphasis>sortKey</emphasis>) </para>
+</listitem>
+<listitem>
+<para><emphasis>value:</emphasis> coordinate on the value axis of this data point (this is the <emphasis>mainValue</emphasis>)</para>
+</listitem>
+</itemizedlist>
+The container for storing multiple data points is <link linkend="qcustomplot_8h_1a2e5583d1ae212f0deb10537cf975a15a">QCPGraphDataContainer</link>. It is a typedef for <link linkend="classQCPDataContainer">QCPDataContainer</link> with <link linkend="classQCPGraphData">QCPGraphData</link> as the DataType template parameter. See the documentation there for an explanation regarding the data type&apos;s generic methods.</para>
+
+<para><formalpara><title>Veja também: </title>
+
+<para><link linkend="qcustomplot_8h_1a2e5583d1ae212f0deb10537cf975a15a">QCPGraphDataContainer</link> </para>
+</formalpara>
+</para>
+                <para>Definition at line 5122 of file qcustomplot.h</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>qcustomplot.h</para></listitem></itemizedlist></para>
+        </simplesect>
+        <section>
+            <title>Atributos</title>
+        </section>
+            <section xml:id="classQCPGraphData_1ac43f7499383d2fa2ffb7a4ad43f76c7c">
+                <title>QCPGraphData::QCPGraphData ()</title> <emphasis></emphasis>
+                
+<para>Constructs a data point with key and value set to zero. </para>
+
+            </section>
+            <section xml:id="classQCPGraphData_1a2c32177f12f902f4e05f712837082bd6">
+                <title>QCPGraphData::QCPGraphData (double key, double value)</title> <emphasis></emphasis>
+                
+<para>Constructs a data point with the specified <emphasis>key</emphasis> and <emphasis>value</emphasis>. </para>
+
+            </section>
+            <section xml:id="classQCPGraphData_1a5e0f37ea101eeec245d8c32a2206b204">
+                <title>double QCPGraphData::sortKey () const</title> <emphasis></emphasis>
+                
+<para>Returns the <emphasis>key</emphasis> member of this data point.</para>
+
+<para>For a general explanation of what this method is good for in the context of the data container, see the documentation of <link linkend="classQCPDataContainer">QCPDataContainer</link>. </para>
+
+            </section>
+            <section xml:id="classQCPGraphData_1a72fdaf738f679ef93bea3d552ba42d1b">
+                <title>double QCPGraphData::mainKey () const</title> <emphasis></emphasis>
+                
+<para>Returns the <emphasis>key</emphasis> member of this data point.</para>
+
+<para>For a general explanation of what this method is good for in the context of the data container, see the documentation of <link linkend="classQCPDataContainer">QCPDataContainer</link>. </para>
+
+            </section>
+            <section xml:id="classQCPGraphData_1a1b1e440a430a4a83d9a3f6f247510f27">
+                <title>double QCPGraphData::mainValue () const</title> <emphasis></emphasis>
+                
+<para>Returns the <emphasis>value</emphasis> member of this data point.</para>
+
+<para>For a general explanation of what this method is good for in the context of the data container, see the documentation of <link linkend="classQCPDataContainer">QCPDataContainer</link>. </para>
+
+            </section>
+            <section xml:id="classQCPGraphData_1a2f8dd30360356f66cc418a170a9f3792">
+                <title>QCPRange QCPGraphData::valueRange () const</title> <emphasis></emphasis>
+                
+<para>Returns a <link linkend="classQCPRange">QCPRange</link> with both lower and upper boundary set to <emphasis>value</emphasis> of this data point.</para>
+
+<para>For a general explanation of what this method is good for in the context of the data container, see the documentation of <link linkend="classQCPDataContainer">QCPDataContainer</link>. </para>
+
+            </section>
+            <section xml:id="classQCPGraphData_1a4646eac7f7a48970ea0fc5153aab0e77">
+                <title>static QCPGraphData QCPGraphData::fromSortKey (double sortKey)</title> <emphasis></emphasis>
+                
+<para>Returns a data point with the specified <emphasis>sortKey</emphasis>. All other members are set to zero.</para>
+
+<para>For a general explanation of what this method is good for in the context of the data container, see the documentation of <link linkend="classQCPDataContainer">QCPDataContainer</link>. </para>
+
+            </section>
+            <section xml:id="classQCPGraphData_1a1c98dfd21b82321a173db4ff860dfd21">
+                <title>static static bool QCPGraphData::sortKeyIsMainKey ()</title> <emphasis></emphasis>
+                
+<para>Since the member <emphasis>key</emphasis> is both the data point key coordinate and the data ordering parameter, this method returns true.</para>
+
+<para>For a general explanation of what this method is good for in the context of the data container, see the documentation of <link linkend="classQCPDataContainer">QCPDataContainer</link>. </para>
+
+            </section>
+</section>

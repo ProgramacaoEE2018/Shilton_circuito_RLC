@@ -1,0 +1,1108 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.14"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>RLC_Serie: Referência da Classe QCPAxisTickerFixed</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">RLC_Serie
+   &#160;<span id="projectnumber">v1.1</span>
+   </div>
+   <div id="projectbrief">Plotagem de Respostas do Circuito RLC em Série</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.8.14 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Busca');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Busca');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-types">Tipos Públicos</a> &#124;
+<a href="#pub-methods">Membros Públicos</a> &#124;
+<a href="#pro-methods">Membros Protegidos</a> &#124;
+<a href="#pro-attribs">Atributos Protegidos</a> &#124;
+<a href="classQCPAxisTickerFixed-members.html">Lista de todos os Membros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referência da Classe QCPAxisTickerFixed</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Specialized axis ticker with a fixed tick step.  
+ <a href="classQCPAxisTickerFixed.html#details">Mais...</a></p>
+
+<p><code>#include &lt;<a class="el" href="">qcustomplot.h</a>&gt;</code></p>
+<div class="dynheader">
+Diagrama de hierarquia para QCPAxisTickerFixed:</div>
+<div class="dyncontent">
+<div class="center"><img src="classQCPAxisTickerFixed__inherit__graph.png" border="0" usemap="#QCPAxisTickerFixed_inherit__map" alt="Inheritance graph"/></div>
+<!-- MAP 0 -->
+</div>
+<div class="dynheader">
+Diagrama de colaboração para QCPAxisTickerFixed:</div>
+<div class="dyncontent">
+<div class="center"><img src="classQCPAxisTickerFixed__coll__graph.png" border="0" usemap="#QCPAxisTickerFixed_coll__map" alt="Collaboration graph"/></div>
+<!-- MAP 1 -->
+</div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Tipos Públicos</h2></td></tr>
+<tr class="memitem:a15b3d38b935d404b1311eb85cfb6a439"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classQCPAxisTickerFixed.html#a15b3d38b935d404b1311eb85cfb6a439">ScaleStrategy</a> { <a class="el" href="classQCPAxisTickerFixed.html#a15b3d38b935d404b1311eb85cfb6a439a6621275677a05caa0de204ae3956b85f">ssNone</a>, 
+<a class="el" href="classQCPAxisTickerFixed.html#a15b3d38b935d404b1311eb85cfb6a439a22f651785f6412645837421896561104">ssMultiples</a>, 
+<a class="el" href="classQCPAxisTickerFixed.html#a15b3d38b935d404b1311eb85cfb6a439ac39d5813e9165ebd494307ae61ce5dce">ssPowers</a>
+ }</td></tr>
+<tr class="separator:a15b3d38b935d404b1311eb85cfb6a439"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6d2f9d9477821623ac9bc4b21ddf49a"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classQCPAxisTicker.html#ab6d2f9d9477821623ac9bc4b21ddf49a">TickStepStrategy</a> { <a class="el" href="classQCPAxisTicker.html#ab6d2f9d9477821623ac9bc4b21ddf49aa9002aa2fd5633ab5556c71a26fed63a8">tssReadability</a>, 
+<a class="el" href="classQCPAxisTicker.html#ab6d2f9d9477821623ac9bc4b21ddf49aa770312b6b9b0c64a37ceeba96e0cd7f2">tssMeetTickCount</a>
+ }</td></tr>
+<tr class="separator:ab6d2f9d9477821623ac9bc4b21ddf49a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Membros Públicos</h2></td></tr>
+<tr class="memitem:a96d2b053a15f9b8e94550c3efeff6a34"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classQCPAxisTickerFixed.html#a96d2b053a15f9b8e94550c3efeff6a34">QCPAxisTickerFixed</a> ()</td></tr>
+<tr class="separator:a96d2b053a15f9b8e94550c3efeff6a34"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33d1324c8666b4d5df975dea32ed5a28"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classQCPAxisTickerFixed.html#a33d1324c8666b4d5df975dea32ed5a28">tickStep</a> () const</td></tr>
+<tr class="separator:a33d1324c8666b4d5df975dea32ed5a28"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20fd8fcb257f63449f8913335ad57e45"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classQCPAxisTickerFixed.html#a15b3d38b935d404b1311eb85cfb6a439">ScaleStrategy</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classQCPAxisTickerFixed.html#a20fd8fcb257f63449f8913335ad57e45">scaleStrategy</a> () const</td></tr>
+<tr class="separator:a20fd8fcb257f63449f8913335ad57e45"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4bc83d85a4f81d4abdd3fa5042d7b833"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classQCPAxisTickerFixed.html#a4bc83d85a4f81d4abdd3fa5042d7b833">setTickStep</a> (double step)</td></tr>
+<tr class="separator:a4bc83d85a4f81d4abdd3fa5042d7b833"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acbc7c9bcd80b3dc3edee5f0519d301f6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classQCPAxisTickerFixed.html#acbc7c9bcd80b3dc3edee5f0519d301f6">setScaleStrategy</a> (<a class="el" href="classQCPAxisTickerFixed.html#a15b3d38b935d404b1311eb85cfb6a439">ScaleStrategy</a> strategy)</td></tr>
+<tr class="separator:acbc7c9bcd80b3dc3edee5f0519d301f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58df76f2ec3eb48401bdd314b0e14ba1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classQCPAxisTicker.html#ab6d2f9d9477821623ac9bc4b21ddf49a">TickStepStrategy</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classQCPAxisTicker.html#a58df76f2ec3eb48401bdd314b0e14ba1">tickStepStrategy</a> () const</td></tr>
+<tr class="separator:a58df76f2ec3eb48401bdd314b0e14ba1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf9edbe4169ce55e216fd067cc139452"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classQCPAxisTicker.html#aaf9edbe4169ce55e216fd067cc139452">tickCount</a> () const</td></tr>
+<tr class="separator:aaf9edbe4169ce55e216fd067cc139452"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0c6e9587c36fdeefb5518c00fe7ab15"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classQCPAxisTicker.html#ac0c6e9587c36fdeefb5518c00fe7ab15">tickOrigin</a> () const</td></tr>
+<tr class="separator:ac0c6e9587c36fdeefb5518c00fe7ab15"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73b1d847c1a12159af6bfda4ebebe7d5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classQCPAxisTicker.html#a73b1d847c1a12159af6bfda4ebebe7d5">setTickStepStrategy</a> (<a class="el" href="classQCPAxisTicker.html#ab6d2f9d9477821623ac9bc4b21ddf49a">TickStepStrategy</a> strategy)</td></tr>
+<tr class="separator:a73b1d847c1a12159af6bfda4ebebe7d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47752abba8293e6dc18491501ae34008"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classQCPAxisTicker.html#a47752abba8293e6dc18491501ae34008">setTickCount</a> (int count)</td></tr>
+<tr class="separator:a47752abba8293e6dc18491501ae34008"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab509c7e500293bf66a8409f0d7c23943"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classQCPAxisTicker.html#ab509c7e500293bf66a8409f0d7c23943">setTickOrigin</a> (double origin)</td></tr>
+<tr class="separator:ab509c7e500293bf66a8409f0d7c23943"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aefbd11725678ca824add8cf926cbc856"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classQCPAxisTicker.html#aefbd11725678ca824add8cf926cbc856">generate</a> (const <a class="el" href="classQCPRange.html">QCPRange</a> &amp;range, const QLocale &amp;locale, QChar formatChar, int precision, QVector&lt; double &gt; &amp;ticks, QVector&lt; double &gt; *subTicks, QVector&lt; QString &gt; *tickLabels)</td></tr>
+<tr class="separator:aefbd11725678ca824add8cf926cbc856"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Membros Protegidos</h2></td></tr>
+<tr class="memitem:a9e99da01ab92a86aed415eef32fed13a"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classQCPAxisTickerFixed.html#a9e99da01ab92a86aed415eef32fed13a">getTickStep</a> (const <a class="el" href="classQCPRange.html">QCPRange</a> &amp;range) <a class="el" href="qcustomplot_8h.html#a42cc5eaeb25b85f8b52d2a4b94c56f55">Q_DECL_OVERRIDE</a></td></tr>
+<tr class="separator:a9e99da01ab92a86aed415eef32fed13a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ccc403ced7a1457ce6ba293509933c8"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classQCPAxisTicker.html#a4ccc403ced7a1457ce6ba293509933c8">getSubTickCount</a> (double <a class="el" href="classQCPAxisTickerFixed.html#a33d1324c8666b4d5df975dea32ed5a28">tickStep</a>)</td></tr>
+<tr class="separator:a4ccc403ced7a1457ce6ba293509933c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8201eb4aa8be192bf786b126eb5ee089"><td class="memItemLeft" align="right" valign="top">virtual QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classQCPAxisTicker.html#a8201eb4aa8be192bf786b126eb5ee089">getTickLabel</a> (double tick, const QLocale &amp;locale, QChar formatChar, int precision)</td></tr>
+<tr class="separator:a8201eb4aa8be192bf786b126eb5ee089"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4645a824c7bd2ca8fc7e86ebf9055bd"><td class="memItemLeft" align="right" valign="top">virtual QVector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classQCPAxisTicker.html#af4645a824c7bd2ca8fc7e86ebf9055bd">createTickVector</a> (double <a class="el" href="classQCPAxisTickerFixed.html#a33d1324c8666b4d5df975dea32ed5a28">tickStep</a>, const <a class="el" href="classQCPRange.html">QCPRange</a> &amp;range)</td></tr>
+<tr class="separator:af4645a824c7bd2ca8fc7e86ebf9055bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a6435723fa0bd366d1ea4c2cff7c33f"><td class="memItemLeft" align="right" valign="top">virtual QVector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classQCPAxisTicker.html#a9a6435723fa0bd366d1ea4c2cff7c33f">createSubTickVector</a> (int subTickCount, const QVector&lt; double &gt; &amp;ticks)</td></tr>
+<tr class="separator:a9a6435723fa0bd366d1ea4c2cff7c33f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a804050e408f37a0b9770c6654ebe6aa7"><td class="memItemLeft" align="right" valign="top">virtual QVector&lt; QString &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classQCPAxisTicker.html#a804050e408f37a0b9770c6654ebe6aa7">createLabelVector</a> (const QVector&lt; double &gt; &amp;ticks, const QLocale &amp;locale, QChar formatChar, int precision)</td></tr>
+<tr class="separator:a804050e408f37a0b9770c6654ebe6aa7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab28cc1ab549489be7975f5ce7e717916"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classQCPAxisTicker.html#ab28cc1ab549489be7975f5ce7e717916">trimTicks</a> (const <a class="el" href="classQCPRange.html">QCPRange</a> &amp;range, QVector&lt; double &gt; &amp;ticks, bool keepOneOutlier) const</td></tr>
+<tr class="separator:ab28cc1ab549489be7975f5ce7e717916"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ea0a7c4ca1c610f92b9bd5944ab4260"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classQCPAxisTicker.html#a4ea0a7c4ca1c610f92b9bd5944ab4260">pickClosest</a> (double target, const QVector&lt; double &gt; &amp;candidates) const</td></tr>
+<tr class="separator:a4ea0a7c4ca1c610f92b9bd5944ab4260"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f1e223bafbf2cec7c3ba8b08d5c77e8"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classQCPAxisTicker.html#a2f1e223bafbf2cec7c3ba8b08d5c77e8">getMantissa</a> (double input, double *magnitude=0) const</td></tr>
+<tr class="separator:a2f1e223bafbf2cec7c3ba8b08d5c77e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7df6c72876b7abd67c932663a0b0f6a"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classQCPAxisTicker.html#ac7df6c72876b7abd67c932663a0b0f6a">cleanMantissa</a> (double input) const</td></tr>
+<tr class="separator:ac7df6c72876b7abd67c932663a0b0f6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Atributos Protegidos</h2></td></tr>
+<tr class="memitem:a4aeef2d3eaa57ec56f422ab1f82175d2"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classQCPAxisTickerFixed.html#a4aeef2d3eaa57ec56f422ab1f82175d2">mTickStep</a></td></tr>
+<tr class="separator:a4aeef2d3eaa57ec56f422ab1f82175d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61ead1590161769b0d36e09419e67b10"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classQCPAxisTickerFixed.html#a15b3d38b935d404b1311eb85cfb6a439">ScaleStrategy</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classQCPAxisTickerFixed.html#a61ead1590161769b0d36e09419e67b10">mScaleStrategy</a></td></tr>
+<tr class="separator:a61ead1590161769b0d36e09419e67b10"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac059d6d670b2f6132c593fb4de156701"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classQCPAxisTicker.html#ab6d2f9d9477821623ac9bc4b21ddf49a">TickStepStrategy</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classQCPAxisTicker.html#ac059d6d670b2f6132c593fb4de156701">mTickStepStrategy</a></td></tr>
+<tr class="separator:ac059d6d670b2f6132c593fb4de156701"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14a35b47d1aad11b08d18ea0e25937b8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classQCPAxisTicker.html#a14a35b47d1aad11b08d18ea0e25937b8">mTickCount</a></td></tr>
+<tr class="separator:a14a35b47d1aad11b08d18ea0e25937b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a560ef9347b1aa599a9bf0e2f29d3ec16"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classQCPAxisTicker.html#a560ef9347b1aa599a9bf0e2f29d3ec16">mTickOrigin</a></td></tr>
+<tr class="separator:a560ef9347b1aa599a9bf0e2f29d3ec16"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descrição detalhada</h2>
+<div class="textblock"><p>Specialized axis ticker with a fixed tick step. </p>
+<div class="image">
+<img src="axisticker-fixed.png" alt="axisticker-fixed.png"/>
+</div>
+<p>This <a class="el" href="classQCPAxisTicker.html" title="The base class tick generator used by QCPAxis to create tick positions and tick labels. ">QCPAxisTicker</a> subclass generates ticks with a fixed tick step set with <a class="el" href="classQCPAxisTickerFixed.html#a4bc83d85a4f81d4abdd3fa5042d7b833">setTickStep</a>. It is also possible to allow integer multiples and integer powers of the specified tick step with <a class="el" href="classQCPAxisTickerFixed.html#acbc7c9bcd80b3dc3edee5f0519d301f6">setScaleStrategy</a>.</p>
+<p>A typical application of this ticker is to make an axis only display integers, by setting the tick step of the ticker to 1.0 and the scale strategy to <a class="el" href="classQCPAxisTickerFixed.html#a15b3d38b935d404b1311eb85cfb6a439a22f651785f6412645837421896561104">ssMultiples</a>.</p>
+<p>Another case is when a certain number has a special meaning and axis ticks should only appear at multiples of that value. In this case you might also want to consider <a class="el" href="classQCPAxisTickerPi.html">QCPAxisTickerPi</a> because despite the name it is not limited to only pi symbols/values.</p>
+<p>The ticker can be created and assigned to an axis like this: </p><div class="fragment"></div><!-- fragment --></div><h2 class="groupheader">Enumerações</h2>
+<a id="a15b3d38b935d404b1311eb85cfb6a439"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a15b3d38b935d404b1311eb85cfb6a439">&#9670;&nbsp;</a></span>ScaleStrategy</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="classQCPAxisTickerFixed.html#a15b3d38b935d404b1311eb85cfb6a439">QCPAxisTickerFixed::ScaleStrategy</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Defines how the axis ticker may modify the specified tick step (<a class="el" href="classQCPAxisTickerFixed.html#a4bc83d85a4f81d4abdd3fa5042d7b833">setTickStep</a>) in order to control the number of ticks in the axis range.</p>
+<dl class="section see"><dt>Veja também</dt><dd><a class="el" href="classQCPAxisTickerFixed.html#acbc7c9bcd80b3dc3edee5f0519d301f6">setScaleStrategy</a> </dd></dl>
+<table class="fieldtable">
+<tr><th colspan="2">Enumeradores</th></tr><tr><td class="fieldname"><a id="a15b3d38b935d404b1311eb85cfb6a439a6621275677a05caa0de204ae3956b85f"></a>ssNone&#160;</td><td class="fielddoc"><p>Modifications are not allowed, the specified tick step is absolutely fixed. This might cause a high tick density and overlapping labels if the axis range is zoomed out. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a15b3d38b935d404b1311eb85cfb6a439a22f651785f6412645837421896561104"></a>ssMultiples&#160;</td><td class="fielddoc"><p>An integer multiple of the specified tick step is allowed. The used factor follows the base class properties of <a class="el" href="classQCPAxisTicker.html#a73b1d847c1a12159af6bfda4ebebe7d5">setTickStepStrategy</a> and <a class="el" href="classQCPAxisTicker.html#a47752abba8293e6dc18491501ae34008">setTickCount</a>. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a15b3d38b935d404b1311eb85cfb6a439ac39d5813e9165ebd494307ae61ce5dce"></a>ssPowers&#160;</td><td class="fielddoc"><p>An integer power of the specified tick step is allowed. </p>
+</td></tr>
+</table>
+<div class="fragment"><div class="line"><a name="l01697"></a><span class="lineno"> 1697</span>&#160;                     { <a class="code" href="classQCPAxisTickerFixed.html#a15b3d38b935d404b1311eb85cfb6a439a6621275677a05caa0de204ae3956b85f">ssNone</a>      </div><div class="line"><a name="l01698"></a><span class="lineno"> 1698</span>&#160;                       ,<a class="code" href="classQCPAxisTickerFixed.html#a15b3d38b935d404b1311eb85cfb6a439a22f651785f6412645837421896561104">ssMultiples</a> </div><div class="line"><a name="l01699"></a><span class="lineno"> 1699</span>&#160;                       ,<a class="code" href="classQCPAxisTickerFixed.html#a15b3d38b935d404b1311eb85cfb6a439ac39d5813e9165ebd494307ae61ce5dce">ssPowers</a>    </div><div class="line"><a name="l01700"></a><span class="lineno"> 1700</span>&#160;                     };</div><div class="ttc" id="classQCPAxisTickerFixed_html_a15b3d38b935d404b1311eb85cfb6a439ac39d5813e9165ebd494307ae61ce5dce"><div class="ttname"><a href="classQCPAxisTickerFixed.html#a15b3d38b935d404b1311eb85cfb6a439ac39d5813e9165ebd494307ae61ce5dce">QCPAxisTickerFixed::ssPowers</a></div><div class="ttdoc">An integer power of the specified tick step is allowed. </div><div class="ttdef"><b>Definition:</b> qcustomplot.h:1699</div></div>
+<div class="ttc" id="classQCPAxisTickerFixed_html_a15b3d38b935d404b1311eb85cfb6a439a6621275677a05caa0de204ae3956b85f"><div class="ttname"><a href="classQCPAxisTickerFixed.html#a15b3d38b935d404b1311eb85cfb6a439a6621275677a05caa0de204ae3956b85f">QCPAxisTickerFixed::ssNone</a></div><div class="ttdoc">Modifications are not allowed, the specified tick step is absolutely fixed. This might cause a high t...</div><div class="ttdef"><b>Definition:</b> qcustomplot.h:1697</div></div>
+<div class="ttc" id="classQCPAxisTickerFixed_html_a15b3d38b935d404b1311eb85cfb6a439a22f651785f6412645837421896561104"><div class="ttname"><a href="classQCPAxisTickerFixed.html#a15b3d38b935d404b1311eb85cfb6a439a22f651785f6412645837421896561104">QCPAxisTickerFixed::ssMultiples</a></div><div class="ttdoc">An integer multiple of the specified tick step is allowed. The used factor follows the base class pro...</div><div class="ttdef"><b>Definition:</b> qcustomplot.h:1698</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ab6d2f9d9477821623ac9bc4b21ddf49a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab6d2f9d9477821623ac9bc4b21ddf49a">&#9670;&nbsp;</a></span>TickStepStrategy</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="classQCPAxisTicker.html#ab6d2f9d9477821623ac9bc4b21ddf49a">QCPAxisTicker::TickStepStrategy</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Defines the strategies that the axis ticker may follow when choosing the size of the tick step.</p>
+<dl class="section see"><dt>Veja também</dt><dd><a class="el" href="classQCPAxisTicker.html#a73b1d847c1a12159af6bfda4ebebe7d5">setTickStepStrategy</a> </dd></dl>
+<table class="fieldtable">
+<tr><th colspan="2">Enumeradores</th></tr><tr><td class="fieldname"><a id="ab6d2f9d9477821623ac9bc4b21ddf49aa9002aa2fd5633ab5556c71a26fed63a8"></a>tssReadability&#160;</td><td class="fielddoc"><p>A nicely readable tick step is prioritized over matching the requested number of ticks (see <a class="el" href="classQCPAxisTicker.html#a47752abba8293e6dc18491501ae34008">setTickCount</a>) </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ab6d2f9d9477821623ac9bc4b21ddf49aa770312b6b9b0c64a37ceeba96e0cd7f2"></a>tssMeetTickCount&#160;</td><td class="fielddoc"><p>Less readable tick steps are allowed which in turn facilitates getting closer to the requested tick count. </p>
+</td></tr>
+</table>
+<div class="fragment"><div class="line"><a name="l01543"></a><span class="lineno"> 1543</span>&#160;  {</div><div class="line"><a name="l01544"></a><span class="lineno"> 1544</span>&#160;    <a class="code" href="classQCPAxisTicker.html#ab6d2f9d9477821623ac9bc4b21ddf49aa9002aa2fd5633ab5556c71a26fed63a8">tssReadability</a>    </div><div class="line"><a name="l01545"></a><span class="lineno"> 1545</span>&#160;    ,<a class="code" href="classQCPAxisTicker.html#ab6d2f9d9477821623ac9bc4b21ddf49aa770312b6b9b0c64a37ceeba96e0cd7f2">tssMeetTickCount</a> </div><div class="line"><a name="l01546"></a><span class="lineno"> 1546</span>&#160;  };</div><div class="ttc" id="classQCPAxisTicker_html_ab6d2f9d9477821623ac9bc4b21ddf49aa770312b6b9b0c64a37ceeba96e0cd7f2"><div class="ttname"><a href="classQCPAxisTicker.html#ab6d2f9d9477821623ac9bc4b21ddf49aa770312b6b9b0c64a37ceeba96e0cd7f2">QCPAxisTicker::tssMeetTickCount</a></div><div class="ttdoc">Less readable tick steps are allowed which in turn facilitates getting closer to the requested tick c...</div><div class="ttdef"><b>Definition:</b> qcustomplot.h:1545</div></div>
+<div class="ttc" id="classQCPAxisTicker_html_ab6d2f9d9477821623ac9bc4b21ddf49aa9002aa2fd5633ab5556c71a26fed63a8"><div class="ttname"><a href="classQCPAxisTicker.html#ab6d2f9d9477821623ac9bc4b21ddf49aa9002aa2fd5633ab5556c71a26fed63a8">QCPAxisTicker::tssReadability</a></div><div class="ttdoc">A nicely readable tick step is prioritized over matching the requested number of ticks (see setTickCo...</div><div class="ttdef"><b>Definition:</b> qcustomplot.h:1544</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Construtores e Destrutores</h2>
+<a id="a96d2b053a15f9b8e94550c3efeff6a34"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a96d2b053a15f9b8e94550c3efeff6a34">&#9670;&nbsp;</a></span>QCPAxisTickerFixed()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QCPAxisTickerFixed::QCPAxisTickerFixed </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs the ticker and sets reasonable default values. Axis tickers are commonly created managed by a QSharedPointer, which then can be passed to <a class="el" href="classQCPAxis.html#a4ee03fcd2c74d05cd1a419b9af5cfbdc">QCPAxis::setTicker</a>. </p>
+<div class="fragment"><div class="line"><a name="l06422"></a><span class="lineno"> 6422</span>&#160;                                       :</div><div class="line"><a name="l06423"></a><span class="lineno"> 6423</span>&#160;  <a class="code" href="classQCPAxisTickerFixed.html#a4aeef2d3eaa57ec56f422ab1f82175d2">mTickStep</a>(1.0),</div><div class="line"><a name="l06424"></a><span class="lineno"> 6424</span>&#160;  <a class="code" href="classQCPAxisTickerFixed.html#a61ead1590161769b0d36e09419e67b10">mScaleStrategy</a>(<a class="code" href="classQCPAxisTickerFixed.html#a15b3d38b935d404b1311eb85cfb6a439a6621275677a05caa0de204ae3956b85f">ssNone</a>)</div><div class="line"><a name="l06425"></a><span class="lineno"> 6425</span>&#160;{</div><div class="line"><a name="l06426"></a><span class="lineno"> 6426</span>&#160;}</div><div class="ttc" id="classQCPAxisTickerFixed_html_a61ead1590161769b0d36e09419e67b10"><div class="ttname"><a href="classQCPAxisTickerFixed.html#a61ead1590161769b0d36e09419e67b10">QCPAxisTickerFixed::mScaleStrategy</a></div><div class="ttdeci">ScaleStrategy mScaleStrategy</div><div class="ttdef"><b>Definition:</b> qcustomplot.h:1716</div></div>
+<div class="ttc" id="classQCPAxisTickerFixed_html_a4aeef2d3eaa57ec56f422ab1f82175d2"><div class="ttname"><a href="classQCPAxisTickerFixed.html#a4aeef2d3eaa57ec56f422ab1f82175d2">QCPAxisTickerFixed::mTickStep</a></div><div class="ttdeci">double mTickStep</div><div class="ttdef"><b>Definition:</b> qcustomplot.h:1715</div></div>
+<div class="ttc" id="classQCPAxisTickerFixed_html_a15b3d38b935d404b1311eb85cfb6a439a6621275677a05caa0de204ae3956b85f"><div class="ttname"><a href="classQCPAxisTickerFixed.html#a15b3d38b935d404b1311eb85cfb6a439a6621275677a05caa0de204ae3956b85f">QCPAxisTickerFixed::ssNone</a></div><div class="ttdoc">Modifications are not allowed, the specified tick step is absolutely fixed. This might cause a high t...</div><div class="ttdef"><b>Definition:</b> qcustomplot.h:1697</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Funções membros</h2>
+<a id="ac7df6c72876b7abd67c932663a0b0f6a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7df6c72876b7abd67c932663a0b0f6a">&#9670;&nbsp;</a></span>cleanMantissa()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double QCPAxisTicker::cleanMantissa </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>input</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l05823"></a><span class="lineno"> 5823</span>&#160;{</div><div class="line"><a name="l05824"></a><span class="lineno"> 5824</span>&#160;  <span class="keywordtype">double</span> magnitude;</div><div class="line"><a name="l05825"></a><span class="lineno"> 5825</span>&#160;  <span class="keyword">const</span> <span class="keywordtype">double</span> mantissa = <a class="code" href="classQCPAxisTicker.html#a2f1e223bafbf2cec7c3ba8b08d5c77e8">getMantissa</a>(input, &amp;magnitude);</div><div class="line"><a name="l05826"></a><span class="lineno"> 5826</span>&#160;  <span class="keywordflow">switch</span> (<a class="code" href="classQCPAxisTicker.html#ac059d6d670b2f6132c593fb4de156701">mTickStepStrategy</a>)</div><div class="line"><a name="l05827"></a><span class="lineno"> 5827</span>&#160;  {</div><div class="line"><a name="l05828"></a><span class="lineno"> 5828</span>&#160;    <span class="keywordflow">case</span> <a class="code" href="classQCPAxisTicker.html#ab6d2f9d9477821623ac9bc4b21ddf49aa9002aa2fd5633ab5556c71a26fed63a8">tssReadability</a>:</div><div class="line"><a name="l05829"></a><span class="lineno"> 5829</span>&#160;    {</div><div class="line"><a name="l05830"></a><span class="lineno"> 5830</span>&#160;      <span class="keywordflow">return</span> <a class="code" href="classQCPAxisTicker.html#a4ea0a7c4ca1c610f92b9bd5944ab4260">pickClosest</a>(mantissa, QVector&lt;double&gt;() &lt;&lt; 1.0 &lt;&lt; 2.0 &lt;&lt; 2.5 &lt;&lt; 5.0 &lt;&lt; 10.0)*magnitude;</div><div class="line"><a name="l05831"></a><span class="lineno"> 5831</span>&#160;    }</div><div class="line"><a name="l05832"></a><span class="lineno"> 5832</span>&#160;    <span class="keywordflow">case</span> <a class="code" href="classQCPAxisTicker.html#ab6d2f9d9477821623ac9bc4b21ddf49aa770312b6b9b0c64a37ceeba96e0cd7f2">tssMeetTickCount</a>:</div><div class="line"><a name="l05833"></a><span class="lineno"> 5833</span>&#160;    {</div><div class="line"><a name="l05834"></a><span class="lineno"> 5834</span>&#160;      <span class="comment">// this gives effectively a mantissa of 1.0, 1.5, 2.0, 2.5, 3.0, 3.5, 4.0, 4.5, 5.0, 6.0, 8.0, 10.0</span></div><div class="line"><a name="l05835"></a><span class="lineno"> 5835</span>&#160;      <span class="keywordflow">if</span> (mantissa &lt;= 5.0)</div><div class="line"><a name="l05836"></a><span class="lineno"> 5836</span>&#160;        <span class="keywordflow">return</span> (<span class="keywordtype">int</span>)(mantissa*2)/2.0*magnitude; <span class="comment">// round digit after decimal point to 0.5</span></div><div class="line"><a name="l05837"></a><span class="lineno"> 5837</span>&#160;      <span class="keywordflow">else</span></div><div class="line"><a name="l05838"></a><span class="lineno"> 5838</span>&#160;        <span class="keywordflow">return</span> (<span class="keywordtype">int</span>)(mantissa/2.0)*2.0*magnitude; <span class="comment">// round to first digit in multiples of 2</span></div><div class="line"><a name="l05839"></a><span class="lineno"> 5839</span>&#160;    }</div><div class="line"><a name="l05840"></a><span class="lineno"> 5840</span>&#160;  }</div><div class="line"><a name="l05841"></a><span class="lineno"> 5841</span>&#160;  <span class="keywordflow">return</span> input;</div><div class="line"><a name="l05842"></a><span class="lineno"> 5842</span>&#160;}</div><div class="ttc" id="classQCPAxisTicker_html_ab6d2f9d9477821623ac9bc4b21ddf49aa770312b6b9b0c64a37ceeba96e0cd7f2"><div class="ttname"><a href="classQCPAxisTicker.html#ab6d2f9d9477821623ac9bc4b21ddf49aa770312b6b9b0c64a37ceeba96e0cd7f2">QCPAxisTicker::tssMeetTickCount</a></div><div class="ttdoc">Less readable tick steps are allowed which in turn facilitates getting closer to the requested tick c...</div><div class="ttdef"><b>Definition:</b> qcustomplot.h:1545</div></div>
+<div class="ttc" id="classQCPAxisTicker_html_ab6d2f9d9477821623ac9bc4b21ddf49aa9002aa2fd5633ab5556c71a26fed63a8"><div class="ttname"><a href="classQCPAxisTicker.html#ab6d2f9d9477821623ac9bc4b21ddf49aa9002aa2fd5633ab5556c71a26fed63a8">QCPAxisTicker::tssReadability</a></div><div class="ttdoc">A nicely readable tick step is prioritized over matching the requested number of ticks (see setTickCo...</div><div class="ttdef"><b>Definition:</b> qcustomplot.h:1544</div></div>
+<div class="ttc" id="classQCPAxisTicker_html_a2f1e223bafbf2cec7c3ba8b08d5c77e8"><div class="ttname"><a href="classQCPAxisTicker.html#a2f1e223bafbf2cec7c3ba8b08d5c77e8">QCPAxisTicker::getMantissa</a></div><div class="ttdeci">double getMantissa(double input, double *magnitude=0) const</div><div class="ttdef"><b>Definition:</b> qcustomplot.cpp:5809</div></div>
+<div class="ttc" id="classQCPAxisTicker_html_a4ea0a7c4ca1c610f92b9bd5944ab4260"><div class="ttname"><a href="classQCPAxisTicker.html#a4ea0a7c4ca1c610f92b9bd5944ab4260">QCPAxisTicker::pickClosest</a></div><div class="ttdeci">double pickClosest(double target, const QVector&lt; double &gt; &amp;candidates) const</div><div class="ttdef"><b>Definition:</b> qcustomplot.cpp:5789</div></div>
+<div class="ttc" id="classQCPAxisTicker_html_ac059d6d670b2f6132c593fb4de156701"><div class="ttname"><a href="classQCPAxisTicker.html#ac059d6d670b2f6132c593fb4de156701">QCPAxisTicker::mTickStepStrategy</a></div><div class="ttdeci">TickStepStrategy mTickStepStrategy</div><div class="ttdef"><b>Definition:</b> qcustomplot.h:1567</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a804050e408f37a0b9770c6654ebe6aa7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a804050e408f37a0b9770c6654ebe6aa7">&#9670;&nbsp;</a></span>createLabelVector()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QVector&lt; QString &gt; QCPAxisTicker::createLabelVector </td>
+          <td>(</td>
+          <td class="paramtype">const QVector&lt; double &gt; &amp;&#160;</td>
+          <td class="paramname"><em>ticks</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QLocale &amp;&#160;</td>
+          <td class="paramname"><em>locale</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QChar&#160;</td>
+          <td class="paramname"><em>formatChar</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>precision</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l05732"></a><span class="lineno"> 5732</span>&#160;{</div><div class="line"><a name="l05733"></a><span class="lineno"> 5733</span>&#160;  QVector&lt;QString&gt; result;</div><div class="line"><a name="l05734"></a><span class="lineno"> 5734</span>&#160;  result.reserve(ticks.size());</div><div class="line"><a name="l05735"></a><span class="lineno"> 5735</span>&#160;  <span class="keywordflow">for</span> (<span class="keywordtype">int</span> <a class="code" href="mainwindow_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a>=0; <a class="code" href="mainwindow_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a>&lt;ticks.size(); ++<a class="code" href="mainwindow_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a>)</div><div class="line"><a name="l05736"></a><span class="lineno"> 5736</span>&#160;    result.append(<a class="code" href="classQCPAxisTicker.html#a8201eb4aa8be192bf786b126eb5ee089">getTickLabel</a>(ticks.at(<a class="code" href="mainwindow_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a>), locale, formatChar, precision));</div><div class="line"><a name="l05737"></a><span class="lineno"> 5737</span>&#160;  <span class="keywordflow">return</span> result;</div><div class="line"><a name="l05738"></a><span class="lineno"> 5738</span>&#160;}</div><div class="ttc" id="mainwindow_8cpp_html_acb559820d9ca11295b4500f179ef6392"><div class="ttname"><a href="mainwindow_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a></div><div class="ttdeci">int i</div><div class="ttdef"><b>Definition:</b> mainwindow.cpp:15</div></div>
+<div class="ttc" id="classQCPAxisTicker_html_a8201eb4aa8be192bf786b126eb5ee089"><div class="ttname"><a href="classQCPAxisTicker.html#a8201eb4aa8be192bf786b126eb5ee089">QCPAxisTicker::getTickLabel</a></div><div class="ttdeci">virtual QString getTickLabel(double tick, const QLocale &amp;locale, QChar formatChar, int precision)</div><div class="ttdef"><b>Definition:</b> qcustomplot.cpp:5663</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a9a6435723fa0bd366d1ea4c2cff7c33f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a6435723fa0bd366d1ea4c2cff7c33f">&#9670;&nbsp;</a></span>createSubTickVector()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QVector&lt; double &gt; QCPAxisTicker::createSubTickVector </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>subTickCount</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QVector&lt; double &gt; &amp;&#160;</td>
+          <td class="paramname"><em>ticks</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l05678"></a><span class="lineno"> 5678</span>&#160;{</div><div class="line"><a name="l05679"></a><span class="lineno"> 5679</span>&#160;  QVector&lt;double&gt; result;</div><div class="line"><a name="l05680"></a><span class="lineno"> 5680</span>&#160;  <span class="keywordflow">if</span> (subTickCount &lt;= 0 || ticks.size() &lt; 2)</div><div class="line"><a name="l05681"></a><span class="lineno"> 5681</span>&#160;    <span class="keywordflow">return</span> result;</div><div class="line"><a name="l05682"></a><span class="lineno"> 5682</span>&#160;  </div><div class="line"><a name="l05683"></a><span class="lineno"> 5683</span>&#160;  result.reserve((ticks.size()-1)*subTickCount);</div><div class="line"><a name="l05684"></a><span class="lineno"> 5684</span>&#160;  <span class="keywordflow">for</span> (<span class="keywordtype">int</span> <a class="code" href="mainwindow_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a>=1; <a class="code" href="mainwindow_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a>&lt;ticks.size(); ++<a class="code" href="mainwindow_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a>)</div><div class="line"><a name="l05685"></a><span class="lineno"> 5685</span>&#160;  {</div><div class="line"><a name="l05686"></a><span class="lineno"> 5686</span>&#160;    <span class="keywordtype">double</span> subTickStep = (ticks.at(<a class="code" href="mainwindow_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a>)-ticks.at(<a class="code" href="mainwindow_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a>-1))/(<span class="keywordtype">double</span>)(subTickCount+1);</div><div class="line"><a name="l05687"></a><span class="lineno"> 5687</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> k=1; k&lt;=subTickCount; ++k)</div><div class="line"><a name="l05688"></a><span class="lineno"> 5688</span>&#160;      result.append(ticks.at(<a class="code" href="mainwindow_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a>-1) + k*subTickStep);</div><div class="line"><a name="l05689"></a><span class="lineno"> 5689</span>&#160;  }</div><div class="line"><a name="l05690"></a><span class="lineno"> 5690</span>&#160;  <span class="keywordflow">return</span> result;</div><div class="line"><a name="l05691"></a><span class="lineno"> 5691</span>&#160;}</div><div class="ttc" id="mainwindow_8cpp_html_acb559820d9ca11295b4500f179ef6392"><div class="ttname"><a href="mainwindow_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a></div><div class="ttdeci">int i</div><div class="ttdef"><b>Definition:</b> mainwindow.cpp:15</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="af4645a824c7bd2ca8fc7e86ebf9055bd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af4645a824c7bd2ca8fc7e86ebf9055bd">&#9670;&nbsp;</a></span>createTickVector()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QVector&lt; double &gt; QCPAxisTicker::createTickVector </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>tickStep</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classQCPRange.html">QCPRange</a> &amp;&#160;</td>
+          <td class="paramname"><em>range</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplementado por <a class="el" href="classQCPAxisTickerLog.html#af8873a8d1d2b9392d8f7a73218c889ab">QCPAxisTickerLog</a>, <a class="el" href="classQCPAxisTickerText.html#aa195c4fd0364d0393f1798fb495d6a60">QCPAxisTickerText</a> e <a class="el" href="classQCPAxisTickerDateTime.html#a44c2c09a303d281801b69226e243047d">QCPAxisTickerDateTime</a>.</p>
+<div class="fragment"><div class="line"><a name="l05709"></a><span class="lineno"> 5709</span>&#160;{</div><div class="line"><a name="l05710"></a><span class="lineno"> 5710</span>&#160;  QVector&lt;double&gt; result;</div><div class="line"><a name="l05711"></a><span class="lineno"> 5711</span>&#160;  <span class="comment">// Generate tick positions according to tickStep:</span></div><div class="line"><a name="l05712"></a><span class="lineno"> 5712</span>&#160;  qint64 firstStep = floor((range.<a class="code" href="classQCPRange.html#aa3aca3edb14f7ca0c85d912647b91745">lower</a>-<a class="code" href="classQCPAxisTicker.html#a560ef9347b1aa599a9bf0e2f29d3ec16">mTickOrigin</a>)/tickStep); <span class="comment">// do not use qFloor here, or we&#39;ll lose 64 bit precision</span></div><div class="line"><a name="l05713"></a><span class="lineno"> 5713</span>&#160;  qint64 lastStep = ceil((range.<a class="code" href="classQCPRange.html#ae44eb3aafe1d0e2ed34b499b6d2e074f">upper</a>-<a class="code" href="classQCPAxisTicker.html#a560ef9347b1aa599a9bf0e2f29d3ec16">mTickOrigin</a>)/tickStep); <span class="comment">// do not use qCeil here, or we&#39;ll lose 64 bit precision</span></div><div class="line"><a name="l05714"></a><span class="lineno"> 5714</span>&#160;  <span class="keywordtype">int</span> tickcount = lastStep-firstStep+1;</div><div class="line"><a name="l05715"></a><span class="lineno"> 5715</span>&#160;  <span class="keywordflow">if</span> (tickcount &lt; 0) tickcount = 0;</div><div class="line"><a name="l05716"></a><span class="lineno"> 5716</span>&#160;  result.resize(tickcount);</div><div class="line"><a name="l05717"></a><span class="lineno"> 5717</span>&#160;  <span class="keywordflow">for</span> (<span class="keywordtype">int</span> <a class="code" href="mainwindow_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a>=0; <a class="code" href="mainwindow_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a>&lt;tickcount; ++<a class="code" href="mainwindow_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a>)</div><div class="line"><a name="l05718"></a><span class="lineno"> 5718</span>&#160;    result[<a class="code" href="mainwindow_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a>] = <a class="code" href="classQCPAxisTicker.html#a560ef9347b1aa599a9bf0e2f29d3ec16">mTickOrigin</a> + (firstStep+<a class="code" href="mainwindow_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a>)*tickStep;</div><div class="line"><a name="l05719"></a><span class="lineno"> 5719</span>&#160;  <span class="keywordflow">return</span> result;</div><div class="line"><a name="l05720"></a><span class="lineno"> 5720</span>&#160;}</div><div class="ttc" id="mainwindow_8cpp_html_acb559820d9ca11295b4500f179ef6392"><div class="ttname"><a href="mainwindow_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a></div><div class="ttdeci">int i</div><div class="ttdef"><b>Definition:</b> mainwindow.cpp:15</div></div>
+<div class="ttc" id="classQCPRange_html_ae44eb3aafe1d0e2ed34b499b6d2e074f"><div class="ttname"><a href="classQCPRange.html#ae44eb3aafe1d0e2ed34b499b6d2e074f">QCPRange::upper</a></div><div class="ttdeci">double upper</div><div class="ttdef"><b>Definition:</b> qcustomplot.h:775</div></div>
+<div class="ttc" id="classQCPAxisTicker_html_a560ef9347b1aa599a9bf0e2f29d3ec16"><div class="ttname"><a href="classQCPAxisTicker.html#a560ef9347b1aa599a9bf0e2f29d3ec16">QCPAxisTicker::mTickOrigin</a></div><div class="ttdeci">double mTickOrigin</div><div class="ttdef"><b>Definition:</b> qcustomplot.h:1569</div></div>
+<div class="ttc" id="classQCPRange_html_aa3aca3edb14f7ca0c85d912647b91745"><div class="ttname"><a href="classQCPRange.html#aa3aca3edb14f7ca0c85d912647b91745">QCPRange::lower</a></div><div class="ttdeci">double lower</div><div class="ttdef"><b>Definition:</b> qcustomplot.h:775</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="aefbd11725678ca824add8cf926cbc856"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aefbd11725678ca824add8cf926cbc856">&#9670;&nbsp;</a></span>generate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void QCPAxisTicker::generate </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classQCPRange.html">QCPRange</a> &amp;&#160;</td>
+          <td class="paramname"><em>range</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QLocale &amp;&#160;</td>
+          <td class="paramname"><em>locale</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QChar&#160;</td>
+          <td class="paramname"><em>formatChar</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>precision</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QVector&lt; double &gt; &amp;&#160;</td>
+          <td class="paramname"><em>ticks</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QVector&lt; double &gt; *&#160;</td>
+          <td class="paramname"><em>subTicks</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QVector&lt; QString &gt; *&#160;</td>
+          <td class="paramname"><em>tickLabels</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>This is the method called by <a class="el" href="classQCPAxis.html" title="Manages a single axis inside a QCustomPlot. ">QCPAxis</a> in order to actually generate tick coordinates (<em>ticks</em>), tick label strings (<em>tickLabels</em>) and sub tick coordinates (<em>subTicks</em>).</p>
+<p>The ticks are generated for the specified <em>range</em>. The generated labels typically follow the specified <em>locale</em>, <em>formatChar</em> and number <em>precision</em>, however this might be different (or even irrelevant) for certain <a class="el" href="classQCPAxisTicker.html" title="The base class tick generator used by QCPAxis to create tick positions and tick labels. ">QCPAxisTicker</a> subclasses.</p>
+<p>The output parameter <em>ticks</em> is filled with the generated tick positions in axis coordinates. The output parameters <em>subTicks</em> and <em>tickLabels</em> are optional (set them to 0 if not needed) and are respectively filled with sub tick coordinates, and tick label strings belonging to <em>ticks</em> by index. </p>
+<div class="fragment"><div class="line"><a name="l05553"></a><span class="lineno"> 5553</span>&#160;{</div><div class="line"><a name="l05554"></a><span class="lineno"> 5554</span>&#160;  <span class="comment">// generate (major) ticks:</span></div><div class="line"><a name="l05555"></a><span class="lineno"> 5555</span>&#160;  <span class="keywordtype">double</span> tickStep = <a class="code" href="classQCPAxisTicker.html#a910d69bcec2de37e92d8d4e1ecf201e2">getTickStep</a>(range);</div><div class="line"><a name="l05556"></a><span class="lineno"> 5556</span>&#160;  ticks = <a class="code" href="classQCPAxisTicker.html#af4645a824c7bd2ca8fc7e86ebf9055bd">createTickVector</a>(tickStep, range);</div><div class="line"><a name="l05557"></a><span class="lineno"> 5557</span>&#160;  <a class="code" href="classQCPAxisTicker.html#ab28cc1ab549489be7975f5ce7e717916">trimTicks</a>(range, ticks, <span class="keyword">true</span>); <span class="comment">// trim ticks to visible range plus one outer tick on each side (incase a subclass createTickVector creates more)</span></div><div class="line"><a name="l05558"></a><span class="lineno"> 5558</span>&#160;  </div><div class="line"><a name="l05559"></a><span class="lineno"> 5559</span>&#160;  <span class="comment">// generate sub ticks between major ticks:</span></div><div class="line"><a name="l05560"></a><span class="lineno"> 5560</span>&#160;  <span class="keywordflow">if</span> (subTicks)</div><div class="line"><a name="l05561"></a><span class="lineno"> 5561</span>&#160;  {</div><div class="line"><a name="l05562"></a><span class="lineno"> 5562</span>&#160;    <span class="keywordflow">if</span> (ticks.size() &gt; 0)</div><div class="line"><a name="l05563"></a><span class="lineno"> 5563</span>&#160;    {</div><div class="line"><a name="l05564"></a><span class="lineno"> 5564</span>&#160;      *subTicks = <a class="code" href="classQCPAxisTicker.html#a9a6435723fa0bd366d1ea4c2cff7c33f">createSubTickVector</a>(<a class="code" href="classQCPAxisTicker.html#a4ccc403ced7a1457ce6ba293509933c8">getSubTickCount</a>(tickStep), ticks);</div><div class="line"><a name="l05565"></a><span class="lineno"> 5565</span>&#160;      <a class="code" href="classQCPAxisTicker.html#ab28cc1ab549489be7975f5ce7e717916">trimTicks</a>(range, *subTicks, <span class="keyword">false</span>);</div><div class="line"><a name="l05566"></a><span class="lineno"> 5566</span>&#160;    } <span class="keywordflow">else</span></div><div class="line"><a name="l05567"></a><span class="lineno"> 5567</span>&#160;      *subTicks = QVector&lt;double&gt;();</div><div class="line"><a name="l05568"></a><span class="lineno"> 5568</span>&#160;  }</div><div class="line"><a name="l05569"></a><span class="lineno"> 5569</span>&#160;  </div><div class="line"><a name="l05570"></a><span class="lineno"> 5570</span>&#160;  <span class="comment">// finally trim also outliers (no further clipping happens in axis drawing):</span></div><div class="line"><a name="l05571"></a><span class="lineno"> 5571</span>&#160;  <a class="code" href="classQCPAxisTicker.html#ab28cc1ab549489be7975f5ce7e717916">trimTicks</a>(range, ticks, <span class="keyword">false</span>);</div><div class="line"><a name="l05572"></a><span class="lineno"> 5572</span>&#160;  <span class="comment">// generate labels for visible ticks if requested:</span></div><div class="line"><a name="l05573"></a><span class="lineno"> 5573</span>&#160;  <span class="keywordflow">if</span> (tickLabels)</div><div class="line"><a name="l05574"></a><span class="lineno"> 5574</span>&#160;    *tickLabels = <a class="code" href="classQCPAxisTicker.html#a804050e408f37a0b9770c6654ebe6aa7">createLabelVector</a>(ticks, locale, formatChar, precision);</div><div class="line"><a name="l05575"></a><span class="lineno"> 5575</span>&#160;}</div><div class="ttc" id="classQCPAxisTicker_html_a4ccc403ced7a1457ce6ba293509933c8"><div class="ttname"><a href="classQCPAxisTicker.html#a4ccc403ced7a1457ce6ba293509933c8">QCPAxisTicker::getSubTickCount</a></div><div class="ttdeci">virtual int getSubTickCount(double tickStep)</div><div class="ttdef"><b>Definition:</b> qcustomplot.cpp:5600</div></div>
+<div class="ttc" id="classQCPAxisTicker_html_a804050e408f37a0b9770c6654ebe6aa7"><div class="ttname"><a href="classQCPAxisTicker.html#a804050e408f37a0b9770c6654ebe6aa7">QCPAxisTicker::createLabelVector</a></div><div class="ttdeci">virtual QVector&lt; QString &gt; createLabelVector(const QVector&lt; double &gt; &amp;ticks, const QLocale &amp;locale, QChar formatChar, int precision)</div><div class="ttdef"><b>Definition:</b> qcustomplot.cpp:5731</div></div>
+<div class="ttc" id="classQCPAxisTicker_html_a910d69bcec2de37e92d8d4e1ecf201e2"><div class="ttname"><a href="classQCPAxisTicker.html#a910d69bcec2de37e92d8d4e1ecf201e2">QCPAxisTicker::getTickStep</a></div><div class="ttdeci">virtual double getTickStep(const QCPRange &amp;range)</div><div class="ttdef"><b>Definition:</b> qcustomplot.cpp:5587</div></div>
+<div class="ttc" id="classQCPAxisTicker_html_a9a6435723fa0bd366d1ea4c2cff7c33f"><div class="ttname"><a href="classQCPAxisTicker.html#a9a6435723fa0bd366d1ea4c2cff7c33f">QCPAxisTicker::createSubTickVector</a></div><div class="ttdeci">virtual QVector&lt; double &gt; createSubTickVector(int subTickCount, const QVector&lt; double &gt; &amp;ticks)</div><div class="ttdef"><b>Definition:</b> qcustomplot.cpp:5677</div></div>
+<div class="ttc" id="classQCPAxisTicker_html_ab28cc1ab549489be7975f5ce7e717916"><div class="ttname"><a href="classQCPAxisTicker.html#ab28cc1ab549489be7975f5ce7e717916">QCPAxisTicker::trimTicks</a></div><div class="ttdeci">void trimTicks(const QCPRange &amp;range, QVector&lt; double &gt; &amp;ticks, bool keepOneOutlier) const</div><div class="ttdef"><b>Definition:</b> qcustomplot.cpp:5747</div></div>
+<div class="ttc" id="classQCPAxisTicker_html_af4645a824c7bd2ca8fc7e86ebf9055bd"><div class="ttname"><a href="classQCPAxisTicker.html#af4645a824c7bd2ca8fc7e86ebf9055bd">QCPAxisTicker::createTickVector</a></div><div class="ttdeci">virtual QVector&lt; double &gt; createTickVector(double tickStep, const QCPRange &amp;range)</div><div class="ttdef"><b>Definition:</b> qcustomplot.cpp:5708</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a2f1e223bafbf2cec7c3ba8b08d5c77e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f1e223bafbf2cec7c3ba8b08d5c77e8">&#9670;&nbsp;</a></span>getMantissa()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double QCPAxisTicker::getMantissa </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>input</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double *&#160;</td>
+          <td class="paramname"><em>magnitude</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l05810"></a><span class="lineno"> 5810</span>&#160;{</div><div class="line"><a name="l05811"></a><span class="lineno"> 5811</span>&#160;  <span class="keyword">const</span> <span class="keywordtype">double</span> mag = qPow(10.0, qFloor(qLn(input)/qLn(10.0)));</div><div class="line"><a name="l05812"></a><span class="lineno"> 5812</span>&#160;  <span class="keywordflow">if</span> (magnitude) *magnitude = mag;</div><div class="line"><a name="l05813"></a><span class="lineno"> 5813</span>&#160;  <span class="keywordflow">return</span> input/mag;</div><div class="line"><a name="l05814"></a><span class="lineno"> 5814</span>&#160;}</div></div><!-- fragment -->
+</div>
+</div>
+<a id="a4ccc403ced7a1457ce6ba293509933c8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ccc403ced7a1457ce6ba293509933c8">&#9670;&nbsp;</a></span>getSubTickCount()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int QCPAxisTicker::getSubTickCount </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>tickStep</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplementado por <a class="el" href="classQCPAxisTickerLog.html#a352fef7ae68837acd26e35188aa86167">QCPAxisTickerLog</a>, <a class="el" href="classQCPAxisTickerPi.html#a56c90f870da97c8670cfae4d04ff3ac7">QCPAxisTickerPi</a>, <a class="el" href="classQCPAxisTickerText.html#a9c2488b877776870239abda4c8106052">QCPAxisTickerText</a>, <a class="el" href="classQCPAxisTickerTime.html#acace84c46598176aa53837e147595471">QCPAxisTickerTime</a> e <a class="el" href="classQCPAxisTickerDateTime.html#a78dece0d51426a3c310528d413e09193">QCPAxisTickerDateTime</a>.</p>
+<div class="fragment"><div class="line"><a name="l05601"></a><span class="lineno"> 5601</span>&#160;{</div><div class="line"><a name="l05602"></a><span class="lineno"> 5602</span>&#160;  <span class="keywordtype">int</span> result = 1; <span class="comment">// default to 1, if no proper value can be found</span></div><div class="line"><a name="l05603"></a><span class="lineno"> 5603</span>&#160;  </div><div class="line"><a name="l05604"></a><span class="lineno"> 5604</span>&#160;  <span class="comment">// separate integer and fractional part of mantissa:</span></div><div class="line"><a name="l05605"></a><span class="lineno"> 5605</span>&#160;  <span class="keywordtype">double</span> epsilon = 0.01;</div><div class="line"><a name="l05606"></a><span class="lineno"> 5606</span>&#160;  <span class="keywordtype">double</span> intPartf;</div><div class="line"><a name="l05607"></a><span class="lineno"> 5607</span>&#160;  <span class="keywordtype">int</span> intPart;</div><div class="line"><a name="l05608"></a><span class="lineno"> 5608</span>&#160;  <span class="keywordtype">double</span> fracPart = modf(<a class="code" href="classQCPAxisTicker.html#a2f1e223bafbf2cec7c3ba8b08d5c77e8">getMantissa</a>(tickStep), &amp;intPartf);</div><div class="line"><a name="l05609"></a><span class="lineno"> 5609</span>&#160;  intPart = intPartf;</div><div class="line"><a name="l05610"></a><span class="lineno"> 5610</span>&#160;  </div><div class="line"><a name="l05611"></a><span class="lineno"> 5611</span>&#160;  <span class="comment">// handle cases with (almost) integer mantissa:</span></div><div class="line"><a name="l05612"></a><span class="lineno"> 5612</span>&#160;  <span class="keywordflow">if</span> (fracPart &lt; epsilon || 1.0-fracPart &lt; epsilon)</div><div class="line"><a name="l05613"></a><span class="lineno"> 5613</span>&#160;  {</div><div class="line"><a name="l05614"></a><span class="lineno"> 5614</span>&#160;    <span class="keywordflow">if</span> (1.0-fracPart &lt; epsilon)</div><div class="line"><a name="l05615"></a><span class="lineno"> 5615</span>&#160;      ++intPart;</div><div class="line"><a name="l05616"></a><span class="lineno"> 5616</span>&#160;    <span class="keywordflow">switch</span> (intPart)</div><div class="line"><a name="l05617"></a><span class="lineno"> 5617</span>&#160;    {</div><div class="line"><a name="l05618"></a><span class="lineno"> 5618</span>&#160;      <span class="keywordflow">case</span> 1: result = 4; <span class="keywordflow">break</span>; <span class="comment">// 1.0 -&gt; 0.2 substep</span></div><div class="line"><a name="l05619"></a><span class="lineno"> 5619</span>&#160;      <span class="keywordflow">case</span> 2: result = 3; <span class="keywordflow">break</span>; <span class="comment">// 2.0 -&gt; 0.5 substep</span></div><div class="line"><a name="l05620"></a><span class="lineno"> 5620</span>&#160;      <span class="keywordflow">case</span> 3: result = 2; <span class="keywordflow">break</span>; <span class="comment">// 3.0 -&gt; 1.0 substep</span></div><div class="line"><a name="l05621"></a><span class="lineno"> 5621</span>&#160;      <span class="keywordflow">case</span> 4: result = 3; <span class="keywordflow">break</span>; <span class="comment">// 4.0 -&gt; 1.0 substep</span></div><div class="line"><a name="l05622"></a><span class="lineno"> 5622</span>&#160;      <span class="keywordflow">case</span> 5: result = 4; <span class="keywordflow">break</span>; <span class="comment">// 5.0 -&gt; 1.0 substep</span></div><div class="line"><a name="l05623"></a><span class="lineno"> 5623</span>&#160;      <span class="keywordflow">case</span> 6: result = 2; <span class="keywordflow">break</span>; <span class="comment">// 6.0 -&gt; 2.0 substep</span></div><div class="line"><a name="l05624"></a><span class="lineno"> 5624</span>&#160;      <span class="keywordflow">case</span> 7: result = 6; <span class="keywordflow">break</span>; <span class="comment">// 7.0 -&gt; 1.0 substep</span></div><div class="line"><a name="l05625"></a><span class="lineno"> 5625</span>&#160;      <span class="keywordflow">case</span> 8: result = 3; <span class="keywordflow">break</span>; <span class="comment">// 8.0 -&gt; 2.0 substep</span></div><div class="line"><a name="l05626"></a><span class="lineno"> 5626</span>&#160;      <span class="keywordflow">case</span> 9: result = 2; <span class="keywordflow">break</span>; <span class="comment">// 9.0 -&gt; 3.0 substep</span></div><div class="line"><a name="l05627"></a><span class="lineno"> 5627</span>&#160;    }</div><div class="line"><a name="l05628"></a><span class="lineno"> 5628</span>&#160;  } <span class="keywordflow">else</span></div><div class="line"><a name="l05629"></a><span class="lineno"> 5629</span>&#160;  {</div><div class="line"><a name="l05630"></a><span class="lineno"> 5630</span>&#160;    <span class="comment">// handle cases with significantly fractional mantissa:</span></div><div class="line"><a name="l05631"></a><span class="lineno"> 5631</span>&#160;    <span class="keywordflow">if</span> (qAbs(fracPart-0.5) &lt; epsilon) <span class="comment">// *.5 mantissa</span></div><div class="line"><a name="l05632"></a><span class="lineno"> 5632</span>&#160;    {</div><div class="line"><a name="l05633"></a><span class="lineno"> 5633</span>&#160;      <span class="keywordflow">switch</span> (intPart)</div><div class="line"><a name="l05634"></a><span class="lineno"> 5634</span>&#160;      {</div><div class="line"><a name="l05635"></a><span class="lineno"> 5635</span>&#160;        <span class="keywordflow">case</span> 1: result = 2; <span class="keywordflow">break</span>; <span class="comment">// 1.5 -&gt; 0.5 substep</span></div><div class="line"><a name="l05636"></a><span class="lineno"> 5636</span>&#160;        <span class="keywordflow">case</span> 2: result = 4; <span class="keywordflow">break</span>; <span class="comment">// 2.5 -&gt; 0.5 substep</span></div><div class="line"><a name="l05637"></a><span class="lineno"> 5637</span>&#160;        <span class="keywordflow">case</span> 3: result = 4; <span class="keywordflow">break</span>; <span class="comment">// 3.5 -&gt; 0.7 substep</span></div><div class="line"><a name="l05638"></a><span class="lineno"> 5638</span>&#160;        <span class="keywordflow">case</span> 4: result = 2; <span class="keywordflow">break</span>; <span class="comment">// 4.5 -&gt; 1.5 substep</span></div><div class="line"><a name="l05639"></a><span class="lineno"> 5639</span>&#160;        <span class="keywordflow">case</span> 5: result = 4; <span class="keywordflow">break</span>; <span class="comment">// 5.5 -&gt; 1.1 substep (won&#39;t occur with default getTickStep from here on)</span></div><div class="line"><a name="l05640"></a><span class="lineno"> 5640</span>&#160;        <span class="keywordflow">case</span> 6: result = 4; <span class="keywordflow">break</span>; <span class="comment">// 6.5 -&gt; 1.3 substep</span></div><div class="line"><a name="l05641"></a><span class="lineno"> 5641</span>&#160;        <span class="keywordflow">case</span> 7: result = 2; <span class="keywordflow">break</span>; <span class="comment">// 7.5 -&gt; 2.5 substep</span></div><div class="line"><a name="l05642"></a><span class="lineno"> 5642</span>&#160;        <span class="keywordflow">case</span> 8: result = 4; <span class="keywordflow">break</span>; <span class="comment">// 8.5 -&gt; 1.7 substep</span></div><div class="line"><a name="l05643"></a><span class="lineno"> 5643</span>&#160;        <span class="keywordflow">case</span> 9: result = 4; <span class="keywordflow">break</span>; <span class="comment">// 9.5 -&gt; 1.9 substep</span></div><div class="line"><a name="l05644"></a><span class="lineno"> 5644</span>&#160;      }</div><div class="line"><a name="l05645"></a><span class="lineno"> 5645</span>&#160;    }</div><div class="line"><a name="l05646"></a><span class="lineno"> 5646</span>&#160;    <span class="comment">// if mantissa fraction isn&#39;t 0.0 or 0.5, don&#39;t bother finding good sub tick marks, leave default</span></div><div class="line"><a name="l05647"></a><span class="lineno"> 5647</span>&#160;  }</div><div class="line"><a name="l05648"></a><span class="lineno"> 5648</span>&#160;  </div><div class="line"><a name="l05649"></a><span class="lineno"> 5649</span>&#160;  <span class="keywordflow">return</span> result;</div><div class="line"><a name="l05650"></a><span class="lineno"> 5650</span>&#160;}</div><div class="ttc" id="classQCPAxisTicker_html_a2f1e223bafbf2cec7c3ba8b08d5c77e8"><div class="ttname"><a href="classQCPAxisTicker.html#a2f1e223bafbf2cec7c3ba8b08d5c77e8">QCPAxisTicker::getMantissa</a></div><div class="ttdeci">double getMantissa(double input, double *magnitude=0) const</div><div class="ttdef"><b>Definition:</b> qcustomplot.cpp:5809</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a8201eb4aa8be192bf786b126eb5ee089"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8201eb4aa8be192bf786b126eb5ee089">&#9670;&nbsp;</a></span>getTickLabel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString QCPAxisTicker::getTickLabel </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>tick</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QLocale &amp;&#160;</td>
+          <td class="paramname"><em>locale</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QChar&#160;</td>
+          <td class="paramname"><em>formatChar</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>precision</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplementado por <a class="el" href="classQCPAxisTickerPi.html#a9a087d931d4344b8a91d5cecceff7109">QCPAxisTickerPi</a>, <a class="el" href="classQCPAxisTickerText.html#a99247779a9c20bea1f50911117540a71">QCPAxisTickerText</a>, <a class="el" href="classQCPAxisTickerTime.html#a046eb771bdf2a959f570db542b3a0be6">QCPAxisTickerTime</a> e <a class="el" href="classQCPAxisTickerDateTime.html#a4dc6a03f7ea5c619477528a683ed5c18">QCPAxisTickerDateTime</a>.</p>
+<div class="fragment"><div class="line"><a name="l05664"></a><span class="lineno"> 5664</span>&#160;{</div><div class="line"><a name="l05665"></a><span class="lineno"> 5665</span>&#160;  <span class="keywordflow">return</span> locale.toString(tick, formatChar.toLatin1(), precision);</div><div class="line"><a name="l05666"></a><span class="lineno"> 5666</span>&#160;}</div></div><!-- fragment -->
+</div>
+</div>
+<a id="a9e99da01ab92a86aed415eef32fed13a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e99da01ab92a86aed415eef32fed13a">&#9670;&nbsp;</a></span>getTickStep()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double QCPAxisTickerFixed::getTickStep </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classQCPRange.html">QCPRange</a> &amp;&#160;</td>
+          <td class="paramname"><em>range</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplementa <a class="el" href="classQCPAxisTicker.html#a910d69bcec2de37e92d8d4e1ecf201e2">QCPAxisTicker</a>.</p>
+<div class="fragment"><div class="line"><a name="l06468"></a><span class="lineno"> 6468</span>&#160;{</div><div class="line"><a name="l06469"></a><span class="lineno"> 6469</span>&#160;  <span class="keywordflow">switch</span> (<a class="code" href="classQCPAxisTickerFixed.html#a61ead1590161769b0d36e09419e67b10">mScaleStrategy</a>)</div><div class="line"><a name="l06470"></a><span class="lineno"> 6470</span>&#160;  {</div><div class="line"><a name="l06471"></a><span class="lineno"> 6471</span>&#160;    <span class="keywordflow">case</span> <a class="code" href="classQCPAxisTickerFixed.html#a15b3d38b935d404b1311eb85cfb6a439a6621275677a05caa0de204ae3956b85f">ssNone</a>:</div><div class="line"><a name="l06472"></a><span class="lineno"> 6472</span>&#160;    {</div><div class="line"><a name="l06473"></a><span class="lineno"> 6473</span>&#160;      <span class="keywordflow">return</span> <a class="code" href="classQCPAxisTickerFixed.html#a4aeef2d3eaa57ec56f422ab1f82175d2">mTickStep</a>;</div><div class="line"><a name="l06474"></a><span class="lineno"> 6474</span>&#160;    }</div><div class="line"><a name="l06475"></a><span class="lineno"> 6475</span>&#160;    <span class="keywordflow">case</span> <a class="code" href="classQCPAxisTickerFixed.html#a15b3d38b935d404b1311eb85cfb6a439a22f651785f6412645837421896561104">ssMultiples</a>:</div><div class="line"><a name="l06476"></a><span class="lineno"> 6476</span>&#160;    {</div><div class="line"><a name="l06477"></a><span class="lineno"> 6477</span>&#160;      <span class="keywordtype">double</span> exactStep = range.<a class="code" href="classQCPRange.html#a62326e7cc4316b96df6a60813230e63f">size</a>()/(double)(<a class="code" href="classQCPAxisTicker.html#a14a35b47d1aad11b08d18ea0e25937b8">mTickCount</a>+1e-10); <span class="comment">// mTickCount ticks on average, the small addition is to prevent jitter on exact integers</span></div><div class="line"><a name="l06478"></a><span class="lineno"> 6478</span>&#160;      <span class="keywordflow">if</span> (exactStep &lt; <a class="code" href="classQCPAxisTickerFixed.html#a4aeef2d3eaa57ec56f422ab1f82175d2">mTickStep</a>)</div><div class="line"><a name="l06479"></a><span class="lineno"> 6479</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classQCPAxisTickerFixed.html#a4aeef2d3eaa57ec56f422ab1f82175d2">mTickStep</a>;</div><div class="line"><a name="l06480"></a><span class="lineno"> 6480</span>&#160;      <span class="keywordflow">else</span></div><div class="line"><a name="l06481"></a><span class="lineno"> 6481</span>&#160;        <span class="keywordflow">return</span> (qint64)(<a class="code" href="classQCPAxisTicker.html#ac7df6c72876b7abd67c932663a0b0f6a">cleanMantissa</a>(exactStep/<a class="code" href="classQCPAxisTickerFixed.html#a4aeef2d3eaa57ec56f422ab1f82175d2">mTickStep</a>)+0.5)*<a class="code" href="classQCPAxisTickerFixed.html#a4aeef2d3eaa57ec56f422ab1f82175d2">mTickStep</a>;</div><div class="line"><a name="l06482"></a><span class="lineno"> 6482</span>&#160;    }</div><div class="line"><a name="l06483"></a><span class="lineno"> 6483</span>&#160;    <span class="keywordflow">case</span> <a class="code" href="classQCPAxisTickerFixed.html#a15b3d38b935d404b1311eb85cfb6a439ac39d5813e9165ebd494307ae61ce5dce">ssPowers</a>:</div><div class="line"><a name="l06484"></a><span class="lineno"> 6484</span>&#160;    {</div><div class="line"><a name="l06485"></a><span class="lineno"> 6485</span>&#160;      <span class="keywordtype">double</span> exactStep = range.<a class="code" href="classQCPRange.html#a62326e7cc4316b96df6a60813230e63f">size</a>()/(double)(<a class="code" href="classQCPAxisTicker.html#a14a35b47d1aad11b08d18ea0e25937b8">mTickCount</a>+1e-10); <span class="comment">// mTickCount ticks on average, the small addition is to prevent jitter on exact integers</span></div><div class="line"><a name="l06486"></a><span class="lineno"> 6486</span>&#160;      <span class="keywordflow">return</span> qPow(<a class="code" href="classQCPAxisTickerFixed.html#a4aeef2d3eaa57ec56f422ab1f82175d2">mTickStep</a>, (<span class="keywordtype">int</span>)(qLn(exactStep)/qLn(<a class="code" href="classQCPAxisTickerFixed.html#a4aeef2d3eaa57ec56f422ab1f82175d2">mTickStep</a>)+0.5));</div><div class="line"><a name="l06487"></a><span class="lineno"> 6487</span>&#160;    }</div><div class="line"><a name="l06488"></a><span class="lineno"> 6488</span>&#160;  }</div><div class="line"><a name="l06489"></a><span class="lineno"> 6489</span>&#160;  <span class="keywordflow">return</span> <a class="code" href="classQCPAxisTickerFixed.html#a4aeef2d3eaa57ec56f422ab1f82175d2">mTickStep</a>;</div><div class="line"><a name="l06490"></a><span class="lineno"> 6490</span>&#160;}</div><div class="ttc" id="classQCPAxisTicker_html_ac7df6c72876b7abd67c932663a0b0f6a"><div class="ttname"><a href="classQCPAxisTicker.html#ac7df6c72876b7abd67c932663a0b0f6a">QCPAxisTicker::cleanMantissa</a></div><div class="ttdeci">double cleanMantissa(double input) const</div><div class="ttdef"><b>Definition:</b> qcustomplot.cpp:5822</div></div>
+<div class="ttc" id="classQCPAxisTickerFixed_html_a61ead1590161769b0d36e09419e67b10"><div class="ttname"><a href="classQCPAxisTickerFixed.html#a61ead1590161769b0d36e09419e67b10">QCPAxisTickerFixed::mScaleStrategy</a></div><div class="ttdeci">ScaleStrategy mScaleStrategy</div><div class="ttdef"><b>Definition:</b> qcustomplot.h:1716</div></div>
+<div class="ttc" id="classQCPAxisTickerFixed_html_a4aeef2d3eaa57ec56f422ab1f82175d2"><div class="ttname"><a href="classQCPAxisTickerFixed.html#a4aeef2d3eaa57ec56f422ab1f82175d2">QCPAxisTickerFixed::mTickStep</a></div><div class="ttdeci">double mTickStep</div><div class="ttdef"><b>Definition:</b> qcustomplot.h:1715</div></div>
+<div class="ttc" id="classQCPAxisTicker_html_a14a35b47d1aad11b08d18ea0e25937b8"><div class="ttname"><a href="classQCPAxisTicker.html#a14a35b47d1aad11b08d18ea0e25937b8">QCPAxisTicker::mTickCount</a></div><div class="ttdeci">int mTickCount</div><div class="ttdef"><b>Definition:</b> qcustomplot.h:1568</div></div>
+<div class="ttc" id="classQCPAxisTickerFixed_html_a15b3d38b935d404b1311eb85cfb6a439ac39d5813e9165ebd494307ae61ce5dce"><div class="ttname"><a href="classQCPAxisTickerFixed.html#a15b3d38b935d404b1311eb85cfb6a439ac39d5813e9165ebd494307ae61ce5dce">QCPAxisTickerFixed::ssPowers</a></div><div class="ttdoc">An integer power of the specified tick step is allowed. </div><div class="ttdef"><b>Definition:</b> qcustomplot.h:1699</div></div>
+<div class="ttc" id="classQCPRange_html_a62326e7cc4316b96df6a60813230e63f"><div class="ttname"><a href="classQCPRange.html#a62326e7cc4316b96df6a60813230e63f">QCPRange::size</a></div><div class="ttdeci">double size() const</div><div class="ttdef"><b>Definition:</b> qcustomplot.h:794</div></div>
+<div class="ttc" id="classQCPAxisTickerFixed_html_a15b3d38b935d404b1311eb85cfb6a439a6621275677a05caa0de204ae3956b85f"><div class="ttname"><a href="classQCPAxisTickerFixed.html#a15b3d38b935d404b1311eb85cfb6a439a6621275677a05caa0de204ae3956b85f">QCPAxisTickerFixed::ssNone</a></div><div class="ttdoc">Modifications are not allowed, the specified tick step is absolutely fixed. This might cause a high t...</div><div class="ttdef"><b>Definition:</b> qcustomplot.h:1697</div></div>
+<div class="ttc" id="classQCPAxisTickerFixed_html_a15b3d38b935d404b1311eb85cfb6a439a22f651785f6412645837421896561104"><div class="ttname"><a href="classQCPAxisTickerFixed.html#a15b3d38b935d404b1311eb85cfb6a439a22f651785f6412645837421896561104">QCPAxisTickerFixed::ssMultiples</a></div><div class="ttdoc">An integer multiple of the specified tick step is allowed. The used factor follows the base class pro...</div><div class="ttdef"><b>Definition:</b> qcustomplot.h:1698</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a4ea0a7c4ca1c610f92b9bd5944ab4260"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ea0a7c4ca1c610f92b9bd5944ab4260">&#9670;&nbsp;</a></span>pickClosest()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double QCPAxisTicker::pickClosest </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>target</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QVector&lt; double &gt; &amp;&#160;</td>
+          <td class="paramname"><em>candidates</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l05790"></a><span class="lineno"> 5790</span>&#160;{</div><div class="line"><a name="l05791"></a><span class="lineno"> 5791</span>&#160;  <span class="keywordflow">if</span> (candidates.size() == 1)</div><div class="line"><a name="l05792"></a><span class="lineno"> 5792</span>&#160;    <span class="keywordflow">return</span> candidates.first();</div><div class="line"><a name="l05793"></a><span class="lineno"> 5793</span>&#160;  QVector&lt;double&gt;::const_iterator it = std::lower_bound(candidates.constBegin(), candidates.constEnd(), target);</div><div class="line"><a name="l05794"></a><span class="lineno"> 5794</span>&#160;  <span class="keywordflow">if</span> (it == candidates.constEnd())</div><div class="line"><a name="l05795"></a><span class="lineno"> 5795</span>&#160;    <span class="keywordflow">return</span> *(it-1);</div><div class="line"><a name="l05796"></a><span class="lineno"> 5796</span>&#160;  <span class="keywordflow">else</span> <span class="keywordflow">if</span> (it == candidates.constBegin())</div><div class="line"><a name="l05797"></a><span class="lineno"> 5797</span>&#160;    <span class="keywordflow">return</span> *it;</div><div class="line"><a name="l05798"></a><span class="lineno"> 5798</span>&#160;  <span class="keywordflow">else</span></div><div class="line"><a name="l05799"></a><span class="lineno"> 5799</span>&#160;    <span class="keywordflow">return</span> target-*(it-1) &lt; *it-target ? *(it-1) : *it;</div><div class="line"><a name="l05800"></a><span class="lineno"> 5800</span>&#160;}</div></div><!-- fragment -->
+</div>
+</div>
+<a id="a20fd8fcb257f63449f8913335ad57e45"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a20fd8fcb257f63449f8913335ad57e45">&#9670;&nbsp;</a></span>scaleStrategy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classQCPAxisTickerFixed.html#a15b3d38b935d404b1311eb85cfb6a439">ScaleStrategy</a> QCPAxisTickerFixed::scaleStrategy </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l01707"></a><span class="lineno"> 1707</span>&#160;{ <span class="keywordflow">return</span> <a class="code" href="classQCPAxisTickerFixed.html#a61ead1590161769b0d36e09419e67b10">mScaleStrategy</a>; }</div><div class="ttc" id="classQCPAxisTickerFixed_html_a61ead1590161769b0d36e09419e67b10"><div class="ttname"><a href="classQCPAxisTickerFixed.html#a61ead1590161769b0d36e09419e67b10">QCPAxisTickerFixed::mScaleStrategy</a></div><div class="ttdeci">ScaleStrategy mScaleStrategy</div><div class="ttdef"><b>Definition:</b> qcustomplot.h:1716</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="acbc7c9bcd80b3dc3edee5f0519d301f6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acbc7c9bcd80b3dc3edee5f0519d301f6">&#9670;&nbsp;</a></span>setScaleStrategy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void QCPAxisTickerFixed::setScaleStrategy </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classQCPAxisTickerFixed.html#a15b3d38b935d404b1311eb85cfb6a439">QCPAxisTickerFixed::ScaleStrategy</a>&#160;</td>
+          <td class="paramname"><em>strategy</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Sets whether the specified tick step (<a class="el" href="classQCPAxisTickerFixed.html#a4bc83d85a4f81d4abdd3fa5042d7b833">setTickStep</a>) is absolutely fixed or whether modifications may be applied to it before calculating the finally used tick step, such as permitting multiples or powers. See <a class="el" href="classQCPAxisTickerFixed.html#a15b3d38b935d404b1311eb85cfb6a439">ScaleStrategy</a> for details.</p>
+<p>The default strategy is <a class="el" href="classQCPAxisTickerFixed.html#a15b3d38b935d404b1311eb85cfb6a439a6621275677a05caa0de204ae3956b85f">ssNone</a>, which means the tick step is absolutely fixed. </p>
+<div class="fragment"><div class="line"><a name="l06453"></a><span class="lineno"> 6453</span>&#160;{</div><div class="line"><a name="l06454"></a><span class="lineno"> 6454</span>&#160;  <a class="code" href="classQCPAxisTickerFixed.html#a61ead1590161769b0d36e09419e67b10">mScaleStrategy</a> = strategy;</div><div class="line"><a name="l06455"></a><span class="lineno"> 6455</span>&#160;}</div><div class="ttc" id="classQCPAxisTickerFixed_html_a61ead1590161769b0d36e09419e67b10"><div class="ttname"><a href="classQCPAxisTickerFixed.html#a61ead1590161769b0d36e09419e67b10">QCPAxisTickerFixed::mScaleStrategy</a></div><div class="ttdeci">ScaleStrategy mScaleStrategy</div><div class="ttdef"><b>Definition:</b> qcustomplot.h:1716</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a47752abba8293e6dc18491501ae34008"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47752abba8293e6dc18491501ae34008">&#9670;&nbsp;</a></span>setTickCount()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void QCPAxisTicker::setTickCount </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>count</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Sets how many ticks this ticker shall aim to generate across the axis range. Note that <em>count</em> is not guaranteed to be matched exactly, as generating readable tick intervals may conflict with the requested number of ticks.</p>
+<p>Whether the readability has priority over meeting the requested <em>count</em> can be specified with <a class="el" href="classQCPAxisTicker.html#a73b1d847c1a12159af6bfda4ebebe7d5">setTickStepStrategy</a>. </p>
+<div class="fragment"><div class="line"><a name="l05519"></a><span class="lineno"> 5519</span>&#160;{</div><div class="line"><a name="l05520"></a><span class="lineno"> 5520</span>&#160;  <span class="keywordflow">if</span> (count &gt; 0)</div><div class="line"><a name="l05521"></a><span class="lineno"> 5521</span>&#160;    <a class="code" href="classQCPAxisTicker.html#a14a35b47d1aad11b08d18ea0e25937b8">mTickCount</a> = count;</div><div class="line"><a name="l05522"></a><span class="lineno"> 5522</span>&#160;  <span class="keywordflow">else</span></div><div class="line"><a name="l05523"></a><span class="lineno"> 5523</span>&#160;    qDebug() &lt;&lt; Q_FUNC_INFO &lt;&lt; <span class="stringliteral">&quot;tick count must be greater than zero:&quot;</span> &lt;&lt; count;</div><div class="line"><a name="l05524"></a><span class="lineno"> 5524</span>&#160;}</div><div class="ttc" id="classQCPAxisTicker_html_a14a35b47d1aad11b08d18ea0e25937b8"><div class="ttname"><a href="classQCPAxisTicker.html#a14a35b47d1aad11b08d18ea0e25937b8">QCPAxisTicker::mTickCount</a></div><div class="ttdeci">int mTickCount</div><div class="ttdef"><b>Definition:</b> qcustomplot.h:1568</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ab509c7e500293bf66a8409f0d7c23943"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab509c7e500293bf66a8409f0d7c23943">&#9670;&nbsp;</a></span>setTickOrigin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void QCPAxisTicker::setTickOrigin </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>origin</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Sets the mathematical coordinate (or "offset") of the zeroth tick. This tick coordinate is just a concept and doesn't need to be inside the currently visible axis range.</p>
+<p>By default <em>origin</em> is zero, which for example yields ticks {-5, 0, 5, 10, 15,...} when the tick step is five. If <em>origin</em> is now set to 1 instead, the correspondingly generated ticks would be {-4, 1, 6, 11, 16,...}. </p>
+<div class="fragment"><div class="line"><a name="l05535"></a><span class="lineno"> 5535</span>&#160;{</div><div class="line"><a name="l05536"></a><span class="lineno"> 5536</span>&#160;  <a class="code" href="classQCPAxisTicker.html#a560ef9347b1aa599a9bf0e2f29d3ec16">mTickOrigin</a> = origin;</div><div class="line"><a name="l05537"></a><span class="lineno"> 5537</span>&#160;}</div><div class="ttc" id="classQCPAxisTicker_html_a560ef9347b1aa599a9bf0e2f29d3ec16"><div class="ttname"><a href="classQCPAxisTicker.html#a560ef9347b1aa599a9bf0e2f29d3ec16">QCPAxisTicker::mTickOrigin</a></div><div class="ttdeci">double mTickOrigin</div><div class="ttdef"><b>Definition:</b> qcustomplot.h:1569</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a4bc83d85a4f81d4abdd3fa5042d7b833"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4bc83d85a4f81d4abdd3fa5042d7b833">&#9670;&nbsp;</a></span>setTickStep()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void QCPAxisTickerFixed::setTickStep </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>step</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Sets the fixed tick interval to <em>step</em>.</p>
+<p>The axis ticker will only use this tick step when generating axis ticks. This might cause a very high tick density and overlapping labels if the axis range is zoomed out. Using <a class="el" href="classQCPAxisTickerFixed.html#acbc7c9bcd80b3dc3edee5f0519d301f6">setScaleStrategy</a> it is possible to relax the fixed step and also allow multiples or powers of <em>step</em>. This will enable the ticker to reduce the number of ticks to a reasonable amount (see <a class="el" href="classQCPAxisTicker.html#a47752abba8293e6dc18491501ae34008">setTickCount</a>). </p>
+<div class="fragment"><div class="line"><a name="l06438"></a><span class="lineno"> 6438</span>&#160;{</div><div class="line"><a name="l06439"></a><span class="lineno"> 6439</span>&#160;  <span class="keywordflow">if</span> (step &gt; 0)</div><div class="line"><a name="l06440"></a><span class="lineno"> 6440</span>&#160;    <a class="code" href="classQCPAxisTickerFixed.html#a4aeef2d3eaa57ec56f422ab1f82175d2">mTickStep</a> = step;</div><div class="line"><a name="l06441"></a><span class="lineno"> 6441</span>&#160;  <span class="keywordflow">else</span></div><div class="line"><a name="l06442"></a><span class="lineno"> 6442</span>&#160;    qDebug() &lt;&lt; Q_FUNC_INFO &lt;&lt; <span class="stringliteral">&quot;tick step must be greater than zero:&quot;</span> &lt;&lt; step;</div><div class="line"><a name="l06443"></a><span class="lineno"> 6443</span>&#160;}</div><div class="ttc" id="classQCPAxisTickerFixed_html_a4aeef2d3eaa57ec56f422ab1f82175d2"><div class="ttname"><a href="classQCPAxisTickerFixed.html#a4aeef2d3eaa57ec56f422ab1f82175d2">QCPAxisTickerFixed::mTickStep</a></div><div class="ttdeci">double mTickStep</div><div class="ttdef"><b>Definition:</b> qcustomplot.h:1715</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a73b1d847c1a12159af6bfda4ebebe7d5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a73b1d847c1a12159af6bfda4ebebe7d5">&#9670;&nbsp;</a></span>setTickStepStrategy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void QCPAxisTicker::setTickStepStrategy </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classQCPAxisTicker.html#ab6d2f9d9477821623ac9bc4b21ddf49a">QCPAxisTicker::TickStepStrategy</a>&#160;</td>
+          <td class="paramname"><em>strategy</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Sets which strategy the axis ticker follows when choosing the size of the tick step. For the available strategies, see <a class="el" href="classQCPAxisTicker.html#ab6d2f9d9477821623ac9bc4b21ddf49a">TickStepStrategy</a>. </p>
+<div class="fragment"><div class="line"><a name="l05506"></a><span class="lineno"> 5506</span>&#160;{</div><div class="line"><a name="l05507"></a><span class="lineno"> 5507</span>&#160;  <a class="code" href="classQCPAxisTicker.html#ac059d6d670b2f6132c593fb4de156701">mTickStepStrategy</a> = strategy;</div><div class="line"><a name="l05508"></a><span class="lineno"> 5508</span>&#160;}</div><div class="ttc" id="classQCPAxisTicker_html_ac059d6d670b2f6132c593fb4de156701"><div class="ttname"><a href="classQCPAxisTicker.html#ac059d6d670b2f6132c593fb4de156701">QCPAxisTicker::mTickStepStrategy</a></div><div class="ttdeci">TickStepStrategy mTickStepStrategy</div><div class="ttdef"><b>Definition:</b> qcustomplot.h:1567</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="aaf9edbe4169ce55e216fd067cc139452"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf9edbe4169ce55e216fd067cc139452">&#9670;&nbsp;</a></span>tickCount()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int QCPAxisTicker::tickCount </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l01554"></a><span class="lineno"> 1554</span>&#160;{ <span class="keywordflow">return</span> <a class="code" href="classQCPAxisTicker.html#a14a35b47d1aad11b08d18ea0e25937b8">mTickCount</a>; }</div><div class="ttc" id="classQCPAxisTicker_html_a14a35b47d1aad11b08d18ea0e25937b8"><div class="ttname"><a href="classQCPAxisTicker.html#a14a35b47d1aad11b08d18ea0e25937b8">QCPAxisTicker::mTickCount</a></div><div class="ttdeci">int mTickCount</div><div class="ttdef"><b>Definition:</b> qcustomplot.h:1568</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ac0c6e9587c36fdeefb5518c00fe7ab15"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac0c6e9587c36fdeefb5518c00fe7ab15">&#9670;&nbsp;</a></span>tickOrigin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double QCPAxisTicker::tickOrigin </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l01555"></a><span class="lineno"> 1555</span>&#160;{ <span class="keywordflow">return</span> <a class="code" href="classQCPAxisTicker.html#a560ef9347b1aa599a9bf0e2f29d3ec16">mTickOrigin</a>; }</div><div class="ttc" id="classQCPAxisTicker_html_a560ef9347b1aa599a9bf0e2f29d3ec16"><div class="ttname"><a href="classQCPAxisTicker.html#a560ef9347b1aa599a9bf0e2f29d3ec16">QCPAxisTicker::mTickOrigin</a></div><div class="ttdeci">double mTickOrigin</div><div class="ttdef"><b>Definition:</b> qcustomplot.h:1569</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a33d1324c8666b4d5df975dea32ed5a28"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a33d1324c8666b4d5df975dea32ed5a28">&#9670;&nbsp;</a></span>tickStep()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double QCPAxisTickerFixed::tickStep </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l01706"></a><span class="lineno"> 1706</span>&#160;{ <span class="keywordflow">return</span> <a class="code" href="classQCPAxisTickerFixed.html#a4aeef2d3eaa57ec56f422ab1f82175d2">mTickStep</a>; }</div><div class="ttc" id="classQCPAxisTickerFixed_html_a4aeef2d3eaa57ec56f422ab1f82175d2"><div class="ttname"><a href="classQCPAxisTickerFixed.html#a4aeef2d3eaa57ec56f422ab1f82175d2">QCPAxisTickerFixed::mTickStep</a></div><div class="ttdeci">double mTickStep</div><div class="ttdef"><b>Definition:</b> qcustomplot.h:1715</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a58df76f2ec3eb48401bdd314b0e14ba1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a58df76f2ec3eb48401bdd314b0e14ba1">&#9670;&nbsp;</a></span>tickStepStrategy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classQCPAxisTicker.html#ab6d2f9d9477821623ac9bc4b21ddf49a">TickStepStrategy</a> QCPAxisTicker::tickStepStrategy </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l01553"></a><span class="lineno"> 1553</span>&#160;{ <span class="keywordflow">return</span> <a class="code" href="classQCPAxisTicker.html#ac059d6d670b2f6132c593fb4de156701">mTickStepStrategy</a>; }</div><div class="ttc" id="classQCPAxisTicker_html_ac059d6d670b2f6132c593fb4de156701"><div class="ttname"><a href="classQCPAxisTicker.html#ac059d6d670b2f6132c593fb4de156701">QCPAxisTicker::mTickStepStrategy</a></div><div class="ttdeci">TickStepStrategy mTickStepStrategy</div><div class="ttdef"><b>Definition:</b> qcustomplot.h:1567</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ab28cc1ab549489be7975f5ce7e717916"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab28cc1ab549489be7975f5ce7e717916">&#9670;&nbsp;</a></span>trimTicks()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void QCPAxisTicker::trimTicks </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classQCPRange.html">QCPRange</a> &amp;&#160;</td>
+          <td class="paramname"><em>range</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QVector&lt; double &gt; &amp;&#160;</td>
+          <td class="paramname"><em>ticks</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>keepOneOutlier</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l05748"></a><span class="lineno"> 5748</span>&#160;{</div><div class="line"><a name="l05749"></a><span class="lineno"> 5749</span>&#160;  <span class="keywordtype">bool</span> lowFound = <span class="keyword">false</span>;</div><div class="line"><a name="l05750"></a><span class="lineno"> 5750</span>&#160;  <span class="keywordtype">bool</span> highFound = <span class="keyword">false</span>;</div><div class="line"><a name="l05751"></a><span class="lineno"> 5751</span>&#160;  <span class="keywordtype">int</span> lowIndex = 0;</div><div class="line"><a name="l05752"></a><span class="lineno"> 5752</span>&#160;  <span class="keywordtype">int</span> highIndex = -1;</div><div class="line"><a name="l05753"></a><span class="lineno"> 5753</span>&#160;  </div><div class="line"><a name="l05754"></a><span class="lineno"> 5754</span>&#160;  <span class="keywordflow">for</span> (<span class="keywordtype">int</span> <a class="code" href="mainwindow_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a>=0; <a class="code" href="mainwindow_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a> &lt; ticks.size(); ++<a class="code" href="mainwindow_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a>)</div><div class="line"><a name="l05755"></a><span class="lineno"> 5755</span>&#160;  {</div><div class="line"><a name="l05756"></a><span class="lineno"> 5756</span>&#160;    <span class="keywordflow">if</span> (ticks.at(<a class="code" href="mainwindow_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a>) &gt;= range.<a class="code" href="classQCPRange.html#aa3aca3edb14f7ca0c85d912647b91745">lower</a>)</div><div class="line"><a name="l05757"></a><span class="lineno"> 5757</span>&#160;    {</div><div class="line"><a name="l05758"></a><span class="lineno"> 5758</span>&#160;      lowFound = <span class="keyword">true</span>;</div><div class="line"><a name="l05759"></a><span class="lineno"> 5759</span>&#160;      lowIndex = <a class="code" href="mainwindow_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a>;</div><div class="line"><a name="l05760"></a><span class="lineno"> 5760</span>&#160;      <span class="keywordflow">break</span>;</div><div class="line"><a name="l05761"></a><span class="lineno"> 5761</span>&#160;    }</div><div class="line"><a name="l05762"></a><span class="lineno"> 5762</span>&#160;  }</div><div class="line"><a name="l05763"></a><span class="lineno"> 5763</span>&#160;  <span class="keywordflow">for</span> (<span class="keywordtype">int</span> <a class="code" href="mainwindow_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a>=ticks.size()-1; <a class="code" href="mainwindow_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a> &gt;= 0; --<a class="code" href="mainwindow_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a>)</div><div class="line"><a name="l05764"></a><span class="lineno"> 5764</span>&#160;  {</div><div class="line"><a name="l05765"></a><span class="lineno"> 5765</span>&#160;    <span class="keywordflow">if</span> (ticks.at(<a class="code" href="mainwindow_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a>) &lt;= range.<a class="code" href="classQCPRange.html#ae44eb3aafe1d0e2ed34b499b6d2e074f">upper</a>)</div><div class="line"><a name="l05766"></a><span class="lineno"> 5766</span>&#160;    {</div><div class="line"><a name="l05767"></a><span class="lineno"> 5767</span>&#160;      highFound = <span class="keyword">true</span>;</div><div class="line"><a name="l05768"></a><span class="lineno"> 5768</span>&#160;      highIndex = <a class="code" href="mainwindow_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a>;</div><div class="line"><a name="l05769"></a><span class="lineno"> 5769</span>&#160;      <span class="keywordflow">break</span>;</div><div class="line"><a name="l05770"></a><span class="lineno"> 5770</span>&#160;    }</div><div class="line"><a name="l05771"></a><span class="lineno"> 5771</span>&#160;  }</div><div class="line"><a name="l05772"></a><span class="lineno"> 5772</span>&#160;  </div><div class="line"><a name="l05773"></a><span class="lineno"> 5773</span>&#160;  <span class="keywordflow">if</span> (highFound &amp;&amp; lowFound)</div><div class="line"><a name="l05774"></a><span class="lineno"> 5774</span>&#160;  {</div><div class="line"><a name="l05775"></a><span class="lineno"> 5775</span>&#160;    <span class="keywordtype">int</span> trimFront = qMax(0, lowIndex-(keepOneOutlier ? 1 : 0));</div><div class="line"><a name="l05776"></a><span class="lineno"> 5776</span>&#160;    <span class="keywordtype">int</span> trimBack = qMax(0, ticks.size()-(keepOneOutlier ? 2 : 1)-highIndex);</div><div class="line"><a name="l05777"></a><span class="lineno"> 5777</span>&#160;    <span class="keywordflow">if</span> (trimFront &gt; 0 || trimBack &gt; 0)</div><div class="line"><a name="l05778"></a><span class="lineno"> 5778</span>&#160;      ticks = ticks.mid(trimFront, ticks.size()-trimFront-trimBack);</div><div class="line"><a name="l05779"></a><span class="lineno"> 5779</span>&#160;  } <span class="keywordflow">else</span> <span class="comment">// all ticks are either all below or all above the range</span></div><div class="line"><a name="l05780"></a><span class="lineno"> 5780</span>&#160;    ticks.clear();</div><div class="line"><a name="l05781"></a><span class="lineno"> 5781</span>&#160;}</div><div class="ttc" id="mainwindow_8cpp_html_acb559820d9ca11295b4500f179ef6392"><div class="ttname"><a href="mainwindow_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a></div><div class="ttdeci">int i</div><div class="ttdef"><b>Definition:</b> mainwindow.cpp:15</div></div>
+<div class="ttc" id="classQCPRange_html_ae44eb3aafe1d0e2ed34b499b6d2e074f"><div class="ttname"><a href="classQCPRange.html#ae44eb3aafe1d0e2ed34b499b6d2e074f">QCPRange::upper</a></div><div class="ttdeci">double upper</div><div class="ttdef"><b>Definition:</b> qcustomplot.h:775</div></div>
+<div class="ttc" id="classQCPRange_html_aa3aca3edb14f7ca0c85d912647b91745"><div class="ttname"><a href="classQCPRange.html#aa3aca3edb14f7ca0c85d912647b91745">QCPRange::lower</a></div><div class="ttdeci">double lower</div><div class="ttdef"><b>Definition:</b> qcustomplot.h:775</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Atributos</h2>
+<a id="a61ead1590161769b0d36e09419e67b10"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a61ead1590161769b0d36e09419e67b10">&#9670;&nbsp;</a></span>mScaleStrategy</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classQCPAxisTickerFixed.html#a15b3d38b935d404b1311eb85cfb6a439">ScaleStrategy</a> QCPAxisTickerFixed::mScaleStrategy</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a14a35b47d1aad11b08d18ea0e25937b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a14a35b47d1aad11b08d18ea0e25937b8">&#9670;&nbsp;</a></span>mTickCount</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int QCPAxisTicker::mTickCount</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a560ef9347b1aa599a9bf0e2f29d3ec16"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a560ef9347b1aa599a9bf0e2f29d3ec16">&#9670;&nbsp;</a></span>mTickOrigin</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double QCPAxisTicker::mTickOrigin</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4aeef2d3eaa57ec56f422ab1f82175d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4aeef2d3eaa57ec56f422ab1f82175d2">&#9670;&nbsp;</a></span>mTickStep</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double QCPAxisTickerFixed::mTickStep</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac059d6d670b2f6132c593fb4de156701"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac059d6d670b2f6132c593fb4de156701">&#9670;&nbsp;</a></span>mTickStepStrategy</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classQCPAxisTicker.html#ab6d2f9d9477821623ac9bc4b21ddf49a">TickStepStrategy</a> QCPAxisTicker::mTickStepStrategy</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>A documentação para essa classe foi gerada a partir dos seguintes arquivos:<ul>
+<li><a class="el" href="">qcustomplot.h</a></li>
+<li><a class="el" href="">qcustomplot.cpp</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado por &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.14
+</small></address>
+</body>
+</html>

@@ -3,6 +3,11 @@
     <title>mainwindow.cpp File Reference</title>
     <programlisting>#include &quot;mainwindow.h&quot;</programlisting>
     <programlisting>#include &quot;ui_mainwindow.h&quot;</programlisting>
+    <programlisting>#include &lt;complex&gt;</programlisting>
+    <programlisting>#include &lt;vector&gt;</programlisting>
+    <programlisting>#include &quot;Classes_cirkt.h&quot;</programlisting>
+    <programlisting>#include &lt;ctgmath&gt;</programlisting>
+    <programlisting>#include &lt;QMessageBox&gt;</programlisting>
 <para>Include dependency diagram for mainwindow.cpp</para>
 <para>
     <figure>
@@ -25,8 +30,235 @@
         </mediaobject>
     </figure>
 </para>
+        <section>
+            <title>Variáveis</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>int <link linkend="mainwindow_8cpp_1a3753a1366fa67994c9b35cdac51ca33f">esc</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>int <link linkend="mainwindow_8cpp_1acb559820d9ca11295b4500f179ef6392">i</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>int <link linkend="mainwindow_8cpp_1a961800bf60ff693820efbf7f4bc72788">cont</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>char <link linkend="mainwindow_8cpp_1afd0fe5fdc0bbbe2f6d24f0c82dc5cd4c">comp</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>float <link linkend="mainwindow_8cpp_1ad0fae016647bf6b083c331ca152b50e1">A</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>float <link linkend="mainwindow_8cpp_1a8188fea1f6709096fe21a3ee084d00d0">B</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>float <link linkend="mainwindow_8cpp_1ad12b105c602c51bd04d7763f600688cc">C</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>float <link linkend="mainwindow_8cpp_1a9f617b4ebd9b59cdac29c77f13ace604">W</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>float <link linkend="mainwindow_8cpp_1a2f40aca023a28e5cf57a29305102fdba">valor</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>float <link linkend="mainwindow_8cpp_1aa216ae6715ac4feb0bb757fc71b68085">periodo</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>float <link linkend="mainwindow_8cpp_1a4c4b08e61e92b3da1ed512f4e006f34a">R</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>float <link linkend="mainwindow_8cpp_1a8f70b0c689d9470523b43581df979a93">Cap</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>float <link linkend="mainwindow_8cpp_1ab6100b60862fd12824ea97ac2e1f3d20">L</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double <link linkend="mainwindow_8cpp_1a87accd1af8e0aff4b818d891374f7cec">t</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double <link linkend="mainwindow_8cpp_1a6e59e74dc41d4900738d44c79df6ce14">saida</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double <link linkend="mainwindow_8cpp_1a4e9c22da29aeb5761741c78a4b65ab62">mod</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double <link linkend="mainwindow_8cpp_1a79dea7ed146af26ff4a0ba4bf5c83eee">angle</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>float <link linkend="mainwindow_8cpp_1a06ed4269b34924d748f2f77b17db7d21">real</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>float <link linkend="mainwindow_8cpp_1a296246e142cd713c6917affcad8ed258">img</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>complex&lt; double &gt; <link linkend="mainwindow_8cpp_1a36b92f6883c6c4870e316d5eb2cc9a3a">E1</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>complex&lt; double &gt; <link linkend="mainwindow_8cpp_1a945bbf35d5ccb8c87a98e5c153853539">s</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>complex&lt; double &gt; <link linkend="mainwindow_8cpp_1a970130c51c795257e151898a8dd20708">I</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>complex&lt; double &gt; <link linkend="mainwindow_8cpp_1a9921cecf47741b4e64953a6d792d5e3c">fasor</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QVector&lt; double &gt; <link linkend="mainwindow_8cpp_1a1be83d27e44c64318fc9390d43d33843">x_pts_E1</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QVector&lt; double &gt; <link linkend="mainwindow_8cpp_1a5fd08629a0fe283c1b7897069c7e1064">y_pts_E1</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QVector&lt; double &gt; <link linkend="mainwindow_8cpp_1ad1f50072f49395665aef88ae4c58c39a">x_pts_Ec</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QVector&lt; double &gt; <link linkend="mainwindow_8cpp_1a08ef6ed78edaa0eb768a7cc607044200">y_pts_Ec</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QVector&lt; double &gt; <link linkend="mainwindow_8cpp_1aac1d72e9b87f60351212a3a12d5be9fa">x_pts_Er</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QVector&lt; double &gt; <link linkend="mainwindow_8cpp_1a63ce7a8b0abad3f7ef627453082e21e0">y_pts_Er</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QVector&lt; double &gt; <link linkend="mainwindow_8cpp_1af458aeb7e071d2b7189fec1644bd7aae">x_pts_Ei</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QVector&lt; double &gt; <link linkend="mainwindow_8cpp_1a87f37a458f54e7614d60334ab1f9a6b7">y_pts_Ei</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double <link linkend="mainwindow_8cpp_1a31c17cc321db72d5ab448b71ea92792f">pi</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
     <simplesect>
-        <title>Detailed Description</title>
+        <title>Descrição detalhada</title>
     <para>Definition in file E:/IME/3 ano/Programação/Projeto 2018/Shilton_circuito_RLC/RLC_Serie/mainwindow.cpp</para>
     </simplesect>
 </section>

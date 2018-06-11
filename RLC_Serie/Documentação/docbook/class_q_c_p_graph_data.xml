@@ -27,7 +27,7 @@
     </figure>
 </para>
         <section>
-            <title>Public Attributes</title>
+            <title>Atributos Públicos</title>
             <para>
                 <itemizedlist>
                     <listitem>
@@ -118,7 +118,7 @@ double sortKey)</para>
 <para>Holds the data of one single data point for <link linkend="class_q_c_p_graph">QCPGraph</link>. </para>
     </simplesect>
         <simplesect>
-            <title>Detailed Description</title>
+            <title>Descrição detalhada</title>
 
 <para>The stored data is: <itemizedlist>
 <listitem>
@@ -130,7 +130,7 @@ double sortKey)</para>
 </itemizedlist>
 The container for storing multiple data points is <link linkend="qcustomplot_8h_1a2e5583d1ae212f0deb10537cf975a15a">QCPGraphDataContainer</link>. It is a typedef for <link linkend="class_q_c_p_data_container">QCPDataContainer</link> with <link linkend="class_q_c_p_graph_data">QCPGraphData</link> as the DataType template parameter. See the documentation there for an explanation regarding the data type&apos;s generic methods.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="qcustomplot_8h_1a2e5583d1ae212f0deb10537cf975a15a">QCPGraphDataContainer</link> </para>
 </formalpara>
@@ -140,7 +140,7 @@ The container for storing multiple data points is <link linkend="qcustomplot_8h_
                 <para><itemizedlist><listitem><para>qcustomplot.h</para></listitem></itemizedlist></para>
         </simplesect>
         <section>
-            <title>Member Data Documentation</title>
+            <title>Atributos</title>
         </section>
             <section xml:id="class_q_c_p_graph_data_1ac43f7499383d2fa2ffb7a4ad43f76c7c">
                 <title>QCPGraphData::QCPGraphData ()</title> <emphasis></emphasis>

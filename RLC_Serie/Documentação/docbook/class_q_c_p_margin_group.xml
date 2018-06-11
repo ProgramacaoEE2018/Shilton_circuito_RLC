@@ -27,7 +27,7 @@
     </figure>
 </para>
         <section>
-            <title>Protected Attributes</title>
+            <title>Atributos Protegidos</title>
             <para>
                 <itemizedlist>
                     <listitem>
@@ -127,7 +127,7 @@
 <para>A margin group allows synchronization of margin sides if working with multiple layout elements. </para>
     </simplesect>
         <simplesect>
-            <title>Detailed Description</title>
+            <title>Descrição detalhada</title>
 
 <para><link linkend="class_q_c_p_margin_group">QCPMarginGroup</link> allows you to tie a margin side of two or more layout elements together, such that they will all have the same size, based on the largest required margin in the group.</para>
 
@@ -150,7 +150,7 @@
                 <para><itemizedlist><listitem><para>qcustomplot.h</para></listitem></itemizedlist></para>
         </simplesect>
         <section>
-            <title>Member Data Documentation</title>
+            <title>Atributos</title>
         </section>
             <section xml:id="class_q_c_p_margin_group_1ac481c20678ec5b305d6df330715f4b7b">
                 <title>QCPMarginGroup::QCPMarginGroup (QCustomPlot *parentPlot)</title> <emphasis></emphasis>

@@ -43,7 +43,7 @@
             </para>
         </section>
         <section>
-            <title>Protected Attributes</title>
+            <title>Atributos Protegidos</title>
             <para>
                 <itemizedlist>
                     <listitem>
@@ -104,6 +104,48 @@
                 <itemizedlist>
                     <listitem>
                         <para>QCPItemAnchor * mParentAnchorY</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QString mName</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QCustomPlot * mParentPlot</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QCPAbstractItem * mParentItem</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>int mAnchorId</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QSet&lt; QCPItemPosition * &gt; mChildrenX</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QSet&lt; QCPItemPosition * &gt; mChildrenY</para>
                     </listitem>
                 </itemizedlist>
             </para>
@@ -318,6 +360,14 @@ const QPointF &amp; pixelPosition)</para>
                     </listitem>
                 </itemizedlist>
             </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>QString <link linkend="class_q_c_p_item_anchor_1aad37cdf5a3f63428f61be739014e212e">name</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
         </section>
         <section>
             <title></title>
@@ -329,13 +379,45 @@ const QPointF &amp; pixelPosition)</para>
                     </listitem>
                 </itemizedlist>
             </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_item_anchor_1aef15daa640debfb11b0aeaa2116c6fbc">addChildX</link> (
+<link linkend="class_q_c_p_item_position">QCPItemPosition</link> * pos)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_item_anchor_1a230b1d494cda63458e289bbe1b642599">removeChildX</link> (
+<link linkend="class_q_c_p_item_position">QCPItemPosition</link> * pos)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_item_anchor_1af05dc56f24536f0c7a9a0f57b58cea67">addChildY</link> (
+<link linkend="class_q_c_p_item_position">QCPItemPosition</link> * pos)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_q_c_p_item_anchor_1aa2394911d8fff3bd958b9f4f1994b64d">removeChildY</link> (
+<link linkend="class_q_c_p_item_position">QCPItemPosition</link> * pos)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
         </section>
     <simplesect>
 
 <para>Manages the position of an item. </para>
     </simplesect>
         <simplesect>
-            <title>Detailed Description</title>
+            <title>Descrição detalhada</title>
 
 <para>Every item has at least one public <link linkend="class_q_c_p_item_position">QCPItemPosition</link> member pointer which provides ways to position the item on the <link linkend="class_q_custom_plot">QCustomPlot</link> surface. Some items have multiple positions, for example <link linkend="class_q_c_p_item_rect">QCPItemRect</link> has two: <emphasis>topLeft</emphasis> and <emphasis>bottomRight</emphasis>.</para>
 
@@ -355,14 +437,14 @@ const QPointF &amp; pixelPosition)</para>
                
 <para>Defines the ways an item position can be specified. Thus it defines what the numbers passed to <link linkend="class_q_c_p_item_position_1aa988ba4e87ab684c9021017dcaba945f">setCoords</link> actually mean.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_c_p_item_position_1aa476abf71ed8fa4c537457ebb1a754ad">setType</link> </para>
 </formalpara>
 </para>
 
                <formalpara>
-                    <title>Enumerator:</title>
+                    <title>Enumeradores:</title>
                     <variablelist>
                         <varlistentry xml:id="class_q_c_p_item_position_1aad9936c22bf43e3d358552f6e86dbdc8a564f5e53e550ead1ec5fc7fc7d0b73e0">
                             <term>ptAbsolute</term>
@@ -402,7 +484,7 @@ ptPlotCoords,
                 </para>
             </section>
         <section>
-            <title>Member Data Documentation</title>
+            <title>Atributos</title>
         </section>
             <section xml:id="class_q_c_p_item_position_1a6519a552bd9766354644ec24d1f26622">
                 <title>QCPItemPosition::QCPItemPosition (QCustomPlot *parentPlot, QCPAbstractItem *parentItem, const QString &amp;name)</title> <emphasis></emphasis>
@@ -421,7 +503,7 @@ ptPlotCoords,
 
 <para>If different types were set for X and Y (<link linkend="class_q_c_p_item_position_1a2113b2351d6d00457fb3559a4e20c3ea">setTypeX</link>, <link linkend="class_q_c_p_item_position_1ac2a454aa5a54c1615c50686601ec4510">setTypeY</link>), this method returns the type of the X coordinate. In that case rather use <emphasis><link linkend="class_q_c_p_item_position_1a1415911868835701c04250566bfc681d">typeX()</link></emphasis> and <emphasis><link linkend="class_q_c_p_item_position_1ae47bac6f679c58f9e1c78dc63d56f331">typeY()</link></emphasis>.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_c_p_item_position_1aa476abf71ed8fa4c537457ebb1a754ad">setType</link> </para>
 </formalpara>
@@ -443,7 +525,7 @@ ptPlotCoords,
 
 <para>If different parent anchors were set for X and Y (<link linkend="class_q_c_p_item_position_1add71461a973927c74e42179480916d9c">setParentAnchorX</link>, <link linkend="class_q_c_p_item_position_1add5ec1db9d19cec58a3b5c9e0a0c3f9d">setParentAnchorY</link>), this method returns the parent anchor of the Y coordinate. In that case rather use <emphasis><link linkend="class_q_c_p_item_position_1a605cb8b2cf6044d3d03cb1a894faf98a">parentAnchorX()</link></emphasis> and <emphasis><link linkend="class_q_c_p_item_position_1aa40afec791a4339b09572922ca425ec2">parentAnchorY()</link></emphasis>.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_c_p_item_position_1ac094d67a95d2dceafa0d50b9db3a7e51">setParentAnchor</link> </para>
 </formalpara>
@@ -487,7 +569,7 @@ ptPlotCoords,
                 
 <para>Returns the final absolute pixel position of the <link linkend="class_q_c_p_item_position">QCPItemPosition</link> on the <link linkend="class_q_custom_plot">QCustomPlot</link> surface. It includes all effects of type (<link linkend="class_q_c_p_item_position_1aa476abf71ed8fa4c537457ebb1a754ad">setType</link>) and possible parent anchors (<link linkend="class_q_c_p_item_position_1ac094d67a95d2dceafa0d50b9db3a7e51">setParentAnchor</link>).</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_c_p_item_position_1a8d4f858f2089973967cf9cb81970ef0a">setPixelPosition</link> </para>
 </formalpara>
@@ -525,7 +607,7 @@ Note that the position type <link linkend="class_q_c_p_item_position_1aad9936c22
 
 <para>For a detailed description of what a position type is, see the documentation of <link linkend="class_q_c_p_item_position_1aa476abf71ed8fa4c537457ebb1a754ad">setType</link>.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_c_p_item_position_1aa476abf71ed8fa4c537457ebb1a754ad">setType</link>, <link linkend="class_q_c_p_item_position_1ac2a454aa5a54c1615c50686601ec4510">setTypeY</link> </para>
 </formalpara>
@@ -539,7 +621,7 @@ Note that the position type <link linkend="class_q_c_p_item_position_1aad9936c22
 
 <para>For a detailed description of what a position type is, see the documentation of <link linkend="class_q_c_p_item_position_1aa476abf71ed8fa4c537457ebb1a754ad">setType</link>.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_c_p_item_position_1aa476abf71ed8fa4c537457ebb1a754ad">setType</link>, <link linkend="class_q_c_p_item_position_1a2113b2351d6d00457fb3559a4e20c3ea">setTypeX</link> </para>
 </formalpara>
@@ -567,7 +649,7 @@ Note that the position type <link linkend="class_q_c_p_item_position_1aad9936c22
 
 <para>For a detailed description of what a parent anchor is, see the documentation of <link linkend="class_q_c_p_item_position_1ac094d67a95d2dceafa0d50b9db3a7e51">setParentAnchor</link>.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_c_p_item_position_1ac094d67a95d2dceafa0d50b9db3a7e51">setParentAnchor</link>, <link linkend="class_q_c_p_item_position_1add5ec1db9d19cec58a3b5c9e0a0c3f9d">setParentAnchorY</link> </para>
 </formalpara>
@@ -581,7 +663,7 @@ Note that the position type <link linkend="class_q_c_p_item_position_1aad9936c22
 
 <para>For a detailed description of what a parent anchor is, see the documentation of <link linkend="class_q_c_p_item_position_1ac094d67a95d2dceafa0d50b9db3a7e51">setParentAnchor</link>.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_c_p_item_position_1ac094d67a95d2dceafa0d50b9db3a7e51">setParentAnchor</link>, <link linkend="class_q_c_p_item_position_1add71461a973927c74e42179480916d9c">setParentAnchorX</link> </para>
 </formalpara>
@@ -597,7 +679,7 @@ Note that the position type <link linkend="class_q_c_p_item_position_1aad9936c22
 
 <para>If different types were configured for X and Y (<link linkend="class_q_c_p_item_position_1a2113b2351d6d00457fb3559a4e20c3ea">setTypeX</link>, <link linkend="class_q_c_p_item_position_1ac2a454aa5a54c1615c50686601ec4510">setTypeY</link>), <emphasis>key</emphasis> and <emphasis>value</emphasis> must also be provided in the different coordinate systems. Here, the X type refers to <emphasis>key</emphasis>, and the Y type refers to <emphasis>value</emphasis>.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_c_p_item_position_1a8d4f858f2089973967cf9cb81970ef0a">setPixelPosition</link> </para>
 </formalpara>
@@ -607,7 +689,7 @@ Note that the position type <link linkend="class_q_c_p_item_position_1aad9936c22
             <section xml:id="class_q_c_p_item_position_1acc70b3abc143287f806e5f154e5e07b0">
                 <title>void QCPItemPosition::setCoords (const QPointF &amp;coords)</title> <emphasis></emphasis>
                 
-<para>This is an overloaded member function, provided for convenience. It differs from the above function only in what argument(s) it accepts.</para>
+<para>Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.</para>
 
 <para>Sets the coordinates as a QPointF <emphasis>pos</emphasis> where pos.x has the meaning of <emphasis>key</emphasis> and pos.y the meaning of <emphasis>value</emphasis> of the <link linkend="class_q_c_p_item_position_1aa988ba4e87ab684c9021017dcaba945f">setCoords(double key, double value)</link> method. </para>
 
@@ -631,12 +713,16 @@ Note that the position type <link linkend="class_q_c_p_item_position_1aad9936c22
 
 <para>Only if the type is <link linkend="class_q_c_p_item_position_1aad9936c22bf43e3d358552f6e86dbdc8a564f5e53e550ead1ec5fc7fc7d0b73e0">ptAbsolute</link> and no parent anchor is set, this function&apos;s effect is identical to that of <link linkend="class_q_c_p_item_position_1aa988ba4e87ab684c9021017dcaba945f">setCoords</link>.</para>
 
-<para><formalpara><title>See also: </title>
+<para><formalpara><title>Veja também: </title>
 
 <para><link linkend="class_q_c_p_item_position_1a8be9a4787635433edecc75164beb748d">pixelPosition</link>, <link linkend="class_q_c_p_item_position_1aa988ba4e87ab684c9021017dcaba945f">setCoords</link> </para>
 </formalpara>
 </para>
 
+            </section>
+            <section xml:id="class_q_c_p_item_anchor_1aad37cdf5a3f63428f61be739014e212e">
+                <title>QString QCPItemAnchor::name () const</title> <emphasis></emphasis>
+                
             </section>
             <section xml:id="class_q_c_p_item_position_1a008ff9ebe645a963671b68bcf7f7a1c0">
                 <title>virtual QCPItemPosition* QCPItemPosition::toQCPItemPosition () Q_DECL_OVERRIDE</title> <emphasis></emphasis>
@@ -645,5 +731,21 @@ Note that the position type <link linkend="class_q_c_p_item_position_1aad9936c22
 
 <para>This safe downcast functionality could also be achieved with a dynamic_cast. However, <link linkend="class_q_custom_plot">QCustomPlot</link> avoids dynamic_cast to work with projects that don&apos;t have RTTI support enabled (e.g. -fno-rtti flag with gcc compiler). </para>
 
+            </section>
+            <section xml:id="class_q_c_p_item_anchor_1aef15daa640debfb11b0aeaa2116c6fbc">
+                <title>void QCPItemAnchor::addChildX (QCPItemPosition *pos)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_item_anchor_1a230b1d494cda63458e289bbe1b642599">
+                <title>void QCPItemAnchor::removeChildX (QCPItemPosition *pos)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_item_anchor_1af05dc56f24536f0c7a9a0f57b58cea67">
+                <title>void QCPItemAnchor::addChildY (QCPItemPosition *pos)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_q_c_p_item_anchor_1aa2394911d8fff3bd958b9f4f1994b64d">
+                <title>void QCPItemAnchor::removeChildY (QCPItemPosition *pos)</title> <emphasis></emphasis>
+                
             </section>
 </section>
