@@ -21,7 +21,7 @@ complex<double> E1,s,I,fasor;
 QVector<double> x_pts_E1,y_pts_E1,x_pts_Ec,y_pts_Ec,x_pts_Er,y_pts_Er,x_pts_Ei,y_pts_Ei ;
 double pi = 3.14159265359;
 
-MainWindow::RLC_Serie(QWidget *parent) :
+MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
     ui(new Ui::MainWindow)
 {
