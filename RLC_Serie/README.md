@@ -16,3 +16,9 @@ Motivaçao:
 
 Fluxograma:
 	ver arquivo "Shilton_RLC série - Fluxograma.jpeg"
+	
+Instrucao de compilacao:
+	ver arquivo "INSTRUCOES DE COMPILACAO.rtf"
+	
+Instrucao de uso:
+	ver arquivo "INSTRUÇÕES DE USO.rtf"
