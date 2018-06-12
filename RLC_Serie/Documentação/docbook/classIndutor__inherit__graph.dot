@@ -2,5 +2,5 @@ digraph "Indutor"
 {
   edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
   node [fontname="Helvetica",fontsize="10",shape=record];
-  Node8 [label="{Indutor\n|- indutancia\l- imp\l|+ Indutor()\l+ set_imp()\l+ get_indutor()\l+ get_imp()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node4 [label="{Indutor\n|- indutancia\l- imp\l|+ Indutor()\l+ set_imp()\l+ get_indutor()\l+ get_imp()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
 }

@@ -12,15 +12,4 @@
         </mediaobject>
     </figure>
 </para>
-<para>Collaboration diagram for QObject</para>
-<para>
-    <figure>
-        <title>Collaboration graph</title>
-        <mediaobject>
-            <imageobject>
-                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="classQObject__coll__graph.png"></imagedata>
-            </imageobject>
-        </mediaobject>
-    </figure>
-</para>
 </section>

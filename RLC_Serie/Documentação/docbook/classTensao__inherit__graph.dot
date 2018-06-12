@@ -2,5 +2,5 @@ digraph "Tensao"
 {
   edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
   node [fontname="Helvetica",fontsize="10",shape=record];
-  Node1283 [label="{Tensao\n|- valor\l|+ Tensao()\l+ get_valor()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node366 [label="{Tensao\n|- valor\l|+ Tensao()\l+ get_valor()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
 }

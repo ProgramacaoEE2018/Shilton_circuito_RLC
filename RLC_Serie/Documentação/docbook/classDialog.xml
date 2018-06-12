@@ -15,17 +15,6 @@
         </mediaobject>
     </figure>
 </para>
-<para>Collaboration diagram for Dialog</para>
-<para>
-    <figure>
-        <title>Collaboration graph</title>
-        <mediaobject>
-            <imageobject>
-                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="classDialog__coll__graph.png"></imagedata>
-            </imageobject>
-        </mediaobject>
-    </figure>
-</para>
         <section>
             <title>Atributos Privados</title>
             <para>

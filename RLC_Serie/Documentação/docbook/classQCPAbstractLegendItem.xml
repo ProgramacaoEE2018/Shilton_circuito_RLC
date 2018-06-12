@@ -15,17 +15,6 @@
         </mediaobject>
     </figure>
 </para>
-<para>Collaboration diagram for QCPAbstractLegendItem</para>
-<para>
-    <figure>
-        <title>Collaboration graph</title>
-        <mediaobject>
-            <imageobject>
-                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="classQCPAbstractLegendItem__coll__graph.png"></imagedata>
-            </imageobject>
-        </mediaobject>
-    </figure>
-</para>
         <section>
             <title>Atributos Protegidos</title>
             <para>
