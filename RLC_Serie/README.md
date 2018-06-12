@@ -4,19 +4,15 @@
 Objetivo:
 	plotar a resposta de um circuito RLC série 
 
-Objetivo secundário:
-	analisar sua estabilidade do circuito,bem como subamortecimento e superamortecimento do sinal
 	
 Entrada: 
-	os componentes com seus valores e a e o tipo de fonte com seus parametros
+	os componentes com seus valores, parametros da fonte e tempo de amostragem
 	
 Saída: 
 	grafico com sinal de tensões do circuito
 
+Motivaçao:
+	realizar uma análise rápida do comportamento do circuito RLC, mediante um sinal de entrada definido
 
-Atualizar:
-motivaçao
-fluxograma
-instruçoes de uso
-instruçoes de compilacao
-problemas comuns
+Fluxograma:
+	ver arquivo "Shilton_RLC série - Fluxograma.jpeg"
