@@ -1,8 +1,0 @@
-<map id="main" name="main">
-<area shape="rect" id="node2" href="$class_resistor.html#ad9ec62a683dcde2f04f38715c2b56842" title="Resistor::set_imp" alt="" coords="107,5,231,32"/>
-<area shape="rect" id="node3" href="$class_indutor.html#a79fb9e12d1f2d5242d0914c1569bde3f" title="Indutor::set_imp" alt="" coords="112,56,227,83"/>
-<area shape="rect" id="node4" href="$class_capacitor.html#aabcc01b86080c8b5c8e1e5cee2d1e3d5" title="Capacitor::set_imp" alt="" coords="104,107,235,133"/>
-<area shape="rect" id="node5" href="$class_resistor.html#a5e0e4cf49f3ea0bbc4f735107a6f3b2c" title="Resistor::get_imp" alt="" coords="107,157,231,184"/>
-<area shape="rect" id="node6" href="$class_capacitor.html#a6d6eb66f0170306d56944a6be5d55a13" title="Capacitor::get_imp" alt="" coords="104,208,235,235"/>
-<area shape="rect" id="node7" href="$class_indutor.html#a699b71c3ce697c2b15e5fee01c974cd9" title="Indutor::get_imp" alt="" coords="112,259,227,285"/>
-</map>
