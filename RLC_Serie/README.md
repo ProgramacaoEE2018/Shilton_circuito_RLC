@@ -1,9 +1,10 @@
 # Shilton_circuito_RLC
 
-
+Descrição:
+	o programa imprime a tensao no tempo em cada componente de um circuito RLC em série, conforme parâmetros inseridos pelo usuário
+	
 Objetivo:
 	plotar a resposta de um circuito RLC série 
-
 	
 Entrada: 
 	os componentes com seus valores, parametros da fonte e tempo de amostragem

@@ -9,6 +9,14 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+  $(document).ready(initResizable);
+/* @license-end */</script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -22,9 +30,9 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">RLC_Serie
-   &#160;<span id="projectnumber">v1.1</span>
+   &#160;<span id="projectnumber">v1.2</span>
    </div>
-   <div id="projectbrief">Plotagem de Respostas do Circuito RLC em Série</div>
+   <div id="projectbrief">Plotagem de Respostas do Circuito RLC em Série - o programa imprime a tensao no tempo em cada componente de um circuito RLC em série, conforme parâmetros inseridos pelo usuário</div>
   </td>
  </tr>
  </tbody>
@@ -48,6 +56,22 @@ $(function() {
 /* @license-end */</script>
 <div id="main-nav"></div>
 </div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('hierarchy.html','');});
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -70,44 +94,49 @@ $(function() {
 <div class="textblock">
 <p><a href="hierarchy.html">Vá para a hierarquia de classes (texto)</a></p>
 </div><table border="0" cellspacing="10" cellpadding="0">
-<tr><td><img src="inherit_graph_0.png" border="0" alt="" usemap="#Capacitor"/>
-<map name="Capacitor" id="Capacitor">
+<tr><td><img src="inherit_graph_0.png" border="0" alt="" usemap="#_capacitor"/>
+<map name="_capacitor" id="_capacitor">
 <area shape="rect" id="node1" href="class_capacitor.html" title="Capacitor" alt="" coords="5,5,83,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_1.png" border="0" alt="" usemap="#Dialog"/>
-<map name="Dialog" id="Dialog">
+<tr><td><img src="inherit_graph_1.png" border="0" alt="" usemap="#_dialog"/>
+<map name="_dialog" id="_dialog">
+<area shape="rect" id="node2" href="class_dialog.html" title="Dialog" alt="" coords="121,5,180,32"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_2.png" border="0" alt="" usemap="#_indutor"/>
+<map name="_indutor" id="_indutor">
 <area shape="rect" id="node1" href="class_indutor.html" title="Indutor" alt="" coords="5,5,67,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_2.png" border="0" alt="" usemap="#Indutor"/>
-<map name="Indutor" id="Indutor">
+<tr><td><img src="inherit_graph_3.png" border="0" alt="" usemap="#_main_window"/>
+<map name="_main_window" id="_main_window">
 <area shape="rect" id="node2" href="class_main_window.html" title="MainWindow" alt="" coords="160,5,256,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_3.png" border="0" alt="" usemap="#MainWindow"/>
-<map name="MainWindow" id="MainWindow">
+<tr><td><img src="inherit_graph_4.png" border="0" alt="" usemap="#_q_c_p_abstract_paint_buffer"/>
+<map name="_q_c_p_abstract_paint_buffer" id="_q_c_p_abstract_paint_buffer">
 <area shape="rect" id="node1" href="class_q_c_p_abstract_paint_buffer.html" title="The abstract base class for paint buffers, which define the rendering backend. " alt="" coords="5,5,168,32"/>
 <area shape="rect" id="node2" href="class_q_c_p_paint_buffer_pixmap.html" title="A paint buffer based on QPixmap, using software raster rendering. " alt="" coords="216,5,373,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_4.png" border="0" alt="" usemap="#QCPAbstractPaintBuffer"/>
-<map name="QCPAbstractPaintBuffer" id="QCPAbstractPaintBuffer">
-<area shape="rect" id="node1" href="class_q_c_p_axis_painter_private.html" title="QCPAxisPainterPrivate" alt="" coords="5,5,161,32"/>
+<tr><td><img src="inherit_graph_5.png" border="0" alt="" usemap="#_q_c_p_axis_painter_private"/>
+<map name="_q_c_p_axis_painter_private" id="_q_c_p_axis_painter_private">
+<area shape="rect" id="node1" href="class_q_c_p_axis_painter_private.html" title="(Private) " alt="" coords="5,5,161,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_5.png" border="0" alt="" usemap="#QCPAxisPainterPrivate"/>
-<map name="QCPAxisPainterPrivate" id="QCPAxisPainterPrivate">
+<tr><td><img src="inherit_graph_6.png" border="0" alt="" usemap="#_q_c_p_axis_painter_private_1_1_cached_label"/>
+<map name="_q_c_p_axis_painter_private_1_1_cached_label" id="_q_c_p_axis_painter_private_1_1_cached_label">
 <area shape="rect" id="node1" href="struct_q_c_p_axis_painter_private_1_1_cached_label.html" title="QCPAxisPainterPrivate\l::CachedLabel" alt="" coords="5,5,161,47"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_6.png" border="0" alt="" usemap="#QCPAxisPainterPrivate_1_1CachedLabel"/>
-<map name="QCPAxisPainterPrivate_1_1CachedLabel" id="QCPAxisPainterPrivate_1_1CachedLabel">
+<tr><td><img src="inherit_graph_7.png" border="0" alt="" usemap="#_q_c_p_axis_painter_private_1_1_tick_label_data"/>
+<map name="_q_c_p_axis_painter_private_1_1_tick_label_data" id="_q_c_p_axis_painter_private_1_1_tick_label_data">
 <area shape="rect" id="node1" href="struct_q_c_p_axis_painter_private_1_1_tick_label_data.html" title="QCPAxisPainterPrivate\l::TickLabelData" alt="" coords="5,5,161,47"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_7.png" border="0" alt="" usemap="#QCPAxisPainterPrivate_1_1TickLabelData"/>
-<map name="QCPAxisPainterPrivate_1_1TickLabelData" id="QCPAxisPainterPrivate_1_1TickLabelData">
+<tr><td><img src="inherit_graph_8.png" border="0" alt="" usemap="#_q_c_p_axis_ticker"/>
+<map name="_q_c_p_axis_ticker" id="_q_c_p_axis_ticker">
 <area shape="rect" id="node1" href="class_q_c_p_axis_ticker.html" title="The base class tick generator used by QCPAxis to create tick positions and tick labels. " alt="" coords="5,132,116,159"/>
 <area shape="rect" id="node2" href="class_q_c_p_axis_ticker_date_time.html" title="Specialized axis ticker for calendar dates and times as axis ticks. " alt="" coords="164,5,331,32"/>
 <area shape="rect" id="node3" href="class_q_c_p_axis_ticker_fixed.html" title="Specialized axis ticker with a fixed tick step. " alt="" coords="176,56,319,83"/>
@@ -117,13 +146,13 @@ $(function() {
 <area shape="rect" id="node7" href="class_q_c_p_axis_ticker_time.html" title="Specialized axis ticker for time spans in units of milliseconds to days. " alt="" coords="178,259,317,285"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_8.png" border="0" alt="" usemap="#QCPAxisTicker"/>
-<map name="QCPAxisTicker" id="QCPAxisTicker">
+<tr><td><img src="inherit_graph_9.png" border="0" alt="" usemap="#_q_c_p_bars_data"/>
+<map name="_q_c_p_bars_data" id="_q_c_p_bars_data">
 <area shape="rect" id="node1" href="class_q_c_p_bars_data.html" title="Holds the data of one single data point (one bar) for QCPBars. " alt="" coords="5,5,109,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_9.png" border="0" alt="" usemap="#QCPBarsData"/>
-<map name="QCPBarsData" id="QCPBarsData">
+<tr><td><img src="inherit_graph_10.png" border="0" alt="" usemap="#_q_c_p_bars_group"/>
+<map name="_q_c_p_bars_group" id="_q_c_p_bars_group">
 <area shape="rect" id="node1" href="class_q_c_p_plottable_interface1_d.html" title="Defines an abstract interface for one&#45;dimensional plottables. " alt="" coords="296,413,463,440"/>
 <area shape="rect" id="node2" href="class_q_c_p_abstract_plottable1_d.html" title="A template base class for plottables with one&#45;dimensional data. " alt="" coords="519,507,685,549"/>
 <area shape="rect" id="node3" href="class_q_c_p_abstract_plottable1_d.html" title="QCPAbstractPlottable1D\l\&lt; QCPBarsData \&gt;" alt="" coords="519,638,685,679"/>
@@ -163,124 +192,124 @@ $(function() {
 <area shape="rect" id="node38" href="class_q_c_p_layout.html" title="The abstract base class for layouts. " alt="" coords="557,208,647,235"/>
 <area shape="rect" id="node42" href="class_q_c_p_text_element.html" title="A layout element displaying a text. " alt="" coords="541,5,663,32"/>
 <area shape="rect" id="node34" href="class_q_c_p_plottable_legend_item.html" title="A legend item representing a plottable with an icon and the plottable name. " alt="" coords="760,56,928,83"/>
-<area shape="rect" id="node36" href="class_q_c_p_color_scale_axis_rect_private.html" title="QCPColorScaleAxisRectPrivate" alt="" coords="741,107,947,133"/>
+<area shape="rect" id="node36" href="class_q_c_p_color_scale_axis_rect_private.html" title="An axis rect subclass for use in a QCPColorScale. " alt="" coords="741,107,947,133"/>
 <area shape="rect" id="node39" href="class_q_c_p_layout_grid.html" title="A layout that arranges child elements in a grid. " alt="" coords="787,212,901,239"/>
 <area shape="rect" id="node41" href="class_q_c_p_layout_inset.html" title="A layout that places child elements aligned to the border or arbitrarily positioned. " alt="" coords="785,161,903,188"/>
 <area shape="rect" id="node40" href="class_q_c_p_legend.html" title="Manages a legend inside a QCustomPlot. " alt="" coords="995,212,1087,239"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_10.png" border="0" alt="" usemap="#QCPBarsGroup"/>
-<map name="QCPBarsGroup" id="QCPBarsGroup">
+<tr><td><img src="inherit_graph_11.png" border="0" alt="" usemap="#_q_c_p_color_gradient"/>
+<map name="_q_c_p_color_gradient" id="_q_c_p_color_gradient">
 <area shape="rect" id="node1" href="class_q_c_p_color_gradient.html" title="Defines a color gradient for use with e.g. QCPColorMap. " alt="" coords="5,5,135,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_11.png" border="0" alt="" usemap="#QCPColorGradient"/>
-<map name="QCPColorGradient" id="QCPColorGradient">
+<tr><td><img src="inherit_graph_12.png" border="0" alt="" usemap="#_q_c_p_color_map_data"/>
+<map name="_q_c_p_color_map_data" id="_q_c_p_color_map_data">
 <area shape="rect" id="node1" href="class_q_c_p_color_map_data.html" title="Holds the two&#45;dimensional data of a QCPColorMap plottable. " alt="" coords="5,5,137,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_12.png" border="0" alt="" usemap="#QCPColorMapData"/>
-<map name="QCPColorMapData" id="QCPColorMapData">
+<tr><td><img src="inherit_graph_13.png" border="0" alt="" usemap="#_q_c_p_curve_data"/>
+<map name="_q_c_p_curve_data" id="_q_c_p_curve_data">
 <area shape="rect" id="node1" href="class_q_c_p_curve_data.html" title="Holds the data of one single data point for QCPCurve. " alt="" coords="5,5,115,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_13.png" border="0" alt="" usemap="#QCPCurveData"/>
-<map name="QCPCurveData" id="QCPCurveData">
+<tr><td><img src="inherit_graph_14.png" border="0" alt="" usemap="#_q_c_p_data_container_3_01_data_type_01_4"/>
+<map name="_q_c_p_data_container_3_01_data_type_01_4" id="_q_c_p_data_container_3_01_data_type_01_4">
 <area shape="rect" id="node1" href="class_q_c_p_data_container.html" title="The generic data container for one&#45;dimensional plottables. " alt="" coords="5,5,216,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_14.png" border="0" alt="" usemap="#QCPDataContainer_3_01DataType_01_4"/>
-<map name="QCPDataContainer_3_01DataType_01_4" id="QCPDataContainer_3_01DataType_01_4">
+<tr><td><img src="inherit_graph_15.png" border="0" alt="" usemap="#_q_c_p_data_range"/>
+<map name="_q_c_p_data_range" id="_q_c_p_data_range">
 <area shape="rect" id="node1" href="class_q_c_p_data_range.html" title="Describes a data range given by begin and end index. " alt="" coords="5,5,120,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_15.png" border="0" alt="" usemap="#QCPDataRange"/>
-<map name="QCPDataRange" id="QCPDataRange">
+<tr><td><img src="inherit_graph_16.png" border="0" alt="" usemap="#_q_c_p_data_selection"/>
+<map name="_q_c_p_data_selection" id="_q_c_p_data_selection">
 <area shape="rect" id="node1" href="class_q_c_p_data_selection.html" title="Describes a data set by holding multiple QCPDataRange instances. " alt="" coords="5,5,136,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_16.png" border="0" alt="" usemap="#QCPDataSelection"/>
-<map name="QCPDataSelection" id="QCPDataSelection">
+<tr><td><img src="inherit_graph_17.png" border="0" alt="" usemap="#_q_c_p_error_bars_data"/>
+<map name="_q_c_p_error_bars_data" id="_q_c_p_error_bars_data">
 <area shape="rect" id="node1" href="class_q_c_p_error_bars_data.html" title="Holds the data of one single error bar for QCPErrorBars. " alt="" coords="5,5,137,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_17.png" border="0" alt="" usemap="#QCPErrorBarsData"/>
-<map name="QCPErrorBarsData" id="QCPErrorBarsData">
+<tr><td><img src="inherit_graph_18.png" border="0" alt="" usemap="#_q_c_p_financial_data"/>
+<map name="_q_c_p_financial_data" id="_q_c_p_financial_data">
 <area shape="rect" id="node1" href="class_q_c_p_financial_data.html" title="Holds the data of one single data point for QCPFinancial. " alt="" coords="5,5,135,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_18.png" border="0" alt="" usemap="#QCPFinancialData"/>
-<map name="QCPFinancialData" id="QCPFinancialData">
+<tr><td><img src="inherit_graph_19.png" border="0" alt="" usemap="#_q_c_p_graph_data"/>
+<map name="_q_c_p_graph_data" id="_q_c_p_graph_data">
 <area shape="rect" id="node1" href="class_q_c_p_graph_data.html" title="Holds the data of one single data point for QCPGraph. " alt="" coords="5,5,117,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_19.png" border="0" alt="" usemap="#QCPGraphData"/>
-<map name="QCPGraphData" id="QCPGraphData">
+<tr><td><img src="inherit_graph_20.png" border="0" alt="" usemap="#_q_c_p_item_anchor"/>
+<map name="_q_c_p_item_anchor" id="_q_c_p_item_anchor">
 <area shape="rect" id="node1" href="class_q_c_p_item_anchor.html" title="An anchor of an item to which positions can be attached to. " alt="" coords="5,5,121,32"/>
 <area shape="rect" id="node2" href="class_q_c_p_item_position.html" title="Manages the position of an item. " alt="" coords="169,5,292,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_20.png" border="0" alt="" usemap="#QCPItemAnchor"/>
-<map name="QCPItemAnchor" id="QCPItemAnchor">
+<tr><td><img src="inherit_graph_21.png" border="0" alt="" usemap="#_q_c_p_line_ending"/>
+<map name="_q_c_p_line_ending" id="_q_c_p_line_ending">
 <area shape="rect" id="node1" href="class_q_c_p_line_ending.html" title="Handles the different ending decorations for line&#45;like items. " alt="" coords="5,5,120,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_21.png" border="0" alt="" usemap="#QCPLineEnding"/>
-<map name="QCPLineEnding" id="QCPLineEnding">
+<tr><td><img src="inherit_graph_22.png" border="0" alt="" usemap="#_q_c_p_painter"/>
+<map name="_q_c_p_painter" id="_q_c_p_painter">
 <area shape="rect" id="node2" href="class_q_c_p_painter.html" title="QPainter subclass used internally. " alt="" coords="127,5,217,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_22.png" border="0" alt="" usemap="#QCPPainter"/>
-<map name="QCPPainter" id="QCPPainter">
+<tr><td><img src="inherit_graph_23.png" border="0" alt="" usemap="#_q_c_p_range"/>
+<map name="_q_c_p_range" id="_q_c_p_range">
 <area shape="rect" id="node1" href="class_q_c_p_range.html" title="Represents the range an axis is encompassing. " alt="" coords="5,5,92,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_23.png" border="0" alt="" usemap="#QCPRange"/>
-<map name="QCPRange" id="QCPRange">
+<tr><td><img src="inherit_graph_24.png" border="0" alt="" usemap="#_q_c_p_scatter_style"/>
+<map name="_q_c_p_scatter_style" id="_q_c_p_scatter_style">
 <area shape="rect" id="node1" href="class_q_c_p_scatter_style.html" title="Represents the visual appearance of scatter points. " alt="" coords="5,5,128,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_24.png" border="0" alt="" usemap="#QCPScatterStyle"/>
-<map name="QCPScatterStyle" id="QCPScatterStyle">
+<tr><td><img src="inherit_graph_25.png" border="0" alt="" usemap="#_q_c_p_selection_decorator"/>
+<map name="_q_c_p_selection_decorator" id="_q_c_p_selection_decorator">
 <area shape="rect" id="node1" href="class_q_c_p_selection_decorator.html" title="Controls how a plottable&#39;s data selection is drawn. " alt="" coords="5,5,165,32"/>
 <area shape="rect" id="node2" href="class_q_c_p_selection_decorator_bracket.html" title="A selection decorator which draws brackets around each selected data segment. " alt="" coords="213,5,419,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_25.png" border="0" alt="" usemap="#QCPSelectionDecorator"/>
-<map name="QCPSelectionDecorator" id="QCPSelectionDecorator">
+<tr><td><img src="inherit_graph_26.png" border="0" alt="" usemap="#_q_c_p_statistical_box_data"/>
+<map name="_q_c_p_statistical_box_data" id="_q_c_p_statistical_box_data">
 <area shape="rect" id="node1" href="class_q_c_p_statistical_box_data.html" title="Holds the data of one single data point for QCPStatisticalBox. " alt="" coords="5,5,164,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_26.png" border="0" alt="" usemap="#QCPStatisticalBoxData"/>
-<map name="QCPStatisticalBoxData" id="QCPStatisticalBoxData">
+<tr><td><img src="inherit_graph_27.png" border="0" alt="" usemap="#_q_c_p_vector2_d"/>
+<map name="_q_c_p_vector2_d" id="_q_c_p_vector2_d">
 <area shape="rect" id="node1" href="class_q_c_p_vector2_d.html" title="Represents two doubles as a mathematical 2D vector. " alt="" coords="5,5,109,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_27.png" border="0" alt="" usemap="#QCPVector2D"/>
-<map name="QCPVector2D" id="QCPVector2D">
+<tr><td><img src="inherit_graph_28.png" border="0" alt="" usemap="#_q_custom_plot"/>
+<map name="_q_custom_plot" id="_q_custom_plot">
 <area shape="rect" id="node2" href="class_q_custom_plot.html" title="The central class of the library. This is the QWidget which displays the plot and interacts with the ..." alt="" coords="127,5,227,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_28.png" border="0" alt="" usemap="#QCustomPlot"/>
-<map name="QCustomPlot" id="QCustomPlot">
+<tr><td><img src="inherit_graph_29.png" border="0" alt="" usemap="#_resistor"/>
+<map name="_resistor" id="_resistor">
 <area shape="rect" id="node1" href="class_resistor.html" title="Resistor" alt="" coords="5,5,76,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_29.png" border="0" alt="" usemap="#Resistor"/>
-<map name="Resistor" id="Resistor">
+<tr><td><img src="inherit_graph_30.png" border="0" alt="" usemap="#_tensao"/>
+<map name="_tensao" id="_tensao">
 <area shape="rect" id="node1" href="class_tensao.html" title="Tensao" alt="" coords="5,5,69,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_30.png" border="0" alt="" usemap="#Tensao"/>
-<!-- MAP 0 -->
-</td></tr>
 </table>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Gerado por &#160;<a href="http://www.doxygen.org/index.html">
-<img class="footer" src="doxygen.png" alt="doxygen"/>
-</a> 1.8.14
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="footer">Gerado por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.14 </li>
+  </ul>
+</div>
 </body>
 </html>

@@ -9,6 +9,14 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+  $(document).ready(initResizable);
+/* @license-end */</script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -22,9 +30,9 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">RLC_Serie
-   &#160;<span id="projectnumber">v1.1</span>
+   &#160;<span id="projectnumber">v1.2</span>
    </div>
-   <div id="projectbrief">Plotagem de Respostas do Circuito RLC em Série</div>
+   <div id="projectbrief">Plotagem de Respostas do Circuito RLC em Série - o programa imprime a tensao no tempo em cada componente de um circuito RLC em série, conforme parâmetros inseridos pelo usuário</div>
   </td>
  </tr>
  </tbody>
@@ -47,6 +55,23 @@ $(function() {
 });
 /* @license-end */</script>
 <div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('class_q_c_p_layer.html','');});
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -61,7 +86,6 @@ $(function() {
 </iframe>
 </div>
 
-</div><!-- top -->
 <div class="header">
   <div class="summary">
 <a href="#pub-types">Tipos Públicos</a> &#124;
@@ -78,7 +102,7 @@ $(function() {
 <p>A layer that may contain objects, to control the rendering order.  
  <a href="class_q_c_p_layer.html#details">Mais...</a></p>
 
-<p><code>#include &lt;<a class="el" href="">qcustomplot.h</a>&gt;</code></p>
+<p><code>#include &quot;<a class="el" href="">qcustomplot.h</a>&quot;</code></p>
 <div class="dynheader">
 Diagrama de hierarquia para QCPLayer:</div>
 <div class="dyncontent">
@@ -89,20 +113,20 @@ Diagrama de colaboração para QCPLayer:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_q_c_p_layer__coll__graph.png" border="0" usemap="#_q_c_p_layer_coll__map" alt="Collaboration graph"/></div>
 <map name="_q_c_p_layer_coll__map" id="_q_c_p_layer_coll__map">
-<area shape="rect" id="node3" href="class_q_custom_plot.html" title="The central class of the library. This is the QWidget which displays the plot and interacts with the ..." alt="" coords="427,551,644,2872"/>
-<area shape="rect" id="node8" href="class_q_c_p_layerable.html" title="Base class for all drawable objects. " alt="" coords="769,3052,971,3569"/>
-<area shape="rect" id="node12" href="class_q_c_p_axis_painter_private.html" title="{QCPAxisPainterPrivate\n|+ type\l+ basePen\l+ labelPadding\l+ labelFont\l+ labelColor\l+ label\l+ tickLabelPadding\l+ tickLabelRotation\l+ tickLabelSide\l+ substituteExponent\l+ numberMultiplyCross\l+ tickLengthIn\l+ tickLengthOut\l+ subTickLengthIn\l+ subTickLengthOut\l+ tickPen\l+ subTickPen\l+ tickLabelFont\l+ tickLabelColor\l+ axisRect\l+ viewportRect\l+ offset\l+ abbreviateDecimalPowers\l+ reversedEndings\l+ subTickPositions\l+ tickPositions\l+ tickLabels\l# mLabelParameterHash\l# mLabelCache\l# mAxisSelectionBox\l# mTickLabelsSelectionBox\l# mLabelSelectionBox\l|+ QCPAxisPainterPrivate()\l+ ~QCPAxisPainterPrivate()\l+ draw()\l+ size()\l+ clearCache()\l+ axisSelectionBox()\l+ tickLabelsSelectionBox()\l+ labelSelectionBox()\l# generateLabelParameterHash()\l# placeTickLabel()\l# drawTickLabel()\l# getTickLabelData()\l# getTickLabelDrawOffset()\l# getMaxTickLabelSize()\l}" alt="" coords="45,2949,257,3672"/>
-<area shape="rect" id="node5" href="class_q_c_p_layout_grid.html" title="A layout that arranges child elements in a grid. " alt="" coords="333,4837,527,5545"/>
-<area shape="rect" id="node17" href="class_q_c_p_legend.html" title="Manages a legend inside a QCustomPlot. " alt="" coords="275,5762,478,6749"/>
-<area shape="rect" id="node6" href="class_q_c_p_layout.html" title="The abstract base class for layouts. " alt="" coords="671,4448,874,4775"/>
-<area shape="rect" id="node7" href="class_q_c_p_layout_element.html" title="The abstract base class for all objects that form the layout system. " alt="" coords="799,3721,1002,4385"/>
-<area shape="rect" id="node16" href="class_q_c_p_layout_inset.html" title="A layout that places child elements aligned to the border or arbitrarily positioned. " alt="" coords="721,5013,872,5369"/>
-<area shape="rect" id="node15" href="class_q_c_p_axis_rect.html" title="Holds multiple axes and arranges them in a rectangular shape. " alt="" coords="798,5608,1001,6903"/>
-<area shape="rect" id="node9" href="class_q_c_p_selection_rect.html" title="Provides rect/rubber&#45;band data selection and range zoom interaction. " alt="" coords="573,3883,775,4224"/>
-<area shape="rect" id="node10" href="class_q_c_p_axis.html" title="Manages a single axis inside a QCustomPlot. " alt="" coords="677,6980,879,9389"/>
-<area shape="rect" id="node14" href="class_q_c_p_grid.html" title="Responsible for drawing the grid of a QCPAxis. " alt="" coords="754,9452,957,9837"/>
-<area shape="rect" id="node11" href="class_q_c_p_range.html" title="Represents the range an axis is encompassing. " alt="" coords="607,6048,773,6463"/>
-<area shape="rect" id="node13" href="class_q_c_p_line_ending.html" title="Handles the different ending decorations for line&#45;like items. " alt="" coords="5,1555,151,1867"/>
+<area shape="rect" id="node3" href="class_q_custom_plot.html" title="The central class of the library. This is the QWidget which displays the plot and interacts with the ..." alt="" coords="415,551,616,1083"/>
+<area shape="rect" id="node8" href="class_q_c_p_layerable.html" title="Base class for all drawable objects. " alt="" coords="749,1182,951,1626"/>
+<area shape="rect" id="node12" href="class_q_c_p_axis_painter_private.html" title="(Private) " alt="" coords="45,1160,257,1648"/>
+<area shape="rect" id="node5" href="class_q_c_p_layout_grid.html" title="A layout that arranges child elements in a grid. " alt="" coords="333,2564,527,2905"/>
+<area shape="rect" id="node17" href="class_q_c_p_legend.html" title="Manages a legend inside a QCustomPlot. " alt="" coords="275,2968,478,3500"/>
+<area shape="rect" id="node6" href="class_q_c_p_layout.html" title="The abstract base class for layouts. " alt="" coords="651,2175,854,2501"/>
+<area shape="rect" id="node7" href="class_q_c_p_layout_element.html" title="The abstract base class for all objects that form the layout system. " alt="" coords="779,1697,982,2112"/>
+<area shape="rect" id="node16" href="class_q_c_p_layout_inset.html" title="A layout that places child elements aligned to the border or arbitrarily positioned. " alt="" coords="701,2601,852,2869"/>
+<area shape="rect" id="node15" href="class_q_c_p_axis_rect.html" title="Holds multiple axes and arranges them in a rectangular shape. " alt="" coords="757,2975,959,3493"/>
+<area shape="rect" id="node9" href="class_q_c_p_selection_rect.html" title="Provides rect/rubber&#45;band data selection and range zoom interaction. " alt="" coords="553,1734,755,2075"/>
+<area shape="rect" id="node10" href="class_q_c_p_axis.html" title="Manages a single axis inside a QCustomPlot. " alt="" coords="658,3577,861,4153"/>
+<area shape="rect" id="node14" href="class_q_c_p_grid.html" title="Responsible for drawing the grid of a QCPAxis. " alt="" coords="735,4216,938,4601"/>
+<area shape="rect" id="node11" href="class_q_c_p_range.html" title="Represents the range an axis is encompassing. " alt="" coords="626,3085,733,3383"/>
+<area shape="rect" id="node13" href="class_q_c_p_line_ending.html" title="Handles the different ending decorations for line&#45;like items. " alt="" coords="5,661,151,973"/>
 </map>
 </div>
 <table class="memberdecls">
@@ -316,6 +340,9 @@ Replotting only a specific layer</h1>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Adds the <em>layerable</em> to the list of this layer. If <em>prepend</em> is set to true, the layerable will be prepended to the list, i.e. be drawn beneath the other layerables already in the list.</p>
+<p>This function does not change the <em>mLayer</em> member of <em>layerable</em> to this layer. (Use <a class="el" href="class_q_c_p_layerable.html#ab0d0da6d2de45a118886d2c8e16d5a54">QCPLayerable::setLayer</a> to change the layer of an object, not this function.)</p>
+<dl class="section see"><dt>Veja também</dt><dd><a class="el" href="class_q_c_p_layer.html#ac2f64ac7761650582d968d86670ef362">removeChild</a> </dd></dl>
 <div class="fragment"><div class="line"><a name="l01199"></a><span class="lineno"> 1199</span>&#160;{</div><div class="line"><a name="l01200"></a><span class="lineno"> 1200</span>&#160;  <span class="keywordflow">if</span> (!<a class="code" href="class_q_c_p_layer.html#a704aa71bba469383c3a3c598c1ec0d28">mChildren</a>.contains(layerable))</div><div class="line"><a name="l01201"></a><span class="lineno"> 1201</span>&#160;  {</div><div class="line"><a name="l01202"></a><span class="lineno"> 1202</span>&#160;    <span class="keywordflow">if</span> (prepend)</div><div class="line"><a name="l01203"></a><span class="lineno"> 1203</span>&#160;      <a class="code" href="class_q_c_p_layer.html#a704aa71bba469383c3a3c598c1ec0d28">mChildren</a>.prepend(layerable);</div><div class="line"><a name="l01204"></a><span class="lineno"> 1204</span>&#160;    <span class="keywordflow">else</span></div><div class="line"><a name="l01205"></a><span class="lineno"> 1205</span>&#160;      <a class="code" href="class_q_c_p_layer.html#a704aa71bba469383c3a3c598c1ec0d28">mChildren</a>.append(layerable);</div><div class="line"><a name="l01206"></a><span class="lineno"> 1206</span>&#160;    <span class="keywordflow">if</span> (!<a class="code" href="class_q_c_p_layer.html#aa0bdbc75e4350a0669ff515b3476a3d3">mPaintBuffer</a>.isNull())</div><div class="line"><a name="l01207"></a><span class="lineno"> 1207</span>&#160;      <a class="code" href="class_q_c_p_layer.html#aa0bdbc75e4350a0669ff515b3476a3d3">mPaintBuffer</a>.data()-&gt;setInvalidated();</div><div class="line"><a name="l01208"></a><span class="lineno"> 1208</span>&#160;  } <span class="keywordflow">else</span></div><div class="line"><a name="l01209"></a><span class="lineno"> 1209</span>&#160;    qDebug() &lt;&lt; Q_FUNC_INFO &lt;&lt; <span class="stringliteral">&quot;layerable is already child of this layer&quot;</span> &lt;&lt; <span class="keyword">reinterpret_cast&lt;</span>quintptr<span class="keyword">&gt;</span>(layerable);</div><div class="line"><a name="l01210"></a><span class="lineno"> 1210</span>&#160;}</div><div class="ttc" id="class_q_c_p_layer_html_a704aa71bba469383c3a3c598c1ec0d28"><div class="ttname"><a href="class_q_c_p_layer.html#a704aa71bba469383c3a3c598c1ec0d28">QCPLayer::mChildren</a></div><div class="ttdeci">QList&lt; QCPLayerable * &gt; mChildren</div><div class="ttdef"><b>Definition:</b> qcustomplot.h:671</div></div>
 <div class="ttc" id="class_q_c_p_layer_html_aa0bdbc75e4350a0669ff515b3476a3d3"><div class="ttname"><a href="class_q_c_p_layer.html#aa0bdbc75e4350a0669ff515b3476a3d3">QCPLayer::mPaintBuffer</a></div><div class="ttdeci">QWeakPointer&lt; QCPAbstractPaintBuffer &gt; mPaintBuffer</div><div class="ttdef"><b>Definition:</b> qcustomplot.h:676</div></div>
 </div><!-- fragment -->
@@ -371,6 +398,8 @@ Replotting only a specific layer</h1>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Draws the contents of this layer with the provided <em>painter</em>.</p>
+<dl class="section see"><dt>Veja também</dt><dd><a class="el" href="class_q_c_p_layer.html#adefd53b6db02f470151c416f42e37180">replot</a>, <a class="el" href="class_q_c_p_layer.html#a4a8e0a86f31462299e7fc8e8158dd2c6">drawToPaintBuffer</a> </dd></dl>
 <div class="fragment"><div class="line"><a name="l01119"></a><span class="lineno"> 1119</span>&#160;{</div><div class="line"><a name="l01120"></a><span class="lineno"> 1120</span>&#160;  <span class="keywordflow">foreach</span> (<a class="code" href="class_q_c_p_layerable.html">QCPLayerable</a> *child, <a class="code" href="class_q_c_p_layer.html#a704aa71bba469383c3a3c598c1ec0d28">mChildren</a>)</div><div class="line"><a name="l01121"></a><span class="lineno"> 1121</span>&#160;  {</div><div class="line"><a name="l01122"></a><span class="lineno"> 1122</span>&#160;    <span class="keywordflow">if</span> (child-&gt;<a class="code" href="class_q_c_p_layerable.html#ab054e88f15d485defcb95e7376f119e7">realVisibility</a>())</div><div class="line"><a name="l01123"></a><span class="lineno"> 1123</span>&#160;    {</div><div class="line"><a name="l01124"></a><span class="lineno"> 1124</span>&#160;      painter-&gt;<a class="code" href="class_q_c_p_painter.html#a8fd6821ee6fecbfa04444c9062912abd">save</a>();</div><div class="line"><a name="l01125"></a><span class="lineno"> 1125</span>&#160;      painter-&gt;setClipRect(child-&gt;<a class="code" href="class_q_c_p_layerable.html#acbcfc9ecc75433747b1978a77b1864b3">clipRect</a>().translated(0, -1));</div><div class="line"><a name="l01126"></a><span class="lineno"> 1126</span>&#160;      child-&gt;<a class="code" href="class_q_c_p_layerable.html#afdf83ddc6a265cbf4c89fe99d3d93473">applyDefaultAntialiasingHint</a>(painter);</div><div class="line"><a name="l01127"></a><span class="lineno"> 1127</span>&#160;      child-&gt;<a class="code" href="class_q_c_p_layerable.html#aecf2f7087482d4b6a78cb2770e5ed12d">draw</a>(painter);</div><div class="line"><a name="l01128"></a><span class="lineno"> 1128</span>&#160;      painter-&gt;<a class="code" href="class_q_c_p_painter.html#a64908e6298d5bbd83457dc987cc3a022">restore</a>();</div><div class="line"><a name="l01129"></a><span class="lineno"> 1129</span>&#160;    }</div><div class="line"><a name="l01130"></a><span class="lineno"> 1130</span>&#160;  }</div><div class="line"><a name="l01131"></a><span class="lineno"> 1131</span>&#160;}</div><div class="ttc" id="class_q_c_p_layerable_html_ab054e88f15d485defcb95e7376f119e7"><div class="ttname"><a href="class_q_c_p_layerable.html#ab054e88f15d485defcb95e7376f119e7">QCPLayerable::realVisibility</a></div><div class="ttdeci">bool realVisibility() const</div><div class="ttdef"><b>Definition:</b> qcustomplot.cpp:1432</div></div>
 <div class="ttc" id="class_q_c_p_layerable_html"><div class="ttname"><a href="class_q_c_p_layerable.html">QCPLayerable</a></div><div class="ttdoc">Base class for all drawable objects. </div><div class="ttdef"><b>Definition:</b> qcustomplot.h:692</div></div>
 <div class="ttc" id="class_q_c_p_layer_html_a704aa71bba469383c3a3c598c1ec0d28"><div class="ttname"><a href="class_q_c_p_layer.html#a704aa71bba469383c3a3c598c1ec0d28">QCPLayer::mChildren</a></div><div class="ttdeci">QList&lt; QCPLayerable * &gt; mChildren</div><div class="ttdef"><b>Definition:</b> qcustomplot.h:671</div></div>
@@ -404,6 +433,8 @@ Replotting only a specific layer</h1>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Draws the contents of this layer into the paint buffer which is associated with this layer. The association is established by the parent <a class="el" href="class_q_custom_plot.html" title="The central class of the library. This is the QWidget which displays the plot and interacts with the ...">QCustomPlot</a>, which manages all paint buffers (see <a class="el" href="class_q_custom_plot.html#a2685341f7242c3882f4cc5e379308d71">QCustomPlot::setupPaintBuffers</a>).</p>
+<dl class="section see"><dt>Veja também</dt><dd><a class="el" href="class_q_c_p_layer.html#ab831a99c8d30b15ec4533ca341e8813b">draw</a> </dd></dl>
 <div class="fragment"><div class="line"><a name="l01142"></a><span class="lineno"> 1142</span>&#160;{</div><div class="line"><a name="l01143"></a><span class="lineno"> 1143</span>&#160;  <span class="keywordflow">if</span> (!<a class="code" href="class_q_c_p_layer.html#aa0bdbc75e4350a0669ff515b3476a3d3">mPaintBuffer</a>.isNull())</div><div class="line"><a name="l01144"></a><span class="lineno"> 1144</span>&#160;  {</div><div class="line"><a name="l01145"></a><span class="lineno"> 1145</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="class_q_c_p_painter.html">QCPPainter</a> *painter = <a class="code" href="class_q_c_p_layer.html#aa0bdbc75e4350a0669ff515b3476a3d3">mPaintBuffer</a>.data()-&gt;startPainting())</div><div class="line"><a name="l01146"></a><span class="lineno"> 1146</span>&#160;    {</div><div class="line"><a name="l01147"></a><span class="lineno"> 1147</span>&#160;      <span class="keywordflow">if</span> (painter-&gt;isActive())</div><div class="line"><a name="l01148"></a><span class="lineno"> 1148</span>&#160;        <a class="code" href="class_q_c_p_layer.html#ab831a99c8d30b15ec4533ca341e8813b">draw</a>(painter);</div><div class="line"><a name="l01149"></a><span class="lineno"> 1149</span>&#160;      <span class="keywordflow">else</span></div><div class="line"><a name="l01150"></a><span class="lineno"> 1150</span>&#160;        qDebug() &lt;&lt; Q_FUNC_INFO &lt;&lt; <span class="stringliteral">&quot;paint buffer returned inactive painter&quot;</span>;</div><div class="line"><a name="l01151"></a><span class="lineno"> 1151</span>&#160;      <span class="keyword">delete</span> painter;</div><div class="line"><a name="l01152"></a><span class="lineno"> 1152</span>&#160;      <a class="code" href="class_q_c_p_layer.html#aa0bdbc75e4350a0669ff515b3476a3d3">mPaintBuffer</a>.data()-&gt;donePainting();</div><div class="line"><a name="l01153"></a><span class="lineno"> 1153</span>&#160;    } <span class="keywordflow">else</span></div><div class="line"><a name="l01154"></a><span class="lineno"> 1154</span>&#160;      qDebug() &lt;&lt; Q_FUNC_INFO &lt;&lt; <span class="stringliteral">&quot;paint buffer returned zero painter&quot;</span>;</div><div class="line"><a name="l01155"></a><span class="lineno"> 1155</span>&#160;  } <span class="keywordflow">else</span></div><div class="line"><a name="l01156"></a><span class="lineno"> 1156</span>&#160;    qDebug() &lt;&lt; Q_FUNC_INFO &lt;&lt; <span class="stringliteral">&quot;no valid paint buffer associated with this layer&quot;</span>;</div><div class="line"><a name="l01157"></a><span class="lineno"> 1157</span>&#160;}</div><div class="ttc" id="class_q_c_p_layer_html_ab831a99c8d30b15ec4533ca341e8813b"><div class="ttname"><a href="class_q_c_p_layer.html#ab831a99c8d30b15ec4533ca341e8813b">QCPLayer::draw</a></div><div class="ttdeci">void draw(QCPPainter *painter)</div><div class="ttdef"><b>Definition:</b> qcustomplot.cpp:1118</div></div>
 <div class="ttc" id="class_q_c_p_painter_html"><div class="ttname"><a href="class_q_c_p_painter.html">QCPPainter</a></div><div class="ttdoc">QPainter subclass used internally. </div><div class="ttdef"><b>Definition:</b> qcustomplot.h:456</div></div>
 <div class="ttc" id="class_q_c_p_layer_html_aa0bdbc75e4350a0669ff515b3476a3d3"><div class="ttname"><a href="class_q_c_p_layer.html#aa0bdbc75e4350a0669ff515b3476a3d3">QCPLayer::mPaintBuffer</a></div><div class="ttdeci">QWeakPointer&lt; QCPAbstractPaintBuffer &gt; mPaintBuffer</div><div class="ttdef"><b>Definition:</b> qcustomplot.h:676</div></div>
@@ -539,6 +570,9 @@ Replotting only a specific layer</h1>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Removes the <em>layerable</em> from the list of this layer.</p>
+<p>This function does not change the <em>mLayer</em> member of <em>layerable</em>. (Use <a class="el" href="class_q_c_p_layerable.html#ab0d0da6d2de45a118886d2c8e16d5a54">QCPLayerable::setLayer</a> to change the layer of an object, not this function.)</p>
+<dl class="section see"><dt>Veja também</dt><dd><a class="el" href="class_q_c_p_layer.html#a57ce5e49364aa9122276d5df3b4a0ddc">addChild</a> </dd></dl>
 <div class="fragment"><div class="line"><a name="l01222"></a><span class="lineno"> 1222</span>&#160;{</div><div class="line"><a name="l01223"></a><span class="lineno"> 1223</span>&#160;  <span class="keywordflow">if</span> (<a class="code" href="class_q_c_p_layer.html#a704aa71bba469383c3a3c598c1ec0d28">mChildren</a>.removeOne(layerable))</div><div class="line"><a name="l01224"></a><span class="lineno"> 1224</span>&#160;  {</div><div class="line"><a name="l01225"></a><span class="lineno"> 1225</span>&#160;    <span class="keywordflow">if</span> (!<a class="code" href="class_q_c_p_layer.html#aa0bdbc75e4350a0669ff515b3476a3d3">mPaintBuffer</a>.isNull())</div><div class="line"><a name="l01226"></a><span class="lineno"> 1226</span>&#160;      <a class="code" href="class_q_c_p_layer.html#aa0bdbc75e4350a0669ff515b3476a3d3">mPaintBuffer</a>.data()-&gt;setInvalidated();</div><div class="line"><a name="l01227"></a><span class="lineno"> 1227</span>&#160;  } <span class="keywordflow">else</span></div><div class="line"><a name="l01228"></a><span class="lineno"> 1228</span>&#160;    qDebug() &lt;&lt; Q_FUNC_INFO &lt;&lt; <span class="stringliteral">&quot;layerable is not child of this layer&quot;</span> &lt;&lt; <span class="keyword">reinterpret_cast&lt;</span>quintptr<span class="keyword">&gt;</span>(layerable);</div><div class="line"><a name="l01229"></a><span class="lineno"> 1229</span>&#160;}</div><div class="ttc" id="class_q_c_p_layer_html_a704aa71bba469383c3a3c598c1ec0d28"><div class="ttname"><a href="class_q_c_p_layer.html#a704aa71bba469383c3a3c598c1ec0d28">QCPLayer::mChildren</a></div><div class="ttdeci">QList&lt; QCPLayerable * &gt; mChildren</div><div class="ttdef"><b>Definition:</b> qcustomplot.h:671</div></div>
 <div class="ttc" id="class_q_c_p_layer_html_aa0bdbc75e4350a0669ff515b3476a3d3"><div class="ttname"><a href="class_q_c_p_layer.html#aa0bdbc75e4350a0669ff515b3476a3d3">QCPLayer::mPaintBuffer</a></div><div class="ttdeci">QWeakPointer&lt; QCPAbstractPaintBuffer &gt; mPaintBuffer</div><div class="ttdef"><b>Definition:</b> qcustomplot.h:676</div></div>
 </div><!-- fragment -->
@@ -849,14 +883,18 @@ Replotting only a specific layer</h1>
 </div>
 <hr/>A documentação para essa classe foi gerada a partir dos seguintes arquivos:<ul>
 <li><a class="el" href="">qcustomplot.h</a></li>
-<li><a class="el" href="">qcustomplot.cpp</a></li>
+<li><a class="el" href="qcustomplot_8cpp.html">qcustomplot.cpp</a></li>
 </ul>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Gerado por &#160;<a href="http://www.doxygen.org/index.html">
-<img class="footer" src="doxygen.png" alt="doxygen"/>
-</a> 1.8.14
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="class_q_c_p_layer.html">QCPLayer</a></li>
+    <li class="footer">Gerado por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.14 </li>
+  </ul>
+</div>
 </body>
 </html>

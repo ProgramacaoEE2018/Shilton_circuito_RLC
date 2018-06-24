@@ -15,6 +15,17 @@
         </mediaobject>
     </figure>
 </para>
+<para>Collaboration diagram for QCPAxisTickerPi</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="classQCPAxisTickerPi__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
         <section>
             <title></title>
             <para>

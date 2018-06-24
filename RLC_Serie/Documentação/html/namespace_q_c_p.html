@@ -9,6 +9,14 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+  $(document).ready(initResizable);
+/* @license-end */</script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -22,9 +30,9 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">RLC_Serie
-   &#160;<span id="projectnumber">v1.1</span>
+   &#160;<span id="projectnumber">v1.2</span>
    </div>
-   <div id="projectbrief">Plotagem de Respostas do Circuito RLC em Série</div>
+   <div id="projectbrief">Plotagem de Respostas do Circuito RLC em Série - o programa imprime a tensao no tempo em cada componente de um circuito RLC em série, conforme parâmetros inseridos pelo usuário</div>
   </td>
  </tr>
  </tbody>
@@ -47,6 +55,23 @@ $(function() {
 });
 /* @license-end */</script>
 <div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('namespace_q_c_p.html','');});
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -61,7 +86,6 @@ $(function() {
 </iframe>
 </div>
 
-</div><!-- top -->
 <div class="header">
   <div class="summary">
 <a href="#enum-members">Enumerações</a> &#124;
@@ -541,6 +565,8 @@ stMultipleDataRanges</div></div>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Returns the value of the specified <em>side</em> of <em>margins</em>. If <em>side</em> is <a class="el" href="namespace_q_c_p.html#a7e487e3e2ccb62ab7771065bab7cae54a80aa4149f16dabd538f8b2e3d42c42d5">QCP::msNone</a> or <a class="el" href="namespace_q_c_p.html#a7e487e3e2ccb62ab7771065bab7cae54a43d7361cb0c5244eabdc962021bffebc">QCP::msAll</a>, returns 0.</p>
+<dl class="section see"><dt>Veja também</dt><dd><a class="el" href="namespace_q_c_p.html#afbf6e3084c108f2bb4372107945ee82f">setMarginValue</a> </dd></dl>
 <div class="fragment"><div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;{</div><div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;  <span class="keywordflow">switch</span> (side)</div><div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;  {</div><div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;    <span class="keywordflow">case</span> <a class="code" href="namespace_q_c_p.html#a7e487e3e2ccb62ab7771065bab7cae54a9500c8bfcc9e80b9dff0a8e00e867f07">QCP::msLeft</a>: <span class="keywordflow">return</span> margins.left();</div><div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160;    <span class="keywordflow">case</span> <a class="code" href="namespace_q_c_p.html#a7e487e3e2ccb62ab7771065bab7cae54a93c719593bb2b94ed244d52c86d83b65">QCP::msRight</a>: <span class="keywordflow">return</span> margins.right();</div><div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;    <span class="keywordflow">case</span> <a class="code" href="namespace_q_c_p.html#a7e487e3e2ccb62ab7771065bab7cae54a5db8fb0d0b0ecf0d611c2602a348e8a0">QCP::msTop</a>: <span class="keywordflow">return</span> margins.top();</div><div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;    <span class="keywordflow">case</span> <a class="code" href="namespace_q_c_p.html#a7e487e3e2ccb62ab7771065bab7cae54a5241d8eac2bab9524a38889f576179cc">QCP::msBottom</a>: <span class="keywordflow">return</span> margins.bottom();</div><div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;    <span class="keywordflow">default</span>: <span class="keywordflow">break</span>;</div><div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;  }</div><div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;  <span class="keywordflow">return</span> 0;</div><div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;}</div><div class="ttc" id="namespace_q_c_p_html_a7e487e3e2ccb62ab7771065bab7cae54a5241d8eac2bab9524a38889f576179cc"><div class="ttname"><a href="namespace_q_c_p.html#a7e487e3e2ccb62ab7771065bab7cae54a5241d8eac2bab9524a38889f576179cc">QCP::msBottom</a></div><div class="ttdoc">0x08 bottom margin </div><div class="ttdef"><b>Definition:</b> qcustomplot.h:199</div></div>
 <div class="ttc" id="namespace_q_c_p_html_a7e487e3e2ccb62ab7771065bab7cae54a5db8fb0d0b0ecf0d611c2602a348e8a0"><div class="ttname"><a href="namespace_q_c_p.html#a7e487e3e2ccb62ab7771065bab7cae54a5db8fb0d0b0ecf0d611c2602a348e8a0">QCP::msTop</a></div><div class="ttdoc">0x04 top margin </div><div class="ttdef"><b>Definition:</b> qcustomplot.h:198</div></div>
 <div class="ttc" id="namespace_q_c_p_html_a7e487e3e2ccb62ab7771065bab7cae54a9500c8bfcc9e80b9dff0a8e00e867f07"><div class="ttname"><a href="namespace_q_c_p.html#a7e487e3e2ccb62ab7771065bab7cae54a9500c8bfcc9e80b9dff0a8e00e867f07">QCP::msLeft</a></div><div class="ttdoc">0x01 left margin </div><div class="ttdef"><b>Definition:</b> qcustomplot.h:196</div></div>
@@ -571,6 +597,7 @@ stMultipleDataRanges</div></div>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Returns whether the specified <em>value</em> is considered an invalid data value for plottables (i.e. is <em>nan</em> or <em>+/-inf</em>). This function is used to check data validity upon replots, when the compiler flag <code>QCUSTOMPLOT_CHECK_DATA</code> is set. </p>
 <div class="fragment"><div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;{</div><div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;  <span class="keywordflow">return</span> qIsNaN(value) || qIsInf(value);</div><div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;}</div></div><!-- fragment -->
 </div>
 </div>
@@ -607,6 +634,8 @@ stMultipleDataRanges</div></div>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.</p>
+<p>Checks two arguments instead of one. </p>
 <div class="fragment"><div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;{</div><div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;  <span class="keywordflow">return</span> <a class="code" href="namespace_q_c_p.html#a728903e5c3dd17847bee280f4005496f">isInvalidData</a>(value1) || <a class="code" href="namespace_q_c_p.html#a728903e5c3dd17847bee280f4005496f">isInvalidData</a>(value2);</div><div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;}</div><div class="ttc" id="namespace_q_c_p_html_a728903e5c3dd17847bee280f4005496f"><div class="ttname"><a href="namespace_q_c_p.html#a728903e5c3dd17847bee280f4005496f">QCP::isInvalidData</a></div><div class="ttdeci">bool isInvalidData(double value1, double value2)</div><div class="ttdef"><b>Definition:</b> qcustomplot.h:314</div></div>
 </div><!-- fragment -->
 </div>
@@ -650,6 +679,8 @@ stMultipleDataRanges</div></div>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Sets the specified <em>side</em> of <em>margins</em> to <em>value</em> </p>
+<dl class="section see"><dt>Veja também</dt><dd><a class="el" href="namespace_q_c_p.html#a23a2679d3495c444acc26acc61e35b5b">getMarginValue</a> </dd></dl>
 <div class="fragment"><div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;{</div><div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;  <span class="keywordflow">switch</span> (side)</div><div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;  {</div><div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;    <span class="keywordflow">case</span> <a class="code" href="namespace_q_c_p.html#a7e487e3e2ccb62ab7771065bab7cae54a9500c8bfcc9e80b9dff0a8e00e867f07">QCP::msLeft</a>: margins.setLeft(value); <span class="keywordflow">break</span>;</div><div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;    <span class="keywordflow">case</span> <a class="code" href="namespace_q_c_p.html#a7e487e3e2ccb62ab7771065bab7cae54a93c719593bb2b94ed244d52c86d83b65">QCP::msRight</a>: margins.setRight(value); <span class="keywordflow">break</span>;</div><div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;    <span class="keywordflow">case</span> <a class="code" href="namespace_q_c_p.html#a7e487e3e2ccb62ab7771065bab7cae54a5db8fb0d0b0ecf0d611c2602a348e8a0">QCP::msTop</a>: margins.setTop(value); <span class="keywordflow">break</span>;</div><div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;    <span class="keywordflow">case</span> <a class="code" href="namespace_q_c_p.html#a7e487e3e2ccb62ab7771065bab7cae54a5241d8eac2bab9524a38889f576179cc">QCP::msBottom</a>: margins.setBottom(value); <span class="keywordflow">break</span>;</div><div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;    <span class="keywordflow">case</span> <a class="code" href="namespace_q_c_p.html#a7e487e3e2ccb62ab7771065bab7cae54a43d7361cb0c5244eabdc962021bffebc">QCP::msAll</a>: margins = QMargins(value, value, value, value); <span class="keywordflow">break</span>;</div><div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;    <span class="keywordflow">default</span>: <span class="keywordflow">break</span>;</div><div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;  }</div><div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;}</div><div class="ttc" id="namespace_q_c_p_html_a7e487e3e2ccb62ab7771065bab7cae54a5241d8eac2bab9524a38889f576179cc"><div class="ttname"><a href="namespace_q_c_p.html#a7e487e3e2ccb62ab7771065bab7cae54a5241d8eac2bab9524a38889f576179cc">QCP::msBottom</a></div><div class="ttdoc">0x08 bottom margin </div><div class="ttdef"><b>Definition:</b> qcustomplot.h:199</div></div>
 <div class="ttc" id="namespace_q_c_p_html_a7e487e3e2ccb62ab7771065bab7cae54a5db8fb0d0b0ecf0d611c2602a348e8a0"><div class="ttname"><a href="namespace_q_c_p.html#a7e487e3e2ccb62ab7771065bab7cae54a5db8fb0d0b0ecf0d611c2602a348e8a0">QCP::msTop</a></div><div class="ttdoc">0x04 top margin </div><div class="ttdef"><b>Definition:</b> qcustomplot.h:198</div></div>
 <div class="ttc" id="namespace_q_c_p_html_a7e487e3e2ccb62ab7771065bab7cae54a9500c8bfcc9e80b9dff0a8e00e867f07"><div class="ttname"><a href="namespace_q_c_p.html#a7e487e3e2ccb62ab7771065bab7cae54a9500c8bfcc9e80b9dff0a8e00e867f07">QCP::msLeft</a></div><div class="ttdoc">0x01 left margin </div><div class="ttdef"><b>Definition:</b> qcustomplot.h:196</div></div>
@@ -674,11 +705,15 @@ stMultipleDataRanges</div></div>
 </div>
 </div>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Gerado por &#160;<a href="http://www.doxygen.org/index.html">
-<img class="footer" src="doxygen.png" alt="doxygen"/>
-</a> 1.8.14
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespace_q_c_p.html">QCP</a></li>
+    <li class="footer">Gerado por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.14 </li>
+  </ul>
+</div>
 </body>
 </html>

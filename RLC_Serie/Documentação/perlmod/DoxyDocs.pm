@@ -1208,6 +1208,9 @@ $doxydocs=
             detailed => {
               doc => [
                 {
+                  type => 'parbreak'
+                },
+                {
                   type => 'text',
                   content => 'Base class constructor which initializes base class members. '
                 }
@@ -1301,6 +1304,9 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
+                {
+                  type => 'parbreak'
+                },
                 {
                   type => 'text',
                   content => 'Sets whether the item shall be clipped to an axis rect or whether it shall be visible on the entire '
@@ -2034,6 +2040,9 @@ $doxydocs=
             detailed => {
               doc => [
                 {
+                  type => 'parbreak'
+                },
+                {
                   type => 'text',
                   content => 'Returns all positions of the item in a list.'
                 },
@@ -2079,6 +2088,9 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
+                {
+                  type => 'parbreak'
+                },
                 {
                   type => 'text',
                   content => 'Returns all anchors of the item in a list. Note that since a position ('
@@ -2742,9 +2754,6 @@ $doxydocs=
             detailed => {
               doc => [
                 {
-                  type => 'parbreak'
-                },
-                {
                   type => 'text',
                   content => 'Sets whether this object will be drawn antialiased or not.'
                 },
@@ -3245,9 +3254,6 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
-                {
-                  type => 'parbreak'
-                },
                 {
                   type => 'text',
                   content => 'This event gets called when the user presses a mouse button while the cursor is over the layerable. Whether a cursor is over the layerable is decided by a preceding call to '
@@ -4662,6 +4668,9 @@ $doxydocs=
       },
       detailed => {
         doc => [
+          {
+            type => 'parbreak'
+          },
           {
             type => 'text',
             content => 'In '
@@ -6544,6 +6553,9 @@ $doxydocs=
             detailed => {
               doc => [
                 {
+                  type => 'parbreak'
+                },
+                {
                   type => 'text',
                   content => 'Sets the default font of this specific legend item to '
                 },
@@ -6836,9 +6848,6 @@ $doxydocs=
             detailed => {
               doc => [
                 {
-                  type => 'parbreak'
-                },
-                {
                   type => 'text',
                   content => 'Sets whether this specific legend item is selectable.'
                 },
@@ -7059,9 +7068,6 @@ $doxydocs=
             detailed => {
               doc => [
                 {
-                  type => 'parbreak'
-                },
-                {
                   type => 'text',
                   content => 'Returns the inner rect of this layout element. The inner rect is the outer rect ('
                 },
@@ -7173,6 +7179,9 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
+                {
+                  type => 'parbreak'
+                },
                 {
                   type => 'text',
                   content => 'Returns the outer rect of this layout element. The outer rect is the inner rect expanded by the margins ('
@@ -7443,9 +7452,6 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
-                {
-                  type => 'parbreak'
-                },
                 {
                   type => 'text',
                   content => 'Sets the margins of this layout element. If '
@@ -7949,6 +7955,9 @@ $doxydocs=
             detailed => {
               doc => [
                 {
+                  type => 'parbreak'
+                },
+                {
                   type => 'text',
                   content => 'Sets the maximum size of this layout element. A parent layout tries to respect the '
                 },
@@ -8037,9 +8046,6 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
-                {
-                  type => 'parbreak'
-                },
                 {
                   type => 'text',
                   content => 'Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.'
@@ -8787,9 +8793,6 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
-                {
-                  type => 'parbreak'
-                },
                 {
                   type => 'text',
                   content => 'Returns the parent layerable of this layerable. The parent layerable is used to provide visibility hierarchies in conjunction with the method '
@@ -9827,6 +9830,9 @@ $doxydocs=
             detailed => {
               doc => [
                 {
+                  type => 'parbreak'
+                },
+                {
                   type => 'text',
                   content => 'This event gets called when the user moves the mouse while holding a mouse button, after this layerable has become the mouse grabber by accepting the preceding '
                 },
@@ -10140,9 +10146,6 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
-                {
-                  type => 'parbreak'
-                },
                 {
                   type => 'text',
                   content => 'This event gets called when the user presses the mouse button a second time in a double-click, while the cursor is over the layerable. Whether a cursor is over the layerable is decided by a preceding call to '
@@ -11004,9 +11007,6 @@ $doxydocs=
       detailed => {
         doc => [
           {
-            type => 'parbreak'
-          },
-          {
             type => 'text',
             content => 'It defines a very basic interface for entries in a '
           },
@@ -11417,6 +11417,9 @@ $doxydocs=
             detailed => {
               doc => [
                 {
+                  type => 'parbreak'
+                },
+                {
                   type => 'text',
                   content => 'Sets the paint buffer size.'
                 },
@@ -11492,6 +11495,9 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
+                {
+                  type => 'parbreak'
+                },
                 {
                   type => 'text',
                   content => 'Sets the invalidated flag to '
@@ -11617,9 +11623,6 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
-                {
-                  type => 'parbreak'
-                },
                 {
                   type => 'text',
                   content => 'Sets the the device pixel ratio to '
@@ -11909,9 +11912,6 @@ $doxydocs=
             detailed => {
               doc => [
                 {
-                  type => 'parbreak'
-                },
-                {
                   type => 'text',
                   content => 'Fills the entire buffer with the provided '
                 },
@@ -12114,6 +12114,9 @@ $doxydocs=
       },
       detailed => {
         doc => [
+          {
+            type => 'parbreak'
+          },
           {
             type => 'text',
             content => 'This abstract base class defines the basic interface that a paint buffer needs to provide in order to be usable by '
@@ -13296,6 +13299,9 @@ $doxydocs=
             detailed => {
               doc => [
                 {
+                  type => 'parbreak'
+                },
+                {
                   type => 'text',
                   content => 'Provides access to the selection decorator of this plottable. The selection decorator controls how selected data ranges are drawn (e.g. their pen color and fill), see '
                 },
@@ -13513,9 +13519,6 @@ $doxydocs=
             detailed => {
               doc => [
                 {
-                  type => 'parbreak'
-                },
-                {
                   type => 'text',
                   content => 'The pen is used to draw basic lines that make up the plottable representation in the plot.'
                 },
@@ -13573,9 +13576,6 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
-                {
-                  type => 'parbreak'
-                },
                 {
                   type => 'text',
                   content => 'The brush is used to draw basic fills of the plottable representation in the plot. The Fill can be a color, gradient or texture, see the usage of QBrush.'
@@ -14195,6 +14195,9 @@ $doxydocs=
             detailed => {
               doc => [
                 {
+                  type => 'parbreak'
+                },
+                {
                   type => 'text',
                   content => 'This function is used to decide whether a click hits a layerable object or not.'
                 },
@@ -14607,6 +14610,9 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
+                {
+                  type => 'parbreak'
+                },
                 {
                   type => 'text',
                   content => 'If this plottable is a one-dimensional plottable, i.e. it implements the '
@@ -15434,9 +15440,6 @@ $doxydocs=
             detailed => {
               doc => [
                 {
-                  type => 'parbreak'
-                },
-                {
                   type => 'text',
                   content => 'Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.'
                 },
@@ -15906,6 +15909,9 @@ $doxydocs=
             detailed => {
               doc => [
                 {
+                  type => 'parbreak'
+                },
+                {
                   type => 'text',
                   content => 'Rescales the value axis of the plottable so the whole plottable is visible. If '
                 },
@@ -15981,6 +15987,9 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
+                {
+                  type => 'parbreak'
+                },
                 {
                   type => 'text',
                   content => 'Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.'
@@ -16090,9 +16099,6 @@ $doxydocs=
             detailed => {
               doc => [
                 {
-                  type => 'parbreak'
-                },
-                {
                   type => 'text',
                   content => 'Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.'
                 },
@@ -16155,9 +16161,6 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
-                {
-                  type => 'parbreak'
-                },
                 {
                   type => 'text',
                   content => 'Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.'
@@ -16247,6 +16250,9 @@ $doxydocs=
             detailed => {
               doc => [
                 {
+                  type => 'parbreak'
+                },
+                {
                   type => 'text',
                   content => 'Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.'
                 },
@@ -16327,6 +16333,9 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
+                {
+                  type => 'parbreak'
+                },
                 {
                   type => 'text',
                   content => 'Returns the parent layerable of this layerable. The parent layerable is used to provide visibility hierarchies in conjunction with the method '
@@ -16548,6 +16557,9 @@ $doxydocs=
             detailed => {
               doc => [
                 {
+                  type => 'parbreak'
+                },
+                {
                   type => 'text',
                   content => 'Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados. Sets the layer of this layerable object by name'
                 },
@@ -16647,6 +16659,9 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
+                {
+                  type => 'parbreak'
+                },
                 {
                   type => 'text',
                   content => 'Returns whether this layerable is visible, taking the visibility of the layerable parent and the visibility of this layerable\'s layer into account. This is the method that is consulted to decide whether a layerable shall be drawn or not.'
@@ -16775,9 +16790,6 @@ $doxydocs=
             detailed => {
               doc => [
                 {
-                  type => 'parbreak'
-                },
-                {
                   type => 'text',
                   content => 'This signal is emitted when the selection state of this plottable has changed, either by user interaction or by a direct call to '
                 },
@@ -16846,9 +16858,6 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
-                {
-                  type => 'parbreak'
-                },
                 {
                   type => 'text',
                   content => 'This signal is emitted when the selectability of this plottable has changed.'
@@ -17195,9 +17204,6 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
-                {
-                  type => 'parbreak'
-                },
                 {
                   type => 'text',
                   content => 'This event gets called when the user presses a mouse button while the cursor is over the layerable. Whether a cursor is over the layerable is decided by a preceding call to '
@@ -18208,6 +18214,9 @@ $doxydocs=
             detailed => {
               doc => [
                 {
+                  type => 'parbreak'
+                },
+                {
                   type => 'text',
                   content => 'This event gets called when the user turns the mouse scroll wheel while the cursor is over the layerable. Whether a cursor is over the layerable is decided by a preceding call to '
                 },
@@ -18666,9 +18675,6 @@ $doxydocs=
       },
       detailed => {
         doc => [
-          {
-            type => 'parbreak'
-          },
           {
             type => 'text',
             content => 'It defines a very basic interface like name, pen, brush, visibility etc. Since this class is abstract, it can\'t be instantiated. Use one of the subclasses or create a subclass yourself to create new ways of displaying data (see "Creating own plottables" below). Plottables that display one-dimensional data (i.e. data points have a single key dimension and one or multiple values at each key) are based off of the template subclass '
@@ -20171,9 +20177,6 @@ $doxydocs=
             detailed => {
               doc => [
                 {
-                  type => 'parbreak'
-                },
-                {
                   type => 'text',
                   content => 'Returns the main key of the data point at the given '
                 },
@@ -20381,6 +20384,9 @@ $doxydocs=
             detailed => {
               doc => [
                 {
+                  type => 'parbreak'
+                },
+                {
                   type => 'text',
                   content => 'Returns the value range of the data point at the given '
                 },
@@ -20549,6 +20555,9 @@ $doxydocs=
             },
             detailed => {
               doc => [
+                {
+                  type => 'parbreak'
+                },
                 {
                   type => 'text',
                   content => 'Returns whether the sort key ('
@@ -21225,6 +21234,9 @@ $doxydocs=
             detailed => {
               doc => [
                 {
+                  type => 'parbreak'
+                },
+                {
                   type => 'text',
                   content => 'Returns true if there are any data points of the plottable currently selected. Use '
                 },
@@ -21336,6 +21348,9 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
+                {
+                  type => 'parbreak'
+                },
                 {
                   type => 'text',
                   content => 'Provides access to the selection decorator of this plottable. The selection decorator controls how selected data ranges are drawn (e.g. their pen color and fill), see '
@@ -23043,9 +23058,6 @@ $doxydocs=
             detailed => {
               doc => [
                 {
-                  type => 'parbreak'
-                },
-                {
                   type => 'text',
                   content => 'Convenience function for transforming a x/y pixel pair on the '
                 },
@@ -23192,9 +23204,6 @@ $doxydocs=
             detailed => {
               doc => [
                 {
-                  type => 'parbreak'
-                },
-                {
                   type => 'text',
                   content => 'Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.'
                 },
@@ -23288,6 +23297,9 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
+                {
+                  type => 'parbreak'
+                },
                 {
                   type => 'text',
                   content => 'Rescales the key and value axes associated with this plottable to contain all displayed data, so the whole plottable is visible. If the scaling of an axis is logarithmic, rescaleAxes will make sure not to rescale to an illegal range i.e. a range containing different signs and/or zero. Instead it will stay in the current sign domain and ignore all parts of the plottable that lie outside of that domain.'
@@ -23397,6 +23409,9 @@ $doxydocs=
             detailed => {
               doc => [
                 {
+                  type => 'parbreak'
+                },
+                {
                   type => 'text',
                   content => 'Rescales the key axis of the plottable so the whole plottable is visible.'
                 },
@@ -23442,6 +23457,9 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
+                {
+                  type => 'parbreak'
+                },
                 {
                   type => 'text',
                   content => 'Rescales the value axis of the plottable so the whole plottable is visible. If '
@@ -23518,9 +23536,6 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
-                {
-                  type => 'parbreak'
-                },
                 {
                   type => 'text',
                   content => 'Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.'
@@ -23630,6 +23645,9 @@ $doxydocs=
             detailed => {
               doc => [
                 {
+                  type => 'parbreak'
+                },
+                {
                   type => 'text',
                   content => 'Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.'
                 },
@@ -23692,9 +23710,6 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
-                {
-                  type => 'parbreak'
-                },
                 {
                   type => 'text',
                   content => 'Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.'
@@ -23868,6 +23883,9 @@ $doxydocs=
             detailed => {
               doc => [
                 {
+                  type => 'parbreak'
+                },
+                {
                   type => 'text',
                   content => 'Returns the parent layerable of this layerable. The parent layerable is used to provide visibility hierarchies in conjunction with the method '
                 },
@@ -23936,6 +23954,9 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
+                {
+                  type => 'parbreak'
+                },
                 {
                   type => 'text',
                   content => 'Sets the visibility of this layerable object. If an object is not visible, it will not be drawn on the '
@@ -24082,9 +24103,6 @@ $doxydocs=
             detailed => {
               doc => [
                 {
-                  type => 'parbreak'
-                },
-                {
                   type => 'text',
                   content => 'Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados. Sets the layer of this layerable object by name'
                 },
@@ -24134,9 +24152,6 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
-                {
-                  type => 'parbreak'
-                },
                 {
                   type => 'text',
                   content => 'Sets whether this object will be drawn antialiased or not.'
@@ -24246,9 +24261,6 @@ $doxydocs=
             detailed => {
               doc => [
                 {
-                  type => 'parbreak'
-                },
-                {
                   type => 'text',
                   content => 'This signal is emitted when the selection state of this plottable has changed, either by user interaction or by a direct call to '
                 },
@@ -24317,6 +24329,9 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
+                {
+                  type => 'parbreak'
+                },
                 {
                   type => 'text',
                   content => 'This signal is emitted when the selection state of this plottable has changed, either by user interaction or by a direct call to '
@@ -24993,9 +25008,6 @@ $doxydocs=
             detailed => {
               doc => [
                 {
-                  type => 'parbreak'
-                },
-                {
                   type => 'text',
                   content => 'This event gets called when the user presses a mouse button while the cursor is over the layerable. Whether a cursor is over the layerable is decided by a preceding call to '
                 },
@@ -25338,9 +25350,6 @@ $doxydocs=
             detailed => {
               doc => [
                 {
-                  type => 'parbreak'
-                },
-                {
                   type => 'text',
                   content => 'This event gets called when the user moves the mouse while holding a mouse button, after this layerable has become the mouse grabber by accepting the preceding '
                 },
@@ -25654,6 +25663,9 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
+                {
+                  type => 'parbreak'
+                },
                 {
                   type => 'text',
                   content => 'This event gets called when the user presses the mouse button a second time in a double-click, while the cursor is over the layerable. Whether a cursor is over the layerable is decided by a preceding call to '
@@ -26420,6 +26432,9 @@ $doxydocs=
       brief => {
         doc => [
           {
+            type => 'parbreak'
+          },
+          {
             type => 'text',
             content => 'A template base class for plottables with one-dimensional data. '
           }
@@ -26427,6 +26442,9 @@ $doxydocs=
       },
       detailed => {
         doc => [
+          {
+            type => 'parbreak'
+          },
           {
             type => 'text',
             content => 'This template class derives from '
@@ -27994,9 +28012,6 @@ $doxydocs=
                 brief => {
                   doc => [
                     {
-                      type => 'parbreak'
-                    },
-                    {
                       type => 'style',
                       style => 'code',
                       enable => 'yes'
@@ -28023,6 +28038,9 @@ $doxydocs=
                 initializer => '= 0x04',
                 brief => {
                   doc => [
+                    {
+                      type => 'parbreak'
+                    },
                     {
                       type => 'style',
                       style => 'code',
@@ -28087,9 +28105,6 @@ $doxydocs=
             detailed => {
               doc => [
                 {
-                  type => 'parbreak'
-                },
-                {
                   type => 'text',
                   content => 'Defines on which side of the axis the tick labels (numbers) shall appear.'
                 },
@@ -28117,6 +28132,9 @@ $doxydocs=
                 brief => {
                   doc => [
                     {
+                      type => 'parbreak'
+                    },
+                    {
                       type => 'text',
                       content => 'Tick labels will be displayed inside the axis rect and clipped to the inner axis rect. '
                     }
@@ -28128,9 +28146,6 @@ $doxydocs=
                 name => 'lsOutside',
                 brief => {
                   doc => [
-                    {
-                      type => 'parbreak'
-                    },
                     {
                       type => 'text',
                       content => 'Tick labels will be displayed outside the axis rect. '
@@ -28192,6 +28207,9 @@ $doxydocs=
                 name => 'stLogarithmic',
                 brief => {
                   doc => [
+                    {
+                      type => 'parbreak'
+                    },
                     {
                       type => 'text',
                       content => 'Logarithmic scaling with correspondingly transformed axis coordinates (possibly also '
@@ -28307,9 +28325,6 @@ $doxydocs=
                 brief => {
                   doc => [
                     {
-                      type => 'parbreak'
-                    },
-                    {
                       type => 'text',
                       content => 'Tick labels (numbers) of this axis (as a whole, not individually) '
                     }
@@ -28322,6 +28337,9 @@ $doxydocs=
                 initializer => '= 0x004',
                 brief => {
                   doc => [
+                    {
+                      type => 'parbreak'
+                    },
                     {
                       type => 'text',
                       content => 'The axis label. '
@@ -28340,6 +28358,9 @@ $doxydocs=
             static => 'no',
             brief => {
               doc => [
+                {
+                  type => 'parbreak'
+                },
                 {
                   type => 'style',
                   style => 'code',
@@ -28372,6 +28393,9 @@ $doxydocs=
             static => 'no',
             brief => {
               doc => [
+                {
+                  type => 'parbreak'
+                },
                 {
                   type => 'style',
                   style => 'code',
@@ -28491,9 +28515,6 @@ $doxydocs=
             static => 'no',
             brief => {
               doc => [
-                {
-                  type => 'parbreak'
-                },
                 {
                   type => 'text',
                   content => 'Tick labels will be displayed outside the axis rect. '
@@ -28620,6 +28641,9 @@ $doxydocs=
             brief => {
               doc => [
                 {
+                  type => 'parbreak'
+                },
+                {
                   type => 'text',
                   content => 'Tick labels (numbers) of this axis (as a whole, not individually) '
                 }
@@ -28663,6 +28687,9 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
+                {
+                  type => 'parbreak'
+                },
                 {
                   type => 'text',
                   content => 'Constructs an Axis instance of Type '
@@ -28853,9 +28880,6 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
-                {
-                  type => 'parbreak'
-                },
                 {
                   type => 'text',
                   content => 'Returns a modifiable shared pointer to the currently installed axis ticker. The axis ticker is responsible for generating the tick positions and tick labels of this axis. You can access the '
@@ -29450,9 +29474,6 @@ $doxydocs=
             detailed => {
               doc => [
                 {
-                  type => 'parbreak'
-                },
-                {
                   type => 'text',
                   content => 'Returns the '
                 },
@@ -29486,9 +29507,6 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
-                {
-                  type => 'parbreak'
-                },
                 {
                   type => 'text',
                   content => 'Sets whether the axis uses a linear scale or a logarithmic scale.'
@@ -29634,6 +29652,9 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
+                {
+                  type => 'parbreak'
+                },
                 {
                   type => 'text',
                   content => 'Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.'
@@ -30855,6 +30876,9 @@ $doxydocs=
             detailed => {
               doc => [
                 {
+                  type => 'parbreak'
+                },
+                {
                   type => 'text',
                   content => 'Sets the length of the ticks in pixels. '
                 },
@@ -31333,6 +31357,9 @@ $doxydocs=
             detailed => {
               doc => [
                 {
+                  type => 'parbreak'
+                },
+                {
                   type => 'text',
                   content => 'Sets the length of the inward subticks in pixels. '
                 },
@@ -31611,9 +31638,6 @@ $doxydocs=
             detailed => {
               doc => [
                 {
-                  type => 'parbreak'
-                },
-                {
                   type => 'text',
                   content => 'Sets the pen, subtick marks will be drawn with.'
                 },
@@ -31667,6 +31691,9 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
+                {
+                  type => 'parbreak'
+                },
                 {
                   type => 'text',
                   content => 'Sets the font of the axis label.'
@@ -32573,9 +32600,6 @@ $doxydocs=
             detailed => {
               doc => [
                 {
-                  type => 'parbreak'
-                },
-                {
                   type => 'text',
                   content => 'Sets the selected state of the respective axis parts described by '
                 },
@@ -32834,6 +32858,9 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
+                {
+                  type => 'parbreak'
+                },
                 {
                   type => 'text',
                   content => 'Sets the style for the upper axis ending. See the documentation of '
@@ -33277,6 +33304,9 @@ $doxydocs=
             detailed => {
               doc => [
                 {
+                  type => 'parbreak'
+                },
+                {
                   type => 'text',
                   content => 'Returns the orientation of this axis. The axis orientation (horizontal or vertical) is deduced from the axis type (left, top, right or bottom).'
                 },
@@ -33528,9 +33558,6 @@ $doxydocs=
             detailed => {
               doc => [
                 {
-                  type => 'parbreak'
-                },
-                {
                   type => 'text',
                   content => 'Scales the range of this axis by '
                 },
@@ -33754,9 +33781,6 @@ $doxydocs=
             detailed => {
               doc => [
                 {
-                  type => 'parbreak'
-                },
-                {
                   type => 'text',
                   content => 'Scales the range of this axis to have a certain scale '
                 },
@@ -33918,6 +33942,9 @@ $doxydocs=
             detailed => {
               doc => [
                 {
+                  type => 'parbreak'
+                },
+                {
                   type => 'text',
                   content => 'Changes the axis range such that all plottables associated with this axis are fully visible in that dimension.'
                 },
@@ -33968,9 +33995,6 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
-                {
-                  type => 'parbreak'
-                },
                 {
                   type => 'text',
                   content => 'Transforms '
@@ -34024,6 +34048,9 @@ $doxydocs=
             detailed => {
               doc => [
                 {
+                  type => 'parbreak'
+                },
+                {
                   type => 'text',
                   content => 'Transforms '
                 },
@@ -34075,9 +34102,6 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
-                {
-                  type => 'parbreak'
-                },
                 {
                   type => 'text',
                   content => 'Returns the part of the axis that is hit by '
@@ -34316,6 +34340,9 @@ $doxydocs=
             detailed => {
               doc => [
                 {
+                  type => 'parbreak'
+                },
+                {
                   type => 'text',
                   content => 'Returns a list of all the items that are associated with this axis. An item is considered associated with an axis if at least one of its positions uses the axis as key or value axis.'
                 },
@@ -34390,6 +34417,9 @@ $doxydocs=
             detailed => {
               doc => [
                 {
+                  type => 'parbreak'
+                },
+                {
                   type => 'text',
                   content => 'Returns the parent layerable of this layerable. The parent layerable is used to provide visibility hierarchies in conjunction with the method '
                 },
@@ -34458,6 +34488,9 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
+                {
+                  type => 'parbreak'
+                },
                 {
                   type => 'text',
                   content => 'Sets the visibility of this layerable object. If an object is not visible, it will not be drawn on the '
@@ -34941,6 +34974,9 @@ $doxydocs=
             detailed => {
               doc => [
                 {
+                  type => 'parbreak'
+                },
+                {
                   type => 'text',
                   content => 'This signal is emitted when the selection state of this axis has changed, either by user interaction or by a direct call to '
                 },
@@ -35019,6 +35055,9 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
+                {
+                  type => 'parbreak'
+                },
                 {
                   type => 'text',
                   content => 'This signal is emitted when the layer of this layerable changes, i.e. this layerable is moved to a different layer.'
@@ -35128,6 +35167,9 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
+                {
+                  type => 'parbreak'
+                },
                 {
                   type => 'text',
                   content => 'Returns the orientation of the specified axis type'
@@ -35690,6 +35732,9 @@ $doxydocs=
             detailed => {
               doc => [
                 {
+                  type => 'parbreak'
+                },
+                {
                   type => 'text',
                   content => 'This event gets called when the user moves the mouse while holding a mouse button, after this layerable has become the mouse grabber by accepting the preceding '
                 },
@@ -35984,9 +36029,6 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
-                {
-                  type => 'parbreak'
-                },
                 {
                   type => 'text',
                   content => 'This event gets called when the user turns the mouse scroll wheel while the cursor is over the layerable. Whether a cursor is over the layerable is decided by a preceding call to '
@@ -37263,6 +37305,9 @@ $doxydocs=
       },
       brief => {
         doc => [
+          {
+            type => 'parbreak'
+          },
           {
             type => 'text',
             content => 'Manages a single axis inside a '
@@ -39411,6 +39456,9 @@ $doxydocs=
                 brief => {
                   doc => [
                     {
+                      type => 'parbreak'
+                    },
+                    {
                       type => 'text',
                       content => 'Phase used for any type of preparation that needs to be done before margin calculation and layout. '
                     }
@@ -39459,6 +39507,9 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
+                {
+                  type => 'parbreak'
+                },
                 {
                   type => 'text',
                   content => 'Defines to which rect of a layout element the size constraints that can be set via '
@@ -39545,6 +39596,9 @@ $doxydocs=
                 brief => {
                   doc => [
                     {
+                      type => 'parbreak'
+                    },
+                    {
                       type => 'text',
                       content => 'Minimum/Maximum size constraints apply to inner rect. '
                     }
@@ -39577,9 +39631,6 @@ $doxydocs=
             static => 'no',
             brief => {
               doc => [
-                {
-                  type => 'parbreak'
-                },
                 {
                   type => 'text',
                   content => 'Phase used for any type of preparation that needs to be done before margin calculation and layout. '
@@ -39821,6 +39872,9 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
+                {
+                  type => 'parbreak'
+                },
                 {
                   type => 'text',
                   content => 'Returns the range drag axis of the '
@@ -40287,9 +40341,6 @@ $doxydocs=
             detailed => {
               doc => [
                 {
-                  type => 'parbreak'
-                },
-                {
                   type => 'text',
                   content => 'Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.'
                 },
@@ -40364,6 +40415,9 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
+                {
+                  type => 'parbreak'
+                },
                 {
                   type => 'text',
                   content => 'Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.'
@@ -40468,6 +40522,9 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
+                {
+                  type => 'parbreak'
+                },
                 {
                   type => 'text',
                   content => 'Sets whether the axis background pixmap shall be scaled to fit the axis rect or not. If '
@@ -40622,6 +40679,9 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
+                {
+                  type => 'parbreak'
+                },
                 {
                   type => 'text',
                   content => 'Sets which axis orientation may be range dragged by the user with mouse interaction. What orientation corresponds to which specific axis can be set with '
@@ -40815,6 +40875,9 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
+                {
+                  type => 'parbreak'
+                },
                 {
                   type => 'text',
                   content => 'Sets which axis orientation may be zoomed by the user with the mouse wheel. What orientation corresponds to which specific axis can be set with '
@@ -41188,6 +41251,9 @@ $doxydocs=
             detailed => {
               doc => [
                 {
+                  type => 'parbreak'
+                },
+                {
                   type => 'text',
                   content => 'Sets the axes whose range will be zoomed when '
                 },
@@ -41446,6 +41512,9 @@ $doxydocs=
             detailed => {
               doc => [
                 {
+                  type => 'parbreak'
+                },
+                {
                   type => 'text',
                   content => 'Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.'
                 },
@@ -41651,6 +41720,9 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
+                {
+                  type => 'parbreak'
+                },
                 {
                   type => 'text',
                   content => 'Returns all axes on the axis rect sides specified with '
@@ -42203,9 +42275,6 @@ $doxydocs=
             detailed => {
               doc => [
                 {
-                  type => 'parbreak'
-                },
-                {
                   type => 'text',
                   content => 'Removes the specified '
                 },
@@ -42493,6 +42562,9 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
+                {
+                  type => 'parbreak'
+                },
                 {
                   type => 'text',
                   content => 'Convenience function to create an axis on each side that doesn\'t have any axes yet and set their visibility to true. Further, the top/right axes are assigned the following properties of the bottom/left axes:'
@@ -42933,9 +43005,6 @@ $doxydocs=
             detailed => {
               doc => [
                 {
-                  type => 'parbreak'
-                },
-                {
                   type => 'text',
                   content => 'Returns the pixel position of the left border of this axis rect. Margins are not taken into account here, so the returned value is with respect to the inner '
                 },
@@ -43077,6 +43146,9 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
+                {
+                  type => 'parbreak'
+                },
                 {
                   type => 'text',
                   content => 'Returns the pixel width of this axis rect. Margins are not taken into account here, so the returned value is with respect to the inner '
@@ -43260,9 +43332,6 @@ $doxydocs=
             detailed => {
               doc => [
                 {
-                  type => 'parbreak'
-                },
-                {
                   type => 'text',
                   content => 'Returns the bottom left corner of this axis rect in pixels. Margins are not taken into account here, so the returned value is with respect to the inner '
                 },
@@ -43370,9 +43439,6 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
-                {
-                  type => 'parbreak'
-                },
                 {
                   type => 'text',
                   content => 'This method is called automatically upon replot and doesn\'t need to be called by users of '
@@ -43870,9 +43936,6 @@ $doxydocs=
             detailed => {
               doc => [
                 {
-                  type => 'parbreak'
-                },
-                {
                   type => 'text',
                   content => 'Sets the outer rect of this layout element. If the layout element is inside a layout, the layout sets the position and size of this layout element using this function.'
                 },
@@ -43937,9 +44000,6 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
-                {
-                  type => 'parbreak'
-                },
                 {
                   type => 'text',
                   content => 'Sets the margins of this layout element. If '
@@ -44036,6 +44096,9 @@ $doxydocs=
             detailed => {
               doc => [
                 {
+                  type => 'parbreak'
+                },
+                {
                   type => 'text',
                   content => 'If '
                 },
@@ -44099,9 +44162,6 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
-                {
-                  type => 'parbreak'
-                },
                 {
                   type => 'text',
                   content => 'Sets on which sides the margin shall be calculated automatically. If a side is calculated automatically, a minimum margin value may be provided with '
@@ -44210,9 +44270,6 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
-                {
-                  type => 'parbreak'
-                },
                 {
                   type => 'text',
                   content => 'Sets the minimum size of this layout element. A parent layout tries to respect the '
@@ -44355,6 +44412,9 @@ $doxydocs=
             detailed => {
               doc => [
                 {
+                  type => 'parbreak'
+                },
+                {
                   type => 'text',
                   content => 'Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.'
                 },
@@ -44436,6 +44496,9 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
+                {
+                  type => 'parbreak'
+                },
                 {
                   type => 'text',
                   content => 'Sets the maximum size of this layout element. A parent layout tries to respect the '
@@ -44525,9 +44588,6 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
-                {
-                  type => 'parbreak'
-                },
                 {
                   type => 'text',
                   content => 'Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.'
@@ -44722,6 +44782,9 @@ $doxydocs=
             detailed => {
               doc => [
                 {
+                  type => 'parbreak'
+                },
+                {
                   type => 'text',
                   content => 'Sets the margin '
                 },
@@ -44875,9 +44938,6 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
-                {
-                  type => 'parbreak'
-                },
                 {
                   type => 'text',
                   content => 'Returns the suggested minimum size this layout element (the '
@@ -45435,6 +45495,9 @@ $doxydocs=
             detailed => {
               doc => [
                 {
+                  type => 'parbreak'
+                },
+                {
                   type => 'text',
                   content => 'Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados. Sets the layer of this layerable object by name'
                 },
@@ -45534,6 +45597,9 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
+                {
+                  type => 'parbreak'
+                },
                 {
                   type => 'text',
                   content => 'Returns whether this layerable is visible, taking the visibility of the layerable parent and the visibility of this layerable\'s layer into account. This is the method that is consulted to decide whether a layerable shall be drawn or not.'
@@ -45725,9 +45791,6 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
-                {
-                  type => 'parbreak'
-                },
                 {
                   type => 'text',
                   content => 'This event gets called when the user presses a mouse button while the cursor is over the layerable. Whether a cursor is over the layerable is decided by a preceding call to '
@@ -46059,6 +46122,9 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
+                {
+                  type => 'parbreak'
+                },
                 {
                   type => 'text',
                   content => 'This event gets called when the user moves the mouse while holding a mouse button, after this layerable has become the mouse grabber by accepting the preceding '
@@ -46721,9 +46787,6 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
-                {
-                  type => 'parbreak'
-                },
                 {
                   type => 'text',
                   content => 'This event gets called when the user presses the mouse button a second time in a double-click, while the cursor is over the layerable. Whether a cursor is over the layerable is decided by a preceding call to '
@@ -48098,6 +48161,9 @@ $doxydocs=
                 brief => {
                   doc => [
                     {
+                      type => 'parbreak'
+                    },
+                    {
                       type => 'text',
                       content => 'A nicely readable tick step is prioritized over matching the requested number of ticks (see '
                     },
@@ -48122,6 +48188,9 @@ $doxydocs=
                 name => 'tssMeetTickCount',
                 brief => {
                   doc => [
+                    {
+                      type => 'parbreak'
+                    },
                     {
                       type => 'text',
                       content => 'Less readable tick steps are allowed which in turn facilitates getting closer to the requested tick count. '
@@ -48198,9 +48267,6 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
-                {
-                  type => 'parbreak'
-                },
                 {
                   type => 'text',
                   content => 'Constructs the ticker and sets reasonable default values. Axis tickers are commonly created managed by a QSharedPointer, which then can be passed to '
@@ -48482,9 +48548,6 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
-                {
-                  type => 'parbreak'
-                },
                 {
                   type => 'text',
                   content => 'This is the method called by '
@@ -49824,6 +49887,9 @@ $doxydocs=
             brief => {
               doc => [
                 {
+                  type => 'parbreak'
+                },
+                {
                   type => 'text',
                   content => 'A nicely readable tick step is prioritized over matching the requested number of ticks (see '
                 },
@@ -50005,6 +50071,9 @@ $doxydocs=
             detailed => {
               doc => [
                 {
+                  type => 'parbreak'
+                },
+                {
                   type => 'text',
                   content => 'Sets the time spec that is used for creating the tick labels from corresponding dates/times.'
                 },
@@ -50125,9 +50194,6 @@ $doxydocs=
             detailed => {
               doc => [
                 {
-                  type => 'parbreak'
-                },
-                {
                   type => 'text',
                   content => 'Sets the tick origin (see '
                 },
@@ -50178,6 +50244,9 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
+                {
+                  type => 'parbreak'
+                },
                 {
                   type => 'text',
                   content => 'Sets the tick origin (see '
@@ -50276,6 +50345,9 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
+                {
+                  type => 'parbreak'
+                },
                 {
                   type => 'text',
                   content => 'Sets which strategy the axis ticker follows when choosing the size of the tick step. For the available strategies, see '
@@ -51239,9 +51311,6 @@ $doxydocs=
       brief => {
         doc => [
           {
-            type => 'parbreak'
-          },
-          {
             type => 'text',
             content => 'Specialized axis ticker for calendar dates and times as axis ticks. '
           }
@@ -51249,9 +51318,6 @@ $doxydocs=
       },
       detailed => {
         doc => [
-          {
-            type => 'parbreak'
-          },
           {
             type => 'parbreak'
           },
@@ -51676,9 +51742,6 @@ $doxydocs=
                 brief => {
                   doc => [
                     {
-                      type => 'parbreak'
-                    },
-                    {
                       type => 'text',
                       content => 'Modifications are not allowed, the specified tick step is absolutely fixed. This might cause a high tick density and overlapping labels if the axis range is zoomed out. '
                     }
@@ -51810,9 +51873,6 @@ $doxydocs=
             brief => {
               doc => [
                 {
-                  type => 'parbreak'
-                },
-                {
                   type => 'text',
                   content => 'An integer power of the specified tick step is allowed. '
                 }
@@ -51858,9 +51918,6 @@ $doxydocs=
                 brief => {
                   doc => [
                     {
-                      type => 'parbreak'
-                    },
-                    {
                       type => 'text',
                       content => 'A nicely readable tick step is prioritized over matching the requested number of ticks (see '
                     },
@@ -51885,6 +51942,9 @@ $doxydocs=
                 name => 'tssMeetTickCount',
                 brief => {
                   doc => [
+                    {
+                      type => 'parbreak'
+                    },
                     {
                       type => 'text',
                       content => 'Less readable tick steps are allowed which in turn facilitates getting closer to the requested tick count. '
@@ -52018,9 +52078,6 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
-                {
-                  type => 'parbreak'
-                },
                 {
                   type => 'text',
                   content => 'Sets the fixed tick interval to '
@@ -52225,6 +52282,9 @@ $doxydocs=
             detailed => {
               doc => [
                 {
+                  type => 'parbreak'
+                },
+                {
                   type => 'text',
                   content => 'Sets which strategy the axis ticker follows when choosing the size of the tick step. For the available strategies, see '
                 },
@@ -52262,6 +52322,9 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
+                {
+                  type => 'parbreak'
+                },
                 {
                   type => 'text',
                   content => 'Sets how many ticks this ticker shall aim to generate across the axis range. Note that '
@@ -52343,6 +52406,9 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
+                {
+                  type => 'parbreak'
+                },
                 {
                   type => 'text',
                   content => 'Sets the mathematical coordinate (or "offset") of the zeroth tick. This tick coordinate is just a concept and doesn\'t need to be inside the currently visible axis range.'
@@ -53327,6 +53393,9 @@ $doxydocs=
             detailed => {
               doc => [
                 {
+                  type => 'parbreak'
+                },
+                {
                   type => 'text',
                   content => 'Defines the strategies that the axis ticker may follow when choosing the size of the tick step.'
                 },
@@ -53354,6 +53423,9 @@ $doxydocs=
                 brief => {
                   doc => [
                     {
+                      type => 'parbreak'
+                    },
+                    {
                       type => 'text',
                       content => 'A nicely readable tick step is prioritized over matching the requested number of ticks (see '
                     },
@@ -53379,6 +53451,9 @@ $doxydocs=
                 brief => {
                   doc => [
                     {
+                      type => 'parbreak'
+                    },
+                    {
                       type => 'text',
                       content => 'Less readable tick steps are allowed which in turn facilitates getting closer to the requested tick count. '
                     }
@@ -53396,6 +53471,9 @@ $doxydocs=
             static => 'no',
             brief => {
               doc => [
+                {
+                  type => 'parbreak'
+                },
                 {
                   type => 'text',
                   content => 'A nicely readable tick step is prioritized over matching the requested number of ticks (see '
@@ -53426,9 +53504,6 @@ $doxydocs=
             static => 'no',
             brief => {
               doc => [
-                {
-                  type => 'parbreak'
-                },
                 {
                   type => 'text',
                   content => 'Less readable tick steps are allowed which in turn facilitates getting closer to the requested tick count. '
@@ -53512,9 +53587,6 @@ $doxydocs=
             detailed => {
               doc => [
                 {
-                  type => 'parbreak'
-                },
-                {
                   type => 'text',
                   content => 'Sets the logarithm base used for tick coordinate generation. The ticks will be placed at integer powers of '
                 },
@@ -53557,6 +53629,9 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
+                {
+                  type => 'parbreak'
+                },
                 {
                   type => 'text',
                   content => 'Sets the number of sub ticks in a tick interval. Within each interval, the sub ticks are spaced linearly to provide a better visual guide, so the sub tick density increases toward the higher tick.'
@@ -54854,6 +54929,9 @@ $doxydocs=
             detailed => {
               doc => [
                 {
+                  type => 'parbreak'
+                },
+                {
                   type => 'text',
                   content => 'Defines how fractions should be displayed in tick labels.'
                 },
@@ -54896,6 +54974,9 @@ $doxydocs=
                 brief => {
                   doc => [
                     {
+                      type => 'parbreak'
+                    },
+                    {
                       type => 'text',
                       content => 'Fractions are written as rationals using ASCII characters only, e.g. "1/4" or "1/8". '
                     }
@@ -54907,9 +54988,6 @@ $doxydocs=
                 name => 'fsUnicodeFractions',
                 brief => {
                   doc => [
-                    {
-                      type => 'parbreak'
-                    },
                     {
                       type => 'text',
                       content => 'Fractions are written using sub- and superscript UTF-8 digits and the fraction symbol. '
@@ -54929,9 +55007,6 @@ $doxydocs=
             brief => {
               doc => [
                 {
-                  type => 'parbreak'
-                },
-                {
                   type => 'text',
                   content => 'Fractions are displayed as regular decimal floating point numbers, e.g. "0.25" or "0.125". '
                 }
@@ -54948,6 +55023,9 @@ $doxydocs=
             static => 'no',
             brief => {
               doc => [
+                {
+                  type => 'parbreak'
+                },
                 {
                   type => 'text',
                   content => 'Fractions are written as rationals using ASCII characters only, e.g. "1/4" or "1/8". '
@@ -55017,6 +55095,9 @@ $doxydocs=
                 brief => {
                   doc => [
                     {
+                      type => 'parbreak'
+                    },
+                    {
                       type => 'text',
                       content => 'A nicely readable tick step is prioritized over matching the requested number of ticks (see '
                     },
@@ -55062,9 +55143,6 @@ $doxydocs=
             static => 'no',
             brief => {
               doc => [
-                {
-                  type => 'parbreak'
-                },
                 {
                   type => 'text',
                   content => 'A nicely readable tick step is prioritized over matching the requested number of ticks (see '
@@ -55372,6 +55450,9 @@ $doxydocs=
             detailed => {
               doc => [
                 {
+                  type => 'parbreak'
+                },
+                {
                   type => 'text',
                   content => 'Sets how the numerical/fractional part preceding the symbolic constant is displayed in tick labels. See '
                 },
@@ -55644,6 +55725,9 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
+                {
+                  type => 'parbreak'
+                },
                 {
                   type => 'text',
                   content => 'This is the method called by '
@@ -56358,9 +56442,6 @@ $doxydocs=
       brief => {
         doc => [
           {
-            type => 'parbreak'
-          },
-          {
             type => 'text',
             content => 'Specialized axis ticker to display ticks in units of an arbitrary constant, for example pi. '
           }
@@ -56675,6 +56756,9 @@ $doxydocs=
             detailed => {
               doc => [
                 {
+                  type => 'parbreak'
+                },
+                {
                   type => 'text',
                   content => 'Defines the strategies that the axis ticker may follow when choosing the size of the tick step.'
                 },
@@ -56751,9 +56835,6 @@ $doxydocs=
             brief => {
               doc => [
                 {
-                  type => 'parbreak'
-                },
-                {
                   type => 'text',
                   content => 'A nicely readable tick step is prioritized over matching the requested number of ticks (see '
                 },
@@ -56784,6 +56865,9 @@ $doxydocs=
             brief => {
               doc => [
                 {
+                  type => 'parbreak'
+                },
+                {
                   type => 'text',
                   content => 'Less readable tick steps are allowed which in turn facilitates getting closer to the requested tick count. '
                 }
@@ -56805,6 +56889,9 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
+                {
+                  type => 'parbreak'
+                },
                 {
                   type => 'text',
                   content => 'Constructs the ticker and sets reasonable default values. Axis tickers are commonly created managed by a QSharedPointer, which then can be passed to '
@@ -57019,6 +57106,9 @@ $doxydocs=
             detailed => {
               doc => [
                 {
+                  type => 'parbreak'
+                },
+                {
                   type => 'text',
                   content => 'Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.'
                 },
@@ -57162,6 +57252,9 @@ $doxydocs=
             detailed => {
               doc => [
                 {
+                  type => 'parbreak'
+                },
+                {
                   type => 'text',
                   content => 'Clears all ticks.'
                 },
@@ -57233,6 +57326,9 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
+                {
+                  type => 'parbreak'
+                },
                 {
                   type => 'text',
                   content => 'Adds a single tick to the axis at the given axis coordinate '
@@ -57455,9 +57551,6 @@ $doxydocs=
             detailed => {
               doc => [
                 {
-                  type => 'parbreak'
-                },
-                {
                   type => 'text',
                   content => 'Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.'
                 },
@@ -57623,9 +57716,6 @@ $doxydocs=
             detailed => {
               doc => [
                 {
-                  type => 'parbreak'
-                },
-                {
                   type => 'text',
                   content => 'Sets which strategy the axis ticker follows when choosing the size of the tick step. For the available strategies, see '
                 },
@@ -57663,6 +57753,9 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
+                {
+                  type => 'parbreak'
+                },
                 {
                   type => 'text',
                   content => 'Sets how many ticks this ticker shall aim to generate across the axis range. Note that '
@@ -57744,9 +57837,6 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
-                {
-                  type => 'parbreak'
-                },
                 {
                   type => 'text',
                   content => 'Sets the mathematical coordinate (or "offset") of the zeroth tick. This tick coordinate is just a concept and doesn\'t need to be inside the currently visible axis range.'
@@ -58102,9 +58192,6 @@ $doxydocs=
             detailed => {
               doc => [
                 {
-                  type => 'parbreak'
-                },
-                {
                   type => 'text',
                   content => 'Since the tick coordinates are provided externally, this method implementation does nothing.'
                 }
@@ -58176,6 +58263,9 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
+                {
+                  type => 'parbreak'
+                },
                 {
                   type => 'text',
                   content => 'Returns the tick label which corresponds to the key '
@@ -58549,6 +58639,9 @@ $doxydocs=
       },
       brief => {
         doc => [
+          {
+            type => 'parbreak'
+          },
           {
             type => 'text',
             content => 'Specialized axis ticker which allows arbitrary labels at specified coordinates. '
@@ -58959,9 +59052,6 @@ $doxydocs=
                 brief => {
                   doc => [
                     {
-                      type => 'parbreak'
-                    },
-                    {
                       type => 'text',
                       content => 'Milliseconds, one thousandth of a second (%z in '
                     },
@@ -58986,6 +59076,9 @@ $doxydocs=
                 name => 'tuSeconds',
                 brief => {
                   doc => [
+                    {
+                      type => 'parbreak'
+                    },
                     {
                       type => 'text',
                       content => 'Seconds (%s in '
@@ -59012,6 +59105,9 @@ $doxydocs=
                 brief => {
                   doc => [
                     {
+                      type => 'parbreak'
+                    },
+                    {
                       type => 'text',
                       content => 'Minutes (%m in '
                     },
@@ -59037,6 +59133,9 @@ $doxydocs=
                 brief => {
                   doc => [
                     {
+                      type => 'parbreak'
+                    },
+                    {
                       type => 'text',
                       content => 'Hours (%h in '
                     },
@@ -59061,6 +59160,9 @@ $doxydocs=
                 name => 'tuDays',
                 brief => {
                   doc => [
+                    {
+                      type => 'parbreak'
+                    },
                     {
                       type => 'text',
                       content => 'Days (%d in '
@@ -59092,9 +59194,6 @@ $doxydocs=
             static => 'no',
             brief => {
               doc => [
-                {
-                  type => 'parbreak'
-                },
                 {
                   type => 'text',
                   content => 'Milliseconds, one thousandth of a second (%z in '
@@ -59156,6 +59255,9 @@ $doxydocs=
             brief => {
               doc => [
                 {
+                  type => 'parbreak'
+                },
+                {
                   type => 'text',
                   content => 'Minutes (%m in '
                 },
@@ -59185,9 +59287,6 @@ $doxydocs=
             static => 'no',
             brief => {
               doc => [
-                {
-                  type => 'parbreak'
-                },
                 {
                   type => 'text',
                   content => 'Hours (%h in '
@@ -59250,9 +59349,6 @@ $doxydocs=
             detailed => {
               doc => [
                 {
-                  type => 'parbreak'
-                },
-                {
                   type => 'text',
                   content => 'Defines the strategies that the axis ticker may follow when choosing the size of the tick step.'
                 },
@@ -59308,9 +59404,6 @@ $doxydocs=
                 brief => {
                   doc => [
                     {
-                      type => 'parbreak'
-                    },
-                    {
                       type => 'text',
                       content => 'Less readable tick steps are allowed which in turn facilitates getting closer to the requested tick count. '
                     }
@@ -59362,6 +59455,9 @@ $doxydocs=
             brief => {
               doc => [
                 {
+                  type => 'parbreak'
+                },
+                {
                   type => 'text',
                   content => 'Less readable tick steps are allowed which in turn facilitates getting closer to the requested tick count. '
                 }
@@ -59383,6 +59479,9 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
+                {
+                  type => 'parbreak'
+                },
                 {
                   type => 'text',
                   content => 'Constructs the ticker and sets reasonable default values. Axis tickers are commonly created managed by a QSharedPointer, which then can be passed to '
@@ -59444,6 +59543,9 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
+                {
+                  type => 'parbreak'
+                },
                 {
                   type => 'text',
                   content => 'Sets the format that will be used to display time in the tick labels.'
@@ -59814,6 +59916,9 @@ $doxydocs=
             detailed => {
               doc => [
                 {
+                  type => 'parbreak'
+                },
+                {
                   type => 'text',
                   content => 'Sets the mathematical coordinate (or "offset") of the zeroth tick. This tick coordinate is just a concept and doesn\'t need to be inside the currently visible axis range.'
                 },
@@ -59881,9 +59986,6 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
-                {
-                  type => 'parbreak'
-                },
                 {
                   type => 'text',
                   content => 'This is the method called by '
@@ -60529,9 +60631,6 @@ $doxydocs=
       },
       detailed => {
         doc => [
-          {
-            type => 'parbreak'
-          },
           {
             type => 'parbreak'
           },
@@ -61534,9 +61633,6 @@ $doxydocs=
             detailed => {
               doc => [
                 {
-                  type => 'parbreak'
-                },
-                {
                   type => 'text',
                   content => 'Defines the ways the width of the bar can be specified. Thus it defines what the number passed to '
                 },
@@ -61597,6 +61693,9 @@ $doxydocs=
                 name => 'wtAxisRectRatio',
                 brief => {
                   doc => [
+                    {
+                      type => 'parbreak'
+                    },
                     {
                       type => 'text',
                       content => 'Bar width is given by a fraction of the axis rect size. '
@@ -61670,9 +61769,6 @@ $doxydocs=
             static => 'no',
             brief => {
               doc => [
-                {
-                  type => 'parbreak'
-                },
                 {
                   type => 'text',
                   content => 'Bar width is in key coordinates and thus scales with the key axis range. '
@@ -61962,6 +62058,9 @@ $doxydocs=
             detailed => {
               doc => [
                 {
+                  type => 'parbreak'
+                },
+                {
                   type => 'text',
                   content => 'Returns the bars plottable that is directly below this bars plottable. If there is no such plottable, returns 0.'
                 },
@@ -62016,6 +62115,9 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
+                {
+                  type => 'parbreak'
+                },
                 {
                   type => 'text',
                   content => 'Returns the bars plottable that is directly above this bars plottable. If there is no such plottable, returns 0.'
@@ -62135,9 +62237,6 @@ $doxydocs=
             detailed => {
               doc => [
                 {
-                  type => 'parbreak'
-                },
-                {
                   type => 'text',
                   content => 'Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.'
                 },
@@ -62229,6 +62328,9 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
+                {
+                  type => 'parbreak'
+                },
                 {
                   type => 'text',
                   content => 'Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.'
@@ -62365,9 +62467,6 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
-                {
-                  type => 'parbreak'
-                },
                 {
                   type => 'text',
                   content => 'Sets the width of the bars.'
@@ -62671,9 +62770,6 @@ $doxydocs=
             detailed => {
               doc => [
                 {
-                  type => 'parbreak'
-                },
-                {
                   type => 'text',
                   content => 'If this bars plottable is stacked on top of another bars plottable ('
                 },
@@ -62729,6 +62825,9 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
+                {
+                  type => 'parbreak'
+                },
                 {
                   type => 'text',
                   content => 'Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.'
@@ -62870,6 +62969,9 @@ $doxydocs=
             detailed => {
               doc => [
                 {
+                  type => 'parbreak'
+                },
+                {
                   type => 'text',
                   content => 'Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados. Adds the provided data point as '
                 },
@@ -62954,9 +63056,6 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
-                {
-                  type => 'parbreak'
-                },
                 {
                   type => 'text',
                   content => 'Moves this bars plottable below '
@@ -63286,9 +63385,6 @@ $doxydocs=
             },
             detailed => {
               doc => [
-                {
-                  type => 'parbreak'
-                },
                 {
                   type => 'text',
                   content => 'Returns a data selection containing all the data points of this plottable which are contained (or hit by) '
@@ -63739,6 +63835,9 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
+                {
+                  type => 'parbreak'
+                },
                 {
                   type => 'text',
                   content => 'Returns the coordinate range that the data points in the specified key range ('
@@ -64241,6 +64340,9 @@ $doxydocs=
             },
             detailed => {
               doc => [
+                {
+                  type => 'parbreak'
+                },
                 {
                   type => 'text',
                   content => 'Returns the sort key of the data point at the given '
@@ -64878,9 +64980,6 @@ $doxydocs=
             detailed => {
               doc => [
                 {
-                  type => 'parbreak'
-                },
-                {
                   type => 'text',
                   content => 'Returns a '
                 },
@@ -65142,6 +65241,9 @@ $doxydocs=
             detailed => {
               doc => [
                 {
+                  type => 'parbreak'
+                },
+                {
                   type => 'text',
                   content => 'Provides access to the selection decorator of this plottable. The selection decorator controls how selected data ranges are drawn (e.g. their pen color and fill), see '
                 },
@@ -65359,6 +65461,9 @@ $doxydocs=
             detailed => {
               doc => [
                 {
+                  type => 'parbreak'
+                },
+                {
                   type => 'text',
                   content => 'The pen is used to draw basic lines that make up the plottable representation in the plot.'
                 },
@@ -65416,9 +65521,6 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
-                {
-                  type => 'parbreak'
-                },
                 {
                   type => 'text',
                   content => 'The brush is used to draw basic fills of the plottable representation in the plot. The Fill can be a color, gradient or texture, see the usage of QBrush.'
@@ -65647,6 +65749,9 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
+                {
+                  type => 'parbreak'
+                },
                 {
                   type => 'text',
                   content => 'Sets whether and to which granularity this plottable can be selected.'
@@ -65950,9 +66055,6 @@ $doxydocs=
             detailed => {
               doc => [
                 {
-                  type => 'parbreak'
-                },
-                {
                   type => 'text',
                   content => 'Use this method to set an own '
                 },
@@ -66187,6 +66289,9 @@ $doxydocs=
             detailed => {
               doc => [
                 {
+                  type => 'parbreak'
+                },
+                {
                   type => 'text',
                   content => 'Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.'
                 },
@@ -66258,6 +66363,9 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
+                {
+                  type => 'parbreak'
+                },
                 {
                   type => 'text',
                   content => 'Convenience function for transforming a x/y pixel pair on the '
@@ -66404,6 +66512,9 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
+                {
+                  type => 'parbreak'
+                },
                 {
                   type => 'text',
                   content => 'Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.'
@@ -66607,6 +66718,9 @@ $doxydocs=
             detailed => {
               doc => [
                 {
+                  type => 'parbreak'
+                },
+                {
                   type => 'text',
                   content => 'Rescales the key axis of the plottable so the whole plottable is visible.'
                 },
@@ -66652,6 +66766,9 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
+                {
+                  type => 'parbreak'
+                },
                 {
                   type => 'text',
                   content => 'Rescales the value axis of the plottable so the whole plottable is visible. If '
@@ -66728,9 +66845,6 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
-                {
-                  type => 'parbreak'
-                },
                 {
                   type => 'text',
                   content => 'Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.'
@@ -66840,9 +66954,6 @@ $doxydocs=
             detailed => {
               doc => [
                 {
-                  type => 'parbreak'
-                },
-                {
                   type => 'text',
                   content => 'Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.'
                 },
@@ -66905,9 +67016,6 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
-                {
-                  type => 'parbreak'
-                },
                 {
                   type => 'text',
                   content => 'Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.'
@@ -66997,9 +67105,6 @@ $doxydocs=
             detailed => {
               doc => [
                 {
-                  type => 'parbreak'
-                },
-                {
                   type => 'text',
                   content => 'Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.'
                 },
@@ -67081,9 +67186,6 @@ $doxydocs=
             detailed => {
               doc => [
                 {
-                  type => 'parbreak'
-                },
-                {
                   type => 'text',
                   content => 'Returns the parent layerable of this layerable. The parent layerable is used to provide visibility hierarchies in conjunction with the method '
                 },
@@ -67153,9 +67255,6 @@ $doxydocs=
             detailed => {
               doc => [
                 {
-                  type => 'parbreak'
-                },
-                {
                   type => 'text',
                   content => 'Sets the visibility of this layerable object. If an object is not visible, it will not be drawn on the '
                 },
@@ -67189,6 +67288,9 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
+                {
+                  type => 'parbreak'
+                },
                 {
                   type => 'text',
                   content => 'Sets the '
@@ -67353,6 +67455,9 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
+                {
+                  type => 'parbreak'
+                },
                 {
                   type => 'text',
                   content => 'Sets whether this object will be drawn antialiased or not.'
@@ -67603,9 +67708,6 @@ $doxydocs=
             detailed => {
               doc => [
                 {
-                  type => 'parbreak'
-                },
-                {
                   type => 'text',
                   content => 'This signal is emitted when the selectability of this plottable has changed.'
                 },
@@ -67829,9 +67931,6 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
-                {
-                  type => 'parbreak'
-                },
                 {
                   type => 'text',
                   content => 'Splits all data into selected and unselected segments and outputs them via '
@@ -68257,6 +68356,9 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
+                {
+                  type => 'parbreak'
+                },
                 {
                   type => 'text',
                   content => 'This event gets called when the user presses a mouse button while the cursor is over the layerable. Whether a cursor is over the layerable is decided by a preceding call to '
@@ -68917,6 +69019,9 @@ $doxydocs=
             detailed => {
               doc => [
                 {
+                  type => 'parbreak'
+                },
+                {
                   type => 'text',
                   content => 'This event gets called when the user presses the mouse button a second time in a double-click, while the cursor is over the layerable. Whether a cursor is over the layerable is decided by a preceding call to '
                 },
@@ -69266,9 +69371,6 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
-                {
-                  type => 'parbreak'
-                },
                 {
                   type => 'text',
                   content => 'This event gets called when the user turns the mouse scroll wheel while the cursor is over the layerable. Whether a cursor is over the layerable is decided by a preceding call to '
@@ -70175,9 +70277,6 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
-                {
-                  type => 'parbreak'
-                },
                 {
                   type => 'text',
                   content => 'Constructs a bar data point with the specified '
@@ -71107,9 +71206,6 @@ $doxydocs=
                 brief => {
                   doc => [
                     {
-                      type => 'parbreak'
-                    },
-                    {
                       type => 'text',
                       content => 'Bar spacing is in key coordinates and thus scales with the key axis range. '
                     }
@@ -71128,6 +71224,9 @@ $doxydocs=
             brief => {
               doc => [
                 {
+                  type => 'parbreak'
+                },
+                {
                   type => 'text',
                   content => 'Bar spacing is in absolute pixels. '
                 }
@@ -71144,9 +71243,6 @@ $doxydocs=
             static => 'no',
             brief => {
               doc => [
-                {
-                  type => 'parbreak'
-                },
                 {
                   type => 'text',
                   content => 'Bar spacing is given by a fraction of the axis rect size. '
@@ -71455,6 +71551,9 @@ $doxydocs=
             detailed => {
               doc => [
                 {
+                  type => 'parbreak'
+                },
+                {
                   type => 'text',
                   content => 'Returns the '
                 },
@@ -71540,6 +71639,9 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
+                {
+                  type => 'parbreak'
+                },
                 {
                   type => 'text',
                   content => 'Returns the number of '
@@ -72719,9 +72821,6 @@ $doxydocs=
                 brief => {
                   doc => [
                     {
-                      type => 'parbreak'
-                    },
-                    {
                       type => 'text',
                       content => 'Continuous lightness from black to white (suited for non-biased data representation) '
                     }
@@ -72733,6 +72832,9 @@ $doxydocs=
                 name => 'gpHot',
                 brief => {
                   doc => [
+                    {
+                      type => 'parbreak'
+                    },
                     {
                       type => 'text',
                       content => 'Continuous lightness from black over firey colors to white (suited for non-biased data representation) '
@@ -73213,9 +73315,6 @@ $doxydocs=
             detailed => {
               doc => [
                 {
-                  type => 'parbreak'
-                },
-                {
                   type => 'text',
                   content => 'Constructs a new, empty '
                 },
@@ -73464,9 +73563,6 @@ $doxydocs=
             detailed => {
               doc => [
                 {
-                  type => 'parbreak'
-                },
-                {
                   type => 'text',
                   content => 'Sets at which positions from 0 to 1 which color shall occur. The positions are the keys, the colors are the values of the passed QMap '
                 },
@@ -73674,6 +73770,9 @@ $doxydocs=
             detailed => {
               doc => [
                 {
+                  type => 'parbreak'
+                },
+                {
                   type => 'text',
                   content => 'Sets whether the colors in between the configured color stops (see '
                 },
@@ -73711,9 +73810,6 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
-                {
-                  type => 'parbreak'
-                },
                 {
                   type => 'text',
                   content => 'Sets whether data points that are outside the configured data range (e.g. '
@@ -73772,6 +73868,9 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
+                {
+                  type => 'parbreak'
+                },
                 {
                   type => 'text',
                   content => 'Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.'
@@ -74387,9 +74486,6 @@ $doxydocs=
             detailed => {
               doc => [
                 {
-                  type => 'parbreak'
-                },
-                {
                   type => 'text',
                   content => 'Returns an inverted gradient. The inverted gradient has all properties as this '
                 },
@@ -74537,9 +74633,6 @@ $doxydocs=
       brief => {
         doc => [
           {
-            type => 'parbreak'
-          },
-          {
             type => 'text',
             content => 'Defines a color gradient for use with e.g. '
           },
@@ -74560,9 +74653,6 @@ $doxydocs=
       },
       detailed => {
         doc => [
-          {
-            type => 'parbreak'
-          },
           {
             type => 'text',
             content => 'This class describes a color gradient which can be used to encode data with color. For example, '
@@ -75910,9 +76000,6 @@ $doxydocs=
             detailed => {
               doc => [
                 {
-                  type => 'parbreak'
-                },
-                {
                   type => 'text',
                   content => 'Sets the data range of this color map to '
                 },
@@ -76032,6 +76119,9 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
+                {
+                  type => 'parbreak'
+                },
                 {
                   type => 'text',
                   content => 'Sets the color gradient that is used to represent the data. For more details on how to create an own gradient or use one of the preset gradients, see '
@@ -76356,6 +76446,9 @@ $doxydocs=
             detailed => {
               doc => [
                 {
+                  type => 'parbreak'
+                },
+                {
                   type => 'text',
                   content => 'Sets the data range ('
                 },
@@ -76508,6 +76601,9 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
+                {
+                  type => 'parbreak'
+                },
                 {
                   type => 'text',
                   content => 'Takes the current appearance of the color map and updates the legend icon, which is used to represent this color map in the legend (see '
@@ -77714,9 +77810,6 @@ $doxydocs=
             detailed => {
               doc => [
                 {
-                  type => 'parbreak'
-                },
-                {
                   type => 'text',
                   content => 'Returns a '
                 },
@@ -77844,6 +77937,9 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
+                {
+                  type => 'parbreak'
+                },
                 {
                   type => 'text',
                   content => 'The name is the textual representation of this plottable as it is displayed in the legend ('
@@ -77998,6 +78094,9 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
+                {
+                  type => 'parbreak'
+                },
                 {
                   type => 'text',
                   content => 'The pen is used to draw basic lines that make up the plottable representation in the plot.'
@@ -78587,6 +78686,9 @@ $doxydocs=
             detailed => {
               doc => [
                 {
+                  type => 'parbreak'
+                },
+                {
                   type => 'text',
                   content => 'Use this method to set an own '
                 },
@@ -78674,6 +78776,9 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
+                {
+                  type => 'parbreak'
+                },
                 {
                   type => 'text',
                   content => 'If this plottable is a one-dimensional plottable, i.e. it implements the '
@@ -78911,9 +79016,6 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
-                {
-                  type => 'parbreak'
-                },
                 {
                   type => 'text',
                   content => 'Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.'
@@ -79568,9 +79670,6 @@ $doxydocs=
             detailed => {
               doc => [
                 {
-                  type => 'parbreak'
-                },
-                {
                   type => 'text',
                   content => 'Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.'
                 },
@@ -79721,9 +79820,6 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
-                {
-                  type => 'parbreak'
-                },
                 {
                   type => 'text',
                   content => 'Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.'
@@ -79911,6 +80007,9 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
+                {
+                  type => 'parbreak'
+                },
                 {
                   type => 'text',
                   content => 'Sets the '
@@ -80228,6 +80327,9 @@ $doxydocs=
             detailed => {
               doc => [
                 {
+                  type => 'parbreak'
+                },
+                {
                   type => 'text',
                   content => 'This signal is emitted when the data scale type changes.'
                 },
@@ -80312,9 +80414,6 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
-                {
-                  type => 'parbreak'
-                },
                 {
                   type => 'text',
                   content => 'This signal is emitted when the selection state of this plottable has changed, either by user interaction or by a direct call to '
@@ -80453,9 +80552,6 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
-                {
-                  type => 'parbreak'
-                },
                 {
                   type => 'text',
                   content => 'This signal is emitted when the selectability of this plottable has changed.'
@@ -85098,6 +85194,9 @@ $doxydocs=
             detailed => {
               doc => [
                 {
+                  type => 'parbreak'
+                },
+                {
                   type => 'text',
                   content => 'Sets all cells to the value '
                 },
@@ -85274,6 +85373,9 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
+                {
+                  type => 'parbreak'
+                },
                 {
                   type => 'text',
                   content => 'Transforms plot coordinates given by '
@@ -85512,9 +85614,6 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
-                {
-                  type => 'parbreak'
-                },
                 {
                   type => 'text',
                   content => 'Transforms cell indices given by '
@@ -85871,9 +85970,6 @@ $doxydocs=
       brief => {
         doc => [
           {
-            type => 'parbreak'
-          },
-          {
             type => 'text',
             content => 'Holds the two-dimensional data of a '
           },
@@ -85890,9 +85986,6 @@ $doxydocs=
       },
       detailed => {
         doc => [
-          {
-            type => 'parbreak'
-          },
           {
             type => 'text',
             content => 'This class is a data storage for '
@@ -87253,6 +87346,9 @@ $doxydocs=
             detailed => {
               doc => [
                 {
+                  type => 'parbreak'
+                },
+                {
                   type => 'text',
                   content => 'Returns the internal '
                 },
@@ -87521,6 +87617,9 @@ $doxydocs=
             detailed => {
               doc => [
                 {
+                  type => 'parbreak'
+                },
+                {
                   type => 'text',
                   content => 'Sets at which side of the color scale the axis is placed, and thus also its orientation.'
                 },
@@ -87771,9 +87870,6 @@ $doxydocs=
             detailed => {
               doc => [
                 {
-                  type => 'parbreak'
-                },
-                {
                   type => 'text',
                   content => 'Sets the color gradient that will be used to represent data values.'
                 },
@@ -87921,9 +88017,6 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
-                {
-                  type => 'parbreak'
-                },
                 {
                   type => 'text',
                   content => 'Sets whether the user can drag the data range ('
@@ -88141,6 +88234,9 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
+                {
+                  type => 'parbreak'
+                },
                 {
                   type => 'text',
                   content => 'Updates the layout element and sub-elements. This function is automatically called before every replot by the parent layout element. It is called multiple times, once for every '
@@ -88817,9 +88913,6 @@ $doxydocs=
             detailed => {
               doc => [
                 {
-                  type => 'parbreak'
-                },
-                {
                   type => 'text',
                   content => 'Sets on which sides the margin shall be calculated automatically. If a side is calculated automatically, a minimum margin value may be provided with '
                 },
@@ -88927,9 +89020,6 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
-                {
-                  type => 'parbreak'
-                },
                 {
                   type => 'text',
                   content => 'Sets the minimum size of this layout element. A parent layout tries to respect the '
@@ -89157,9 +89247,6 @@ $doxydocs=
             detailed => {
               doc => [
                 {
-                  type => 'parbreak'
-                },
-                {
                   type => 'text',
                   content => 'Sets the maximum size of this layout element. A parent layout tries to respect the '
                 },
@@ -89249,6 +89336,9 @@ $doxydocs=
             detailed => {
               doc => [
                 {
+                  type => 'parbreak'
+                },
+                {
                   type => 'text',
                   content => 'Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.'
                 },
@@ -89330,6 +89420,9 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
+                {
+                  type => 'parbreak'
+                },
                 {
                   type => 'text',
                   content => 'Sets to which rect of a layout element the size constraints apply. Size constraints can be set via '
@@ -89438,6 +89531,9 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
+                {
+                  type => 'parbreak'
+                },
                 {
                   type => 'text',
                   content => 'Sets the margin '
@@ -89671,9 +89767,6 @@ $doxydocs=
             detailed => {
               doc => [
                 {
-                  type => 'parbreak'
-                },
-                {
                   type => 'text',
                   content => 'Returns the suggested maximum size this layout element (the '
                 },
@@ -89858,6 +89951,9 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
+                {
+                  type => 'parbreak'
+                },
                 {
                   type => 'text',
                   content => 'Layout elements are sensitive to events inside their outer rect. If '
@@ -90463,9 +90559,6 @@ $doxydocs=
             detailed => {
               doc => [
                 {
-                  type => 'parbreak'
-                },
-                {
                   type => 'text',
                   content => 'This signal is emitted when the gradient changes.'
                 },
@@ -90907,9 +91000,6 @@ $doxydocs=
             detailed => {
               doc => [
                 {
-                  type => 'parbreak'
-                },
-                {
                   type => 'text',
                   content => 'This event gets called when the user moves the mouse while holding a mouse button, after this layerable has become the mouse grabber by accepting the preceding '
                 },
@@ -91204,9 +91294,6 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
-                {
-                  type => 'parbreak'
-                },
                 {
                   type => 'text',
                   content => 'This event gets called when the user turns the mouse scroll wheel while the cursor is over the layerable. Whether a cursor is over the layerable is decided by a preceding call to '
@@ -93664,6 +93751,9 @@ $doxydocs=
                 brief => {
                   doc => [
                     {
+                      type => 'parbreak'
+                    },
+                    {
                       type => 'text',
                       content => 'Final phase in which the layout system places the rects of the elements. '
                     }
@@ -93682,6 +93772,9 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
+                {
+                  type => 'parbreak'
+                },
                 {
                   type => 'text',
                   content => 'Defines to which rect of a layout element the size constraints that can be set via '
@@ -93768,9 +93861,6 @@ $doxydocs=
                 brief => {
                   doc => [
                     {
-                      type => 'parbreak'
-                    },
-                    {
                       type => 'text',
                       content => 'Minimum/Maximum size constraints apply to inner rect. '
                     }
@@ -93823,6 +93913,9 @@ $doxydocs=
             static => 'no',
             brief => {
               doc => [
+                {
+                  type => 'parbreak'
+                },
                 {
                   type => 'text',
                   content => 'Phase in which the margins are calculated and set. '
@@ -93905,9 +93998,6 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
-                {
-                  type => 'parbreak'
-                },
                 {
                   type => 'text',
                   content => 'Creates a new instance, as a child of '
@@ -94106,6 +94196,9 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
+                {
+                  type => 'parbreak'
+                },
                 {
                   type => 'text',
                   content => 'Returns the range zoom axis of the '
@@ -94380,6 +94473,9 @@ $doxydocs=
             detailed => {
               doc => [
                 {
+                  type => 'parbreak'
+                },
+                {
                   type => 'text',
                   content => 'Sets '
                 },
@@ -94499,6 +94595,9 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
+                {
+                  type => 'parbreak'
+                },
                 {
                   type => 'text',
                   content => 'Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.'
@@ -95243,6 +95342,9 @@ $doxydocs=
             detailed => {
               doc => [
                 {
+                  type => 'parbreak'
+                },
+                {
                   type => 'text',
                   content => 'Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.'
                 },
@@ -95665,9 +95767,6 @@ $doxydocs=
             detailed => {
               doc => [
                 {
-                  type => 'parbreak'
-                },
-                {
                   type => 'text',
                   content => 'Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.'
                 },
@@ -95873,9 +95972,6 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
-                {
-                  type => 'parbreak'
-                },
                 {
                   type => 'text',
                   content => 'Returns all axes on the axis rect sides specified with '
@@ -96317,6 +96413,9 @@ $doxydocs=
             detailed => {
               doc => [
                 {
+                  type => 'parbreak'
+                },
+                {
                   type => 'text',
                   content => 'Adds a new axis with '
                 },
@@ -96621,6 +96720,9 @@ $doxydocs=
             detailed => {
               doc => [
                 {
+                  type => 'parbreak'
+                },
+                {
                   type => 'text',
                   content => 'Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.'
                 },
@@ -96715,6 +96817,9 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
+                {
+                  type => 'parbreak'
+                },
                 {
                   type => 'text',
                   content => 'Convenience function to create an axis on each side that doesn\'t have any axes yet and set their visibility to true. Further, the top/right axes are assigned the following properties of the bottom/left axes:'
@@ -96964,6 +97069,9 @@ $doxydocs=
             detailed => {
               doc => [
                 {
+                  type => 'parbreak'
+                },
+                {
                   type => 'text',
                   content => 'Returns a list of all the plottables that are associated with this axis rect.'
                 },
@@ -97073,9 +97181,6 @@ $doxydocs=
             detailed => {
               doc => [
                 {
-                  type => 'parbreak'
-                },
-                {
                   type => 'text',
                   content => 'Returns a list of all the items that are associated with this axis rect.'
                 },
@@ -97151,9 +97256,6 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
-                {
-                  type => 'parbreak'
-                },
                 {
                   type => 'text',
                   content => 'Returns the pixel position of the left border of this axis rect. Margins are not taken into account here, so the returned value is with respect to the inner '
@@ -97447,6 +97549,9 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
+                {
+                  type => 'parbreak'
+                },
                 {
                   type => 'text',
                   content => 'Returns the top right corner of this axis rect in pixels. Margins are not taken into account here, so the returned value is with respect to the inner '
@@ -97880,9 +97985,6 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
-                {
-                  type => 'parbreak'
-                },
                 {
                   type => 'text',
                   content => 'Returns the outer rect of this layout element. The outer rect is the inner rect expanded by the margins ('
@@ -98656,9 +98758,6 @@ $doxydocs=
             detailed => {
               doc => [
                 {
-                  type => 'parbreak'
-                },
-                {
                   type => 'text',
                   content => 'Sets the maximum size of this layout element. A parent layout tries to respect the '
                 },
@@ -98747,6 +98846,9 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
+                {
+                  type => 'parbreak'
+                },
                 {
                   type => 'text',
                   content => 'Esse é um método provido por conveniência. Ele difere do método acima apenas na lista de argumentos que devem ser utilizados.'
@@ -99098,9 +99200,6 @@ $doxydocs=
             detailed => {
               doc => [
                 {
-                  type => 'parbreak'
-                },
-                {
                   type => 'text',
                   content => 'Returns the suggested minimum size this layout element (the '
                 },
@@ -99178,6 +99277,9 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
+                {
+                  type => 'parbreak'
+                },
                 {
                   type => 'text',
                   content => 'Returns the suggested maximum size this layout element (the '
@@ -99434,9 +99536,6 @@ $doxydocs=
             detailed => {
               doc => [
                 {
-                  type => 'parbreak'
-                },
-                {
                   type => 'text',
                   content => 'Returns the parent layerable of this layerable. The parent layerable is used to provide visibility hierarchies in conjunction with the method '
                 },
@@ -99506,9 +99605,6 @@ $doxydocs=
             detailed => {
               doc => [
                 {
-                  type => 'parbreak'
-                },
-                {
                   type => 'text',
                   content => 'Sets the visibility of this layerable object. If an object is not visible, it will not be drawn on the '
                 },
@@ -99542,6 +99638,9 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
+                {
+                  type => 'parbreak'
+                },
                 {
                   type => 'text',
                   content => 'Sets the '
@@ -99704,6 +99803,9 @@ $doxydocs=
             detailed => {
               doc => [
                 {
+                  type => 'parbreak'
+                },
+                {
                   type => 'text',
                   content => 'Sets whether this object will be drawn antialiased or not.'
                 },
@@ -99753,9 +99855,6 @@ $doxydocs=
             brief => {},
             detailed => {
               doc => [
-                {
-                  type => 'parbreak'
-                },
                 {
                   type => 'text',
                   content => 'Returns whether this layerable is visible, taking the visibility of the layerable parent and the visibility of this layerable\'s layer into account. This is the method that is consulted to decide whether a layerable shall be drawn or not.'
@@ -99816,4 +99915,54 @@ $doxydocs=
               doc => [
                 {
                   type => 'parbreak'
-  
+                },
+                {
+                  type => 'text',
+                  content => 'This signal is emitted when the layer of this layerable changes, i.e. this layerable is moved to a different layer.'
+                },
+                {
+                  type => 'parbreak'
+                },
+                {
+                  see => [
+                    {
+                      type => 'url',
+                      link => 'classQCPLayerable_1ab0d0da6d2de45a118886d2c8e16d5a54',
+                      content => 'setLayer'
+                    },
+                    {
+                      type => 'text',
+                      content => ' '
+                    }
+                  ]
+                }
+              ]
+            },
+            type => 'void',
+            const => 'no',
+            volatile => 'no',
+            parameters => [
+              {
+                declaration_name => 'newLayer',
+                type => 'QCPLayer *'
+              }
+            ]
+          }
+        ]
+      },
+      protected_methods => {
+        members => [
+          {
+            kind => 'function',
+            name => 'draw',
+            virtualness => 'virtual',
+            protection => 'protected',
+            static => 'no',
+            brief => {},
+            detailed => {},
+            type => 'virtual void',
+            const => 'no',
+            volatile => 'no',
+            parameters => [
+              {
+                declaration_

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['indutor',['Indutor',['../classIndutor.html',1,'']]]
+  ['indutor',['Indutor',['../class_indutor.html',1,'']]]
 ];

@@ -9,6 +9,14 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+  $(document).ready(initResizable);
+/* @license-end */</script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -22,9 +30,9 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">RLC_Serie
-   &#160;<span id="projectnumber">v1.1</span>
+   &#160;<span id="projectnumber">v1.2</span>
    </div>
-   <div id="projectbrief">Plotagem de Respostas do Circuito RLC em Série</div>
+   <div id="projectbrief">Plotagem de Respostas do Circuito RLC em Série - o programa imprime a tensao no tempo em cada componente de um circuito RLC em série, conforme parâmetros inseridos pelo usuário</div>
   </td>
  </tr>
  </tbody>
@@ -47,6 +55,23 @@ $(function() {
 });
 /* @license-end */</script>
 <div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('class_q_c_p_selection_decorator_bracket.html','');});
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -61,7 +86,6 @@ $(function() {
 </iframe>
 </div>
 
-</div><!-- top -->
 <div class="header">
   <div class="summary">
 <a href="#pub-types">Tipos Públicos</a> &#124;
@@ -77,7 +101,7 @@ $(function() {
 <p>A selection decorator which draws brackets around each selected data segment.  
  <a href="class_q_c_p_selection_decorator_bracket.html#details">Mais...</a></p>
 
-<p><code>#include &lt;<a class="el" href="">qcustomplot.h</a>&gt;</code></p>
+<p><code>#include &quot;<a class="el" href="">qcustomplot.h</a>&quot;</code></p>
 <div class="dynheader">
 Diagrama de hierarquia para QCPSelectionDecoratorBracket:</div>
 <div class="dyncontent">
@@ -91,25 +115,25 @@ Diagrama de colaboração para QCPSelectionDecoratorBracket:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_q_c_p_selection_decorator_bracket__coll__graph.png" border="0" usemap="#_q_c_p_selection_decorator_bracket_coll__map" alt="Collaboration graph"/></div>
 <map name="_q_c_p_selection_decorator_bracket_coll__map" id="_q_c_p_selection_decorator_bracket_coll__map">
-<area shape="rect" id="node2" href="class_q_c_p_selection_decorator.html" title="Controls how a plottable&#39;s data selection is drawn. " alt="" coords="1501,695,1692,1022"/>
-<area shape="rect" id="node3" href="class_q_c_p_abstract_plottable.html" title="The abstract base class for all data representing objects in a plot. " alt="" coords="1306,1180,1517,2035"/>
-<area shape="rect" id="node4" href="class_q_c_p_layerable.html" title="Base class for all drawable objects. " alt="" coords="719,600,922,1117"/>
-<area shape="rect" id="node11" href="class_q_c_p_layout_element.html" title="The abstract base class for all objects that form the layout system. " alt="" coords="827,1275,1030,1939"/>
-<area shape="rect" id="node12" href="class_q_c_p_selection_rect.html" title="Provides rect/rubber&#45;band data selection and range zoom interaction. " alt="" coords="209,2059,411,2400"/>
-<area shape="rect" id="node13" href="class_q_c_p_axis.html" title="Manages a single axis inside a QCustomPlot. " alt="" coords="878,8140,1081,10549"/>
-<area shape="rect" id="node17" href="class_q_c_p_grid.html" title="Responsible for drawing the grid of a QCPAxis. " alt="" coords="955,10612,1158,10997"/>
-<area shape="rect" id="node6" href="class_q_c_p_layer.html" title="A layer that may contain objects, to control the rendering order. " alt="" coords="511,7523,656,7879"/>
-<area shape="rect" id="node7" href="class_q_custom_plot.html" title="The central class of the library. This is the QWidget which displays the plot and interacts with the ..." alt="" coords="315,4941,532,7263"/>
-<area shape="rect" id="node15" href="class_q_c_p_axis_painter_private.html" title="{QCPAxisPainterPrivate\n|+ type\l+ basePen\l+ labelPadding\l+ labelFont\l+ labelColor\l+ label\l+ tickLabelPadding\l+ tickLabelRotation\l+ tickLabelSide\l+ substituteExponent\l+ numberMultiplyCross\l+ tickLengthIn\l+ tickLengthOut\l+ subTickLengthIn\l+ subTickLengthOut\l+ tickPen\l+ subTickPen\l+ tickLabelFont\l+ tickLabelColor\l+ axisRect\l+ viewportRect\l+ offset\l+ abbreviateDecimalPowers\l+ reversedEndings\l+ subTickPositions\l+ tickPositions\l+ tickLabels\l# mLabelParameterHash\l# mLabelCache\l# mAxisSelectionBox\l# mTickLabelsSelectionBox\l# mLabelSelectionBox\l|+ QCPAxisPainterPrivate()\l+ ~QCPAxisPainterPrivate()\l+ draw()\l+ size()\l+ clearCache()\l+ axisSelectionBox()\l+ tickLabelsSelectionBox()\l+ labelSelectionBox()\l# generateLabelParameterHash()\l# placeTickLabel()\l# drawTickLabel()\l# getTickLabelData()\l# getTickLabelDrawOffset()\l# getMaxTickLabelSize()\l}" alt="" coords="163,7340,375,8063"/>
-<area shape="rect" id="node9" href="class_q_c_p_layout_grid.html" title="A layout that arranges child elements in a grid. " alt="" coords="532,2813,725,3521"/>
-<area shape="rect" id="node20" href="class_q_c_p_legend.html" title="Manages a legend inside a QCustomPlot. " alt="" coords="575,3738,778,4725"/>
-<area shape="rect" id="node10" href="class_q_c_p_layout.html" title="The abstract base class for layouts. " alt="" coords="802,2424,1005,2751"/>
-<area shape="rect" id="node19" href="class_q_c_p_layout_inset.html" title="A layout that places child elements aligned to the border or arbitrarily positioned. " alt="" coords="853,2989,1004,3345"/>
-<area shape="rect" id="node18" href="class_q_c_p_axis_rect.html" title="Holds multiple axes and arranges them in a rectangular shape. " alt="" coords="853,3584,1055,4879"/>
-<area shape="rect" id="node14" href="class_q_c_p_range.html" title="Represents the range an axis is encompassing. " alt="" coords="1043,7494,1209,7909"/>
-<area shape="rect" id="node16" href="class_q_c_p_line_ending.html" title="Handles the different ending decorations for line&#45;like items. " alt="" coords="5,5946,151,6258"/>
-<area shape="rect" id="node21" href="class_q_c_p_data_selection.html" title="Describes a data set by holding multiple QCPDataRange instances. " alt="" coords="1231,659,1418,1059"/>
-<area shape="rect" id="node22" href="class_q_c_p_scatter_style.html" title="Represents the visual appearance of scatter points. " alt="" coords="1525,5,1668,537"/>
+<area shape="rect" id="node2" href="class_q_c_p_selection_decorator.html" title="Controls how a plottable&#39;s data selection is drawn. " alt="" coords="1440,439,1631,765"/>
+<area shape="rect" id="node3" href="class_q_c_p_abstract_plottable.html" title="The abstract base class for all data representing objects in a plot. " alt="" coords="1245,887,1455,1345"/>
+<area shape="rect" id="node4" href="class_q_c_p_layerable.html" title="Base class for all drawable objects. " alt="" coords="707,380,910,824"/>
+<area shape="rect" id="node11" href="class_q_c_p_layout_element.html" title="The abstract base class for all objects that form the layout system. " alt="" coords="827,909,1030,1323"/>
+<area shape="rect" id="node12" href="class_q_c_p_selection_rect.html" title="Provides rect/rubber&#45;band data selection and range zoom interaction. " alt="" coords="209,1369,411,1711"/>
+<area shape="rect" id="node13" href="class_q_c_p_axis.html" title="Manages a single axis inside a QCustomPlot. " alt="" coords="877,4297,1079,4873"/>
+<area shape="rect" id="node17" href="class_q_c_p_grid.html" title="Responsible for drawing the grid of a QCPAxis. " alt="" coords="954,4936,1157,5321"/>
+<area shape="rect" id="node6" href="class_q_c_p_layer.html" title="A layer that may contain objects, to control the rendering order. " alt="" coords="511,3798,656,4154"/>
+<area shape="rect" id="node7" href="class_q_custom_plot.html" title="The central class of the library. This is the QWidget which displays the plot and interacts with the ..." alt="" coords="323,3123,524,3655"/>
+<area shape="rect" id="node15" href="class_q_c_p_axis_painter_private.html" title="(Private) " alt="" coords="163,3732,375,4220"/>
+<area shape="rect" id="node9" href="class_q_c_p_layout_grid.html" title="A layout that arranges child elements in a grid. " alt="" coords="532,2124,725,2465"/>
+<area shape="rect" id="node20" href="class_q_c_p_legend.html" title="Manages a legend inside a QCustomPlot. " alt="" coords="575,2528,778,3060"/>
+<area shape="rect" id="node10" href="class_q_c_p_layout.html" title="The abstract base class for layouts. " alt="" coords="802,1735,1005,2061"/>
+<area shape="rect" id="node19" href="class_q_c_p_layout_inset.html" title="A layout that places child elements aligned to the border or arbitrarily positioned. " alt="" coords="853,2161,1004,2429"/>
+<area shape="rect" id="node18" href="class_q_c_p_axis_rect.html" title="Holds multiple axes and arranges them in a rectangular shape. " alt="" coords="853,2535,1055,3053"/>
+<area shape="rect" id="node14" href="class_q_c_p_range.html" title="Represents the range an axis is encompassing. " alt="" coords="1042,3827,1149,4125"/>
+<area shape="rect" id="node16" href="class_q_c_p_line_ending.html" title="Handles the different ending decorations for line&#45;like items. " alt="" coords="5,3233,151,3545"/>
+<area shape="rect" id="node21" href="class_q_c_p_data_selection.html" title="Describes a data set by holding multiple QCPDataRange instances. " alt="" coords="1170,483,1357,721"/>
+<area shape="rect" id="node22" href="class_q_c_p_scatter_style.html" title="Represents the visual appearance of scatter points. " alt="" coords="1464,5,1607,317"/>
 </map>
 </div>
 <table class="memberdecls">
@@ -164,30 +188,35 @@ Membros Públicos</h2></td></tr>
 <tr class="separator:a57b65b5508d5bd0f27c9318f3d4646be"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9ebe2e729b5012c0a995d788f87fac22"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_q_c_p_selection_decorator_bracket.html#a9ebe2e729b5012c0a995d788f87fac22">drawDecoration</a> (<a class="el" href="class_q_c_p_painter.html">QCPPainter</a> *painter, <a class="el" href="class_q_c_p_data_selection.html">QCPDataSelection</a> selection) <a class="el" href="qcustomplot_8h.html#a42cc5eaeb25b85f8b52d2a4b94c56f55">Q_DECL_OVERRIDE</a></td></tr>
 <tr class="separator:a9ebe2e729b5012c0a995d788f87fac22"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9307a60c9759223367909aed2d05ad91"><td class="memItemLeft" align="right" valign="top">QPen&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_q_c_p_selection_decorator.html#a9307a60c9759223367909aed2d05ad91">pen</a> () const</td></tr>
-<tr class="separator:a9307a60c9759223367909aed2d05ad91"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a783b643aa52120a25308fc501b9998b1"><td class="memItemLeft" align="right" valign="top">QBrush&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_q_c_p_selection_decorator.html#a783b643aa52120a25308fc501b9998b1">brush</a> () const</td></tr>
-<tr class="separator:a783b643aa52120a25308fc501b9998b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa6558f6f270a188bb633386aba0d1ae4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_q_c_p_scatter_style.html">QCPScatterStyle</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_q_c_p_selection_decorator.html#aa6558f6f270a188bb633386aba0d1ae4">scatterStyle</a> () const</td></tr>
-<tr class="separator:aa6558f6f270a188bb633386aba0d1ae4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab2019bf31dde39f1ec028e3810dfc08b"><td class="memItemLeft" align="right" valign="top">QCPScatterStyle::ScatterProperties&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_q_c_p_selection_decorator.html#ab2019bf31dde39f1ec028e3810dfc08b">usedScatterProperties</a> () const</td></tr>
-<tr class="separator:ab2019bf31dde39f1ec028e3810dfc08b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac2c8192e1e294aa3a4a7f32a859e3d76"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_q_c_p_selection_decorator.html#ac2c8192e1e294aa3a4a7f32a859e3d76">setPen</a> (const QPen &amp;<a class="el" href="class_q_c_p_selection_decorator.html#a9307a60c9759223367909aed2d05ad91">pen</a>)</td></tr>
-<tr class="separator:ac2c8192e1e294aa3a4a7f32a859e3d76"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa74b626be518ea17055f918d423c8c2d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_q_c_p_selection_decorator.html#aa74b626be518ea17055f918d423c8c2d">setBrush</a> (const QBrush &amp;<a class="el" href="class_q_c_p_selection_decorator.html#a783b643aa52120a25308fc501b9998b1">brush</a>)</td></tr>
-<tr class="separator:aa74b626be518ea17055f918d423c8c2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab403a613289714ff4fd4a0c0371ab116"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_q_c_p_selection_decorator.html#ab403a613289714ff4fd4a0c0371ab116">setScatterStyle</a> (const <a class="el" href="class_q_c_p_scatter_style.html">QCPScatterStyle</a> &amp;<a class="el" href="class_q_c_p_selection_decorator.html#aa6558f6f270a188bb633386aba0d1ae4">scatterStyle</a>, QCPScatterStyle::ScatterProperties usedProperties=<a class="el" href="class_q_c_p_scatter_style.html#a8974f6a20f8f6eea7781f0e6af9deb46aa04d012e7c03e455db2b68fdd55c2a04">QCPScatterStyle::spPen</a>)</td></tr>
-<tr class="separator:ab403a613289714ff4fd4a0c0371ab116"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a808c1607cd4e83869c04986e332455c0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_q_c_p_selection_decorator.html#a808c1607cd4e83869c04986e332455c0">setUsedScatterProperties</a> (const QCPScatterStyle::ScatterProperties &amp;properties)</td></tr>
-<tr class="separator:a808c1607cd4e83869c04986e332455c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a75098893f7d08660ea449206810679d7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_q_c_p_selection_decorator.html#a75098893f7d08660ea449206810679d7">applyPen</a> (<a class="el" href="class_q_c_p_painter.html">QCPPainter</a> *painter) const</td></tr>
-<tr class="separator:a75098893f7d08660ea449206810679d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a225544527d51b49546b70d0e6d655a34"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_q_c_p_selection_decorator.html#a225544527d51b49546b70d0e6d655a34">applyBrush</a> (<a class="el" href="class_q_c_p_painter.html">QCPPainter</a> *painter) const</td></tr>
-<tr class="separator:a225544527d51b49546b70d0e6d655a34"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1277b373248896bc70e8cc1de96da9fa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_q_c_p_scatter_style.html">QCPScatterStyle</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_q_c_p_selection_decorator.html#a1277b373248896bc70e8cc1de96da9fa">getFinalScatterStyle</a> (const <a class="el" href="class_q_c_p_scatter_style.html">QCPScatterStyle</a> &amp;unselectedStyle) const</td></tr>
-<tr class="separator:a1277b373248896bc70e8cc1de96da9fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a467a8d5cfcab27e862a17c797ac27b8a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_q_c_p_selection_decorator.html#a467a8d5cfcab27e862a17c797ac27b8a">copyFrom</a> (const <a class="el" href="class_q_c_p_selection_decorator.html">QCPSelectionDecorator</a> *other)</td></tr>
-<tr class="separator:a467a8d5cfcab27e862a17c797ac27b8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_class_q_c_p_selection_decorator"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_q_c_p_selection_decorator')"><img src="closed.png" alt="-"/>&#160;Membros Públicos herdados de <a class="el" href="class_q_c_p_selection_decorator.html">QCPSelectionDecorator</a></td></tr>
+<tr class="memitem:aa145480d9a062cd176fe30900bb7bca8 inherit pub_methods_class_q_c_p_selection_decorator"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_q_c_p_selection_decorator.html#aa145480d9a062cd176fe30900bb7bca8">QCPSelectionDecorator</a> ()</td></tr>
+<tr class="separator:aa145480d9a062cd176fe30900bb7bca8 inherit pub_methods_class_q_c_p_selection_decorator"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab211eb11379854dcbe23b1642be0d19e inherit pub_methods_class_q_c_p_selection_decorator"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_q_c_p_selection_decorator.html#ab211eb11379854dcbe23b1642be0d19e">~QCPSelectionDecorator</a> ()</td></tr>
+<tr class="separator:ab211eb11379854dcbe23b1642be0d19e inherit pub_methods_class_q_c_p_selection_decorator"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9307a60c9759223367909aed2d05ad91 inherit pub_methods_class_q_c_p_selection_decorator"><td class="memItemLeft" align="right" valign="top">QPen&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_q_c_p_selection_decorator.html#a9307a60c9759223367909aed2d05ad91">pen</a> () const</td></tr>
+<tr class="separator:a9307a60c9759223367909aed2d05ad91 inherit pub_methods_class_q_c_p_selection_decorator"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a783b643aa52120a25308fc501b9998b1 inherit pub_methods_class_q_c_p_selection_decorator"><td class="memItemLeft" align="right" valign="top">QBrush&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_q_c_p_selection_decorator.html#a783b643aa52120a25308fc501b9998b1">brush</a> () const</td></tr>
+<tr class="separator:a783b643aa52120a25308fc501b9998b1 inherit pub_methods_class_q_c_p_selection_decorator"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6558f6f270a188bb633386aba0d1ae4 inherit pub_methods_class_q_c_p_selection_decorator"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_q_c_p_scatter_style.html">QCPScatterStyle</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_q_c_p_selection_decorator.html#aa6558f6f270a188bb633386aba0d1ae4">scatterStyle</a> () const</td></tr>
+<tr class="separator:aa6558f6f270a188bb633386aba0d1ae4 inherit pub_methods_class_q_c_p_selection_decorator"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2019bf31dde39f1ec028e3810dfc08b inherit pub_methods_class_q_c_p_selection_decorator"><td class="memItemLeft" align="right" valign="top">QCPScatterStyle::ScatterProperties&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_q_c_p_selection_decorator.html#ab2019bf31dde39f1ec028e3810dfc08b">usedScatterProperties</a> () const</td></tr>
+<tr class="separator:ab2019bf31dde39f1ec028e3810dfc08b inherit pub_methods_class_q_c_p_selection_decorator"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2c8192e1e294aa3a4a7f32a859e3d76 inherit pub_methods_class_q_c_p_selection_decorator"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_q_c_p_selection_decorator.html#ac2c8192e1e294aa3a4a7f32a859e3d76">setPen</a> (const QPen &amp;<a class="el" href="class_q_c_p_selection_decorator.html#a9307a60c9759223367909aed2d05ad91">pen</a>)</td></tr>
+<tr class="separator:ac2c8192e1e294aa3a4a7f32a859e3d76 inherit pub_methods_class_q_c_p_selection_decorator"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa74b626be518ea17055f918d423c8c2d inherit pub_methods_class_q_c_p_selection_decorator"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_q_c_p_selection_decorator.html#aa74b626be518ea17055f918d423c8c2d">setBrush</a> (const QBrush &amp;<a class="el" href="class_q_c_p_selection_decorator.html#a783b643aa52120a25308fc501b9998b1">brush</a>)</td></tr>
+<tr class="separator:aa74b626be518ea17055f918d423c8c2d inherit pub_methods_class_q_c_p_selection_decorator"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab403a613289714ff4fd4a0c0371ab116 inherit pub_methods_class_q_c_p_selection_decorator"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_q_c_p_selection_decorator.html#ab403a613289714ff4fd4a0c0371ab116">setScatterStyle</a> (const <a class="el" href="class_q_c_p_scatter_style.html">QCPScatterStyle</a> &amp;<a class="el" href="class_q_c_p_selection_decorator.html#aa6558f6f270a188bb633386aba0d1ae4">scatterStyle</a>, QCPScatterStyle::ScatterProperties usedProperties=<a class="el" href="class_q_c_p_scatter_style.html#a8974f6a20f8f6eea7781f0e6af9deb46aa04d012e7c03e455db2b68fdd55c2a04">QCPScatterStyle::spPen</a>)</td></tr>
+<tr class="separator:ab403a613289714ff4fd4a0c0371ab116 inherit pub_methods_class_q_c_p_selection_decorator"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a808c1607cd4e83869c04986e332455c0 inherit pub_methods_class_q_c_p_selection_decorator"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_q_c_p_selection_decorator.html#a808c1607cd4e83869c04986e332455c0">setUsedScatterProperties</a> (const QCPScatterStyle::ScatterProperties &amp;properties)</td></tr>
+<tr class="separator:a808c1607cd4e83869c04986e332455c0 inherit pub_methods_class_q_c_p_selection_decorator"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75098893f7d08660ea449206810679d7 inherit pub_methods_class_q_c_p_selection_decorator"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_q_c_p_selection_decorator.html#a75098893f7d08660ea449206810679d7">applyPen</a> (<a class="el" href="class_q_c_p_painter.html">QCPPainter</a> *painter) const</td></tr>
+<tr class="separator:a75098893f7d08660ea449206810679d7 inherit pub_methods_class_q_c_p_selection_decorator"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a225544527d51b49546b70d0e6d655a34 inherit pub_methods_class_q_c_p_selection_decorator"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_q_c_p_selection_decorator.html#a225544527d51b49546b70d0e6d655a34">applyBrush</a> (<a class="el" href="class_q_c_p_painter.html">QCPPainter</a> *painter) const</td></tr>
+<tr class="separator:a225544527d51b49546b70d0e6d655a34 inherit pub_methods_class_q_c_p_selection_decorator"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1277b373248896bc70e8cc1de96da9fa inherit pub_methods_class_q_c_p_selection_decorator"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_q_c_p_scatter_style.html">QCPScatterStyle</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_q_c_p_selection_decorator.html#a1277b373248896bc70e8cc1de96da9fa">getFinalScatterStyle</a> (const <a class="el" href="class_q_c_p_scatter_style.html">QCPScatterStyle</a> &amp;unselectedStyle) const</td></tr>
+<tr class="separator:a1277b373248896bc70e8cc1de96da9fa inherit pub_methods_class_q_c_p_selection_decorator"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a467a8d5cfcab27e862a17c797ac27b8a inherit pub_methods_class_q_c_p_selection_decorator"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_q_c_p_selection_decorator.html#a467a8d5cfcab27e862a17c797ac27b8a">copyFrom</a> (const <a class="el" href="class_q_c_p_selection_decorator.html">QCPSelectionDecorator</a> *other)</td></tr>
+<tr class="separator:a467a8d5cfcab27e862a17c797ac27b8a inherit pub_methods_class_q_c_p_selection_decorator"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Membros Protegidos</h2></td></tr>
@@ -195,8 +224,9 @@ Membros Protegidos</h2></td></tr>
 <tr class="separator:ac002e20586950bf5c91a399863769c61"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9925ed667e8a645fcb9949bd02ee4a19"><td class="memItemLeft" align="right" valign="top">QPointF&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_q_c_p_selection_decorator_bracket.html#a9925ed667e8a645fcb9949bd02ee4a19">getPixelCoordinates</a> (const <a class="el" href="class_q_c_p_plottable_interface1_d.html">QCPPlottableInterface1D</a> *interface1d, int dataIndex) const</td></tr>
 <tr class="separator:a9925ed667e8a645fcb9949bd02ee4a19"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af66cb39e308da0285ae5d533e1e85027"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_q_c_p_selection_decorator.html#af66cb39e308da0285ae5d533e1e85027">registerWithPlottable</a> (<a class="el" href="class_q_c_p_abstract_plottable.html">QCPAbstractPlottable</a> *plottable)</td></tr>
-<tr class="separator:af66cb39e308da0285ae5d533e1e85027"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_class_q_c_p_selection_decorator"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_class_q_c_p_selection_decorator')"><img src="closed.png" alt="-"/>&#160;Membros Protegidos herdados de <a class="el" href="class_q_c_p_selection_decorator.html">QCPSelectionDecorator</a></td></tr>
+<tr class="memitem:af66cb39e308da0285ae5d533e1e85027 inherit pro_methods_class_q_c_p_selection_decorator"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_q_c_p_selection_decorator.html#af66cb39e308da0285ae5d533e1e85027">registerWithPlottable</a> (<a class="el" href="class_q_c_p_abstract_plottable.html">QCPAbstractPlottable</a> *plottable)</td></tr>
+<tr class="separator:af66cb39e308da0285ae5d533e1e85027 inherit pro_methods_class_q_c_p_selection_decorator"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Atributos Protegidos</h2></td></tr>
@@ -214,16 +244,17 @@ Atributos Protegidos</h2></td></tr>
 <tr class="separator:ac08c7de0fd81b64b0f3fe31739688081"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a810900616f17964cab140cbc13f40203"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_q_c_p_selection_decorator_bracket.html#a810900616f17964cab140cbc13f40203">mTangentAverage</a></td></tr>
 <tr class="separator:a810900616f17964cab140cbc13f40203"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a684a691c146a5bac927c0146bd28d557"><td class="memItemLeft" align="right" valign="top">QPen&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_q_c_p_selection_decorator.html#a684a691c146a5bac927c0146bd28d557">mPen</a></td></tr>
-<tr class="separator:a684a691c146a5bac927c0146bd28d557"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4e3a3a01fdec5b018c0c59a0b6ae9f70"><td class="memItemLeft" align="right" valign="top">QBrush&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_q_c_p_selection_decorator.html#a4e3a3a01fdec5b018c0c59a0b6ae9f70">mBrush</a></td></tr>
-<tr class="separator:a4e3a3a01fdec5b018c0c59a0b6ae9f70"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5b822197a1bf802c5cf8c3dc43ca549a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_q_c_p_scatter_style.html">QCPScatterStyle</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_q_c_p_selection_decorator.html#a5b822197a1bf802c5cf8c3dc43ca549a">mScatterStyle</a></td></tr>
-<tr class="separator:a5b822197a1bf802c5cf8c3dc43ca549a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acb4f6af085283c9ce7d5c168fb53e855"><td class="memItemLeft" align="right" valign="top">QCPScatterStyle::ScatterProperties&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_q_c_p_selection_decorator.html#acb4f6af085283c9ce7d5c168fb53e855">mUsedScatterProperties</a></td></tr>
-<tr class="separator:acb4f6af085283c9ce7d5c168fb53e855"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a25250a1d29b0723c4fa59a97e62f5758"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_q_c_p_abstract_plottable.html">QCPAbstractPlottable</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_q_c_p_selection_decorator.html#a25250a1d29b0723c4fa59a97e62f5758">mPlottable</a></td></tr>
-<tr class="separator:a25250a1d29b0723c4fa59a97e62f5758"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_class_q_c_p_selection_decorator"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_q_c_p_selection_decorator')"><img src="closed.png" alt="-"/>&#160;Atributos Protegidos herdados de <a class="el" href="class_q_c_p_selection_decorator.html">QCPSelectionDecorator</a></td></tr>
+<tr class="memitem:a684a691c146a5bac927c0146bd28d557 inherit pro_attribs_class_q_c_p_selection_decorator"><td class="memItemLeft" align="right" valign="top">QPen&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_q_c_p_selection_decorator.html#a684a691c146a5bac927c0146bd28d557">mPen</a></td></tr>
+<tr class="separator:a684a691c146a5bac927c0146bd28d557 inherit pro_attribs_class_q_c_p_selection_decorator"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e3a3a01fdec5b018c0c59a0b6ae9f70 inherit pro_attribs_class_q_c_p_selection_decorator"><td class="memItemLeft" align="right" valign="top">QBrush&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_q_c_p_selection_decorator.html#a4e3a3a01fdec5b018c0c59a0b6ae9f70">mBrush</a></td></tr>
+<tr class="separator:a4e3a3a01fdec5b018c0c59a0b6ae9f70 inherit pro_attribs_class_q_c_p_selection_decorator"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b822197a1bf802c5cf8c3dc43ca549a inherit pro_attribs_class_q_c_p_selection_decorator"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_q_c_p_scatter_style.html">QCPScatterStyle</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_q_c_p_selection_decorator.html#a5b822197a1bf802c5cf8c3dc43ca549a">mScatterStyle</a></td></tr>
+<tr class="separator:a5b822197a1bf802c5cf8c3dc43ca549a inherit pro_attribs_class_q_c_p_selection_decorator"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb4f6af085283c9ce7d5c168fb53e855 inherit pro_attribs_class_q_c_p_selection_decorator"><td class="memItemLeft" align="right" valign="top">QCPScatterStyle::ScatterProperties&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_q_c_p_selection_decorator.html#acb4f6af085283c9ce7d5c168fb53e855">mUsedScatterProperties</a></td></tr>
+<tr class="separator:acb4f6af085283c9ce7d5c168fb53e855 inherit pro_attribs_class_q_c_p_selection_decorator"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25250a1d29b0723c4fa59a97e62f5758 inherit pro_attribs_class_q_c_p_selection_decorator"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_q_c_p_abstract_plottable.html">QCPAbstractPlottable</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_q_c_p_selection_decorator.html#a25250a1d29b0723c4fa59a97e62f5758">mPlottable</a></td></tr>
+<tr class="separator:a25250a1d29b0723c4fa59a97e62f5758 inherit pro_attribs_class_q_c_p_selection_decorator"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Descrição detalhada</h2>
 <div class="textblock"><p>A selection decorator which draws brackets around each selected data segment. </p>
@@ -317,65 +348,6 @@ Atributos Protegidos</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Funções membros</h2>
-<a id="a225544527d51b49546b70d0e6d655a34"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a225544527d51b49546b70d0e6d655a34">&#9670;&nbsp;</a></span>applyBrush()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void QCPSelectionDecorator::applyBrush </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_q_c_p_painter.html">QCPPainter</a> *&#160;</td>
-          <td class="paramname"><em>painter</em></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Sets the brush of <em>painter</em> to the brush of this selection decorator.</p>
-<dl class="section see"><dt>Veja também</dt><dd><a class="el" href="class_q_c_p_selection_decorator.html#a75098893f7d08660ea449206810679d7">applyPen</a>, <a class="el" href="class_q_c_p_selection_decorator.html#a1277b373248896bc70e8cc1de96da9fa">getFinalScatterStyle</a> </dd></dl>
-<div class="fragment"><div class="line"><a name="l10401"></a><span class="lineno">10401</span>&#160;{</div><div class="line"><a name="l10402"></a><span class="lineno">10402</span>&#160;  painter-&gt;setBrush(<a class="code" href="class_q_c_p_selection_decorator.html#a4e3a3a01fdec5b018c0c59a0b6ae9f70">mBrush</a>);</div><div class="line"><a name="l10403"></a><span class="lineno">10403</span>&#160;}</div><div class="ttc" id="class_q_c_p_selection_decorator_html_a4e3a3a01fdec5b018c0c59a0b6ae9f70"><div class="ttname"><a href="class_q_c_p_selection_decorator.html#a4e3a3a01fdec5b018c0c59a0b6ae9f70">QCPSelectionDecorator::mBrush</a></div><div class="ttdeci">QBrush mBrush</div><div class="ttdef"><b>Definition:</b> qcustomplot.h:3271</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a75098893f7d08660ea449206810679d7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a75098893f7d08660ea449206810679d7">&#9670;&nbsp;</a></span>applyPen()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void QCPSelectionDecorator::applyPen </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_q_c_p_painter.html">QCPPainter</a> *&#160;</td>
-          <td class="paramname"><em>painter</em></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Sets the pen of <em>painter</em> to the pen of this selection decorator.</p>
-<dl class="section see"><dt>Veja também</dt><dd><a class="el" href="class_q_c_p_selection_decorator.html#a225544527d51b49546b70d0e6d655a34">applyBrush</a>, <a class="el" href="class_q_c_p_selection_decorator.html#a1277b373248896bc70e8cc1de96da9fa">getFinalScatterStyle</a> </dd></dl>
-<div class="fragment"><div class="line"><a name="l10391"></a><span class="lineno">10391</span>&#160;{</div><div class="line"><a name="l10392"></a><span class="lineno">10392</span>&#160;  painter-&gt;<a class="code" href="class_q_c_p_painter.html#af9c7a4cd1791403901f8c5b82a150195">setPen</a>(<a class="code" href="class_q_c_p_selection_decorator.html#a684a691c146a5bac927c0146bd28d557">mPen</a>);</div><div class="line"><a name="l10393"></a><span class="lineno">10393</span>&#160;}</div><div class="ttc" id="class_q_c_p_painter_html_af9c7a4cd1791403901f8c5b82a150195"><div class="ttname"><a href="class_q_c_p_painter.html#af9c7a4cd1791403901f8c5b82a150195">QCPPainter::setPen</a></div><div class="ttdeci">void setPen(const QPen &amp;pen)</div><div class="ttdef"><b>Definition:</b> qcustomplot.cpp:317</div></div>
-<div class="ttc" id="class_q_c_p_selection_decorator_html_a684a691c146a5bac927c0146bd28d557"><div class="ttname"><a href="class_q_c_p_selection_decorator.html#a684a691c146a5bac927c0146bd28d557">QCPSelectionDecorator::mPen</a></div><div class="ttdeci">QPen mPen</div><div class="ttdef"><b>Definition:</b> qcustomplot.h:3270</div></div>
-</div><!-- fragment -->
-</div>
-</div>
 <a id="ac5e409d6b62f0b71143fb8a526fe59a9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac5e409d6b62f0b71143fb8a526fe59a9">&#9670;&nbsp;</a></span>bracketBrush()</h2>
 
@@ -506,66 +478,6 @@ Atributos Protegidos</h2></td></tr>
 </div><!-- fragment -->
 </div>
 </div>
-<a id="a783b643aa52120a25308fc501b9998b1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a783b643aa52120a25308fc501b9998b1">&#9670;&nbsp;</a></span>brush()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">QBrush QCPSelectionDecorator::brush </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><a name="l03249"></a><span class="lineno"> 3249</span>&#160;{ <span class="keywordflow">return</span> <a class="code" href="class_q_c_p_selection_decorator.html#a4e3a3a01fdec5b018c0c59a0b6ae9f70">mBrush</a>; }</div><div class="ttc" id="class_q_c_p_selection_decorator_html_a4e3a3a01fdec5b018c0c59a0b6ae9f70"><div class="ttname"><a href="class_q_c_p_selection_decorator.html#a4e3a3a01fdec5b018c0c59a0b6ae9f70">QCPSelectionDecorator::mBrush</a></div><div class="ttdeci">QBrush mBrush</div><div class="ttdef"><b>Definition:</b> qcustomplot.h:3271</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a467a8d5cfcab27e862a17c797ac27b8a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a467a8d5cfcab27e862a17c797ac27b8a">&#9670;&nbsp;</a></span>copyFrom()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void QCPSelectionDecorator::copyFrom </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="class_q_c_p_selection_decorator.html">QCPSelectionDecorator</a> *&#160;</td>
-          <td class="paramname"><em>other</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Copies all properties (e.g. color, fill, scatter style) of the <em>other</em> selection decorator to this selection decorator. </p>
-<div class="fragment"><div class="line"><a name="l10432"></a><span class="lineno">10432</span>&#160;{</div><div class="line"><a name="l10433"></a><span class="lineno">10433</span>&#160;  <a class="code" href="class_q_c_p_selection_decorator.html#ac2c8192e1e294aa3a4a7f32a859e3d76">setPen</a>(other-&gt;<a class="code" href="class_q_c_p_selection_decorator.html#a9307a60c9759223367909aed2d05ad91">pen</a>());</div><div class="line"><a name="l10434"></a><span class="lineno">10434</span>&#160;  <a class="code" href="class_q_c_p_selection_decorator.html#aa74b626be518ea17055f918d423c8c2d">setBrush</a>(other-&gt;<a class="code" href="class_q_c_p_selection_decorator.html#a783b643aa52120a25308fc501b9998b1">brush</a>());</div><div class="line"><a name="l10435"></a><span class="lineno">10435</span>&#160;  <a class="code" href="class_q_c_p_selection_decorator.html#ab403a613289714ff4fd4a0c0371ab116">setScatterStyle</a>(other-&gt;<a class="code" href="class_q_c_p_selection_decorator.html#aa6558f6f270a188bb633386aba0d1ae4">scatterStyle</a>(), other-&gt;<a class="code" href="class_q_c_p_selection_decorator.html#ab2019bf31dde39f1ec028e3810dfc08b">usedScatterProperties</a>());</div><div class="line"><a name="l10436"></a><span class="lineno">10436</span>&#160;}</div><div class="ttc" id="class_q_c_p_selection_decorator_html_ab403a613289714ff4fd4a0c0371ab116"><div class="ttname"><a href="class_q_c_p_selection_decorator.html#ab403a613289714ff4fd4a0c0371ab116">QCPSelectionDecorator::setScatterStyle</a></div><div class="ttdeci">void setScatterStyle(const QCPScatterStyle &amp;scatterStyle, QCPScatterStyle::ScatterProperties usedProperties=QCPScatterStyle::spPen)</div><div class="ttdef"><b>Definition:</b> qcustomplot.cpp:10367</div></div>
-<div class="ttc" id="class_q_c_p_selection_decorator_html_aa74b626be518ea17055f918d423c8c2d"><div class="ttname"><a href="class_q_c_p_selection_decorator.html#aa74b626be518ea17055f918d423c8c2d">QCPSelectionDecorator::setBrush</a></div><div class="ttdeci">void setBrush(const QBrush &amp;brush)</div><div class="ttdef"><b>Definition:</b> qcustomplot.cpp:10355</div></div>
-<div class="ttc" id="class_q_c_p_selection_decorator_html_a9307a60c9759223367909aed2d05ad91"><div class="ttname"><a href="class_q_c_p_selection_decorator.html#a9307a60c9759223367909aed2d05ad91">QCPSelectionDecorator::pen</a></div><div class="ttdeci">QPen pen() const</div><div class="ttdef"><b>Definition:</b> qcustomplot.h:3248</div></div>
-<div class="ttc" id="class_q_c_p_selection_decorator_html_ac2c8192e1e294aa3a4a7f32a859e3d76"><div class="ttname"><a href="class_q_c_p_selection_decorator.html#ac2c8192e1e294aa3a4a7f32a859e3d76">QCPSelectionDecorator::setPen</a></div><div class="ttdeci">void setPen(const QPen &amp;pen)</div><div class="ttdef"><b>Definition:</b> qcustomplot.cpp:10347</div></div>
-<div class="ttc" id="class_q_c_p_selection_decorator_html_a783b643aa52120a25308fc501b9998b1"><div class="ttname"><a href="class_q_c_p_selection_decorator.html#a783b643aa52120a25308fc501b9998b1">QCPSelectionDecorator::brush</a></div><div class="ttdeci">QBrush brush() const</div><div class="ttdef"><b>Definition:</b> qcustomplot.h:3249</div></div>
-<div class="ttc" id="class_q_c_p_selection_decorator_html_aa6558f6f270a188bb633386aba0d1ae4"><div class="ttname"><a href="class_q_c_p_selection_decorator.html#aa6558f6f270a188bb633386aba0d1ae4">QCPSelectionDecorator::scatterStyle</a></div><div class="ttdeci">QCPScatterStyle scatterStyle() const</div><div class="ttdef"><b>Definition:</b> qcustomplot.h:3250</div></div>
-<div class="ttc" id="class_q_c_p_selection_decorator_html_ab2019bf31dde39f1ec028e3810dfc08b"><div class="ttname"><a href="class_q_c_p_selection_decorator.html#ab2019bf31dde39f1ec028e3810dfc08b">QCPSelectionDecorator::usedScatterProperties</a></div><div class="ttdeci">QCPScatterStyle::ScatterProperties usedScatterProperties() const</div><div class="ttdef"><b>Definition:</b> qcustomplot.h:3251</div></div>
-</div><!-- fragment -->
-</div>
-</div>
 <a id="a57b65b5508d5bd0f27c9318f3d4646be"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a57b65b5508d5bd0f27c9318f3d4646be">&#9670;&nbsp;</a></span>drawBracket()</h2>
 
@@ -670,38 +582,6 @@ Atributos Protegidos</h2></td></tr>
 </div><!-- fragment -->
 </div>
 </div>
-<a id="a1277b373248896bc70e8cc1de96da9fa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1277b373248896bc70e8cc1de96da9fa">&#9670;&nbsp;</a></span>getFinalScatterStyle()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_q_c_p_scatter_style.html">QCPScatterStyle</a> QCPSelectionDecorator::getFinalScatterStyle </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="class_q_c_p_scatter_style.html">QCPScatterStyle</a> &amp;&#160;</td>
-          <td class="paramname"><em>unselectedStyle</em></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Returns the scatter style that the parent plottable shall use for selected scatter points. The plottable's original (unselected) scatter style must be passed as <em>unselectedStyle</em>. Depending on the setting of <a class="el" href="class_q_c_p_selection_decorator.html#a808c1607cd4e83869c04986e332455c0">setUsedScatterProperties</a>, the returned scatter style is a mixture of this selecion decorator's scatter style (<a class="el" href="class_q_c_p_selection_decorator.html#ab403a613289714ff4fd4a0c0371ab116">setScatterStyle</a>), and <em>unselectedStyle</em>.</p>
-<dl class="section see"><dt>Veja também</dt><dd><a class="el" href="class_q_c_p_selection_decorator.html#a75098893f7d08660ea449206810679d7">applyPen</a>, <a class="el" href="class_q_c_p_selection_decorator.html#a225544527d51b49546b70d0e6d655a34">applyBrush</a>, <a class="el" href="class_q_c_p_selection_decorator.html#ab403a613289714ff4fd4a0c0371ab116">setScatterStyle</a> </dd></dl>
-<div class="fragment"><div class="line"><a name="l10414"></a><span class="lineno">10414</span>&#160;{</div><div class="line"><a name="l10415"></a><span class="lineno">10415</span>&#160;  <a class="code" href="class_q_c_p_scatter_style.html">QCPScatterStyle</a> result(unselectedStyle);</div><div class="line"><a name="l10416"></a><span class="lineno">10416</span>&#160;  result.setFromOther(<a class="code" href="class_q_c_p_selection_decorator.html#a5b822197a1bf802c5cf8c3dc43ca549a">mScatterStyle</a>, <a class="code" href="class_q_c_p_selection_decorator.html#acb4f6af085283c9ce7d5c168fb53e855">mUsedScatterProperties</a>);</div><div class="line"><a name="l10417"></a><span class="lineno">10417</span>&#160;  </div><div class="line"><a name="l10418"></a><span class="lineno">10418</span>&#160;  <span class="comment">// if style shall inherit pen from plottable (has no own pen defined), give it the selected</span></div><div class="line"><a name="l10419"></a><span class="lineno">10419</span>&#160;  <span class="comment">// plottable pen explicitly, so it doesn&#39;t use the unselected plottable pen when used in the</span></div><div class="line"><a name="l10420"></a><span class="lineno">10420</span>&#160;  <span class="comment">// plottable:</span></div><div class="line"><a name="l10421"></a><span class="lineno">10421</span>&#160;  <span class="keywordflow">if</span> (!result.isPenDefined())</div><div class="line"><a name="l10422"></a><span class="lineno">10422</span>&#160;    result.setPen(<a class="code" href="class_q_c_p_selection_decorator.html#a684a691c146a5bac927c0146bd28d557">mPen</a>);</div><div class="line"><a name="l10423"></a><span class="lineno">10423</span>&#160;  </div><div class="line"><a name="l10424"></a><span class="lineno">10424</span>&#160;  <span class="keywordflow">return</span> result;</div><div class="line"><a name="l10425"></a><span class="lineno">10425</span>&#160;}</div><div class="ttc" id="class_q_c_p_selection_decorator_html_a5b822197a1bf802c5cf8c3dc43ca549a"><div class="ttname"><a href="class_q_c_p_selection_decorator.html#a5b822197a1bf802c5cf8c3dc43ca549a">QCPSelectionDecorator::mScatterStyle</a></div><div class="ttdeci">QCPScatterStyle mScatterStyle</div><div class="ttdef"><b>Definition:</b> qcustomplot.h:3272</div></div>
-<div class="ttc" id="class_q_c_p_scatter_style_html"><div class="ttname"><a href="class_q_c_p_scatter_style.html">QCPScatterStyle</a></div><div class="ttdoc">Represents the visual appearance of scatter points. </div><div class="ttdef"><b>Definition:</b> qcustomplot.h:2288</div></div>
-<div class="ttc" id="class_q_c_p_selection_decorator_html_a684a691c146a5bac927c0146bd28d557"><div class="ttname"><a href="class_q_c_p_selection_decorator.html#a684a691c146a5bac927c0146bd28d557">QCPSelectionDecorator::mPen</a></div><div class="ttdeci">QPen mPen</div><div class="ttdef"><b>Definition:</b> qcustomplot.h:3270</div></div>
-<div class="ttc" id="class_q_c_p_selection_decorator_html_acb4f6af085283c9ce7d5c168fb53e855"><div class="ttname"><a href="class_q_c_p_selection_decorator.html#acb4f6af085283c9ce7d5c168fb53e855">QCPSelectionDecorator::mUsedScatterProperties</a></div><div class="ttdeci">QCPScatterStyle::ScatterProperties mUsedScatterProperties</div><div class="ttdef"><b>Definition:</b> qcustomplot.h:3273</div></div>
-</div><!-- fragment -->
-</div>
-</div>
 <a id="a9925ed667e8a645fcb9949bd02ee4a19"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9925ed667e8a645fcb9949bd02ee4a19">&#9670;&nbsp;</a></span>getPixelCoordinates()</h2>
 
@@ -735,6 +615,7 @@ Atributos Protegidos</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Returns the pixel coordinates of the data point at <em>dataIndex</em>, using <em>interface1d</em> to access the data points. </p>
 <div class="fragment"><div class="line"><a name="l16634"></a><span class="lineno">16634</span>&#160;{</div><div class="line"><a name="l16635"></a><span class="lineno">16635</span>&#160;  <a class="code" href="class_q_c_p_axis.html">QCPAxis</a> *keyAxis = <a class="code" href="class_q_c_p_selection_decorator.html#a25250a1d29b0723c4fa59a97e62f5758">mPlottable</a>-&gt;<a class="code" href="class_q_c_p_abstract_plottable.html#a2cdd6f0dd5e9a979037f86b4000d9cfe">keyAxis</a>();</div><div class="line"><a name="l16636"></a><span class="lineno">16636</span>&#160;  <a class="code" href="class_q_c_p_axis.html">QCPAxis</a> *valueAxis = <a class="code" href="class_q_c_p_selection_decorator.html#a25250a1d29b0723c4fa59a97e62f5758">mPlottable</a>-&gt;<a class="code" href="class_q_c_p_abstract_plottable.html#af47809a644a68ffd955fb30b01fb4f2f">valueAxis</a>();</div><div class="line"><a name="l16637"></a><span class="lineno">16637</span>&#160;  <span class="keywordflow">if</span> (!keyAxis || !valueAxis) { qDebug() &lt;&lt; Q_FUNC_INFO &lt;&lt; <span class="stringliteral">&quot;invalid key or value axis&quot;</span>; <span class="keywordflow">return</span> QPointF(0, 0); }</div><div class="line"><a name="l16638"></a><span class="lineno">16638</span>&#160;  </div><div class="line"><a name="l16639"></a><span class="lineno">16639</span>&#160;  <span class="keywordflow">if</span> (keyAxis-&gt;<a class="code" href="class_q_c_p_axis.html#ab988ef4538e2655bb77bd138189cd42e">orientation</a>() == Qt::Horizontal)</div><div class="line"><a name="l16640"></a><span class="lineno">16640</span>&#160;    <span class="keywordflow">return</span> QPointF(keyAxis-&gt;<a class="code" href="class_q_c_p_axis.html#af15d1b3a7f7e9b53d759d3ccff1fe4b4">coordToPixel</a>(interface1d-&gt;<a class="code" href="class_q_c_p_plottable_interface1_d.html#a2bd60daaac046945fead558cbd83cf73">dataMainKey</a>(dataIndex)), valueAxis-&gt;<a class="code" href="class_q_c_p_axis.html#af15d1b3a7f7e9b53d759d3ccff1fe4b4">coordToPixel</a>(interface1d-&gt;<a class="code" href="class_q_c_p_plottable_interface1_d.html#af6330919e8023277d08c958a6074fc76">dataMainValue</a>(dataIndex)));</div><div class="line"><a name="l16641"></a><span class="lineno">16641</span>&#160;  <span class="keywordflow">else</span></div><div class="line"><a name="l16642"></a><span class="lineno">16642</span>&#160;    <span class="keywordflow">return</span> QPointF(valueAxis-&gt;<a class="code" href="class_q_c_p_axis.html#af15d1b3a7f7e9b53d759d3ccff1fe4b4">coordToPixel</a>(interface1d-&gt;<a class="code" href="class_q_c_p_plottable_interface1_d.html#af6330919e8023277d08c958a6074fc76">dataMainValue</a>(dataIndex)), keyAxis-&gt;<a class="code" href="class_q_c_p_axis.html#af15d1b3a7f7e9b53d759d3ccff1fe4b4">coordToPixel</a>(interface1d-&gt;<a class="code" href="class_q_c_p_plottable_interface1_d.html#a2bd60daaac046945fead558cbd83cf73">dataMainKey</a>(dataIndex)));</div><div class="line"><a name="l16643"></a><span class="lineno">16643</span>&#160;}</div><div class="ttc" id="class_q_c_p_plottable_interface1_d_html_af6330919e8023277d08c958a6074fc76"><div class="ttname"><a href="class_q_c_p_plottable_interface1_d.html#af6330919e8023277d08c958a6074fc76">QCPPlottableInterface1D::dataMainValue</a></div><div class="ttdeci">virtual double dataMainValue(int index) const =0</div></div>
 <div class="ttc" id="class_q_c_p_selection_decorator_html_a25250a1d29b0723c4fa59a97e62f5758"><div class="ttname"><a href="class_q_c_p_selection_decorator.html#a25250a1d29b0723c4fa59a97e62f5758">QCPSelectionDecorator::mPlottable</a></div><div class="ttdeci">QCPAbstractPlottable * mPlottable</div><div class="ttdef"><b>Definition:</b> qcustomplot.h:3275</div></div>
 <div class="ttc" id="class_q_c_p_abstract_plottable_html_a2cdd6f0dd5e9a979037f86b4000d9cfe"><div class="ttname"><a href="class_q_c_p_abstract_plottable.html#a2cdd6f0dd5e9a979037f86b4000d9cfe">QCPAbstractPlottable::keyAxis</a></div><div class="ttdeci">QCPAxis * keyAxis() const</div><div class="ttdef"><b>Definition:</b> qcustomplot.h:3312</div></div>
@@ -785,89 +666,13 @@ Atributos Protegidos</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><a name="l16587"></a><span class="lineno">16587</span>&#160;{</div><div class="line"><a name="l16588"></a><span class="lineno">16588</span>&#160;  <span class="keywordflow">if</span> (!interface1d || dataIndex &lt; 0 || dataIndex &gt;= interface1d-&gt;<a class="code" href="class_q_c_p_plottable_interface1_d.html#a058a22c770ef4d5a0e878a7f02183da9">dataCount</a>())</div><div class="line"><a name="l16589"></a><span class="lineno">16589</span>&#160;    <span class="keywordflow">return</span> 0;</div><div class="line"><a name="l16590"></a><span class="lineno">16590</span>&#160;  direction = direction &lt; 0 ? -1 : 1; <span class="comment">// enforce direction is either -1 or 1</span></div><div class="line"><a name="l16591"></a><span class="lineno">16591</span>&#160;  </div><div class="line"><a name="l16592"></a><span class="lineno">16592</span>&#160;  <span class="comment">// how many steps we can actually go from index in the given direction without exceeding data bounds:</span></div><div class="line"><a name="l16593"></a><span class="lineno">16593</span>&#160;  <span class="keywordtype">int</span> averageCount;</div><div class="line"><a name="l16594"></a><span class="lineno">16594</span>&#160;  <span class="keywordflow">if</span> (direction &lt; 0)</div><div class="line"><a name="l16595"></a><span class="lineno">16595</span>&#160;    averageCount = qMin(<a class="code" href="class_q_c_p_selection_decorator_bracket.html#a810900616f17964cab140cbc13f40203">mTangentAverage</a>, dataIndex);</div><div class="line"><a name="l16596"></a><span class="lineno">16596</span>&#160;  <span class="keywordflow">else</span></div><div class="line"><a name="l16597"></a><span class="lineno">16597</span>&#160;    averageCount = qMin(<a class="code" href="class_q_c_p_selection_decorator_bracket.html#a810900616f17964cab140cbc13f40203">mTangentAverage</a>, interface1d-&gt;<a class="code" href="class_q_c_p_plottable_interface1_d.html#a058a22c770ef4d5a0e878a7f02183da9">dataCount</a>()-1-dataIndex);</div><div class="line"><a name="l16598"></a><span class="lineno">16598</span>&#160;  qDebug() &lt;&lt; averageCount;</div><div class="line"><a name="l16599"></a><span class="lineno">16599</span>&#160;  <span class="comment">// calculate point average of averageCount points:</span></div><div class="line"><a name="l16600"></a><span class="lineno">16600</span>&#160;  QVector&lt;QPointF&gt; points(averageCount);</div><div class="line"><a name="l16601"></a><span class="lineno">16601</span>&#160;  QPointF pointsAverage;</div><div class="line"><a name="l16602"></a><span class="lineno">16602</span>&#160;  <span class="keywordtype">int</span> currentIndex = dataIndex;</div><div class="line"><a name="l16603"></a><span class="lineno">16603</span>&#160;  <span class="keywordflow">for</span> (<span class="keywordtype">int</span> <a class="code" href="mainwindow_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a>=0; <a class="code" href="mainwindow_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a>&lt;averageCount; ++<a class="code" href="mainwindow_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a>)</div><div class="line"><a name="l16604"></a><span class="lineno">16604</span>&#160;  {</div><div class="line"><a name="l16605"></a><span class="lineno">16605</span>&#160;    points[<a class="code" href="mainwindow_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a>] = <a class="code" href="class_q_c_p_selection_decorator_bracket.html#a9925ed667e8a645fcb9949bd02ee4a19">getPixelCoordinates</a>(interface1d, currentIndex);</div><div class="line"><a name="l16606"></a><span class="lineno">16606</span>&#160;    pointsAverage += points[<a class="code" href="mainwindow_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a>];</div><div class="line"><a name="l16607"></a><span class="lineno">16607</span>&#160;    currentIndex += direction;</div><div class="line"><a name="l16608"></a><span class="lineno">16608</span>&#160;  }</div><div class="line"><a name="l16609"></a><span class="lineno">16609</span>&#160;  pointsAverage /= (double)averageCount;</div><div class="line"><a name="l16610"></a><span class="lineno">16610</span>&#160;  </div><div class="line"><a name="l16611"></a><span class="lineno">16611</span>&#160;  <span class="comment">// calculate slope of linear regression through points:</span></div><div class="line"><a name="l16612"></a><span class="lineno">16612</span>&#160;  <span class="keywordtype">double</span> numSum = 0;</div><div class="line"><a name="l16613"></a><span class="lineno">16613</span>&#160;  <span class="keywordtype">double</span> denomSum = 0;</div><div class="line"><a name="l16614"></a><span class="lineno">16614</span>&#160;  <span class="keywordflow">for</span> (<span class="keywordtype">int</span> <a class="code" href="mainwindow_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a>=0; <a class="code" href="mainwindow_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a>&lt;averageCount; ++<a class="code" href="mainwindow_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a>)</div><div class="line"><a name="l16615"></a><span class="lineno">16615</span>&#160;  {</div><div class="line"><a name="l16616"></a><span class="lineno">16616</span>&#160;    <span class="keyword">const</span> <span class="keywordtype">double</span> dx = points.at(<a class="code" href="mainwindow_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a>).x()-pointsAverage.x();</div><div class="line"><a name="l16617"></a><span class="lineno">16617</span>&#160;    <span class="keyword">const</span> <span class="keywordtype">double</span> dy = points.at(<a class="code" href="mainwindow_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a>).y()-pointsAverage.y();</div><div class="line"><a name="l16618"></a><span class="lineno">16618</span>&#160;    numSum += dx*dy;</div><div class="line"><a name="l16619"></a><span class="lineno">16619</span>&#160;    denomSum += dx*dx;</div><div class="line"><a name="l16620"></a><span class="lineno">16620</span>&#160;  }</div><div class="line"><a name="l16621"></a><span class="lineno">16621</span>&#160;  <span class="keywordflow">if</span> (!qFuzzyIsNull(denomSum) &amp;&amp; !qFuzzyIsNull(numSum))</div><div class="line"><a name="l16622"></a><span class="lineno">16622</span>&#160;  {</div><div class="line"><a name="l16623"></a><span class="lineno">16623</span>&#160;    <span class="keywordflow">return</span> qAtan2(numSum, denomSum);</div><div class="line"><a name="l16624"></a><span class="lineno">16624</span>&#160;  } <span class="keywordflow">else</span> <span class="comment">// undetermined angle, probably mTangentAverage == 1, so using only one data point</span></div><div class="line"><a name="l16625"></a><span class="lineno">16625</span>&#160;    <span class="keywordflow">return</span> 0;</div><div class="line"><a name="l16626"></a><span class="lineno">16626</span>&#160;}</div><div class="ttc" id="mainwindow_8cpp_html_acb559820d9ca11295b4500f179ef6392"><div class="ttname"><a href="mainwindow_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a></div><div class="ttdeci">int i</div><div class="ttdef"><b>Definition:</b> mainwindow.cpp:13</div></div>
+<p>If <a class="el" href="class_q_c_p_selection_decorator_bracket.html#a93bc6086e53a5e40a08641a7b2e2cdd5">setTangentToData</a> is enabled, brackets need to be rotated according to the data slope. This method returns the angle in radians by which a bracket at the given <em>dataIndex</em> must be rotated.</p>
+<p>The parameter <em>direction</em> must be set to either -1 or 1, representing whether it is an opening or closing bracket. Since for slope calculation multiple data points are required, this defines the direction in which the algorithm walks, starting at <em>dataIndex</em>, to average those data points. (see <a class="el" href="class_q_c_p_selection_decorator_bracket.html#a93bc6086e53a5e40a08641a7b2e2cdd5">setTangentToData</a> and <a class="el" href="class_q_c_p_selection_decorator_bracket.html#adb2d0876f25a77c88042b70818f1d6e4">setTangentAverage</a>)</p>
+<p><em>interface1d</em> is the interface to the plottable's data which is used to query data coordinates. </p>
+<div class="fragment"><div class="line"><a name="l16587"></a><span class="lineno">16587</span>&#160;{</div><div class="line"><a name="l16588"></a><span class="lineno">16588</span>&#160;  <span class="keywordflow">if</span> (!interface1d || dataIndex &lt; 0 || dataIndex &gt;= interface1d-&gt;<a class="code" href="class_q_c_p_plottable_interface1_d.html#a058a22c770ef4d5a0e878a7f02183da9">dataCount</a>())</div><div class="line"><a name="l16589"></a><span class="lineno">16589</span>&#160;    <span class="keywordflow">return</span> 0;</div><div class="line"><a name="l16590"></a><span class="lineno">16590</span>&#160;  direction = direction &lt; 0 ? -1 : 1; <span class="comment">// enforce direction is either -1 or 1</span></div><div class="line"><a name="l16591"></a><span class="lineno">16591</span>&#160;  </div><div class="line"><a name="l16592"></a><span class="lineno">16592</span>&#160;  <span class="comment">// how many steps we can actually go from index in the given direction without exceeding data bounds:</span></div><div class="line"><a name="l16593"></a><span class="lineno">16593</span>&#160;  <span class="keywordtype">int</span> averageCount;</div><div class="line"><a name="l16594"></a><span class="lineno">16594</span>&#160;  <span class="keywordflow">if</span> (direction &lt; 0)</div><div class="line"><a name="l16595"></a><span class="lineno">16595</span>&#160;    averageCount = qMin(<a class="code" href="class_q_c_p_selection_decorator_bracket.html#a810900616f17964cab140cbc13f40203">mTangentAverage</a>, dataIndex);</div><div class="line"><a name="l16596"></a><span class="lineno">16596</span>&#160;  <span class="keywordflow">else</span></div><div class="line"><a name="l16597"></a><span class="lineno">16597</span>&#160;    averageCount = qMin(<a class="code" href="class_q_c_p_selection_decorator_bracket.html#a810900616f17964cab140cbc13f40203">mTangentAverage</a>, interface1d-&gt;<a class="code" href="class_q_c_p_plottable_interface1_d.html#a058a22c770ef4d5a0e878a7f02183da9">dataCount</a>()-1-dataIndex);</div><div class="line"><a name="l16598"></a><span class="lineno">16598</span>&#160;  qDebug() &lt;&lt; averageCount;</div><div class="line"><a name="l16599"></a><span class="lineno">16599</span>&#160;  <span class="comment">// calculate point average of averageCount points:</span></div><div class="line"><a name="l16600"></a><span class="lineno">16600</span>&#160;  QVector&lt;QPointF&gt; points(averageCount);</div><div class="line"><a name="l16601"></a><span class="lineno">16601</span>&#160;  QPointF pointsAverage;</div><div class="line"><a name="l16602"></a><span class="lineno">16602</span>&#160;  <span class="keywordtype">int</span> currentIndex = dataIndex;</div><div class="line"><a name="l16603"></a><span class="lineno">16603</span>&#160;  <span class="keywordflow">for</span> (<span class="keywordtype">int</span> <a class="code" href="mainwindow_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a>=0; <a class="code" href="mainwindow_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a>&lt;averageCount; ++<a class="code" href="mainwindow_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a>)</div><div class="line"><a name="l16604"></a><span class="lineno">16604</span>&#160;  {</div><div class="line"><a name="l16605"></a><span class="lineno">16605</span>&#160;    points[<a class="code" href="mainwindow_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a>] = <a class="code" href="class_q_c_p_selection_decorator_bracket.html#a9925ed667e8a645fcb9949bd02ee4a19">getPixelCoordinates</a>(interface1d, currentIndex);</div><div class="line"><a name="l16606"></a><span class="lineno">16606</span>&#160;    pointsAverage += points[<a class="code" href="mainwindow_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a>];</div><div class="line"><a name="l16607"></a><span class="lineno">16607</span>&#160;    currentIndex += direction;</div><div class="line"><a name="l16608"></a><span class="lineno">16608</span>&#160;  }</div><div class="line"><a name="l16609"></a><span class="lineno">16609</span>&#160;  pointsAverage /= (double)averageCount;</div><div class="line"><a name="l16610"></a><span class="lineno">16610</span>&#160;  </div><div class="line"><a name="l16611"></a><span class="lineno">16611</span>&#160;  <span class="comment">// calculate slope of linear regression through points:</span></div><div class="line"><a name="l16612"></a><span class="lineno">16612</span>&#160;  <span class="keywordtype">double</span> numSum = 0;</div><div class="line"><a name="l16613"></a><span class="lineno">16613</span>&#160;  <span class="keywordtype">double</span> denomSum = 0;</div><div class="line"><a name="l16614"></a><span class="lineno">16614</span>&#160;  <span class="keywordflow">for</span> (<span class="keywordtype">int</span> <a class="code" href="mainwindow_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a>=0; <a class="code" href="mainwindow_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a>&lt;averageCount; ++<a class="code" href="mainwindow_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a>)</div><div class="line"><a name="l16615"></a><span class="lineno">16615</span>&#160;  {</div><div class="line"><a name="l16616"></a><span class="lineno">16616</span>&#160;    <span class="keyword">const</span> <span class="keywordtype">double</span> dx = points.at(<a class="code" href="mainwindow_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a>).x()-pointsAverage.x();</div><div class="line"><a name="l16617"></a><span class="lineno">16617</span>&#160;    <span class="keyword">const</span> <span class="keywordtype">double</span> dy = points.at(<a class="code" href="mainwindow_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a>).y()-pointsAverage.y();</div><div class="line"><a name="l16618"></a><span class="lineno">16618</span>&#160;    numSum += dx*dy;</div><div class="line"><a name="l16619"></a><span class="lineno">16619</span>&#160;    denomSum += dx*dx;</div><div class="line"><a name="l16620"></a><span class="lineno">16620</span>&#160;  }</div><div class="line"><a name="l16621"></a><span class="lineno">16621</span>&#160;  <span class="keywordflow">if</span> (!qFuzzyIsNull(denomSum) &amp;&amp; !qFuzzyIsNull(numSum))</div><div class="line"><a name="l16622"></a><span class="lineno">16622</span>&#160;  {</div><div class="line"><a name="l16623"></a><span class="lineno">16623</span>&#160;    <span class="keywordflow">return</span> qAtan2(numSum, denomSum);</div><div class="line"><a name="l16624"></a><span class="lineno">16624</span>&#160;  } <span class="keywordflow">else</span> <span class="comment">// undetermined angle, probably mTangentAverage == 1, so using only one data point</span></div><div class="line"><a name="l16625"></a><span class="lineno">16625</span>&#160;    <span class="keywordflow">return</span> 0;</div><div class="line"><a name="l16626"></a><span class="lineno">16626</span>&#160;}</div><div class="ttc" id="mainwindow_8cpp_html_acb559820d9ca11295b4500f179ef6392"><div class="ttname"><a href="mainwindow_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a></div><div class="ttdeci">int i</div><div class="ttdef"><b>Definition:</b> mainwindow.cpp:15</div></div>
 <div class="ttc" id="class_q_c_p_plottable_interface1_d_html_a058a22c770ef4d5a0e878a7f02183da9"><div class="ttname"><a href="class_q_c_p_plottable_interface1_d.html#a058a22c770ef4d5a0e878a7f02183da9">QCPPlottableInterface1D::dataCount</a></div><div class="ttdeci">virtual int dataCount() const =0</div></div>
 <div class="ttc" id="class_q_c_p_selection_decorator_bracket_html_a9925ed667e8a645fcb9949bd02ee4a19"><div class="ttname"><a href="class_q_c_p_selection_decorator_bracket.html#a9925ed667e8a645fcb9949bd02ee4a19">QCPSelectionDecoratorBracket::getPixelCoordinates</a></div><div class="ttdeci">QPointF getPixelCoordinates(const QCPPlottableInterface1D *interface1d, int dataIndex) const</div><div class="ttdef"><b>Definition:</b> qcustomplot.cpp:16633</div></div>
 <div class="ttc" id="class_q_c_p_selection_decorator_bracket_html_a810900616f17964cab140cbc13f40203"><div class="ttname"><a href="class_q_c_p_selection_decorator_bracket.html#a810900616f17964cab140cbc13f40203">QCPSelectionDecoratorBracket::mTangentAverage</a></div><div class="ttdeci">int mTangentAverage</div><div class="ttdef"><b>Definition:</b> qcustomplot.h:4567</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a9307a60c9759223367909aed2d05ad91"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9307a60c9759223367909aed2d05ad91">&#9670;&nbsp;</a></span>pen()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">QPen QCPSelectionDecorator::pen </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><a name="l03248"></a><span class="lineno"> 3248</span>&#160;{ <span class="keywordflow">return</span> <a class="code" href="class_q_c_p_selection_decorator.html#a684a691c146a5bac927c0146bd28d557">mPen</a>; }</div><div class="ttc" id="class_q_c_p_selection_decorator_html_a684a691c146a5bac927c0146bd28d557"><div class="ttname"><a href="class_q_c_p_selection_decorator.html#a684a691c146a5bac927c0146bd28d557">QCPSelectionDecorator::mPen</a></div><div class="ttdeci">QPen mPen</div><div class="ttdef"><b>Definition:</b> qcustomplot.h:3270</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="af66cb39e308da0285ae5d533e1e85027"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af66cb39e308da0285ae5d533e1e85027">&#9670;&nbsp;</a></span>registerWithPlottable()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool QCPSelectionDecorator::registerWithPlottable </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_q_c_p_abstract_plottable.html">QCPAbstractPlottable</a> *&#160;</td>
-          <td class="paramname"><em>plottable</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><a name="l10462"></a><span class="lineno">10462</span>&#160;{</div><div class="line"><a name="l10463"></a><span class="lineno">10463</span>&#160;  <span class="keywordflow">if</span> (!<a class="code" href="class_q_c_p_selection_decorator.html#a25250a1d29b0723c4fa59a97e62f5758">mPlottable</a>)</div><div class="line"><a name="l10464"></a><span class="lineno">10464</span>&#160;  {</div><div class="line"><a name="l10465"></a><span class="lineno">10465</span>&#160;    <a class="code" href="class_q_c_p_selection_decorator.html#a25250a1d29b0723c4fa59a97e62f5758">mPlottable</a> = plottable;</div><div class="line"><a name="l10466"></a><span class="lineno">10466</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div><div class="line"><a name="l10467"></a><span class="lineno">10467</span>&#160;  } <span class="keywordflow">else</span></div><div class="line"><a name="l10468"></a><span class="lineno">10468</span>&#160;  {</div><div class="line"><a name="l10469"></a><span class="lineno">10469</span>&#160;    qDebug() &lt;&lt; Q_FUNC_INFO &lt;&lt; <span class="stringliteral">&quot;This selection decorator is already registered with plottable:&quot;</span> &lt;&lt; <span class="keyword">reinterpret_cast&lt;</span>quintptr<span class="keyword">&gt;</span>(<a class="code" href="class_q_c_p_selection_decorator.html#a25250a1d29b0723c4fa59a97e62f5758">mPlottable</a>);</div><div class="line"><a name="l10470"></a><span class="lineno">10470</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div><div class="line"><a name="l10471"></a><span class="lineno">10471</span>&#160;  }</div><div class="line"><a name="l10472"></a><span class="lineno">10472</span>&#160;}</div><div class="ttc" id="class_q_c_p_selection_decorator_html_a25250a1d29b0723c4fa59a97e62f5758"><div class="ttname"><a href="class_q_c_p_selection_decorator.html#a25250a1d29b0723c4fa59a97e62f5758">QCPSelectionDecorator::mPlottable</a></div><div class="ttdeci">QCPAbstractPlottable * mPlottable</div><div class="ttdef"><b>Definition:</b> qcustomplot.h:3275</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="aa6558f6f270a188bb633386aba0d1ae4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa6558f6f270a188bb633386aba0d1ae4">&#9670;&nbsp;</a></span>scatterStyle()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_q_c_p_scatter_style.html">QCPScatterStyle</a> QCPSelectionDecorator::scatterStyle </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><a name="l03250"></a><span class="lineno"> 3250</span>&#160;{ <span class="keywordflow">return</span> <a class="code" href="class_q_c_p_selection_decorator.html#a5b822197a1bf802c5cf8c3dc43ca549a">mScatterStyle</a>; }</div><div class="ttc" id="class_q_c_p_selection_decorator_html_a5b822197a1bf802c5cf8c3dc43ca549a"><div class="ttname"><a href="class_q_c_p_selection_decorator.html#a5b822197a1bf802c5cf8c3dc43ca549a">QCPSelectionDecorator::mScatterStyle</a></div><div class="ttdeci">QCPScatterStyle mScatterStyle</div><div class="ttdef"><b>Definition:</b> qcustomplot.h:3272</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -974,105 +779,6 @@ Atributos Protegidos</h2></td></tr>
 </div><!-- fragment -->
 </div>
 </div>
-<a id="aa74b626be518ea17055f918d423c8c2d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa74b626be518ea17055f918d423c8c2d">&#9670;&nbsp;</a></span>setBrush()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void QCPSelectionDecorator::setBrush </td>
-          <td>(</td>
-          <td class="paramtype">const QBrush &amp;&#160;</td>
-          <td class="paramname"><em>brush</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Sets the brush that will be used by the parent plottable to draw selected data segments. </p>
-<div class="fragment"><div class="line"><a name="l10356"></a><span class="lineno">10356</span>&#160;{</div><div class="line"><a name="l10357"></a><span class="lineno">10357</span>&#160;  <a class="code" href="class_q_c_p_selection_decorator.html#a4e3a3a01fdec5b018c0c59a0b6ae9f70">mBrush</a> = <a class="code" href="class_q_c_p_selection_decorator.html#a783b643aa52120a25308fc501b9998b1">brush</a>;</div><div class="line"><a name="l10358"></a><span class="lineno">10358</span>&#160;}</div><div class="ttc" id="class_q_c_p_selection_decorator_html_a4e3a3a01fdec5b018c0c59a0b6ae9f70"><div class="ttname"><a href="class_q_c_p_selection_decorator.html#a4e3a3a01fdec5b018c0c59a0b6ae9f70">QCPSelectionDecorator::mBrush</a></div><div class="ttdeci">QBrush mBrush</div><div class="ttdef"><b>Definition:</b> qcustomplot.h:3271</div></div>
-<div class="ttc" id="class_q_c_p_selection_decorator_html_a783b643aa52120a25308fc501b9998b1"><div class="ttname"><a href="class_q_c_p_selection_decorator.html#a783b643aa52120a25308fc501b9998b1">QCPSelectionDecorator::brush</a></div><div class="ttdeci">QBrush brush() const</div><div class="ttdef"><b>Definition:</b> qcustomplot.h:3249</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="ac2c8192e1e294aa3a4a7f32a859e3d76"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac2c8192e1e294aa3a4a7f32a859e3d76">&#9670;&nbsp;</a></span>setPen()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void QCPSelectionDecorator::setPen </td>
-          <td>(</td>
-          <td class="paramtype">const QPen &amp;&#160;</td>
-          <td class="paramname"><em>pen</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Sets the pen that will be used by the parent plottable to draw selected data segments. </p>
-<div class="fragment"><div class="line"><a name="l10348"></a><span class="lineno">10348</span>&#160;{</div><div class="line"><a name="l10349"></a><span class="lineno">10349</span>&#160;  <a class="code" href="class_q_c_p_selection_decorator.html#a684a691c146a5bac927c0146bd28d557">mPen</a> = <a class="code" href="class_q_c_p_selection_decorator.html#a9307a60c9759223367909aed2d05ad91">pen</a>;</div><div class="line"><a name="l10350"></a><span class="lineno">10350</span>&#160;}</div><div class="ttc" id="class_q_c_p_selection_decorator_html_a9307a60c9759223367909aed2d05ad91"><div class="ttname"><a href="class_q_c_p_selection_decorator.html#a9307a60c9759223367909aed2d05ad91">QCPSelectionDecorator::pen</a></div><div class="ttdeci">QPen pen() const</div><div class="ttdef"><b>Definition:</b> qcustomplot.h:3248</div></div>
-<div class="ttc" id="class_q_c_p_selection_decorator_html_a684a691c146a5bac927c0146bd28d557"><div class="ttname"><a href="class_q_c_p_selection_decorator.html#a684a691c146a5bac927c0146bd28d557">QCPSelectionDecorator::mPen</a></div><div class="ttdeci">QPen mPen</div><div class="ttdef"><b>Definition:</b> qcustomplot.h:3270</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="ab403a613289714ff4fd4a0c0371ab116"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab403a613289714ff4fd4a0c0371ab116">&#9670;&nbsp;</a></span>setScatterStyle()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void QCPSelectionDecorator::setScatterStyle </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="class_q_c_p_scatter_style.html">QCPScatterStyle</a> &amp;&#160;</td>
-          <td class="paramname"><em>scatterStyle</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">QCPScatterStyle::ScatterProperties&#160;</td>
-          <td class="paramname"><em>usedProperties</em> = <code><a class="el" href="class_q_c_p_scatter_style.html#a8974f6a20f8f6eea7781f0e6af9deb46aa04d012e7c03e455db2b68fdd55c2a04">QCPScatterStyle::spPen</a></code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Sets the scatter style that will be used by the parent plottable to draw scatters in selected data segments.</p>
-<p><em>usedProperties</em> specifies which parts of the passed <em>scatterStyle</em> will be used by the plottable. The used properties can also be changed via <a class="el" href="class_q_c_p_selection_decorator.html#a808c1607cd4e83869c04986e332455c0">setUsedScatterProperties</a>. </p>
-<div class="fragment"><div class="line"><a name="l10368"></a><span class="lineno">10368</span>&#160;{</div><div class="line"><a name="l10369"></a><span class="lineno">10369</span>&#160;  <a class="code" href="class_q_c_p_selection_decorator.html#a5b822197a1bf802c5cf8c3dc43ca549a">mScatterStyle</a> = <a class="code" href="class_q_c_p_selection_decorator.html#aa6558f6f270a188bb633386aba0d1ae4">scatterStyle</a>;</div><div class="line"><a name="l10370"></a><span class="lineno">10370</span>&#160;  <a class="code" href="class_q_c_p_selection_decorator.html#a808c1607cd4e83869c04986e332455c0">setUsedScatterProperties</a>(usedProperties);</div><div class="line"><a name="l10371"></a><span class="lineno">10371</span>&#160;}</div><div class="ttc" id="class_q_c_p_selection_decorator_html_a5b822197a1bf802c5cf8c3dc43ca549a"><div class="ttname"><a href="class_q_c_p_selection_decorator.html#a5b822197a1bf802c5cf8c3dc43ca549a">QCPSelectionDecorator::mScatterStyle</a></div><div class="ttdeci">QCPScatterStyle mScatterStyle</div><div class="ttdef"><b>Definition:</b> qcustomplot.h:3272</div></div>
-<div class="ttc" id="class_q_c_p_selection_decorator_html_a808c1607cd4e83869c04986e332455c0"><div class="ttname"><a href="class_q_c_p_selection_decorator.html#a808c1607cd4e83869c04986e332455c0">QCPSelectionDecorator::setUsedScatterProperties</a></div><div class="ttdeci">void setUsedScatterProperties(const QCPScatterStyle::ScatterProperties &amp;properties)</div><div class="ttdef"><b>Definition:</b> qcustomplot.cpp:10380</div></div>
-<div class="ttc" id="class_q_c_p_selection_decorator_html_aa6558f6f270a188bb633386aba0d1ae4"><div class="ttname"><a href="class_q_c_p_selection_decorator.html#aa6558f6f270a188bb633386aba0d1ae4">QCPSelectionDecorator::scatterStyle</a></div><div class="ttdeci">QCPScatterStyle scatterStyle() const</div><div class="ttdef"><b>Definition:</b> qcustomplot.h:3250</div></div>
-</div><!-- fragment -->
-</div>
-</div>
 <a id="adb2d0876f25a77c88042b70818f1d6e4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#adb2d0876f25a77c88042b70818f1d6e4">&#9670;&nbsp;</a></span>setTangentAverage()</h2>
 
@@ -1112,35 +818,6 @@ Atributos Protegidos</h2></td></tr>
 <p>Sets whether the brackets will be rotated such that they align with the slope of the data at the position that they appear in.</p>
 <p>For noisy data, it might be more visually appealing to average the slope over multiple data points. This can be configured via <a class="el" href="class_q_c_p_selection_decorator_bracket.html#adb2d0876f25a77c88042b70818f1d6e4">setTangentAverage</a>. </p>
 <div class="fragment"><div class="line"><a name="l16459"></a><span class="lineno">16459</span>&#160;{</div><div class="line"><a name="l16460"></a><span class="lineno">16460</span>&#160;  <a class="code" href="class_q_c_p_selection_decorator_bracket.html#ac08c7de0fd81b64b0f3fe31739688081">mTangentToData</a> = enabled;</div><div class="line"><a name="l16461"></a><span class="lineno">16461</span>&#160;}</div><div class="ttc" id="class_q_c_p_selection_decorator_bracket_html_ac08c7de0fd81b64b0f3fe31739688081"><div class="ttname"><a href="class_q_c_p_selection_decorator_bracket.html#ac08c7de0fd81b64b0f3fe31739688081">QCPSelectionDecoratorBracket::mTangentToData</a></div><div class="ttdeci">bool mTangentToData</div><div class="ttdef"><b>Definition:</b> qcustomplot.h:4566</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a808c1607cd4e83869c04986e332455c0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a808c1607cd4e83869c04986e332455c0">&#9670;&nbsp;</a></span>setUsedScatterProperties()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void QCPSelectionDecorator::setUsedScatterProperties </td>
-          <td>(</td>
-          <td class="paramtype">const QCPScatterStyle::ScatterProperties &amp;&#160;</td>
-          <td class="paramname"><em>properties</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Use this method to define which properties of the scatter style (set via <a class="el" href="class_q_c_p_selection_decorator.html#ab403a613289714ff4fd4a0c0371ab116">setScatterStyle</a>) will be used for selected data segments. All properties of the scatter style that are not specified in <em>properties</em> will remain as specified in the plottable's original scatter style.</p>
-<dl class="section see"><dt>Veja também</dt><dd><a class="el" href="class_q_c_p_scatter_style.html#a8974f6a20f8f6eea7781f0e6af9deb46">QCPScatterStyle::ScatterProperty</a> </dd></dl>
-<div class="fragment"><div class="line"><a name="l10381"></a><span class="lineno">10381</span>&#160;{</div><div class="line"><a name="l10382"></a><span class="lineno">10382</span>&#160;  <a class="code" href="class_q_c_p_selection_decorator.html#acb4f6af085283c9ce7d5c168fb53e855">mUsedScatterProperties</a> = properties;</div><div class="line"><a name="l10383"></a><span class="lineno">10383</span>&#160;}</div><div class="ttc" id="class_q_c_p_selection_decorator_html_acb4f6af085283c9ce7d5c168fb53e855"><div class="ttname"><a href="class_q_c_p_selection_decorator.html#acb4f6af085283c9ce7d5c168fb53e855">QCPSelectionDecorator::mUsedScatterProperties</a></div><div class="ttdeci">QCPScatterStyle::ScatterProperties mUsedScatterProperties</div><div class="ttdef"><b>Definition:</b> qcustomplot.h:3273</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1193,32 +870,6 @@ Atributos Protegidos</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <div class="fragment"><div class="line"><a name="l04541"></a><span class="lineno"> 4541</span>&#160;{ <span class="keywordflow">return</span> <a class="code" href="class_q_c_p_selection_decorator_bracket.html#ac08c7de0fd81b64b0f3fe31739688081">mTangentToData</a>; }</div><div class="ttc" id="class_q_c_p_selection_decorator_bracket_html_ac08c7de0fd81b64b0f3fe31739688081"><div class="ttname"><a href="class_q_c_p_selection_decorator_bracket.html#ac08c7de0fd81b64b0f3fe31739688081">QCPSelectionDecoratorBracket::mTangentToData</a></div><div class="ttdeci">bool mTangentToData</div><div class="ttdef"><b>Definition:</b> qcustomplot.h:4566</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="ab2019bf31dde39f1ec028e3810dfc08b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab2019bf31dde39f1ec028e3810dfc08b">&#9670;&nbsp;</a></span>usedScatterProperties()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">QCPScatterStyle::ScatterProperties QCPSelectionDecorator::usedScatterProperties </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><a name="l03251"></a><span class="lineno"> 3251</span>&#160;{ <span class="keywordflow">return</span> <a class="code" href="class_q_c_p_selection_decorator.html#acb4f6af085283c9ce7d5c168fb53e855">mUsedScatterProperties</a>; }</div><div class="ttc" id="class_q_c_p_selection_decorator_html_acb4f6af085283c9ce7d5c168fb53e855"><div class="ttname"><a href="class_q_c_p_selection_decorator.html#acb4f6af085283c9ce7d5c168fb53e855">QCPSelectionDecorator::mUsedScatterProperties</a></div><div class="ttdeci">QCPScatterStyle::ScatterProperties mUsedScatterProperties</div><div class="ttdef"><b>Definition:</b> qcustomplot.h:3273</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1333,94 +984,6 @@ Atributos Protegidos</h2></td></tr>
 
 </div>
 </div>
-<a id="a4e3a3a01fdec5b018c0c59a0b6ae9f70"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4e3a3a01fdec5b018c0c59a0b6ae9f70">&#9670;&nbsp;</a></span>mBrush</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">QBrush QCPSelectionDecorator::mBrush</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a684a691c146a5bac927c0146bd28d557"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a684a691c146a5bac927c0146bd28d557">&#9670;&nbsp;</a></span>mPen</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">QPen QCPSelectionDecorator::mPen</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a25250a1d29b0723c4fa59a97e62f5758"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a25250a1d29b0723c4fa59a97e62f5758">&#9670;&nbsp;</a></span>mPlottable</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_q_c_p_abstract_plottable.html">QCPAbstractPlottable</a>* QCPSelectionDecorator::mPlottable</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a5b822197a1bf802c5cf8c3dc43ca549a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5b822197a1bf802c5cf8c3dc43ca549a">&#9670;&nbsp;</a></span>mScatterStyle</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_q_c_p_scatter_style.html">QCPScatterStyle</a> QCPSelectionDecorator::mScatterStyle</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a810900616f17964cab140cbc13f40203"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a810900616f17964cab140cbc13f40203">&#9670;&nbsp;</a></span>mTangentAverage</h2>
 
@@ -1465,38 +1028,20 @@ Atributos Protegidos</h2></td></tr>
 
 </div>
 </div>
-<a id="acb4f6af085283c9ce7d5c168fb53e855"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acb4f6af085283c9ce7d5c168fb53e855">&#9670;&nbsp;</a></span>mUsedScatterProperties</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">QCPScatterStyle::ScatterProperties QCPSelectionDecorator::mUsedScatterProperties</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <hr/>A documentação para essa classe foi gerada a partir dos seguintes arquivos:<ul>
 <li><a class="el" href="">qcustomplot.h</a></li>
-<li><a class="el" href="">qcustomplot.cpp</a></li>
+<li><a class="el" href="qcustomplot_8cpp.html">qcustomplot.cpp</a></li>
 </ul>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Gerado por &#160;<a href="http://www.doxygen.org/index.html">
-<img class="footer" src="doxygen.png" alt="doxygen"/>
-</a> 1.8.14
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="class_q_c_p_selection_decorator_bracket.html">QCPSelectionDecoratorBracket</a></li>
+    <li class="footer">Gerado por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.14 </li>
+  </ul>
+</div>
 </body>
 </html>

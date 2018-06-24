@@ -9,6 +9,14 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+  $(document).ready(initResizable);
+/* @license-end */</script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -22,9 +30,9 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">RLC_Serie
-   &#160;<span id="projectnumber">v1.1</span>
+   &#160;<span id="projectnumber">v1.2</span>
    </div>
-   <div id="projectbrief">Plotagem de Respostas do Circuito RLC em Série</div>
+   <div id="projectbrief">Plotagem de Respostas do Circuito RLC em Série - o programa imprime a tensao no tempo em cada componente de um circuito RLC em série, conforme parâmetros inseridos pelo usuário</div>
   </td>
  </tr>
  </tbody>
@@ -47,6 +55,23 @@ $(function() {
 });
 /* @license-end */</script>
 <div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('class_q_c_p_data_container.html','');});
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -61,7 +86,6 @@ $(function() {
 </iframe>
 </div>
 
-</div><!-- top -->
 <div class="header">
   <div class="summary">
 <a href="#pub-types">Tipos Públicos</a> &#124;
@@ -78,7 +102,7 @@ $(function() {
 <p>The generic data container for one-dimensional plottables.  
  <a href="class_q_c_p_data_container.html#details">Mais...</a></p>
 
-<p><code>#include &lt;<a class="el" href="">qcustomplot.h</a>&gt;</code></p>
+<p><code>#include &quot;<a class="el" href="">qcustomplot.h</a>&quot;</code></p>
 <div class="dynheader">
 Diagrama de colaboração para QCPDataContainer&lt; DataType &gt;:</div>
 <div class="dyncontent">
@@ -831,6 +855,9 @@ template&lt;class DataType &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>This method decides, depending on the total allocation size and the size of the unused pre- and postallocation pools, whether it is sensible to reduce the pools in order to free up unused memory. It then possibly calls <a class="el" href="class_q_c_p_data_container.html#a82fcc511def22287fc62579d0706387c">squeeze</a> to do the deallocation.</p>
+<p>If <a class="el" href="class_q_c_p_data_container.html#a233f866760a78950d2a393c1a4bc54b5">setAutoSqueeze</a> is enabled, this method is called automatically each time data points are removed from the container (e.g. <a class="el" href="class_q_c_p_data_container.html#ae5f569a120648b167efa78835f12fd38">remove</a>).</p>
+<dl class="section note"><dt>Observação</dt><dd>when changing the decision parameters, care must be taken not to cause a back-and-forth between squeezing and reallocation due to the growth strategy of the internal QVector and <a class="el" href="class_q_c_p_data_container.html#aae8cdb2bcc3b900ec22f26df3e7d67c7">preallocateGrow</a>. The hysteresis between allocation and deallocation should be made high enough (at the expense of possibly larger unused memory from time to time). </dd></dl>
 <div class="fragment"><div class="line"><a name="l03212"></a><span class="lineno"> 3212</span>&#160;{</div><div class="line"><a name="l03213"></a><span class="lineno"> 3213</span>&#160;  <span class="keyword">const</span> <span class="keywordtype">int</span> totalAlloc = <a class="code" href="class_q_c_p_data_container.html#a74906b4da829849c4062b5337c72585d">mData</a>.capacity();</div><div class="line"><a name="l03214"></a><span class="lineno"> 3214</span>&#160;  <span class="keyword">const</span> <span class="keywordtype">int</span> postAllocSize = totalAlloc-<a class="code" href="class_q_c_p_data_container.html#a74906b4da829849c4062b5337c72585d">mData</a>.size();</div><div class="line"><a name="l03215"></a><span class="lineno"> 3215</span>&#160;  <span class="keyword">const</span> <span class="keywordtype">int</span> usedSize = <a class="code" href="class_q_c_p_data_container.html#a8e9b262c739672e13472d0d45b720258">size</a>();</div><div class="line"><a name="l03216"></a><span class="lineno"> 3216</span>&#160;  <span class="keywordtype">bool</span> shrinkPostAllocation = <span class="keyword">false</span>;</div><div class="line"><a name="l03217"></a><span class="lineno"> 3217</span>&#160;  <span class="keywordtype">bool</span> shrinkPreAllocation = <span class="keyword">false</span>;</div><div class="line"><a name="l03218"></a><span class="lineno"> 3218</span>&#160;  <span class="keywordflow">if</span> (totalAlloc &gt; 650000) <span class="comment">// if allocation is larger, shrink earlier with respect to total used size</span></div><div class="line"><a name="l03219"></a><span class="lineno"> 3219</span>&#160;  {</div><div class="line"><a name="l03220"></a><span class="lineno"> 3220</span>&#160;    shrinkPostAllocation = postAllocSize &gt; usedSize*1.5; <span class="comment">// QVector grow strategy is 2^n for static data. Watch out not to oscillate!</span></div><div class="line"><a name="l03221"></a><span class="lineno"> 3221</span>&#160;    shrinkPreAllocation = <a class="code" href="class_q_c_p_data_container.html#a3554d3ad00e69f7ce057efa00ea6f4b2">mPreallocSize</a>*10 &gt; usedSize;</div><div class="line"><a name="l03222"></a><span class="lineno"> 3222</span>&#160;  } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (totalAlloc &gt; 1000) <span class="comment">// below 10 MiB raw data be generous with preallocated memory, below 1k points don&#39;t even bother</span></div><div class="line"><a name="l03223"></a><span class="lineno"> 3223</span>&#160;  {</div><div class="line"><a name="l03224"></a><span class="lineno"> 3224</span>&#160;    shrinkPostAllocation = postAllocSize &gt; usedSize*5;</div><div class="line"><a name="l03225"></a><span class="lineno"> 3225</span>&#160;    shrinkPreAllocation = <a class="code" href="class_q_c_p_data_container.html#a3554d3ad00e69f7ce057efa00ea6f4b2">mPreallocSize</a> &gt; usedSize*1.5; <span class="comment">// preallocation can grow into postallocation, so can be smaller</span></div><div class="line"><a name="l03226"></a><span class="lineno"> 3226</span>&#160;  }</div><div class="line"><a name="l03227"></a><span class="lineno"> 3227</span>&#160;  </div><div class="line"><a name="l03228"></a><span class="lineno"> 3228</span>&#160;  <span class="keywordflow">if</span> (shrinkPreAllocation || shrinkPostAllocation)</div><div class="line"><a name="l03229"></a><span class="lineno"> 3229</span>&#160;    <a class="code" href="class_q_c_p_data_container.html#a82fcc511def22287fc62579d0706387c">squeeze</a>(shrinkPreAllocation, shrinkPostAllocation);</div><div class="line"><a name="l03230"></a><span class="lineno"> 3230</span>&#160;}</div><div class="ttc" id="class_q_c_p_data_container_html_a8e9b262c739672e13472d0d45b720258"><div class="ttname"><a href="class_q_c_p_data_container.html#a8e9b262c739672e13472d0d45b720258">QCPDataContainer::size</a></div><div class="ttdeci">int size() const</div><div class="ttdef"><b>Definition:</b> qcustomplot.h:2413</div></div>
 <div class="ttc" id="class_q_c_p_data_container_html_a3554d3ad00e69f7ce057efa00ea6f4b2"><div class="ttname"><a href="class_q_c_p_data_container.html#a3554d3ad00e69f7ce057efa00ea6f4b2">QCPDataContainer::mPreallocSize</a></div><div class="ttdeci">int mPreallocSize</div><div class="ttdef"><b>Definition:</b> qcustomplot.h:2452</div></div>
 <div class="ttc" id="class_q_c_p_data_container_html_a74906b4da829849c4062b5337c72585d"><div class="ttname"><a href="class_q_c_p_data_container.html#a74906b4da829849c4062b5337c72585d">QCPDataContainer::mData</a></div><div class="ttdeci">QVector&lt; DataType &gt; mData</div><div class="ttdef"><b>Definition:</b> qcustomplot.h:2451</div></div>
@@ -863,6 +890,8 @@ template&lt;class DataType &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Increases the preallocation pool to have a size of at least <em>minimumPreallocSize</em>. Depending on the preallocation history, the container will grow by more than requested, to speed up future consecutive size increases.</p>
+<p>if <em>minimumPreallocSize</em> is smaller than or equal to the current preallocation pool size, this method does nothing. </p>
 <div class="fragment"><div class="line"><a name="l03182"></a><span class="lineno"> 3182</span>&#160;{</div><div class="line"><a name="l03183"></a><span class="lineno"> 3183</span>&#160;  <span class="keywordflow">if</span> (minimumPreallocSize &lt;= <a class="code" href="class_q_c_p_data_container.html#a3554d3ad00e69f7ce057efa00ea6f4b2">mPreallocSize</a>)</div><div class="line"><a name="l03184"></a><span class="lineno"> 3184</span>&#160;    <span class="keywordflow">return</span>;</div><div class="line"><a name="l03185"></a><span class="lineno"> 3185</span>&#160;  </div><div class="line"><a name="l03186"></a><span class="lineno"> 3186</span>&#160;  <span class="keywordtype">int</span> newPreallocSize = minimumPreallocSize;</div><div class="line"><a name="l03187"></a><span class="lineno"> 3187</span>&#160;  newPreallocSize += (1u&lt;&lt;qBound(4, <a class="code" href="class_q_c_p_data_container.html#ab2115bf023c29691f441eaf1889de84a">mPreallocIteration</a>+4, 15)) - 12; <span class="comment">// do 4 up to 32768-12 preallocation, doubling in each intermediate iteration</span></div><div class="line"><a name="l03188"></a><span class="lineno"> 3188</span>&#160;  ++<a class="code" href="class_q_c_p_data_container.html#ab2115bf023c29691f441eaf1889de84a">mPreallocIteration</a>;</div><div class="line"><a name="l03189"></a><span class="lineno"> 3189</span>&#160;  </div><div class="line"><a name="l03190"></a><span class="lineno"> 3190</span>&#160;  <span class="keywordtype">int</span> sizeDifference = newPreallocSize-<a class="code" href="class_q_c_p_data_container.html#a3554d3ad00e69f7ce057efa00ea6f4b2">mPreallocSize</a>;</div><div class="line"><a name="l03191"></a><span class="lineno"> 3191</span>&#160;  <a class="code" href="class_q_c_p_data_container.html#a74906b4da829849c4062b5337c72585d">mData</a>.resize(<a class="code" href="class_q_c_p_data_container.html#a74906b4da829849c4062b5337c72585d">mData</a>.size()+sizeDifference);</div><div class="line"><a name="l03192"></a><span class="lineno"> 3192</span>&#160;  std::copy_backward(<a class="code" href="class_q_c_p_data_container.html#a74906b4da829849c4062b5337c72585d">mData</a>.begin()+<a class="code" href="class_q_c_p_data_container.html#a3554d3ad00e69f7ce057efa00ea6f4b2">mPreallocSize</a>, <a class="code" href="class_q_c_p_data_container.html#a74906b4da829849c4062b5337c72585d">mData</a>.end()-sizeDifference, <a class="code" href="class_q_c_p_data_container.html#a74906b4da829849c4062b5337c72585d">mData</a>.end());</div><div class="line"><a name="l03193"></a><span class="lineno"> 3193</span>&#160;  <a class="code" href="class_q_c_p_data_container.html#a3554d3ad00e69f7ce057efa00ea6f4b2">mPreallocSize</a> = newPreallocSize;</div><div class="line"><a name="l03194"></a><span class="lineno"> 3194</span>&#160;}</div><div class="ttc" id="class_q_c_p_data_container_html_a3554d3ad00e69f7ce057efa00ea6f4b2"><div class="ttname"><a href="class_q_c_p_data_container.html#a3554d3ad00e69f7ce057efa00ea6f4b2">QCPDataContainer::mPreallocSize</a></div><div class="ttdeci">int mPreallocSize</div><div class="ttdef"><b>Definition:</b> qcustomplot.h:2452</div></div>
 <div class="ttc" id="class_q_c_p_data_container_html_a74906b4da829849c4062b5337c72585d"><div class="ttname"><a href="class_q_c_p_data_container.html#a74906b4da829849c4062b5337c72585d">QCPDataContainer::mData</a></div><div class="ttdeci">QVector&lt; DataType &gt; mData</div><div class="ttdef"><b>Definition:</b> qcustomplot.h:2451</div></div>
 <div class="ttc" id="class_q_c_p_data_container_html_ab2115bf023c29691f441eaf1889de84a"><div class="ttname"><a href="class_q_c_p_data_container.html#ab2115bf023c29691f441eaf1889de84a">QCPDataContainer::mPreallocIteration</a></div><div class="ttdeci">int mPreallocIteration</div><div class="ttdef"><b>Definition:</b> qcustomplot.h:2453</div></div>
@@ -1367,11 +1396,15 @@ template&lt;class DataType&gt; </div>
 <li><a class="el" href="">qcustomplot.h</a></li>
 </ul>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Gerado por &#160;<a href="http://www.doxygen.org/index.html">
-<img class="footer" src="doxygen.png" alt="doxygen"/>
-</a> 1.8.14
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="class_q_c_p_data_container.html">QCPDataContainer</a></li>
+    <li class="footer">Gerado por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.14 </li>
+  </ul>
+</div>
 </body>
 </html>

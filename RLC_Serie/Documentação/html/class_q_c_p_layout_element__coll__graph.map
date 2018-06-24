@@ -1,16 +1,16 @@
 <map id="QCPLayoutElement" name="QCPLayoutElement">
-<area shape="rect" id="node8" href="$class_q_c_p_layout.html" title="The abstract base class for layouts. " alt="" coords="420,732,623,1059"/>
-<area shape="rect" id="node15" href="$class_q_c_p_axis_rect.html" title="Holds multiple axes and arranges them in a rectangular shape. " alt="" coords="625,1527,828,2821"/>
-<area shape="rect" id="node2" href="$class_q_c_p_layerable.html" title="Base class for all drawable objects. " alt="" coords="199,8599,401,9116"/>
-<area shape="rect" id="node9" href="$class_q_c_p_selection_rect.html" title="Provides rect/rubber&#45;band data selection and range zoom interaction. " alt="" coords="21,9187,224,9529"/>
-<area shape="rect" id="node10" href="$class_q_c_p_axis.html" title="Manages a single axis inside a QCustomPlot. " alt="" coords="625,2899,828,5308"/>
-<area shape="rect" id="node14" href="$class_q_c_p_grid.html" title="Responsible for drawing the grid of a QCPAxis. " alt="" coords="807,9165,1009,9551"/>
-<area shape="rect" id="node4" href="$class_q_c_p_layer.html" title="A layer that may contain objects, to control the rendering order. " alt="" coords="227,7997,373,8353"/>
-<area shape="rect" id="node5" href="$class_q_custom_plot.html" title="The central class of the library. This is the QWidget which displays the plot and interacts with the ..." alt="" coords="169,5415,386,7736"/>
-<area shape="rect" id="node12" href="$class_q_c_p_axis_painter_private.html" title="{QCPAxisPainterPrivate\n|+ type\l+ basePen\l+ labelPadding\l+ labelFont\l+ labelColor\l+ label\l+ tickLabelPadding\l+ tickLabelRotation\l+ tickLabelSide\l+ substituteExponent\l+ numberMultiplyCross\l+ tickLengthIn\l+ tickLengthOut\l+ subTickLengthIn\l+ subTickLengthOut\l+ tickPen\l+ subTickPen\l+ tickLabelFont\l+ tickLabelColor\l+ axisRect\l+ viewportRect\l+ offset\l+ abbreviateDecimalPowers\l+ reversedEndings\l+ subTickPositions\l+ tickPositions\l+ tickLabels\l# mLabelParameterHash\l# mLabelCache\l# mAxisSelectionBox\l# mTickLabelsSelectionBox\l# mLabelSelectionBox\l|+ QCPAxisPainterPrivate()\l+ ~QCPAxisPainterPrivate()\l+ draw()\l+ size()\l+ clearCache()\l+ axisSelectionBox()\l+ tickLabelsSelectionBox()\l+ labelSelectionBox()\l# generateLabelParameterHash()\l# placeTickLabel()\l# drawTickLabel()\l# getTickLabelData()\l# getTickLabelDrawOffset()\l# getMaxTickLabelSize()\l}" alt="" coords="447,7813,659,8536"/>
-<area shape="rect" id="node7" href="$class_q_c_p_layout_grid.html" title="A layout that arranges child elements in a grid. " alt="" coords="217,1820,410,2528"/>
-<area shape="rect" id="node17" href="$class_q_c_p_legend.html" title="Manages a legend inside a QCustomPlot. " alt="" coords="44,3610,247,4597"/>
-<area shape="rect" id="node16" href="$class_q_c_p_layout_inset.html" title="A layout that places child elements aligned to the border or arbitrarily positioned. " alt="" coords="485,1108,635,1464"/>
-<area shape="rect" id="node11" href="$class_q_c_p_range.html" title="Represents the range an axis is encompassing. " alt="" coords="434,1967,601,2381"/>
-<area shape="rect" id="node13" href="$class_q_c_p_line_ending.html" title="Handles the different ending decorations for line&#45;like items. " alt="" coords="435,6419,581,6731"/>
+<area shape="rect" id="node8" href="$class_q_c_p_layout.html" title="The abstract base class for layouts. " alt="" coords="390,483,593,809"/>
+<area shape="rect" id="node15" href="$class_q_c_p_axis_rect.html" title="Holds multiple axes and arranges them in a rectangular shape. " alt="" coords="581,1189,783,1707"/>
+<area shape="rect" id="node2" href="$class_q_c_p_layerable.html" title="Base class for all drawable objects. " alt="" coords="199,3627,402,4071"/>
+<area shape="rect" id="node9" href="$class_q_c_p_selection_rect.html" title="Provides rect/rubber&#45;band data selection and range zoom interaction. " alt="" coords="22,4142,225,4483"/>
+<area shape="rect" id="node10" href="$class_q_c_p_axis.html" title="Manages a single axis inside a QCustomPlot. " alt="" coords="581,1784,783,2360"/>
+<area shape="rect" id="node14" href="$class_q_c_p_grid.html" title="Responsible for drawing the grid of a QCPAxis. " alt="" coords="803,4120,1006,4505"/>
+<area shape="rect" id="node4" href="$class_q_c_p_layer.html" title="A layer that may contain objects, to control the rendering order. " alt="" coords="228,3142,373,3498"/>
+<area shape="rect" id="node5" href="$class_q_custom_plot.html" title="The central class of the library. This is the QWidget which displays the plot and interacts with the ..." alt="" coords="177,2467,379,2999"/>
+<area shape="rect" id="node12" href="$class_q_c_p_axis_painter_private.html" title="(Private) " alt="" coords="448,3076,660,3564"/>
+<area shape="rect" id="node7" href="$class_q_c_p_layout_grid.html" title="A layout that arranges child elements in a grid. " alt="" coords="232,1277,425,1619"/>
+<area shape="rect" id="node17" href="$class_q_c_p_legend.html" title="Manages a legend inside a QCustomPlot. " alt="" coords="45,1806,247,2338"/>
+<area shape="rect" id="node16" href="$class_q_c_p_layout_inset.html" title="A layout that places child elements aligned to the border or arbitrarily positioned. " alt="" coords="455,859,605,1127"/>
+<area shape="rect" id="node11" href="$class_q_c_p_range.html" title="Represents the range an axis is encompassing. " alt="" coords="450,1299,557,1597"/>
+<area shape="rect" id="node13" href="$class_q_c_p_line_ending.html" title="Handles the different ending decorations for line&#45;like items. " alt="" coords="432,2577,577,2889"/>
 </map>
